@@ -1,36 +1,48 @@
 # Heltec CubeCell Series Quick Start
 
-> **tip**
->
-> We suggest you confirm whether the `USB driver`, `Git` and `Arduino IDE` has installed first. If not, please view this two articles [establish serial connection](/en/user_manual/establish_serial_connection) and [Install Git and Arduino IDE](/en/user_manual/how_to_install_git_and_arduino).
+``` Tip:: Please confirm whether the USB driver, Git and Arduino IDE has been installed correctly.
 
-## Config Development Environment
+```
 
-### Install Arduino-ASR650x(CubeCell) Framework
+*If not, please view this two articles [establish serial connection](https://heltec-automation-docs.readthedocs.io/en/user_manual/establish_serial_connection) and [Install Git and Arduino IDE](https://heltec-automation-docs.readthedocs.io/en/user_manual/how_to_install_git_and_arduino).*
+
+
+
+## Install CubeCell relevant Framework
+
+there are two methods to install the CubeCell framework, choose one of them.
+
+### Use Arduino board manager
 
 Open Arduino IDE, and click `File`->`Peferences`->`Settings`
 
-![01](img/quick_start/01.png)
+![](img/quick_start/01.png)
 
-![02](img/quick_start/02.png)
+![](img/quick_start/02.png)
 
 Input following json url to board manager URLs:
 
-https://docs.heltec.cn/download/package_CubeCell_index.json
+**Recommend:** [https://docs.heltec.cn/download/package_CubeCell_index.json](https://docs.heltec.cn/download/package_CubeCell_index.json)
 
 or
 
-http://119.23.153.38/download/package_CubeCell_index.json
+**China main land:** [http://119.23.153.38/download/package_CubeCell_index.json](http://119.23.153.38/download/package_CubeCell_index.json)
 
-![03](img/quick_start/03.png)
+![](img/quick_start/03.png)
 
 Click `Tools`->`Board:`->`Boards Manager...`, search `Heltec cubecell`in the new pop-up dialog, select the latest `releases` and  click `install`
 
-![04](img/quick_start/04.png)
+![](img/quick_start/04.png)
 
-![05](img/quick_start/05.png)
+![](img/quick_start/05.png)
 
 The source code of Heltec ASR650x series (ASR6501&ASR6502) framework available here: [https://github.com/HelTecAutomation/ASR650x-Arduino](https://github.com/HelTecAutomation/ASR650x-Arduino)
+
+### Via Git
+
+Please refer to this document: [Install CubeCell Frame via Git](https://github.com/HelTecAutomation/ASR650x-Arduino#installation-instructions)
+
+&nbsp;
 
 
 ## Running an Example
@@ -53,19 +65,20 @@ In the tools menu, there are following options:
 | LORAWAN_RGB             | RGB light for LoRaWAN status:<br />`Purple -- Join;`<br />`Blue -- First RX window;`<br />`Yellow -- Second RX window;`<br />`Green -- Join done.` |
 | COM Port                | Device's serial port in your computer                        |
 
-> **LORAWAN_Net_Reservation**
->
-> For example, a large-scale power outage in city, when power is restored, thousands of devices are connected to the network at the same time, which may cause the LoRa gateway or server to fail. Enable this feature will avoid this situation. Enable LORAWAN_Net_Reservation must disable Frame counter (fCnt) in LoRa server.
 
-![06](img/quick_start/06.png)
+``` Note:: **LORAWAN_Net_Reservation:** For example, a large-scale power outage in city, when power is restored, thousands of devices are connected to the network at the same time, which may cause the LoRa gateway or server to fail. Enable this feature will avoid this situation. Enable LORAWAN_Net_Reservation must disable Frame counter (fCnt) in LoRa server.
+
+```
+
+![](img/quick_start/06.png)
 
 ### Select an example
 
-![07](img/quick_start/07.png)
+![](img/quick_start/07.png)
 
 ### Compile and upload
 
-![08](img/quick_start/08.png)
+![](img/quick_start/08.png)
 
 
 
@@ -86,8 +99,10 @@ void loop() {
 }
 ```
 
+## External resources
 
-## Serial port cannot connected to Linux system?
+### Serial port cannot connected to Linux system?
+
 In the Linux system, If encounter the serial port cannot be connected. Please refer to this document:
 [https://playground.arduino.cc/Linux/All/#Permission](https://playground.arduino.cc/Linux/All/#Permission)
 

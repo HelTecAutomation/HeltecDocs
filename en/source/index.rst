@@ -1,6 +1,6 @@
 Heltec Automation Docs Page
 ===========================
-:link_to_translation:`zh_CN:[中文]`
+
 
 This is the documentation for (`Heltec Automation <https://heltec.org>`_) products.
 

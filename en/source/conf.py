@@ -25,6 +25,11 @@ master_doc = 'index'
 # The full version, including alpha/beta/rc tags
 release = 'V0.0.1'
 
+import recommonmark
+from recommonmark.transform import AutoStructify
+
+source_suffix = ['.rst', '.md']
+
 
 # -- General configuration ---------------------------------------------------
 
@@ -32,6 +37,8 @@ release = 'V0.0.1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    'sphinx_markdown_tables',
+    'recommonmark',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -55,8 +62,12 @@ html_theme = 'sphinx_rtd_theme'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-from recommonmark.parser import CommonMarkParser
-source_parsers = {
-    '.md': CommonMarkParser,
-}
-source_suffix = ['.rst', '.md']
+def setup(app):
+    app.add_config_value('recommonmark_config', {
+        'enable_math': True,
+        'enable_inline_math': True,
+        'enable_eval_rst': True,
+        'enable_auto_doc_ref': False,
+    }, True)
+    app.add_transform(AutoStructify)
+    
