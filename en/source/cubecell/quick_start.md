@@ -10,9 +10,9 @@
 
 Open Arduino IDE, and click `File`->`Peferences`->`Settings`
 
-<img src="img/quick_start/01.png">
+![01](img/quick_start/01.png)
 
-<img src="img/quick_start/02.png">
+![02](img/quick_start/02.png)
 
 Input following json url to board manager URLs:
 
@@ -22,13 +22,13 @@ or
 
 http://119.23.153.38/download/package_CubeCell_index.json
 
-<img src="img/quick_start/03.png">
+![03](img/quick_start/03.png)
 
 Click `Tools`->`Board:`->`Boards Manager...`, search `Heltec cubecell`in the new pop-up dialog, select the latest `releases` and  click `install`
 
-<img src="img/quick_start/04.png">
+![04](img/quick_start/04.png)
 
-<img src="img/quick_start/05.png">
+![05](img/quick_start/05.png)
 
 The source code of Heltec ASR650x series (ASR6501&ASR6502) framework available here: [https://github.com/HelTecAutomation/ASR650x-Arduino](https://github.com/HelTecAutomation/ASR650x-Arduino)
 
@@ -57,15 +57,15 @@ In the tools menu, there are following options:
 >
 > For example, a large-scale power outage in city, when power is restored, thousands of devices are connected to the network at the same time, which may cause the LoRa gateway or server to fail. Enable this feature will avoid this situation. Enable LORAWAN_Net_Reservation must disable Frame counter (fCnt) in LoRa server.
 
-<img src="img/quick_start/06.png">
+![06](img/quick_start/06.png)
 
 ### Select an example
 
-<img src="img/quick_start/07.png">
+![07](img/quick_start/07.png)
 
 ### Compile and upload
 
-<img src="img/quick_start/08.png">
+![08](img/quick_start/08.png)
 
 
 
