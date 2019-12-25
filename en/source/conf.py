@@ -20,6 +20,7 @@
 project = 'HeltecDocs_en'
 copyright = '2019, Heltec'
 author = 'Heltec'
+master_doc = 'index'
 
 # The full version, including alpha/beta/rc tags
 release = 'V0.0.1'
