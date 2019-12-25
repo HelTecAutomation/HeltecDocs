@@ -37,9 +37,6 @@ This is the documentation for (`Heltec Automation <https://heltec.org>`_) produc
    Using a configuration file is the recommended way of using Read the Docs.
    
 
-Content
-^^^^^^^
-
 .. toctree::
    :maxdepth: 3
    :hidden:
