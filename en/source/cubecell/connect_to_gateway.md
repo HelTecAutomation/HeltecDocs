@@ -2,7 +2,7 @@
 
 In this document, all operations and tests must be performed with a standard [LoRaWAN Gateway](https://heltec.org/proudct_center/lora/lora-gateway/), and at least have 8 channels! In the CubeCell's LoRaWAN library, for each working band, we are strictly follow [LoRaWAN 1.1 Regional Parameters](https://lora-alliance.org/sites/default/files/2018-04/lorawantm_regional_parameters_v1.1rb_-_final.pdf).
 
-## Overview
+## Summary
 
 LoRaWAN protocol is the essence of all lora applications. In our opinion, the most prominent benefits of LoRaWAN are as follows:
 
