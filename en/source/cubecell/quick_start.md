@@ -1,14 +1,30 @@
-# Heltec CubeCell Series Quick Start
+# CubeCell Series Quick Start
+
+## Summery
+
+We belive [CubeCell Series](https://heltec.org/cubecell) is the best choose for LoRaWAN node applications, which provide following main features:
+
+- **Fully Arduino-Compatible;**
+- **Urtral low power design, best can reach 3.5uA in deep sleep mode (with RTC clock running);**
+- **Low-cost;**
+- **Integrated encryption algorithm, for example, a product based on CubeCell, if someone copied the frameware inside the flash and program into a clone hardware, it will not running;**
+- **Use ASR650x, it's PSoC4000 and SX1262 inside one chip, makes application circuit has smaller size;**
+- **Solar pannel support;**
+- **LoRaWAN protocol support;**
+- **AT command support;**
+- **In the LoRaWAN relevant examples, have a reasonable timeline planning.**
+
+``` Tip:: for example, an application need send data to server every 10 minutes, then in a cycle, only ~1 second is in the state of sending, other 9 minutes and 59 seconds are in low sleep low power Consuming status.
+
+```
+
+## Install CubeCell relevant Framework
 
 ``` Tip:: Please confirm whether the USB driver, Git and Arduino IDE has been installed correctly.
 
 ```
 
 *If not, please view this two articles [establish serial connection](https://heltec-automation-docs.readthedocs.io/en/user_manual/establish_serial_connection) and [Install Git and Arduino IDE](https://heltec-automation-docs.readthedocs.io/en/user_manual/how_to_install_git_and_arduino).*
-
-
-
-## Install CubeCell relevant Framework
 
 there are two methods to install the CubeCell framework, choose one of them.
 
@@ -53,17 +69,19 @@ Connect your CubeCell board to computer via a **high quality** Micro USB cable *
 
 In the tools menu, there are following options:
 
-| Features                | Description                                                  |
-| :---------------------- | :----------------------------------------------------------- |
-| Board                   | Choose the right hardware connected to your computer         |
-| LORAWAN_REGION          | LoRaWAN protocol region definition, strictly follow [LoRaWAN 1.1 Regional Parameters](https://lora-alliance.org/sites/default/files/2018-04/lorawantm_regional_parameters_v1.1rb_-_final.pdf) |
-| LORAWAN_CLASS           | Now with Class A and Class C supported                       |
-| LORAWAN_NETMODE         | OTAA or ABP                                                  |
-| LORAWAN_ADR             | Turn ON or turn OFF ADR (Adaptive Data Rate)                 |
-| LORAWAN_Net_Reservation | This is a feature outside the LoRaWAN protocol, only valid in OTAA mode. If this option is enabled, when system reset does not need join again. Projects such as smart street lights may be useful. |
-| LORAWAN_AT_SUPPORT      | AT command will provide many useful functions, for example, users can use serial port to config LoRa Node's DevEui, AppKey, or make node sleep, reset etc. |
-| LORAWAN_RGB             | RGB light for LoRaWAN status:<br />`Purple -- Join;`<br />`Blue -- First RX window;`<br />`Yellow -- Second RX window;`<br />`Green -- Join done.` |
-| COM Port                | Device's serial port in your computer                        |
+- **Board** -- Choose the right hardware connected to your computer;
+- **LORAWAN_REGION** -- LoRaWAN protocol region definition, strictly follow [LoRaWAN 1.1 Regional Parameters](https://lora-alliance.org/sites/default/files/2018-04/lorawantm_regional_parameters_v1.1rb_-_final.pdf);
+- **LORAWAN_CLASS** -- Now with Class A and Class C supported;
+- **LORAWAN_NETMODE** -- OTAA or ABP;
+- **LORAWAN_ADR** -- Turn ON or turn OFF ADR (Adaptive Data Rate);
+- **LORAWAN_Net_Reservation** -- This is a feature outside the LoRaWAN protocol, only valid in OTAA mode. If this option is enabled, when system reset does not need join again. Projects such as smart street lights may be useful.
+- **LORAWAN_AT_SUPPORT** -- AT command will provide many useful functions, for example, users can use serial port to config LoRa Node's DevEui, AppKey, or make node sleep, reset etc.
+- **LORAWAN_RGB** -- RGB light for LoRaWAN status:
+  - `Purple -- Join;`
+  - `Blue -- First RX window;`
+  - `Yellow -- Second RX window;`
+  - `Green -- Join done.`
+- **COM Port** -- Device's serial port in your computer.
 
 
 ``` Note:: **LORAWAN_Net_Reservation:** For example, a large-scale power outage in city, when power is restored, thousands of devices are connected to the network at the same time, which may cause the LoRa gateway or server to fail. Enable this feature will avoid this situation. Enable LORAWAN_Net_Reservation must disable Frame counter (fCnt) in LoRa server.

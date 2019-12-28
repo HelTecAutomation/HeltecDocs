@@ -5,4 +5,4 @@ CubeCell relevant documents.
     
     Quick Start <quick_start>
     Connect to LoRaWAN server <connect_to_gateway>
-    LoRaWAN example Sub-Band usage <sub_band_usage>
+    LoRaWAN Example Sub-Band Usage <sub_band_usage>
