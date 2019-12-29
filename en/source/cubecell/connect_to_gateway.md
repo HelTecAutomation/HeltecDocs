@@ -26,78 +26,33 @@ LoRaWAN protocol is the essence of all lora applications. In our opinion, the mo
 
 **In this example, we use [HT-M01 Mini Gateway](https://heltec.org/project/ht-m01/) in Windows<sup>®</sup> 10. Test band: EU868, others working band is similar.**
 
-## Connect to TTN
+### Running an example in Arduino
 
-### Configure node information
-
-First we have to create a new CubeCell-Board node in the TTN.
-
-![](img/connect_to_server/02.png)
-
-- After installing the CubeCell Arduino IDE development environment, select CubeCell-Board in the Arduino, and the working frequency band, and select LoRaWAN example.
-
-- I need the CubeCell-Board to work in the EU 868 band in Class A mode, which requires:
-
-![](img/connect_to_server/03.png)
+In the "LoRa" path, all examples named with "LoRaWAN_xxx" format are the examples with LoRaWAN protocol, choose one of them.
 
 ![](img/connect_to_server/04.png)
 
-- 1. Make sure the AT command mode is turned on and the required features are turned on.
-```
-#define  AT_SUPPORT  1
-```
-For example, turn on the RGB light.
-```
-#define LoraWan_RGB 1
-```
-- 2. Click to download.
-- 3. The node access information is configured through the AT command.
+Don't forget [config the parameters in "Tools" menu](quick_start#correctly-config-the-tools-menu), here is my configration for EU868:
 
-Open the serial port (COM4) and reset the CubeCell-Board. After the node is started, you can observe the printing:
+![](img/connect_to_server/03.png)
 
-![](img/connect_to_server/05.png)
-
-#### At the beginning we need to send arbitrary data to the COM to wake up the MCU.
-
-![](img/connect_to_server/06.png)
-
-We will see the information returned by CubeCell-Board.
-```
-ASR is Waked,LowPower Mode Stopped
-```
-
-
-After waking up the MCU, we can start to configure the DevEui, AppEui, AppKey of the registered nodes to CubeCell-Board.
-
-E.g:
-```
-AT+DevEui=2232330000******
-AT+AppKey=888888888888888888888888********
-AT+AppEui=70B3D57ED00*****
-```
-
-PS: '*' is the actual registered number. We need to be careful to ensure that the interval between each instruction is >100ms as much as possible to avoid some unnecessary bugs.
-
-![](img/connect_to_server/07.png)
-
-The node works in Class A mode by default, and the sending period is 15s. By default, ADR is enabled.
-
-For example, I need to modify the send period to 60s and query the EUI of the node:
+``` Note:: the tools menu must matching with the configration in LoRa server. For example, if CubeCell use OTAA, the LoRa server must enable OTAA for relevant device.
 
 ```
-AT+DutyCycle=60000
-AT+DevEui=?
-```
 
-![](img/connect_to_server/08.png)
+## Connect to TTN
 
-#### Please note that the configuration of the node's network access information must take effect only when the node is reset or the next time it enters the network. The parameters that have been configured by the node are printed after reset.
+Before that, make sure there is a LoRa Gateway active in your TTN's account.
 
-The CubeCell-Board can be reset by sending ```AT+RESET=1```.
+### Register a device
 
-![](img/connect_to_server/09.png)
+Register a new device in TTN's "Applications" page. The `Device ID`, `Device EUI`, `App Key` can be generated automatically. usrs need make sure the relevant parameter in CubeCell is the same with TTN.
 
-The CubeCell-Board completes the reset and starts to enter the network.
+![](img/connect_to_server/02.png)
+
+
+
+
 
 Return to TTN to view:
 

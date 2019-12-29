@@ -2,7 +2,7 @@
 
 ## Summary
 
-We belive [CubeCell Series](https://heltec.org/cubecell) is the best choose for LoRaWAN node applications, which provide following main features:
+We belive [CubeCell Series](https://heltec.org/cubecell) is the best choice for LoRaWAN node applications, which provide following main features:
 
 - Fully Arduino-Compatible;
 - Urtral low power design, best can reach 3.5uA in deep sleep mode (with RTC clock running);
