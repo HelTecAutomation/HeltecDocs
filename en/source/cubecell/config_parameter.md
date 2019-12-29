@@ -31,7 +31,7 @@ Change in the source code and Compile/Upload again.
 
 ```
 
-**[CubeCell AT Command list](CubeCell_Series_AT_Command_User_Manual_V0.2)**
+**[CubeCell AT Command list](CubeCell_Series_AT_Command_User_Manual_V0.2.pdf)**
 
 ## Via AT Command
 
