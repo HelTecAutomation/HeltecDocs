@@ -44,15 +44,16 @@ Content:
 
 .. toctree::
    :maxdepth: 3
-   :hidden:
+   :glob:
    :caption: CubeCell
    
    cubecell/index
+   Cubecell/at_command.pdf
    cubecell/htcc-am01/index
    
 .. toctree::
    :maxdepth: 3
-   :hidden:
+   :glob:
    :caption: ESP32 + LoRa
 
    esp32/index   
