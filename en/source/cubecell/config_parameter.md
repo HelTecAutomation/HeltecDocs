@@ -5,13 +5,13 @@
 No matter what LoRa management platform is used, DevEui, AppKey, etc. parameters are must needed. And ensure that it is consistent with the relevant settings on the server.
 
 - **The following parameters are essential for OTAA mode:**
-  - DevEui -- Mote device IEEE EUI (big endian), 8 bytes;
-  - AppEui -- Application IEEE EUI (big endian), 8 bytes;
-  - AppKey -- AES encryption/decryption cipher application key, 16 bytes;
+  - [DevEui](#deveui) -- Mote device IEEE EUI (big endian), 8 bytes;
+  - [AppEui](#appeui) -- Application IEEE EUI (big endian), 8 bytes;
+  - [AppKey](appkey) -- AES encryption/decryption cipher application key, 16 bytes;
 - **The following parameters are essential for ABP mode:**
-  - NwkSKey -- AES encryption/decryption cipher network session key, 16 bytes;
-  - AppSKey -- AES encryption/decryption cipher application session key, 16 bytes;
-  - DevAddr -- Device address on the network (big endian), uint32_t;
+  - [NwkSKey](nwkskey) -- AES encryption/decryption cipher network session key, 16 bytes;
+  - [AppSKey](appskey) -- AES encryption/decryption cipher application session key, 16 bytes;
+  - [DevAddr](devaddr) -- Device address on the network (big endian), uint32_t;
 
 ``` Tip:: There are three method to configuration LoRaWAN networking parameters, choose one of them.
 
@@ -31,61 +31,135 @@ Change in the source code and Compile/Upload again.
 
 ```
 
-**[CubeCell AT Command list](CubeCell_Series_AT_Command_User_Manual_V0.2.pdf)**
-
 ## Via AT Command
 
-Make sure the AT command mode is turned on and the required features are turned on.
+In order to use AT command, need enable AT command in the "Tools" menu before upload.
+
+![](img/config_parameter/01.png)
+
+### Serial Port Settings
+
+- Baud rate: 115200
+- Stop bit: 1
+- Data bits: 8
+- DTR, RTS requirement: **None**
+- Ending characters: **None**
+
+``` Note:: Make sure there is NO ending characters or new line in you serial monitor config!
 
 ```
-#define  AT_SUPPORT  1
-#define LoraWan_RGB 1
-ASR is Waked,LowPower Mode Stopped
-AT+DevEui=2232330000******
-AT+AppKey=888888888888888888888888********
-AT+AppEui=70B3D57ED00*****
-AT+DutyCycle=60000
-AT+DevEui=?
+
+With AT command support, the CubeCell is sleeping by default. Any content through the serial port will wake it up. It means the First command via serial port only wake up system.
+
+For example, if send any contents such as `hello`, you will get this reply:
+
+`ASR is Waked,LowPower Mode Stopped`
+
+### DevEui
+
+``` Tip:: We take all zero just for example
+
 ```
 
-The CubeCell-Board completes the reset and starts to enter the network.
+Config DevEui to "0000000000000000", send following command via serial port:
 
-![img](file:///Users/aaronlee/Documents/HeltecDocs/en/source/cubecell/img/connect_to_server/09.png?lastModify=1577603288)
+`AT+DevEui=0000000000000000`
 
-The CubeCell-Board can be reset by sending `AT+RESET=1`.
+Command running success will print feedback: 
 
-#### Please note that the configuration of the node's network access information must take effect only when the node is reset or the next time it enters the network. The parameters that have been configured by the node are printed after reset.
+```
++OK
++DevEui=0000000000000000(For OTAA Mode)
+```
 
-![img](file:///Users/aaronlee/Documents/HeltecDocs/en/source/cubecell/img/connect_to_server/08.png?lastModify=1577603288)
+### AppEui
 
-For example, I need to modify the send period to 60s and query the EUI of the node:
+Config AppEui to "0000000000000000", send following command via serial port:
 
-The node works in Class A mode by default, and the sending period is 15s. By default, ADR is enabled.
+`AT+AppEui=0000000000000000`
 
-![img](file:///Users/aaronlee/Documents/HeltecDocs/en/source/cubecell/img/connect_to_server/07.png?lastModify=1577603288)
+Command running success will print feedback: 
 
-PS: '*' is the actual registered number. We need to be careful to ensure that the interval between each instruction is >100ms as much as possible to avoid some unnecessary bugs.
+```
++OK
++AppEui=0000000000000000(For OTAA Mode)
+```
 
-E.g:
+### AppKey
 
-After waking up the MCU, we can start to configure the DevEui, AppEui, AppKey of the registered nodes to CubeCell-Board.
+Config AppKey to "00000000000000000000000000000000", send following command via serial port:
 
-We will see the information returned by CubeCell-Board.
+`AT+AppEui=00000000000000000000000000000000`
 
-![img](file:///Users/aaronlee/Documents/HeltecDocs/en/source/cubecell/img/connect_to_server/06.png?lastModify=1577603288)
+Command running success will print feedback: 
 
-#### At the beginning we need to send arbitrary data to the COM to wake up the MCU.
+```
++OK
++AppEui=00000000000000000000000000000000(For OTAA Mode)
+```
 
-![img](file:///Users/aaronlee/Documents/HeltecDocs/en/source/cubecell/img/connect_to_server/05.png?lastModify=1577603288)
+### NwkSKey
 
-Open the serial port (COM4) and reset the CubeCell-Board. After the node is started, you can observe the printing:
+Config NwkSKey to "00000000000000000000000000000000", send following command via serial port:
 
-- Click to download.
-- The node access information is configured through the AT command.
+`AT+NwkSKey=00000000000000000000000000000000`
 
-For example, turn on the RGB light.
+Command running success will print feedback: 
+
+```
++OK
++NwkSKey=00000000000000000000000000000000(For ABP Mode)
+```
+
+### AppSKey
+
+Config AppSKey to "00000000000000000000000000000000", send following command via serial port:
+
+`AT+AppSKey=00000000000000000000000000000000`
+
+Command running success will print feedback: 
+
+```
++OK
++AppSKey=00000000000000000000000000000000(For ABP Mode)
+```
+
+### DevAddr
+
+Config DevAddr to "00000000", send following command via serial port:
+
+`AT+DevAddr=00000000`
+
+Command running success will print feedback: 
+
+```
++OK
++DevAddr=00000000(For ABP Mode)
+```
+
+### Duty Cycle
+
+LoRa Node's default sending data period is 15 seconds, change this period to 60 seconds:
+
+`AT+DutyCycle=6000`
+
+### Reset CubeCell
+
+LoRaWAN parameters need reset to active, CubeCell can reset via three method:
+
+- Push the RST key;
+- Use AT command: `AT+RESET=1`
+- Provide a ≥10ms LOW signal to RST pin.
+
+Looking for more AT commands? Please refer to **[CubeCell AT Command list](https://docs.heltec.cn/download/cubecell/CubeCell_Series_AT_Command_User_Manual_V0.2.pdf)**.
 
 
 
 ## Via CubeCell Configurator
+
+Special thanks [RaySteam](https://github.com/raystream) made a configurator for CubeCell, now it's only have Windows<sup>®</sup> support.
+
+[https://github.com/raystream/CubeCell_Getting_Started](https://github.com/raystream/CubeCell_Getting_Started)
+
+![](img/config_parameter/02.png)
 

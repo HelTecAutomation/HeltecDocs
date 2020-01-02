@@ -50,12 +50,19 @@ Register a new device in TTN's "Applications" page. The `Device ID`, `Device EUI
 
 ![](img/connect_to_server/02.png)
 
-
-
-
-
-Return to TTN to view:
+Correctly config LoRaWAN parameters for CubeCell, please refer to [this document](config_parameter). If all goes well, we will be able to see Device is alive in "DEVICE OVERVIEW".
 
 ![](img/connect_to_server/10.png)
 
-CubeCell-Board has successfully connected to TTN!
+## Connect to ChirpStack
+
+Coming soon.
+
+&nbsp;
+
+## Important Hints
+
+Please double check the following two things:
+
+1. The LoRaWAN parameters is the same as server!
+2. The listenning frequency of your LoRa Gateway is the same as CubeCell's sending frequency. We strictly follow [LoRaWAN 1.1 Regional Parameters](https://lora-alliance.org/sites/default/files/2018-04/lorawantm_regional_parameters_v1.1rb_-_final.pdf);

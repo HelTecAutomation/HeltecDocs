@@ -48,7 +48,6 @@ Content:
    :caption: CubeCell
    
    cubecell/index
-   Cubecell/at_command.pdf
    cubecell/htcc-am01/index
    
 .. toctree::
