@@ -7,4 +7,6 @@ CubeCell relevant documents.
     Config LoRaWAN Networking Parameters <config_parameter>
     Connect to LoRaWAN server <connect_to_gateway>
     LoRaWAN Example Sub-Band Usage <sub_band_usage>
-    CubeCell_Series_AT_Command_User_Manual_V0.2.pdf
+    URL Test <https://heltec.org>
+    External hyperlinks, like `Python
+    <http://www.python.org/>`_.
