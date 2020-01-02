@@ -1,6 +1,6 @@
 CubeCell relevant documents.
 
-.. toctree::
+.. toctree:: CubeCell
     :maxdepth: 2
     
     Quick Start <quick_start>
