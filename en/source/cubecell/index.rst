@@ -20,12 +20,10 @@ features:
 -  In the LoRaWAN relevant examples, have a reasonable timeline
    planning.
 
-`` Tip::
+.. tip::
 
-   for example, an application need send data to server every 10
-minutes, then in a cycle, only ~1 second is in the state of sending,
-other 9 minutes and 59 seconds are in deep sleep low power Consuming
-status.
+   for example, an application need send data to server every 10 minutes, then in a cycle, only ~1 second is in the state of sending, other 9 minutes and 59 seconds are in deep sleep low power Consuming status.
+
 
 ·· toctree::
     :maxdepth: 2
