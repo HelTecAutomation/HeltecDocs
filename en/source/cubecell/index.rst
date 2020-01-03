@@ -25,7 +25,7 @@ features:
    for example, an application need send data to server every 10 minutes, then in a cycle, only ~1 second is in the state of sending, other 9 minutes and 59 seconds are in deep sleep low power Consuming status.
 
 
-·· toctree::
+.. toctree::
     :maxdepth: 2
     
     Quick Start <quick_start>
@@ -33,3 +33,6 @@ features:
     Connect to LoRaWAN server <connect_to_gateway>
     LoRaWAN Example Sub-Band Usage <sub_band_usage>
     AT Command List <https://docs.heltec.cn/download/cubecell/CubeCell_Series_AT_Command_User_Manual_V0.2.pdf>
+
+
+
