@@ -32,7 +32,7 @@ In the "LoRa" path, all examples named with "LoRaWAN_xxx" format are the example
 
 ![](img/connect_to_server/04.png)
 
-Don't forget [config the parameters in "Tools" menu](quick_start#correctly-config-the-tools-menu), here is my configration for EU868:
+Don't forget [config the parameters in "Tools" menu](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/quick_start.html#correctly-config-the-tools-menu), here is my configration for EU868:
 
 ![](img/connect_to_server/03.png)
 
