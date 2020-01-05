@@ -11,6 +11,7 @@
 3. [Configure Node-Red](#configure-node-red)
    
    3.1 [Add TTN palettes to Node-red ](#add-ttn-palettes-to-node-red)
+   
    3.2 [Configure MQTT plugin](#configure-mqtt-plugin)
    
 4. [View subscription](#view-subscription)
@@ -37,7 +38,7 @@ Maybe you don’t have or don’t have a real device. You can still test this so
 
 - MQTT.fx software is used to test whether it can subscribe to node messages.
 
-  - **About MQTT.fx : http://mqttfx.jensd.de **
+  - About MQTT.fx : http://mqttfx.jensd.de 
 
 ### Download and install Node-red(takes a long wait)
 
