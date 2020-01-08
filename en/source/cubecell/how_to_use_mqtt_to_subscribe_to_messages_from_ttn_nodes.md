@@ -22,19 +22,19 @@ The purpose of this article is to subscribe to data messages from TTN nodes usin
 
 The experiment kit used in this experiment is [HT-M02](https://heltec.org/project/ht-m02/), and [CubeCell-board](https://heltec.org/project/htcc-ab01/).
 
-Maybe you don’t have or don’t have a real device. You can still test this solution through the simulation uplink provided by TTN. How to use please see below
+Maybe you don’t have a real device. You can still test this solution through the simulation uplink provided by TTN. How to use please see below.
 
 ----------
 ## Preparation
 
-- First we need the LoRa node that has been connected to the TTN.(ESP32 series and Cubecell series are both available)
+- First we need to connect LoRa gateways and nodes to TTN.(ESP32 series and Cubecell series are both available)
 
-  How to connect nodes to TTN please refer to:
+  How to connect gateways and nodes to TTN please refer to:
 
   - **[How to connect HT-M01 to TTN (The-Things-Network)](en/user_manual/how_to_connect_ht-m01_to_ttn-the-things-network)**
   - **[How to connect CubeCell to a LoRa Gateway via LoRaWAN protocol (TTN)](en/user_manual/how_to_connect_cubecell_to_ttn-the-things-network)**
 
-- An Ubuntu with MQTT-Broker and Node-Red installed (The MQTT-Broker I use here is Mosquitto).
+- The Linux version of Node-Red and MQTT-Broker software installed in this article is Ubuntu 16.04. (The MQTT-Broker I use here is Mosquitto).
 
 - MQTT.fx software is used to test whether it can subscribe to node messages.
 
@@ -48,10 +48,13 @@ If you are on a Raspberry Pi or any Debian-based operating system, including Ubu
 bash <(curl -sL https://raw.githubusercontent.com/node-red/raspbian-deb-package/master/resources/update-nodejs-and-nodered)
 ```
 
+If you want to install to other operating systems such as Windows, RedHat, CentOS, please refer to the official installation guide of Node-Red:
+  - **[https://nodered.org/docs/getting-started/local](https://nodered.org/docs/getting-started/local)**
+
 ------------------
 ## Configure Node-Red
 
-We can view the Node-Red interface by using a browser to access the` localhost:1880` port
+I access the web interface provided by Node-Red in ubuntu, so the port accessed through the browser is: `localhost:1880`
 
 Then we need to download the TTN plugin in Node-Red.
 
@@ -101,7 +104,7 @@ After filling all the palettes, we must connect them in Flow.
 
 ![](img/how_to_use_mqtt_to_subscribe_to_messages_from_ttn_nodes/08.png)
 
-Please don't forget to configure all the plug-ins after you need to click the `Depoly` button in the upper right corner to complete the deployment.
+Please don't forget to click the `Deploy` button in the upper right corner to make them effective after completing all the configurations.
 
 ![](img/how_to_use_mqtt_to_subscribe_to_messages_from_ttn_nodes/09.png)
 
