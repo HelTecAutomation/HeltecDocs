@@ -1,24 +1,26 @@
-# 胶囊传感器与专用调试板的连接方法
+# Assemble a battery to Capsule sensor
 
-胶囊传感器是一款全球发售的产品，但是因为国际运输、仓储等问题，**内部默认是没有集成电池的**。
-
-&nbsp;
-
-拆开传感器主体，可以在底部圆形的PCB板上看到2个焊盘，将电池正负极焊接到该焊盘即可：
-
-<img src="img\assemble_a_battery\01.png">
+The capsule sensor is a global product, but because of international transportation, storage and other problems, **default is no integrated battery inside the Capsule sensor**.
 
 &nbsp;
 
-<img src="img\assemble_a_battery\02.png">
+After disassembling the sensor shell, you can see 2 pads on the round PCB at the bottom, and solder the battery positive and negative electrodes to this pad:
+
+![](img\assemble_a_battery\01.png)
 
 &nbsp;
 
-胶囊传感器圆形底板上集成有充电管理电路(请参阅[胶囊传感器底板原理图]())，但不具有过放保护电路，因此**需要配具有保护板的锂电池**，电池指标要求如下：
+![](img\assemble_a_battery\02.png)
 
-- 标准电压：3.7V
-- 充电电压：4.2V
-- 放电截至电压：≤3.3V
+&nbsp;
+
+## Battery specifications
+
+In the capsule sensor, it's already integrates a charge management circuit (see [Capsule sensor bottom plate schematic diagram]()), but does not have an over-discharge protection circuit, so **the lithium battery must have a protection circute**. Battery mush include following features:
+
+- Voltage: 3.7V
+- Charging voltage: 4.2V
+- Discharge cut-off voltage: ≤3.3V
 
 &nbsp;
 

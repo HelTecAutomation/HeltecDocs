@@ -1,51 +1,105 @@
-# 拿到CubeCell胶囊传感器之后，如何开始
+# Capsule Sensor Quick Start
 
--------------------------------------------------------------------------------------------------------
+## Sammary
 
-## 目录
+**Pay attention to the following issues while using a capsule sensor**
 
-1. [概述](#总览)
-2. [事前准备](#事前准备)
-3. [例程说明](#例程说明)
+- The capsule sensor itself is positioned as a small-sized, assembled and deployed sensor. It does not have programming, debugging, and other interfaces. You need to use the [Debug Board](https://heltec.org/product/cubecell-capsule-debug/) in order to program and debug the program;
+- Due to storage and transportation issues, the battery is not integrated inside the capsule by default. Users in mainland China can inform our customer service when placing an order and we will provide integrated battery services.
+  - [How to assemble a battery inside the Caosule Sensor](zh_CN/user_manual/assemble_a_battery)
 
-## 概述
+## Get Ready
+- [Correctlly install CubeCell Arduino development framework](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/quick_start.html#install-cubecell-relevant-framework)；
+- A high quality Micro USB cable;
+- [Connect Capsule to Debugger board](zh_CN/user_manual/connect_capsule_to_debugger)；
+- Install CP2102 USB-UART bridge driver.
+  - *In most cases, Windows, Mac OS, and Linux will automatically recognize the CP2102 USB-UART bridge. If it is not recognized properly, please refer to [here](https://heltec-automation-docs.readthedocs.io/en/latest/general/establish_serial_connection.html).*
 
-**使用胶囊传感器时，注意以下一些问题：**
+## Capsule Sensor Test
 
-- 胶囊传感器的本身定位为一种小体积、方面组装和部署的传感器，自身是不带有程序烧录、调试等接口的，需要使用[调试板](https://item.taobao.com/item.htm?spm=a1z10.3-c.w4002-17001064404.9.614a2dcbHZPe2o&id=604633131143)，才能进行程序的烧录、调试工作；
-- 因为仓储、运输等问题，胶囊内部默认是未集成电池的，中国大陆地区的用户，下单时可以告知我们的客服，我们会提供集成电池的服务。
-  - [如何在胶囊传感器内集成一个电池](zh_CN/user_manual/assemble_a_battery)
+### Basic Test
 
-&nbsp;
+In `Sensor Basic Test (XXX)` path, is the basic test program used by capsule sensors, which can be used to quickly verify the sensor and read the value from sensors:
 
-## 事前准备
-- [安装CubeCell Arduino开发环境](zh_CN/user_manual/how_to_install_ASR650x_Arduino)；
-- 一根优质的Micro USB线缆；
-- [将胶囊传感器与调试板正确相连](zh_CN/user_manual/connect_capsule_to_debugger)；
-- 若有需要，安装CP2102驱动程序（大多数情况下，Windows，Mac OS，Linux会自动识别CP2102 USB转串口芯片，若未正常识别，请参阅[这里](zh_CN/user_manual/establish_serial_connection)）。
+- Heltec made -- Sensor modules made by Heltec；
+- Third party -- Support for third-party sensor modules developed by users；
 
-&nbsp;
-
-## 例程说明
-
-#### 传感器基本测试
-
-`Sensor Basic Test (XXX)`路径下，是胶囊传感器使用的基本测试程序，可用于快速验证传感器，读取传感器数值。括弧种的内容说明：
-
-- Heltec made -- 为我公司生产的传感器模块配套的测试程序；
-- Third party -- 由用户开发的第三方传感器模块的支持；
-
-<img src="img\cubecell_capsule_begin\01.png">
+![](img\capsule_quick_start\01.png)
 
 &nbsp;
 
-#### 传感器基本测试 + LoRaWAN协议发送云服务器测试
+### Transmit Sensor Data Via LoRaWAN protocol
 
-`LoRa → LoRaWAN_Sensors(_ThirdParty)`路径下，是读取传感器数据后，再通过LoRaWAN协议发送到网关的例子。
+``` Tip:: This part operations must performed with a gateway that supports the standard LoRaWAN protocol.
 
-要进行此部分的测试需要做额外以下一些准备：
+```
 
-1. 一个支持标准LoRaWAN协议的[网关](https://heltec.org/proudct_center/lora/lora-gateway/)，请注意一定是**“标准LoRaWAN协议”**，因为LoRaWAN协议中，对各地区的工作频段、上下行频点、监听信道、发射功率，都有明确规定！CubeCell严格按照LoRaWAN协议进行工作，若网关工作在私有频段或监听信道不匹配，会导致无法与网关通信；
-2. 确保网关已经成功的连接到云服务器上（TTN，阿里云等），若使用我司生产的网关，请参阅相关文档；
-3. [正确配置节点的DevEUI，APP KEY等参数]()，确保与服务器匹配。
+In the example menu `LoRa → LoRaWAN → LoRaWAN_Sensors(_ThirdParty)`, we provided some examples transmit sensor's data via LoRaWAN protocol.
+
+![](img\capsule_quick_start\02.png)
+
+In all sensor & LoRaWAN examples, the sensor data is read once before sending. For example, in the HDC1080 temperature and humidity sensor example:
+
+```c++
+	case DEVICE_STATE_SEND:
+	{
+		PrepareTxFrame( AppPort ); //read data from HDC1080 sensor
+		LoRaWAN.Send(); //LoRaWAN transmit
+		DeviceState = DEVICE_STATE_CYCLE;
+		break;
+	}
+```
+The `PrepareTxFrame` had read temperature (float), humidity (float) and battery voltage (unsigned int). And convert data to a char. The contents:
+
+```c++
+static void PrepareTxFrame( uint8_t port )
+{
+    pinMode(Vext,OUTPUT);
+    digitalWrite(Vext,LOW);
+    hdc1080.begin(0x40);
+    float Temperature = (float)(hdc1080.readTemperature());
+    float Humidity = (float)(hdc1080.readHumidity());
+    hdc1080.end();
+    digitalWrite(Vext,HIGH);
+    uint16_t BatteryVoltage = GetBatteryVoltage();
+    unsigned char *puc;
+
+    puc = (unsigned char *)(&Temperature);
+    AppDataSize = 10;//AppDataSize max value is 64
+    AppData[0] = puc[0];
+    AppData[1] = puc[1];
+    AppData[2] = puc[2];
+    AppData[3] = puc[3];
+
+    puc = (unsigned char *)(&Humidity);
+    AppData[4] = puc[0];
+    AppData[5] = puc[1];
+    AppData[6] = puc[2];
+    AppData[7] = puc[3];
+
+    AppData[8] = (uint8_t)(BatteryVoltage>>8);
+    AppData[9] = (uint8_t)BatteryVoltage;
+
+    Serial.print("T=");
+    Serial.print(Temperature);
+    Serial.print("C, RH=");
+    Serial.print(Humidity);
+    Serial.print("%,");
+    Serial.print("BatteryVoltage:");
+    Serial.println(BatteryVoltage);
+}
+```
+#### Why convert data to byte?
+
+Everyone knows that float data occupies 4 bytes in memory, and unsigned int data occupies 2 bytes. Suppose you have a very accurate sensor, for example, the measured data is 12.34567890987654321, if send this data via string like `string data = ["12.34567890987654321"]`, it will spend 20 bytes *(Max payload in each transmit is 64 bytes)*. but if transmit in byte `41 45 87 E7`, only spend 4 bytes.
+
+## External resources
+
+- Get ready a LoRa gateway
+  - [How to connect HT-M01 to a LoRa server]()
+  - [How to connect HT-M02 to a LoRa server]()
+
+- [How to config LoRaWAN parameters](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/config_parameter.html)
+
+- [Connect CubeCell to LoRaWAN Server](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/connect_to_gateway.html)
 
