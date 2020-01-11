@@ -1,7 +1,7 @@
 ESP32 Series Public Docs
 ===========================
 
-CubeCell relevant documents.
+ESP32 relevant documents.
 
 .. toctree::
     :maxdepth: 2
