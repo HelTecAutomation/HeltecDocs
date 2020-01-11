@@ -24,7 +24,7 @@ In `Sensor Basic Test (XXX)` path, is the basic test program used by capsule sen
 - Heltec made -- Sensor modules made by Heltec；
 - Third party -- Support for third-party sensor modules developed by users；
 
-![](img\capsule_quick_start\01.png)
+![](img/capsule_quick_start/01.png)
 
 &nbsp;
 
@@ -36,18 +36,18 @@ In `Sensor Basic Test (XXX)` path, is the basic test program used by capsule sen
 
 In the example menu `LoRa → LoRaWAN → LoRaWAN_Sensors(_ThirdParty)`, we provided some examples transmit sensor's data via LoRaWAN protocol.
 
-![](img\capsule_quick_start\02.png)
+![](img/capsule_quick_start/02.png)
 
 In all sensor & LoRaWAN examples, the sensor data is read once before sending. For example, in the HDC1080 temperature and humidity sensor example:
 
 ```c++
-	case DEVICE_STATE_SEND:
-	{
-		PrepareTxFrame( AppPort ); //read data from HDC1080 sensor
-		LoRaWAN.Send(); //LoRaWAN transmit
-		DeviceState = DEVICE_STATE_CYCLE;
-		break;
-	}
+case DEVICE_STATE_SEND:
+{
+	PrepareTxFrame( AppPort ); //read data from HDC1080 sensor
+	LoRaWAN.Send(); //LoRaWAN transmit
+	DeviceState = DEVICE_STATE_CYCLE;
+	break;
+}
 ```
 The `PrepareTxFrame` had read temperature (float), humidity (float) and battery voltage (unsigned int). And convert data to a char. The contents:
 
@@ -96,8 +96,8 @@ Everyone knows that float data occupies 4 bytes in memory, and unsigned int data
 ## External resources
 
 - Get ready a LoRa gateway
-  - [How to connect HT-M01 to a LoRa server]()
-  - [How to connect HT-M02 to a LoRa server]()
+  - [How to connect HT-M01 to a LoRa server](https://heltec.org/project/ht-m01/)
+  - [How to connect HT-M02 to a LoRa server](https://heltec.org/project/ht-m02/)
 
 - [How to config LoRaWAN parameters](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/config_parameter.html)
 

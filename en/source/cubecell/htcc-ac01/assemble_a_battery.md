@@ -6,11 +6,11 @@ The capsule sensor is a global product, but because of international transportat
 
 After disassembling the sensor shell, you can see 2 pads on the round PCB at the bottom, and solder the battery positive and negative electrodes to this pad:
 
-![](img\assemble_a_battery\01.png)
+![](img/assemble_a_battery/01.png)
 
 &nbsp;
 
-![](img\assemble_a_battery\02.png)
+![](img/assemble_a_battery/02.png)
 
 &nbsp;
 
