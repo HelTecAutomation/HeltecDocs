@@ -19,7 +19,12 @@ Content:
    :glob:
    :caption: ESP32 + LoRa
 
-   esp32/index   
+   esp32/index
 
+.. toctree::
+   :maxdepth: 3
+   :glob:
+   :caption: General Docs
 
+   general/index
 

@@ -1,21 +1,4 @@
-# How to use MQTT to subscribe to messages from TTN nodes
--------------------------------
-## CONTENT
-
-1. [Overview](#overview)
-
-2. [Preparation](#preparation)
-
-   2.1 [Download and install Node-red ](#download-and-install-node-red(takes-a-long-wait))
-
-3. [Configure Node-Red](#configure-node-red)
-   
-   3.1 [Add TTN palettes to Node-red ](#add-ttn-palettes-to-node-red)
-   
-   3.2 [Configure MQTT plugin](#configure-mqtt-plugin)
-   
-4. [View subscription](#view-subscription)
-
+# How to Subscribe MQTT Messages from LoRa Server
 ## Overview
 
 The purpose of this article is to subscribe to data messages from TTN nodes using the MQTT plugin in the data flow applicition Node-Red provided by TTN.
@@ -62,7 +45,7 @@ Then we need to download the TTN plugin in Node-Red.
 
   - **Installation via user setting in Node-Red panel**
 
-    ![](img/how_to_use_mqtt_to_subscribe_to_messages_from_ttn_nodes/01.png)
+    ![](img/subscribe_mqtt_messages/01.png)
 
   - **Install from the command line**
 ```Shell
@@ -72,13 +55,13 @@ We need to configure the data source from TTN, such as APP EUI, APP KEY, DevEUI 
 
 We select INPUT-> ttn_message palette from the downloaded TTN plugin, which is on the left side of the panel.	Drag it into the Flow panel on the right.
 
-![](img/how_to_use_mqtt_to_subscribe_to_messages_from_ttn_nodes/13.png)
+![](img/subscribe_mqtt_messages/13.png)
 
 Next, Double-click it fill in the key parameters such as the application EUI, KEY, and Device ID that we registered in TTN.
 
-![](img/how_to_use_mqtt_to_subscribe_to_messages_from_ttn_nodes/03.png)
+![](img/subscribe_mqtt_messages/03.png)
 
-![](img/how_to_use_mqtt_to_subscribe_to_messages_from_ttn_nodes/04.png)
+![](img/subscribe_mqtt_messages/04.png)
 
 Click `Update` after configuration.
 
@@ -90,36 +73,36 @@ For example, now I want to wrap the upstream message of a node into a topic name
 
 First, select the OUTPUT-> mqtt palette in the left panel. Drag it into the Flow panel on the right.
 
-![](img/how_to_use_mqtt_to_subscribe_to_messages_from_ttn_nodes/05.png)
+![](img/subscribe_mqtt_messages/05.png)
 
 Next, double-click it to fill in our reposted topic. In the end, you must fill in your target broker.
 
-![](img/how_to_use_mqtt_to_subscribe_to_messages_from_ttn_nodes/06.png)
+![](img/subscribe_mqtt_messages/06.png)
 
-![](img/how_to_use_mqtt_to_subscribe_to_messages_from_ttn_nodes/07.png)
+![](img/subscribe_mqtt_messages/07.png)
 
 
 
 After filling all the palettes, we must connect them in Flow.
 
-![](img/how_to_use_mqtt_to_subscribe_to_messages_from_ttn_nodes/08.png)
+![](img/subscribe_mqtt_messages/08.png)
 
 Please don't forget to click the `Deploy` button in the upper right corner to make them effective after completing all the configurations.
 
-![](img/how_to_use_mqtt_to_subscribe_to_messages_from_ttn_nodes/09.png)
+![](img/subscribe_mqtt_messages/09.png)
 
 ------------------
 ## View subscription
 
 Then use MQTT.fx software to subscribe to this topic. If it goes well, we will see the default uplink data  `1, 2, 3, 4.`(ASCII: 31 32 33 34) of CubeCell-Board in MQTT.fx software.
 
-![](img/how_to_use_mqtt_to_subscribe_to_messages_from_ttn_nodes/10.png)
+![](img/subscribe_mqtt_messages/10.png)
 
 We successfully subscribed the payload of the uplink data of the nodes in the TTN through MQTT. 
 
 If you don't have a real device, you can use the SIMULATE UPLINK prepared by TTN for you, which can be used like this:
 
-![](img/how_to_use_mqtt_to_subscribe_to_messages_from_ttn_nodes/11.png)
+![](img/subscribe_mqtt_messages/11.png)
 
 It's in the Application-> Device page you created.
 
