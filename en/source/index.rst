@@ -26,5 +26,8 @@ Content:
    :glob:
    :caption: General Docs
 
-   general/index
+   How to Install Git and Arduino <general/how_to_install_git_and_arduino>
+   Establish Serial Connection <general/establish_serial_connection>
+   LoRaWAN Example Sub-Band Usage <general/sub_band_usage>
+   Subscribe MQTT  Messages <general/subscribe_mqtt_messages>
 
