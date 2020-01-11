@@ -13,6 +13,8 @@ Content:
    
    cubecell/index
    cubecell/htcc-am01/index
+   cubecell/htcc-ac01/index
+   Frequently Asked Questions <cubecell/frequently_asked_questions>
    
 .. toctree::
    :maxdepth: 3
