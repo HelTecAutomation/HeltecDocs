@@ -6,7 +6,7 @@ choice for LoRaWAN node applications, which provide following main
 features:
 
 -  Fully Arduino-Compatible;
--  Utral low power design, best can reach 3.5uA in deep sleep mode
+-  Ultral low power design, best can reach 3.5uA in deep sleep mode
    (with RTC clock running);
 -  Low-cost;
 -  Integrated encryption algorithm, for example, a product based on
