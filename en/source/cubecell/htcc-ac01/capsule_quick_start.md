@@ -19,12 +19,13 @@
 
 ### Basic Test
 
-In `Sensor Basic Test (XXX)` path, is the basic test program used by capsule sensors, which can be used to quickly verify the sensor and read the value from sensors:
-
-- Heltec made -- Sensor modules made by Heltec；
-- Third party -- Support for third-party sensor modules developed by users；
+In the example menu `CubeCell - xxxx Sensor Examples`, is the basic test program used by capsule sensors, which can be used to quickly verify the sensor and read the value from sensors:
 
 ![](img/capsule_quick_start/01.png)
+
+**Heltec Produced Sensor Examples:** Sensor modules made by Heltec; [Sensor List](https://github.com/HelTecAutomation/ASR650x-Arduino/blob/master/libraries/SensorBasic/readme.md)
+
+**Third Party Sensor Examples:** For third-party sensor modules developed by users. [Sensor List](https://github.com/HelTecAutomation/ASR650x-Arduino/blob/master/libraries/Sensor_ThirdParty/readme.md)
 
 &nbsp;
 

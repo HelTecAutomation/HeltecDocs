@@ -1,4 +1,4 @@
-HTCC-Ac01 Capsule Sensor
+HTCC-AC01 Capsule Sensor
 ========================
 
 CubeCell Capsule sensor HTCC-AC01 relevant documents.
