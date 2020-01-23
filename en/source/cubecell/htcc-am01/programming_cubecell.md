@@ -3,7 +3,7 @@
 **CubeCell module provide two version:** 
 
 - **AT command only**
-  - *For the flash size reason, the "AT command only" HTCC-AM01 only provide CN470-510MHz, EU863-870MHz, US902-928MHz three hardware versions, sending & lestening frequency are fixed (Channel 0~7), cannot be configured by software, and can't upgrade without special hardwares.*
+  - *For the flash size reason, the "AT command only" HTCC-AM01 only provide CN470-510MHz~~, EU863-870MHz, US902-928MHz three~~ hardware versions, sending & lestening frequency are fixed (Channel 0~7), cannot be configured by software, and can't upgrade without special hardwares.*
 - **Arduino compatible & AT command**
   - *Support AT command defaultly, already have an actived Arduino bootloader, can development via Arduino.* 
 
