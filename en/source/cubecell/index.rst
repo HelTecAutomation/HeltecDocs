@@ -1,19 +1,17 @@
 CubeCell
 ========
 
-We believe `CubeCell Series <https://heltec.org/cubecell>`__ is the best
-choice for LoRaWAN node applications, which provide following main
+We believe `the CubeCell Series <https://heltec.org/cubecell>`__ is the best
+choice for LoRaWAN node applications. The following are some of the key
 features:
 
--  Fully Arduino-Compatible;
--  Ultra low power design, best can reach 3.5uA in deep sleep mode
-   (with RTC clock running);
--  Low-cost;
--  Integrated encryption algorithm, for example, a product based on
-   CubeCell, if someone copied the firmware inside the flash and
-   program into a clone hardware, it will not running;
--  Use ASR650x, it's PSoC4000 and SX1262 inside one chip, makes
-   application circuit has smaller size;
+-  Fully compatible with the Arduino development environment;
+-  Based on an ultra low power design, attains 3.5uA in deep sleep mode, even with
+   the RTC clock running;
+-  Low-cost despite its current state of the art technology;
+-  Integrated encryption algorithm protects your investment by rendering cloned firmware inoperative;
+-  Based on proven technology _-the new ASR650x, is a combination of the PSoC4000 and SX1262 inside a single chip,  reducing the overall size o something smaller than the competition;
+   
 -  Solar panel support;
 -  LoRaWAN protocol support;
 -  AT command support;
