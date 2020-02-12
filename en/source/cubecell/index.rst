@@ -27,10 +27,12 @@ features:
     :maxdepth: 2
     
     Quick Start <quick_start>
-    Config LoRaWAN Networking Parameters <config_parameter>
-    Connect to LoRaWAN server <connect_to_gateway>
-    AT Command List <https://docs.heltec.cn/download/cubecell/CubeCell_Series_AT_Command_User_Manual_V0.2.pdf>
+    LoRaWAN <lorawan/index>
     HTCC-AM01 Module <htcc-am01/index>
+    HTCC-AB01 Dev-Board <htcc-ab01/index>
+    HTCC-AC01 Capsule Sensor <htcc-ac01/index>
+    AT Command List <https://docs.heltec.cn/download/cubecell/CubeCell_Series_AT_Command_User_Manual_V0.2.pdf>
+    Frequently Asked Questions <cubecell/frequently_asked_questions>
 
 
 
