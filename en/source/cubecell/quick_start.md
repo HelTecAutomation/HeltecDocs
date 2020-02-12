@@ -2,7 +2,7 @@
 
 ## Summary
 
-CubeCell is based on ASR650x series, this page shown how to install and configuration CubeCell Arduino Framework.
+CubeCell is based on ASR650x series, this page shown how to install and configuration CubeCell Arduino Framework, and how to uploading and running code (examples).
 
 ## Install CubeCell Relevant Framework
 
