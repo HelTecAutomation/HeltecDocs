@@ -1,4 +1,4 @@
-CubeCell
+Contents
 ========
 
 We believe `the CubeCell Series <https://heltec.org/cubecell>`__ is the best
@@ -30,6 +30,7 @@ features:
     Config LoRaWAN Networking Parameters <config_parameter>
     Connect to LoRaWAN server <connect_to_gateway>
     AT Command List <https://docs.heltec.cn/download/cubecell/CubeCell_Series_AT_Command_User_Manual_V0.2.pdf>
+    HTCC-AM01 Module <htcc-am01/index>
 
 
 
