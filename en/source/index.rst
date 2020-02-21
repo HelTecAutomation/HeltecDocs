@@ -26,6 +26,10 @@ Content:
    :caption: ESP32 + LoRa
 
    esp32/index
+   Quick Start <quick_start>
+   Maximum Distance Test <distance_test>
+   LoRaWAN <lorawan/index>
+   WiFi LoRa 32 <wifi_lora_32/index.rst>
 
 .. toctree::
    :maxdepth: 3

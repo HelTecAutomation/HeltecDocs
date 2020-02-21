@@ -1,4 +1,22 @@
-# What's the Upgrade of WiFi LoRa 32 (V2) Compare with V1
+# WiFi LoRa 32 Hardware Update Logs
+
+## V1
+
+2017-6-1 public sale
+
+- First release
+
+### Resource
+
+- [Pinout diagram](http://resource.heltec.cn/download/WiFi_LoRa_32/WIFI_LoRa_32_V1.pdf)
+
+- V1 Schematic diagram
+  - [433, 470~510 Version](http://resource.heltec.cn/download/WiFi_LoRa_32/V1/WIFI_LoRa_32(433_470-510%20version)Schematic_diagram.PDF)
+  - [868~915 Version](http://resource.heltec.cn/download/WiFi_LoRa_32/V1/WIFI_LoRa_32(868-915version)Schematic_diagram.PDF)
+
+## V2
+
+2018-9-15 public sale
 
 - 4MB (32M-bits) FLASH upgrade to 8MB (64M-bits) FLASH;
 
@@ -24,3 +42,8 @@
 - Circuit optimization, system more stable;
 - Better power manage system design;
 - Better RF impendence matching.
+
+### Resource
+
+## V2.1
+
