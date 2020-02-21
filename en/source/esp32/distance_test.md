@@ -21,9 +21,7 @@ First of all, confirm the [Heltec ESP Development Framework](https://github.com/
 
   like this:
 
-  <figure>
-      <img src="img/lora_maximum_communication_distance_test/01.png">
-  </figure>
+  ![](img/distance_test/01.png)
 
 
 

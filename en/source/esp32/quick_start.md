@@ -1,17 +1,10 @@
-# Heltec ESP32 Based Dev-baords Develop Environment
+# Heltec ESP32+LoRa Series Quick Start
 
 We suggest you confirm whether the `USB driver`, `Git` and `Arduino IDE` has installed first. If not, please view this two articles [establish serial connection](/en/user_manual/establish_serial_connection) and [Install Git and Arduino IDE](/en/user_manual/how_to_install_git_and_arduino).
 
-## CONTENT
 
-1. [Setting Environment](#setting-environment)
-- [Step1. Download Heltec Arduino-ESP32 Support](#step1-download-arduino-esp32-support)
-  
-- [Step2. Download the Heltec ESP32 Library](#step2-download-the-m5stack-lib)
-  
-2. [Example](#example)
 
-## 1. Setting Environment
+## Setting Environment
 
 *(Only two steps to complete setting)*
 
@@ -19,9 +12,11 @@ We suggest you confirm whether the `USB driver`, `Git` and `Arduino IDE` has ins
 
 Open Arduino IDE, and click `File`->`Peferences`->`Settings`
 
-<img src="img/how_to_install_esp32_Arduino/01.png">
+![](img/quick_start/01.png)
 
-<img src="img/how_to_install_esp32_Arduino/02.png">
+&nbsp;
+
+![](img/quick_start/02.png)
 
 Input last esp32 board manager URL
 
