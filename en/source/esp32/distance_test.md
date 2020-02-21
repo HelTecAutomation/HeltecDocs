@@ -1,4 +1,4 @@
-# How to test maximum LoRa communication distance
+# Maximum LoRa Communication Distance Test
 
 ## 1.  Preparations
 First of all, confirm the [Heltec ESP Development Framework](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series) and [Heltec ESP32 library](https://github.com/HelTecAutomation/Heltec_ESP32) had been correctly installed. If not, please view this articles [Heltec ESP32 Based Dev-baords Develop Environment](https://docs.heltec.cn/#/en/user_manual/how_to_install_esp32_Arduino?id=heltec-esp32-based-dev-baords-develop-environment).
