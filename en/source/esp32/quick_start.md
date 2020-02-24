@@ -22,13 +22,13 @@ Input last esp32 board manager URL
 
 *Now the last board manager URL: [https://docs.heltec.cn/download/package_heltec_esp32_index.json](https://docs.heltec.cn/download/package_heltec_esp32_index.json)*
 
-<img src="img/how_to_install_esp32_Arduino/03.png">
+![](img/quick_start/03.png)
 
 Click `Tools`->`Board:`->`Boards Manager...`, search `Heltec ESP32` in the new pop-up dialog, then click `install`
 
-<img src="img/how_to_install_esp32_Arduino/04.png">
+![](img/quick_start/04.png)
 
-<img src="img/how_to_install_esp32_Arduino/05.png">
+![](img/quick_start/05.png)
 
 The source code of Heltec ESP series (ESP32 & ESP8266) framework available here: [https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series)
 
@@ -39,9 +39,9 @@ The source code of Heltec ESP series (ESP32 & ESP8266) framework available here:
 Open Arduino IDE, then Select `Sketch`->`Include Library`->`Manage Libraries...`
 Search `Heltec ESP32` and install it
 
-<img src="img/how_to_install_esp32_Arduino/06.png">
+![](img/quick_start/06.png)
 
-<img src="img/how_to_install_esp32_Arduino/07.png">
+![](img/quick_start/07.png)
 
 The source code of `Heltec ESP32` library available here: [https://github.com/HelTecAutomation/Heltec_ESP32](https://github.com/HelTecAutomation/Heltec_ESP32)
 
@@ -54,21 +54,21 @@ Select a demo example, compile and upload
 
 ### 1. Execute a example likes `FactoryTest.ino`
 
-Correct select the board you had connected to computer and the specified serial port: e.g. WiFi Kit 32, WiFi LoRa 32, COM3(my PC is `COM3`)
+Correct select the board you had connected to computer and the specified serial port: e.g.Wireless Stick, WiFi LoRa 32, COM3(my PC is `COM3`)
 
-<img src="img/how_to_install_esp32_Arduino/08.png">
+![](img/quick_start/08.png)
 
 Then select an example likes `XXXXXX_FactoryTest.ino`
 
-<img src="img/how_to_install_esp32_Arduino/09.png">
+![](img/quick_start/09.png)
 
 Upload it
 
-<img src="img/how_to_install_esp32_Arduino/10.png">
+![](img/quick_start/10.png)
 
 ### 2. New a Heltec ESP32 program
 
-Open Arduino IDE, then new a `.ino` file, then copy the below code.
+Open Arduino IDE, create a new  `.ino` file, then copy the below code.
 
 ```arduino
 #include <heltec.h>
@@ -86,7 +86,7 @@ void loop() {
 }
 ```
 
-compile it and upload, the on board screen (if have) will show and Arduino's serial monitor will print something, it means Heltec ESP32 board is running successfully!
+compile it and upload, the  screen (if this board has a screen) will show and Arduino's serial monitor will print something, it means Heltec ESP32 board is running successfully!
 
 Enjoy!
 

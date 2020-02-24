@@ -35,12 +35,18 @@ First we have to create a new WiFi_LoRa_32 board node in the TTN.
 
 ![](img/config_parameter/02.png)
 
+```Tip:: The Device EUI,App Key and App EUI of TTN should be consistent with the node
+
+```
+
+
+
 - I need the WiFi_LoRa_32-Board to work in the EU 868 band in Class A mode, which requires:
 
-<img src="img\connect_an_esp32_+_lora_node_to_a_lora_gateway_via_lorawan_ protocol\03.png">
+![](img/config_parameter/03.png)
 
 - And choose OTAA_OLED example.
-<img src="img\connect_an_esp32_+_lora_node_to_a_lora_gateway_via_lorawan_ protocol\04.png">
+![](img/config_parameter/04.png)
 
 Next we need to modify the node's access parameters.(Like fqz、DevEui、APPKEY)
 
@@ -50,7 +56,7 @@ Next we need to modify the node's access parameters.(Like fqz、DevEui、APPKEY)
 
    Modify the twentieth line, for example ```#define USE_BAND_915```
 
-   <img src="img\connect_an_esp32_+_lora_node_to_a_lora_gateway_via_lorawan_ protocol\05.png">
+   ![](img/config_parameter/05.png)
 
 2. Open the ```\ESP32_LoRaWAN\src\Commissioning.h``` file
 
@@ -60,20 +66,20 @@ Next we need to modify the node's access parameters.(Like fqz、DevEui、APPKEY)
    
    ```#define LORAWAN_APPLICATION_KEY           { 0x88, 0x88, 0x88, 0x88, 0x88, 0x88, 0x88, 0x88, 0x88, 0x88, 0x88, 0x88, 0x88, 0x88, 0x88, 0x88 }```
    
-   <img src="img\connect_an_esp32_+_lora_node_to_a_lora_gateway_via_lorawan_ protocol\06.png">
+   ![](img/config_parameter/06.png)
    
 3. After modifying the network parameters, return to OTAA_OLED.ino
    
    Fill in the resulting serial number in the box and select the working mode of the device (default works in Class A)
    
-   <img src="img\connect_an_esp32_+_lora_node_to_a_lora_gateway_via_lorawan_ protocol\07.png">
+   ![](img/config_parameter/07.png)
 
 Click upload, reset the node after the download is complete.
 
-<img src="img\connect_an_esp32_+_lora_node_to_a_lora_gateway_via_lorawan_ protocol\09.png">
+![](img/config_parameter/09.png)
 Return to TTN to view:
 
-<img src="img\connect_an_esp32_+_lora_node_to_a_lora_gateway_via_lorawan_ protocol\10.png">
+![](img/config_parameter/10.png)
 
 WiFi_Kit_series-Board has successfully connected to TTN!
 

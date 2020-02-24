@@ -34,16 +34,18 @@
 
 - Changed some pin connection:
 
-| Pin name  | V1 connection | V2 connection |
-| --------- | ------------- | ------------- |
-| LoRa DIO1 | GPIO 33       | GPIO 35       |
-| LoRa DIO2 | GPIO 32       | GPIO 34       |
+  ![](img/01.png)
 
 - Circuit optimization, system more stable;
 - Better power manage system design;
 - Better RF impendence matching.
 
 ### Resource
+
+- [Pinout diagram](http://resource.heltec.cn/download/WiFi_LoRa_32/WIFI_LoRa_32_V2.pdf)
+- V2 Schematic diagram
+  - [433, 470~510 Version](http://resource.heltec.cn/download/WiFi_LoRa_32/V2/WiFi_LoRa_32_V2(433%2C470-510).PDF)
+  - [868~915 Version](http://resource.heltec.cn/download/WiFi_LoRa_32/V2/WIFI_LoRa_32_V2(868-915).PDF)
 
 ## V2.1
 
