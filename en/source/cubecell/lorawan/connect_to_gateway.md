@@ -4,7 +4,7 @@ In this document, all operations and tests must be performed with a standard [Lo
 
 ## Summary
 
-LoRaWAN protocol is the essence of all lora applications. In our opinion, the most prominent benefits of LoRaWAN are as follows:
+LoRaWAN protocol is the essence of all LoRa applications. In our opinion, the most prominent benefits of LoRaWAN are as follows:
 
 - Very friendly for low power applications. For example, your application need send data to server every 10 minutes, then in a cycle, only ~1 second is in the state of sending, other 9 minutes and 59 seconds are in low sleep low power Consuming status.
 - A star network can be formed via a [LoRa Gateway](https://heltec.org/proudct_center/lora/lora-gateway/), nodes and gateways from different manufacturers can communicate with each other through LoRaWAN protocols;
@@ -46,7 +46,7 @@ Before that, make sure there is a LoRa Gateway active in your TTN's account.
 
 ### Register a device
 
-Register a new device in TTN's "Applications" page. The `Device ID`, `Device EUI`, `App Key` can be generated automatically. usrs need make sure the relevant parameter in CubeCell is the same with TTN.
+Register a new device in TTN's "Applications" page. The `Device ID`, `Device EUI`, `App Key` can be generated automatically. users need make sure the relevant parameter in CubeCell is the same with TTN.
 
 ![](img/connect_to_server/02.png)
 
@@ -65,4 +65,4 @@ Coming soon.
 Please double check the following two things:
 
 1. The LoRaWAN parameters is the same as server!
-2. The listenning frequency of your LoRa Gateway is the same as CubeCell's sending frequency. We strictly follow [LoRaWAN 1.1 Regional Parameters](https://lora-alliance.org/sites/default/files/2018-04/lorawantm_regional_parameters_v1.1rb_-_final.pdf);
+2. The listening frequency of your LoRa Gateway is the same as CubeCell's sending frequency. We strictly follow [LoRaWAN 1.1 Regional Parameters](https://lora-alliance.org/sites/default/files/2018-04/lorawantm_regional_parameters_v1.1rb_-_final.pdf);

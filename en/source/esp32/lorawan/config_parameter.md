@@ -1,86 +1,68 @@
-# "ESP32 + LoRa" Node Preparation & Config Parameters
-
-&nbsp;
+# "ESP32 + LoRa" Preparation & Config Parameters
 
 ## Preparation
 ----------
 - Arduino IDE.  How to install please click [here](https://docs.heltec.cn/#/en/user_manual/how_to_install_git_and_arduino).
+- This library must work with [Heltec WiFi_Kit_series Arduino development framework](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series). Installation manual  please refer to [here](https://docs.heltec.cn/#/en/user_manual/how_to_install_esp32_Arduino).
 
-- To use this library, you need to install the WiFi_Kit_series Arduino development environment first.How to install please click [here](https://docs.heltec.cn/#/en/user_manual/how_to_install_esp32_Arduino).
-
-  For more : [WiFi_Kit_series](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series).
-  
-- How to get the unique serial number of the WiFi_Kit_series device, please check the library README [here](https://github.com/HelTecAutomation/ESP32_LoRaWAN#how-to-use-this-library).
-
-- We need a gateway to connect to the TTN (for example, HT-M01), how to connect the gateway (HT-M01, HT-M02) to the TTN, please refer to [here](https://docs.heltec.cn/#/en/user_manual/how_to_connect_ht-m01_to_ttn-the-things-network).
-
-- A [WiFi_LoRa_32-Board](https://heltec.org/project/wifi-lora-32/) or [Wireless Stick](https://heltec.org/project/wireless-stick/) and a premium USB cable.
-
-- In this example, I use [HT-M01 Gateway](https://heltec.org/project/ht-m01/) and drive it through Windows **®** via USB, and use WiFi_LoRa_32-Board to quickly connect to TTN.
+- A gateway already connected a LoRa server.
+  - [Connect HT-M01 to a LoRa server]();
+  - [Connect HT-M02 to a LoRa server]().
+- An ESP32 + LoRa ([WiFi LoRa 32](https://heltec.org/project/wifi-lora-32/), [Wireless Stick](https://heltec.org/project/wireless-stick/), etc.) node and a high quality USB cable.
+- In this example, we use [HT-M01 Gateway](https://heltec.org/project/ht-m01/) and drive it through Windows<sup>®</sup> via USB, and use [WiFi LoRa 32 (V2)](https://heltec.org/project/wifi-lora-32/) Board to quickly connect to TTN.
 
 ### Installing Library
 ----------
-  To install this library:
+We provided a ESP32 LoRaWAN library, which migration from the [LoRaMac-node]() library:
 
-  - install it using the Arduino Library manager ("Sketch" -> "Include Library" -> "Manage Libraries..."), or
-  - download a zip file from GitHub using the "Download ZIP" button and install it using the IDE ("Sketch" -> "Include Library" -> "Add .ZIP Library..."
-  - clone this git repository into your sketchbook/libraries folder.
+[https://github.com/HelTecAutomation/ESP32_LoRaWAN](https://github.com/HelTecAutomation/ESP32_LoRaWAN)
 
-  For more info, see https://www.arduino.cc/en/Guide/Libraries.
+Choose one of the following method to install this library:
+
+1. download a zip file from GitHub using the "Download ZIP" button and install it using the IDE ("Sketch" -> "Include Library" -> "Add .ZIP Library..."
+
+2. clone this git repository into your sketchbook/libraries folder.
+
+  For more information, see https://www.arduino.cc/en/Guide/Libraries.
 
 
 ## Configure Parameters
 
-First we have to create a new WiFi_LoRa_32 board node in the TTN.
+No matter what LoRa management platform is used, DevEui, AppKey, etc. parameters are must needed. And ensure that it is consistent with the relevant settings on the server.
+
+- **The following parameters are essential for OTAA mode:**
+  - DevEui -- Mote device IEEE EUI (big endian), 8 bytes;
+  - AppEui -- Application IEEE EUI (big endian), 8 bytes;
+  - AppKey -- AES encryption/decryption cipher application key, 16 bytes;
+- **The following parameters are essential for ABP mode:**
+  - NwkSKey -- AES encryption/decryption cipher network session key, 16 bytes;
+  - AppSKey -- AES encryption/decryption cipher application session key, 16 bytes;
+  - DevAddr -- Device address on the network (big endian), uint32_t;
+
+Choose an example from menu `File -- Examples -- ESP32_LoRaWAN -- OTAA`.
+
+![](img/config_parameter/01.png)
+
+The LoRaWAN relevant parameters are in the `.ino` file, fix it in the code directly.
 
 ![](img/config_parameter/02.png)
 
-```Tip:: The Device EUI,App Key and App EUI of TTN should be consistent with the node
+## Choose Frequency Band
 
-```
-
-
-
-- I need the WiFi_LoRa_32-Board to work in the EU 868 band in Class A mode, which requires:
+There are some options in the Arduino Tools menu:
 
 ![](img/config_parameter/03.png)
 
-- And choose OTAA_OLED example.
-![](img/config_parameter/04.png)
+`Board, Upload Speed, CPU Frequency, Core Debug Level, PSRAM` are ESP32 chip's normal option, just keep default. Special notice the `LoRaWan Region` and `LoRaWan Debug Level`:
 
-Next we need to modify the node's access parameters.(Like fqz、DevEui、APPKEY)
+- **LoRaWan Region** -- LoRaWAN protocol region definition, strictly follow [LoRaWAN 1.1 Regional Parameters](https://lora-alliance.org/sites/default/files/2018-04/lorawantm_regional_parameters_v1.1rb_-_final.pdf);
+- **LoRaWan Debug Level** -- Messages printed via serial.
+  - None -- Default;
+  - Freq -- Uplink/downlink frequency;
+  - Freq && DIO -- Uplink/downlink frequency and DIO interrupt information;
+  - Freq && DIO && PW -- Uplink/downlink frequency, DIO interrupt information and low power status.
 
-1. Frequency setting
+``` Note:: Print too much messages may cause the system unstable.
 
-   Open the ```\ESP32_LoRaWAN\src\LoRaMac-definitions.h``` file
+```
 
-   Modify the twentieth line, for example ```#define USE_BAND_915```
-
-   ![](img/config_parameter/05.png)
-
-2. Open the ```\ESP32_LoRaWAN\src\Commissioning.h``` file
-
-   Modify the corresponding DevEui、AppKey，parameters.
-
-   ```#define LORAWAN_DEVICE_EUI           { IEEE_OUI, 0x00, 0x00, 0x88, 0x00, 0x88 }```
-   
-   ```#define LORAWAN_APPLICATION_KEY           { 0x88, 0x88, 0x88, 0x88, 0x88, 0x88, 0x88, 0x88, 0x88, 0x88, 0x88, 0x88, 0x88, 0x88, 0x88, 0x88 }```
-   
-   ![](img/config_parameter/06.png)
-   
-3. After modifying the network parameters, return to OTAA_OLED.ino
-   
-   Fill in the resulting serial number in the box and select the working mode of the device (default works in Class A)
-   
-   ![](img/config_parameter/07.png)
-
-Click upload, reset the node after the download is complete.
-
-![](img/config_parameter/09.png)
-Return to TTN to view:
-
-![](img/config_parameter/10.png)
-
-WiFi_Kit_series-Board has successfully connected to TTN!
-
-Enjoy!
