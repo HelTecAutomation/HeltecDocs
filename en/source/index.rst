@@ -30,6 +30,10 @@ Content:
    esp32/lorawan/index
    Maximum Distance Test <esp32/distance_test>
    esp32/wifi_lora_32/index.rst
+   esp32/wireless_stick/index.rst
+   esp32/wireless_stick_lite/index.rst
+   esp32/wireless_shell/index.rst
+   Frequently Asked Questions <esp32/frequently_asked_questions>
 
 .. toctree::
    :maxdepth: 3

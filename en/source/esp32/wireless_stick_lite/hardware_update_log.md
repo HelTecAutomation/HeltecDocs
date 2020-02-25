@@ -10,7 +10,10 @@
 
 - [Pinout diagram](http://resource.heltec.cn/download/Wireless_Stick_Lite/Wireless_Stick_Lite.pdf)
 
-- [Schematic diagram](http://resource.heltec.cn/search)
+- Schematic diagram
   
+  ```Tip:: The schematic diagram of Wireless Stick is restricted technical data,it will become downloadable after purchase.Please click following link.
   
+  ```
 
+[]()
