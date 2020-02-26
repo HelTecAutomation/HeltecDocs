@@ -12,7 +12,7 @@ CubeCell is based on ASR650x series, this page shown how to install and configur
 
 *If not, please view this two articles [establish serial connection](https://heltec-automation-docs.readthedocs.io/en/user_manual/establish_serial_connection) and [Install Git and Arduino IDE](https://heltec-automation-docs.readthedocs.io/en/user_manual/how_to_install_git_and_arduino).*
 
-there are two methods to install the CubeCell framework, choose one of them.
+**there are two methods to install the CubeCell framework, choose one of them.**
 
 ### Use Arduino board manager
 
@@ -42,7 +42,9 @@ The source code of Heltec ASR650x series (ASR6501&ASR6502) framework available h
 
 ### Via Git
 
-Please refer to this document: [Install CubeCell Frame via Git](https://github.com/HelTecAutomation/ASR650x-Arduino#installation-instructions)
+- [For Windows](https://github.com/HelTecAutomation/ASR650x-Arduino/blob/master/InstallGuide/windows.md)
+- [For MacOS](https://github.com/HelTecAutomation/ASR650x-Arduino/blob/master/InstallGuide/mac.md)
+- [For Linux(Ubuntu/Debian)](https://github.com/HelTecAutomation/ASR650x-Arduino/blob/master/InstallGuide/debian_ubuntu.md)
 
 &nbsp;
 
@@ -61,12 +63,17 @@ In the tools menu, there are following options:
 - **LORAWAN_NETMODE** -- OTAA or ABP;
 - **LORAWAN_ADR** -- Turn ON or turn OFF ADR (Adaptive Data Rate);
 - **LORAWAN_Net_Reservation** -- This is a feature outside the LoRaWAN protocol, only valid in OTAA mode. If this option is enabled, when system reset does not need join again. Projects such as smart street lights may be useful.
+- **LORAWAN_UPLINKMODE** -- LoRa uplink confirmed/unconfirmed messages. Confirmed messages need server send downlink to node, but some LoRa server have downlink limited (such as TTN).
 - **LORAWAN_AT_SUPPORT** -- AT command will provide many useful functions, for example, users can use serial port to config LoRa Node's DevEui, AppKey, or make node sleep, reset etc.
 - **LORAWAN_RGB** -- RGB light for LoRaWAN status:
   - `Purple -- Join;`
   - `Blue -- First RX window;`
   - `Yellow -- Second RX window;`
   - `Green -- Join done.`
+- LoRaWan Debug Level -- LoRaWAN relevant messages print by serial port
+  - None -- Default;
+  - Freq -- Sending/receiving frequency;
+  - Freq && DIO -- Sending/receiving frequency, and DIO pin interrupt information.
 - **COM Port** -- Device's serial port in your computer.
 
 
