@@ -22,6 +22,8 @@ Register a new device in TTN's "Applications" page. The `Device ID`, `Device EUI
 
 Correctly config LoRaWAN parameters for ESP32 LoRa node, please refer to [this document](config_parameter). If all goes well, we will be able to see Device is alive in "DEVICE OVERVIEW".
 
+![](img/connect_to_gateway/04.png)
+
 
 
 ## Connect to ChirpStack

@@ -16,8 +16,7 @@
 
 - Schematic diagram
 
-  ```Tip:: The schematic diagram of Wireless Stick is restricted technical data,it will become downloadable after purchase.Please click following link.
-  
-  ```
+  The schematic diagram of Wireless Shell is restricted technical data,it will become downloadable after purchase.Please read this document:[View Limited Technical Data]() .
 
-[]()
+
+

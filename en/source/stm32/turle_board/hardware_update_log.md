@@ -1,4 +1,4 @@
-# Wireless Stick  Hardware Update Logs
+# Turtle Board  Hardware Update Logs
 
 ## V1
 
@@ -8,7 +8,7 @@
 
 ### Resource
 
-- [Pinout diagram](http://resource.heltec.cn/download/Wireless_Stick/Wireless_Stick.pdf)
+- [Pinout diagram](https://docs.heltec.cn/download/Turtle_Board.pdf)
 
 - Schematic diagram
 
