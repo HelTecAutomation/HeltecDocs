@@ -1,7 +1,7 @@
-Wireless Stick
-==============
+LoRa Kit 151
+============
 
-Wireless Stick relevant documents.
+LoRa Kit 151 relevant documents.
 
 .. toctree::
     :maxdepth: 2

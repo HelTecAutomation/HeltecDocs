@@ -1,7 +1,7 @@
-Wireless Stick
-==============
+Turtle Board
+============
 
-Wireless Stick relevant documents.
+Turtle Board relevant documents.
 
 .. toctree::
     :maxdepth: 2

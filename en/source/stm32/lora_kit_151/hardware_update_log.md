@@ -6,9 +6,15 @@
 
 - First release
 
+```Tip:: LoRa Kit 151 only 470 band.
+
+```
+
+
+
 ### Resource
 
-- [Pinout diagram](http://resource.heltec.cn/download/Wireless_Stick/Wireless_Stick.pdf)
+- [Pinout diagram]()
 
 - [Schematic diagram](https://docs.heltec.cn/download/LoRa_Kit_151_sch_diagram.PDF)
 

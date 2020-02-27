@@ -4,6 +4,7 @@ Contents
 This document branch is for `Heltec ESP32 + LoRa Node series <https://heltec.org/proudct_center/lora/lora-node/>`_,
 
 ESP32 is a powerfull SoC with 240MHz Tensilica LX6 dual-core & 1 ULP core, 600 DMIPS, 520KB SRAM. The benefit of "ESP32 + LoRa" combination:
+
 -  Multi wireless communication technical on board, include Wi-Fi, BlueTooh/BLE, LoRa;
 -  Powerful computing skills;
 -  Large FLASH size;

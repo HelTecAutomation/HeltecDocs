@@ -17,6 +17,16 @@ No matter what LoRa management platform is used, DevEui, AppKey, etc. parameters
 
 &nbsp;
 
+## Preparation
+
+- Install [STM32CubeIDE](https://www.st.com/zh/development-tools/stm32cubeide.html#get-software) and [STM32CubeProgrammer](https://www.st.com/zh/development-tools/stm32cubeprog.html) correctly.
+- A standard LoRaWAN gateway with at least 8 channels (based on SX1301/8 base band chip will be OK), and make sure your gateway had already connected to a LoRa server.
+  - [How to connect HT-M01 to a LoRa server]().
+  - [How to connect HT-M02 to a LoRa server]().
+- A STM32 LoRa node( [LoRa Node 151](https://heltec.org/project/lora-node-151/) , [LoRa Kit 151](https://heltec.org/project/lora-kit-151/) , [Turtle Board](https://heltec.org/project/turtle-board/)), a high quality USB cable and an ST-LINK.
+
+&nbsp;
+
 ## Config steps
 
 The LoRaWAN example code of LoRa Node 151 is a CubeIDE project, here is the basic config steps.
@@ -69,4 +79,4 @@ The code for the node transmit frequency is in the `LoRaMac.c` file.
 
 Now, if download the program into your board, if everything is normal, it should be able to run.
 
-- You may need: [How to Download Firmware into LoRa Node ](https://docs.heltec.cn/#/en/user_manual/how_to_download_firmware_into_lora_node_151?id=how-to-download-firmware-into-lora-node-151)
+- You may need: [How to Download Firmware into STM32 LoRa Node ]()

@@ -6,19 +6,21 @@
 
 ```
 
-1.Choose an example from menu `File -- Examples -- ESP32_LoRaWAN -- OTAA`.
+1.Choose an example from menu `File -- Examples -- ESP32 -- ChipID -- GetChipID`.
 
 ![](img/view_limited_technical_data/01.png)
 
 &nbsp;
 
-2.Upload the code,open serial port,copy the board ID and open this link  [http://www.heltec.cn/search/](http://www.heltec.cn/search/).
+2.Upload the code,open serial port,copy the Chip ID and open this link  [http://www.heltec.cn/search/](http://www.heltec.cn/search/).
 
 ![](img/view_limited_technical_data/02.png)
 
+You can also use this simple example to get your Chip ID.  [get Chip ID](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/esp32/libraries/ESP32/examples/ChipID/GetChipID/GetChipID.ino)
+
 &nbsp;
 
-3.Input the board ID,click `Confirm` .
+3.Input the Chip ID,click `Confirm` .
 
 ![](img/view_limited_technical_data/03.png)
 

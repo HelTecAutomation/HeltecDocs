@@ -1,7 +1,7 @@
-Wireless Stick
-==============
+LoRa Node 151
+=============
 
-Wireless Stick relevant documents.
+LoRa Node 151 relevant documents.
 
 .. toctree::
     :maxdepth: 2
