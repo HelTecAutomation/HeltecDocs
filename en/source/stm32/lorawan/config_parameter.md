@@ -1,6 +1,6 @@
 # "STM32 + LoRa" Preparation & Config Parameters
 
-[LoRa Node 151](https://heltec.org/project/lora-node-151/) is based on [STM32L151CCU6](https://www.st.com/resource/en/datasheet/stm32l151cc.pdf),  [LoRa Kit 151](https://heltec.org/project/lora-kit-151/) is based on [STM32L151CBU6](https://www.st.com/resource/en/datasheet/stm32l151cc.pdf) , [Turtle Board](https://heltec.org/project/turtle-board/) is based on [STM32L432KC](https://www.st.com/resource/en/datasheet/stm32l432KC.pdf) ,Our company is gradually replacing the IDE to [CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html), which is the STMicroelectronics official just launched development tools for their own MCUs. Based on Eclipse, include code tracking, code completion, compilation, download, single-step debugging, and integrated with CubdeMX.
+[LoRa Node 151](https://heltec.org/project/lora-node-151/) is based on [STM32L151CCU6](https://www.st.com/resource/en/datasheet/stm32l151cc.pdf), [Turtle Board](https://heltec.org/project/turtle-board/) is based on [STM32L432KC](https://www.st.com/resource/en/datasheet/stm32l432KC.pdf) ,Our company is gradually replacing the IDE to [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html), which is the STMicroelectronics official just launched development tools for their own MCUs. Based on Eclipse, include code tracking, code completion, compilation, download, single-step debugging, and integrated with CubdeMX.
 
 ## Summary
 
@@ -23,7 +23,7 @@ No matter what LoRa management platform is used, DevEui, AppKey, etc. parameters
 - A standard LoRaWAN gateway with at least 8 channels (based on SX1301/8 base band chip will be OK), and make sure your gateway had already connected to a LoRa server.
   - [How to connect HT-M01 to a LoRa server]().
   - [How to connect HT-M02 to a LoRa server]().
-- A STM32 LoRa node( [LoRa Node 151](https://heltec.org/project/lora-node-151/) , [LoRa Kit 151](https://heltec.org/project/lora-kit-151/) , [Turtle Board](https://heltec.org/project/turtle-board/)), a high quality USB cable and an ST-LINK.
+- A STM32 LoRa node( [LoRa Node 151](https://heltec.org/project/lora-node-151/) , [Turtle Board](https://heltec.org/project/turtle-board/)), a high quality USB cable and an ST-LINK.
 
 &nbsp;
 
@@ -71,8 +71,6 @@ The content in the red box can only be one of the following bands:
 `USE_BAND_915`
 `USE_BAND_915_HYBRID`
 
-&nbsp;
-
 - Ensure that the listening frequency of the gateway is the same as the transmitting frequency of the node
 
 The code for the node transmit frequency is in the `LoRaMac.c` file.
@@ -81,4 +79,4 @@ The code for the node transmit frequency is in the `LoRaMac.c` file.
 
 Now, if download the program into your board, if everything is normal, it should be able to run.
 
-- You may need: [How to Download Firmware into STM32 LoRa Node ]()
+- You may need: How to Download Firmware into STM32 LoRa Node([LoRa Node 151](), [Turtle Board]()).

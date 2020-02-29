@@ -7,7 +7,7 @@ Content:
 --------
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 4
    :glob:
    :caption: CubeCell
    
@@ -21,7 +21,7 @@ Content:
    Frequently Asked Questions <cubecell/frequently_asked_questions>
    
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 4
    :glob:
    :caption: ESP32 + LoRa
 
@@ -37,7 +37,7 @@ Content:
    Frequently Asked Questions <esp32/frequently_asked_questions>
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 4
    :glob:
    :caption: STM32 + LoRa
    
@@ -49,7 +49,7 @@ Content:
    Frequently Asked Questions <stm32/frequently_asked_questions>
    
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 4
    :glob:
    :caption: General Docs
 

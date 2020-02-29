@@ -8,7 +8,9 @@ The LoRa Node can print debugging information through USB CDC (USB Virtual Seria
 
 ![](img/establish_serial_connection/04.png)
 
-```Tip:: The LoRa Node and USB-UART module are connect as below *(if the LoRa Node is powered via USB or battery, the UART mode's 3.3 / 5V pin do not need connect, just need TXD, RXD, GND).
+- Connect the board and USB-UART module correctly.
+
+```Tip:: The LoRa Node and USB-UART module are connect as below (if the LoRa Node is powered via USB or battery, the UART mode&#39;s 3.3 / 5V pin do not need connect, just need TXD, RXD, GND).
 
 ```
 
