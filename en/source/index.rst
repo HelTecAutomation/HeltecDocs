@@ -7,7 +7,7 @@ Content:
 --------
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 3
    :glob:
    :caption: CubeCell
    
@@ -21,7 +21,7 @@ Content:
    Frequently Asked Questions <cubecell/frequently_asked_questions>
    
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 3
    :glob:
    :caption: ESP32 + LoRa
 
@@ -33,11 +33,11 @@ Content:
    esp32/wireless_stick/index.rst
    esp32/wireless_stick_lite/index.rst
    esp32/wireless_shell/index.rst
-   View Limited Technical Data<esp32/view_limited_technical_data>
+   View Limited Technical Data <esp32/view_limited_technical_data>
    Frequently Asked Questions <esp32/frequently_asked_questions>
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 3
    :glob:
    :caption: STM32 + LoRa
    
@@ -49,7 +49,7 @@ Content:
    Frequently Asked Questions <stm32/frequently_asked_questions>
    
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 3
    :glob:
    :caption: General Docs
 
