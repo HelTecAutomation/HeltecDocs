@@ -29,10 +29,11 @@ No matter what LoRa management platform is used, DevEui, AppKey, etc. parameters
 
 ## Config steps
 
-The LoRaWAN example code of LoRa Node 151 is a CubeIDE project, here is the basic config steps.
+The LoRaWAN example code of LoRa Node is a STM32CubeIDE project, here is the basic config steps.
 
-1. Download and correctly install `STM32CubeIDE` and `STM32CubeProgramme`.
-2. Double click `.project` document, open project
+- Download and install `STM32CubeIDE` and `STM32CubeProgramme` correctly.
+
+- Double click `.project` document, open project
 
 The first time you run, may have the following dialog box will, click Yes and then OK.
 
@@ -42,20 +43,21 @@ The first time you run, may have the following dialog box will, click Yes and th
 
 &nbsp;
 
-3. Modify `DEVICE_EUI`, `APPLICATION_KEY`, `APPLICATION_EUI` in the `Commissioning.h` file according to your needs
+- Modify `DEVICE_EUI`, `APPLICATION_KEY`, `APPLICATION_EUI` in the `Commissioning.h` file according to your needs
 
 ![](img/config_parameter/03.png)
 
-Note this macro definition:
+- Note this macro definition:
 
-- OVER_THE_AIR_ACTIVATION -- 1：OTAA mode
-- OVER_THE_AIR_ACTIVATION -- 0：ABP mode
+  - OVER_THE_AIR_ACTIVATION -- 1：OTAA mode
+
+  - OVER_THE_AIR_ACTIVATION -- 0：ABP mode
 
 ![](img/config_parameter/07.png)
 
 &nbsp;
 
-4. Set the working bands in the macro definition.(Press `alt` and `enter`  keys to enter the interface)
+- Set the working bands in the macro definition.(Press `alt` and `enter`  keys to enter the interface)
 
 ![](img/config_parameter/04.png)
 
@@ -71,7 +73,7 @@ The content in the red box can only be one of the following bands:
 
 &nbsp;
 
-5. Ensure that the listening frequency of the gateway is the same as the transmitting frequency of the node
+- Ensure that the listening frequency of the gateway is the same as the transmitting frequency of the node
 
 The code for the node transmit frequency is in the `LoRaMac.c` file.
 

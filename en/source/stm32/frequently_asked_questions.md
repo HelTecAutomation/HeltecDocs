@@ -12,4 +12,4 @@ This page contains the most frequently questions from user. if this page's detai
 - Use ST-LINK.
   - Make sure that the board is connected to ST-LINK correctly.
 
-Please refer to this document:[Download Firmware]().
+Please refer to the following documents:[LoRa Node 151 download firmware](), [Turtle Board download firmware]().
