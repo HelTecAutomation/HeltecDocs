@@ -13,22 +13,24 @@ Everyone knows that `float` data occupies 4 bytes in memory, and `unsigned int` 
 
 In the `Applications -> Node name -> Payload Formats -> decoder` section, add following `js` script:
 
-`function Decoder(bytes, port) {`
+```js
+function Decoder(bytes, port) {
 
-  `function bytesToFloat(bytes) {`
-    `//LSB Format (least significant byte first).`
-    `var bits = bytes[3]<<24 | bytes[2]<<16 | bytes[1]<<8 | bytes[0];`
-    `var sign = (bits>>>31 === 0) ? 1.0 : -1.0;`
-    `var e = bits>>>23 & 0xff;`
-    `var m = (e === 0) ? (bits & 0x7fffff)<<1 : (bits & 0x7fffff) | 0x800000;`
-    `var f = sign * m * Math.pow(2, e - 150);`
-    `return f;`
-  `}`  
+  function bytesToFloat(bytes) {
+    //LSB Format (least significant byte first).
+    var bits = bytes[3]<<24 | bytes[2]<<16 | bytes[1]<<8 | bytes[0];
+    var sign = (bits>>>31 === 0) ? 1.0 : -1.0;
+    var e = bits>>>23 & 0xff;
+    var m = (e === 0) ? (bits & 0x7fffff)<<1 : (bits & 0x7fffff) | 0x800000;
+    var f = sign * m * Math.pow(2, e - 150);
+    return f;
+  }  
 
-  `return {`
-    `temp: bytesToFloat(bytes.slice(0, 4))`
-  `};`
-`}`
+  return {
+    temp: bytesToFloat(bytes.slice(0, 4))
+  };
+}
+```
 
 ![](img/decode_payload/01.png)
 
