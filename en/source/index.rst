@@ -58,4 +58,5 @@ Content:
    Establish Serial Connection <general/establish_serial_connection>
    LoRaWAN Example Sub-Band Usage <general/sub_band_usage>
    Subscribe MQTT  Messages <general/subscribe_mqtt_messages>
+   Decode LoRaWAN payload <general/decode_payload>
 
