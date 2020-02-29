@@ -92,7 +92,7 @@ static void PrepareTxFrame( uint8_t port )
 ```
 #### Why convert data to byte?
 
-Everyone knows that float data occupies 4 bytes in memory, and unsigned int data occupies 2 bytes. Suppose you have a very accurate sensor, for example, the measured data is 12.34567890987654321, if send this data via string like `string data = ["12.34567890987654321"]`, it will spend 20 bytes *(Max payload in each transmit is 64 bytes)*. but if transmit in byte `41 45 87 E7`, only spend 4 bytes.
+Everyone knows that float data occupies 4 bytes in memory, and unsigned int data occupies 2 bytes. Suppose you have a very accurate sensor, for example, the measured data is 12.34567890987654321, if send this data via string like `char data[] = "12.34567890987654321"`, it will spend 20 bytes *(Max payload in each transmit is 64 bytes)*. but if transmit in byte `41 45 87 E7`, only spend 4 bytes.
 
 ## External resources
 
