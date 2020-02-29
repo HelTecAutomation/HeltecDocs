@@ -8,7 +8,7 @@ STM32 is a powerfull SoC with Ultra-low-power 32-bit MCU,The benefit of "STM32 +
 -  Multiple bus interfaces:USARTx3,SPIx2,I2Cx2;
 -  Powerful computing skills;
 -  Power mananagement system and Li-Po support;
--  Multiple general GPIO
+-  Multiple general GPIOs
 
 .. toctree::
     :maxdepth: 2
@@ -16,6 +16,5 @@ STM32 is a powerfull SoC with Ultra-low-power 32-bit MCU,The benefit of "STM32 +
     Quick Start <quick_start>
     LoRaWAN <lorawan/index>
     LoRa Node 151<lora_node_151/index.rst>
-    LoRa Kit 151<lora_kit_151/index>
     Turtle Board<turtle_board/index>
     Frequently Asked Questions <frequently_asked_questions>
