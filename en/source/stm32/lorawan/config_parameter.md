@@ -7,13 +7,13 @@
 No matter what LoRa management platform is used, DevEui, AppKey, etc. parameters are must needed. And ensure that it is consistent with the relevant settings on the server.
 
 - **The following parameters are essential for OTAA mode:**
-  - [DevEui](#deveui) -- Mote device IEEE EUI (big endian), 8 bytes;
-  - [AppEui](#appeui) -- Application IEEE EUI (big endian), 8 bytes;
-  - [AppKey](appkey) -- AES encryption/decryption cipher application key, 16 bytes;
+  - DevEui -- Mote device IEEE EUI (big endian), 8 bytes;
+  - AppEui -- Application IEEE EUI (big endian), 8 bytes;
+  - AppKey -- AES encryption/decryption cipher application key, 16 bytes;
 - **The following parameters are essential for ABP mode:**
-  - [NwkSKey](nwkskey) -- AES encryption/decryption cipher network session key, 16 bytes;
-  - [AppSKey](appskey) -- AES encryption/decryption cipher application session key, 16 bytes;
-  - [DevAddr](devaddr) -- Device address on the network (big endian), uint32_t;
+  - NwkSKey -- AES encryption/decryption cipher network session key, 16 bytes;
+  - AppSKey -- AES encryption/decryption cipher application session key, 16 bytes;
+  - DevAddr -- Device address on the network (big endian), uint32_t;
 
 &nbsp;
 
@@ -57,7 +57,7 @@ The first time you run, may have the following dialog box will, click Yes and th
 
 &nbsp;
 
-- Set the working bands in the macro definition.(Press `alt` and `enter`  keys to enter the interface)
+- Set the working bands in the macro definition.(Right-click the project to open `Properties`)
 
 ![](img/config_parameter/04.png)
 

@@ -1,12 +1,12 @@
 # Download Firmware
 
-&nbsp;
-
 ## Via DFU Mode
+
+STM32L151CCU6 had already included DFU Bootloader, it means just need a Micro USB cable, users can download .elf/.bin files into the board.
 
 - How to access DFU mode.
 
-  - If the circuit board is not connected to the computer —— press the "USER" button of the Lora node before inserting it into any USB port of the computer (press the “USER"  key all the time before inserting, and release it after connecting to the USB port)
+  - If the board is not connected to the computer —— press the "USER" button of the Lora node before inserting it into any USB port of the computer (press the “USER"  key all the time before inserting, and release it after connecting to the USB port)
   - If the board had connected to the computer —— Keep the “USER” button pressed → Press the "RST" button → Release the "RST" button → Release the "USER" button.
 
 - Download firmware.
@@ -15,7 +15,7 @@
 
   ![](img/download_firmware/03.png)
 
-  Open a .hex/.bin file and click the "Download" icon.
+  Open a .elf/.bin file and click the "Download" icon.
 
   ![](img/download_firmware/04.png)
 

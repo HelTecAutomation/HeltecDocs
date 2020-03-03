@@ -1,18 +1,16 @@
 # View Limited Technical Data
 
-## Schematic Diagram
+## Get Chip ID
 
-```Tip:: Some schematic diagrams are restrictive technical data,it will become downloadable after purchase.Please refer to the following steps.
+Get chip ID of ESP32,please refer to the following steps.
 
-```
-
-1.Choose an example from menu `File -- Examples -- ESP32 -- ChipID -- GetChipID`.
+- Choose an example from menu `File -- Examples -- ESP32 -- ChipID -- GetChipID`.
 
 ![](img/view_limited_technical_data/01.png)
 
 &nbsp;
 
-2.Upload the code,open serial port,copy the Chip ID and open this link  [http://www.heltec.cn/search/](http://www.heltec.cn/search/).
+- Upload the code,open serial port,you can see the Chip ID.
 
 ![](img/view_limited_technical_data/02.png)
 
@@ -20,13 +18,19 @@ You can also use this simple example to get your Chip ID.  [get Chip ID](https:/
 
 &nbsp;
 
-3.Input the Chip ID,click `Confirm` .
+## Get Schematic Diagram
+
+Some schematic diagrams are restrictive technical data,it will become downloadable after purchase.Please refer to the following steps.
+
+- Copy the Chip ID and open this link  [http://www.heltec.cn/search/](http://www.heltec.cn/search/).
+
+- Input the Chip ID,click `Confirm` .
 
 ![](img/view_limited_technical_data/03.png)
 
 &nbsp;
 
-4.You can see some informations about this board,click`Relevant Resource` ，you can see the Pinout diagram,open the `limited` folder,you can see the Schematic diagram.
+- You can see some informations about this board,click`Relevant Resource` ，you can see the Pinout diagram,open the `limited` folder,you can see the Schematic diagram.
 
 ![](img/view_limited_technical_data/04.png)
 

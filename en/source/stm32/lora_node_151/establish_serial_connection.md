@@ -4,6 +4,10 @@ The LoRa Node can print debugging information through USB CDC (USB Virtual Seria
 
 ## Use UART
 
+- Right-click the project to open `Properties`.
+
+![](img/establish_serial_connection/07.png)
+
 - Add `USE_DEBUGGER` in macro definitions.
 
 ![](img/establish_serial_connection/04.png)
@@ -22,14 +26,22 @@ The LoRa Node can print debugging information through USB CDC (USB Virtual Seria
 
 ![](img/establish_serial_connection/06.png)
 
+- Open serial port.
+
 ![](img/establish_serial_connection/02.png)
 
 &nbsp;
 
 ## Use virtual serial port
 
-Connect LoRa Node to computer via a Micro USB cable. Add both `USB_VCP` and `USE_DEBUGGER`  in macro definitions.
+- Right-click the project to open `Properties`.
+
+![](img/establish_serial_connection/07.png)
+
+- Add `USB_VCP` and `USE_DEBUGGER`  in macro definitions. Compile and download firmware.
 
 ![](img/establish_serial_connection/05.png)
+
+- Connect LoRa Node to computer via a Micro USB cable and open serial port.
 
 ![](img/establish_serial_connection/03.png)

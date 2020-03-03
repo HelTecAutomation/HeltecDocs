@@ -2,7 +2,7 @@
 
 In this document, all operations and tests must be performed with a standard [LoRaWAN Gateway](https://heltec.org/proudct_center/lora/lora-gateway/), and at least have 8 channels!
 
-Before this operation, please read this document carefully: **[“STM32 + LoRa” Node Preparation & Config Parameters]() .**
+Before this operation, please read this document carefully: **[“STM32 + LoRa” Node Preparation & Config Parameters](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/lorawan/config_parameter.html#) .**
 
 &nbsp;
 
@@ -16,7 +16,7 @@ Register a new device in TTN's "Applications" page. The `Device ID`, `Device EUI
 
 ![](img/connect_to_gateway/02.png)
 
-Correctly config LoRaWAN parameters for STM32 LoRa node, please refer to [this document](). If all goes well, we will be able to see Device is alive in "DEVICE OVERVIEW".
+Config LoRaWAN parameters for STM32 LoRa node correctly, please refer to [this document](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/lorawan/config_parameter.html#). If all goes well, we will be able to see Device is alive in "DEVICE OVERVIEW".
 
 ![](img/connect_to_gateway/03.png)
 

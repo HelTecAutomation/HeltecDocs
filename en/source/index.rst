@@ -37,7 +37,7 @@ Content:
    Frequently Asked Questions <esp32/frequently_asked_questions>
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :glob:
    :caption: STM32 + LoRa
    
