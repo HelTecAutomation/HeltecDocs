@@ -79,4 +79,4 @@ The code for the node transmit frequency is in the `LoRaMac.c` file.
 
 Now, if download the program into your board, if everything is normal, it should be able to run.
 
-- You may need: How to Download Firmware into STM32 LoRa Node([LoRa Node 151](), [Turtle Board]()).
+- You may need: How to Download Firmware into STM32 LoRa Node([LoRa Node 151](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/lora_node_151/download_firmware.html), [Turtle Board](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/turtle_board/download_firmware.html)).

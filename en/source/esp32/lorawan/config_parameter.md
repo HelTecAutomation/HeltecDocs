@@ -13,7 +13,7 @@
 
 ### Installing Library
 ----------
-We provided a ESP32 LoRaWAN library, which migration from the [LoRaMac-node]() library:
+We provided a ESP32 LoRaWAN library, which migration from the [LoRaMac-node](https://github.com/Lora-net/LoRaMac-node) library:
 
 [https://github.com/HelTecAutomation/ESP32_LoRaWAN](https://github.com/HelTecAutomation/ESP32_LoRaWAN)
 
@@ -23,7 +23,7 @@ Choose one of the following method to install this library:
 
 2. clone this git repository into your sketchbook/libraries folder.
 
-  For more information, see https://www.arduino.cc/en/Guide/Libraries.
+  For more information, see [https://www.arduino.cc/en/Guide/Libraries](https://www.arduino.cc/en/Guide/Libraries).
 
 
 ## Configure Parameters

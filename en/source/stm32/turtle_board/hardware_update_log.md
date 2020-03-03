@@ -12,7 +12,7 @@
 
 - Schematic diagram
 
-  The schematic diagram of Wireless Shell is restricted technical data,it will become downloadable after purchase.Please read this document:[View Limited Technical Data]() .
+  Due to technical reasons, the schematic diagram of Turtle Board is not open to the public. Please understand.
   
   
 
