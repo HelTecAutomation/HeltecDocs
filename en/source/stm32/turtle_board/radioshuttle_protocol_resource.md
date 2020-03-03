@@ -23,13 +23,13 @@
   - Narrow bandwidths allow for a longer range
   - Automatic transmitting power adjustment saves energy and reduces traffic on the neighboring stations
 
-- Support multiple MCU boards
+- **Support multiple MCU boards**
 
   - The [Turtle](https://www.radioshuttle.de/en/turtle-en/turtle-board-en/) board
   - The [ECO Power](https://www.radioshuttle.de/en/esp32-eco-power-en/esp32-eco-power-board-en/) board
   - The [LongRa](https://www.radioshuttle.de/en/longra-en/board-en/) board
 
-- Supported multiple systems
+- **Supported multiple systems**
 
   - Arduino, Arduino Zero or newer
   - ARM Mbed OS, supported MCUs (e.g. STM32L0, STM32L4)

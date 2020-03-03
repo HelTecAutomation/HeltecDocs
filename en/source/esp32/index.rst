@@ -22,7 +22,7 @@ ESP32 is a powerfull SoC with 240MHz Tensilica LX6 dual-core & 1 ULP core, 600 D
     
     Quick Start <quick_start>
     Maximum Distance Test <distance_test>
-    LoRaWAN <lorawan/index>
+    LoRaWAN <lorawan/index> 
     WiFi LoRa 32 <wifi_lora_32/index.rst>
     Wireless Stick <wireless_stick/index.rst>
     Wireless Stick Lite<wireless_stick_lite/index.rst>

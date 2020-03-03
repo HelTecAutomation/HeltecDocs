@@ -19,8 +19,20 @@ Content:
    cubecell/htcc-ab01/index
    cubecell/htcc-ac01/index
    Frequently Asked Questions <cubecell/frequently_asked_questions>
-   
+
 .. toctree::
+   :maxdepth: 3
+   :glob:
+   :caption: STM32 + LoRa
+   
+   stm32/index
+   Quick Start <stm32/quick_start>
+   stm32/lorawan/index
+   stm32/lora_node_151/index
+   stm32/turtle_board/index
+   Frequently Asked Questions <stm32/frequently_asked_questions>
+ 
+ .. toctree::
    :maxdepth: 3
    :glob:
    :caption: ESP32 + LoRa
@@ -35,19 +47,7 @@ Content:
    esp32/wireless_shell/index.rst
    View Limited Technical Data <esp32/view_limited_technical_data>
    Frequently Asked Questions <esp32/frequently_asked_questions>
-
-.. toctree::
-   :maxdepth: 3
-   :glob:
-   :caption: STM32 + LoRa
-   
-   stm32/index
-   Quick Start <stm32/quick_start>
-   stm32/lorawan/index
-   stm32/lora_node_151/index
-   stm32/turtle_board/index
-   Frequently Asked Questions <stm32/frequently_asked_questions>
-   
+     
 .. toctree::
    :maxdepth: 3
    :glob:
