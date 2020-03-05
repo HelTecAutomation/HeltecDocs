@@ -44,8 +44,8 @@ Content:
    stm32/index
    Quick Start <stm32/quick_start>
    stm32/lorawan/index
-   stm32/lora_node_151/index
-   stm32/turtle_board/index
+   stm32/lora_node_151/index.rst
+   stm32/turtle_board/index.rst
    Frequently Asked Questions <stm32/frequently_asked_questions>
 
 .. toctree::

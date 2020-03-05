@@ -10,7 +10,6 @@ STM32 is a powerfull SoC with Ultra-low-power 32-bit MCU,The benefit of "STM32 +
 -  Power mananagement system and Li-Po support;
 -  Multiple general GPIOs
 
-
 .. toctree::
     :maxdepth: 2
     
