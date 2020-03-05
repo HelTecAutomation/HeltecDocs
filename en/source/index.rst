@@ -51,6 +51,26 @@ Content:
 .. toctree::
    :maxdepth: 3
    :glob:
+   :caption: ESP32 + Arduino
+   
+   esp32+arduino/index
+   Quick Start <esp32+arduino/quick_start>
+   esp32+arduino/wifi_kit_32/index
+   Frequently Asked Questions <esp32+arduino/frequently_asked_questions>
+
+.. toctree::
+   :maxdepth: 3
+   :glob:
+   :caption: ESP8266 + Arduino
+
+   esp8266+arduino/index
+   Quick Start <esp8266+arduino/quick_start>
+   esp8266+arduino/wifi_kit_8/index
+   Frequently Asked Questions <esp8266+arduino/frequently_asked_questions>
+
+.. toctree::
+   :maxdepth: 3
+   :glob:
    :caption: General Docs
 
    How to Install Git and Arduino <general/how_to_install_git_and_arduino>
