@@ -7,8 +7,13 @@ STM32 is a powerfull SoC with Ultra-low-power 32-bit MCU,The benefit of "STM32 +
 
 -  Multiple bus interfaces:USARTx3,SPIx2,I2Cx2;
 -  Powerful computing skills;
--  Power mananagement system and Li-Po support;
--  Multiple general GPIOs
+-  Power mananagement system and different types of batteries support;
+-  Multiple general GPIOs.
+
+.. tip::
+
+   This series boards also don't have an onboard USB-UART bridge. If plug it directly into a computer, it may prompt "Unrecognized USB device", which is normal.
+
 
 .. toctree::
     :maxdepth: 2
