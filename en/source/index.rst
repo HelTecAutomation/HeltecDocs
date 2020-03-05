@@ -29,23 +29,23 @@ Content:
    Quick Start <esp32/quick_start>
    esp32/lorawan/index
    Maximum Distance Test <esp32/distance_test>
-   esp32/wifi_lora_32/index.rst
-   esp32/wireless_stick/index.rst
-   esp32/wireless_stick_lite/index.rst
-   esp32/wireless_shell/index.rst
+   esp32/wifi_lora_32/index
+   esp32/wireless_stick/index
+   esp32/wireless_stick_lite/index
+   esp32/wireless_shell/index
    View Limited Technical Data <esp32/view_limited_technical_data>
    Frequently Asked Questions <esp32/frequently_asked_questions>
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :glob:
-   :caption: STM32+LoRa
+   :caption: STM32 + LoRa
 
    stm32/index
    Quick Start <stm32/quick_start>
    stm32/lorawan/index
-   stm32/lora_node_151/index.rst
-   stm32/turtle_board/index.rst
+   stm32/lora_node_151/index
+   stm32/turtle_board/index
    Frequently Asked Questions <stm32/frequently_asked_questions>
 
 .. toctree::
