@@ -39,6 +39,16 @@ Content:
 .. toctree::
    :maxdepth: 3
    :glob:
+   :caption: ESP32 + Arduino
+   
+   esp32+arduino/index
+   Quick Start <esp32+arduino/quick_start>
+   esp32+arduino/wifi_kit_32/index
+   Frequently Asked Questions <esp32+arduino/frequently_asked_questions>
+   
+.. toctree::
+   :maxdepth: 3
+   :glob:
    :caption: STM32 + LoRa
 
    stm32/index
@@ -47,16 +57,6 @@ Content:
    stm32/lora_node_151/index
    stm32/turtle_board/index
    Frequently Asked Questions <stm32/frequently_asked_questions>
-
-.. toctree::
-   :maxdepth: 3
-   :glob:
-   :caption: ESP32 + Arduino
-   
-   esp32+arduino/index
-   Quick Start <esp32+arduino/quick_start>
-   esp32+arduino/wifi_kit_32/index
-   Frequently Asked Questions <esp32+arduino/frequently_asked_questions>
 
 .. toctree::
    :maxdepth: 3
