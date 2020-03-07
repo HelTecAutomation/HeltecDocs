@@ -6,7 +6,7 @@
 
 ## Get LoRaWAN Example Code
 
-Some example code is restrictive technical data,it will become downloadable after purchase.Please refer to the following steps.
+Some example code is restrictive technical data, it will become downloadable after purchase.Please refer to the following steps.
 
 - Copy the Chip ID and open this link  [http://www.heltec.cn/search/](http://www.heltec.cn/search/).
 
@@ -14,7 +14,7 @@ Some example code is restrictive technical data,it will become downloadable afte
 
   ![](img/get_lorawan_example_code/01.png)
 
-- You can see some informations about this board,click`Relevant Resource` ，you can see the example code.
+- You can see some informations about this board, click`Relevant Resource` ，you can see the example code.
 
   ![](img/get_lorawan_example_code/02.png)
 

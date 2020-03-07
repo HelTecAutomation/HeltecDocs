@@ -25,7 +25,7 @@ STM32L151CCU6 had already included DFU Bootloader, it means just need a Micro US
 
 - How to connect to ST-LINK.
 
-  Connect the ST-LINK to the LoRa Node correctly,please refer to this picture.
+  Connect the ST-LINK to the LoRa Node correctly, please refer to this picture.
 
   ![](img/download_firmware/01.png)
 
@@ -35,7 +35,7 @@ STM32L151CCU6 had already included DFU Bootloader, it means just need a Micro US
 
 - Download firmware.
 
-  After connecting ST-LINK correctly,click on this icon.
+  After connecting ST-LINK correctly, click on this icon.
 
 ![](img/download_firmware/02.png)
 
