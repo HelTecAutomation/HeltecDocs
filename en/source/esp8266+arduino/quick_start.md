@@ -47,4 +47,4 @@ This section is used to verify that Arduino programming can be used and that the
 
 ![](img/quick_start/09.png)
 
-If the screen or serial port has output,it means that the board runs successfully!
+If the screen or serial port has output, it means that the board runs successfully!

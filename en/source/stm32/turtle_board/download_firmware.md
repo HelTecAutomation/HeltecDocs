@@ -19,7 +19,7 @@ STM32L432KC had already included DFU Bootloader, it means just need a Micro USB 
   
   ![](img/download_firmware/04.png)
   
-  ```Warning:: For Turtle Board, if you use &quot;STM32CubeProgrammer&quot; to download firmware, it may damage the bootloader of the Turtle Board, so we recommend using &quot;RadioShuttle STM32 Utility&quot;.
+  ```Warning:: For Turtle Board, if you use &amp;quot;STM32CubeProgrammer&amp;quot; to download firmware, it may damage the bootloader of the Turtle Board, so we recommend using &amp;quot;RadioShuttle STM32 Utility&amp;quot;.
   
   ```
   
@@ -35,7 +35,7 @@ STM32L432KC had already included DFU Bootloader, it means just need a Micro USB 
 
 - How to connect to ST-LINK.
 
-  Connect the ST-LINK to the LoRa Node correctly,please refer to this picture.
+  Connect the ST-LINK to the LoRa Node correctly, please refer to this picture.
 
   ![32](img/download_firmware/03.png)
 
@@ -49,7 +49,7 @@ STM32L432KC had already included DFU Bootloader, it means just need a Micro USB 
 
 - Download firmware.
 
-  After connecting ST-LINK correctly,click on this icon.
+  After connecting ST-LINK correctly, click on this icon.
   
   ![](img/download_firmware/06.png)
 
