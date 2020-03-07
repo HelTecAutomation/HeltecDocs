@@ -12,9 +12,7 @@ We suggest you confirm whether the `USB driver`, `Git` and `Arduino IDE` has ins
 
 ![](img/quick_start/02.png)
 
-Input last esp8266 board manager URL
-
-**Now the last board manager URL:**  https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/releases/download/0.0.4/package_heltec_esp8266_index.json
+**Input the last ESP32 package URL:** [http://resource.heltec.cn/download/package_heltec_esp8266_index.json](http://resource.heltec.cn/download/package_heltec_esp8266_index.json)
 
 ![](img/quick_start/03.png)
 

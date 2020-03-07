@@ -18,7 +18,7 @@ STM32 is a powerfull SoC with Ultra-low-power 32-bit MCU,The benefit of "STM32 +
 
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
 
     Quick Start <quick_start>
     LoRaWAN <lorawan/index.rst>
