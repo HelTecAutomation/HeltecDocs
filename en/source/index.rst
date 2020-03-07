@@ -78,4 +78,5 @@ Content:
    LoRaWAN Example Sub-Band Usage <general/sub_band_usage>
    Subscribe MQTT  Messages <general/subscribe_mqtt_messages>
    Decode LoRaWAN payload <general/decode_payload>
+   How To Config Rasberry Pi <general/how_to_config_raspberry_pi>
 
