@@ -1,4 +1,4 @@
-# How To Upload The TF Card Image Of Raspberry Pi, Configure WiFi Access, SSH Connection
+# How to Upload the TF Card Image of Raspberry Pi, Configure WiFi Access, SSH Connection
 
 ## 1.Prepare Related Tools
 - [SD Formatter](http://119.23.153.38/download/SD_Formatter.zip) *(It's not necessary，If you need to format the TF card with an existing Raspberry Pi image, You need this tool.)*
@@ -41,7 +41,7 @@ password：`raspberry` *（In Linux system, the process of entering password thr
 
 
 
-## 4.Connect To WIFI
+## 4.Connect to WIFI
 
 Enter the following command in putty:
 
@@ -60,7 +60,7 @@ Add WiFi configuration information at the end of it:
 
 
 
-## 5.Configure SSH To Realize LAN Login
+## 5.Configure SSH to Realize LAN Login
 
 `sudo raspi-config` Open the Raspberry Pi configuration menu；
 
