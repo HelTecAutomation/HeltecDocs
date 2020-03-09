@@ -32,10 +32,6 @@ This is the documentation for (`Heltec Automation <https://heltec.org>`_) produc
 .. _General Docs: general/index.html
 
 
-
-Content:
---------
-
 .. toctree::
    :hidden:
    :caption: CubeCell
@@ -76,7 +72,7 @@ Content:
    Frequently Asked Questions <stm32/frequently_asked_questions>
 
 .. toctree::
-   :hidden::
+   :hidden:
    :caption: ESP32 + Arduino
    
    esp32+arduino/index
