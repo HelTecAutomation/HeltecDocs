@@ -22,7 +22,7 @@ This is the documentation for (`Heltec Automation <https://heltec.org>`_) produc
 .. |STM32+LoRa| image:: img/03.png
 .. _STM32+LoRa: stm32/index.html
 
-.. |ESP32+Arduino| img/04.png
+.. |ESP32+Arduino| image:: img/04.png
 .. _ESP32+Arduino: esp32+arduino/index.html
 
 .. |ESP8266+Arduino| image:: img/05.png
@@ -36,8 +36,8 @@ This is the documentation for (`Heltec Automation <https://heltec.org>`_) produc
    :hidden:
    
    CUBECELL <cubecell/index>
-   ESP32 + LORA <esp32+lora/index>
-   STM32 + LORA <stm32+lora/index>
+   ESP32 + LORA <esp32/index>
+   STM32 + LORA <stm32/index>
    ESP32 + ARDUINO <esp32+arduino/index>
    ESP8266 + ARDUINO <esp8266+arduino/index>
    GENERAL DOCS <general/index>
