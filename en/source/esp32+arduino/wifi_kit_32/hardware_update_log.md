@@ -12,7 +12,7 @@
 
 &nbsp;
 
-### V2
+## V2
 
 ![](img/wifi_kit_32/02.png)
 
@@ -32,13 +32,13 @@
 
   - Turn OFF: `digitalWrite(21, HIGH);`
 
-- [Pin out diagram for V2](http://resource.heltec.cn/download/WiFi_Kit_32/WIFI%20Kit%2032_pinoutDiagram_V2.pdf);
-
-- [Schematic diagram for V2](http://resource.heltec.cn/download/WiFi_Kit_32/WIFI_Kit_32_Schematic_diagram_V2.PDF);
-
 - Circuit optimization, system more stable;
 
 - Better power manage system design.
+
+- [Pin out diagram for V2](http://resource.heltec.cn/download/WiFi_Kit_32/WIFI%20Kit%2032_pinoutDiagram_V2.pdf);
+
+- [Schematic diagram for V2](http://resource.heltec.cn/download/WiFi_Kit_32/WIFI_Kit_32_Schematic_diagram_V2.PDF);
 
 &nbsp;
 
@@ -46,6 +46,8 @@
 
 - 2019-10 public sale?
 - Fix battery voltage read can't work together with Wi-Fi bug, change battery voltage reading pin to GPI37 (use ADC1_1), please refer to this example: [https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/examples/ESP32/ADC_Read_Voltage/Battery_power/Battery_power.ino](https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/examples/ESP32/ADC_Read_Voltage/Battery_power/Battery_power.ino)
+- [Pin out diagram for V2.1]();
+- [Schematic diagram for V2.1](http://resource.heltec.cn/download/WiFi_Kit_32/WIFI_Kit_32_Schematic_diagram_V2.PDF);
 
 
 
