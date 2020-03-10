@@ -23,4 +23,4 @@ Relevant Offical Resources
 --------------------------
 
 - `Heltec ESP32 development framework source code <https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series>`_;
-- `Heltec ESP32 series Arduino library<https://github.com/HelTecAutomation/Heltec_ESP32>`_;
+- `Heltec ESP32 series Arduino library <https://github.com/HelTecAutomation/Heltec_ESP32>`_;

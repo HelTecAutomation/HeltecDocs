@@ -10,5 +10,6 @@ WiFi Kit 32 relevant documents.
     
     
 Relevant Offical Resources
-   * AutoCAD diagram:`http://resource.heltec.cn/download/WiFi_Kit_32/lora32%26kit32.dwg <http://resource.heltec.cn/download/WiFi_Kit_32/lora32%26kit32.dwg>`_
-   * 3D diagram:`http://resource.heltec.cn/download/WiFi_Kit_32/lora32%26kit32.stl <http://resource.heltec.cn/download/WiFi_Kit_32/lora32%26kit32.stl>`_
+- `AutoCAD drawing <http://resource.heltec.cn/download/WiFi_Kit_32/lora32%26kit32.dwg>`_;
+- `3D drawing <http://resource.heltec.cn/download/WiFi_Kit_32/lora32%26kit32.stl>`_;
+- Pin out and schematic diagram, please refer to `WiFi Kit 32 Hardware Update Logs <hardware_update_log>`_.
