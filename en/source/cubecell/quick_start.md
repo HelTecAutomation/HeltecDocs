@@ -110,9 +110,15 @@ void loop() {
 }
 ```
 
+## Relevant Offical Resources
+
+- ASR650x - Arduino repository:[https://github.com/HelTecAutomation/ASR650x-Arduino](https://github.com/HelTecAutomation/ASR650x-Arduino)
+- CubeCell introduction page: [https://heltec.org/cubecell/](https://heltec.org/cubecell/)
+- AT command user manual:[http://resource.heltec.cn/download/CubeCell/CubeCell_Series_AT_Command_User_Manual_V0.2.pdf](http://resource.heltec.cn/download/CubeCell/CubeCell_Series_AT_Command_User_Manual_V0.2.pdf)
+
 ## External resources
 
-### Serial port cannot connected to Linux system?
+- **Serial port cannot connected to Linux system?**
 
 In the Linux system, If encounter the serial port cannot be connected. Please refer to this document:
 [https://playground.arduino.cc/Linux/All/#Permission](https://playground.arduino.cc/Linux/All/#Permission)

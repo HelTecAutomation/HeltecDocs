@@ -1,22 +1,26 @@
-# Heltec ESP32/ESP8266+WIFI Series Quick Start
+# Heltec ESP8266+WIFI Series Quick Start
 
 We suggest you confirm whether the `USB driver`, `Git` and `Arduino IDE` has installed first. If not, please view this two articles [establish serial connection](https://heltec-automation-docs.readthedocs.io/en/latest/general/establish_serial_connection.html) and [Install Git and Arduino IDE](https://heltec-automation-docs.readthedocs.io/en/latest/general/how_to_install_git_and_arduino.html).
 
 ## Setting Environment
 
-### Download Arduino-ESP32 Support
+### Via Arduino IDE
 
-- Open Arduino IDE, and click `File`->`Peferences`
+Only two steps to complete setting.
+
+**Step1. Download Arduino-ESP8266 Support**.
+
+- Open Arduino IDE, and click `File`->`Peferences`.
 
 ![](img/quick_start/01.png)
 
 ![](img/quick_start/02.png)
 
-**Input the last ESP32 package URL:** [http://resource.heltec.cn/download/package_heltec_esp8266_index.json](http://resource.heltec.cn/download/package_heltec_esp8266_index.json)
+**Input the last ESP8266 package URL:** [http://resource.heltec.cn/download/package_heltec_esp8266_index.json](http://resource.heltec.cn/download/package_heltec_esp8266_index.json)
 
 ![](img/quick_start/03.png)
 
-Click `Tools`->`Board:`->`Boards Manager...`, search `Heltec ` in the new pop-up dialog, then click `install`
+- Click `Tools`->`Board:`->`Boards Manager...`, search `Heltec ` in the new pop-up dialog, then click `install`.
 
 ![](img/quick_start/04.png)
 
@@ -24,10 +28,10 @@ Click `Tools`->`Board:`->`Boards Manager...`, search `Heltec ` in the new pop-up
 
 The source code of Heltec ESP series (ESP32 & ESP8266) framework available here: [https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series)
 
-### Download the Heltec ESP8266 Library
+**Step2. Download the Heltec ESP8266 Library**
 
-Open Arduino IDE, then Select `Sketch`->`Include Library`->`Manage Libraries...`
-Search `Heltec ESP8266` and install it
+- Open Arduino IDE, then Select `Sketch`->`Include Library`->`Manage Libraries...`
+  Search `Heltec ESP8266` and install it.
 
 !![](img/quick_start/06.png)
 
@@ -35,11 +39,43 @@ Search `Heltec ESP8266` and install it
 
 The source code of `Heltec ESP8266` library available here:[https://github.com/HelTecAutomation/Heltec_ESP8266](https://github.com/HelTecAutomation/Heltec_ESP8266)
 
+### Via Git
+
+1. Download and install Git from [git-scm.com](https://git-scm.com/downloads).
+
+```Tip:: If you don't install Git, go to "https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series" and choose "Download ZIP", Unzip the file to "C:\Users\Administrator\Documents\Arduino\hardware". Skip step two to step four.
+
+```
+
+![](img/quick_start/10.png)
+
+2. Enter the path of `C:\Users\Administrator\Documents\Arduino\hardware  ` , Right click and Start ```Git Bash``` .
+
+3. Input `git clone https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series.git` and wait for it to download properly.
+
+![](img/quick_start/11.png)
+
+4. Open`C:\Users\Administrator\Documents\Arduino\hardware\WiFi_Kit_series\esp8266\tools` and run `get.py`.
+
+![](img/quick_start/12.png)
+
+5. When `get.exe` finishes, you should see the following files in the directory.
+
+![](img/quick_start/13.png)
+
+```Tip:: If the download fails, you need to run "get.py" again.
+
+```
+
+The Heltec ESP32 Library has been downloaded through the above steps, you can see it in the `esp32` folder.
+
+![](img/quick_start/14.png)
+
 ## Example
 
 This section is used to verify that Arduino programming can be used and that the environment is configured successfully.
 
-- Select `Wifi Kit 8` development board
+- Select `Wifi Kit 8` development board.
 
 ![](img/quick_start/08.png)
 
