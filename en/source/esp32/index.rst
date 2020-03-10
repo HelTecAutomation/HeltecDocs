@@ -29,3 +29,10 @@ ESP32 is a powerfull SoC with 240MHz Tensilica LX6 dual-core & 1 ULP core, 600 D
     Wireless Shell <wireless_shell/index.rst>
     View Limited Technical Data <view_limited_technical_data>
     Frequently Asked Questions <frequently_asked_questions>
+    
+Relevant Offical Resources
+--------------------------
+
+- `Heltec ESP32 development framework source code <https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series>`_;
+- `Heltec ESP32 series Arduino library<https://github.com/HelTecAutomation/Heltec_ESP32>`_;
+- `LoRaWAN-Node protocol Arduino library <https://github.com/HelTecAutomation/ESP32_LoRaWAN>`_.
