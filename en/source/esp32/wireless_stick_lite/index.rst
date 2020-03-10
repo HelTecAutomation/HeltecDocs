@@ -10,4 +10,4 @@ Wireless Stick relevant documents.
     
     
 Relevant Offical Resources
-   * AutoCAD diagram:`http://resource.heltec.cn/download/Wireless_Stick_Lite/Wireless_Stick_Lite.dwg<http://resource.heltec.cn/download/Wireless_Stick_Lite/Wireless_Stick_Lite.dwg>`_
+   * AutoCAD diagram:`http://resource.heltec.cn/download/Wireless_Stick_Lite/Wireless_Stick_Lite.dwg <http://resource.heltec.cn/download/Wireless_Stick_Lite/Wireless_Stick_Lite.dwg>`_

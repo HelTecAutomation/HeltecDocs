@@ -10,4 +10,4 @@ CubeCell Dev-Board HTCC-AB01 relevant documents.
     
     
 Relevant Offical Resources
-   * AutoCAD diagram:`http://resource.heltec.cn/download/CubeCell/CubeCell_CAD2014.dwg<http://resource.heltec.cn/download/CubeCell/CubeCell_CAD2014.dwg>`_
+   * AutoCAD diagram:`http://resource.heltec.cn/download/CubeCell/CubeCell_CAD2014.dwg <http://resource.heltec.cn/download/CubeCell/CubeCell_CAD2014.dwg>`_
