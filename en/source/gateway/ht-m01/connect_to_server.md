@@ -1,67 +1,90 @@
-# How to connect HT-M01 to TTN(The-Things-Network)
+# Connect HT-M01 to a LoRa Server
 
--------------------------------------------------------------------------------------------------------
+## Summary
 
-## CONTENT
+This article aims to describe how to connect [HT-M01 Gateway](https://heltec.org/project/ht-m01) to a LoRa server, such as [TTN](https://www.thethingsnetwork.org/), [ChripStack](https://www.chirpstack.io/), which facilitates secondary development and rapid deployment of LoRa devices.
 
-1. [Overview](#overview)
-2. [Preparation](#preparation)
-3. [Connect to TTN](#connect-to-ttn)
-
-
-
-## Overview
-
-​		The Things Network, commonly known as TTN, is an open source infrastructure aiming at providing a free LoRaWAN network cover. 
-
-​		This article aims to describe how to connect [HT-M01 Gateway](https://heltec.org/project/ht-m01) to TTN, which facilitates secondary development and rapid deployment of LoRa devices.
-
-## Preparation
-- First we need a TTN registered account, if there is no account, please click [here](https://console.thethingsnetwork.org/), enter the TTN official website and register your account.
-- Connect the HT-M01 to a Raspberry Pi (Linux) or Windows computer.
+Before all operation, make sure the HT-M01 is runing well with a Raspberry Pi (Linux) or Windows computer. If not, please refer to this [HT-M01 Quick Start](./quick_start.md) document.
 
 ## Connect to TTN
 
-Select ```Gateway``` in the TTN's console.
+### Register a LoRa gateway in TTN
 
-<img src="img\how_to_connect_ht-m01_to_ttn-the-things-network\01.png">
+Create and active an account in TTN. Select ```Gateway``` in the [console](https://console.thethingsnetwork.org/) page.
+
+![](img/connect_to_server/01.png)
 
 Fill in the HT-M01 information as shown below and complete the addition.
 
-<img src="img\how_to_connect_ht-m01_to_ttn-the-things-network\02.png">
+![](img/connect_to_server/02.png)
 
-- If you are using packet_forwarder_UI in Windows® and forwarding the message to the TTN, you need to:
+- **Gateway EUI** -- The unique ID of HT-M01 gateway;
+- **I'm using the legacy packet forwarder** -- Must select this;
+- **Frequency Plan** -- Must matach the LoRa band configuration (`global_conf.json`) in HT-M01.
+- **Router** -- Must use the default router allocated by TTN system.
 
-1. Select the frequency band.
-2. Check the box to the contents.
-3. Click OK to start forwarding.
-
-<img src="img\how_to_connect_ht-m01_to_ttn-the-things-network\03.png">
-
-- If you are using packet_forwarder forwarding in Raspberry Pi (Linux)
-  The global_conf file needs a few changes. To edit it type:
+``` Tip:: That four ponit are the key to success connection with TTN.
 
 ```
+
+
+
+### Connecting
+
+In the HT-M01 gateway, only need config the server address and port. The router addresses for different region:
+
+[https://www.thethingsnetwork.org/docs/gateways/packet-forwarder/semtech-udp.html#router-addresses](https://www.thethingsnetwork.org/docs/gateways/packet-forwarder/semtech-udp.html#router-addresses)
+
+#### HT-M01 in Linux (Raspberry Pi)
+
+Fix parameters in `global_conf.json`:
+
+```shell
   nano /home/pi/lora/packet_forwarder/lora_pkt_fwd/global_conf.json/global_conf.json
 ```
-  At the end of the file make these changes:
+
+  At the end of the `global_conf.json`, make these changes:
 
 
-  ```
-  “gateway_ID”: “YOUR_GATEWAY_ID”,
-  “server_address”: “router.eu.thethings.network”,
+  ```json
+  “gateway_ID”: “XXXXXXXXXXXXXXXX”, /*Your gateway ID, 16 characters*/
+  “server_address”: “router.eu.thethings.network”, /*The router addresses need matach your region*/
   “serv_port_up”: 1700,
   “serv_port_down”: 1700,
   ```
 
-  Where **"YOUR_GATEWAY_ID"** fills in the Gateway ID obtained when configuring the Raspberry Pi.
+`ctrl + O` to save and `ctrl + X` to exit, and restart the service in Raspberry Pi:
 
-  Restart the forwarding service after the change is complete.
-
-  Going back to TTN, you will get this:
-
-<img src="img\how_to_connect_ht-m01_to_ttn-the-things-network\04.png">
+```shell
+sudo systemctl restart lrgateway
+```
 
 
 
-At this point, the HT-M01 has successfully connected to the TTN.
+#### HT-M01 in Windows
+
+Select `Use a cloud network`, and fill in correct `server address`, keep `Port` default 1700.
+
+![](img/connect_to_server/03.png)
+
+Click `OK` and `Start Packet Forwarder`.
+
+![](img/connect_to_server/05.png)
+
+&nbsp;
+
+Now go back to TTN, it is runing:
+
+![](img/connect_to_server/04.png)
+
+&nbsp;
+
+## Connect to ChripStack server
+
+[ChripStack](https://www.chirpstack.io/) is the most popular LoRa server open source project, widely used in many fields, and also the best choise for a private LoRa server.
+
+- ChripStack Installation guide: [https://www.chirpstack.io/overview/](https://www.chirpstack.io/overview/)
+- ChripStack support forum: [https://forum.chirpstack.io/](https://forum.chirpstack.io/)
+
+
+
