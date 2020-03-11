@@ -8,7 +8,6 @@ WiFi Kit 32 relevant documents.
     
     Hardware Update Logs <hardware_update_log>
     
-    
 Relevant Offical Resources
 --------------------------
 

@@ -18,3 +18,9 @@ ESP8266 is a powerfull SoC with 160MHz Tensilica L06 32-bits. The benefit of "ES
     Quick Start <quick_start>
     WiFi Kit 8 <wifi_kit_8/index.rst>
     Frequently Asked Questions <frequently_asked_questions>
+    
+Relevant Offical Resources
+--------------------------
+
+- `Heltec ESP8266 development framework source code <https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series>`_;
+- `Heltec ESP8266 series Arduino library <https://github.com/HelTecAutomation/Heltec_ESP8266>`_.

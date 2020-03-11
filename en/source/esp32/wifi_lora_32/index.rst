@@ -8,7 +8,9 @@ WiFi LoRa 32 relevant documents.
     
     Hardware Update Logs <hardware_update_log>
     
-    
 Relevant Offical Resources
-   * AutoCAD diagram:`http://resource.heltec.cn/download/WiFi_LoRa_32/lora32%26kit32.dwg <http://resource.heltec.cn/download/WiFi_LoRa_32/lora32%26kit32.dwg>`_
-   * 3D diagram:`http://resource.heltec.cn/download/WiFi_LoRa_32/lora32%26kit32.stl <http://resource.heltec.cn/download/WiFi_LoRa_32/lora32%26kit32.stl>`_
+--------------------------
+
+- `AutoCAD drawing <http://resource.heltec.cn/download/WiFi_LoRa_32/lora32%26kit32.dwg>`_;
+- `3D drawing <http://resource.heltec.cn/download/WiFi_LoRa_32/lora32%26kit32.stl>`_;
+- Pin out and schematic diagram, please refer to `WiFi LoRa 32 Hardware Update Logs <https://heltec-automation-docs.readthedocs.io/en/latest/esp32/wifi_lora_32/hardware_update_log.html>`_.

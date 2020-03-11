@@ -34,5 +34,9 @@ features:
     HTCC-AC01 Capsule Sensor <htcc-ac01/index>
     Frequently Asked Questions <frequently_asked_questions>
 
+Relevant Offical Resources
+--------------------------
 
+- `ASR650x - Arduino repository <https://github.com/HelTecAutomation/ASR650x-Arduino>`_;
+- `CubeCell introduction page <https://heltec.org/cubecell/>`_.
 
