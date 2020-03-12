@@ -86,5 +86,52 @@ Now go back to TTN, it is runing:
 - ChripStack Installation guide: [https://www.chirpstack.io/overview/](https://www.chirpstack.io/overview/)
 - ChripStack support forum: [https://forum.chirpstack.io/](https://forum.chirpstack.io/)
 
+### ChirpStack Gateway Bridge
 
+**One thing need attention!** the ChripStack need a special service named `Gateway Bridge`, which converts LoRa® Packet Forwarder protocols into a ChirpStack Network Server [common data-format](https://github.com/brocaar/chirpstack-network-server/blob/master/api/gw/gw.proto) (JSON and Protobuf).
+
+the `Gateway Bridge` service can running on the Raspberry Pi or the ChirpStack server. We recommend install it on the Raspberry Pi.
+
+Install ChirpStack Gateway Bridge: [https://www.chirpstack.io/gateway-bridge/install/debian/](https://www.chirpstack.io/gateway-bridge/install/debian/)
+
+Starting the ChirpStack Gateway Bridge:
+
+```shell
+sudo systemctl start chirpstack-gateway-bridge
+```
+
+### Connecting
+
+Modify the parameters of the `global_conf.json` file:
+
+```shell
+  sudo nano /home/pi/lora/packet_forwarder/lora_pkt_fwd/global_conf.json/global_conf.json
+```
+
+  At the end of the `global_conf.json`, make these changes:
+
+```json
+  “gateway_ID”: “XXXXXXXXXXXXXXXX”, /*Your gateway ID, 16 characters*/
+/*
+   - If the ChirpStack Gateway Bridge runing on Raspberry Pi, server_address should be "localhost";
+   - If the ChirpStack Gateway Bridge runing on Raspberry Pi, server_address should be the ChirpStack's IP address.
+*/
+  “server_address”: “localhost”,
+  “serv_port_up”: 1700,
+  “serv_port_down”: 1700,
+```
+
+Gateway Bridge running on Raspberry Pi, the data flow 
+
+`ctrl + O` to save and `ctrl + X` to exit, and restart the service in Raspberry Pi:
+
+```shell
+sudo systemctl restart lrgateway
+```
+
+&nbsp;
+
+Now, back to ChirpStack server, it is running.
+
+![](img/connect_to_server/06.png)
 
