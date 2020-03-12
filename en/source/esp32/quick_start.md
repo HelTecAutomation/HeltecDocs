@@ -2,7 +2,7 @@
 
 We suggest you confirm whether the `USB driver`, `Git` and `Arduino IDE` has installed first. If not, please view this two articles [establish serial connection](https://heltec-automation-docs.readthedocs.io/en/latest/general/establish_serial_connection.html) and [Install Git and Arduino IDE](https://heltec-automation-docs.readthedocs.io/en/latest/general/how_to_install_git_and_arduino.html).
 
-**There are two method to install the development framework, choose on of they:**
+**There are two methods to install the development framework, choose on of they:**
 
 - [Via Arduino Board Manager](#via-arduino-board-manager)
 - [Via Git](#via-git)
@@ -13,7 +13,7 @@ We suggest you confirm whether the `USB driver`, `Git` and `Arduino IDE` has ins
 
 ### Step1. Download Arduino-ESP32 Support
 
-- Open Arduino IDE, and click `File`->`Peferences` .
+Open Arduino IDE, and click `File`->`Peferences` .
 
 ![](img/quick_start/01.png)
 

@@ -12,7 +12,7 @@ Relevant Offical Resources
 --------------------------
 
 - `AutoCAD drawing <http://resource.heltec.cn/download/CubeCell/CubeCell_CAD2014.dwg>`_;
-- `Sch_Pcb package <http://resource.heltec.cn/download/CubeCell/HTCC-AM01_Module/sch_pcb_package.zip>`_;
 - `3D drawing <http://resource.heltec.cn/download/CubeCell/HTCC-AM01_Module/CubeCellModule(PSoC%2BLoRa).STEP>`_;
+- `Sch_Pcb package <http://resource.heltec.cn/download/CubeCell/HTCC-AM01_Module/sch_pcb_package.zip>`_;
 - `HTCC-AM01 Reference Design(Arduino) <http://resource.heltec.cn/download/CubeCell/HTCC-AM01_Module/HTCC-AM01_Reference_Design(Arduino).pdf>`_;
 - `HTCC-AM01 Reference Design(AT) <http://resource.heltec.cn/download/CubeCell/HTCC-AM01_Module/HTCC-AM01_Reference_Design(AT).pdf>`_.

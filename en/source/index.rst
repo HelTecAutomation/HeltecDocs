@@ -57,7 +57,6 @@ This is the documentation for (`Heltec Automation <https://heltec.org>`_) produc
    esp32/wireless_stick/index
    esp32/wireless_stick_lite/index
    esp32/wireless_shell/index
-   View Limited Technical Data <esp32/view_limited_technical_data>
    Frequently Asked Questions <esp32/frequently_asked_questions>
 
 .. toctree::
@@ -100,3 +99,4 @@ This is the documentation for (`Heltec Automation <https://heltec.org>`_) produc
    Subscribe MQTT  Messages <general/subscribe_mqtt_messages>
    Decode LoRaWAN payload <general/decode_payload>
    How To Config Rasberry Pi <general/how_to_config_raspberry_pi>
+   View Limited Technical Data <general/view_limited_technical_data>

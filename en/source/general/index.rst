@@ -12,5 +12,6 @@ This document is used to solve some common problems.
    Subscribe MQTT  Messages <subscribe_mqtt_messages>
    Decode LoRaWAN payload <decode_payload>
    How To Config Rasberry Pi <how_to_config_raspberry_pi>
+   View Limited Technical Data <view_limited_technical_data>
 
 

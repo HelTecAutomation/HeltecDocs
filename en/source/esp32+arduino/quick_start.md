@@ -2,13 +2,16 @@
 
 We suggest you confirm whether the `USB driver`, `Git` and `Arduino IDE` has installed first. If not, please view this two articles [establish serial connection](https://heltec-automation-docs.readthedocs.io/en/latest/general/establish_serial_connection.html) and [Install Git and Arduino IDE](https://heltec-automation-docs.readthedocs.io/en/latest/general/how_to_install_git_and_arduino.html).
 
-## Setting Environment
+**There are two methods to install the development framework, choose on of they:**
 
-### Via Arduino IDE
+- [Via Arduino Board Manager](#via-arduino-board-manager)
+- [Via Git](#via-git)
 
-Only two steps to complete setting.
 
-**Step1. Download Arduino-ESP32 Support**
+
+## Via Arduino Board Manager
+
+### Step1. Download Arduino-ESP32 Support
 
 - Open Arduino IDE, and click `File`->`Peferences`
 
@@ -28,10 +31,10 @@ Only two steps to complete setting.
 
 The source code of Heltec ESP series (ESP32 & ESP8266) framework available here: [https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series)
 
-**Step2. Download the Heltec ESP32 Library**
+### Step2. Download the Heltec ESP32 Library
 
-- Open Arduino IDE, then Select `Sketch`->`Include Library`->`Manage Libraries...`
-  Search `Heltec ESP32` and install it
+Open Arduino IDE, then Select `Sketch`->`Include Library`->`Manage Libraries...`
+Search `Heltec ESP32` and install it
 
 ![](img/quick_start/06.png)
 
@@ -39,37 +42,14 @@ The source code of Heltec ESP series (ESP32 & ESP8266) framework available here:
 
 The source code of `Heltec ESP32` library available here:[https://github.com/HelTecAutomation/Heltec_ESP32](https://github.com/HelTecAutomation/Heltec_ESP32)
 
-### Via Git
+## Via Git
 
-1. Download and install Git from [git-scm.com](https://git-scm.com/downloads).
-
-```Tip:: If you don't install Git, go to "https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series" and choose "Download ZIP", Unzip the file to "C:\Users\Administrator\Documents\Arduino\hardware". Skip step two to step four.
-
-```
-
-![](img/quick_start/14.png)
-
-2. Enter the path of `C:\Users\Administrator\Documents\Arduino\hardware  ` , Right click and Start ```Git Bash``` .
-
-3. Input `git clone https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series.git` and wait for it to download properly.
-
-![](img/quick_start/11.png)
-
-4. Open`C:\Users\Administrator\Documents\Arduino\hardware\WiFi_Kit_series\esp32\tools` and double-click `get.exe` .
-
-![](img/quick_start/12.png)
-
-5. When ```get.exe``` finishes, you should see the following files in the directory.
-
-![](img/quick_start/13.png)
-
-```Tip:: If the download fails, you need to run "get.py" again.
-
-```
-
-The Heltec ESP32 Library has been downloaded through the above steps, you can see it in the `esp32` folder.
-
-![](img/quick_start/15.png)
+- [For Windows](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/InstallGuide/windows.md)
+- [For MacOS](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/InstallGuide/mac.md)
+- For Linux
+  - [Debian/Ubuntu](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/InstallGuide/debian_ubuntu.md)
+  - [Fedora](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/InstallGuide/fedora.md)
+  - [OpenSUSE](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/InstallGuide/opensuse.md)
 
 &nbsp;
 

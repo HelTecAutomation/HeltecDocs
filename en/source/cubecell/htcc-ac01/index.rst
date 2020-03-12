@@ -14,4 +14,4 @@ CubeCell Capsule sensor HTCC-AC01 relevant documents.
 Relevant Offical Resources
 --------------------------
 
-- Pin out and schematic diagram, please refer to `HTCC-AC01 Capsule Sensor Hardware Update Logs <>`_.
+- Pin out and schematic diagram, please refer to `HTCC-AC01 Capsule Sensor Hardware Update Logs <https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/htcc-ac01/hardware_update_log.html>`_.

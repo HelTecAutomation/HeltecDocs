@@ -2,11 +2,10 @@
 
 ## V1
 
-2017-6-1 public sale
+![](img/hardware_update_log/01.png)
 
 - First release
-
-### Resource
+- 2017-6-1 public sale
 
 - [Pinout diagram](https://docs.heltec.cn/download/Turtle_Board.pdf)
 

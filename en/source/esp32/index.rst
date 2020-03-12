@@ -27,7 +27,6 @@ ESP32 is a powerfull SoC with 240MHz Tensilica LX6 dual-core & 1 ULP core, 600 D
     Wireless Stick <wireless_stick/index.rst>
     Wireless Stick Lite<wireless_stick_lite/index.rst>
     Wireless Shell <wireless_shell/index.rst>
-    View Limited Technical Data <view_limited_technical_data>
     Frequently Asked Questions <frequently_asked_questions>
     
 Relevant Offical Resources

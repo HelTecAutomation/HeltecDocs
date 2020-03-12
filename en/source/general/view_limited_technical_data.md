@@ -1,6 +1,6 @@
 # View Limited Technical Data
 
-## Get Chip ID
+## Get the Chip ID of ESP32
 
 Get chip ID of ESP32, please refer to the following steps.
 
@@ -30,7 +30,7 @@ Some schematic diagrams are restrictive technical data, it will become downloada
 
 &nbsp;
 
-- You can see some informations about this board,click`Relevant Resource` ，you can see the Pinout diagram,open the `limited` folder, you can see the Schematic diagram.
+- You can see some informations about this board,click`Relevant Resource` ，you can see some open resources,open the `limited` folder, you can see some limited resources.
 
 ![](img/view_limited_technical_data/04.png)
 
