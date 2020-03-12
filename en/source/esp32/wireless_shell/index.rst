@@ -1,7 +1,7 @@
 Wireless Shell
 ==============
 
-Wireless Stick relevant documents.
+Wireless Shell relevant documents.
 
 .. toctree::
     :maxdepth: 2

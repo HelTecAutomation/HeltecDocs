@@ -2,13 +2,10 @@
 
 ## V1
 
-2017-6-1 public sale
+![](img/hardware_update_log/01.png)
 
 - First release
-
-  
-
-### Resource
+- 2017-6-1 public sale
 
 - [Pinout diagram](http://resource.heltec.cn/download/WiFi_Kit_8/WIFI_Kit_8_Diagram(new).pdf)
 

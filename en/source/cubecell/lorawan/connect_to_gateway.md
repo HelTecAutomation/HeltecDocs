@@ -18,7 +18,7 @@ LoRaWAN protocol is the essence of all LoRa applications. In our opinion, the mo
 ![](img/connect_to_server/01.png)
 
 ## Preparation
-- Correct installed Arduino IDE and [CubeCell Framework](quick_start).
+- Correct installed Arduino IDE and [CubeCell Framework](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/quick_start.html).
 - A standard LoRaWAN gateway with at least 8 channels (based on SX1301/8 base band chip will be OK), and make sure your gateway had already connected to a LoRa server.
   - [How to connect HT-M01 to a LoRa server]()
   - [How to connect HT-M02 to a LoRa server]()

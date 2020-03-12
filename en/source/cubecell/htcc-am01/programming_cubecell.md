@@ -18,13 +18,13 @@ CubeCell module (HTCC-AM01) only have ASR6501and RF relevant circute inside. In 
 There are two recommend schematics:
 
 - **[Arduino compatible recommend design](https://docs.heltec.cn/download/cubecell/HTCC-AM01_Reference_Design(Arduino).pdf)**
-  - This circute have an auto boot circute, can running into bootloader mode automatically.
+  - This circuit have an auto boot circuit, can running into bootloader mode automatically.
 - **[A slave module control by a master device](https://docs.heltec.cn/download/cubecell/HTCC-AM01_Reference_Design(AT).pdf)**
-  - This circute need access bootloader mode manually ([How to access bootloader](https://docs.heltec.cn/#/en/faq/cubecell_series_common_problem_summary?id=how-to-access-bootloader-mode)).
+  - This circuit need access bootloader mode manually ([How to access bootloader](https://docs.heltec.cn/#/en/faq/cubecell_series_common_problem_summary?id=how-to-access-bootloader-mode)).
 
 ### 2. Preparation
 
-- Install the CubeCell development framework correctly ([Reference resources]());
+- Install the CubeCell development framework correctly ([Reference resources](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/quick_start.html));
 - Connect your redesigned board to a computer, make sure useing a high qulity Micro USB cable;
 - success access the bootloader mode ([How to access bootloader](), following log will be print via serial port:
 

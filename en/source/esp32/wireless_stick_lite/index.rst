@@ -1,7 +1,7 @@
 Wireless Stick Lite
 ===================
 
-Wireless Stick relevant documents.
+Wireless Stick Lite relevant documents.
 
 .. toctree::
     :maxdepth: 2
