@@ -65,7 +65,7 @@ sudo cp -f /home/pi/lora/lorasdk/global_conf_EU868.json /home/pi/lora/packet_for
 
 Before proceeding with the following operations, use a high-quality Micro USB cable to connect the HT-M01 Gateway to the Raspberry Pi, otherwise it will cause a lot of problems! Enter the following commands:
 
-```shell
+``` shell
 mkdir lora
 cd lora
 sudo apt-get update
@@ -83,6 +83,10 @@ chmod +x install.sh
 #Run this script will create a service named "lrgateway". The purpose is to make the lora driver and data forwarding program run automatically at startup.
 sudo cp -f /home/pi/lora/picolorasdk/global_conf_CN470.json /home/pi/lora/picoGW_packet_forwarder/lora_pkt_fwd/global_conf.json
 #Put the configuration file on the specified path
+```
+
+```Tip:: The "global_conf.json" file determines the listening frequency of the gateway, which is the key to a node can successfully communicate with the gateway!
+
 ```
 
 Whether it is in SPI or USB mode, when `./install.sh` is executed, if everything is normal, the Unique ID of the current gateway will be printed.

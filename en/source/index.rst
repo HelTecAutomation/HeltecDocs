@@ -38,6 +38,7 @@ This is the documentation for (`Heltec Automation <https://heltec.org>`_) produc
    
    gateway/index
    gateway/ht-m01/index
+   gateway/ht-m02/index
    
 .. toctree::
    :hidden:
