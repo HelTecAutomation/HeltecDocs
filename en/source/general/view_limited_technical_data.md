@@ -1,41 +1,82 @@
-# View Limited Technical Data
+# Get Limited Technical Resources
 
-## Get the Chip ID of ESP32
+We released all relevant resources in [GitHub](https://github.com/HelTecAutomation) or [Resource Page](http://resource.heltec.cn/).
 
-Get chip ID of ESP32, please refer to the following steps.
+Some technical data ara special for Heltec produced products, it's not shown public, these relevant resources will become downloadable with the products' Chip ID.
 
-- Choose an example from menu `File -- Examples -- ESP32 -- ChipID -- GetChipID`.
+## Get Limited Resources via Chip ID
 
-![](img/view_limited_technical_data/01.png)
+Limited resources will become downloadable with products' Chip ID, that's an unique ID.
 
-&nbsp;
-
-- Upload the code, open serial port, you can see the Chip ID.
-
-![](img/view_limited_technical_data/02.png)
-
-You can also use this simple example to get your Chip ID.  [get Chip ID](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/esp32/libraries/ESP32/examples/ChipID/GetChipID/GetChipID.ino)
-
-&nbsp;
-
-## Get Schematic Diagram
-
-Some schematic diagrams are restrictive technical data, it will become downloadable after purchase.Please refer to the following steps.
-
-- Copy the Chip ID and open this link  [http://www.heltec.cn/search/](http://www.heltec.cn/search/).
-
-- Input the Chip ID, click `Confirm` .
+Input the Chip ID in [http://resource.heltec.cn/search](http://resource.heltec.cn/search), and click `Confirm` .
 
 ![](img/view_limited_technical_data/03.png)
 
 &nbsp;
 
-- You can see some informations about this board,click`Relevant Resource` ，you can see some open resources,open the `limited` folder, you can see some limited resources.
+There with show some basic informations about this board, click `Relevant Resource`.
+
+``` Tip:: The license in this page is also useful, such as ESP32 + LoRa series, the ESP32_LoRaWAN library need this license to active.
+
+```
+
+
 
 ![](img/view_limited_technical_data/04.png)
 
+Now, will be bring to the products' download page. the files in the limited folder will become downloadable.
+
+![](img/view_limited_technical_data/05.png)
+
+**About in the winter of 2018, we began to not fully manage the chip ID. Some previous product Chip ID has not been synchronized to this database. Anyway, users can mail to [support@heltec.cn](mailto:support@heltec.cn), we will regenerate one for you.**
+
+
+
+## How to Get Chip ID
+
+The products' Chip ID is relative to the onboard MCU, each MCU have an unique ID.
+
+- [ESP32 Core](#esp32-lora-series)
+- [STM32 Core](#stm32-series)
+  - LoRa Node 030
+  - LoRa Node 151
+  - Turtle Board
+- [ASR650x Core]()
+
+### ESP32 (+ LoRa) Series
+
+Make sure you have already installed the [Heltec ESP32 development framework](https://heltec-automation-docs.readthedocs.io/en/latest/esp32/quick_start.html).
+
+Choose the [Chip ID read example](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/esp32/libraries/ESP32/examples/ChipID/GetChipID/GetChipID.ino) from menu: `File -- Examples -- ESP32 -- ChipID -- GetChipID`.
+
+![](img/view_limited_technical_data/01.png)
 
 &nbsp;
 
-**Tip: Because some of the previous product data has not been synchronized to the server, if you cannot succeed in this method, please click this link [https://docs.heltec.cn/](https://docs.heltec.cn/) to view and download.**
+Upload the example, the Chip ID will be printed via serial port:
 
+![](img/view_limited_technical_data/02.png)
+
+### STM32 series
+
+This [Heltec STM32+LoRa Series Quick Start](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/quick_start.html) maybe helpful for the following operations.
+
+#### LoRa Node 151
+
+[How to Download Firmware to LoRa Node 151](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/lora_node_151/download_firmware.html)
+
+[LoRa Node 151](https://heltec.org/project/lora-node-151/) use STM32L151CCU6, download this firmware into the LoRa Node 151:
+
+[http://resource.heltec.cn/download/LoRa_Node_151/Read_Node151_ChipID.zip](http://resource.heltec.cn/download/LoRa_Node_151/Read_Node151_ChipID.zip)
+
+Then the Chip ID will be printed via the virtual serial port (USB CDC).
+
+&nbsp;
+
+#### Turtle Board
+
+[How to Download Firmware to Turtle Board](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/turtle_board/download_firmware.html)
+
+[Turtle Board](https://heltec.org/project/turtle-board/) use STM32L432CC, download this firmware into Turtle Board:
+
+Then the Chip ID will be printed via the virtual serial port (USB CDC).
