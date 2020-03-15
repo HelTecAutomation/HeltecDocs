@@ -2,7 +2,7 @@
 
 We released all relevant resources in [GitHub](https://github.com/HelTecAutomation) or [Resource Page](http://resource.heltec.cn/).
 
-Some technical data ara special for Heltec produced products, it's not shown public, these relevant resources will become downloadable with the products' Chip ID.
+Some technical data ara special for Heltec produced products, it's not shown public, these relevant resources will become downloadable with the products' Chip ID. At the same time, the Chip ID can also be used to identify authenticity
 
 ## Get Limited Resources via Chip ID
 
@@ -39,9 +39,9 @@ The products' Chip ID is relative to the onboard MCU, each MCU have an unique ID
 - [ESP32 Core](#esp32-lora-series)
 - [STM32 Core](#stm32-series)
   - LoRa Node 030
-  - LoRa Node 151
-  - Turtle Board
-- [ASR650x Core]()
+  - [LoRa Node 151](#lora-node-151)
+  - [Turtle Board](#turtle-board)
+- [CubeCell Series (ASR650x Core)](#cubecell-series)
 
 ### ESP32 (+ LoRa) Series
 
@@ -80,3 +80,14 @@ Then the Chip ID will be printed via the virtual serial port (USB CDC).
 [Turtle Board](https://heltec.org/project/turtle-board/) use STM32L432CC, download this firmware into Turtle Board:
 
 Then the Chip ID will be printed via the virtual serial port (USB CDC).
+
+&nbsp;
+
+#### CubeCell Series
+
+Almost all resources for CubeCell are open source. Anyway, users can query the Chip ID via AT command:
+
+```shell
+AT+ChipID=?
+```
+
