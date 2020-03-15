@@ -107,4 +107,4 @@ This is the documentation for (`Heltec Automation <https://heltec.org>`_) produc
    Subscribe MQTT  Messages <general/subscribe_mqtt_messages>
    Decode LoRaWAN payload <general/decode_payload>
    How To Config Rasberry Pi <general/how_to_config_raspberry_pi>
-   View Limited Technical Data <general/view_limited_technical_data>
+   Get Limited Technical Resources <general/view_limited_technical_data>
