@@ -6,7 +6,7 @@ We suggest you confirm whether the  `STM32CubeIDE` and `STM32CubeProgrammer` has
 
 Please click this link to download the STM32CubeIDE.
 
-[https://www.st.com/zh/development-tools/stm32cubeide.html](https://www.st.com/zh/development-tools/stm32cubeide.html)
+[Download Link](https://www.st.com/zh/development-tools/stm32cubeide.html)
 
 Install STM32CubeIDE correctly.
 
@@ -18,7 +18,7 @@ Install STM32CubeIDE correctly.
 
 Please click this link to download the STM32CubeProgrammer.
 
-[https://www.st.com/zh/development-tools/stm32cubeprog.html](https://www.st.com/zh/development-tools/stm32cubeprog.html)
+[Download Link](https://www.st.com/zh/development-tools/stm32cubeprog.html)
 
 Install STM32CubeProgrammer correctly.
 

@@ -25,9 +25,9 @@ STM32L432KC had already included DFU Bootloader, it means just need a Micro USB 
 
   ***The advantage of using the DFU mode is that you can easily find a Micro USB cable. But the disadvantage is that there is no way to simulate online.***
 
-  Know more about `RadioShuttle STM32 Utility` please click [https://www.radioshuttle.de/en/turtle-en/radioshuttle-stm32-utility-en/](https://www.radioshuttle.de/en/turtle-en/radioshuttle-stm32-utility-en/) .
+  Know more about `RadioShuttle STM32 Utility` please click [About RadioShuttle STM32 Utility](https://www.radioshuttle.de/en/turtle-en/radioshuttle-stm32-utility-en/) .
 
-  Download `RadioShuttle STM32 Utility`  please click [https://www.radioshuttle.de/wp-content/uploads/2019/04/RadioShuttle-STM32-Tools-1.1.1.zip](https://www.radioshuttle.de/wp-content/uploads/2019/04/RadioShuttle-STM32-Tools-1.1.1.zip) .
+  Download `RadioShuttle STM32 Utility`  please click [Download RadioShuttle STM32 Utility](https://www.radioshuttle.de/wp-content/uploads/2019/04/RadioShuttle-STM32-Tools-1.1.1.zip) .
 
   &nbsp;
 

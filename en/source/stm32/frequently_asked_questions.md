@@ -1,6 +1,6 @@
 # Heltec<sup>TM</sup> STM32+LoRa Series Frequently Asked Questions
 
-This page contains the most frequently questions from user. if this page's detail can't solve your problem, you can also talk in our forum: [community.heltec.cn](http://community.heltec.cn/)
+This page contains the most frequently questions from user. If this page's detail can't solve your problem, you can also talk in our forum: [community.heltec.cn](http://community.heltec.cn/)
 
 &nbsp;
 

@@ -9,11 +9,11 @@ No matter what LoRa management platform is used, DevEui, AppKey, etc. parameters
   - [AppEui](#appeui) -- Application IEEE EUI (big endian), 8 bytes;
   - [AppKey](appkey) -- AES encryption/decryption cipher application key, 16 bytes;
 - **The following parameters are essential for ABP mode:**
-  - [NwkSKey](nwkskey) -- AES encryption/decryption cipher network session key, 16 bytes;
-  - [AppSKey](appskey) -- AES encryption/decryption cipher application session key, 16 bytes;
-  - [DevAddr](devaddr) -- Device address on the network (big endian), uint32_t;
+  - [NwkSKey](#nwkskey) -- AES encryption/decryption cipher network session key, 16 bytes;
+  - [AppSKey](#appskey) -- AES encryption/decryption cipher application session key, 16 bytes;
+  - [DevAddr](#devaddr) -- Device address on the network (big endian), uint32_t;
 
-``` Tip:: There are three method to configuration LoRaWAN networking parameters, choose one of them.
+``` Tip:: There are three methods to configuration LoRaWAN networking parameters, choose one of them.
 
 ```
 
@@ -145,7 +145,7 @@ LoRa Node's default sending data period is 15 seconds, change this period to 60 
 
 ### Reset CubeCell
 
-LoRaWAN parameters need reset to active, CubeCell can reset via three method:
+LoRaWAN parameters need reset to active, CubeCell can reset via three methods:
 
 - Push the RST key;
 - Use AT command: `AT+RESET=1`

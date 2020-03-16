@@ -16,7 +16,7 @@ Before that, make sure there is a LoRa Gateway active in your TTN's account.
 
 ### Register a device
 
-Register a new device in TTN's "Applications" page. The `Device ID`, `Device EUI`, `App Key` can be generated automatically. users need make sure the relevant parameter in ESP32 LoRa node is the same with TTN.
+Register a new device in TTN's "Applications" page. The `Device ID`, `Device EUI`, `App Key` can be generated automatically, users need make sure the relevant parameter in ESP32 LoRa node is the same with TTN.
 
 ![](img/connect_to_gateway/02.png)
 

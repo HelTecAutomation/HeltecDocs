@@ -13,7 +13,7 @@ We suggest you confirm whether the `USB driver`, `Git` and `Arduino IDE` has ins
 
 ### Step1. Download Arduino-ESP32 Support
 
-- Open Arduino IDE, and click `File`->`Peferences`
+- Open Arduino IDE, and click `File`->`Peferences`.
 
 ![](img/quick_start/01.png)
 
@@ -23,7 +23,7 @@ We suggest you confirm whether the `USB driver`, `Git` and `Arduino IDE` has ins
 
 ![](img/quick_start/03.png)
 
-- Click `Tools`->`Board:`->`Boards Manager...`, search `Heltec ESP32` in the new pop-up dialog, then click `install`
+- Click `Tools`->`Board:`->`Boards Manager...`, search `Heltec ESP32` in the new pop-up dialog, then click `install`.
 
 ![](img/quick_start/04.png)
 
@@ -34,7 +34,7 @@ The source code of Heltec ESP series (ESP32 & ESP8266) framework available here:
 ### Step2. Download the Heltec ESP32 Library
 
 Open Arduino IDE, then Select `Sketch`->`Include Library`->`Manage Libraries...`
-Search `Heltec ESP32` and install it
+Search `Heltec ESP32` and install it.
 
 ![](img/quick_start/06.png)
 
@@ -57,7 +57,7 @@ The source code of `Heltec ESP32` library available here:[https://github.com/Hel
 
 This section is used to verify that Arduino programming can be used and that the environment is configured successfully.
 
-- Select  `Wifi Kit 32`  development board
+- Select  `Wifi Kit 32`  development board.
 
 ![](img/quick_start/08.png)
 

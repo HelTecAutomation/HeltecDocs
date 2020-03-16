@@ -21,7 +21,7 @@ The LoRa Node can print debugging information through USB CDC (USB Virtual Seria
 
 ![](img/establish_serial_connection/02.png)
 
-```Tip:: When using UART, the TX and RX pins used in the program should be corresponding to the TX and RX pins on the board. In the routine we provide, we use TX-PA9 and RX-PA10. Therefore, TX of UART module should be connected to TX(PA9）of board, RX of UART module should be connected to RX(PA10）of board.
+```Tip:: When using UART, the TX and RX pins used in the program should be corresponding to the TX and RX pins on the board. In the routine we provide, we use TX-PA9 and RX-PA10. Therefore, TX of UART module should be connected to TX(PA9) of board, RX of UART module should be connected to RX(PA10) of board.
 
 ```
 
@@ -38,7 +38,7 @@ The LoRa Node can print debugging information through USB CDC (USB Virtual Seria
 
 ![](img/establish_serial_connection/03.png)
 
-- Add `USB_VCP` and `USE_DEBUGGER`  in macro definitions. compile and download program
+- Add `USB_VCP` and `USE_DEBUGGER`  in macro definitions, compile and download program.	
 
 ![](img/establish_serial_connection/01.png)
 

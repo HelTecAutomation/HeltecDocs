@@ -11,7 +11,7 @@
 
 - Schematic diagram
 
-  The schematic diagram of LoRa Node 151 is restricted technical data, it will become downloadable after purchase. Please read this document:[View Limited Technical Data]() .
+  The schematic diagram of LoRa Node 151 is restricted technical data, it will become downloadable after purchase. Please read this document:[Get Limited Technical Resources](https://heltec-automation-docs.readthedocs.io/en/latest/general/view_limited_technical_data.html) .
   
   
 
