@@ -32,6 +32,5 @@ Coming soon.
 
 Please double check the following two things:
 
-1. The LoRaWAN parameters is the same as server!
-2. The listening frequency of your LoRa Gateway is the same as ESP32 LoRa node's sending frequency. We strictly follow [LoRaWAN 1.1 Regional Parameters](https://lora-alliance.org/sites/default/files/2018-04/lorawantm_regional_parameters_v1.1rb_-_final.pdf);
-
+1. The LoRaWAN parameters is the same as server;
+2. The listening frequency of your LoRa Gateway is the same as STM32 LoRa node's sending frequency. We strictly follow [LoRaWAN 1.1 Regional Parameters](https://lora-alliance.org/sites/default/files/2018-04/lorawantm_regional_parameters_v1.1rb_-_final.pdf).

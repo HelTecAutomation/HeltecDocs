@@ -50,7 +50,7 @@ Register a new device in TTN's "Applications" page. The `Device ID`, `Device EUI
 
 ![](img/connect_to_server/02.png)
 
-Correctly config LoRaWAN parameters for CubeCell, please refer to [this document](config_parameter). If all goes well, we will be able to see Device is alive in "DEVICE OVERVIEW".
+Correctly config LoRaWAN parameters for CubeCell, please refer to [this document](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/lorawan/config_parameter.html). If all goes well, we will be able to see Device is alive in "DEVICE OVERVIEW".
 
 ![](img/connect_to_server/10.png)
 

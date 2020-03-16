@@ -4,17 +4,18 @@ The LoRa Node can print debugging information through USB CDC (USB Virtual Seria
 
 ## Use UART
 
+- Open the example of we provided.
 - Right-click the project to open `Properties`.
 
 ![](img/establish_serial_connection/07.png)
 
-- Add `USE_DEBUGGER` in macro definitions.
+- Add `USE_DEBUGGER` in macro definitions, compile and download program.
 
 ![](img/establish_serial_connection/04.png)
 
 - Connect the board and USB-UART module correctly.
 
-```Tip:: The LoRa Node and USB-UART module are connect as below (if the LoRa Node is powered via USB or battery, the UART mode&#39;s 3.3 / 5V pin do not need connect, just need TXD, RXD, GND).
+```Tip:: The LoRa Node and USB-UART module are connect as below (if the LoRa Node is powered via USB or battery, the UART module&amp;#39;s 3.3 / 5V pin do not need connect, just need TXD, RXD, GND).
 
 ```
 
@@ -34,11 +35,12 @@ The LoRa Node can print debugging information through USB CDC (USB Virtual Seria
 
 ## Use virtual serial port
 
+- Open the example of we provided.
 - Right-click the project to open `Properties`.
 
 ![](img/establish_serial_connection/07.png)
 
-- Add `USB_VCP` and `USE_DEBUGGER`  in macro definitions. Compile and download firmware.
+- Add `USB_VCP` and `USE_DEBUGGER`  in macro definitions, compile and download program.
 
 ![](img/establish_serial_connection/05.png)
 

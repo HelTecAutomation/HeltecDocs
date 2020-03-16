@@ -7,6 +7,7 @@ CubeCell Module HTCC-AM01 relevant documents.
     :maxdepth: 2
     
     Programming CubeCell Module <programming_cubecell>
+    Hardware Update Logs <hardware_update_log>
     
 Relevant Offical Resources
 --------------------------

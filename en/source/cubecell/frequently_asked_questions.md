@@ -12,10 +12,10 @@ Entering the bootloader mode needs to meet the following timing (T<sub>RST</sub>
 
 ![](img/frequently_asked_questions/01.png)
 
-Here are two method access bootloader manually:
+Here are two methods access bootloader manually:
 
 - CubeCell not connect to a computer -- Press the “USER” button of the CubeCell while plugging it to any USB port of a computer.
-- CubeCell already connected to a computer -- Keep the "USER" button pressed → Press the RESET button → Release the RESET button → release the USER button.
+- CubeCell already connected to a computer -- Keep the "USER" button pressed → Press the "RESET" button → Release the "RESET" button → release the "USER" button.
 
 **USER Pin map**
 

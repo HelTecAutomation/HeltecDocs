@@ -71,6 +71,8 @@ This [Heltec STM32+LoRa Series Quick Start](https://heltec-automation-docs.readt
 
 Then the Chip ID will be printed via the virtual serial port (USB CDC).
 
+![](img/view_limited_technical_data/06.png)
+
 &nbsp;
 
 #### Turtle Board
@@ -91,3 +93,4 @@ Almost all resources for CubeCell are open source. Anyway, users can query the C
 AT+ChipID=?
 ```
 
+![](img/view_limited_technical_data/07.png)

@@ -13,7 +13,7 @@ CubeCell module (HTCC-AM01) only have ASR6501and RF relevant circute inside. In 
 
 &nbsp;
 
-### 1. Recommend Circute
+### 1. Recommend Circuit
 
 There are two recommend schematics:
 
@@ -25,12 +25,12 @@ There are two recommend schematics:
 ### 2. Preparation
 
 - Install the CubeCell development framework correctly ([Reference resources](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/quick_start.html));
-- Connect your redesigned board to a computer, make sure useing a high qulity Micro USB cable;
-- success access the bootloader mode ([How to access bootloader](), following log will be print via serial port:
+- Connect your redesigned board to a computer, make sure useing a high quality Micro USB cable;
+- success access the bootloader mode, following log will be print via serial port:
 
 ![](img/programming_cubecell/01.png)
 
-*If use the Arduino compatible circute, and system into bootloader mode automatically, will not see this log. Log printed by CubeCell normally, but the com port used by IDE for programming purpose,  there is no place to show.* 
+*If use the Arduino compatible circuit, and system into bootloader mode automatically, will not see this log. Log printed by CubeCell normally, but the com port used by IDE for programming purpose,  there is no place to show.* 
 
 ### 3. Program via Arduino IDE;
 

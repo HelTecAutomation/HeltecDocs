@@ -19,11 +19,13 @@ The speed of image upload depends on the performance of TF card. After uploading
 
 `enable_uart=1`
 
+&nbsp;
+
 ## 3.Start Raspberry Pi
 
 Configure putty as shown in the following picture. The port number (COM1) should correspond to the serial port number in the device manager. The default baud rate is 115200:
 
-[![](img/how_to_config_raspberry_pi/02.png)]()
+![](img/how_to_config_raspberry_pi/02.png)]()
 
 Before starting Raspberry Pi, lead out the serial port of Raspberry Pi, connect to the computer through USB serial port module(If you have already purchased [Raspberry Pi - - HT-M01 special adapter board](https://heltec.org/product/m01-converter), you do not need additional USB serial port module)
 
@@ -37,7 +39,7 @@ user name：`pi`
 
 password：`raspberry` *（In Linux system, the process of entering password through command line can not see any change）*
 
-![](img/how_to_config_raspberry_pi/04.png)]()
+![](img/how_to_config_raspberry_pi/04.png)
 
 
 
