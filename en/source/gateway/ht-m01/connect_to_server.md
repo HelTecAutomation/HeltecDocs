@@ -23,7 +23,7 @@ Fill in the HT-M01 information as shown below and complete the addition.
 - **Frequency Plan** -- Must matach the LoRa band configuration (`global_conf.json`) in HT-M01.
 - **Router** -- Must use the default router allocated by TTN system.
 
-``` Tip:: That four ponit are the key to success connection with TTN.
+``` Tip:: That four points are the key to success connection with TTN.
 
 ```
 

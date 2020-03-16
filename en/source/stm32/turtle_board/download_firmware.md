@@ -39,7 +39,7 @@ STM32L432KC had already included DFU Bootloader, it means just need a Micro USB 
 
   ![](img/download_firmware/03.png)
 
-  ```Tip:: ST-LINK can provide power to target device! If the LoRa Node is connected to the computer via the Micro USB interface, the ST-LINK 3.3V can not be connected to the VDD! Doing so may damage  the development board!
+  ```Tip:: ST-LINK can provide power to target device! If the LoRa Node is connected to the computer via the Micro USB interface, the ST-LINK 3.3V can not connect to the VDD! Doing so may damage the development board!
   
   ```
 
