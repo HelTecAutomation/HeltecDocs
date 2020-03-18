@@ -8,4 +8,79 @@ HT-M02 has integrated operating system and LoRa related programs, so it can be u
 
 ```
 
+## Configure the gateway
+
+### Establish Serial Connection
+
+4G (LTE) network don't have a public IP address. So the only way to config the HT-M02 4G version is via a serial port. in other words, before deploying the gateway, you need to configure the gateway through the serial port.
+
+Because of the waterproof design, the UART interface is not directly exposed outside. Establish a serial connection need to remove the protective board on the side of the HT-M02, and also a UART-USB bridge is required (CP2102, CP2104, CH340G etc.).
+
+- HT-M02 TXD `<---->` UART-USB bridge RXD
+
+- HT-M02 RXD `<---->` UART-USB bridge TXD
+
+- HT-M02 GND `<---->` UART-USB bridge GND
+
+![](img/quick_start_poe/06.png)
+
+Recommended to use [Putty,](https://putty.org/) configured as shown in the following image. 
+
+![](E:/leehu/Documents/HeltecDocs/en/source/gateway/ht-m02/img/quick_start_poe/07.png)
+
 ## Power ON for the first time
+
+This version only supports 220 / 110V AC power supply. Before all operations, insert the Micro SIM card first, the card direction and interface are as shown below (SIM card chip facing down, notch facing outward):
+
+![](img/quick_start_4g/01.png)
+
+If everything goes well, the system will run automatically after power ON. When the system kernel starts successfully, the SYS LED light up. After the whole system initial complete, the TX LED will flash once, and the system enters the normal working status. The entire boot process takes approximately 90 seconds.
+
+4G (LTE) networks will automatically identification and registration.
+
+- Default login account: `debian`
+- Default login account: `temppwd`
+
+``` Tp:: Many system logs printed on the putty terminal. Once the system is started, it can be logged in at any time.
+
+```
+
+## Connect to LoRa server
+
+In order to connect to a LoRa server, users only need config the `server address` and `port` in `global_conf.json`:
+
+```shell
+sudo nano lora/packet_forwarder/lora_pkt_fwd/global_conf.json
+```
+
+At the end of this file, make suitable changes:
+
+```json
+  “server_address”: “router.eu.thethings.network”, /*The server IP address or domain*/
+  “serv_port_up”: 1700,
+  “serv_port_down”: 1700,
+```
+
+![](img/quick_start_4g/02.png)
+
+`ctrl + O` to save and `ctrl + X` to exit, and restart the service:
+
+```shell
+sudo systemctl restart lrgateway
+```
+
+Check whether the system running normally:
+
+```shell
+sudo systemctl status lrgateway
+```
+
+![](img/quick_start_4g/03.png)
+
+&nbsp;
+
+## Relevant resources
+
+More details about how to connect to a LoRa server, please refer to here:
+
+[https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m01/connect_to_server.html](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m01/connect_to_server.html)

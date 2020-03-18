@@ -31,7 +31,9 @@ Fill in the HT-M01 information as shown below and complete the addition.
 
 ### Connecting
 
-In the HT-M01 gateway, only need config the server address and port. The router addresses for different region:
+Users only need config the server address and port in the Raspberry Pi *(for HT-M01 gateway)*.
+
+The TTN's router addresses for different region:
 
 [https://www.thethingsnetwork.org/docs/gateways/packet-forwarder/semtech-udp.html#router-addresses](https://www.thethingsnetwork.org/docs/gateways/packet-forwarder/semtech-udp.html#router-addresses)
 
@@ -47,7 +49,6 @@ Fix parameters in `global_conf.json`:
 
 
   ```json
-  “gateway_ID”: “XXXXXXXXXXXXXXXX”, /*Your gateway ID, 16 characters*/
   “server_address”: “router.eu.thethings.network”, /*The router addresses need matach your region*/
   “serv_port_up”: 1700,
   “serv_port_down”: 1700,

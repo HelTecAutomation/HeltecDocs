@@ -65,11 +65,11 @@ Establish SSH connection need make sure the client in a same LAN with HT-M02, SS
 
 Because of the waterproof design, the UART interface is not directly exposed outside. If need a serial port connection, need to remove the protective board on the side of the HT-M02, and also a UART-USB bridge is required (CP2102, CP2104, CH340G etc.).
 
-- HT-M02 TXD <----> UART-USB bridge RXD
+- HT-M02 TXD `<---->` UART-USB bridge RXD
 
-- HT-M02 RXD <----> UART-USB bridge TXD
+- HT-M02 RXD `<---->` UART-USB bridge TXD
 
-- HT-M02 GND <----> UART-USB bridge GND
+- HT-M02 GND `<---->` UART-USB bridge GND
 
 ![](img/quick_start_poe/06.png)
 
