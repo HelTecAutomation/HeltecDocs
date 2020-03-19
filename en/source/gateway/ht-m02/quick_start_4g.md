@@ -26,7 +26,7 @@ Because of the waterproof design, the UART interface is not directly exposed out
 
 Recommended to use [Putty,](https://putty.org/) configured as shown in the following image. 
 
-![](E:/leehu/Documents/HeltecDocs/en/source/gateway/ht-m02/img/quick_start_poe/07.png)
+![](img/quick_start_poe/07.png)
 
 ## Power ON for the first time
 

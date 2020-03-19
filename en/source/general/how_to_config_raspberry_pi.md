@@ -1,15 +1,17 @@
-# How to Upload the TF Card Image of Raspberry Pi, Configure WiFi Access, SSH Connection
+# How to Upload the TF Card Image of Raspberry Pi, Configure Wi-Fi Access, SSH Connection
 
-## 1.Prepare Related Tools
-- [SD Formatter](http://119.23.153.38/download/SD_Formatter.zip) *(It's not necessary，If you need to format the TF card with an existing Raspberry Pi image, You need this tool.)*
-- [Win32DiskImager](http://119.23.153.38/download/Win32DiskImager.zip) *(Image upload tool)*
-- [Raspberry Pi image file](https://www.raspberrypi.org/downloads/raspbian) *(It is recommended to use the "raspbian stretch Lite" version, it has no graphical interface, can save resources better.)*
+Users can also refer to [Raspberry Pi official quick start manual](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up/2).
+
+## Prepare Related Tools
+- [SD Formatter](http://resource.heltec.cn/download/tools/SD_Formatter.zip) *(It's not necessary，If you need to format the TF card with an existing Raspberry Pi image, You need this tool.)*
+- [Win32DiskImager](http://resource.heltec.cn/download/tools/Win32DiskImager.zip) *(Image upload tool)*
+- [Raspberry Pi image file](https://www.raspberrypi.org/downloads/raspbian) *(It is recommended to use the "Raspbian Buster Lite" version, it has no graphical interface, can save resources better.)*
 - [Putty](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) (System connection tool of Raspberry Pi)
 - Micro TF card with more than 4G memory, card reader.
 
 
 
-## 2.Upload Raspberry Pi Image
+## Upload Raspberry Pi Image
 
 Using `Win32DiskImager` to upload Raspberry Pi image.
 
@@ -21,7 +23,7 @@ The speed of image upload depends on the performance of TF card. After uploading
 
 &nbsp;
 
-## 3.Start Raspberry Pi
+## Start Raspberry Pi
 
 Configure putty as shown in the following picture. The port number (COM1) should correspond to the serial port number in the device manager. The default baud rate is 115200:
 
@@ -43,7 +45,7 @@ password：`raspberry` *（In Linux system, the process of entering password thr
 
 
 
-## 4.Connect to WIFI
+## Connect to WIFI
 
 Enter the following command in putty:
 
@@ -62,7 +64,7 @@ Add WiFi configuration information at the end of it:
 
 
 
-## 5.Configure SSH to Realize LAN Login
+## Configure SSH to Realize LAN Login
 
 `sudo raspi-config` Open the Raspberry Pi configuration menu；
 
