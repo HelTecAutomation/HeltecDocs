@@ -21,6 +21,8 @@ STM32L151CCU6 had already included DFU Bootloader, it means just need a Micro US
 
   ***The advantage of using the DFU mode is that you can easily find a Micro USB cable. But the disadvantage is that there is no way to simulate online.***
 
+&nbsp;
+
 ## Via ST-LINK
 
 - How to connect to ST-LINK.

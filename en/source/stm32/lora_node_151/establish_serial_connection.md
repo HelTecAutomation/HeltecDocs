@@ -1,6 +1,6 @@
 # Establish Serial Connection
 
-The LoRa Node can print debugging information through USB CDC (USB Virtual Serial Poart) or UART, but the USB to UART chip is not integrated on the board. If the debugging information is to be output through the UART, an external USB to UART module is required.
+The LoRa Node can print debugging information through USB-CDC (USB-Virtual Serial Poart) or UART, but the USB to UART chip is not integrated on the board. If the debugging information is to be output through the UART, an external USB to UART module is required.
 
 ## Use UART
 

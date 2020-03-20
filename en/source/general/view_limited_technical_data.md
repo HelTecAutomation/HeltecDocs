@@ -79,7 +79,7 @@ Then the Chip ID will be printed via the virtual serial port (USB CDC).
 
 [How to Download Firmware to Turtle Board](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/turtle_board/download_firmware.html)
 
-[Turtle Board](https://heltec.org/project/turtle-board/) use STM32L432CC, download this firmware into Turtle Board:
+[Turtle Board](https://heltec.org/project/turtle-board/) use STM32L432KC, download this firmware into Turtle Board:
 
 Then the Chip ID will be printed via the virtual serial port (USB CDC).
 

@@ -13,3 +13,14 @@ This page contains the most frequently questions from user. If this page's detai
   - Make sure that the board is connected to ST-LINK correctly.
 
 Please refer to the following documents:[LoRa Node 151 download firmware](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/lora_node_151/download_firmware.html), [Turtle Board download firmware](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/turtle_board/download_firmware.html).
+
+&nbsp;
+
+## Serial port has no output
+
+- Use USB-CDC(USB-Virtual Serial Poart)
+  - USB-CDC is not configured correctly(You can refer to our examples).
+- Use USB-UART
+  - The development board is not properly connected to the USB to UART module.
+
+Please refer to the following documents:[LoRa Node 151 Establish Serial Connection](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/lora_node_151/establish_serial_connection.html), [Turtle Board Establish Serial Connection](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/turtle_board/establish_serial_connection.html).

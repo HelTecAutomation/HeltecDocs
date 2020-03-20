@@ -30,6 +30,16 @@ We had use the TP4054 to replace MCP73831, the orange LED have new control logic
 - Bight -- Charging
 - Turn OFF -- Battery filled
 
+&nbsp;
+
+## Another Communication Bus Usage Example
+
+- **[SPI0 / SPI1 / SPI2 / SPI3](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/tree/master/esp32/libraries/SPI/examples/SPI_Multiple_Buses)**
+- **[I2C0 / I2C1](https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/examples/ESP32/I2C1_Scanner/I2C1_Scanner.ino)**
+- **[UART0 / UART1](https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/examples/ESP32/Serial2/Serial2.ino)**
+
+&nbsp;
+
 ## System Reset All the Time
 
 ![](img/frequently_asked_questions/resetallthetime.png)
