@@ -14,4 +14,10 @@ Turtle Board relevant documents.
 Relevant Offical Resources
 --------------------------
 
-- Pin out and schematic diagram, please refer to `Turtle Board Hardware Update Logs <https://heltec-automation-docs.readthedocs.io/en/latest/stm32/turtle_board/hardware_update_log.html>`_.
+- Pin out and schematic diagram, please refer to `Turtle Board Hardware Update Logs <https://heltec-automation-docs.readthedocs.io/en/latest/stm32/turtle_board/hardware_update_log.html>`_;
+- LoRaWAN example for Turtle Board -- Refer to `this document <https://heltec-automation-docs.readthedocs.io/en/latest/stm32/turtle_board/hardware_update_log.html>`_ to get limited resource, 
+- Factory test firmware
+
+   - :ref:`470MHz <http://resource.heltec.cn/download/TurtleBoard/Turtle_RadioShuttle.FactoryTest_470.bin>_`
+   - :ref:`868MHz <http://resource.heltec.cn/download/TurtleBoard/Turtle_RadioShuttle.FactoryTest_868.bin>_`
+   - :ref:`Factory test source code <https://os.mbed.com/users/Helmut64/code/Turtle_RadioShuttle/>_`

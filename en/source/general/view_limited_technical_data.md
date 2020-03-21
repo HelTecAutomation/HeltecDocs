@@ -67,7 +67,7 @@ This [Heltec STM32+LoRa Series Quick Start](https://heltec-automation-docs.readt
 
 [LoRa Node 151](https://heltec.org/project/lora-node-151/) use STM32L151CCU6, download this firmware into the LoRa Node 151:
 
-[http://resource.heltec.cn/download/LoRa_Node_151/Read_Node151_ChipID.zip](http://resource.heltec.cn/download/LoRa_Node_151/Read_Node151_ChipID.zip)
+[http://resource.heltec.cn/download/LoRa_Node_151/L151_Read_ID.zip](http://resource.heltec.cn/download/LoRa_Node_151/L151_Read_ID.zip)
 
 Then the Chip ID will be printed via the virtual serial port (USB CDC).
 
@@ -94,3 +94,7 @@ AT+ChipID=?
 ```
 
 ![](img/view_limited_technical_data/07.png)
+
+Or via this example code:
+
+[https://github.com/HelTecAutomation/ASR650x-Arduino/blob/master/libraries/Basics/examples/ChipID/ChipID.ino](https://github.com/HelTecAutomation/ASR650x-Arduino/blob/master/libraries/Basics/examples/ChipID/ChipID.ino)
