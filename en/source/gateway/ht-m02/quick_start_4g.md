@@ -39,7 +39,7 @@ If everything goes well, the system will run automatically after power ON. When 
 4G (LTE) networks will automatically identification and registration.
 
 - Default login account: `debian`
-- Default login account: `temppwd`
+- Default login password: `temppwd`
 
 ``` Tp:: Many system logs printed on the putty terminal. Once the system is started, it can be logged in at any time.
 
