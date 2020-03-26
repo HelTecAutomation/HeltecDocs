@@ -24,11 +24,7 @@ Open Arduino IDE, and click `File`->`Peferences`->`Settings`
 
 Input following json url to board manager URLs:
 
-**Recommend:** [https://docs.heltec.cn/download/package_CubeCell_index.json](https://docs.heltec.cn/download/package_CubeCell_index.json)
-
-or
-
-**China main land:** [http://119.23.153.38/download/package_CubeCell_index.json](http://119.23.153.38/download/package_CubeCell_index.json)
+[http://resource.heltec.cn/download/package_CubeCell_index.json](http://resource.heltec.cn/download/package_CubeCell_index.json)
 
 ![](img/quick_start/03.png)
 
@@ -70,7 +66,7 @@ In the tools menu, there are following options:
   - `Blue -- First RX window;`
   - `Yellow -- Second RX window;`
   - `Green -- Join done.`
-- LoRaWan Debug Level -- LoRaWAN relevant messages print by serial port
+- **LoRaWan Debug Level** -- LoRaWAN relevant messages print by serial port
   - None -- Default;
   - Freq -- Sending/receiving frequency;
   - Freq && DIO -- Sending/receiving frequency, and DIO pin interrupt information.
