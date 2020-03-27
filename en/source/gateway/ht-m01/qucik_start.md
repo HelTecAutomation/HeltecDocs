@@ -8,13 +8,13 @@ The HT-M01 LoRa Gateway supports both USB and SPI mode. The SPI mode can only ru
   - [SPI mode](#spi-mode)
   - [USB mode](#usb-mode)
 - **Windows<sup>®</sup>**
-  - [USB mode for Windows<sup>®</sup>](#usb-mode-for-windows-®)
+  - [USB mode for Windows<sup>®</sup>](#use-ht-m01-with-windows-sup-sup)
 
-For Linux user, we highly recommend use
+
 
 ## Use HT-M01 with Linux (Raspberry PI)
 
-Before all operation, make sure you have a Raspberry Pi that works and can connect to WiFi. In this document, we used [Raspberry Pi Zero W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/).
+Before all operation, make sure you have a Raspberry Pi that works and can connect to Wi-Fi. In this document, we used [Raspberry Pi Zero W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/).
 
 ```Tip:: As we tested, Raspberry Pi 2, 3, 3B are also worked.
 
