@@ -22,7 +22,7 @@ Annoying orange LED lights are always flashing? It's because the battery managem
 
 Change this capacitor to 220nF to temporarily correct this problem.
 
-![](C:/Users/Administrator/Documents/Arduino/HeltecDocs/en/source/esp32/img/frequently_asked_questions/replcae.png)
+![](img/frequently_asked_questions/01.png)
 
 We had use the TP4054 to replace MCP73831, the orange LED have new control logic:
 
@@ -42,7 +42,7 @@ We had use the TP4054 to replace MCP73831, the orange LED have new control logic
 
 ## System Reset All the Time
 
-![](C:/Users/Administrator/Documents/Arduino/HeltecDocs/en/source/esp32/img/frequently_asked_questions/resetallthetime.png)
+![](img/frequently_asked_questions/02.png)
 
 According to the situation we have collected so far, the most likely to cause a constant reset problem may have two reasons:
 
