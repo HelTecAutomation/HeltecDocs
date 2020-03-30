@@ -1,7 +1,7 @@
 Heltec Automation Docs Page
 ===========================
 
-This is the documentation for (`Heltec Automation <https://heltec.org>`_) products.
+This is the documentation for `Heltec Automation <https://heltec.org>`_ products.
    
 ==================  ==================  ==================
 |CubeCell|_         |ESP32+LoRa|_       |STM32+LoRa|_
