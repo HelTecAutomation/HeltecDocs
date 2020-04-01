@@ -14,6 +14,5 @@ Relevant Offical Resources
 --------------------------
 
 - `AutoCAD drawing <http://resource.heltec.cn/download/LoRa_Node_151/LoRa_Node_151.dwg>`_;
-- `Basic hardware test <http://resource.heltec.cn/download/LoRa_Node_151/LoRa_Node_151_basic_hardware_test.zip>`_;
-- `Virtual serial port example <http://resource.heltec.cn/download/LoRa_Node_151/L151_USB.zip>`_;
+- `Basic hardware test <http://resource.heltec.cn/download/LoRa_Node_151/Pingpong_CDC.zip>`_;
 - Pin out and schematic diagram, please refer to `LoRa Node 151 Hardware Update Logs <https://heltec-automation-docs.readthedocs.io/en/latest/stm32/lora_node_151/hardware_update_log.html>`_.
