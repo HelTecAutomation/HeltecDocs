@@ -1,7 +1,7 @@
 HT-M02
 ======
 
-In practice, the working environment of the equipment may not be as good as expected, on the contrary, it may be very bad… For example, in the industrial environment, the site may have tremendous vibration, noise, dust, high temperature, and other issues. In the city environment, sunshine and rain, low temperatures in winter and high temperatures in summer are always unavoidable… HT-M02 is ready to use LoRa gateway, has considered and solves all the above problems and design strictly with industrial standards
+In practice, the working environment of the equipment may not be as good as expected, on the contrary, it may be very bad… For example, in the industrial environment, the site may have tremendous vibration, noise, dust, high temperature, and other issues. In the city environment, sunshine and rain, low temperatures in winter and high temperatures in summer are always unavoidable… When designing the HT-M02 LoRa gateway, has considered and solves all the above problems and design strictly with industrial standards
 
 - **integrated LoRa server inside;**
 - Ready to use Linux Operating System, 4.14 Kernel, Debian Stretch 9.8;
