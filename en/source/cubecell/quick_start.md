@@ -67,9 +67,9 @@ In the tools menu, there are following options:
   - `Yellow -- Second RX window;`
   - `Green -- Join done.`
 - **LoRaWan Debug Level** -- LoRaWAN relevant messages print by serial port
-  - None -- Default;
-  - Freq -- Sending/receiving frequency;
-  - Freq && DIO -- Sending/receiving frequency, and DIO pin interrupt information.
+  - `None -- Default;`
+  - `Freq -- Sending/receiving frequency;`
+  - `Freq && DIO -- Sending/receiving frequency, and DIO pin interrupt information.`
 - **COM Port** -- Device's serial port in your computer.
 
 
