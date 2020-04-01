@@ -39,6 +39,7 @@ This is the documentation for `Heltec Automation <https://heltec.org>`_ products
    gateway/index
    gateway/ht-m01/index
    gateway/ht-m02/index
+   Frequently Asked Questions <gateway/frequently_asked_questions>
    
 .. toctree::
    :hidden:

@@ -14,8 +14,8 @@ Maybe you don’t have a real device. You can still test this solution through t
 
   How to connect gateways and nodes to TTN please refer to:
 
-  - **[How to connect HT-M01 to TTN (The-Things-Network)](en/user_manual/how_to_connect_ht-m01_to_ttn-the-things-network)**
-  - **[How to connect CubeCell to a LoRa Gateway via LoRaWAN protocol (TTN)](en/user_manual/how_to_connect_cubecell_to_ttn-the-things-network)**
+  - **[How to connect HT-M01 to TTN (The-Things-Network)](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m01/connect_to_server.html#connect-to-ttn)**
+  - **[How to connect CubeCell to a LoRa Gateway via LoRaWAN protocol (TTN)](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/lorawan/connect_to_gateway.html)**
 
 - The Linux version of Node-Red and MQTT-Broker software installed in this article is Ubuntu 16.04. (The MQTT-Broker I use here is Mosquitto).
 

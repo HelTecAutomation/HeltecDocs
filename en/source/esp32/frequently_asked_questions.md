@@ -7,7 +7,7 @@ This page contains the most frequently questions from user. If this page's detai
 ## Can't Download Firmware
 
 - Use a better USB cable, or change a USB socket;
-- Check and make sure the CP210x drive had been correctly installed, users can refer to this document: [Establish Serial Connection](https://docs.heltec.cn/#/en/user_manual/establish_serial_connection);
+- Check and make sure the CP210x drive had been correctly installed, users can refer to this document: [Establish Serial Connection](https://heltec-automation-docs.readthedocs.io/en/latest/general/establish_serial_connection.html);
 - Press "PRG" button before upload.
 
 &nbsp;
@@ -17,7 +17,7 @@ This page contains the most frequently questions from user. If this page's detai
 Annoying orange LED lights are always flashing? It's because the battery management chip MCP73831. with the following control logic:
 
 - Blink -- Power on
-- Bight -- Charging
+- Light -- Charging
 - Turn OFF -- Battery filled
 
 Change this capacitor to 220nF to temporarily correct this problem.
@@ -27,7 +27,7 @@ Change this capacitor to 220nF to temporarily correct this problem.
 We had use the TP4054 to replace MCP73831, the orange LED have new control logic:
 
 - Dim -- Power on
-- Bight -- Charging
+- Light -- Charging
 - Turn OFF -- Battery filled
 
 &nbsp;

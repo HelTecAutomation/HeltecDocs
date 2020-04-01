@@ -17,7 +17,7 @@ This page contains the most frequently questions from user. If this page's detai
 Annoying orange LED lights are always flashing? It's because the battery management chip MCP73831. with the following control logic:
 
 - Blink -- Power on
-- Bight -- Charging
+- Light -- Charging
 - Turn OFF -- Battery filled
 
 Change this capacitor to 220nF to temporarily correct this problem.
@@ -27,7 +27,7 @@ Change this capacitor to 220nF to temporarily correct this problem.
 We had use the TP4054 to replace MCP73831, the orange LED have new control logic:
 
 - Dim -- Power on
-- Bight -- Charging
+- Light -- Charging
 - Turn OFF -- Battery filled
 
 &nbsp;

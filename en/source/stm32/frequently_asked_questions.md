@@ -10,17 +10,23 @@ This page contains the most frequently questions from user. If this page's detai
   - Use a better USB cable, or change a USB socket.
   - Enter the DFU mode correctly.
 - Use ST-LINK.
-  - Make sure that the board is connected to ST-LINK correctly.
+  - Make sure that the development board is connected to ST-LINK correctly.
 
-Please refer to the following documents:[LoRa Node 151 download firmware](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/lora_node_151/download_firmware.html), [Turtle Board download firmware](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/turtle_board/download_firmware.html).
+Please refer to the following documents:
+
+- [LoRa Node 151 download firmware](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/lora_node_151/download_firmware.html);
+-  [Turtle Board download firmware](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/turtle_board/download_firmware.html).
 
 &nbsp;
 
 ## Serial port has no output
 
-- Use USB-CDC(USB-Virtual Serial Poart)
+- Use USB-CDC(USB-Virtual Serial Port)
   - USB-CDC is not configured correctly(You can refer to our examples).
 - Use USB-UART
-  - The development board is not properly connected to the USB to UART module.
+  - Make sure that the development board is connected to USB-UART module correctly.
 
-Please refer to the following documents:[LoRa Node 151 Establish Serial Connection](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/lora_node_151/establish_serial_connection.html), [Turtle Board Establish Serial Connection](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/turtle_board/establish_serial_connection.html).
+Please refer to the following documents:
+
+- [LoRa Node 151 Establish Serial Connection](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/lora_node_151/establish_serial_connection.html);
+- [Turtle Board Establish Serial Connection](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/turtle_board/establish_serial_connection.html).

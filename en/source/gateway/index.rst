@@ -8,3 +8,4 @@ Heltec LoRa Gateways
     
     HT-M01 <ht-m01/index>
     HT-M02 <ht-m02/index>
+    Frequently Asked Questions <frequently_asked_questions>
