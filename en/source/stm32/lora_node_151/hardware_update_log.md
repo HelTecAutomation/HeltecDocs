@@ -7,7 +7,7 @@
 - First release
 - 2017-6-1 public sale
 
-- [Pinout diagram](https://docs.heltec.cn/download/LoRa_Node_151.pdf)
+- [Pinout diagram](http://resource.heltec.cn/download/LoRa_Node_151/LoRa_Node_151_Pinout_Diagram.pdf)
 
 - [Schematic diagram](http://resource.heltec.cn/download/LoRa_Node_151/LoRa_Node_151_Block_Diagram_V1.pdf)
 

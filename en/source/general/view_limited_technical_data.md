@@ -95,6 +95,4 @@ AT+ChipID=?
 
 ![](img/view_limited_technical_data/07.png)
 
-Or via this example code:
-
-[https://github.com/HelTecAutomation/ASR650x-Arduino/blob/master/libraries/Basics/examples/ChipID/ChipID.ino](https://github.com/HelTecAutomation/ASR650x-Arduino/blob/master/libraries/Basics/examples/ChipID/ChipID.ino)
+Or via this example code: [Get ChipID](https://github.com/HelTecAutomation/ASR650x-Arduino/blob/master/libraries/Basics/examples/ChipID/ChipID.ino)
