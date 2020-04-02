@@ -2,10 +2,10 @@ HT-M01
 ======
 
 HT-M01 is a Pico cell gateway. When we designing it, we wanted to provide users with an SX1301 gateway that can quickly verify communication solutions and support the standard LoRaWAN protocol. HT-M01 has a small size, can operating by Windows® or Linux. Windows® will have a GUI tool, which is friendly for none Linux experience users.
-- SX1301 baseband chip;
-- LoRaWAN protocol 1.0.2 Class A, Class C support;
-- SPI and USB support, can working in Windows® and Linux;
-- Heat dissipation design, transfers the huge heat of the SX1301 to the aluminum casing to ensure the stability of the system.
+-  SX1301 baseband chip;
+-  LoRaWAN protocol 1.0.2 Class A, Class C support;
+-  SPI and USB support, can working in Windows® and Linux;
+-  Heat dissipation design, transfers the huge heat of the SX1301 to the aluminum casing to ensure the stability of the system.
 
 .. note::
 

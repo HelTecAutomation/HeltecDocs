@@ -2,7 +2,7 @@
 
 ## Summary
 
-[PicoGW UI](http://resource.heltec.cn/download/HT-M01/PicoGW_UI_Release_V1.0.3.4.zip) is provided by Semtech<sup>®</sup>, allow users running a Pico Cell LoRa Gateway ([HT-M01]()) on Windows<sup>®</sup> with directly UI.
+[PicoGW UI](http://resource.heltec.cn/download/HT-M01/PicoGW_UI_Release_V1.0.3.4.zip) is provided by Semtech<sup>®</sup>, allow users running a Pico Cell LoRa Gateway ([HT-M01](https://heltec.org/project/ht-m01)) on Windows<sup>®</sup> with directly UI.
 
 But PicoGW_UI only provided four region support by default.
 
