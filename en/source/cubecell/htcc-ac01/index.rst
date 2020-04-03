@@ -1,6 +1,7 @@
 HTCC-AC01 Capsule Sensor
 ========================
 `简体中文 <https://heltec-automation.readthedocs.io/zh_CN/latest/cubecell/htcc-ac01/index.html>`_
+
 CubeCell Capsule sensor HTCC-AC01 relevant documents.
 
 .. toctree::

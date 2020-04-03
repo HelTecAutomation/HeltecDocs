@@ -1,6 +1,7 @@
 Contents
 ========
 `简体中文 <https://heltec-automation.readthedocs.io/zh_CN/latest/esp8266+arduino/index.html>`_
+
 This document branch is for `Heltec ESP8266 + Arduino Node series <https://heltec.org/proudct_center/esp-arduino/>`_,
 
 ESP8266 is a powerfull SoC with 160MHz Tensilica L06 32-bits. The benefit of "ESP8266 + Arduino" combination:

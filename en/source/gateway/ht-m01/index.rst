@@ -1,6 +1,7 @@
 HT-M01
 ======
 `简体中文 <https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m01/index.html>`_
+
 HT-M01 is a Pico cell gateway. When we designing it, we wanted to provide users with an SX1301 gateway that can quickly verify communication solutions and support the standard LoRaWAN protocol. HT-M01 has a small size, can operating by Windows® or Linux. Windows® will have a GUI tool, which is friendly for none Linux experience users.
 -  SX1301 baseband chip;
 -  LoRaWAN protocol 1.0.2 Class A, Class C support;

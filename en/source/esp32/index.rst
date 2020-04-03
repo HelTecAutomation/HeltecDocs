@@ -1,6 +1,7 @@
 Contents
 ========
 `简体中文 <https://heltec-automation.readthedocs.io/zh_CN/latest/esp32/index.html>`_
+
 This document branch is for `Heltec ESP32 + LoRa Node series <https://heltec.org/proudct_center/lora/lora-node/>`_,
 
 ESP32 is a powerfull SoC with 240MHz Tensilica LX6 dual-core & 1 ULP core, 600 DMIPS, 520KB SRAM. The benefit of "ESP32 + LoRa" combination:

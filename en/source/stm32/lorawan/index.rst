@@ -1,6 +1,7 @@
 LoRaWAN
 =======
 `简体中文 <https://heltec-automation.readthedocs.io/zh_CN/latest/stm32/lorawan/index.html>`_
+
 STM32 LoRa Node series LoRaWAN protocol usage and configuration.
 
 .. toctree::

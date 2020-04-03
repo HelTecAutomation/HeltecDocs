@@ -1,6 +1,7 @@
 Contents
 ========
 `简体中文 <https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/index.html>`_
+
 Heltec LoRa Gateways
 
 .. toctree::
