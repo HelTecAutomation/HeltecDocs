@@ -1,5 +1,6 @@
 # Get Limited Technical Resources
 [简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/general/view_limited_technical_data.html)
+
 We released all relevant resources in [GitHub](https://github.com/HelTecAutomation) or [Resource Page](http://resource.heltec.cn/).
 
 Some technical data ara special for Heltec produced products, it's not shown public, these relevant resources will become downloadable with the products' Chip ID. At the same time, the Chip ID can also be used to identify authenticity

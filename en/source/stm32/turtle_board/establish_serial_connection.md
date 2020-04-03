@@ -1,5 +1,6 @@
 # Establish Serial Connection
 [简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/stm32/turtle_board/establish_serial_connection.html)
+
 The LoRa Node can print debugging information through USB-CDC (USB-Virtual Serial Poart) or UART, but the USB to UART chip is not integrated on the board. If the debugging information is to be output through the UART, an external USB to UART module is required.
 
 ## Use UART

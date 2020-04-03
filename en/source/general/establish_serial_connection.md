@@ -1,5 +1,6 @@
 # Establish Serial Connection
 [简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/general/establish_serial_connection.html)
+
 **[MacOS](#for-macOS)**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[Windows](#for-windows)**
 
 **This section provides guidance how to establish serial connection between your board and PC.**

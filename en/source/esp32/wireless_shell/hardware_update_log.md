@@ -1,5 +1,6 @@
 # Wireless Shell  Hardware Update Logs
 [简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/esp32/wireless_shell/hardware_update_log.html)
+
 **Wireless Shell is equivalent to Wireless Stick Lite without peripheral circuit,so peripheral circuit needs to be added when using,such as power supply part, serial port part,etc.**
 
 ## V1

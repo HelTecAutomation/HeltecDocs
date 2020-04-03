@@ -1,6 +1,6 @@
 LoRa Node 151
 =============
-[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/stm32/lora_node_151/index.html)
+`简体中文 <https://heltec-automation.readthedocs.io/zh_CN/latest/stm32/lora_node_151/index.html>`_
 LoRa Node 151 relevant documents.
 
 .. toctree::

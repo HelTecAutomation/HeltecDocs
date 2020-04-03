@@ -1,5 +1,6 @@
 # Heltec ESP32+Arduino Series Quick Start
 [简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/esp32+arduino/quick_start.html)
+
 Before all operations, please confirm whether the `USB driver`, `Git` and `Arduino IDE` has installed correctly. If not, please refer to this two articles: [establish serial connection](https://heltec-automation-docs.readthedocs.io/en/latest/general/establish_serial_connection.html) and [Install Git and Arduino IDE](https://heltec-automation-docs.readthedocs.io/en/latest/general/how_to_install_git_and_arduino.html).
 
 **There are two methods to install the development framework, choose one of they:**
