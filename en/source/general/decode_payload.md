@@ -1,5 +1,5 @@
 # How to Decode Payload Data
-
+[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/general/decode_payload.html)
 ## Why need decode messages?
 
 Suppose you have a very high accurate sensor, for example, the measured data is 27.313232421875, if send this data via string like `char data[] = "27.313232421875"`, Has the following disadvantages:

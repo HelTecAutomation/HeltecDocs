@@ -1,5 +1,5 @@
 # Maximum LoRa Communication Distance Test
-
+[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/esp32/distance_test.html)
 ## 1.  Preparations
 First of all, confirm the [Heltec ESP Development Framework](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series) and [Heltec ESP32 library](https://github.com/HelTecAutomation/Heltec_ESP32) had been correctly installed. If not, please view this articles [Heltec ESP32 quick start](https://heltec-automation-docs.readthedocs.io/en/latest/esp32/quick_start.html).
 

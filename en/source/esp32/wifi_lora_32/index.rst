@@ -1,6 +1,6 @@
 WiFi LoRa 32
 ============
-
+[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/esp32/wifi_lora_32/index.html)
 WiFi LoRa 32 relevant documents.
 
 .. toctree::

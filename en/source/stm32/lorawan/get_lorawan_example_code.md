@@ -1,5 +1,5 @@
 # Get LoRaWAN Example Code
-
+[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/stm32/lorawan/get_lorawan_example_code.html)
 ## Get Chip ID
 
 Please refer to this document:[How to Get Chip ID](https://heltec-automation-docs.readthedocs.io/en/latest/general/view_limited_technical_data.html#how-to-get-chip-id)

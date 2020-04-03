@@ -1,5 +1,5 @@
 # Wifi Kit 32  Hardware Update Logs
-
+[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/esp32+arduino/wifi_kit_32/hardware_update_log.html)
 ## V1
 
 ![](img/hardware_update_log/01.png)

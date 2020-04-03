@@ -1,6 +1,6 @@
 Contents
 ========
-
+[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/cubecell/index.html)
 We believe `the CubeCell Series <https://heltec.org/cubecell>`__ is the best
 choice for LoRaWAN node applications. The following are some of the key
 features:

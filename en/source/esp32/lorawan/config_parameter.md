@@ -1,5 +1,5 @@
 # "ESP32 + LoRa" Preparation & Config Parameters
-
+[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/esp32/lorawan/config_parameter.html)
 ## Preparation
 ----------
 - Arduino IDE.  How to install please click [here](https://docs.heltec.cn/#/en/user_manual/how_to_install_git_and_arduino).

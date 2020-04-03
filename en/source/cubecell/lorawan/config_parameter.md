@@ -1,5 +1,5 @@
 # Config LoRaWAN Networking Parameters for CubeCell (Dev EUI, App Key, etc.)
-
+[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/cubecell/lorawan/config_parameter.html)
 ## Summary
 
 No matter what LoRa management platform is used, DevEui, AppKey, etc. parameters are must needed. And ensure that it is consistent with the relevant settings on the server.

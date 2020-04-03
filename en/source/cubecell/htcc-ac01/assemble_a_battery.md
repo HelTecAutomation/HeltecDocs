@@ -1,5 +1,5 @@
 # Assemble a battery to Capsule sensor
-
+[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/cubecell/htcc-ac01/assemble_a_battery.html)
 The capsule sensor is a global product, but because of international transportation, storage and other problems, **default is no integrated battery inside the Capsule sensor**.
 
 &nbsp;

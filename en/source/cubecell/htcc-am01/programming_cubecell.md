@@ -1,5 +1,5 @@
 # How to programming a CubeCell Module
-
+[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/cubecell/htcc-am01/programming_cubecell.html)
 **CubeCell module provide two version:** 
 
 - **AT command only**

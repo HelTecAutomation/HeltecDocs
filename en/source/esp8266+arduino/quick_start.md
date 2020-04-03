@@ -1,5 +1,5 @@
 # Heltec ESP8266+WIFI Series Quick Start
-
+[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/esp8266+arduino/quick_start.html)
 We suggest you confirm whether the `USB driver`, `Git` and `Arduino IDE` has installed first. If not, please view this two articles [establish serial connection](https://heltec-automation-docs.readthedocs.io/en/latest/general/establish_serial_connection.html) and [Install Git and Arduino IDE](https://heltec-automation-docs.readthedocs.io/en/latest/general/how_to_install_git_and_arduino.html).
 
 **There are two methods to install the development framework, choose on of they:**

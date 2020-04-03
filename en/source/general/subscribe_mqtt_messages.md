@@ -1,4 +1,5 @@
 # How to Subscribe MQTT Messages from LoRa Server
+[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/general/subscribe_mqtt_messages.html)
 ## Overview
 
 The purpose of this article is to subscribe to data messages from TTN nodes using the MQTT plugin in the data flow applicition Node-Red provided by TTN.

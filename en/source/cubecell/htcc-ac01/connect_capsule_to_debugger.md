@@ -1,5 +1,5 @@
 # Connect Capsule to Debugger
-
+[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/cubecell/htcc-ac01/connect_capsule_to_debugger.html)
 The capsule sensor itself is positioned as a small-sized, assembled and deployed sensor. It does not have programming, debugging, and other interfaces. You need to use the [Debug Board](https://heltec.org/product/cubecell-capsule-debug/) in order to program and debug the program.
 
 Both the capsule sensor body and the debug board have a round white marking point. When connecting, the position of the white points should be matched.

@@ -1,5 +1,5 @@
 # How to Upload the TF Card Image of Raspberry Pi, Configure Wi-Fi Access, SSH Connection
-
+[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/general/how_to_config_raspberry_pi.html)
 Users can also refer to [Raspberry Pi official quick start manual](https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up/2).
 
 ## Prepare Related Tools

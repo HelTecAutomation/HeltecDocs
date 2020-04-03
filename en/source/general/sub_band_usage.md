@@ -1,5 +1,5 @@
 # LoRaWAN example Sub-Band usage (AU915)
-
+[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/general/sub_band_usage.html)
 ## Description
 
 In the LoRaWAN protocol, there are detailed regulations in various countries or regions. These regulations include uplink and downlink Channel Frequency, Bandwidth, Duty cycle etc.
