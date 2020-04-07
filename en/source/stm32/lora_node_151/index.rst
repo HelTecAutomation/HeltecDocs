@@ -9,6 +9,7 @@ LoRa Node 151 relevant documents.
     
    Download Firmware <download_firmware>
    Establish Serial Connection <establish_serial_connection>
+   Pingpong Test <pingpong_test>
    Hardware Update Logs <hardware_update_log>
    
 Relevant Offical Resources
