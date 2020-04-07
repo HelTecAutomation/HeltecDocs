@@ -55,3 +55,16 @@ According to the situation we have collected so far, the most likely to cause a 
 Use the battery to power the development board, and connect an ammeter to the positive pole of the battery. Download this [Example Code](https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/examples/Low_Power/Low_Power.ino)
 
 This video is the test effect:[Test Video](https://v.youku.com/v_show/id_XNDI2NTE1NTQ3Ng==.html?spm=a2h3j.8428770.3416059.1)
+
+## Node to node communication
+
+On the premise of no hardware problem, LoRa nodes can communicate with each other node-to-node. The key to success node-to-node communication need make sure the following 5 points the same:
+
+1.  The same sending and listening frequency: `LoRa.setFrequency(frequency);`
+2.  The same bandwidth: `LoRa.setSignalBandwidth(signalBandwidth);`
+3.  The same coding rate: `LoRa.setCodingRate4(codingRateDenominator);`
+4.  The same preamble length: `LoRa.setPreambleLength(preambleLength);`
+5.  The same sync word: `LoRa.setSyncWord(syncWord);`
+
+Know more information about LoRa node-to-node communication, please refer to LoRa basic library APIs: [https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/src/lora/API.md](https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/src/lora/API.md)
+
