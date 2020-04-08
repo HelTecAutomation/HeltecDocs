@@ -5,6 +5,4 @@
 - First release
 - 2017-6-1 public sale
 - [Pinout diagram of V1](http://resource.heltec.cn/download/CubeCell/Capsule/HTCC-AC01_PinoutDiagram.pdf)
-- Schematic diagram of V1
-
-Due to technical reasons, the schematic diagram of HTTC - AC01 is not open to the public. Please understand.
+- [Schematic diagram of V1](http://resource.heltec.cn/download/CubeCell/Capsule/Capsule_MCU.pdf)
