@@ -89,7 +89,7 @@ sudo cp -f /home/pi/lora/picolorasdk/global_conf_CN470.json /home/pi/lora/picoGW
 
 ```
 
-Whether it is in SPI or USB mode, when `./install.sh` is executed, if everything is normal, the Unique ID of the current gateway will be printed.
+Whether it is in SPI or USB mode, when `./install.sh` is executed, if everything goes normal, the unique ID of the current gateway will be printed. **While register a gateway on a LoRa server need this unique ID.**
 
 ![](img/quick_start/08.png)
 
