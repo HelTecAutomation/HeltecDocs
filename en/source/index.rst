@@ -44,6 +44,7 @@ This is the documentation for `Heltec Automation <https://heltec.org>`_ products
    :caption: LORA GATEWAY
    
    gateway/index
+   gateway/sx1301module/index
    gateway/ht-m01/index
    gateway/ht-m02/index
    Frequently Asked Questions <gateway/frequently_asked_questions>
