@@ -7,7 +7,7 @@ This document branch is for `Heltec STM32 + LoRa Node series <https://heltec.org
 STM32 is a powerfull SoC with Ultra-low-power 32-bit MCU,The benefit of "STM32 + LoRa" combination:
 
 -  Low power features;
--  Multiple bus interfaces: USART x 3, SPI x 2, I2C x 2;
+-  Multiple bus interfaces;
 -  Powerful computing skills;
 -  Power mananagement system and different types of batteries support;
 -  Multiple general GPIOs;
