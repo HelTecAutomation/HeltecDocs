@@ -49,3 +49,18 @@ According to the situation we have collected so far, the most likely to cause a 
 
 - Power supply problem: please make sure the voltage of USB ≥ 4.7V, 300mA;
 - You chose an error board: because each type of board may have a different FLASH size, and they have a different partition map, it will cause the internal logic error.
+
+## Vext Control
+
+The `Vext` is a power source for external devices. Refer from the schematic diagram, It's controlled by GPIO21:
+
+![](img/frequently_asked_questions/03.png)
+
+- `GPIO 21 --> LOW --> Vext(3.3V/250mA) ON`
+
+- `GPIO 21 --> HIGH --> Vext(3.3V/250mA) OFF`
+
+``` Tips:: The Vext features is very important for some devices without deep sleep mode. When the system need in deep sleep status, we can turn off the Vext by set GPIO 21 to HIGH, then to save energy.
+
+```
+

@@ -68,3 +68,14 @@ On the premise of no hardware problem, LoRa nodes can communicate with each othe
 
 Know more information about LoRa node-to-node communication, please refer to LoRa basic library APIs: [https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/src/lora/API.md](https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/src/lora/API.md)
 
+## Vext control
+
+The `Vext` is a power source for external devices. Refer from the schematic diagram, It's controlled by GPIO21:
+
+`GPIO 21 --> LOW --> Vext(3.3V/250mA) ON`
+
+`GPIO 21 --> HIGH --> Vext(3.3V/250mA) OFF`
+
+
+
+![](img/frequently_asked_questions/03.png)

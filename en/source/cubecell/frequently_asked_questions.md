@@ -48,3 +48,17 @@ In order to read other analog signal, user need remove the resistance BR1, then 
 
 ```
 
+## Vext Control
+
+The `Vext` is a power source for external devices. Refer from the schematic diagram, It's controlled by `GPIO6`:
+
+![](img/frequently_asked_questions/04.png)
+
+- `GPIO 6 --> LOW --> Vext(3.3V/300mA) ON`
+
+- `GPIO 6 --> HIGH --> Vext(3.3V/300mA) OFF`
+
+``` Tips:: The Vext features is very important for some devices without deep sleep mode. When the system need in deep sleep status, we can turn off the Vext by set GPIO 21 to HIGH, then to save energy.
+
+```
+
