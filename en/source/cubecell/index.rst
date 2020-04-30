@@ -34,9 +34,9 @@ features:
     HTCC-AC01 Capsule Sensor <htcc-ac01/index>
     HTCC-AM01 Module <htcc-am01/index>
     HTCC-AB02 Dev-Board <htcc-ab02/index>
-    HTCC-AB02A Dev-Board <htcc-ab02a/index>
-    HTCC-AB02S Dev-Board <htcc-ab02s/index>
     HTCC-AM02 Module <htcc-am02/index>
+    CubeCell-1/2AA Dev-Board <htcc-ab02a/index>
+    CubeCell-GPS-6502 <htcc-ab02s/index>
     Frequently Asked Questions <frequently_asked_questions>
 
 Relevant Offical Resources
