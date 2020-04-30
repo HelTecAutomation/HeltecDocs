@@ -6,6 +6,6 @@
 
 - First release
 - 2017-6-1 public sale
-- [Pinout diagram of V1](http://resource.heltec.cn/download/CubeCell/DevBoard/HTCC-AB01_PinoutDiagram.pdf)
-- [Schematic diagram of V1](http://resource.heltec.cn/download/CubeCell/DevBoard/HT-AB01_SchematicDiagram.pdf)
+- [Pinout diagram of V1](http://resource.heltec.cn/download/CubeCell/HTCC-AB01/HTCC-AB01_PinoutDiagram.pdf)
+- [Schematic diagram of V1](http://resource.heltec.cn/download/CubeCell/HTCC-AB01/HTCC-AB01_SchematicDiagram.pdf)
 
