@@ -61,9 +61,9 @@ This is the documentation for `Heltec Automation <https://heltec.org>`_ products
    cubecell/htcc-ac01/index
    cubecell/htcc-am01/index
    cubecell/htcc-ab02/index
+   cubecell/htcc-am02/index
    cubecell/htcc-ab02a/index
    cubecell/htcc-ab02s/index
-   cubecell/htcc-am02/index
    Frequently Asked Questions <cubecell/frequently_asked_questions>
 
 .. toctree::
