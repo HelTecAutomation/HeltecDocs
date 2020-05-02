@@ -1,5 +1,5 @@
-HTCC-AB02 Dev-Board
-===================
+HTCC-AB02 Dev-Board Plus
+========================
 `简体中文 <https://heltec-automation.readthedocs.io/zh_CN/latest/cubecell/htcc-ab01/index.html>`_
 
 CubeCell Dev-Board HTCC-AB02 relevant documents.

@@ -2,7 +2,7 @@
 
 [简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/cubecell/htcc-am01/hardware_update_log.html)
 
-**HTCC-AM01 only have ASR6501and RF relevant circute inside. In order to program it, need connect to a external UART-USB bridge. CH340G, CP2102 etc.**
+**HTCC-AM01 only have ASR6501 and RF relevant circuit inside. In order to program it, need connect to an external UART-USB bridge. CH340G, CP2102 etc.**
 
 ## V1
 

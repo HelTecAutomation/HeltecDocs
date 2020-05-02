@@ -1,5 +1,5 @@
-CubeCell-GPS-6502
-=================
+HTCC-AB02S GPS-6502
+===================
 `简体中文 <https://heltec-automation.readthedocs.io/zh_CN/latest/cubecell/htcc-ab01/index.html>`_
 
 CubeCell-GPS-6502 relevant documents.
