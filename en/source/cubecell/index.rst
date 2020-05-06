@@ -30,14 +30,9 @@ features:
     Quick Start <quick_start>
     LoRaWAN <lorawan/index>
     AT Command List <http://resource.heltec.cn/download/CubeCell/CubeCell_Series_AT_Command_User_Manual_V0.2.pdf>
-    HTCC-AB01 Dev-Board <htcc-ab01/index>
-    HTCC-AC01 Capsule Sensor <htcc-ac01/index>
-    HTCC-AM01 Module <htcc-am01/index>
-    HTCC-AM02 Module Plus <htcc-am02/index>
-    HTCC-AB02 Dev-Board Plus <htcc-ab02/index>
-    HTCC-AB02A 1/2AA Dev-Board <htcc-ab02a/index>
-    HTCC-AB02S GPS-6502 <htcc-ab02s/index>
-    HTCC-AC02 Capsule Solar Sensor <htcc-ac02/index>
+    Dev-Board <dev-board/index>
+    Capsule-Sensor <capsule-sensor/index>
+    Module <module/index>
     Frequently Asked Questions <frequently_asked_questions>
 
 Relevant Offical Resources

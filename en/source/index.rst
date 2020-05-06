@@ -57,13 +57,9 @@ This is the documentation for `Heltec Automation <https://heltec.org>`_ products
    Quick Start <cubecell/quick_start>
    cubecell/lorawan/index
    AT Command List <http://resource.heltec.cn/download/CubeCell/CubeCell_Series_AT_Command_User_Manual_V0.2.pdf>
-   cubecell/htcc-ab01/index
-   cubecell/htcc-ac01/index
-   cubecell/htcc-am01/index
-   cubecell/htcc-ab02/index
-   cubecell/htcc-am02/index
-   cubecell/htcc-ab02a/index
-   cubecell/htcc-ab02s/index
+   cubecell/dev-board/index
+   cubecell/capsule-sensor/index
+   cubecell/module/index
    Frequently Asked Questions <cubecell/frequently_asked_questions>
 
 .. toctree::
