@@ -9,10 +9,3 @@ CubeCell Dev-Board
     HTCC-AB02 Dev-Board Plus <htcc-ab02/index>
     HTCC-AB02A 1/2AA Dev-Board <htcc-ab02a/index>
     HTCC-AB02S GPS-6502 <htcc-ab02s/index>
-
-Relevant Offical Resources
---------------------------
-
-- `ASR650x - Arduino repository <https://github.com/HelTecAutomation/ASR650x-Arduino>`_;
-- `CubeCell introduction page <https://heltec.org/cubecell/>`_.
-

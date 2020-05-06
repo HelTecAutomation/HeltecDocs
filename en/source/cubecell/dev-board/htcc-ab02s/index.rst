@@ -1,6 +1,6 @@
 HTCC-AB02S GPS-6502
 ===================
-`简体中文 <https://heltec-automation.readthedocs.io/zh_CN/latest/cubecell/htcc-ab01/index.html>`_
+`简体中文 <>`_
 
 CubeCell-GPS-6502 relevant documents.
 
@@ -12,5 +12,4 @@ CubeCell-GPS-6502 relevant documents.
 Relevant Offical Resources
 --------------------------
 
-- `AutoCAD drawing <http://resource.heltec.cn/download/CubeCell/CubeCell_CAD2014.dwg>`_;
-- Pin out and schematic diagram, please refer to `CubeCell-GPS-6502 Hardware Update Logs <https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/htcc-ab01/hardware_update_log.html>`_.
+- `Schematic diagram <http://resource.heltec.cn/download/CubeCell/HTCC-AB02S/HTCC-AB02S_SchematicDiagram.pdf>`_.
