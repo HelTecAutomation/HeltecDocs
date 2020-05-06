@@ -2,7 +2,7 @@ HTCC-AM02 Module Plus
 =====================
 `简体中文 <>`_
 
-HTCC-AM02 Module relevant documents.
+HTCC-AM02 Module Plus relevant documents.
 
 .. toctree::
     :maxdepth: 2
@@ -11,3 +11,7 @@ HTCC-AM02 Module relevant documents.
        
 Relevant Offical Resources
 --------------------------
+
+- `Sch_Pcb package <http://resource.heltec.cn/download/CubeCell/HTCC-AM02_Module/sch_pcb_package.zip>`_;
+- `HTCC-AM02 Reference Design(Arduino) <http://resource.heltec.cn/download/CubeCell/HTCC-AM02_Module/HTCC-AM02_Reference_Design(Arduino).pdf>`_;
+- `HTCC-AM02 Reference Design(AT) <http://resource.heltec.cn/download/CubeCell/HTCC-AM02_Module/HTCC-AM02_Reference_Design(AT).pdf>`_.
