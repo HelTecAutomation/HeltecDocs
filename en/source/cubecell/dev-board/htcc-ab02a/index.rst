@@ -1,4 +1,4 @@
-HTCC-AB02S 1/2AA Dev-Board
+HTCC-AB02A 1/2AA Dev-Board
 ==========================
 `简体中文 <>`_
 

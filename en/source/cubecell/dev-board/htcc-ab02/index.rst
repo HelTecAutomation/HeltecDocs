@@ -2,7 +2,7 @@ HTCC-AB02 Dev-Board Plus
 ========================
 `简体中文 <>`_
 
-CubeCell Dev-Board HTCC-AB02 relevant documents.
+CubeCell Dev-Board Plus HTCC-AB02 relevant documents.
 
 .. toctree::
     :maxdepth: 2
