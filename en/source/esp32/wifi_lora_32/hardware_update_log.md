@@ -52,3 +52,10 @@
 
 ![](img/hardware_update_log/03.png)
 
+- 2019-6-15  public sale
+- Change the RF switch from PE4259 to UPG2179, and change the RF part to the official recommended value;
+- Change the power detection pin from 13(ADC2: 4) to 37(ADC1: 1).
+- [Pinout diagram of V2.1](https://resource.heltec.cn/download/WiFi_LoRa_32/WIFI_LoRa_32_V2.1.pdf)
+- Schematic diagram of V2.1
+  - [433, 470~510 Version](https://resource.heltec.cn/download/WiFi_LoRa_32/V2.1/WiFi_LoRa_32_V2.1(433%2C470-510).PDF)
+  - [868~915 Version](https://resource.heltec.cn/download/WiFi_LoRa_32/V2.1/WIFI_LoRa_32_V2.1(868-915).PDF)

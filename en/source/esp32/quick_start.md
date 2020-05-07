@@ -22,7 +22,7 @@ Open Arduino IDE, and click `File`->`Peferences`.
 
 ![](img/quick_start/02.png)
 
-**Input the last ESP32 package URL:** [http://resource.heltec.cn/download/package_heltec_esp32_index.json](http://resource.heltec.cn/download/package_heltec_esp32_index.json)
+**Input the last ESP32 package URL:** [https://resource.heltec.cn/download/package_heltec_esp32_index.json](https://resource.heltec.cn/download/package_heltec_esp32_index.json)
 
 ![](img/quick_start/03.png)
 

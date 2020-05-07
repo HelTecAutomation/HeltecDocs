@@ -24,7 +24,7 @@ Open Arduino IDE, and click `File`->`Peferences`->`Settings`
 
 Input following json url to board manager URLs:
 
-[http://resource.heltec.cn/download/package_CubeCell_index.json](http://resource.heltec.cn/download/package_CubeCell_index.json)
+[https://resource.heltec.cn/download/package_CubeCell_index.json](https://resource.heltec.cn/download/package_CubeCell_index.json)
 
 ![](img/quick_start/03.png)
 
