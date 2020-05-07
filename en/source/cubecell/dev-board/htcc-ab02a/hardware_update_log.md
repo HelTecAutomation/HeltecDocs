@@ -1,5 +1,5 @@
 # CubeCell-1/2AA Dev-Board Hardware Update Logs
-[简体中文]()
+[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/cubecell/dev-board/htcc-ab02a/hardware_update_log.html)
 
 ## V1
 

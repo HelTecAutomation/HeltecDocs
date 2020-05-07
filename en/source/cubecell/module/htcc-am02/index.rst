@@ -1,6 +1,6 @@
 HTCC-AM02 Module Plus
 =====================
-`简体中文 <>`_
+`简体中文 <https://heltec-automation.readthedocs.io/zh_CN/latest/cubecell/module/htcc-am02/index.html>`_
 
 HTCC-AM02 Module Plus relevant documents.
 

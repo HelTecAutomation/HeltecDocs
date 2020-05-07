@@ -1,6 +1,6 @@
 HTCC-AM01 Module
 ================
-`简体中文 <https://heltec-automation.readthedocs.io/zh_CN/latest/cubecell/htcc-am01/index.html>`_
+`简体中文 <https://heltec-automation.readthedocs.io/zh_CN/latest/cubecell/module/htcc-am01/index.html>`_
 
 CubeCell Module HTCC-AM01 relevant documents.
 
