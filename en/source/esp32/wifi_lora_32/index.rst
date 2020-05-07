@@ -14,4 +14,6 @@ Relevant Offical Resources
 
 - `AutoCAD drawing <http://resource.heltec.cn/download/WiFi_LoRa_32/lora32%26kit32.dwg>`_;
 - `3D drawing <http://resource.heltec.cn/download/WiFi_LoRa_32/lora32%26kit32.stl>`_;
-- Pin out and schematic diagram, please refer to `WiFi LoRa 32 Hardware Update Logs <https://heltec-automation-docs.readthedocs.io/en/latest/esp32/wifi_lora_32/hardware_update_log.html>`_.
+- Schematic diagram
+  - `WiFi_LoRa_32_V2.1(433,470-510) <https://resource.heltec.cn/download/WiFi_LoRa_32/V2.1/WiFi_LoRa_32_V2.1(433%2C470-510).PDF>`_;
+  - `WiFi_LoRa_32_V2.1(868-915) <https://resource.heltec.cn/download/WiFi_LoRa_32/V2.1/WIFI_LoRa_32_V2.1(868-915).PDF>`_.
