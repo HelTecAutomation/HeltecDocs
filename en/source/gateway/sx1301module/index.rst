@@ -1,6 +1,7 @@
 SX1301 Module
 =============
-`¼òÌåÖĞÎÄ <https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/sx1301module/index.html>`_
+`ç®€ä½“ä¸­æ–‡ <https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/sx1301module/index.html>`_
+
 SX1301 LoRa gateway module, It can cooperate with hardware that supports Linux operating system (such as Raspberry Pi), then it can work as a LoRa gateway.
 -  SX1301 baseband chip;
 -  SPI bus;
