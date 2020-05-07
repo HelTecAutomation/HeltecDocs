@@ -17,5 +17,4 @@ Relevant Offical Resources
 - Schematic diagram
 
   - `WiFi_LoRa_32_V2.1(433,470-510) <https://resource.heltec.cn/download/WiFi_LoRa_32/V2.1/WiFi_LoRa_32_V2.1(433%2C470-510).PDF>`_;
-  
   - `WiFi_LoRa_32_V2.1(868-915) <https://resource.heltec.cn/download/WiFi_LoRa_32/V2.1/WIFI_LoRa_32_V2.1(868-915).PDF>`_.

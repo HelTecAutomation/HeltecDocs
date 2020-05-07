@@ -15,7 +15,6 @@ Turtle Board relevant documents.
 Relevant Offical Resources
 --------------------------
 
-- Pin out and schematic diagram, please refer to `Turtle Board Hardware Update Logs <https://heltec-automation-docs.readthedocs.io/en/latest/stm32/turtle_board/hardware_update_log.html>`_;
 - LoRaWAN example for Turtle Board -- Refer to `this document <https://heltec-automation-docs.readthedocs.io/en/latest/general/view_limited_technical_data.html>`_ to get limited resource;
 - Factory test firmware
 
