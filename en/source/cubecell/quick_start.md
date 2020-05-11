@@ -54,7 +54,7 @@ Connect your CubeCell board to computer via a **high quality** Micro USB cable *
 In the tools menu, there are following options:
 
 - **Board** -- Choose the right hardware connected to your computer;
-- **LORAWAN_REGION** -- LoRaWAN protocol region definition, strictly follow [LoRaWAN 1.1 Regional Parameters](https://lora-alliance.org/sites/default/files/2018-04/lorawantm_regional_parameters_v1.1rb_-_final.pdf);
+- **LORAWAN_REGION** -- LoRaWAN protocol region definition, strictly follow [LoRaWAN™ 1.0.2 Regional Parameters rB](https://resource.heltec.cn/download/LoRaWANRegionalParametersv1.0.2_final_1944_1.pdf);
 - **LORAWAN_CLASS** -- Now with Class A and Class C supported;
 - **LORAWAN_NETMODE** -- OTAA or ABP;
 - **LORAWAN_ADR** -- Turn ON or turn OFF ADR (Adaptive Data Rate);

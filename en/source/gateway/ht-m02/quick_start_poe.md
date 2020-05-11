@@ -37,7 +37,7 @@ Input the IP address of the HT-M02 in the browser to open the configuration page
 
 - **Status** -- HT-M02 running status;
 - **Gateway_ID** -- The Unique ID of current HT-M02;
-- **Band** -- Reginal frequency plans, strictly follow [LoRaWAN 1.1 Regional Parameters](https://lora-alliance.org/sites/default/files/2018-04/lorawantm_regional_parameters_v1.1rb_-_final.pdf);
+- **Band** -- Reginal frequency plans, strictly follow [LoRaWAN™ 1.0.2 Regional Parameters rB](https://resource.heltec.cn/download/LoRaWANRegionalParametersv1.0.2_final_1944_1.pdf);
 - **Channels** -- The listening channels of each bands, the [LoRaWAN Regional Parameters](https://lora-alliance.org/sites/default/files/2018-04/lorawantm_regional_parameters_v1.1rb_-_final.pdf) had defined detail uplink/downlink frequency of each channels, here `CN470`, `channels 0-7` means the HT-M02 will listen `470.3 MHz, 470.5 MHz, 470.7 MHz, 470.9 MHz, 471.1 MHz, 471.3 MHz, 471.5 MHz, 471.7 MHz` 8 channels.
 - **Server** -- Which LoRa server will be used
   - `Internal Server` -- HT-M02 will forward data to it self's internal LoRa server;
