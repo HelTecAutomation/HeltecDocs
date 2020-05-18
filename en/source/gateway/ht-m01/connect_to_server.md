@@ -106,7 +106,7 @@ sudo systemctl start chirpstack-gateway-bridge
 Modify the parameters of the `global_conf.json` file:
 
 ```shell
-  sudo nano /home/pi/lora/packet_forwarder/lora_pkt_fwd/global_conf.json/global_conf.json
+sudo nano ~/lora/packet_forwarder/lora_pkt_fwd/global_conf.json
 ```
 
   At the end of the `global_conf.json`, make these changes:
