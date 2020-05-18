@@ -54,10 +54,12 @@ Enter the following command in putty:
 
 Add WiFi configuration information at the end of it:
 
-`network={`
-  `ssid="Your WiFi name"`
-  `psk="Your WIFI password"`
-`}`
+```shell
+network={
+  ssid="Your WiFi name"
+  psk="Your WIFI password"
+}
+```
 
 `ctrl + O` -- Preservation，`ctrl + X ` -- Sign out。Restart Raspberry Pi. If everything is normal, Raspberry Pi will automatic connect to the corresponding WiFi after restart, and will print the IP address in the startup log.
 
