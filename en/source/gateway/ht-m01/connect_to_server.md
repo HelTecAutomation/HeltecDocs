@@ -42,7 +42,7 @@ The TTN's router addresses for different region:
 Fix parameters in `global_conf.json`:
 
 ```shell
-  nano /home/pi/lora/packet_forwarder/lora_pkt_fwd/global_conf.json/global_conf.json
+  nano /home/pi/lora/packet_forwarder/lora_pkt_fwd/global_conf.json
 ```
 
   At the end of the `global_conf.json`, make these changes:
