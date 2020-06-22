@@ -23,9 +23,9 @@ In the example menu `CubeCell - xxxx Sensor Examples`, is the basic test program
 
 ![](img/capsule_quick_start/01.png)
 
-**Heltec Produced Sensor Examples:** Sensor modules made by Heltec; [Sensor List](https://github.com/HelTecAutomation/ASR650x-Arduino/blob/master/libraries/SensorBasic/readme.md)
+**Heltec Produced Sensor Examples:** Sensor modules made by Heltec. Sensor List: `https://github.com/HelTecAutomation/ASR650x-Arduino/blob/master/libraries/SensorBasic/readme.md`
 
-**Third Party Sensor Examples:** For third-party sensor modules developed by users. [Sensor List](https://github.com/HelTecAutomation/ASR650x-Arduino/blob/master/libraries/Sensor_ThirdParty/readme.md)
+**Third Party Sensor Examples:** For third-party sensor modules developed by users. Sensor List: `https://github.com/HelTecAutomation/ASR650x-Arduino/blob/master/libraries/Sensor_ThirdParty/readme.md`
 
 &nbsp;
 
