@@ -4,7 +4,7 @@
 
 In the LoRaWAN protocol, there are detailed regulations in various countries or regions. These regulations include uplink and downlink Channel Frequency, Bandwidth, Duty cycle etc.
 
-**[LoRaWAN 1.1 Regional Parameters](https://lora-alliance.org/sites/default/files/2018-04/lorawantm_regional_parameters_v1.1rb_-_final.pdf)**
+**[LoRaWAN 1.0.2 rvB Regional Parameters](https://resource.heltec.cn/download/LoRaWANRegionalParametersv1.0.2_final_1944_1.pdf)**
 
 Let's take AU915 as an example:
 
