@@ -17,7 +17,7 @@ After disassembling the sensor shell, you can see 2 pads on the round PCB at the
 
 ## Battery specifications
 
-In the capsule sensor, it's already integrates a charge management circuit (see [Capsule sensor bottom plate schematic diagram]()), but does not have an over-discharge protection circuit, so **the lithium battery must have a protection circute**. Battery must include following features:
+In the capsule sensor, it's already integrates a charge management circuit, but does not have an over-discharge protection circuit, so **the lithium battery must have a protection circute**. Battery must include following features:
 
 - Voltage: 3.7V
 - Charging voltage: 4.2V

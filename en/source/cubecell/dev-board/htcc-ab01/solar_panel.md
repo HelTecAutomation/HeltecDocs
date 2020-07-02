@@ -1,7 +1,7 @@
 # Connect a Solar Panel to HTCC-AB01
 [简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/cubecell/dev-board/htcc-ab01/solar_panel.html)
 
-Please refer to the [pinout diagram of HTCC-AB01](http://resource.heltec.cn/download/CubeCell/DevBoard/HTCC-AB01_PinoutDiagram.pdf).
+Please refer to the [pinout diagram of HTCC-AB01](https://resource.heltec.cn/download/CubeCell/HTCC-AB01/HTCC-AB01_PinoutDiagram.pdf).
 
 The `VS` pin is the solar panel input, any 5.5~7V solar panel can be connected to this `VS` and `GND`.
 

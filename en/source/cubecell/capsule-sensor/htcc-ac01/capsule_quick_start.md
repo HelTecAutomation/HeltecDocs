@@ -6,12 +6,12 @@
 
 - The capsule sensor itself is positioned as a small-sized, assembled and deployed sensor. It does not have programming, debugging, and other interfaces. You need to use the [Debug Board](https://heltec.org/product/cubecell-capsule-debug/) in order to program and debug the program;
 - Due to storage and transportation issues, the battery is not integrated inside the capsule by default. Users in mainland China can inform our customer service when placing an order and we will provide integrated battery services.
-  - [How to assemble a battery inside the Capsule Sensor](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/htcc-ac01/assemble_a_battery.html)
+  - [How to assemble a battery inside the Capsule Sensor](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/capsule-sensor/htcc-ac01/assemble_a_battery.html)
 
 ## Get Ready
 - [Correctlly install CubeCell Arduino development framework](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/quick_start.html#install-cubecell-relevant-framework)；
 - A high quality Micro USB cable;
-- [Connect Capsule to Debugger board](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/htcc-ac01/connect_capsule_to_debugger.html)；
+- [Connect Capsule to Debugger board](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/capsule-sensor/htcc-ac01/connect_capsule_to_debugger.html)；
 - Install CP2102 USB-UART bridge driver.
   - *In most cases, Windows, Mac OS, and Linux will automatically recognize the CP2102 USB-UART bridge. If it is not recognized properly, please refer to [here](https://heltec-automation-docs.readthedocs.io/en/latest/general/establish_serial_connection.html).*
 
@@ -100,7 +100,7 @@ Everyone knows that `float` data occupies 4 bytes in memory, and `unsigned int` 
   - [How to connect HT-M01 to a LoRa server](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m01/connect_to_server.html)
   - [How to connect HT-M02 to a LoRa server](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m02/index.html)
 
-- [How to config LoRaWAN parameters](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/config_parameter.html)
+- [How to config LoRaWAN parameters](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/lorawan/config_parameter.html)
 
-- [Connect CubeCell to LoRaWAN Server](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/connect_to_gateway.html)
+- [Connect CubeCell to LoRaWAN Server](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/lorawan/connect_to_gateway.html)
 
