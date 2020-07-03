@@ -11,7 +11,7 @@ features:
    the RTC clock running;
 -  Low-cost despite its current state of the art technology;
 -  Integrated encryption algorithm protects your investment by rendering cloned firmware inoperative;
--  Based on proven technology - the new ASR650x, is a combination of the PSoC4000 and SX1262 into  a single chip, reducing the overall size to something smaller than the competition;
+-  Based on proven technology - the new ASR650x, is a combination of the PSoC4000 and SX1262 into a single chip, reducing the overall size to something smaller than the competition;
    
 -  Solar panel support;
 -  LoRaWAN protocol support;
