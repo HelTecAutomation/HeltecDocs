@@ -66,7 +66,7 @@ On the premise of no hardware problem, LoRa nodes can communicate with each othe
 4.  The same preamble length: `LoRa.setPreambleLength(preambleLength);`
 5.  The same sync word: `LoRa.setSyncWord(syncWord);`
 
-Know more information about LoRa node-to-node communication, please refer to LoRa basic library APIs: [https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/src/lora/API.md](https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/src/lora/API.md)
+Know more information about LoRa node-to-node communication, please refer to LoRa basic library APIs: `https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/src/lora/API.md`
 
 ## Vext control
 
