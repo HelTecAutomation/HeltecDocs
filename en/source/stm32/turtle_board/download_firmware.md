@@ -51,6 +51,6 @@ STM32L432KC had already included DFU Bootloader, it means just need a Micro USB 
 
   After connecting ST-LINK correctly, click on this icon.
 
-  ![](/img/download_firmware/06.png)
-
-***The advantage of using the ST-LINK method is that it can be single-stepped debugging with the STM32CubeIDE , but the disadvantage is that the ST-LINK debugger tool is required***
+  ![](img/download_firmware/06.png)
+  
+  ***The advantage of using the ST-LINK method is that it can be single-stepped debugging with the STM32CubeIDE , but the disadvantage is that the ST-LINK debugger tool is required***
