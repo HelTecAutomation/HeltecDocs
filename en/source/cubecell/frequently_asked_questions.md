@@ -20,9 +20,23 @@ Here are two methods access bootloader manually:
 
 **USER Pin map**
 
-**[Dev-Board](https://heltec.org/project/htcc-ab01/)** -- `GPIO 7`
+- Dev-Board
+  - **[HTCC-AB01](https://heltec.org/project/htcc-ab01/)** -- `GPIO 7`
+  - **[HTCC-AB02](https://heltec.org/project/htcc-ab02/)** -- `GPIO 11` or `GPIO 16`
+  - **[HTCC-AB02S](https://heltec.org/project/htcc-ab02s/)** -- `GPIO 11` or `GPIO 16`
+  - **[HTCC-AB02A](https://heltec.org/project/htcc-ab02a/)** -- `GPIO 11` or `GPIO 16`
+- Module
+  - **[HTCC-AM01](https://heltec.org/project/htcc-am01/)** -- `GPIO 0`
+  - **[HTCC-AM02](https://heltec.org/project/htcc-am02/)** -- `GPIO 11` or `GPIO 16`
 
-**[Capsule Sensor + Debug board](https://heltec.org/project/htcc-ac01/)** -- `GPIO 0`
+- Capsule Sensor
+  - **[Capsule Sensor(HTCC-AC01) + Debug board](https://heltec.org/project/htcc-ac01/)** -- `GPIO 0`
+
+```Tip:: The USER pin of HTCC-AB02, HTCC-AB02S, HTCC-AB02A can use GPIO11 or GPIO16, but the USER pin defaults to GPIO16 in the Dev-Board, and you should be careful not to pull GPIO11 low when entering the bootloader mode.
+
+```
+
+
 
 ``` Tip:: If keep USER pin keep LOW all the time (software set LOW or pull down to GND), may cause auto-boot system not working, users can access bootloader mode manually.
 
