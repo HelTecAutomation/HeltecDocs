@@ -89,7 +89,7 @@ Now go back to TTN, it is runing:
 
 ### ChirpStack Gateway Bridge
 
-**One thing need attention!** the ChripStack need a special service named `Gateway Bridge`, which converts LoRa® Packet Forwarder protocols into a ChirpStack Network Server [common data-format](https://github.com/brocaar/chirpstack-network-server/blob/master/api/gw/gw.proto) (JSON and Protobuf).
+**One thing need attention!** the ChripStack need a special service named `Gateway Bridge`, which converts LoRa® Packet Forwarder protocols into a ChirpStack Network Server common data-format(JSON and Protobuf).
 
 the `Gateway Bridge` service can running on the Raspberry Pi or the ChirpStack server. We recommend install it on the Raspberry Pi.
 
