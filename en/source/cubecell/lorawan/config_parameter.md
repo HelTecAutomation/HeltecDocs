@@ -151,7 +151,7 @@ LoRaWAN parameters need reset to active, CubeCell can reset via three methods:
 - Use AT command: `AT+RESET=1`
 - Provide a ≥10ms LOW signal to RST pin.
 
-Looking for more AT commands? Please refer to **[CubeCell AT Command list](https://resource.heltec.cn/download/CubeCell/AT_Command_list/CubeCell_Series_AT_Command_User_Manual_V0.3.pdf)**.
+Looking for more AT commands? Please refer to **[CubeCell AT Command list](https://resource.heltec.cn/download/CubeCell/AT_Command_list/CubeCell_Series_AT_Command_User_Manual_V0.4.pdf)**.
 
 
 
