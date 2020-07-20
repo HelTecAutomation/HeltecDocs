@@ -1,5 +1,5 @@
 # HT-M02 System Upgrade
-[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m02/system_upgrade.html)
+[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m02_4g/system_upgrade.html)
 ## Summary
 
 [HT-M02](https://heltec.org/project/ht-m02/) have two method to upgrade the system.

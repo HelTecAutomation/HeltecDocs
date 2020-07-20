@@ -98,7 +98,7 @@ Everyone knows that `float` data occupies 4 bytes in memory, and `unsigned int` 
 
 - Get ready a LoRa gateway
   - [How to connect HT-M01 to a LoRa server](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m01/connect_to_server.html)
-  - [How to connect HT-M02 to a LoRa server](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m02/index.html)
+  - [How to connect HT-M02 to a LoRa server](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m02_4g/quick_start_4g.html#connect-to-lora-server)
 
 - [How to config LoRaWAN parameters](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/lorawan/config_parameter.html)
 

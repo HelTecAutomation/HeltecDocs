@@ -1,5 +1,5 @@
 # HT-M02 Edge LoRa Gateway PoE Quick Start
-[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m02/quick_start_poe.html)
+[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m02_poe/quick_start_poe.html)
 ## Summary
 
 HT-M02 has integrated operating system and LoRa related programs, so it can be used directly in applications. HT-M02 has two versions: PoE and 4G(LTE). The purpose of this article is how to use the PoE version.
