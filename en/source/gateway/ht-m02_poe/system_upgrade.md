@@ -21,7 +21,6 @@ The process of making a system recovery / upgrade card is exactly the same as th
 
 - Download the latest firmware from [http://resource.heltec.cn/download/HT-M02/firmware](http://resource.heltec.cn/download/HT-M02/firmware)
   - [Latest firmware for HT-M02 PoE](http://resource.heltec.cn/download/HT-M02/firmware/heltec-M02-POE-debian-v2.img)
-  - [Latest firmware for HT-M02 4G]()
 - [Win32DiskImager](http://resource.heltec.cn/download/tools/Win32DiskImager.zip) -- Tool for flashing firmware to a Micro TF card;
 - [SD Formatter](http://resource.heltec.cn/download/tools/SD_Formatter.zip) -- It’s not necessary，If you need to format the TF card with an existing image, You need this tool；
 - A micro TF card with more than 4GB size, and card reader.
