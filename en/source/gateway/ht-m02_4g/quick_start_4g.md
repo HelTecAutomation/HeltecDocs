@@ -22,11 +22,11 @@ Because of the waterproof design, the UART interface is not directly exposed out
 
 - HT-M02 GND `<---->` UART-USB bridge GND
 
-![](img/quick_start_poe/06.png)
+![](img/quick_start_4g/04.png)
 
 Recommended to use [Putty,](https://putty.org/) configured as shown in the following image. 
 
-![](img/quick_start_poe/07.png)
+![](img/quick_start_4g/05.png)
 
 ## Power ON for the first time
 
