@@ -4,14 +4,17 @@ Heltec Automation Docs Page
 
 This is the documentation for `Heltec Automation <https://heltec.org>`_ products.
    
+Nodes
+-----
+ 
 ==================  ==================  ==================
 |CubeCell|_         |ESP32+LoRa|_       |STM32+LoRa|_
 ------------------  ------------------  ------------------
 `CubeCell`_         `ESP32+LoRa`_       `STM32+LoRa`_
-------------------  ------------------  ------------------
-|ESP32+Arduino|_    |ESP8266+Arduino|_  |General Docs|_
-------------------  ------------------  ------------------
-`ESP32+Arduino`_    `ESP8266+Arduino`_  `General Docs`_
+------------------  ------------------  ------------------ 
+|ESP32+Arduino|_    |ESP8266+Arduino|_    
+------------------  ------------------  ------------------ 
+`ESP32+Arduino`_    `ESP8266+Arduino`_  
 ==================  ==================  ==================
 
 .. |CubeCell| image:: img/01.png
@@ -28,6 +31,33 @@ This is the documentation for `Heltec Automation <https://heltec.org>`_ products
 
 .. |ESP8266+Arduino| image:: img/05.png
 .. _ESP8266+Arduino: esp8266+arduino/index.html
+
+Gateways
+--------
+
+==================  ==================  ==================
+|HT-M01|_           |HT-M02_4G/LTE|_    |HT-M02_POE|_
+------------------  ------------------  ------------------
+`HT-M01`_           `HT-M02_4G/LTE`_    `HT-M02_POE`_
+==================  ==================  ==================
+
+.. |HT-M01| image:: img/07.png
+.. _HT-M01: gateway/ht-m01/index.html
+
+.. |HT-M02_4G/LTE| image:: img/08.png
+.. _HT-M02_4G/LTE: gateway/ht-m02_4g/index.html
+
+.. |HT-M02_POE| image:: img/09.png
+.. _HT-M02_POE: gateway/ht-m02_poe/index.html
+
+General Docs
+------------
+
+==================  ==================  ==================
+|General Docs|_
+------------------  ------------------  ------------------
+`General Docs`_
+==================  ==================  ==================
 
 .. |General Docs| image:: img/06.png
 .. _General Docs: general/index.html
