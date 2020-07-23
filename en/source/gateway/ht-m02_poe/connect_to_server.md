@@ -1,5 +1,5 @@
 # Connect HT-M02 to a LoRa Server
-[简体中文]()
+[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m02_poe/connect_to_server.html)
 
 ## Summary
 
