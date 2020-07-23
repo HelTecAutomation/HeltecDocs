@@ -1,11 +1,11 @@
 # Connect HT-M00 to a LoRa Server
-[简体中文]()
+[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m00/connect_to_server.html)
 
 ## Summary
 
 This article aims to describe how to connect [HT-M00 Gateway](https://heltec.org/project/ht-m00/) to a LoRa server, such as [TTN](https://www.thethingsnetwork.org/), [ChirpStack](https://www.chirpstack.io/), which facilitates secondary development and rapid deployment of LoRa devices.
 
-Before all operation, make sure the HT-M00 is runing well . If not, please refer to this [HT-M00 Quick Start]() document.
+Before all operation, make sure the HT-M00 is runing well . If not, please refer to this [HT-M00 Quick Start](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m00/qucik_start.html) document.
 
 &nbsp;
 
@@ -46,7 +46,7 @@ Fill in the HT-M00 information as shown below and complete the addition.
 
 ### Connecting
 
-Users only need config the server address and port in the  HT-M00 gateway. The server address and port are configured in the "HT-M00 Config" interface, Please refer to [HT-M00 Quick Start]() document.
+Users only need config the server address and port in the  HT-M00 gateway. The server address and port are configured in the "HT-M00 Config" interface, Please refer to [HT-M00 Quick Start](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m00/qucik_start.html) document.
 
 The TTN's router addresses for different region:
 

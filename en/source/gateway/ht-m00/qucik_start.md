@@ -1,9 +1,19 @@
 # HT-M00 Dual Channel LoRa Gateway Quick Start
-[简体中文]()
+[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m00/qucik_start.html)
 
 ## Summary
 
 HT-M00 is a small, low-cost dual-channel LoRa gateway, Use Type-C interface. The HT-M00 gateway drives two SX1276 chips based on ESP32. We have written a software mixer (baseband simulation program) to monitor the spreading factor of 125KHz SF7~SF12. The main function of HT-M00 is to provide LoRaWAN network for large houses of 1500~2000 square meters, or to make up for the blind spots of the signal in the area that the SX1301 gateway signal cannot cover.
+
+
+
+```Tip:: When using the HT-M00 gateway, using nodes other than the company's CubeCell series, you need to change the node's preamble length to 16 (default is 8). If the preamble length is not modified to 16, only SF7 can be received.
+
+```
+
+![](img/quick_start/08.png)
+
+Modify the preamble length in this function to 16 as shown in the figure above.
 
 &nbsp;
 

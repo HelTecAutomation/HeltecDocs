@@ -3,9 +3,9 @@
 
 ## Summary
 
-This article aims to describe how to connect [HT-M02 Gateway]() to a LoRa server, such as [TTN](https://www.thethingsnetwork.org/), [ChirpStack](https://www.chirpstack.io/), which facilitates secondary development and rapid deployment of LoRa devices.
+This article aims to describe how to connect [HT-M02 Gateway](https://heltec.org/project/ht-m02/) to a LoRa server, such as [TTN](https://www.thethingsnetwork.org/), [ChirpStack](https://www.chirpstack.io/), which facilitates secondary development and rapid deployment of LoRa devices.
 
-Before all operation, make sure the HT-M02 is runing well . If not, please refer to this [HT-M02(POE) Quick Start]() document.
+Before all operation, make sure the HT-M02 is runing well . If not, please refer to this [HT-M02(POE) Quick Start](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m02_poe/quick_start_poe.html) document.
 
 &nbsp;
 
