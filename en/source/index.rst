@@ -36,10 +36,17 @@ Gateways
 --------
 
 ==================  ==================  ==================
-|HT-M01|_           |HT-M02_4G/LTE|_    |HT-M02_POE|_
+|HT-M00|_           |HT-M01|_   
 ------------------  ------------------  ------------------
-`HT-M01`_           `HT-M02_4G/LTE`_    `HT-M02_POE`_
+`HT-M00`_           `HT-M01`_    
+------------------  ------------------  ------------------ 
+|HT-M02_4G/LTE|_    |HT-M02_POE|_
+------------------  ------------------  ------------------ 
+`HT-M02_4G/LTE`_    `HT-M02_POE`_
 ==================  ==================  ==================
+
+.. |HT-M00| image:: img/10.png
+.. _HT-M00: gateway/ht-m00/index.html
 
 .. |HT-M01| image:: img/07.png
 .. _HT-M01: gateway/ht-m01/index.html
@@ -75,6 +82,7 @@ General Docs
    
    gateway/index
    gateway/sx1301module/index
+   gateway/ht-m00/index
    gateway/ht-m01/index
    gateway/ht-m02_4g/index
    gateway/ht-m02_poe/index

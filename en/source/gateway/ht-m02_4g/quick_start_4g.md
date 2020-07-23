@@ -45,38 +45,6 @@ If everything goes well, the system will run automatically after power ON. When 
 
 ```
 
-## Connect to LoRa server
-
-In order to connect to a LoRa server, users only need config the `server address` and `port` in `global_conf.json`:
-
-```shell
-sudo nano lora/packet_forwarder/lora_pkt_fwd/global_conf.json
-```
-
-At the end of this file, make suitable changes:
-
-```json
-  “server_address”: “router.eu.thethings.network”, /*The server IP address or domain*/
-  “serv_port_up”: 1700,
-  “serv_port_down”: 1700,
-```
-
-![](img/quick_start_4g/02.png)
-
-`ctrl + O` to save and `ctrl + X` to exit, and restart the service:
-
-```shell
-sudo systemctl restart lrgateway
-```
-
-Check whether the system running normally:
-
-```shell
-sudo systemctl status lrgateway
-```
-
-![](img/quick_start_4g/03.png)
-
 &nbsp;
 
 ## Relevant resources

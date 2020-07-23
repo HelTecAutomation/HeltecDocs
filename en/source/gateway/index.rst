@@ -8,6 +8,7 @@ Heltec LoRa Gateways
     :maxdepth: 2
     
     SX1301 Module <sx1301module/index>
+    HT-M00 Dual Channel LoRa Gateway <ht-m00/index>
     HT-M01 Evaluation LoRa Gateway <ht-m01/index>
     HT-M02 Edge LoRa Gateway(4G/LTE) <ht-m02_4g/index>
     HT-M02 Edge LoRa Gateway(POE) <ht-m02_poe/index>
