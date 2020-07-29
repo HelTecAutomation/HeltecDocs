@@ -34,7 +34,7 @@ Fill in the HT-M00 information as shown below and complete the addition.
 
 ### Connect to TTN
 
-Users only need config the server address and port in the  HT-M00 gateway. The server address and port are configured in the "HT-M00 Config" interface, Please refer to [HT-M00 Quick Start](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m00/qucik_start.html) document.
+Users  need config the server address, port and channel in the  HT-M00 gateway. The server address, port and channel are configured in the "HT-M00 Config" interface, Please refer to [HT-M00 Quick Start](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m00/qucik_start.html) document.
 
 ![](img/connect_to_server/01.png)
 
@@ -46,7 +46,7 @@ The TTN's router addresses for different region:
 
 View gateway status, it is runing:
 
-![](img/connect_to_server/03.png)
+![](img/connect_to_server/05.png)
 
 &nbsp;
 
@@ -75,7 +75,7 @@ Fill in the HT-M00 information as shown below and complete the addition.
 
 ### Connect to ChirpStack server
 
-Users only need config the server address and port in the  HT-M00 gateway. The server address and port are configured in the "HT-M00 Config" interface, Please refer to [HT-M00 Quick Start](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m00/qucik_start.html) document.
+Users  need config the server address, port and channel in the  HT-M00 gateway. The server address, port and channel are configured in the "HT-M00 Config" interface, Please refer to [HT-M00 Quick Start](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m00/qucik_start.html) document.
 
 ![](img/connect_to_server/01.png)
 
@@ -97,7 +97,7 @@ Fill in the HT-M00 information as shown below and complete the addition.
 
 ### Connect to HelTec server
 
-Users only need config the server address and port in the  HT-M00 gateway. The server address and port are configured in the "HT-M00 Config" interface, Please refer to [HT-M00 Quick Start](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m00/qucik_start.html) document.
+Users  need config the server address, port and channel in the  HT-M00 gateway. The server address, port and channel are configured in the "HT-M00 Config" interface, Please refer to [HT-M00 Quick Start](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m00/qucik_start.html) document.
 
 ![](img/connect_to_server/01.png)
 

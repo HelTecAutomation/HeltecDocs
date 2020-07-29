@@ -31,7 +31,7 @@ Fill in the HT-M01 information as shown below and complete the addition.
 
 ### Connect to TTN
 
-In the HT-M01 gateway, only the server address and port need to be configured.
+In the HT-M01 gateway, need to configure the gateway ID, server address and port.
 
 The TTN's router addresses for different region:
 
@@ -110,7 +110,7 @@ Fill in the HT-M01 information as shown below and complete the addition.
 
 ### Connect to ChirpStack server
 
-In the HT-M01 gateway, only the server address and port need to be configured.
+In the HT-M01 gateway, need to configure the gateway ID, server address and port.
 
 #### HT-M01 in Linux (Raspberry Pi)
 
@@ -164,7 +164,7 @@ Fill in the HT-M01 information as shown below and complete the addition.
 
 ### Connect to HelTec server
 
-In the HT-M01 gateway, only the server address and port need to be configured.
+In the HT-M01 gateway, need to configure the gateway ID, server address and port.
 
 Server addresses in different regions:
 

@@ -19,7 +19,7 @@ Modify the preamble length in this function to 16 as shown in the figure above.
 
 ## Configure the gateway
 
-The HT-M00 gateway has been burned with related programs before leaving the factory, and it can be used with a few simple operations, You can use it with just a few simple operations.
+The HT-M00 gateway has been burned with related programs before leaving the factory, you can use it with just a few simple operations.
 
 ![](img/quick_start/01.png)
 
