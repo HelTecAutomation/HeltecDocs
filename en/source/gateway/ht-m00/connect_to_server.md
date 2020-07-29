@@ -69,7 +69,7 @@ Install ChirpStack Gateway Bridge: [https://www.chirpstack.io/gateway-bridge/ins
 
 Fill in the HT-M00 information as shown below and complete the addition.
 
-![](F:/Shaffer/Documents/Arduino/HeltecDocs-zh_CN/zh_CN/source/gateway/ht-m00/img/connect_to_server/06.png)
+![](img/connect_to_server/06.png)
 
 - **Gateway ID** -- The unique ID of the HT-M00 gateway, view it from the display of HT-M00.
 
@@ -77,11 +77,11 @@ Fill in the HT-M00 information as shown below and complete the addition.
 
 Users only need config the server address and port in the  HT-M00 gateway. The server address and port are configured in the "HT-M00 Config" interface, Please refer to [HT-M00 Quick Start](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m00/qucik_start.html) document.
 
-![](F:/Shaffer/Documents/Arduino/HeltecDocs-zh_CN/zh_CN/source/gateway/ht-m00/img/connect_to_server/01.png)
+![](img/connect_to_server/01.png)
 
 View gateway status, it is runing:
 
-![](F:/Shaffer/Documents/Arduino/HeltecDocs-zh_CN/zh_CN/source/gateway/ht-m00/img/connect_to_server/07.png)
+![](img/connect_to_server/07.png)
 
 &nbsp;
 
@@ -91,7 +91,7 @@ View gateway status, it is runing:
 
 Fill in the HT-M00 information as shown below and complete the addition.
 
-![](F:/Shaffer/Documents/Arduino/HeltecDocs-zh_CN/zh_CN/source/gateway/ht-m00/img/connect_to_server/09.png)
+![](img/connect_to_server/09.png)
 
 - **Gateway ID** -- The unique ID of the HT-M00 gateway, view it from the display of HT-M00.
 
@@ -99,7 +99,7 @@ Fill in the HT-M00 information as shown below and complete the addition.
 
 Users only need config the server address and port in the  HT-M00 gateway. The server address and port are configured in the "HT-M00 Config" interface, Please refer to [HT-M00 Quick Start](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m00/qucik_start.html) document.
 
-![](F:/Shaffer/Documents/Arduino/HeltecDocs-zh_CN/zh_CN/source/gateway/ht-m00/img/connect_to_server/01.png)
+![](img/connect_to_server/01.png)
 
 The server addresses corresponding to different regions are as follows:
 
@@ -115,4 +115,4 @@ The server addresses corresponding to different regions are as follows:
 
 View gateway status, it is runing:
 
-![](F:/Shaffer/Documents/Arduino/HeltecDocs-zh_CN/zh_CN/source/gateway/ht-m00/img/connect_to_server/11.png)
+![](img/connect_to_server/11.png)
