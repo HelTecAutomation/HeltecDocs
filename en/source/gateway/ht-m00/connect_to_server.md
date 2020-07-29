@@ -9,18 +9,6 @@ Before all operation, make sure the HT-M00 is runing well . If not, please refer
 
 &nbsp;
 
-To connect the HT-M00 gateway to the LoRa server, you only need to add the corresponding gateway on the server after configuring the HT-M00.
-
-- When configuring HT-M00, It should be noted that "SERVER ADDR" is consistent with the server address. When creating a new gateway in the server, it should be noted that "Gateway ID" is consistent with the gateway ID of HT-M00.
-
-![](img/connect_to_server/01.png)
-
-```Tip:: The gateway ID of each HT-M00 gateway is different and cannot be changed.
-
-```
-
-&nbsp;
-
 ## Connect to TTN
 
 ### Register a LoRa gateway in TTN
@@ -44,9 +32,11 @@ Fill in the HT-M00 information as shown below and complete the addition.
 
 
 
-### Connecting
+### Connect to TTN
 
 Users only need config the server address and port in the  HT-M00 gateway. The server address and port are configured in the "HT-M00 Config" interface, Please refer to [HT-M00 Quick Start](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m00/qucik_start.html) document.
+
+![](img/connect_to_server/01.png)
 
 The TTN's router addresses for different region:
 
@@ -83,6 +73,12 @@ Fill in the HT-M00 information as shown below and complete the addition.
 
 - **Gateway ID** -- The unique ID of the HT-M00 gateway, view it from the display of HT-M00.
 
+### Connect to ChirpStack server
+
+Users only need config the server address and port in the  HT-M00 gateway. The server address and port are configured in the "HT-M00 Config" interface, Please refer to [HT-M00 Quick Start](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m00/qucik_start.html) document.
+
+![](F:/Shaffer/Documents/Arduino/HeltecDocs-zh_CN/zh_CN/source/gateway/ht-m00/img/connect_to_server/01.png)
+
 View gateway status, it is runing:
 
 ![](F:/Shaffer/Documents/Arduino/HeltecDocs-zh_CN/zh_CN/source/gateway/ht-m00/img/connect_to_server/07.png)
@@ -91,4 +87,32 @@ View gateway status, it is runing:
 
 ## Connect to HelTec server
 
-Coming soon.
+### Register LoRa Gateway in HelTec Cloud Server
+
+Fill in the HT-M00 information as shown below and complete the addition.
+
+![](F:/Shaffer/Documents/Arduino/HeltecDocs-zh_CN/zh_CN/source/gateway/ht-m00/img/connect_to_server/09.png)
+
+- **Gateway ID** -- The unique ID of the HT-M00 gateway, view it from the display of HT-M00.
+
+### Connect to HelTec server
+
+Users only need config the server address and port in the  HT-M00 gateway. The server address and port are configured in the "HT-M00 Config" interface, Please refer to [HT-M00 Quick Start](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m00/qucik_start.html) document.
+
+![](F:/Shaffer/Documents/Arduino/HeltecDocs-zh_CN/zh_CN/source/gateway/ht-m00/img/connect_to_server/01.png)
+
+The server addresses corresponding to different regions are as follows:
+
+`CN470` --  `cn01.cloud.heltec.cn`
+
+`EU868` --  `eu01.cloud.heltec.org`
+
+`US915` --  `us01.cloud.heltec.org`
+
+`AU915` --  `au01.cloud.heltec.org`
+
+`AS923` --  `as01.cloud.heltec.org`
+
+View gateway status, it is runing:
+
+![](F:/Shaffer/Documents/Arduino/HeltecDocs-zh_CN/zh_CN/source/gateway/ht-m00/img/connect_to_server/11.png)

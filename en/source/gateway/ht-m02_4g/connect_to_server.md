@@ -9,34 +9,6 @@ Before all operation, make sure the HT-M02 is runing well . If not, please refer
 
 &nbsp;
 
-Connect HT-M02 to LoRa server, users only need config the `server address` and `port` in `global_conf.json`:
-
-```shell
-sudo nano lora/packet_forwarder/lora_pkt_fwd/global_conf.json
-```
-
-At the end of this file, make suitable changes:
-
-```json
-  “server_address”: “router.eu.thethings.network”, /*The server IP address or domain*/
-  “serv_port_up”: 1700,
-  “serv_port_down”: 1700,
-```
-
-![](img/connect_to_server/01.png)
-
-`ctrl + O` to save and `ctrl + X` to exit, and restart the service:
-
-```shell
-sudo systemctl restart lrgateway
-```
-
-Check whether the system running normally:
-
-![](img/connect_to_server/02.png)
-
-&nbsp;
-
 ## Connect to TTN
 
 ### Register a LoRa gateway in TTN
@@ -58,11 +30,39 @@ Fill in the HT-M02 information as shown below and complete the addition.
 
 ```
 
-
-
-### Connecting
+### Connect to TTN
 
 In the HT-M02 gateway, only the server address and port need to be configured.
+
+config the `server address` and `port` in `global_conf.json`:
+
+```shell
+sudo nano lora/packet_forwarder/lora_pkt_fwd/global_conf.json
+```
+
+At the end of this file, make suitable changes:
+
+```json
+  “server_address”: “router.cn.thethings.network”, /*The server IP address or domain*/
+  “serv_port_up”: 1700,
+  “serv_port_down”: 1700,
+```
+
+![](img/connect_to_server/01.png)
+
+`ctrl + O` to save and `ctrl + X` to exit, and restart the service:
+
+```shell
+sudo systemctl restart lrgateway
+```
+
+Check whether the system running normally:
+
+```shell
+sudo systemctl status lrgateway
+```
+
+![](img/connect_to_server/02.png)
 
 The TTN's router addresses for different region:
 
@@ -99,14 +99,102 @@ Fill in the HT-M02 information as shown below and complete the addition.
 
 - **Gateway ID** -- The unique ID of the HT-M02 gateway.
 
+### Connect to ChirpStack server
+
+In the HT-M02 gateway, only the server address and port need to be configured.
+
+config the `server address` and `port` in `global_conf.json`:
+
+```shell
+sudo nano lora/packet_forwarder/lora_pkt_fwd/global_conf.json
+```
+
+At the end of this file, make suitable changes:
+
+```json
+  “server_address”: “router.eu.thethings.network”, /*The server IP address or domain*/
+  “serv_port_up”: 1700,
+  “serv_port_down”: 1700,
+```
+
+![](img/connect_to_server/01.png)
+
+`ctrl + O` to save and `ctrl + X` to exit, and restart the service:
+
+```shell
+sudo systemctl restart lrgateway
+```
+
+Check whether the system running normally:
+
+```shell
+sudo systemctl status lrgateway
+```
+
+![](img/connect_to_server/02.png)
+
 View gateway status, it is runing:
 
 ![](img/connect_to_server/08.png)
 
 &nbsp;
 
-&nbsp; 
-
 ## Connect to HelTec server
 
-Coming soon.
+### Register LoRa Gateway in HelTec Cloud Server
+
+Fill in the HT-M02 information as shown below and complete the addition.
+
+![](img/connect_to_server/09.png)
+
+- **Gateway ID** -- The unique ID of the HT-M02 gateway.
+
+### Connect to HelTec server
+
+In the HT-M02 gateway, only the server address and port need to be configured.
+
+config the `server address` and `port` in `global_conf.json`:
+
+```shell
+sudo nano lora/packet_forwarder/lora_pkt_fwd/global_conf.json
+```
+
+At the end of this file, make suitable changes:
+
+```json
+  “server_address”: “cn01.cloud.heltec.cn”, /*The server IP address or domain*/
+  “serv_port_up”: 1700,
+  “serv_port_down”: 1700,
+```
+
+![](img/connect_to_server/01.png)
+
+`ctrl + O` to save and `ctrl + X` to exit, and restart the service:
+
+```shell
+sudo systemctl restart lrgateway
+```
+
+Check whether the system running normally:
+
+```shell
+sudo systemctl status lrgateway
+```
+
+![](img/connect_to_server/02.png)
+
+The server addresses corresponding to different regions are as follows:
+
+`CN470` --  `cn01.cloud.heltec.cn`
+
+`EU868` --  `eu01.cloud.heltec.org`
+
+`US915` --  `us01.cloud.heltec.org`
+
+`AU915` --  `au01.cloud.heltec.org`
+
+`AS923` --  `as01.cloud.heltec.org`
+
+View gateway status, it is runing:
+
+![](img/connect_to_server/10.png)

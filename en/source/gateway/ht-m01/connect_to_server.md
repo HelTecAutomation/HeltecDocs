@@ -6,6 +6,8 @@ This article aims to describe how to connect [HT-M01 Gateway](https://heltec.org
 
 Before all operation, make sure the HT-M01 is runing well with a Raspberry Pi (Linux) or Windows computer. If not, please refer to this [HT-M01 Quick Start](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m01/qucik_start.html) document.
 
+&nbsp;
+
 ## Connect to TTN
 
 ### Register a LoRa gateway in TTN
@@ -27,15 +29,15 @@ Fill in the HT-M01 information as shown below and complete the addition.
 
 ```
 
+### Connect to TTN
 
-
-### Connecting
-
-Users only need config the server address and port in the Raspberry Pi *(for HT-M01 gateway)*.
+In the HT-M01 gateway, only the server address and port need to be configured.
 
 The TTN's router addresses for different region:
 
 [https://www.thethingsnetwork.org/docs/gateways/packet-forwarder/semtech-udp.html#router-addresses](https://www.thethingsnetwork.org/docs/gateways/packet-forwarder/semtech-udp.html#router-addresses)
+
+![](img/connect_to_server/08.png)
 
 #### HT-M01 in Linux (Raspberry Pi)
 
@@ -45,11 +47,12 @@ Fix parameters in `global_conf.json`:
   nano /home/pi/lora/packet_forwarder/lora_pkt_fwd/global_conf.json
 ```
 
-  At the end of the `global_conf.json`, make these changes:
+ Configure gateway ID, server address, port. At the end of the `global_conf.json`, make these changes:
 
 
   ```json
-  “server_address”: “router.eu.thethings.network”, /*The router addresses need matach your region*/
+  “gateway_ID”: “XXXXXXXXXXXXXXXX”, /*Your gateway ID, 16 characters*/
+  “server_address”: “router.cn.thethings.network”, /*The router addresses need matach your region*/
   “serv_port_up”: 1700,
   “serv_port_down”: 1700,
   ```
@@ -59,8 +62,6 @@ Fix parameters in `global_conf.json`:
 ```shell
 sudo systemctl restart lrgateway
 ```
-
-
 
 #### HT-M01 in Windows
 
@@ -72,9 +73,7 @@ Click `OK` and `Start Packet Forwarder`.
 
 ![](img/connect_to_server/05.png)
 
-&nbsp;
-
-Now go back to TTN, it is runing:
+View gateway status, it is runing:
 
 ![](img/connect_to_server/04.png)
 
@@ -101,28 +100,35 @@ Starting the ChirpStack Gateway Bridge:
 sudo systemctl start chirpstack-gateway-bridge
 ```
 
-### Connecting
+### Register LoRa Gateway in ChirpStack
 
-Modify the parameters of the `global_conf.json` file:
+Fill in the HT-M01 information as shown below and complete the addition.
+
+![](img/connect_to_server/09.png)
+
+- **Gateway ID** -- The unique ID of HT-M01 gateway。
+
+### Connect to ChirpStack server
+
+In the HT-M01 gateway, only the server address and port need to be configured.
+
+#### HT-M01 in Linux (Raspberry Pi)
+
+Fix parameters in `global_conf.json`:
 
 ```shell
-sudo nano ~/lora/packet_forwarder/lora_pkt_fwd/global_conf.json
+  nano /home/pi/lora/packet_forwarder/lora_pkt_fwd/global_conf.json
 ```
 
-  At the end of the `global_conf.json`, make these changes:
+ Configure gateway ID, server address, port. At the end of the `global_conf.json`, make these changes:
 
-```json
+
+  ```json
   “gateway_ID”: “XXXXXXXXXXXXXXXX”, /*Your gateway ID, 16 characters*/
-/*
-   - If the ChirpStack Gateway Bridge runing on Raspberry Pi, server_address should be "localhost";
-   - If the ChirpStack Gateway Bridge runing on Raspberry Pi, server_address should be the ChirpStack's IP address.
-*/
-  “server_address”: “localhost”,
+  “server_address”: “router.eu.thethings.network”, /*The router addresses need matach your region*/
   “serv_port_up”: 1700,
   “serv_port_down”: 1700,
-```
-
-Gateway Bridge running on Raspberry Pi, the data flow 
+  ```
 
 `ctrl + O` to save and `ctrl + X` to exit, and restart the service in Raspberry Pi:
 
@@ -130,9 +136,82 @@ Gateway Bridge running on Raspberry Pi, the data flow
 sudo systemctl restart lrgateway
 ```
 
-&nbsp;
+#### HT-M01 in Windows
 
-Now, back to ChirpStack server, it is running.
+Fill in the correct `ID`, `server address`, keep `Port` default 1700.
+
+![](img/connect_to_server/07.png)
+
+Click `OK` and `Start Packet Forwarder`.
+
+![](img/connect_to_server/05.png)
+
+View gateway status, it is runing:
 
 ![](img/connect_to_server/06.png)
 
+&nbsp;
+
+## Connect to HelTec server
+
+### Register LoRa Gateway in HelTec Cloud Server
+
+Fill in the HT-M01 information as shown below and complete the addition.
+
+![](img/connect_to_server/10.png)
+
+- **Gateway ID** -- The unique ID of the HT-M01 gateway, 
+
+### Connect to HelTec server
+
+In the HT-M01 gateway, only the server address and port need to be configured.
+
+Server addresses in different regions:
+
+`CN470` --  `cn01.cloud.heltec.cn`
+
+`EU868` --  `eu01.cloud.heltec.org`
+
+`US915` --  `us01.cloud.heltec.org`
+
+`AU915` --  `au01.cloud.heltec.org`
+
+`AS923` --  `as01.cloud.heltec.org`
+
+#### HT-M01 in Linux (Raspberry Pi)
+
+Fix parameters in `global_conf.json`:
+
+```shell
+  nano /home/pi/lora/packet_forwarder/lora_pkt_fwd/global_conf.json
+```
+
+ Configure gateway ID, server address, port. At the end of the `global_conf.json`, make these changes:
+
+
+  ```json
+  “gateway_ID”: “XXXXXXXXXXXXXXXX”, /*Your gateway ID, 16 characters*/
+  “server_address”: “router.eu.thethings.network”, /*The router addresses need matach your region*/
+  “serv_port_up”: 1700,
+  “serv_port_down”: 1700,
+  ```
+
+`ctrl + O` to save and `ctrl + X` to exit, and restart the service in Raspberry Pi:
+
+```shell
+sudo systemctl restart lrgateway
+```
+
+#### HT-M01 in Windows
+
+Fill in the correct `ID`, `server address`, keep `Port` default 1700.
+
+![](img/connect_to_server/07.png)
+
+Click `OK` and `Start Packet Forwarder`.
+
+![](img/connect_to_server/05.png)
+
+View gateway status, it is runing:
+
+![](img/connect_to_server/11.png)
