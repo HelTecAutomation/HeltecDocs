@@ -61,6 +61,32 @@ Coming soon.
 
 &nbsp;
 
+## Connect to HelTec server
+
+Before that, make sure there is a LoRa Gateway active in your HelTec's account.
+
+### Register a device
+
+Select "AppsCreate" in "Apps" to create a new application, fill in the corresponding information and click "CREATE APPLICATION" to complete the application creation.
+
+![](img/connect_to_server/11.png)
+
+Select the newly created application in "AppsList", and create a new device in the application.
+
+![](img/connect_to_server/12.png)
+
+Config the "Device EUI" and "App Key" related parameters of the node device. The user needs to ensure that the parameters in the CubeCell are consistent with those configured in the server.
+
+![](img/connect_to_server/13.png)
+
+![](img/connect_to_server/14.png)
+
+Correctly config LoRaWAN parameters for CubeCell, please refer to [this document](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/lorawan/config_parameter.html). If all goes well, we will be able to see the status of the device.
+
+![](img/connect_to_server/15.png)
+
+&nbsp;
+
 ## Important Hints
 
 Please double check the following two things:

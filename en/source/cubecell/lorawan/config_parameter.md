@@ -7,7 +7,7 @@ No matter what LoRa management platform is used, DevEui, AppKey, etc. parameters
 - **The following parameters are essential for OTAA mode:**
   - [DevEui](#deveui) -- Mote device IEEE EUI (big endian), 8 bytes;
   - [AppEui](#appeui) -- Application IEEE EUI (big endian), 8 bytes;
-  - [AppKey](appkey) -- AES encryption/decryption cipher application key, 16 bytes;
+  - [AppKey](#appkey) -- AES encryption/decryption cipher application key, 16 bytes;
 - **The following parameters are essential for ABP mode:**
   - [NwkSKey](#nwkskey) -- AES encryption/decryption cipher network session key, 16 bytes;
   - [AppSKey](#appskey) -- AES encryption/decryption cipher application session key, 16 bytes;
@@ -17,13 +17,25 @@ No matter what LoRa management platform is used, DevEui, AppKey, etc. parameters
 
 ```
 
-## Directly Fix in Source Code
+- [Via Modify Code](#via-modify-code)
+- [Via AT Command](#via-at-command)
+- [Via CubeCell Configurator](#via-cubecell-configurator)
 
-LoRaWAN networking relevant parameters are in this path:
+```Tip:: Parameters such as frequency band need to be modified in "Tools".
 
-`ASR650X-ARDUINO/libraries/LoRa/src/Commissioning.h`
+```
 
-Change in the source code and Compile/Upload again.
+![](img/config_parameter/04.png)
+
+&nbsp;
+
+## Via Modify Code
+
+The relevant parameters of the LoRaWAN network are in the corresponding `.ino` file:
+
+![](img/config_parameter/03.png)
+
+Change the code and Compile/Upload again.
 
 &nbsp;
 
@@ -141,7 +153,7 @@ Command running success will print feedback:
 
 LoRa Node's default sending data period is 15 seconds, change this period to 60 seconds:
 
-`AT+DutyCycle=6000`
+`AT+DutyCycle=60000`
 
 ### Reset CubeCell
 

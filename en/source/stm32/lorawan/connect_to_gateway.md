@@ -17,7 +17,7 @@ Register a new device in TTN's "Applications" page. The `Device ID`, `Device EUI
 
 ![](img/connect_to_gateway/02.png)
 
-Config LoRaWAN parameters for STM32 LoRa node correctly, please refer to [this document](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/lorawan/config_parameter.html#). If all goes well, we will be able to see Device is alive in "DEVICE OVERVIEW".
+Config LoRaWAN parameters for STM32 LoRa node correctly, please refer to [this document](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/lorawan/config_parameter.html). If all goes well, we will be able to see Device is alive in "DEVICE OVERVIEW".
 
 ![](img/connect_to_gateway/03.png)
 
@@ -26,6 +26,32 @@ Config LoRaWAN parameters for STM32 LoRa node correctly, please refer to [this d
 ## Connect to ChirpStack
 
 Coming soon.
+
+&nbsp;
+
+## Connect to HelTec server
+
+Before that, make sure there is a LoRa Gateway active in your HelTec's account.
+
+### Register a device
+
+Select "AppsCreate" in "Apps" to create a new application, fill in the corresponding information and click "CREATE APPLICATION" to complete the application creation.
+
+![](img/connect_to_gateway/04.png)
+
+Select the newly created application in "AppsList", and create a new device in the application.
+
+![](img/connect_to_gateway/05.png)
+
+Config the "Device EUI" and "App Key" related parameters of the node device. The user needs to ensure that the parameters in the STM32 LoRa node are consistent with those configured in the server.
+
+![](img/connect_to_gateway/06.png)
+
+![](img/connect_to_gateway/07.png)
+
+Correctly config LoRaWAN parameters for STM32 LoRa node, please refer to [this document](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/lorawan/config_parameter.html). If all goes well, we will be able to see the status of the device.
+
+![](img/connect_to_gateway/08.png)
 
 &nbsp;
 
