@@ -6,4 +6,4 @@ This project is auto hosting via [readthedocs](https://readthedocs.org/). Here i
 
 
 
-Each push or pull request will spend about 1 minute to build.
+Each push or pull request will spend a few minutes to build.
