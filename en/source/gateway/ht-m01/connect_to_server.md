@@ -90,9 +90,22 @@ View gateway status, it is runing:
 
 **One thing need attention!** the ChirpStack need a special service named `Gateway Bridge`, which converts LoRa® Packet Forwarder protocols into a ChirpStack Network Server common data-format(JSON and Protobuf).
 
-the `Gateway Bridge` service can running on the Raspberry Pi or the ChirpStack server. We recommend install it on the Raspberry Pi.
+The `Gateway Bridge` service can running on the Raspberry Pi or the ChirpStack server. We recommend install it on the Raspberry Pi.
 
-Install ChirpStack Gateway Bridge: [https://www.chirpstack.io/gateway-bridge/install/debian/](https://www.chirpstack.io/gateway-bridge/install/debian/)
+Install LoRa-gateway-bridge:
+
+```shell
+wget https://artifacts.loraserver.io/downloads/lora-gateway-bridge/lora-gatewaybridge_2.5.1_armhf.deb
+#Download the LoRa-gateway-bridge package that supports the Raspberry Pi Zero_W version
+dpkg -i lora-gateway-bridge_2.5.1_armhf.deb
+#Install LoRa-gateway-bridge
+sudo systemctl start lora-gateway-bridge
+#Start LoRa-gateway-bridge
+sudo systemctl enable lora-gateway-bridge
+#Set LoRa-gateway-bridge to boot up
+```
+
+Install ChirpStack Gateway Bridge can refer to [https://www.chirpstack.io/gateway-bridge/install/debian](https://www.chirpstack.io/gateway-bridge/install/debian)
 
 Starting the ChirpStack Gateway Bridge:
 
