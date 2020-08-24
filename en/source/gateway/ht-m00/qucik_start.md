@@ -27,11 +27,11 @@ The HT-M00 gateway has been burned with related programs before leaving the fact
 
 ![](img/quick_start/02.png)
 
-- At this point, find the WiFi named "HT_M00", connect to the WiFi with the password "12345678", and then enter "192.168.4.1".
+- At this point, find the WiFi named "M00_XXXX", connect to the WiFi with the password "heltec.org", and then enter "192.168.4.1".
 
-![](img/quick_start/03.png)
+  ![](img/quick_start/03.png)
 
-- In the page shown above, configure the WiFi information that HT-M00 needs to connect to, gateway channel frequency, server address and port, time zone, and click "Submit" after the configuration is complete. At the same time, we will put the relevant firmware of HT-M00 on this webpage, and click "Firmware Update" to update accordingly.
+- In the page shown above, configure the WiFi information that HT-M00 needs to connect to, gateway channel frequency, sf, server address and port, time zone, and click "Submit" after the configuration is complete. At the same time, we will put the relevant firmware of HT-M00 on this webpage, and click "Firmware Update" to update accordingly.
 - The gateway will restart after the configuration is completed and submitted. When the gateway is turned on, it will automatically connect to the configured WiFi. If the connection fails, it will restart again until the connection is successful.
 
 ![](img/quick_start/04.png)
