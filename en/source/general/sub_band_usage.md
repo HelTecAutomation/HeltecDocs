@@ -12,11 +12,13 @@ Let's take AU915 as an example:
 
 
 
-Then, let's look into our code: (in LoRaWan_APP.cpp file)
+Then, let's look into our code: (In the `.ino` file corresponding to LoRaWAN)
+
+Refer to "LoRaWAN" for CubeCell series，refer to  "OTTA" for ESP32 series.
 
 ![](img/sub-band_usage/02.png)
 
-Here are 5 arrays defined all channels of LoRaWAN protocol for AU915. In the channelsMaskTemp[0], 0x00FF means use the first 0-7 channels, they are 915.2MHz, 915.4MHz, 915.6MHz … 916.6MHz. When you set the value to 0xFF00, it means the upload channels changed to 8-15, they are 916.8MHz, 917.0MHz … 918.2MHz. More detail... see the below picture：
+Here are 6 arrays defined all channels of LoRaWAN protocol for AU915. In the channelsMaskTemp[0], 0x00FF means use the first 0-7 channels, they are 915.2MHz, 915.4MHz, 915.6MHz … 916.6MHz. When you set the value to 0xFF00, it means the upload channels changed to 8-15, they are 916.8MHz, 917.0MHz … 918.2MHz. More detail... see the below picture：
 
 ![](img/sub-band_usage/03.png)
 
@@ -27,6 +29,7 @@ https://www.thethingsnetwork.org/docs/lorawan/frequency-plans.html
 
 ## How To?
 
-Generally speaking... we just need to change the `channelsMaskTemp[0]=0xFF00;`, then the uplink frequency will be changed to TTN supported.
+Generally speaking... To change the channel to 8-15，we just need to change the `channelsMaskTemp[0]=0xFF00;`, then the uplink frequency will be changed to TTN supported.
 
-*BTW. the listening frequency in your LoRa gateway must be the same as the TTN server. it's defined in your gateway's `gloable_conf.json` file.*
+**BTW. the listening frequency in your LoRa gateway must be the same as the TTN server. it's defined in your gateway's `gloable_conf.json` file.**
+
