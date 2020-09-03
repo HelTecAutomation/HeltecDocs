@@ -18,12 +18,12 @@ Refer to "LoRaWAN" for CubeCell series，refer to  "OTTA" for ESP32 series.
 
 ![](img/sub-band_usage/02.png)
 
-Here are 6 arrays defined all channels of LoRaWAN protocol for AU915. In the channelsMaskTemp[0], 0x00FF means use the first 0-7 channels, they are 915.2MHz, 915.4MHz, 915.6MHz … 916.6MHz. When you set the value to 0xFF00, it means the upload channels changed to 8-15, they are 916.8MHz, 917.0MHz … 918.2MHz. More detail... see the below picture：
+Here are 6 arrays defined all channels of LoRaWAN protocol for AU915. In the userChannelsMask[0], 0x00FF means use the first 0-7 channels, they are 915.2MHz, 915.4MHz, 915.6MHz … 916.6MHz. When you set the value to 0xFF00, it means the upload channels changed to 8-15, they are 916.8MHz, 917.0MHz … 918.2MHz. More detail... see the below picture：
 
 ![](img/sub-band_usage/03.png)
 
 TTN uses 2nd Sub-Band only (channels 8 to 15 and 65) for AU915:
-https://www.thethingsnetwork.org/docs/lorawan/frequency-plans.html
+[https://www.thethingsnetwork.org/docs/lorawan/frequency-plans.html](https://www.thethingsnetwork.org/docs/lorawan/frequency-plans.html)
 
 ![](img/sub-band_usage/04.png)
 
