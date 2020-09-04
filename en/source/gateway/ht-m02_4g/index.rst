@@ -15,5 +15,4 @@ In practice, the working environment of the equipment may not be as good as expe
     
     4G(LTE) Version Quick Start <quick_start_4g>
     Coneect to LoRa server <connect_to_server>
-    Internal LoRa Server User Manual <internal_server>
     System Upgrade <system_upgrade>
