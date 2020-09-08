@@ -156,3 +156,4 @@ General Docs
    Decode LoRaWAN payload <general/decode_payload>
    How To Config Rasberry Pi <general/how_to_config_raspberry_pi>
    Get Limited Technical Resources <general/view_limited_technical_data>
+   Connect to Single_channel Gateway <connect_to_single_channel_gateway>
