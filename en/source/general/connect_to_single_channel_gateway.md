@@ -5,6 +5,8 @@
 
 This article aims to describe how to connect nodes to single-channel gateway, To ensure good communication between the node and the gateway, the channel used by the node must correspond to that of the single-channel gateway. This document takes CN470 as an example.
 
+More bands can refer to [LoRaWAN™ 1.0.2 Regional Parameters rB](https://resource.heltec.cn/download/LoRaWANRegionalParametersv1.0.2_final_1944_1.pdf).
+
 ```Tip:: If the node channel is more than the gateway channel and the gateway channel is included, then the node channel can only enter the network when the node channel matches the gateway channel. If the node channel does not include the gateway channel, the node cannot enter the network.
 
 ```
