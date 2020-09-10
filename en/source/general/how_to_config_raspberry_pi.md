@@ -61,7 +61,7 @@ network={
 }
 ```
 
-`ctrl + O` -- Preservation，`ctrl + X ` -- Sign out。Restart Raspberry Pi. If everything is normal, Raspberry Pi will automatic connect to the corresponding WiFi after restart, and will print the IP address in the startup log.
+`ctrl + O` -- Preservation，`ctrl + X ` -- Sign out. Run command `wpa_cli -i wlan0 reconfigure` or restart Raspberry Pi. If everything is normal, Raspberry Pi will automatic connect to the corresponding WiFi after restart, and will print the IP address in the startup log.
 
 ![](img/how_to_config_raspberry_pi/05.png)
 
