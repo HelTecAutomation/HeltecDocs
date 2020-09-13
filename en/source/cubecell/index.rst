@@ -9,6 +9,7 @@ features:
 -  Fully compatible with the Arduino development environment;
 -  Based on an ultra low power design, attains 3.5uA in deep sleep mode, even with
    the RTC clock running;
+-  LoRa signal output put power range 0~22(±1) dBm;
 -  Low-cost despite its current state of the art technology;
 -  Integrated encryption algorithm protects your investment by rendering cloned firmware inoperative;
 -  Based on proven technology - the new ASR650x, is a combination of the PSoC4000 and SX1262 into a single chip, reducing the overall size to something smaller than the competition;
