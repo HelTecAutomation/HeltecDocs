@@ -61,6 +61,8 @@ sudo cp -f /home/pi/lora/lorasdk/global_conf_EU868.json /home/pi/lora/packet_for
 #the "global_conf_EU868.json" may need change to your need.
 ```
 
+Among them, "global_conf_CN470.json" can be replaced with "global_conf_EU433.json", "global_conf_EU868.json", "global_conf_US915.json", etc., respectively corresponding to the corresponding frequency bands.
+
 ### USB mode
 
 Before proceeding with the following operations, use a high-quality Micro USB cable to connect the HT-M01 Gateway to the Raspberry Pi, otherwise it will cause a lot of problems! Enter the following commands:
@@ -81,9 +83,11 @@ cd /home/pi/lora/picolorasdk
 chmod +x install.sh
 ./install.sh
 #Run this script will create a service named "lrgateway". The purpose is to make the lora driver and data forwarding program run automatically at startup.
-sudo cp -f /home/pi/lora/picolorasdk/global_conf_CN470.json /home/pi/lora/picoGW_packet_forwarder/lora_pkt_fwd/global_conf.json
+sudo cp -f /home/pi/lora/picolorasdk/global_conf_EU868.json /home/pi/lora/picoGW_packet_forwarder/lora_pkt_fwd/global_conf.json
 #Put the configuration file on the specified path
 ```
+
+Among them, "global_conf_CN470.json" can be replaced with "global_conf_EU433.json", "global_conf_EU868.json", "global_conf_US915.json", etc., respectively corresponding to the corresponding frequency bands.
 
 ```Tip:: The "global_conf.json" file determines the listening frequency of the gateway, which is the key to a node can successfully communicate with the gateway!
 

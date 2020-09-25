@@ -42,3 +42,8 @@ Change the COM port to the COM port corresponding to HT-M00.
 ![](img/update_firmware/06.png)
 
 After the modification is completed, double-click to run "M00.bat" to complete the gateway firmware upload.
+
+```Tip:: This firmware version is V1.2, and the firmware can be upgraded according to the "firmware upgrade" method.
+
+```
+
