@@ -6,6 +6,6 @@
 
 - First release
 - 2017-6-1 public sale
-- [Pinout diagram](http://resource.heltec.cn/download/WiFi_Kit_8/WIFI_Kit_8_Diagram(new).pdf)
-- [Schematic diagram](http://resource.heltec.cn/download/WiFi_Kit_8/WIFI_Kit_8_Schematic_diagram.PDF)
+- [Pinout diagram](https://resource.heltec.cn/download/WiFi_Kit_8/WIFI_Kit_8_Pinout_Diagram(new).pdf)
+- [Schematic diagram](https://resource.heltec.cn/download/WiFi_Kit_8/WIFI_Kit_8_Schematic_diagram.PDF)
 
