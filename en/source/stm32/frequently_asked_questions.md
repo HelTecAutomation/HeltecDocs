@@ -17,8 +17,8 @@ This page contains the most frequently questions from user. If this page's detai
   - About the solution to the failure to download firmware using ST-LINK(This method is mainly for Node 151, ):
   
     The first step of normal use -> Then **press** the RST KEY before proceeding to the second step -> The second step, then **release** the RST KEY.
-
-<img src="img/frequently_asked_questions/01.png" style="zoom:45%;" />
+    
+    ![](img/frequently_asked_questions/01.png)
 
 ​		The reason for this situation is: For the ultimate **low power** consumption, we have disabled 		most of the pins that are not normally used.
 
