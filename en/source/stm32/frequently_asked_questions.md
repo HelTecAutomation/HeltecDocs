@@ -11,7 +11,14 @@ This page contains the most frequently questions from user. If this page's detai
   - Use a better USB cable, or change a USB socket.
   - Enter the DFU mode correctly.
 - Use ST-LINK.
+  
   - Make sure that the development board is connected to ST-LINK correctly.
+  
+  - About the solution to the failure to download firmware using ST-LINK:
+  
+    The first step of normal use -> Then **press** the RST KEY before proceeding to the second step -> The second step, then **release** the RST KEY.
+
+<img src="img/frequently_asked_questions/01.png" style="zoom:45%;" />
 
 Please refer to the following documents:
 
