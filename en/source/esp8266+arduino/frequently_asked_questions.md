@@ -20,3 +20,13 @@ We had use the TP4054 to replace MCP73831, the orange LED have new control logic
 - Dim -- Power on
 - Light -- Charging
 - Turn OFF -- Battery filled
+
+## Note about the device cannot connect to WiFi
+
+We get feedback from some customers: The device can connect to WiFi normally(No peripherals are plugged in) under normal conditions. But once the device is plugged into the breadboard, it **cannot connect** to WiFi normally. We investigated this.
+
+A large number of metal bars built into the breadboard, These metal strips cause a certain degree of **interference** to the WiFi antenna, and eventually cause the device to fail to connect to WiFi normally(please refer the picture).
+
+If you want to use the WiFi function, please try to avoid using the breadboard.
+
+![](img/frequently_asked_questions/02.png)
