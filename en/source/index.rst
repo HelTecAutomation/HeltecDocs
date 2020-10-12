@@ -153,6 +153,7 @@ General Docs
    Establish Serial Connection <general/establish_serial_connection>
    LoRaWAN Example Sub-Band Usage <general/sub_band_usage>
    Subscribe MQTT  Messages <general/subscribe_mqtt_messages>
+   Publish MQTT Message <general/publish_mqtt_message>
    Decode LoRaWAN payload <general/decode_payload>
    How To Config Rasberry Pi <general/how_to_config_raspberry_pi>
    Get Limited Technical Resources <general/view_limited_technical_data>
