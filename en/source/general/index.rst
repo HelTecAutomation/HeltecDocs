@@ -11,6 +11,7 @@ This document is used to solve some common problems.
    Establish Serial Connection <establish_serial_connection>
    LoRaWAN Example Sub-Band Usage <sub_band_usage>
    Subscribe MQTT Messages <subscribe_mqtt_messages>
+   Publish MQTT Message <publish_mqtt_message>
    Decode LoRaWAN payload <decode_payload>
    How To Config Rasberry Pi <how_to_config_raspberry_pi>
    View Limited Technical Data <view_limited_technical_data>
