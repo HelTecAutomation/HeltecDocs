@@ -30,3 +30,20 @@ The LoRaWAN-Node code used by our [node products]([Heltec Automation(TM) product
 For example, I need fix the preamble length of CN470, so I need first open the RegionCN470.c, in the RegionCN470TxConfig function, and modify that. *The 16 is already modified by us.*
 
 ![](img/frequently_asked_questions/01.png)
+
+&nbsp;
+
+## How to View the Gateway Logs
+
+The gateway log is very important in many debug situations. Mainly can be used to verify if the gateway had received the LoRaWAN messages from LoRa Nodes correctly.
+
+If the gateways made by [Heltec Automation](https://heltec.org) driven by Linux, there will have a service named `lrgateway`, view the gateway logs via this command:
+
+`journalctl -f -n 100 -u lrgateway`
+
+![](img/frequently_asked_questions/02.png)
+
+**The following gateways can use this command:**
+
+- [HT-M01 Evaluation Gateway](https://heltec.org/project/ht-m01/) driven by Raspberry Pi;
+- [HT-M02 Edge LoRa Gateway](https://heltec.org/project/ht-m02/).
