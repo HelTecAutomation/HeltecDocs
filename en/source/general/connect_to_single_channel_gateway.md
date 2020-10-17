@@ -1,11 +1,12 @@
-#  	Connect to Single-channel Gateway（CN470）
-[English](https://heltec-automation-docs.readthedocs.io/en/latest/general/sub_band_usage.html)
+#  	LoRa Node Connect to a Single/Dual Channel Gateway
+
+[简体中文](https://heltec-automation-docs.readthedocs.io/en/latest/general/sub_band_usage.html)
 
 ## Summary
 
-This article aims to describe how to connect nodes to single-channel gateway, To ensure good communication between the node and the gateway, the channel used by the node must correspond to that of the single-channel gateway. This document takes CN470 as an example.
+This article aims to describe how to connect nodes to a non-standard gateway less than 8 channels (such as a sigle channel gateway and [Heltec HT-M00 Dual Channel Gateway](https://heltec.org/project/ht-m00/)). The key to a succcess communication between the node and the gateway: **The sending/listenig frequency between the gateway and Node must match!!!**
 
-More bands can refer to [LoRaWAN™ 1.0.2 Regional Parameters rB](https://resource.heltec.cn/download/LoRaWANRegionalParametersv1.0.2_final_1944_1.pdf).
+This document have a detailed introduction to the channel mask, highly recommend read it carefully and that will make sense: [LoRaWAN example Sub-Band usage (AU915)](https://heltec-automation-docs.readthedocs.io/en/latest/general/sub_band_usage.html).
 
 ```Tip:: If the node channel is more than the gateway channel and the gateway channel is included, then the node channel can only enter the network when the node channel matches the gateway channel. If the node channel does not include the gateway channel, the node cannot enter the network.
 
@@ -13,31 +14,50 @@ More bands can refer to [LoRaWAN™ 1.0.2 Regional Parameters rB](https://resour
 
 &nbsp;
 
-## Channel Frequency
+## Communication Channels and Frequencies
+
+In the LoRaWAN protocol, the uplink and downlink frequencies of each band are defined in detail. These frequencies used are called channels. For reference, we have intercepted the description of the CN470-510 channel definition in the protocol document.
 
 ![](img/connect_to_single_channel_gateway/01.png)
 
 CN470 corresponds to a total of 96 channels from 470.3MHz to 489.3MHz. For every 200kHz increase in frequency, the channel code increases by 1, namely:
 
-freq=470.3+0.2*N（N is the channel coding 0-95）
+`freq(MHz)=470.3+0.2*N`
 
-Let's look at the code: (in the `.ino` file corresponding to LoRaWAN)
+In the code of loramac-node, the content in the `userChannelsMask` array corresponds to the communication channel. A bit set to 1, means that the channel is enabled.
 
-Refer to "LoRaWAN" for CubeCell series and refer to "OTTA" for ESP32 series.
+In the [Heltec ESP32 LoRa]() and [CubeCell]() example code, we had moved the `ChannelsMask` definition to the `.ino` files.
 
 ![](img/connect_to_single_channel_gateway/02.png)
 
-This is 6 arrays of all LoRaWAN protocol channels defined for CN470. In userChannelsMask[0], 0x00FF means to use the first 0-7 channels, which are 470.3MHz, 470..5MHz, 470.7MHz...471.7MHz. Converting hexadecimal FF to binary is 11111111. The 11111111 from low bits to high bits correspond to the first 0-7 channels, that is, the last 1 corresponds to channel 0, and the first 1 corresponds to channel 7. When you modify "userChannelsMask[0]=0x0001", it means that the channel is changed to 0, which is 470.3MHz, When you modify "userChannelsMask[0]=0x0x8000", it means that the channel is changed to 7, which is 471.7MHz, When you modify "userChannelsMask[0]=0x0xFF00", it means that the channels are changed to 8-15, which are 471.9MHz, 472.1MHz, 472.3MHz...473.3MHz.
+In the default definition had enabled channels 0~7, and if node use band CN470, that means the node send date will use 470.3~471.7 MHz, and lestenning downlink message will use 500.3~501.7 MHz.
+
+If the code become to this, what  channels will be?
+
+`uint16_t userChannelsMask[6]={ 0x0000,0xFFF0,0x0000,0x0000,0x0000,0x0000 };`
+
+The answer is **Channels 20~31**.
 
 &nbsp;
 
 ## Instructions for Use
 
-Generally speaking, to connect a node to a single-channel gateway, we need to make the channel used by the node correspond to the channel of the single-channel gateway, that is, modify the channel mask in the corresponding program.
+Generally speaking, to connect a node to a Single/Dual-channel gateway, we need to make the channel used by the node correspond to the channel of the Single/Dual-channel gateway!
 
-Take the CubeCell series as an example:
+- Example 1 -- Connect to [Heltec HT-M00 Dual-Channel Gateway]()
 
-![](img/connect_to_single_channel_gateway/03.png)
+If the HT-M00 is setted to 472. 1 and 472.3 (channels 9, 10), the `ChannelsMask` should be:
 
-If the single-channel gateway channel frequency is set to 470.3MHz, in the LoRaWAN program, you should modify"userChannelsMask[0]=0x0001".
+`uint16_t userChannelsMask[6]={ 0x0600,0x0000,0x0000,0x0000,0x0000,0x0000 };`
 
+- Example 2 -- Connect to a single channel gateway
+
+The single channel getaway is setted to 470.7 MHz (channel 2), the `ChannelsMask` should be;
+
+`uint16_t userChannelsMask[6]={ 0x0004,0x0000,0x0000,0x0000,0x0000,0x0000 };`
+
+
+
+## Relevant Resources
+
+- [Fix Preamble Length to Fit HT-M00 Dual-Channel Gateway](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/frequently_asked_questions.html#fix-preamble-length-to-fit-ht-m00-dual-channel-gateway)
