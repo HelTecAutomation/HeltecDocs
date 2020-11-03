@@ -1,6 +1,6 @@
 #  	LoRa Node Connect to a Single/Dual Channel Gateway
 
-[简体中文](https://heltec-automation-docs.readthedocs.io/en/latest/general/sub_band_usage.html)
+[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/general/connect_to_single_channel_gateway.html)
 
 ## Summary
 
@@ -26,7 +26,7 @@ CN470 corresponds to a total of 96 channels from 470.3MHz to 489.3MHz. For every
 
 In the code of loramac-node, the content in the `userChannelsMask` array corresponds to the communication channel. A bit set to 1, means that the channel is enabled.
 
-In the [Heltec ESP32 LoRa]() and [CubeCell]() example code, we had moved the `ChannelsMask` definition to the `.ino` files.
+In the [Heltec ESP32 LoRa](https://heltec.org/proudct_center/lora/lora-node/) and [CubeCell](https://heltec.org/proudct_center/lora/cubecell/) example code, we had moved the `ChannelsMask` definition to the `.ino` files.
 
 ![](img/connect_to_single_channel_gateway/02.png)
 
@@ -36,7 +36,7 @@ If the code become to this, what  channels will be?
 
 `uint16_t userChannelsMask[6]={ 0x0000,0xFFF0,0x0000,0x0000,0x0000,0x0000 };`
 
-The answer is **Channels 20~31**.
+The answer is **Channels 21~32**.
 
 &nbsp;
 
@@ -44,15 +44,15 @@ The answer is **Channels 20~31**.
 
 Generally speaking, to connect a node to a Single/Dual-channel gateway, we need to make the channel used by the node correspond to the channel of the Single/Dual-channel gateway!
 
-- Example 1 -- Connect to [Heltec HT-M00 Dual-Channel Gateway]()
+- Example 1 -- Connect to [Heltec HT-M00 Dual-Channel Gateway](https://heltec.org/project/ht-m00/)
 
-If the HT-M00 is setted to 472. 1 and 472.3 (channels 9, 10), the `ChannelsMask` should be:
+If the HT-M00 is setted to 472. 1 and 472.3 (channels 10, 11), the `ChannelsMask` should be:
 
 `uint16_t userChannelsMask[6]={ 0x0600,0x0000,0x0000,0x0000,0x0000,0x0000 };`
 
 - Example 2 -- Connect to a single channel gateway
 
-The single channel getaway is setted to 470.7 MHz (channel 2), the `ChannelsMask` should be;
+The single channel getaway is setted to 470.7 MHz (channel 3), the `ChannelsMask` should be;
 
 `uint16_t userChannelsMask[6]={ 0x0004,0x0000,0x0000,0x0000,0x0000,0x0000 };`
 
