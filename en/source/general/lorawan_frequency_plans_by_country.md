@@ -60,3 +60,8 @@ This document is only a summary of radio regulations, and the appropriate freque
 
 ## D
 
+| Country            | Frequency Plan       | Regulatory document |
+| ------------------ | -------------------- | ------------------- |
+| Denmark            | EU863-870<br />EU433 | CEPT Rec. 70-03     |
+| Dominican Republic | US902-928            |                     |
+
