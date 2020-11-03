@@ -10,6 +10,8 @@ This document is used to solve some common problems.
    How to Install Git and Arduino <how_to_install_git_and_arduino>
    Establish Serial Connection <establish_serial_connection>
    LoRaWAN Example Sub-Band Usage <sub_band_usage>
+   LoRaWAN Frequency Plans <lorawan_frequency_plans>
+   LoRaWAN Frequency Plans and Regulations by Country <lorawan_frequency_plans_by_country>
    Subscribe MQTT Messages <subscribe_mqtt_messages>
    Publish MQTT Message <publish_mqtt_message>
    Decode LoRaWAN payload <decode_payload>

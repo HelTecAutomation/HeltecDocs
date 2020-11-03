@@ -38,3 +38,25 @@ This document is only a summary of radio regulations, and the appropriate freque
 | Brunei                 | AS923-925 (“AS2”)     |                                                              |
 | Bulgaria               | EU863-870<br />EU433  | CEPT Rec. 70-03                                              |
 
+&nbsp;
+
+## C
+
+| Country                          | Frequency Plan           | Regulatory document                                          |
+| -------------------------------- | ------------------------ | ------------------------------------------------------------ |
+| Cambodia                         | AS923-925 (“AS2”)        |                                                              |
+| Canada                           | US902-928                |                                                              |
+| Chile                            | AU915-928                | [FIJA NORMA TECNICA DE EQUIPOS DE ALCANCE REDUCIDO](https://www.leychile.cl/Consulta/m/norma_plana?org=&idNorma=240404) |
+| China                            | CN470-510<br />CN779-787 |                                                              |
+| Colombia                         | US902-928                |                                                              |
+| Democratic Republic of the Congo | EU863-870 EU433          | CRASA follows CEPT Rec. 70-03                                |
+| Costa Rica                       | US902-928                |                                                              |
+| Croatia                          | EU863-870<br />EU433     | CEPT Rec. 70-03                                              |
+| Curaçao                          |                          | [Ministeriële regeling vrijstelling telecommunicatiemachtiging 2015](http://btnp.org/images/stories/pdf/telecom/PB_20153.pdf) |
+| Cyprus                           | EU863-870<br />EU433     | CEPT Rec. 70-03                                              |
+| Czech Republic                   | EU863-870<br />EU433     | CEPT Rec. 70-03                                              |
+
+&nbsp;
+
+## D
+

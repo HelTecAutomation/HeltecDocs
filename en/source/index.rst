@@ -152,6 +152,8 @@ General Docs
    How to Install Git and Arduino <general/how_to_install_git_and_arduino>
    Establish Serial Connection <general/establish_serial_connection>
    LoRaWAN Example Sub-Band Usage <general/sub_band_usage>
+   LoRaWAN Frequency Plans <general/lorawan_frequency_plans>
+   LoRaWAN Frequency Plans and Regulations by Country <general/lorawan_frequency_plans_by_country>
    Subscribe MQTT  Messages <general/subscribe_mqtt_messages>
    Publish MQTT Message <general/publish_mqtt_message>
    Decode LoRaWAN payload <general/decode_payload>
