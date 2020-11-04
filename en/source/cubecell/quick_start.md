@@ -1,5 +1,6 @@
 # CubeCell Series Quick Start
 [简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/cubecell/quick_start.html)
+
 ## Summary
 
 CubeCell is based on ASR650x series, this page shown how to install and configuration CubeCell Arduino Framework, and how to uploading and running code (examples).
@@ -71,6 +72,7 @@ In the tools menu, there are following options:
   - `Freq -- Sending/receiving frequency;`
   - `Freq && DIO -- Sending/receiving frequency, and DIO pin interrupt information.`
 - **COM Port** -- Device's serial port in your computer.
+- **LORAWAN_DEVEUI**--Communication ID
 
 
 ``` Note:: **LORAWAN_Net_Reservation:** For example, a large-scale power outage in city, when power is restored, thousands of devices are connected to the network at the same time, which may cause the LoRa gateway or server to fail. Enable this feature will avoid this situation. Enable LORAWAN_Net_Reservation must disable Frame counter (fCnt) in LoRa server.
