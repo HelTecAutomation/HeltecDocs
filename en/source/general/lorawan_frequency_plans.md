@@ -207,3 +207,9 @@ Used in Brunei, Cambodia, Hong Kong, Indonesia, Laos, Taiwan, Thailand, Vietnam
 - Downlink:
   - Uplink channels 1-3 (RX1)
   - **866.550** - SF10BW125 (RX2)
+
+&nbsp;
+
+## Relevant Resources
+
+- [Frequency Plans](https://www.thethingsnetwork.org/docs/lorawan/frequency-plans.html)
