@@ -138,7 +138,7 @@ This document is only a summary of radio regulations, and the appropriate freque
 
 ## Regulatory Documents
 
-**[CEPT/ERC Recommendation 70-03 relating to the use of short range devices (SRD)](http://www.erodocdb.dk/docs/doc98/official/pdf/rec7003e.pdf)**
+[CEPT/ERC Recommendation 70-03 relating to the use of short range devices (SRD)](http://www.erodocdb.dk/docs/doc98/official/pdf/rec7003e.pdf)
 
 Already implemented in: Albania, Andorra, Austria, Belgium, Bosnia & Herzegovina, Bulgaria, Cyprus, Czech Republic, Germany, Denmark, Spain, Estonia, France, Finland, United Kingdom, Hungary, Netherlands, Croatia, Italy, Ireland, Iceland, Liechtenstein, Lithuania, Luxembourg, Latvia, Moldova, Former Yugoslav Republic of Macedonia, Malta, Montenegro, Poland, Portugal, Romania, Sweden, Serbia, Switzerland, Slovak Republic, Slovenia, Turkey
 
@@ -148,7 +148,7 @@ Not implemented in: Azerbaijan, Georgia(868)
 
 ------
 
-**[Communications Regulators’ Association of Southern Africa (CRASA) Harmonised Frequency Bands For SRD Applications](http://www.crasa.org/common_up/crasa-setup/06-07-2015_FRAME WORK FOR HARMONISATION FREQUENICES FOR SHORT RANGE DEVICES  OF  SHORT RANGE DEVICES  (SRDs) - ANNEXURE A.pdf)**
+[Communications Regulators’ Association of Southern Africa (CRASA) Harmonised Frequency Bands For SRD Applications](http://www.crasa.org/common_up/crasa-setup/06-07-2015_FRAME WORK FOR HARMONISATION FREQUENICES FOR SHORT RANGE DEVICES  OF  SHORT RANGE DEVICES  (SRDs) - ANNEXURE A.pdf)
 
 Angola, Botswana, Democratic Republic of Congo, Lesotho, Malawi, Mauritius, Mozambique, South Africa, Namibia, Swaziland, Tanzania, Zambia, Zimbabwe.
 
