@@ -1,10 +1,10 @@
 # LoRaWAN Frequency Plans
 
-&nbsp;
+[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/general/lorawan_frequency_plans.html)
 
 ## Summary
 
-This is the list of LoRaWAN frequency plans. These frequency plans are based on what is specified in the LoRaWAN regional parameters document. To know which frequency plan to use in your country, see the list of [frequency plans by country list]().
+This is the list of LoRaWAN frequency plans. These frequency plans are based on what is specified in the LoRaWAN regional parameters document. To know which frequency plan to use in your country, see the list of [frequency plans by country list](https://heltec-automation-docs.readthedocs.io/en/latest/general/lorawan_frequency_plans_by_country.html).
 
 &nbsp;
 
@@ -34,7 +34,7 @@ This is the list of LoRaWAN frequency plans. These frequency plans are based on 
 
 ## EU433
 
-No frequency plan yet. 
+No frequency plan yet.
 
 &nbsp;
 

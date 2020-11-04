@@ -1,6 +1,6 @@
 # LoRaWAN Frequency Plans and Regulations by Country
 
-&nbsp;
+[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/general/lorawan_frequency_plans_by_country.html)
 
 ## Summary
 
