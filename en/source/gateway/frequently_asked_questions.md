@@ -25,7 +25,7 @@ Because the HT-M00 use two SX1276 LoRa chips and a digital base band program run
 
 ```
 
-The LoRaWAN-Node code used by our [node products]([Heltec Automation(TM) products index page](https://docs.heltec.cn/#/en/products/lora/lora_node/heltec_lora_node_list?id=heltec-lora-node-products-difference-table)), we transplanted the [LoRaMac-Node code from Semtech](https://github.com/Lora-net/LoRaMac-node), usually modified in the RegionXXX.c.
+The LoRaWAN-Node code used by our [node products](https://docs.heltec.cn/#/en/products/lora/lora_node/heltec_lora_node_list?id=heltec-lora-node-products-difference-table), we transplanted the [LoRaMac-Node code from Semtech](https://github.com/Lora-net/LoRaMac-node), usually modified in the RegionXXX.c.
 
 For example, I need fix the preamble length of CN470, so I need first open the RegionCN470.c, in the RegionCN470TxConfig function, and modify that. *The 16 is already modified by us.*
 
