@@ -1,3 +1,5 @@
+// The introduce about LoRawan
+// "LORAWAN_DEVEUI" is a parameter for the node to communicate with the gateway, equivalent to the node's ID number, and each "LORAWAN_DEVEUI" in each server is unique.It needs to be stored in both the node and the server, and can only be accessed when the node matches the time point "LORAWAN_DEVEUI" in the server.
 # Connect "ESP32 + LoRa" to LoRaWAN Server
 [简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/esp32/lorawan/connect_to_gateway.html)
 
