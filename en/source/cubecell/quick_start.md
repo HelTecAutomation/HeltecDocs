@@ -56,6 +56,9 @@ In the tools menu, there are following options:
 - **Board** -- Choose the right hardware connected to your computer;
 - **LORAWAN_REGION** -- LoRaWAN protocol region definition, strictly follow [LoRaWAN™ 1.0.2 Regional Parameters rB](https://resource.heltec.cn/download/LoRaWANRegionalParametersv1.0.2_final_1944_1.pdf);
 - **LORAWAN_CLASS** -- Now with Class A and Class C supported;
+- **LORAWAN_DEVEUI** -- The source of the LoRaWAN parameter `DevEUI`
+  - `CUSTOM -- Use the value defined in the devEui array, which is in the .ino file, Can be any value, but it may conflict with other serial numbers.`
+  - `Generate by ChipID -- Generated based on the ASR650x's unique Chip ID`
 - **LORAWAN_NETMODE** -- OTAA or ABP;
 - **LORAWAN_ADR** -- Turn ON or turn OFF ADR (Adaptive Data Rate);
 - **LORAWAN_Net_Reservation** -- This is a feature outside the LoRaWAN protocol, only valid in OTAA mode. If this option is enabled, when system reset does not need join again. Projects such as smart street lights may be useful.
