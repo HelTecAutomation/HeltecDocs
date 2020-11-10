@@ -65,4 +65,14 @@ There are some options in the Arduino Tools menu:
 ``` Note:: Print too much messages may cause the system unstable.
 
 ```
+##  LORAWAN_DEVEUI
 
+The introduce about LORAWAN_DEVEUI;
+
+"LORAWAN_DEVEUI" is a parameter for the node to communicate with the gateway, 
+equivalent to the node's ID number, 
+and each "LORAWAN_DEVEUI" in each server is unique.
+It needs to be stored in both the node and the server, 
+and can only be accessed when the node matches the time point "LORAWAN_DEVEUI" in the server.
+
+If you want to know more you can the examples about "LORAWAN_DEVEUI".
