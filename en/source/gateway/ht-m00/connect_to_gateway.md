@@ -28,7 +28,7 @@ Refer to "LoRaWAN" for CubeCell series and refer to "OTTA" for ESP32 series.
 
 ![](img/connect_to_gateway/02.png)
 
-This is 6 arrays of all LoRaWAN protocol channels defined for CN470. In userChannelsMask[0], 0x00FF means to use the first 0-7 channels, which are 470.3MHz, 470..5MHz, 470.7MHz...471.7MHz. Converting hexadecimal FF to binary is 11111111. The 11111111 from low bits to high bits correspond to the first 0-7 channels, that is, the last 1 corresponds to channel 0, and the first 1 corresponds to channel 7. When you modify "userChannelsMask[0]=0x0001", it means that the channel is changed to 0, which is 470.3MHz, When you modify "userChannelsMask[0]=0x0x8000", it means that the channel is changed to 7, which is 471.7MHz, When you modify "userChannelsMask[0]=0x0xFF00", it means that the channels are changed to 8-15, which are 471.9MHz, 472.1MHz, 472.3MHz...473.3MHz.
+This is 6 arrays of all LoRaWAN protocol channels defined for CN470. In userChannelsMask[0], 0x00FF means to use the first 0-7 channels, which are 470.3MHz, 470..5MHz, 470.7MHz...471.7MHz. Converting hexadecimal FF to binary is 11111111. The 11111111 from low bits to high bits correspond to the first 0-7 channels, that is, the last 1 corresponds to channel 0, and the first 1 corresponds to channel 7. When you modify "userChannelsMask[0]=0x0001", it means that the channel is changed to 0, which is 470.3MHz, When you modify "userChannelsMask[0]=0x0080", it means that the channel is changed to 7, which is 471.7MHz, When you modify "userChannelsMask[0]=0xFF00", it means that the channels are changed to 8-15, which are 471.9MHz, 472.1MHz, 472.3MHz...473.3MHz.
 
 &nbsp;
 
