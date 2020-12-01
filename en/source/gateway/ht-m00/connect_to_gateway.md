@@ -1,6 +1,6 @@
 # Connect Nodes to HT-M00
 
-[English](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m00/connect_to_server.html)
+[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m00/connect_to_server.html)
 
 ## Summary
 
