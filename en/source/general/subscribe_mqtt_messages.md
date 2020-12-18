@@ -28,7 +28,7 @@ In the simple python example, the content in the three red boxes needs to be mod
 - `username_pw_set` -- The MQTT topic subscribe user name and pass word.
   - For HT-M02 PoE Edge LoRa Gateway, the default user name is `loraroot`, pass word is  `62374838`
   - For [Heltec LoRa Cloud Server](http://cloud.heltec.org/), the login information is the user name and password of the MQTT subscription.
-- `subscribe ` -- MQTT topic name, in the example code, the `3` is application ID allocation by server.
+- `subscribe ` -- MQTT topic name, in the example code, the `2` is application ID allocation by server.
 - `HOST` and `PORT` -- MQTT server address and communication port.
 
 Run it in a shell with Python3, the content with red line is the data send by node. It's encrypted in BASE64 format 
@@ -47,5 +47,18 @@ There are many useful MQTT subscription and push software on the Internet. This 
 
 ![](img/subscribe_mqtt_messages/03.png)
 
-Basic communication can be carried out with the above settings. And then click `Connect`.
+- Basic communication can be carried out with the above settings. And then click `Connect`.
 
+- Click `Subscribe` -> `Scan` in turn, and wait for the connected node to transmit data.
+
+![](img\subscribe_mqtt_messages\04.png)
+
+---------------------
+
+- After the node uploads the data, the information will be scanned in the `Scan` column.
+
+![](img\subscribe_mqtt_messages\05.png)
+
+- Select one as the subscription information. When there is matching subscription information uploaded, it will be displayed in the data column. The sample subscription is `application/4/device/22........09/rx`.
+
+![](img/subscribe_mqtt_messages/06.png)
