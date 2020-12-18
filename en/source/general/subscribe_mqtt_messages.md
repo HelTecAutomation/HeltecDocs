@@ -51,13 +51,13 @@ There are many useful MQTT subscription and push software on the Internet. This 
 
 - Click `Subscribe` -> `Scan` in turn, and wait for the connected node to transmit data.
 
-![](img\subscribe_mqtt_messages\04.png)
+![](img/subscribe_mqtt_messages/04.png)
 
 ---------------------
 
 - After the node uploads the data, the information will be scanned in the `Scan` column.
 
-![](img\subscribe_mqtt_messages\05.png)
+![](img/subscribe_mqtt_messages/05.png)
 
 - Select one as the subscription information. When there is matching subscription information uploaded, it will be displayed in the data column. The sample subscription is `application/4/device/22........09/rx`.
 
