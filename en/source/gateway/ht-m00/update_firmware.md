@@ -31,7 +31,7 @@ After the upgrade is complete, a corresponding prompt will pop up and restart th
 
 ## The Processing Method of Overwriting the HT-M00 Firmware
 
-Download [HT-M00 hardware](https://resource.heltec.cn/download/HT-M00/firmware/M00_firmware.zip)。
+Download [HT-M00 Firmware](https://resource.heltec.cn/download/HT-M00/firmware/M00_firmware_V1.4.zip)。
 
 Open the downloaded file and edit the "M00.bat" file.
 
@@ -41,13 +41,13 @@ Change the COM port to the COM port corresponding to HT-M00.
 
 ![](img/update_firmware/06.png)
 
-After the modification is completed, double-click to run "M00.bat" to complete the gateway firmware upload.
+After the modification is completed, run "M00.bat" to complete the gateway firmware upload.
 
 
 
-After M00 refreshes the firmware again, the serial port print shows that it is not activated. Please refer this : http://community.heltec.cn/t/solved-restoring-esp32-chip-license-to-ht-m00-flash-memory/2676/3
+If HT-M00's serial port print shows that it is not activated when refreshes the firmware again. Please refer to this topic: [http://community.heltec.cn/t/solved-restoring-esp32-chip-license-to-ht-m00-flash-memory/2676](http://community.heltec.cn/t/solved-restoring-esp32-chip-license-to-ht-m00-flash-memory/2676)
 
-```Tip:: This firmware version is V1.2, and the firmware can be upgraded according to the "firmware upgrade" method.
+```Tip:: This firmware version is V1.4, and the firmware can be upgraded according to the "firmware upgrade" method.
 
 ```
 
