@@ -34,7 +34,7 @@ The LoRaWAN example code of LoRa Node is a STM32CubeIDE project, here is the bas
 
 - Download and install `STM32CubeIDE` and `STM32CubeProgramme` correctly.
 
-- Double click `.project` document, open project
+- Double click `.project` document, open project.
 
 The first time you run, may have the following dialog box will, click Yes and then OK.
 
@@ -44,39 +44,74 @@ The first time you run, may have the following dialog box will, click Yes and th
 
 &nbsp;
 
-- Modify `DEVICE_EUI`, `APPLICATION_KEY`, `APPLICATION_EUI` in the `Commissioning.h` file according to your needs
+- Modify macro definition: Set working bands、working mode and debugger.
 
-![](img/config_parameter/03.png)
 
-- Note this macro definition:
+  ![](img/config_parameter/03.png)
 
-  - OVER_THE_AIR_ACTIVATION -- 1：OTAA mode
+  - `ACTIVE_CLASS`
 
-  - OVER_THE_AIR_ACTIVATION -- 0：ABP mode
+    `CLASS_A`
 
-![](img/config_parameter/07.png)
+    `CLASS_B`--NOT SUPPORT
 
-&nbsp;
+    `CLASS_C`
 
-- Set the working bands in the macro definition.(Right-click the project to open `Properties`)
+   - `ACTIVE_REGION`
 
-![](img/config_parameter/04.png)
+     `LORAMAC_REGION_AS923`
 
-The content in the red box can only be one of the following bands:
+     `LORAMAC_REGION_AU915`
 
-`USE_BAND_433`
-`USE_BAND_470`
-`USE_BAND_470PREQUEL`
-`USE_BAND_780`
-`USE_BAND_868`
-`USE_BAND_915`
-`USE_BAND_915_HYBRID`
+     `LORAMAC_REGION_CN470`
 
-- Ensure that the listening frequency of the gateway is the same as the transmitting frequency of the node
+     `LORAMAC_REGION_CN779`
 
-The code for the node transmit frequency is in the `LoRaMac.c` file.
+     `LORAMAC_REGION_EU433`
 
-![](img/config_parameter/05.png)
+     `LORAMAC_REGION_EU868`
+
+     `LORAMAC_REGION_KR920`
+
+     `LORAMAC_REGION_IN865`
+
+     `LORAMAC_REGION_US915`
+
+     `LORAMAC_REGION_US915_HYBRID`
+
+     `LORAMAC_REGION_AU915_SB2`
+
+     `LORAMAC_REGION_AS923_AS1`
+
+     `LORAMAC_REGION_AS923_AS2`
+
+   - `USE_DEBUGGER` 
+
+     If define `USE_DEBUGGER` , default serial port(PA9, PA10) can print debugging information.
+
+     If delete `USE_DEBUGGER` , deep sleep.
+
+- Modify `DEVICE_EUI`, `APPLICATION_KEY`, `APPLICATION_EUI` in the `main.c` file according to your needs.
+
+  ![](img/config_parameter/04.png)
+
+- Modify `userChannelMask` ,  access mode `overTheAirActivation` and other parameter.
+
+  ![](img/config_parameter/05.png)
+
+  - `userChannelMask[6]`
+
+  - `overTheAirActivation`
+
+    `true`--OTAA
+
+    `false`--ABP
+
+- Write your own applications in `prepareTxFrame`.
+
+  ![](img/config_parameter/06.png)
+  
+  
 
 Now, if download the program into your board, if everything is normal, it should be able to run.
 
