@@ -1,9 +1,9 @@
-# Connect HT-M00 to a LoRa Server
+# Connect HT-M00 to LoRa Server
 [简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m00/connect_to_server.html)
 
 ## Summary
 
-This article aims to describe how to connect [HT-M00 Gateway](https://heltec.org/project/ht-m00/) to a LoRa server, such as [TTN](https://www.thethingsnetwork.org/), [ChirpStack](https://www.chirpstack.io/), which facilitates secondary development and rapid deployment of LoRa devices.
+This article aims to describe how to connect [HT-M00 Gateway](https://heltec.org/project/ht-m00/) to a LoRa server, such as [TTN](https://www.thethingsnetwork.org/), [ChirpStack](https://www.chirpstack.io/), [Heltec Cloud Server](http://cloud.heltec.org/), which facilitates secondary development and rapid deployment of LoRa devices.
 
 Before all operation, make sure the HT-M00 is runing well . If not, please refer to this [HT-M00 Quick Start](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m00/qucik_start.html) document.
 
@@ -21,7 +21,7 @@ Fill in the HT-M00 information as shown below and complete the addition.
 
 ![](img/connect_to_server/03.png)
 
-- **Gateway EUI** -- The unique ID of HT-M00 gateway;
+- **Gateway EUI** -- The unique ID of HT-M00 gateway, view from the display screen of the HT-M00 or view through the serial port (the gateway ID will be printed through the serial port when the HT-M00 starts);
 - **I'm using the legacy packet forwarder** -- Must select this;
 - **Frequency Plan** -- Must matach the LoRa band configuration in HT-M00.
 - **Router** -- Must use the default router allocated by TTN system.
@@ -71,7 +71,7 @@ Fill in the HT-M00 information as shown below and complete the addition.
 
 ![](img/connect_to_server/06.png)
 
-- **Gateway ID** -- The unique ID of the HT-M00 gateway, view it from the display of HT-M00.
+- **Gateway ID** -- The unique ID of HT-M00 gateway, view from the display screen of the HT-M00 or view through the serial port (the gateway ID will be printed through the serial port when the HT-M00 starts).
 
 ### Connect to ChirpStack server
 
@@ -93,7 +93,7 @@ Fill in the HT-M00 information as shown below and complete the addition.
 
 ![](img/connect_to_server/09.png)
 
-- **Gateway ID** -- The unique ID of the HT-M00 gateway, view it from the display of HT-M00.
+- **Gateway ID** -- The unique ID of HT-M00 gateway, view from the display screen of the HT-M00 or view through the serial port (the gateway ID will be printed through the serial port when the HT-M00 starts).
 
 ### Connect to HelTec server
 

@@ -19,7 +19,7 @@ Modify the preamble length in this function to 16 as shown in the figure above.
 
 ## Configure the gateway
 
-The HT-M00 gateway has been burned with related programs before leaving the factory, you can use it with just a few simple operations.
+The HT-M00 gateway has already downloaded the relevant program when it leaves the factory, you can use it with just a few simple operations.
 
 ![](img/quick_start/01.png)
 
@@ -27,7 +27,7 @@ The HT-M00 gateway has been burned with related programs before leaving the fact
 
 ![](img/quick_start/02.png)
 
-- At this point, find the WiFi named "M00_XXXX", connect to the WiFi with the password "heltec.org", and then enter "192.168.4.1".
+- At this time, find the WiFi named "M00_XXXX", connect to the WiFi with the password "heltec.org", and then enter "192.168.4.1".
 
   ![](img/quick_start/03.png)
 
