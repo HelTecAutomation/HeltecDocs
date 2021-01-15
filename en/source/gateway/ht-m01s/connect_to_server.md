@@ -5,7 +5,7 @@
 
 This article aims to describe how to connect [HT-M01S Gateway](https://heltec.org/project/ht-m01s/) to a LoRa server, such as [TTN](https://www.thethingsnetwork.org/), [ChirpStack](https://www.chirpstack.io/), [Heltec Cloud Server](http://cloud.heltec.org/), which facilitates secondary development and rapid deployment of LoRa devices.
 
-Before all operation, make sure the HT-M00 is runing well . If not, please refer to this [HT-M01S Quick Start](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m00/qucik_start.html) document.
+Before all operation, make sure the HT-M00 is runing well . If not, please refer to this [HT-M01S Quick Start](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m01s/quick_start.html) document.
 
 &nbsp;
 
@@ -32,7 +32,7 @@ Fill in the HT-M01S information as shown below and complete the addition.
 
 ### Connect to TTN
 
-In the HT-M01S gateway, the server address, port, frequency band, and channel need to be configured. The server address, port, frequency band and channel are configured in the "HT-M01S Config" interface, please refer to the [HT-M01S Quick Start]() document.
+In the HT-M01S gateway, the server address, port, frequency band, and channel need to be configured. The server address, port, frequency band and channel are configured in the "HT-M01S Config" interface, please refer to the [HT-M01S Quick Start](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m01s/quick_start.html) document.
 
 ![](img/connect_to_server/03.png)
 
@@ -73,7 +73,7 @@ Fill in the HT-M01S information as shown below and complete the addition.
 
 ### Connect to ChirpStack server
 
-In the HT-M01S gateway, the server address, port, frequency band, and channel need to be configured. The server address, port, frequency band and channel are configured in the "HT-M01S Config" interface, please refer to the [HT-M01S Quick Start]() document.
+In the HT-M01S gateway, the server address, port, frequency band, and channel need to be configured. The server address, port, frequency band and channel are configured in the "HT-M01S Config" interface, please refer to the [HT-M01S Quick Start](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m01s/quick_start.html) document.
 
 ![](img/connect_to_server/03.png)
 
@@ -95,7 +95,7 @@ Fill in the HT-M01S information as shown below and complete the addition.
 
 ### Connect to HelTec server
 
-In the HT-M01S gateway, the server address, port, frequency band, and channel need to be configured. The server address, port, frequency band and channel are configured in the "HT-M01S Config" interface, please refer to the [HT-M01S Quick Start]() document.
+In the HT-M01S gateway, the server address, port, frequency band, and channel need to be configured. The server address, port, frequency band and channel are configured in the "HT-M01S Config" interface, please refer to the [HT-M01S Quick Start](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m01s/quick_start.html) document.
 
 ![](img/connect_to_server/03.png)
 
