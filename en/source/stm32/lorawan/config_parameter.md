@@ -87,9 +87,9 @@ The first time you run, may have the following dialog box will, click Yes and th
 
    - `USE_DEBUGGER` 
 
-     If define `USE_DEBUGGER` , default serial port(PA9, PA10) can print debugging information.
+     If define `USE_DEBUGGER` , default serial port(PA9-TX, PA10-RX) can print debugging information.
 
-     If delete `USE_DEBUGGER` , deep sleep.
+     If delete `USE_DEBUGGER` , debugging information will not be printed.
 
 - Modify `DEVICE_EUI`, `APPLICATION_KEY`, `APPLICATION_EUI` in the `main.c` file according to your needs.
 
@@ -99,15 +99,13 @@ The first time you run, may have the following dialog box will, click Yes and th
 
   ![](img/config_parameter/05.png)
 
-  - `userChannelMask[6]`
-
   - `overTheAirActivation`
 
     `true`--OTAA
 
     `false`--ABP
 
-- Write your own applications in `prepareTxFrame`.
+- Write the data you want to send in `prepareTxFrame`.
 
   ![](img/config_parameter/06.png)
   
