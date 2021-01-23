@@ -9,6 +9,22 @@ Before all operation, make sure the HT-M02 is runing well . If not, please refer
 
 &nbsp;
 
+## Get the Gateway EUI
+
+Generally, the EUI of the gateway will be pasted on the surface of the gateway.
+
+![](img/connect_to_server/11.png)
+
+The Gateway EUI also can be read via this command:
+
+`cat lora/packet_forwarder/lora_pkt_fwd/local_conf.json`
+
+```Tip:: 
+If need to change the Gateway EUI for some reason, you can directly modify the file, and the modified EUI will take effect after restarting.
+```
+
+
+
 ## Connect to TTN
 
 ### Register a LoRa gateway in TTN
