@@ -19,11 +19,9 @@ The Gateway EUI also can be read via this command:
 
 `cat lora/packet_forwarder/lora_pkt_fwd/local_conf.json`
 
-```Tip:: 
-If need to change the Gateway EUI for some reason, you can directly modify the file, and the modified EUI will take effect after restarting.
+```Tip:: If need to change the Gateway EUI for some reason, you can directly modify the file, and the modified EUI will take effect after restarting.
+
 ```
-
-
 
 ## Connect to TTN
 
