@@ -1,6 +1,6 @@
 # HT-M01S Firmware Upgrade
 
-[简体中文]()
+[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m01s/update_firmware.html)
 
 
 ## Summary

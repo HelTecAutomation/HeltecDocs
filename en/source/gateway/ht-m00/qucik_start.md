@@ -27,7 +27,7 @@ The HT-M00 gateway has already downloaded the relevant program when it leaves th
 
 ![](img/quick_start/02.png)
 
-- At this time, find the WiFi named "M00_XXXX", connect to the WiFi with the password "heltec.org", and then enter "192.168.4.1".
+- At this time, find the WiFi named "M00_XXXX", connect to the WiFi with the password "heltec.org", then enter "192.168.4.1" through the browser, enter the gateway configuration page.
 
   ![](img/quick_start/03.png)
 
