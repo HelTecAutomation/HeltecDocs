@@ -19,7 +19,7 @@ Enter the HT-M00 gateway configuration interface by connecting to the HT-M00 WiF
 
 ![](img/update_firmware/02.png)
 
-Click "Select firmware" to select the downloaded corresponding upgrade firmware, and click "Update" to upgrade.
+Click "Select firmware" to select the corresponding upgrade firmware that has been downloaded, and click "Update" to upgrade.
 
 ![](img/update_firmware/03.png)
 

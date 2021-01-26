@@ -16,3 +16,4 @@ HT-M01S has basic mechanical protection and dustproof structure, but does not ha
     
     Quick Start <quick_start>
     Coneect to LoRa server <connect_to_server>
+    Update Firmware <update_firmware>
