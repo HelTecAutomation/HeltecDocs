@@ -6,13 +6,16 @@ CubeCell is based on ASR650x series, this page shown how to install and configur
 
 ## Install CubeCell Relevant Framework
 
+**there are two methods to install the CubeCell framework, choose one of them.**
+
+- [Use Arduino board manager](#USE-ARDUINO-BOARD-MANAGER)
+- [Via Git](#VIA-GIT)
+
 ``` Tip:: Please confirm whether the USB driver, Git and Arduino IDE has been installed correctly.
 
 ```
 
 *If not, please view this two articles [establish serial connection](https://heltec-automation-docs.readthedocs.io/en/latest/general/establish_serial_connection.html) and [Install Git and Arduino IDE](https://heltec-automation-docs.readthedocs.io/en/latest/general/how_to_install_git_and_arduino.html).*
-
-**there are two methods to install the CubeCell framework, choose one of them.**
 
 ### Use Arduino board manager
 
