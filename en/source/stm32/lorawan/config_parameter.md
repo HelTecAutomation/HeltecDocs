@@ -85,6 +85,9 @@ The first time you run, may have the following dialog box will, click Yes and th
 
      `LORAMAC_REGION_AS923_AS2`
 
+   - `REGION_EU868`
+     Set to the frequency band corresponding to `ACTIVE_REGION`
+
    - `USE_DEBUGGER` 
 
      If define `USE_DEBUGGER` , default serial port(PA9-TX, PA10-RX) can print debugging information.
