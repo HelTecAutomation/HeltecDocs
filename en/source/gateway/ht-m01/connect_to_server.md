@@ -95,9 +95,9 @@ The `Gateway Bridge` service can running on the Raspberry Pi or the ChirpStack s
 Install LoRa-gateway-bridge:
 
 ```shell
-wget https://artifacts.loraserver.io/downloads/lora-gateway-bridge/lora-gatewaybridge_2.5.1_armhf.deb
+wget https://artifacts.loraserver.io/downloads/lora-gateway-bridge/lora-gateway-bridge_2.5.1_armhf.deb
 #Download the LoRa-gateway-bridge package that supports the Raspberry Pi Zero_W version
-dpkg -i lora-gateway-bridge_2.5.1_armhf.deb
+sudo dpkg -i lora-gateway-bridge_2.5.1_armhf.deb
 #Install LoRa-gateway-bridge
 sudo systemctl start lora-gateway-bridge
 #Start LoRa-gateway-bridge
