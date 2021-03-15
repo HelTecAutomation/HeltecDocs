@@ -39,33 +39,33 @@ Download [HT-M01S firmware](https://resource.heltec.cn/download/HT-M01S/firmware
 
 Open the downloaded file and edit the "M1S_HelTec.bat" file.
 
-![](img\update_firmware\05.png)
+![](img/update_firmware/05.png)
 
 Change the COM port to the corresponding COM port of HT-M01S.
 
-![](img\update_firmware\06.png)
+![](img/update_firmware/06.png)
 
 Open the serial port corresponding to the HT-M01S, press the "-" key -> press the "RST" key -> release the "RST" key -> wait for the serial port to print "waiting for download" -> release the "-" key.
 
-![](img\update_firmware\07.png)
+![](img/update_firmware/07.png)
 
 Double-click to run "M1S_HelTec.bat". When running to the interface shown in the figure below, perform the following operations, press "-" key -> press "RST" key -> release "RST" key -> release "-" key. After the window closes automatically, the firmware programming is complete.
 
-![](img\update_firmware\08.png)
+![](img/update_firmware/08.png)
 
 ### Activate the Gateway
 
 After the firmware download is complete, open the serial port corresponding to the HT-M01S and read the corresponding ESP32 chip ID of the gateway.
 
-![](img\update_firmware\09.png)
+![](img/update_firmware/09.png)
 
 Enter [https://resource.heltec.cn/search](https://resource.heltec.cn/search), enter the ESP32 chip ID to query the serial number corresponding to the gateway.
 
-![](img\update_firmware\10.png)
+![](img/update_firmware/10.png)
 
 Open the serial port corresponding to the HT-M01S, and send the command "AT+CDKEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" through the serial port to activate the gateway. Among them, "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" is the 32-bit license.
 
-![](img\update_firmware\11.png)
+![](img/update_firmware/11.png)
 
 After the serial port prints "ETH Started, Connecting..." and the screen displays normally, the gateway is activated successfully.
 
