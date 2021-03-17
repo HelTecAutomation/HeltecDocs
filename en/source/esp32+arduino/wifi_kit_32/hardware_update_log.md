@@ -16,7 +16,7 @@
 
 ![](img/hardware_update_log/02.png)
 
-- 20 public sale
+- 2019-5 public sale;
 - Fixed charging status (orange LED) blinking problem;
 - 4MB (32M-bits) FLASH upgrade to 8MB (64M-bits) FLASH;
 - Better 2.4GHz antenna design and impendence matching;
@@ -36,7 +36,9 @@
 
 ## V2.1
 
-- 2019-10 public sale?
+![](img/hardware_update_log/03.png)
+
+- 2019-10 public sale;
 - Fix battery voltage read can't work together with Wi-Fi bug, change battery voltage reading pin to GPI37 (use ADC1_1), please refer to this example: [ADC_Read_Voltage/Battery_power](https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/examples/ESP32/ADC_Read_Voltage/Battery_power/Battery_power.ino).
 - [Pinout diagram for V2.1](https://resource.heltec.cn/download/WiFi_Kit_32/WIFI_Kit_32_pinoutDiagram_V2.1.pdf);
 - [Schematic diagram for V2.1](https://resource.heltec.cn/download/WiFi_Kit_32/WIFI_Kit_32_Schematic_diagram_V2.1.PDF);
