@@ -4,7 +4,7 @@
 
 ## Summary
 
-SX130x LoRa gateway module include SX1301 and SX1308 two base band chip version. Cooperate with suitable driver hardware and Linux operating system (such as Raspberry Pi), then it can work as a LoRa gateway.
+The SX130x LoRa gateway module includes two baseband models, SX1301 and SX1308. Their performance, drivers, interface packaging, and functions are completely the same. The difference is the operating temperature range. SX1301 is positioned as an outdoor type, and SX1308 is positioned as an indoor type. Cooperate with suitable driver hardware and Linux operating system (such as Raspberry Pi), then it can work as a LoRa gateway.
 
 ## Technical Characteristics
 
@@ -69,6 +69,6 @@ Run `sudo systemctl status lrgateway` in Raspberry Pi, if all goes well, the ser
 
 ## Connect to LoRa Server
 
-SX1301 module working with Raspberry Pi is most similar with [HT-M01](https://heltec.org/project/ht-m01/) gateway with Raspberry Pi in SPI mode. Steps to connect to a LoRa server, please refer to this document:
+SX130x module working with Raspberry Pi is most similar with [HT-M01](https://heltec.org/project/ht-m01/) gateway with Raspberry Pi in SPI mode. Steps to connect to a LoRa server, please refer to this document:
 
 [https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m01/connect_to_server.html](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m01/connect_to_server.html)

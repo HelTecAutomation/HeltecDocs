@@ -1,16 +1,16 @@
-SX1301 Module
+SX130x Module
 =============
 `简体中文 <https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/sx1301module/index.html>`_
 
-SX1301 LoRa gateway module, It can cooperate with hardware that supports Linux operating system (such as Raspberry Pi), then it can work as a LoRa gateway.
+The SX130x LoRa gateway module includes two baseband models, SX1301 and SX1308. Their performance, drivers, interface packaging, and functions are completely the same. The difference is the operating temperature range. SX1301 is positioned as an outdoor type, and SX1308 is positioned as an indoor type. Cooperate with suitable driver hardware and Linux operating system (such as Raspberry Pi), then it can work as a LoRa gateway.
 
--  SX1301 baseband chip;
+-  SX1301/SX1308 baseband chip;
 -  SPI bus;
 -  SX1255/57 digital I and Q RF Multi-PHY Mode Analog Front End.
 
 .. note::
 
-   SX1301 will generate large heat when working, pay attention to the heat dissipation design.
+   SX1301/SX1308 will generate large heat when working, pay attention to the heat dissipation design.
 
 .. toctree::
     :maxdepth: 2
