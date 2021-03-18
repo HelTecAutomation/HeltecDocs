@@ -1,10 +1,10 @@
-# SX1301 LoRa Gateway Module Quick Start
+# SX130x LoRa Gateway Module Quick Start
 
 [简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/sx1301module/qucik_start.html)
 
 ## Summary
 
-SX1301 LoRa gateway module, It can cooperate with hardware that supports Linux operating system (such as Raspberry Pi), then it can work as a LoRa gateway.
+SX130x LoRa gateway module include SX1301 and SX1308 two base band chip version. Cooperate with suitable driver hardware and Linux operating system (such as Raspberry Pi), then it can work as a LoRa gateway.
 
 ## Technical Characteristics
 
@@ -16,7 +16,7 @@ SX1301 LoRa gateway module, It can cooperate with hardware that supports Linux o
 
 ![](img/quick_start/00.png)
 
-## Running SX1301 module with SPI mode (Raspberry Pi)
+## Running SX130x module with SPI mode (Raspberry Pi)
 
 The Raspberry Pi SPI bus is disabled by default. Enter the following command in putty to open the Raspberry Pi configuration interface and enable the SPI bus.
 
