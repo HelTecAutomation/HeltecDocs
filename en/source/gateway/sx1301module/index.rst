@@ -22,5 +22,5 @@ Relevant Offical Resources
 
 - `Schematic package (Altium Designer) <http://resource.heltec.cn/download/sx1301_module/LoRaGateway_Module.SchLib>`_;
 - `PCB package (Altium Designer) <http://resource.heltec.cn/download/sx1301_module/LoRaGateway_Module.PcbLib>`_;
-- `Pin out diagram <http://resource.heltec.cn/download/sx1301_module/LoRaGateway_Module.pdf>`_.
+- `Pin out diagram <https://resource.heltec.cn/download/sx1301_module/LoRaGateway_Module_pinout.pdf>`_.
 - `minimal system reference design <http://resource.heltec.cn/download/sx1301_module/SX1301_reference_design.pdf>`_.
