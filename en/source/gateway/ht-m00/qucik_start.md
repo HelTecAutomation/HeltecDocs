@@ -1,5 +1,5 @@
 # HT-M00 Dual Channel LoRa Gateway Quick Start
-[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m00/qucik_start.html)
+[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m00/quick_start.html)
 
 ## Summary
 
@@ -7,7 +7,7 @@ HT-M00 is a small, low-cost dual-channel LoRa gateway, Use Type-C interface. The
 
 
 
-```Tip:: When using the HT-M00 gateway, using nodes other than the company's CubeCell series, you need to change the node's preamble length to 16 (default is 8). If the preamble length is not modified to 16, only SF7 can be received.
+```Tip:: When using the HT-M00 gateway, using nodes other than the company's CubeCell series, you need to change the node's preamble length to 16 (default is 8). If the preamble length is 8, the minimum SF and the maximum SF need to be set equal, otherwise only the minimum SF will be received. For example, the length of the node's preamble length is 8, and the gateway sets the minimum SF to 7 and the maximum SF to 12, then only SF7 will be received.
 
 ```
 
