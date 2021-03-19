@@ -99,7 +99,7 @@ General Docs
    cubecell/index
    Quick Start <cubecell/quick_start>
    cubecell/lorawan/index
-   AT Command List <https://resource.heltec.cn/download/CubeCell/AT_Command_list/CubeCell_Series_AT_Command_User_Manual_V0.5.pdf>
+   AT Command List <https://resource.heltec.cn/download/CubeCell/AT_Command_list/CubeCell_Series_AT_Command_User_Manual_V0.6.pdf>
    cubecell/dev-board/index
    cubecell/capsule-sensor/index
    cubecell/module/index
