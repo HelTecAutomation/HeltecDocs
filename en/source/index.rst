@@ -117,6 +117,7 @@ General Docs
    esp32/wireless_stick/index
    esp32/wireless_stick_lite/index
    esp32/wireless_shell/index
+   esp32/wireless_bridge/index
    Frequently Asked Questions <esp32/frequently_asked_questions>
 
 .. toctree::
