@@ -12,4 +12,4 @@ Wireless Bridge relevant documents.
 Relevant Offical Resources
 --------------------------
 
-- `AutoCAD drawing <>`_;
+- `AutoCAD drawing <https://resource.heltec.cn/download/Wireless_Bridge/Wireless_Bridge.dwg>`_;
