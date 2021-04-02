@@ -20,7 +20,10 @@
 
 ## V1.1
 
+![](img/hardware_update_log/02.png)
+
 - 2021-03-28 public sale.
-- Replace the GPS module from AIR530 to AIR530Z to further optimize low power consumption.
+- Replace the GPS module from AIR530 to AIR530Z to further improve performance and optimize low power consumption.
+- Optimize the circuit and optimize the PCB layout.
 - [Pinout diagram of V1.1](http://resource.heltec.cn/download/CubeCell/HTCC-AB02S/HTCC-AB02S_PinoutDiagram.pdf)
 - [Schematic diagram of V1.1](https://resource.heltec.cn/download/CubeCell/HTCC-AB02S/HTCC-AB02S_SchematicDiagram_V1.1.pdf)
