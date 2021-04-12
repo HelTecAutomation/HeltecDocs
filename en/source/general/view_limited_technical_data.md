@@ -48,13 +48,9 @@ The products' Chip ID is relative to the onboard MCU, each MCU have an unique ID
 
 Make sure you have already installed the [Heltec ESP32 development framework](https://heltec-automation-docs.readthedocs.io/en/latest/esp32/quick_start.html).
 
-Choose the [Chip ID read example](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/esp32/libraries/ESP32/examples/ChipID/GetChipID/GetChipID.ino) from menu: `File -- Examples -- ESP32 -- ChipID -- GetChipID`.
+Use this sample code: [Chip ID read example](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/esp32/libraries/ESP32/examples/ChipID/GetChipID/GetChipID.ino).
 
-![](img/view_limited_technical_data/01.png)
-
-&nbsp;
-
-Upload the example, the Chip ID will be printed via serial port:
+After uploading this sample code, the Chip ID will be printed via serial port:
 
 ![](img/view_limited_technical_data/02.png)
 
