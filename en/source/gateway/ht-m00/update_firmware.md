@@ -19,7 +19,7 @@ Download [HT-M00 corresponding upgrade firmware](https://resource.heltec.cn/down
 
 ![](img/update_firmware/01.png)
 
-Enter the HT-M00 gateway configuration interface by connecting to the HT-M00 WiFi(can refer to [HT-M00 Quick Start](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m00/qucik_start.html))，click "Firmwaer Update"。
+Enter the HT-M00 gateway configuration interface by connecting to the HT-M00 WiFi(can refer to [HT-M00 Quick Start](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m00/quick_start.html))，click "Firmwaer Update"。
 
 ![](img/update_firmware/02.png)
 

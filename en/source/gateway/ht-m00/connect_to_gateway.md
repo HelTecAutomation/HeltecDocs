@@ -6,7 +6,7 @@
 
 This article aims to describe how to connect nodes to [HT-M00 Gateway](https://heltec.org/project/ht-m00/), which facilitates secondary development and rapid deployment of LoRa devices. HT-M00 is a dual-channel gateway. To ensure good communication between the node and the gateway, the channel used by the node must correspond to that of the HT-M00 gateway. This document takes CN470 as an example.
 
-Before all operation, make sure the HT-M00 and nodes are runing well . If not, please refer to this [HT-M00 Quick Start](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m00/qucik_start.html) document.
+Before all operation, make sure the HT-M00 and nodes are runing well . If not, please refer to this [HT-M00 Quick Start](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m00/quick_start.html) document.
 
 ```Tip:: If the node channel is more than the gateway channel and the gateway channel is included, then the node channel can only enter the network when the node channel matches the gateway channel. If the node channel does not include the gateway channel, the node cannot enter the network.
 
