@@ -1,5 +1,5 @@
 # HT-M01 Mini LoRa Gateway Quick Start
-[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m01/qucik_start.html)
+[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m01/quick_start.html)
 ## Summary
 
 The HT-M01 LoRa Gateway supports both USB and SPI mode. The SPI mode can only running with Linux systems (Raspberry PI), the USB mode can be used on Linux and Windows<sup>®</sup>. generally speaking, to make HT-M01 running, just chose one of the following three methods:
