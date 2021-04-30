@@ -6,13 +6,9 @@
 
 This document will briefly introduce the usage of Wireless_Bridge BLE_LoRa example.
 
-&nbsp;
-
 ```Tip:: loraWanClass should choose CLASS_C
 
 ```
-
-
 
 ## Usage
 

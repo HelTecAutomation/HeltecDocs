@@ -12,7 +12,7 @@ The purpose of this article is to provide some examples of how to get MQTT messa
 ```
 
 - [Via Python](#via-python)
-- [Via third party application (MQTT.fx)]()
+- [Via third party application (MQTT.fx)](#via-third-party-application-mqtt.fx)
 
 ----------
 ## Via Python

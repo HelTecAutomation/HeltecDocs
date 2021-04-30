@@ -6,8 +6,6 @@
 
 This document will briefly introduce the usage of Wireless_Bridge WiFi_BLE example.
 
-&nbsp;
-
 ## Usage
 
 To view Bluetooth messages, you need the corresponding Bluetooth debugging tools.
