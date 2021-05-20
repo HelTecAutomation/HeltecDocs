@@ -13,6 +13,22 @@ This article aims to describe how to upgrade the HT-M01S firmware.
 
 &nbsp;
 
+## Firmware Upgrade Content
+
+- V1.2
+
+  ​	Increase EU433 frequency band support.
+
+- V1.3
+
+  ​	The gateway can be configured in the WiFi connection state and the Ethernet connection state.
+
+  ​	The upstream and downstream ports can be set separately.
+
+  ​	Can modify the heartbeat cycle by yourself.
+
+&nbsp;
+
 ## Upgrade Firmware
 
 Download [HT-M01S corresponding upgrade firmware](https://resource.heltec.cn/download/HT-M01S/firmware)。
@@ -35,9 +51,9 @@ After the upgrade is complete, a corresponding prompt will pop up and restart th
 
 ### Download Firmware
 
-Download [HT-M01S firmware](https://resource.heltec.cn/download/HT-M01S/firmware/M01S_firmware_V1.2.zip)。
+Download [HT-M01S complete firmware](https://resource.heltec.cn/download/HT-M01S/firmware/complete_firmware)。
 
-Open the downloaded file and edit the "M1S_HelTec.bat" file.
+Open the downloaded file and edit the "M01S_Vx_x.bat" file.
 
 ![](img/update_firmware/05.png)
 
@@ -49,7 +65,7 @@ Open the serial port corresponding to the HT-M01S, press the "-" key -> press th
 
 ![](img/update_firmware/07.png)
 
-Double-click to run "M1S_HelTec.bat". When running to the interface shown in the figure below, perform the following operations, press "-" key -> press "RST" key -> release "RST" key -> release "-" key. After the window closes automatically, the firmware programming is complete.
+Double-click to run "M01S_Vx_x.bat". When running to the interface shown in the figure below, perform the following operations, press "-" key -> press "RST" key -> release "RST" key -> release "-" key. After the window closes automatically, the firmware programming is complete.
 
 ![](img/update_firmware/08.png)
 
@@ -67,5 +83,5 @@ Open the serial port corresponding to the HT-M01S, and send the command "AT+CDKE
 
 ![](img/update_firmware/11.png)
 
-After the serial port prints "ETH Started, Connecting..." and the screen displays normally, the gateway is activated successfully.
+After the screen displays normally, the gateway is activated successfully.
 
