@@ -31,15 +31,15 @@ The HT-M01S gateway has already downloaded the relevant program when it leaves t
 
 #### First Configuration via WiFi
 
-![](img\quick_start\01.png)
+![](img/quick_start/01.png)
 
 - After powering on the gateway through Type-C or PoE, keep pressing the "+" button, then press the "RST" button, and then release the "RST" button. After the gateway enters the interface shown in the figure below, release the "+" button .
 
-![](img\quick_start\02.png)
+![](img/quick_start/02.png)
 
 - At this time, find the WiFi named "M01S_XXXX", connect to this WiFi, and enter "192.168.4.1" through the browser, and log in to the gateway configuration page with the user name "HT-M01S" and password "heltec.org".
 
-![](img\quick_start\07.png)
+![](img/quick_start/07.png)
 
 - Configure the HT-M01S gateway information on the page shown in the figure above, such as network mode, server address, uplink port, downlink port, heartbeat period, regional frequency band, gateway channel, time zone, and click "Submit" after the configuration is complete. If "NET MODE" selects "WiFi", you need to configure the corresponding WiFi information, if "NET MODE" selects "Ethernet", the network information will be directly obtained through Ethernet. The user can modify the web login password by himself. At the same time, we will put the relevant firmware of HT-M01S on this webpage, and click "Firmware Update" to update accordingly.
 - The gateway will restart after the configuration is completed and submitted. When the gateway starts, it will automatically connect to the configured WiFi or connect to the Ethernet. If the connection fails, it will restart again until the connection is successful.
@@ -48,11 +48,11 @@ The HT-M01S gateway has already downloaded the relevant program when it leaves t
 
 - After the gateway obtains the network through Ethernet and works normally, "Local IP" will be displayed on the display.
 
-![](img\quick_start\09.png)
+![](img/quick_start/09.png)
 
 - Enter the web page through the "Local IP" on the gateway display screen, and log in to the gateway configuration page with the user name "HT-M01S" and password "heltec.org" (the login device must be in the same LAN as the gateway).
 
-![](img\quick_start\08.png)
+![](img/quick_start/08.png)
 
 - Configure the HT-M01S gateway information on the page shown in the figure above, such as network mode, server address, uplink port, downlink port, heartbeat period, regional frequency band, gateway channel, time zone, and click "Submit" after the configuration is complete. If "NET MODE" selects "WiFi", you need to configure the corresponding WiFi information, if "NET MODE" selects "Ethernet", the network information will be directly obtained through Ethernet. The user can modify the web login password by himself. At the same time, we will put the relevant firmware of HT-M01S on this webpage, and click "Firmware Update" to update accordingly.
 - The gateway will restart after the configuration is completed and submitted. When the gateway starts, it will automatically connect to the configured WiFi or connect to the Ethernet. If the connection fails, it will restart again until the connection is successful.
