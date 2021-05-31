@@ -13,6 +13,16 @@ This article aims to describe how to upgrade the HT-M00 firmware and the process
 
 &nbsp;
 
+## Firmware Upgrade Logs
+
+- V1.7
+  - Add noise floor automatic calibration function;
+  - Known bug fix.
+- V1.8
+  - Timing check SX1276 working status, if the SX1276 chips working not normal, system auto reset.
+- V1.9
+  - Add preamble length parsing function. If the json package sent by the server has a pream field, HT-M00 will parse and forward it.
+
 ## Upgrade Firmware
 
 Download [HT-M00 corresponding upgrade firmware](https://resource.heltec.cn/download/HT-M00/firmware)。
