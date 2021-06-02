@@ -28,6 +28,10 @@ Have a [PRI to HT-M01 converter](https://heltec.org/product/m01-converter/) will
 
 ![](img/quick_start/01.png)
 
+The wiring diagram of the Raspberry Pi and the adapter board is shown in the figure below.
+
+![](img/quick_start/09.png)
+
 The Raspberry Pi SPI bus is disabled by default. Enter the following command in putty to open the Raspberry Pi configuration interface and enable the SPI bus.
 
 `sudo raspi-config`

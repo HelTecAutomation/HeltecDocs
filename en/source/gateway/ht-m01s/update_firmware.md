@@ -16,11 +16,16 @@ This article aims to describe how to upgrade the HT-M01S firmware.
 ## Firmware Upgrade Logs
 
 - V1.2
-- Increase EU433 frequency band support.
+
+  - Increase EU433 frequency band support.
+
 - V1.3
-- Add DHCP support in both Ethernet and Wi-Fi connection;
+
+  - Add DHCP support in both Ethernet and Wi-Fi connection;
+
   - The upstream and downstream ports can be set separately;
-- Can modify the heartbeat cycle by yourself.
+
+  - Can modify the heartbeat cycle by yourself.
 
 &nbsp;
 
