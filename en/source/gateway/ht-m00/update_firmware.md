@@ -45,9 +45,11 @@ After the upgrade is complete, a corresponding prompt will pop up and restart th
 
 ## The Processing Method of Overwriting the HT-M00 Firmware
 
-Download [HT-M00 Firmware](https://resource.heltec.cn/download/HT-M00/firmware/M00_firmware_V1.4.zip)。
+### Download Firmware
 
-Open the downloaded file and edit the "M00.bat" file.
+Download [HT-M00 complete Firmware](https://resource.heltec.cn/download/HT-M00/firmware/complete_firmware)。
+
+Open the downloaded file and edit the "M00_Vx_x.bat" file.
 
 ![](img/update_firmware/05.png)
 
@@ -55,13 +57,27 @@ Change the COM port to the COM port corresponding to HT-M00.
 
 ![](img/update_firmware/06.png)
 
-After the modification is completed, run "M00.bat" to complete the gateway firmware upload.
+After the modification is completed, run "M00_Vx_x.bat" to complete the gateway firmware upload.
+
+### Activate the Gateway
+
+After the firmware download is complete, open the serial port corresponding to the HT-M00 and read the corresponding ESP32 chip ID of the gateway.
+
+![](img/update_firmware/07.png)
+
+Enter [https://resource.heltec.cn/search](https://resource.heltec.cn/search), enter the ESP32 chip ID to query the serial number corresponding to the gateway.
+
+![](img/update_firmware/08.png)
+
+Open the serial port corresponding to the HT-M00, and send the command "AT+CDKEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" through the serial port to activate the gateway. Among them, "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" is the 32-bit license.
+
+![](img/update_firmware/09.png)
+
+After the screen displays normally, the gateway is activated successfully.
 
 
 
-If HT-M00's serial port print shows that it is not activated when refreshes the firmware again. Please refer to this topic: [http://community.heltec.cn/t/solved-restoring-esp32-chip-license-to-ht-m00-flash-memory/2676](http://community.heltec.cn/t/solved-restoring-esp32-chip-license-to-ht-m00-flash-memory/2676)
-
-```Tip:: This firmware version is V1.4, and the firmware can be upgraded according to the "firmware upgrade" method.
+```Tip:: For lower version firmware, the firmware can be upgraded according to the "firmware upgrade" method.
 
 ```
 
