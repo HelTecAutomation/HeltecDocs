@@ -14,6 +14,6 @@ However, the user synchronization function seems to have some problems on TTS V3
 
 3. Change your password in the `Password change` area:
 
-![](img/tts_v3_login_issue/02.png)
+   ![](img/tts_v3_login_issue/02.png)
 
 4. Login the [Heltec LoRaWAN test server](https://lora.heltec.org/) again.
