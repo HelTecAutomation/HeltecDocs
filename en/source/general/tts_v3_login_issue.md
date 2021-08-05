@@ -1,6 +1,6 @@
 # Heltec LoRaWAN Test Server Login Issue
 
-[简体中文]()
+[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/general/tts_v3_login_issue.html)
 
 In June 2021, we replaced Heltec Cloud Server with the more scientific TTS V3, which is a permanent free server. It can be used for communication test and production environment of some simple applications.On the basis of the original TTS V3, we have added the user synchronization function. The purpose of this is to allow the Heltec official website account to be used to log in to the Heltec forum and Heltec's LoRaWAN test server at the same time.
 
