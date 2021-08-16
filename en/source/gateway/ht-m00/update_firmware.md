@@ -22,6 +22,13 @@ This article aims to describe how to upgrade the HT-M00 firmware and the process
   - Timing check SX1276 working status, if the SX1276 chips working not normal, system auto reset.
 - V1.9
   - Add preamble length parsing function. If the json package sent by the server has a pream field, HT-M00 will parse and forward it.
+- V2.0
+  - Add DHCP support in Wi-Fi connection;
+  - The upstream and downstream ports can be set separately;
+  - Can modify the heartbeat cycle by yourself.
+  - Can modify the gateway ID by yourself.
+
+&nbsp;
 
 ## Upgrade Firmware
 
