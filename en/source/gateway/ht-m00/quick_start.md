@@ -40,20 +40,20 @@ The HT-M00 gateway has already downloaded the relevant program when it leaves th
 
 ### Firmware Version V2.0 and Above
 
-![](img\quick_start\01.png)
+![](img/quick_start/01.png)
 
 - After powering on the gateway through the Type-C data cable, keep pressing the "CFG" button, press the "RST" button, then release the "RST" button, After the gateway enters the interface as shown in the figure below, release the "CFG" button.
 
-![](img\quick_start\02.png)
+![](img/quick_start/02.png)
 
 -  At this time, find the WiFi named “M00_XXXX”, connect to this WiFi, and enter “192.168.4.1” through the browser, and log in to the gateway configuration page with the user name “HT-M00” and password “heltec.org”.
 
-![](img\quick_start\09.png)
+![](img/quick_start/09.png)
 
 - In the page shown above, configure the WiFi information that HT-M00 needs to connect to, gateway ID, gateway channel frequency, sf, server address and port, heartbeat period, time zone, and click "Submit" after the configuration is complete. At the same time, we will put the relevant firmware of HT-M00 on this webpage, and click "Firmware Update" to update accordingly.
 - The gateway will restart after the configuration is completed and submitted. When the gateway is turned on, it will automatically connect to the configured WiFi. If the connection fails, it will restart again until the connection is successful.
 
-![](img\quick_start\04.png)
+![](img/quick_start/04.png)
 
 ```Tip:: After the gateway is connected to the network through WiFi and works normally, you can directly enter the configuration interface through the “Local IP” on the display (the login device must be in the same LAN as the gateway).
 
