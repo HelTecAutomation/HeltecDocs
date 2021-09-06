@@ -11,6 +11,10 @@ This article aims to describe how to upgrade the HT-M00 firmware and the process
 
 ```
 
+```Tip;; If your gateway ID is occupied, in order to avoid occupying other gateway IDs when modifying the gateway ID, please modify the "FFFF" part in the middle, thank you!
+
+```
+
 &nbsp;
 
 ## Firmware Upgrade Logs

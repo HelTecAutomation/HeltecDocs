@@ -19,6 +19,10 @@ Modify the preamble length in this function to 16 as shown in the figure above.
 
 ## Configure the gateway
 
+```Tip;; If your gateway ID is occupied, in order to avoid occupying other gateway IDs when modifying the gateway ID, please modify the "FFFF" part in the middle, thank you!
+
+```
+
 The HT-M00 gateway has already downloaded the relevant program when it leaves the factory, you can use it with just a few simple operations.
 
 ### Firmware version V1.9 and below

@@ -10,6 +10,10 @@ HT-M01S is positioned as a low-cost standard gateway for indoor use. LoRa part b
 
 ## Configure the gateway
 
+```Tip;; If your gateway ID is occupied, in order to avoid occupying other gateway IDs when modifying the gateway ID, please modify the "FFFF" part in the middle, thank you!
+
+```
+
 The HT-M01S gateway has already downloaded the relevant program when it leaves the factory, and it can be used with only a few simple operations.
 
 ### Firmware version V1.2 and below
