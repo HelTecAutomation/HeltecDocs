@@ -80,7 +80,7 @@ Enter [https://resource.heltec.cn/search](https://resource.heltec.cn/search), en
 
 ![](img/update_firmware/08.png)
 
-Open the serial port corresponding to the HT-M00, and send the command "AT+CDKEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" through the serial port to activate the gateway. Among them, "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" is the 32-bit license.
+Open the serial port corresponding to the HT-M00, and send the command "AT+CDKEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" through the serial port to activate the gateway. Among them, "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" is the 32-bit license. For example, if the license is 0x12345678, 0x12345678, 0x12345678, 0x12345678, the activation command is AT+CDKEY=12345678123456781234567812345678.
 
 ![](img/update_firmware/09.png)
 
