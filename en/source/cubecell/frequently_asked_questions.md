@@ -76,11 +76,10 @@ The `Vext` is a power source for external devices. Refer from the schematic diag
 Tips:: The Vext features is very important for some devices without deep sleep mode. When the system need in deep sleep status, we can turn off the Vext by set GPIO 21 to HIGH, then to save energy.
 ```
 
-## How to make a firmware upgrade package
+## How to upgrade using firmware
 1. Select the desired project to compile.
 2. Find the location of the ***CubeCellelftool.exe*** file and the file of type ***.cyacd*** in the build process information.
 3. Create a new folder and copy the two files of appeal to this folder.
 4. Check the port number of the development board (it is assumed to be COM3 here).
-5. Open a command line window under Windows and go to the folder you created above. input the command
+5. Open a command line window under Windows and go to the folder you created above. Enter the following command and execute it to download.
 >- CubeCellflash.exe -serial COM3   XXXXXXXX.cyacd         
-6. Execute the command, done.
