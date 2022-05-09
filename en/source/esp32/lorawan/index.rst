@@ -10,10 +10,6 @@ This library is make LoRaWAN 1.0.2 protocol running with ESP32 Arduino. Only sup
 
 .. note:: Heltec ESP32 LoRaWAN library need a license to active, it's relative to ESP32's Chip ID. Query your board's license here: `http://resource.heltec.cn/search <http://resource.heltec.cn/search>`_.
 
-`Heltec LoRa Node Family <https://docs.heltec.cn/#/en/products/lora/lora_node/heltec_lora_node_list_eu>`_.
-
-.. image:: img/connect_to_gateway/01.png
-
 
 .. toctree::
     :maxdepth: 2

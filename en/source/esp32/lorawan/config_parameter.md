@@ -61,6 +61,10 @@ There are some options in the Arduino Tools menu:
   - Freq -- Uplink/downlink frequency;
   - Freq && DIO -- Uplink/downlink frequency and DIO interrupt information;
   - Freq && DIO && PW -- Uplink/downlink frequency, DIO interrupt information and low power status.
+- **LORAWAN_DEVEUI** -- LoRaWAN Device EUI generate method
+  - CUSTOM -- Defined by the user in the DevEui array of the code, 8 bytes;
+  - Generate By ChipID -- Generated according to the Chip ID of the chip. Selecting this option will override the setting in the DevEui array in the code.
+
 
 ``` Note:: Print too much messages may cause the system unstable.
 
