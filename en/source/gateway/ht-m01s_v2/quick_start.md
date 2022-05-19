@@ -1,6 +1,6 @@
 # HT-M01S (Rev. 2.0) Quick Start
 
-[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m01s/quick_start.html)
+[简体中文]()
 
 ## Summary
 

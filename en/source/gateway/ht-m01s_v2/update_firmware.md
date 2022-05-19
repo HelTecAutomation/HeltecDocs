@@ -1,13 +1,13 @@
 # HT-M01S (Rev. 2.0) Firmware Upgrade
 
-[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m01s/update_firmware.html)
+[简体中文]()
 
 
 ## Summary
 
 This article aims to describe how to upgrade the HT-M01S (Rev. 2.0) firmware.
 
-```Tip;; If your gateway ID is occupied, in order to avoid occupying other gateway IDs when modifying the gateway ID, please modify the "FFFF" part in the middle, thank you!
+```Tip:: If your gateway ID is occupied, in order to avoid occupying other gateway IDs when modifying the gateway ID, please modify the "FFFF" part in the middle, thank you!
 
 ```
 
@@ -26,7 +26,7 @@ Download [HT-M01S (Rev. 2.0) corresponding upgrade firmware](https://resource.he
 
 ![](img/update_firmware/01.png)
 
-Enter the HT-M01S (Rev. 2.0) gateway configuration interface (can refer to [HT-M01S (Rev. 2.0) Quick Start](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m01s/quick_start.html))，click "Firmwaer Update"。
+Enter the HT-M01S (Rev. 2.0) gateway configuration interface (can refer to [HT-M01S (Rev. 2.0) Quick Start](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m01s_v2/quick_start.html))，click "Firmwaer Update"。
 
 ![](img/update_firmware/02.png)
 
