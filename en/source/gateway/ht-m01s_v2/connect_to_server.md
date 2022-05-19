@@ -1,9 +1,9 @@
-# Connect HT-M01S to LoRa Server
+# Connect HT-M01S (Rev. 2.0) to LoRa Server
 [简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m01s/connect_to_server.html)
 
 ## Summary
 
-This article aims to describe how to connect [HT-M01S Gateway](https://heltec.org/project/ht-m01s/) to a LoRa server, such as [TTN](https://www.thethingsnetwork.org/), [ChirpStack](https://www.chirpstack.io/), [Heltec Cloud Server](http://cloud.heltec.org/), which facilitates secondary development and rapid deployment of LoRa devices.
+This article aims to describe how to connect [HT-M01S (Rev. 2.0) Gateway](https://heltec.org/project/ht-m01s-v2/) to a LoRa server, such as [TTN](https://www.thethingsnetwork.org/)/[TTS](https://lora.heltec.org/), [ChirpStack](https://www.chirpstack.io/), which facilitates secondary development and rapid deployment of LoRa devices.
 
 Before all operation, make sure the HT-M01S is runing well . If not, please refer to this [HT-M01S Quick Start](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m01s/quick_start.html) document.
 
@@ -80,37 +80,3 @@ In the HT-M01S gateway, the server address, port, frequency band, and channel ne
 View gateway status, it is runing:
 
 ![](img/connect_to_server/07.png)
-
-&nbsp;
-
-## Connect to HelTec server
-
-### Register LoRa Gateway in HelTec Cloud Server
-
-Fill in the HT-M01S information as shown below and complete the addition.
-
-![](img/connect_to_server/08.png)
-
-- **Gateway ID** -- The unique ID of HT-M01S gateway, view from the display screen of the HT-M01S or view through the serial port (the gateway ID will be printed through the serial port when the HT-M01S starts).
-
-### Connect to HelTec server
-
-In the HT-M01S gateway, the server address, port, frequency band, and channel need to be configured. The server address, port, frequency band and channel are configured in the "HT-M01S Config" interface, please refer to the [HT-M01S Quick Start](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m01s/quick_start.html) document.
-
-![](img/connect_to_server/03.png)
-
-The server addresses corresponding to different regions are as follows:
-
-`CN470` --  `cn01.cloud.heltec.cn`
-
-`EU868` --  `eu01.cloud.heltec.org`
-
-`US915` --  `us01.cloud.heltec.org`
-
-`AU915` --  `au01.cloud.heltec.org`
-
-`AS923` --  `as01.cloud.heltec.org`
-
-View gateway status, it is runing:
-
-![](img/connect_to_server/09.png)

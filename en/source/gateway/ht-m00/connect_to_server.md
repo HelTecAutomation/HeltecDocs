@@ -82,37 +82,3 @@ Users  need config the server address, port and channel in the  HT-M00 gateway. 
 View gateway status, it is runing:
 
 ![](img/connect_to_server/07.png)
-
-&nbsp;
-
-## Connect to HelTec server
-
-### Register LoRa Gateway in HelTec Cloud Server
-
-Fill in the HT-M00 information as shown below and complete the addition.
-
-![](img/connect_to_server/09.png)
-
-- **Gateway ID** -- The unique ID of HT-M00 gateway, view from the display screen of the HT-M00 or view through the serial port (the gateway ID will be printed through the serial port when the HT-M00 starts).
-
-### Connect to HelTec server
-
-Users  need config the server address, port and channel in the  HT-M00 gateway. The server address, port and channel are configured in the "HT-M00 Config" interface, Please refer to [HT-M00 Quick Start](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m00/qucik_start.html) document.
-
-![](img/connect_to_server/01.png)
-
-The server addresses corresponding to different regions are as follows:
-
-`CN470` --  `cn01.cloud.heltec.cn`
-
-`EU868` --  `eu01.cloud.heltec.org`
-
-`US915` --  `us01.cloud.heltec.org`
-
-`AU915` --  `au01.cloud.heltec.org`
-
-`AS923` --  `as01.cloud.heltec.org`
-
-View gateway status, it is runing:
-
-![](img/connect_to_server/11.png)
