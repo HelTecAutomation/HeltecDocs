@@ -88,6 +88,7 @@ General Docs
    gateway/ht-m00/index
    gateway/ht-m01/index
    gateway/ht-m01s/index
+   gateway/ht-m01s_v2/index
    gateway/ht-m02_4g/index
    gateway/ht-m02_poe/index
    Frequently Asked Questions <gateway/frequently_asked_questions>
