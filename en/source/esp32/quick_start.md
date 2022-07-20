@@ -8,6 +8,8 @@ Before all operation, please confirm whether the `USB driver`, `Git` and `Arduin
 - [Via Arduino Board Manager](#via-arduino-board-manager)
 - [Via Git](#via-git)
 
+- [Via_Local_File](#)
+
 &nbsp;
 
 ## Via Arduino Board Manager
