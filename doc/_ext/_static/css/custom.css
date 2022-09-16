@@ -1,0 +1,9 @@
+.selectors {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+img.logo {
+    width: 200px !important;
+}
+

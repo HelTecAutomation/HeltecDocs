@@ -1,0 +1,44 @@
+# Heltec<sup>TM</sup> STM32+LoRa Series Frequently Asked Questions
+{ht_translation}`[简体中文]:[English]`
+
+This page contains the most frequently questions from user. If this page's detail can't solve your problem, you can also talk in our forum: [community.heltec.cn](http://community.heltec.cn/)
+
+&nbsp;
+
+## Can't Download Firmware
+
+- Use USB cable.
+  - Use a better USB cable, or change a USB socket.
+  - Enter the DFU mode correctly.
+- Use ST-LINK.
+  
+  - Make sure that the development board is connected to ST-LINK correctly.
+  
+  - About the solution to the failure to download firmware using ST-LINK(This method is mainly for Node 151, ):
+  
+    The first step of normal use -> Then **press** the RST KEY before proceeding to the second step -> The second step, then **release** the RST KEY.
+    
+    ![](img/frequently_asked_questions/01.png)
+
+​		The reason for this situation is: For the ultimate **low power** consumption, we have disabled 		most of the pins that are not normally used.
+
+
+
+Please refer to the following documents:
+
+- [LoRa Node 151 download firmware](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/lora_node_151/download_firmware.html);
+-  [Turtle Board download firmware](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/turtle_board/download_firmware.html).
+
+&nbsp;
+
+## Serial port has no output
+
+- Use USB-CDC(USB-Virtual Serial Port)
+  - USB-CDC is not configured correctly(You can refer to our examples).
+- Use USB-UART
+  - Make sure that the development board is connected to USB-UART module correctly.
+
+Please refer to the following documents:
+
+- [LoRa Node 151 Establish Serial Connection](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/lora_node_151/establish_serial_connection.html);
+- [Turtle Board Establish Serial Connection](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/turtle_board/establish_serial_connection.html).
