@@ -5,7 +5,7 @@ General Docs
 This document is used to solve some common problems.
 
 .. toctree::
-    :hidden:
+    :titlesonly:
     :maxdepth: 1
     
    How to Install Git and Arduino <how_to_install_git_and_arduino>
