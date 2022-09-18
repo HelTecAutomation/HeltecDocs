@@ -97,7 +97,7 @@ General Docs
 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: General Docs
 
    /general/index
