@@ -1,6 +1,7 @@
 var P = [
-    { text: "LORA GATEWAY", value: "gateway"},
-    { text: "NODE", value: "node"},
+    { text: "LoRa Gateway", value: "gateway"},
+    { text: "LoRa Node", value: "node"},
+    { text: "Arduino", value: "arduino"},
  ]
 
 
@@ -18,6 +19,8 @@ var prod_obj = {
         {text: "CUBECELL", value: "cubecell"},
         {text: "STM32", value: "stm32"},
         {text: "ESP32", value: "esp32"},
+    ],
+    arduino: [
         {text: "ESP32+ARDUINO", value: "esp32_arduino"},
         {text: "ESP8266+ARDUINO", value: "esp8266_arduino"},
     ],
@@ -59,7 +62,7 @@ ht_general='https://readthedocs.org/api/v3/embed/?url=https://docs.heltec.org/ge
 
 $(function () {
 
-let doc= document.getElementById('general-doc')
+let doc= document.getElementById('general-documents')
 if (doc) {
   $.get(ht_general, function(data) {
   doc.innerHTML = data['content'];
