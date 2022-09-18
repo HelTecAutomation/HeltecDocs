@@ -5,8 +5,7 @@ General Docs
 This document is used to solve some common problems.
 
 .. toctree::
-    :titlesonly:
-    :maxdepth: 1
+    :maxdepth: 2
     
    How to Install Git and Arduino <how_to_install_git_and_arduino>
    Establish Serial Connection <establish_serial_connection>
@@ -19,4 +18,3 @@ This document is used to solve some common problems.
    How To Config Rasberry Pi <how_to_config_raspberry_pi>
    View Limited Technical Data <view_limited_technical_data>
    Connect to Single_channel Gateway <connect_to_single_channel_gateway>
-   Heltec LoRaWAN Test Server Login Issue <tts_v3_login_issue>
