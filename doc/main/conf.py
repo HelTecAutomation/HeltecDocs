@@ -6,28 +6,29 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-import os
-
 project = 'main'
 copyright = '2022, shug'
 author = 'shug'
 release = 'latest'
 
+conf_py_path = '/doc/main/'
+
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ["myst_parser"]
+import os
+import sys
+sys.path.insert(0, os.path.abspath('../_ext/'))
+from common_conf import *
 
-templates_path = ['_templates']
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+update_path(conf_py_path)
 
-
+templates_path = ['../_ext/_templates', '_templates']
+html_static_path = ['../_ext/_static', '_static']
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'sphinx_rtd_theme'
-html_static_path = ['_static']
 
 def setup(app):
     os.system("tree")

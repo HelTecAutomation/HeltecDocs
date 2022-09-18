@@ -26,6 +26,7 @@ var prod_obj = {
 function tt() {
     let e = document.getElementById("product-select");
     let t = $("#type-select").val();
+    if (t === '') return
     e.options.length = 1
     e.options[0].selected = true
     for (let r = 0; r < prod_obj[t].length; r++) {
@@ -40,15 +41,30 @@ function tt() {
     if (n === 'none') return
     window.location.href = function(e) {
         let t = $("#type-select").val();
-        let href = window.location.href.split('/')
-        let ll = document.documentElement.lang.replace('-', '_')
-        let l = href.indexOf(ll) + 1
-        href.splice(l, href.length)
-        return href.join('/') + '/' + t + '/' + e + '/index.html'
+        let lang = /\/(en|zh_CN)\//
+        if (lang.test(window.location.href))
+        {
+            let href = window.location.href.split('/')
+            let ll = document.documentElement.lang.replace('-', '_')
+            let l = href.indexOf(ll) + 1
+            href.splice(l, href.length)
+            return href.join('/') + '/' + t + '/' + e + '/index.html'
+        }
+        return window.location.origin + '/' + 'en' + '/' + t + '/' + e + '/index.html'
+
     }(n)
 }
 
+ht_general='https://readthedocs.org/api/v3/embed/?url=https://docs.heltec.org/general/index.html'
+
 $(function () {
+
+let doc= document.getElementById('general-doc')
+if (doc) {
+  $.get(ht_general, function(data) {
+  doc.innerHTML = data['content'];
+})
+}
 var t = document.getElementById("type-select");
 var e = document.getElementById("product-select");
 var th = window.location.href.split('/')[4]
