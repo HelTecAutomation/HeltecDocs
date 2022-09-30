@@ -19,7 +19,6 @@ var prod_obj = {
         {text: "CUBECELL", value: "cubecell"},
         {text: "STM32 + LoRa", value: "stm32"},
         {text: "ESP32 + LoRa", value: "esp32"},
-        {text: "APT32 + LoRa", value: "apt32"},
     ],
     arduino: [
         {text: "ESP32+ARDUINO", value: "esp32_arduino"},
