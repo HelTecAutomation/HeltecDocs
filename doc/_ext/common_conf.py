@@ -1,5 +1,3 @@
-import recommonmark
-from recommonmark.transform import AutoStructify
 
 source_suffix = ['.rst', '.md']
 # -- General configuration ---------------------------------------------------

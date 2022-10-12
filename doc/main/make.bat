@@ -30,6 +30,11 @@ goto end
 
 :help
 %SPHINXBUILD% -M help %SOURCEDIR% %BUILDDIR% %SPHINXOPTS% %O%
+echo.make zh to update zh
 
+goto end
+
+:zh
+sphinx-intl update -p %BUILDDIR%/gettext -l zh_CN
 :end
 popd
