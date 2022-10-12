@@ -24,6 +24,7 @@ if errorlevel 9009 (
 )
 
 if "%1" == "" goto help
+if "%1" == "zh" goto zh
 
 %SPHINXBUILD% -M %1 %SOURCEDIR% %BUILDDIR% %SPHINXOPTS% %O%
 goto end
