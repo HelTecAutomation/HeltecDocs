@@ -7,7 +7,7 @@
 
 This article aims to describe how to upgrade the HT-M01S (Rev. 2.0) firmware.
 
-```{Tip) If your gateway ID is occupied, in order to avoid occupying other gateway IDs when modifying the gateway ID, please modify the "FFFF" part in the middle, thank you!
+```Tip:: If your gateway ID is occupied, in order to avoid occupying other gateway IDs when modifying the gateway ID, please modify the "FFFF" part in the middle, thank you!
 
 ```
 
@@ -20,9 +20,11 @@ This article aims to describe how to upgrade the HT-M01S (Rev. 2.0) firmware.
 
 &nbsp;
 
+(upgrade-firmware)=
+
 ## Upgrade Firmware
 
-This method is applicable to upgrading the firmware without changing the gateway configuration page. That is, this version of firmware only has the corresponding bin file. If the firmware of this version is a compressed package, please refer to "[Complete Firmware Upgrade](#complete-firmware-upgrade)" for firmware upgrade.
+This method is applicable to upgrading the firmware without changing the gateway configuration page. That is, this version of firmware only has the corresponding bin file. If the firmware of this version is a compressed package, please refer to " [Complete Firmware Upgrade](#complete-firmware-upgrade) " for firmware upgrade.
 
 Download [HT-M01S (Rev. 2.0) corresponding upgrade firmware](https://resource.heltec.cn/download/HT-M01S_V2/firmware)。
 
@@ -39,6 +41,8 @@ Click "Select firmware" to select the corresponding upgrade firmware that has be
 After the upgrade is complete, a corresponding prompt will pop up and restart the gateway.
 
 ![](img/update_firmware/04.png)
+
+(complete-firmware-upgrade)=
 
 ## Complete Firmware Upgrade
 

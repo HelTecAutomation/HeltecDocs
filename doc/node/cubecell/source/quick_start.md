@@ -10,12 +10,13 @@ CubeCell is based on ASR650x series, this page shown how to install and configur
 
 - [Use Arduino board manager](use-arduino-board-manager)
 - [Via Git](via-git)
+- [Via Local File](#via-local-file)
 
 ``` {Tip} Please confirm whether the USB driver, Git and Arduino IDE has been installed correctly.
 
 ```
 
-*If not, please view this two articles [establish serial connection](https://heltec-automation-docs.readthedocs.io/en/latest/general/establish_serial_connection.html) and [Install Git and Arduino IDE](https://heltec-automation-docs.readthedocs.io/en/latest/general/how_to_install_git_and_arduino.html).*
+*If not, please view this two articles [establish serial connection](https://docs.heltec.org/general/establish_serial_connection.html) and [Install Git and Arduino IDE](https://docs.heltec.org/general/how_to_install_git_and_arduino.html).*
 
 (use-arduino-board-manager)=
 ### Use Arduino board manager
@@ -28,7 +29,7 @@ Open Arduino IDE, and click `File`->`Peferences`->`Settings`
 
 Input following json url to board manager URLs:
 
- [https://github.com/HelTecAutomation/CubeCell-Arduino/releases/download/V1.4.0/package_CubeCell_index.json](https://github.com/HelTecAutomation/CubeCell-Arduino/releases/download/V1.4.0/package_CubeCell_index.json)
+ [https://github.com/HelTecAutomation/CubeCell-Arduino/releases/download/V1.5.0/package_CubeCell_index.json](https://github.com/HelTecAutomation/CubeCell-Arduino/releases/download/V1.5.0/package_CubeCell_index.json)
 
 ![](img/quick_start/03.png)
 
@@ -48,6 +49,36 @@ The source code of Heltec ASR650x series (ASR6501&ASR6502) framework available h
 - For Linux(Ubuntu/Debian): `https://github.com/HelTecAutomation/ASR650x-Arduino/blob/master/InstallGuide/debian_ubuntu.md`
 
 &nbsp;
+
+(via-local-file)=
+
+## Via Local File
+
+Download the development environment. [https://resource.heltec.cn/download/CubeCell/CubeCell.zip](https://resource.heltec.cn/download/CubeCell/CubeCell.zip)
+
+Open Arduino IDE, and click `File`->`Peferences`.
+
+![](img\quick_start\01.png)
+
+Go to the folder in the red box.
+
+![](img\quick_start\09.png)
+
+Create a new "hardware" folder in the Arduino folder. If there is already a "hardware" folder, you don't need to create a new one.
+
+![](img\quick_start\10.png)
+
+Go to the "hardware" folder and extract "CubeCell" into this folder.
+
+![](img\quick_start\11.png)
+
+Go to the "CubeCell" folder, refer to the figure below to confirm whether the path in the red box is correct.
+
+![](img\quick_start\12.png)
+
+Restart the Arduino IDE to confirm whether the development environment is installed successfully.
+
+![](img\quick_start\13.png)
 
 
 ## Running an Example
