@@ -3,9 +3,9 @@
 
 ## Prepare
 
-- Download LoRa Node 151 pingpong example: [pingpong_CDC](http://resource.heltec.cn/download/LoRa_Node_151/Pingpong_CDC.zip).
+- Download LoRa Node 151 pingpong example: [pingpong_CDC](https://resource.heltec.cn/download/LoRa_Node_151/example_code/Pingpong_CDC.zip).
 
-- Download firmware to LoRa Node 151, Please refer to [Download firmware](https://heltec-automation.readthedocs.io/zh_CN/latest/stm32/lora_node_151/download_firmware.html).
+- Download firmware to LoRa Node 151, Please refer to [Download firmware](https://docs.heltec.org/en/node/stm32/lora_node_151/download_firmware.html).
 
 ## Start test
 
