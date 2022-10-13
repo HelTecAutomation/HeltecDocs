@@ -91,7 +91,7 @@ General Docs
    :maxdepth: 2
    :caption: LoRa Nodes
 
-   CubeCell Series <https://doc-test-vx.readthedocs.io/en/node/cubecell/>
+   CubeCell Series <https://docs.heltec.org/en/node/cubecell/index.html>
    ESP32 + LoRa <https://docs.heltec.org/en/node/esp32/index.html>
    STM32 + LoRa <https://docs.heltec.org/en/node/stm32/index.html>
 
