@@ -8,7 +8,7 @@
 - **Arduino compatible & AT command**
   - *Support AT command defaultly, already have an actived Arduino bootloader, can development via Arduino.* 
 
-This document is for the "Arduino compatible & AT command" version.
+This document is for the "Arduino compatible & AT command" version. Take HTCC-AM01 as an example.
 
 CubeCell module (HTCC-AM01) only have ASR6501and RF relevant circute inside. In order to program it, need connect to a external UART-USB bridge. CH340G, CP2102 etc.
 

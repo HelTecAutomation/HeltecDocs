@@ -93,14 +93,3 @@ static void PrepareTxFrame( uint8_t port )
 #### Why convert data to byte?
 
 Everyone knows that `float` data occupies 4 bytes in memory, and `unsigned int` data occupies 2 bytes. Suppose you have a very accurate sensor, for example, the measured data is 12.34567890987654321, if send this data via string like `char data[] = "27.313232421875"`, it will spend 15 bytes. but if transmit in byte `80 81 DA 41`, only spend 4 bytes.
-
-## External resources
-
-- Get ready a LoRa gateway
-  - [How to connect HT-M01 to a LoRa server](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m01/connect_to_server.html)
-  - [How to connect HT-M02 to a LoRa server](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m02_4g/quick_start_4g.html#connect-to-lora-server)
-
-- [How to config LoRaWAN parameters](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/lorawan/config_parameter.html)
-
-- [Connect CubeCell to LoRaWAN Server](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/lorawan/connect_to_gateway.html)
-

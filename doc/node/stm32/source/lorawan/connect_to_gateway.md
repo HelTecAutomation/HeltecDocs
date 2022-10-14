@@ -3,61 +3,49 @@
 
 In this document, all operations and tests must be performed with a standard [LoRaWAN Gateway](https://heltec.org/proudct_center/lora/lora-gateway/), and at least have 8 channels!
 
-Before this operation, please read this document carefully: **[“STM32 + LoRa” Node Preparation & Config Parameters](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/lorawan/config_parameter.html#) .**
+Before this operation, please read this document carefully: **[“STM32 + LoRa” Node Preparation & Config Parameters](https://docs.heltec.org/en/node/stm32/lorawan/config_parameter.html) .**
 
 &nbsp;
 
-## Connect to TTN
+1. ## Connect to TTN/TTS
 
-Before that, make sure there is a LoRa Gateway active in your TTN's account.
+   Before that, make sure there is a LoRa Gateway active in your [TTN](https://console.thethingsnetwork.org/)/[TTS](https://lora.heltec.org/console) account.
 
-### Register a device
+   ### Register a device
 
-Register a new device in TTN's "Applications" page. The `Device ID`, `Device EUI`, `App Key` can be generated automatically. users need make sure the relevant parameter in STM32 LoRa node is the same with TTN.
+   Register a new device in TTN or TTS “Applications” page. Select the corresponding Brand, Model, Hardware Version, Firmware Version, Region.
 
-![](img/connect_to_gateway/02.png)
+   ![](img/connect_to_gateway/01.png)
 
-Config LoRaWAN parameters for STM32 LoRa node correctly, please refer to [this document](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/lorawan/config_parameter.html). If all goes well, we will be able to see Device is alive in "DEVICE OVERVIEW".
+   Select the frequency plan, and fill in the corresponding AppEUI, DevEUi, AppKey, and register the device.
 
-![](img/connect_to_gateway/03.png)
+   ![](img/connect_to_gateway/02.png)
 
-&nbsp;
+   After registration is complete, if all is well, you will see the device active.
 
-## Connect to ChirpStack
+   ![](img/connect_to_gateway/03.png)
 
-Coming soon.
+   &nbsp;
 
-&nbsp;
+   ## Connect to ChirpStack
 
-## Connect to HelTec server
+   Register a new device in ChirpStack’s “Applications” page. Enter the device name, description, DevEUI. Select Device-profile.
 
-Before that, make sure there is a LoRa Gateway active in your HelTec's account.
+   ![](img/connect_to_gateway/04.png)
 
-### Register a device
+   Enter the Application key of the device.
 
-Select "AppsCreate" in "Apps" to create a new application, fill in the corresponding information and click "CREATE APPLICATION" to complete the application creation.
+   ![](img/connect_to_gateway/05.png)
 
-![](img/connect_to_gateway/04.png)
+   After registration is complete, if all is well, you will see the device active.
 
-Select the newly created application in "AppsList", and create a new device in the application.
+   ![](img/connect_to_gateway/06.png)
 
-![](img/connect_to_gateway/05.png)
+   &nbsp;
 
-Config the "Device EUI" and "App Key" related parameters of the node device. The user needs to ensure that the parameters in the STM32 LoRa node are consistent with those configured in the server.
+   ## Important Hints
 
-![](img/connect_to_gateway/06.png)
+   Please double check the following two things:
 
-![](img/connect_to_gateway/07.png)
-
-Correctly config LoRaWAN parameters for STM32 LoRa node, please refer to [this document](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/lorawan/config_parameter.html). If all goes well, we will be able to see the status of the device.
-
-![](img/connect_to_gateway/08.png)
-
-&nbsp;
-
-## Important Hints
-
-Please double check the following two things:
-
-1. The LoRaWAN parameters is the same as server;
-2. The listening frequency of your LoRa Gateway is the same as STM32 LoRa node's sending frequency. We strictly follow [LoRaWAN™ 1.0.2 Regional Parameters rB](https://resource.heltec.cn/download/LoRaWANRegionalParametersv1.0.2_final_1944_1.pdf).
+   1. The LoRaWAN parameters is the same as server;
+   2. The listening frequency of your LoRa Gateway is the same as STM32 LoRa node's sending frequency. We strictly follow [LoRaWAN™ 1.0.2 Regio

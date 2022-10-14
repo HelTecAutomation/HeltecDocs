@@ -26,8 +26,8 @@ This page contains the most frequently questions from user. If this page's detai
 
 Please refer to the following documents:
 
-- [LoRa Node 151 download firmware](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/lora_node_151/download_firmware.html);
--  [Turtle Board download firmware](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/turtle_board/download_firmware.html).
+- [LoRa Node 151 download firmware](https://docs.heltec.org/en/node/stm32/lora_node_151/download_firmware.html);
+-  [Turtle Board download firmware](https://docs.heltec.org/en/node/stm32/turtle_board/download_firmware.html).
 
 &nbsp;
 
@@ -40,5 +40,5 @@ Please refer to the following documents:
 
 Please refer to the following documents:
 
-- [LoRa Node 151 Establish Serial Connection](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/lora_node_151/establish_serial_connection.html);
-- [Turtle Board Establish Serial Connection](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/turtle_board/establish_serial_connection.html).
+- [LoRa Node 151 Establish Serial Connection](https://docs.heltec.org/en/node/stm32/lora_node_151/establish_serial_connection.html);
+- [Turtle Board Establish Serial Connection](https://docs.heltec.org/en/node/stm32/turtle_board/establish_serial_connection.html).

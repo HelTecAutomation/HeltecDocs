@@ -3,12 +3,13 @@
 
 ## Preparation
 
-- Arduino IDE.  How to install please click [here](https://docs.heltec.cn/#/en/user_manual/how_to_install_git_and_arduino).
-- This library must work with [Heltec WiFi_Kit_series Arduino development framework](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series). Installation manual  please refer to [here](https://docs.heltec.cn/#/en/user_manual/how_to_install_esp32_Arduino).
+- Arduino IDE.  How to install please click [here](https://docs.heltec.org/general/how_to_install_git_and_arduino.html).
+- This library must work with [Heltec WiFi_Kit_series Arduino development framework](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series). Installation manual  please refer to [here](https://docs.heltec.org/en/node/esp32/quick_start.html).
 
 - A gateway already connected a LoRa server.
-  - [Connect HT-M01 to a LoRa server](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m01/connect_to_server.html);
-  - [Connect HT-M02 to a LoRa server](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m02_4g/quick_start_4g.html#connect-to-lora-server).
+  - [Connect HT-M01 to a LoRa server](https://docs.heltec.org/en/gateway/ht-m01/connect_to_server.html);
+  - [Connect HT-M02 to a LoRa server](https://docs.heltec.org/en/gateway/ht-m02_4g/connect_to_server.html).
+  - [Connect HT-M01S to a LoRa server](https://docs.heltec.org/en/gateway/ht-m01s_v2/connect_to_server.html).
 - An ESP32 + LoRa ([WiFi LoRa 32](https://heltec.org/project/wifi-lora-32/), [Wireless Stick](https://heltec.org/project/wireless-stick/), etc.) node and a high quality USB cable.
 - In this example, we use [HT-M01 Gateway](https://heltec.org/project/ht-m01/) and drive it through Windows<sup>®</sup> via USB, and use [WiFi LoRa 32 (V2)](https://heltec.org/project/wifi-lora-32/) Board to quickly connect to TTN.
 
@@ -25,6 +26,8 @@ Choose one of the following method to install this library:
 2. clone this git repository into your sketchbook/libraries folder.
 
   For more information, see [https://www.arduino.cc/en/Guide/Libraries](https://www.arduino.cc/en/Guide/Libraries).
+
+The [ESP32_LoRaWAN](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/tree/master/esp32/libraries/Heltec-Example/examples/LoRaWAN) sample code is also available in the ESP32 development environment.
 
 
 ## Configure Parameters
@@ -67,7 +70,7 @@ There are some options in the Arduino Tools menu:
   - Generate By ChipID -- Generated according to the Chip ID of the chip. Selecting this option will override the setting in the DevEui array in the code.
 
 
-``` {Note} Print too much messages may cause the system unstable.
+``` Note: Print too much messages may cause the system unstable.
 
 ```
 

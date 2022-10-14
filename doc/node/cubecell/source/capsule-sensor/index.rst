@@ -1,5 +1,5 @@
-HTCC-AC01 Capsule Sensor
-========================
+CubeCell Capsule Sensor
+=======================
 :ht_translation:`[简体中文]:[English]`
 
 CubeCell Capsule sensor relevant documents.
@@ -15,4 +15,4 @@ CubeCell Capsule sensor relevant documents.
 Relevant Offical Resources
 --------------------------
 
-- `Schematic diagram <http://resource.heltec.cn/download/CubeCell/Capsule/Capsule_MCU.pdf>`_.
+- `Schematic diagram <https://resource.heltec.cn/download/CubeCell/Capsule/Capsule_MCU_Part_Schematic_Diagram.pdf>`_.

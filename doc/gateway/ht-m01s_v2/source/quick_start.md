@@ -6,6 +6,10 @@
 
 HT-M01S (Rev. 2.0) is positioned as a low-cost standard gateway for indoor use. LoRa part based on the SX1303 + 1250 structure,  we innovatively use ESP32 as the main control chip, and completely transplant the hardware driver, data forwarding and message queue of SX1303 to the ESP32 platform. There is no need to run the Linux operating system separately. It is simpler and more convenient to use. It can be connected to the cloud server via Wi-Fi or Ethernet, can be powered by Type-C_5V, and has a 1.8-inch TFT display under the tempered glass panel to display gateway information.
 
+```{Tip} For HT-M01S (Rev. 2.0), AS923_ 1 corresponding frequency points are 923.2MHz~924.6MHz, AS923_ 2 corresponding frequency points are 921.4MHz~922.8MHz, AS923_ 3 corresponding frequency points are 916.6MHz~918.0MHz, AS923_ 4 corresponding frequency points are 917.3MHz~918.7MHz.
+
+```
+
 &nbsp;
 
 ## Configure the gateway
@@ -50,7 +54,7 @@ The HT-M01S (Rev. 2.0) gateway has already downloaded the relevant program when 
 - Configure the HT-M01S (Rev. 2.0) gateway information on the page shown in the figure above, such as network mode, server address, uplink port, downlink port, heartbeat period, regional frequency band, gateway channel, time zone, and click "Submit" after the configuration is complete. If "NET MODE" selects "WiFi", you need to configure the corresponding WiFi information, if "NET MODE" selects "Ethernet", the network information will be directly obtained through Ethernet. The user can modify the web login password by himself. At the same time, when the gateway has firmware that needs to be updated, you can download the corresponding firmware and click "Firmware Update" to update accordingly.
 - The gateway will restart after the configuration is completed and submitted. When the gateway starts, it will automatically connect to the configured WiFi or connect to the Ethernet. If the connection fails, it will restart again until the connection is successful.
 
-```{Tip) After the gateway is connected to the network through WiFi or Ethernet and works normally, you can directly enter the configuration interface through the "Local IP" on the display (the login device must be in the same LAN as the gateway).
+```{Tip} After the gateway is connected to the network through WiFi or Ethernet and works normally, you can directly enter the configuration interface through the "Local IP" on the display (the login device must be in the same LAN as the gateway).
 
 ```
 

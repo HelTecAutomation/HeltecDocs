@@ -11,53 +11,37 @@ Before this operation, please read this document carefully: **[“ESP32 + LoRa�
 
 
 
-## Connect to TTN
+## Connect to TTN/TTS
 
-Before that, make sure there is a LoRa Gateway active in your TTN's account.
+Before that, make sure there is a LoRa Gateway active in your [TTN](https://console.thethingsnetwork.org/)/[TTS](https://lora.heltec.org/console) account.
 
 ### Register a device
 
-Register a new device in TTN's "Applications" page. The `Device ID`, `Device EUI`, `App Key` can be generated automatically, users need make sure the relevant parameter in ESP32 LoRa node is the same with TTN.
+Register a new device in TTN or TTS “Applications” page. Select the corresponding Brand, Model, Hardware Version, Firmware Version, Region.
 
-![](img/connect_to_gateway/02.png)
+![](img/connect_to_gateway/16.png)
 
-Correctly config LoRaWAN parameters for ESP32 LoRa node, please refer to [this document](https://heltec-automation-docs.readthedocs.io/en/latest/esp32/lorawan/config_parameter.html). If all goes well, we will be able to see Device is alive in "DEVICE OVERVIEW".
+Select the frequency plan, and fill in the corresponding AppEUI, DevEUi, AppKey, and register the device.
 
-![](img/connect_to_gateway/04.png)
+![](img/connect_to_gateway/17.png)
 
+After registration is complete, if all is well, you will see the device active.
 
+![](img/connect_to_gateway/18.png)
 
 ## Connect to ChirpStack
 
-Coming soon.
+Register a new device in ChirpStack’s “Applications” page. Enter the device name, description, DevEUI. Select Device-profile.
 
-&nbsp;
+![](img/connect_to_gateway/20.png)
 
-## Connect to HelTec server
+Enter the Application key of the device.
 
-Before that, make sure there is a LoRa Gateway active in your HelTec's account.
+![](img/connect_to_gateway/21.png)
 
-### Register a device
+After registration is complete, if all is well, you will see the device active.
 
-Select "AppsCreate" in "Apps" to create a new application, fill in the corresponding information and click "CREATE APPLICATION" to complete the application creation.
-
-![](img/connect_to_gateway/06.png)
-
-Select the newly created application in "AppsList", and create a new device in the application.
-
-![](img/connect_to_gateway/07.png)
-
-Config the "Device EUI" and "App Key" related parameters of the node device. The user needs to ensure that the parameters in the ESP32 LoRa node are consistent with those configured in the server.
-
-![](img/connect_to_gateway/08.png)
-
-![](img/connect_to_gateway/09.png)
-
-Correctly config LoRaWAN parameters for ESP32 LoRa node, please refer to [this document](https://heltec-automation-docs.readthedocs.io/en/latest/esp32/lorawan/config_parameter.html). If all goes well, we will be able to see the status of the device.
-
-![](img/connect_to_gateway/10.png)
-
-&nbsp;
+![](img/connect_to_gateway/22.png)
 
 ## Important Hints
 

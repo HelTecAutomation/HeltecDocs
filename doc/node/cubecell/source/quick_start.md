@@ -10,7 +10,7 @@ CubeCell is based on ASR650x series, this page shown how to install and configur
 
 - [Use Arduino board manager](use-arduino-board-manager)
 - [Via Git](via-git)
-- [Via Local File](#via-local-file)
+- [Via Local File](via-local-file)
 
 ``` {Tip} Please confirm whether the USB driver, Git and Arduino IDE has been installed correctly.
 
@@ -58,27 +58,27 @@ Download the development environment. [https://resource.heltec.cn/download/CubeC
 
 Open Arduino IDE, and click `File`->`Peferences`.
 
-![](img\quick_start\01.png)
+![](img/quick_start/01.png)
 
 Go to the folder in the red box.
 
-![](img\quick_start\09.png)
+![](img/quick_start/09.png)
 
 Create a new "hardware" folder in the Arduino folder. If there is already a "hardware" folder, you don't need to create a new one.
 
-![](img\quick_start\10.png)
+![](img/quick_start/10.png)
 
 Go to the "hardware" folder and extract "CubeCell" into this folder.
 
-![](img\quick_start\11.png)
+![](img/quick_start/11.png)
 
 Go to the "CubeCell" folder, refer to the figure below to confirm whether the path in the red box is correct.
 
-![](img\quick_start\12.png)
+![](img/quick_start/12.png)
 
 Restart the Arduino IDE to confirm whether the development environment is installed successfully.
 
-![](img\quick_start\13.png)
+![](img/quick_start/13.png)
 
 
 ## Running an Example

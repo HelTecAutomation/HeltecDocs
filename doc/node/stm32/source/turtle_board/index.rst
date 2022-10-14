@@ -15,7 +15,7 @@ Turtle Board relevant documents.
 Relevant Offical Resources
 --------------------------
 
-- LoRaWAN example for Turtle Board -- Refer to `this document <https://heltec-automation-docs.readthedocs.io/en/latest/general/view_limited_technical_data.html>`_ to get limited resource;
+- LoRaWAN example for Turtle Board -- Refer to `this document <https://docs.heltec.org/general/view_limited_technical_data.html>`_ to get limited resource;
 - Factory test firmware
 
    - `470MHz <http://resource.heltec.cn/download/TurtleBoard/Turtle_RadioShuttle.FactoryTest_470.bin>`_
