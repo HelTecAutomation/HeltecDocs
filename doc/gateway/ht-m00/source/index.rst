@@ -24,8 +24,3 @@ HT-M00 is a small, low-cost dual-channel LoRa gateway with Type-C interface. The
     Coneect to LoRa server <connect_to_server>
     Update Firmware <update_firmware>
     
-.. toctree::
-   :maxdepth: 1
-   :caption: General Docs
-
-   general

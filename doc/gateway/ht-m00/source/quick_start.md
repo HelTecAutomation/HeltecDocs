@@ -7,7 +7,7 @@ HT-M00 is a small, low-cost dual-channel LoRa gateway, Use Type-C interface. The
 
 
 
-```{Tip} When using the HT-M00 gateway, using nodes other than the company's CubeCell series, you need to change the node's preamble length to 16 (default is 8). If the preamble length is 8, the minimum SF and the maximum SF need to be set equal, otherwise only the minimum SF will be received. For example, the length of the node's preamble length is 8, and the gateway sets the minimum SF to 7 and the maximum SF to 12, then only SF7 will be received.
+```{Tip} When using the HT-M00 gateway, you need to change the node's preamble length to 16 (default is 8). If the preamble length is 8, the minimum SF and the maximum SF need to be set equal, otherwise only the minimum SF will be received. For example, the length of the node's preamble length is 8, and the gateway sets the minimum SF to 7 and the maximum SF to 12, then only SF7 will be received.
 
 ```
 
@@ -78,3 +78,15 @@ The HT-M00 gateway has already downloaded the relevant program when it leaves th
 - By pressing the "STA" button, you can switch the display content. You can view information such as time, latest sending and receiving time, gateway ID, server address, channel frequency, etc. For firmware version V2.0 and above, you can see "Local IP" on the display, and you can directly enter the configuration interface through the “Local IP” on the display (the login device must be in the same LAN as the gateway).
 
 ![](img/quick_start/07.png)
+
+&nbsp;
+
+## Common Problems and Solutions
+
+- Question: The gateway cannot boot normally after downloading new firmware.
+
+  Solution: Open the serial port to check whether the gateway is activated. After using the serial port debugging assistant to open the serial port, press the gateway "RST" button. If the serial port prints "ESP32ChipID=xxxxxxxxxxxx", it means that the gateway is not activated. Please refer to this document([Activate the Gateway](https://docs.heltec.org/en/gateway/ht-m00/update_firmware.html#activate-the-gateway)) to activate it. 
+
+- Question: The gateway keeps restarting.
+
+  Solution: Check whether the corresponding configuration information of the gateway is correct according to the prompts on the gateway display. Such as WiFi username, WiFi password, server address.

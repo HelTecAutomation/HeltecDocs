@@ -80,3 +80,15 @@ The HT-M01S gateway has already downloaded the relevant program when it leaves t
 - By pressing the "-" button, you can switch the display content. Check the sending and receiving situation of the gateway.
 
 ![](img/quick_start/06.png)
+
+&nbsp;
+
+## Common Problems and Solutions
+
+- Question: The gateway cannot boot normally after downloading new firmware.
+
+  Solution: Open the serial port to check whether the gateway is activated. After using the serial port debugging assistant to open the serial port, press the gateway "RST" button. If the serial port prints "ESP32ChipID=xxxxxxxxxxxx", it means that the gateway is not activated. Please refer to this document([Activate the Gateway](https://docs.heltec.org/en/gateway/ht-m01s_v2/update_firmware.html#activate-the-gateway)) to activate it. 
+
+- Question: The gateway keeps restarting.
+
+  Solution: Check whether the corresponding configuration information of the gateway is correct according to the prompts on the gateway display. Such as WiFi username, WiFi password, server address.

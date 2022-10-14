@@ -34,11 +34,13 @@ This article aims to describe how to upgrade the HT-M01S firmware.
 
 ## Upgrade Firmware
 
+This method is applicable to upgrading the firmware without changing the gateway configuration page. That is, this version of firmware only has the corresponding bin file. If the firmware of this version is a compressed package, please refer to " [Complete Firmware Upgrade](complete-firmware-upgrade) " for firmware upgrade.
+
 Download [HT-M01S corresponding upgrade firmware](https://resource.heltec.cn/download/HT-M01S/firmware)。
 
 ![](img/update_firmware/01.png)
 
-Enter the HT-M01S gateway configuration interface by connecting to the HT-M01S WiFi(can refer to [HT-M01S Quick Start](https://heltec-automation-docs.readthedocs.io/en/latest/gateway/ht-m01s/quick_start.html))，click "Firmwaer Update"。
+Enter the HT-M01S gateway configuration interface by connecting to the HT-M01S WiFi(can refer to [HT-M01S Quick Start](https://docs.heltec.org/en/gateway/ht-m01s/index.html))，click "Firmwaer Update"。
 
 ![](img/update_firmware/02.png)
 
@@ -50,7 +52,13 @@ After the upgrade is complete, a corresponding prompt will pop up and restart th
 
 ![](img/update_firmware/04.png)
 
-## The Processing Method of Overwriting the HT-M01S Firmware
+&nbsp;
+
+(complete-firmware-upgrade)=
+
+## Complete Firmware Upgrade
+
+If the new firmware modifies the gateway's web configuration or the user accidentally overwrites the gateway firmware, it is necessary to burn the complete gateway firmware.
 
 ### Download Firmware
 
