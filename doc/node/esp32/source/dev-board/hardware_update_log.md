@@ -69,6 +69,22 @@
 
 &nbsp;
 
+### V3
+
+![](img/hardware_update_log/07.png)
+
+- 2022-09-15  public sale
+
+- MCU is changed from ESP32-D0WDQ6 to ESP32-S3FN8. Specific differences of MCU are shown in：[https://products.espressif.com/#/product-comparison](https://products.espressif.com/#/product-comparison).
+- USB interface changed from Micro USB to Type-C.
+- LoRa chip changed from SX1276 to SX1262.
+- The LoRa crystal oscillator is upgraded to temperature compensated crystal oscillator.
+- The size, appearance, pin layout and power pins remain unchanged, but the GPIO sequence has changed. Please refer to [Pinout diagram](https://resource.heltec.cn/download/WiFi_LoRa32_V3/HTIT-WB32LA(F)_V3.png).
+- [Pinout diagram of V3](https://resource.heltec.cn/download/WiFi_LoRa32_V3/HTIT-WB32LA(F)_V3.png).
+- [Schematic diagram of V3](https://resource.heltec.cn/download/WiFi_LoRa32_V3/HTIT-WB32LA(F)_V3_Schematic_Diagram.pdf).
+
+&nbsp;
+
 ## Wireless Stick  Hardware Update Logs
 
 ### V1
@@ -79,11 +95,15 @@
 
 - 2017-6-1 public sale
 
-- [Pinout diagram](http://resource.heltec.cn/download/Wireless_Stick/Wireless_Stick.pdf)
+- [Pinout diagram of V1](http://resource.heltec.cn/download/Wireless_Stick/Wireless_Stick.pdf)
 
-- Schematic diagram
+- Schematic diagram of V1
 
   The schematic diagram of Wireless Stick is restricted technical data,it will become downloadable after purchase.Please read this document:[Get Limited Technical Resources](https://heltec-automation-docs.readthedocs.io/en/latest/general/view_limited_technical_data.html) .
+
+&nbsp;
+
+
 
 &nbsp;
 
@@ -96,27 +116,25 @@
 - First release
 - 2017-6-1 public sale
 
-- [Pinout diagram](http://resource.heltec.cn/download/Wireless_Stick_Lite/Wireless_Stick_Lite.pdf)
-- Schematic diagram
+- [Pinout diagram of V1](http://resource.heltec.cn/download/Wireless_Stick_Lite/Wireless_Stick_Lite.pdf)
+- Schematic diagram of V1
 - The schematic diagram of Wireless Stick Lite is restricted technical data,it will become downloadable after purchase.Please read this document:[Get Limited Technical Resources](https://heltec-automation-docs.readthedocs.io/en/latest/general/view_limited_technical_data.html) .
 
 &nbsp;
 
-## Wireless Shell  Hardware Update Logs
+### V3
 
-**Wireless Shell is equivalent to Wireless Stick Lite without peripheral circuit,so peripheral circuit needs to be added when using,such as power supply part, serial port part,etc.**
+![](img/hardware_update_log/08.png)
 
-### V1
+- 2022-09-15  public sale
 
-- First release
-
-- 2017-6-1 public sale
-
-- [Pinout diagram of V1](http://resource.heltec.cn/download/Wireless_Shell/Wireless_Shell.pdf)
-
-- Schematic diagram of V1
-
-  The schematic diagram of Wireless Shell is restricted technical data,it will become downloadable after purchase.Please read this document:[Get Limited Technical Resources](https://heltec-automation-docs.readthedocs.io/en/latest/general/view_limited_technical_data.html) .
+- MCU is changed from ESP32-PICO-V3 to ESP32-S3FN8. Specific differences of MCU are shown in：[https://products.espressif.com/#/product-comparison](https://products.espressif.com/#/product-comparison).
+- USB interface changed from Micro USB to Type-C.
+- LoRa chip changed from SX1276 to SX1262.
+- The LoRa crystal oscillator is upgraded to temperature compensated crystal oscillator.
+- The size, appearance, pin layout and power pins remain unchanged, but the GPIO sequence has changed. Please refer to [Pinout diagram](https://resource.heltec.cn/download/Wireless_Stick_Lite_V3/HTIT-WSL_V3.png).
+- [Pinout diagram of V3](https://resource.heltec.cn/download/Wireless_Stick_Lite_V3/HTIT-WSL_V3.png).
+- [Schematic diagram of V3](https://resource.heltec.cn/download/Wireless_Stick_Lite_V3/HTIT-WSL_V3_Schematic_Diagram.pdf).
 
 &nbsp;
 
