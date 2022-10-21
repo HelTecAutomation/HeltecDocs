@@ -18,6 +18,7 @@ This is the documentation for `Heltec Automation <https://heltec.org>`_ products
    HT-M01S-V2 Indoor LoRa Gateway <https://docs.heltec.org/en/gateway/ht-m01s_v2/index.html>
    HT-M02 Edge LoRa Gateway <https://docs.heltec.org/en/gateway/ht-m02_poe/index.html>
    SX1301 Module <https://docs.heltec.org/en/gateway/sx1301module/index.html>
+   SX1303 Module <https://docs.heltec.org/en/gateway/sx1303module/index.html>
 
 .. toctree::
    :maxdepth: 2

@@ -14,6 +14,7 @@ var prod_obj = {
         {text: "HT-M02_4G", value: "ht-m02_4g"},
         {text: "HT-M02_POE", value: "ht-m02_poe"},
         {text: "SX1301module", value: "sx1301module"},
+        {text: "SX1303module", value: "sx1303module"},
     ],
     node: [
         {text: "CUBECELL", value: "cubecell"},
