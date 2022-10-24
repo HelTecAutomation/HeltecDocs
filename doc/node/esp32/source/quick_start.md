@@ -9,7 +9,7 @@ The Heltec ESP32 development environment already contains the basic code. For th
 
 
 
-**There are two methods to install the development framework, choose one of they:**
+**There are three methods to install the development framework, choose one of they:**
 
 - [Via Arduino Board Manager](via-arduino-board-manager)
 - [Via Git](via-git)

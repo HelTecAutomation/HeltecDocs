@@ -17,6 +17,8 @@ This article aims to describe how to upgrade the HT-M01S (Rev. 2.0) firmware.
 
 - V1.5
   - Initial release(Modified based on the old HT-M01S firmware).
+- v1.6
+  - Fix a bug in json data parsing that may cause memory overflow, and add serial port to print MAC address.
 
 &nbsp;
 

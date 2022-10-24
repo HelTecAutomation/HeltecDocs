@@ -6,7 +6,7 @@ CubeCell is based on ASR650x series, this page shown how to install and configur
 
 ## Install CubeCell Relevant Framework
 
-**there are two methods to install the CubeCell framework, choose one of them.**
+**there are three methods to install the CubeCell framework, choose one of them.**
 
 - [Use Arduino board manager](use-arduino-board-manager)
 - [Via Git](via-git)

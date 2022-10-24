@@ -17,11 +17,10 @@ ESP32 is a powerfull SoC with 240MHz Tensilica LX6 dual-core & 1 ULP core, 600 D
     :maxdepth: 2
     
     Quick Start <quick_start>
-    Wifi Kit 32 <wifi_kit_32/index.rst>
+    ESP32 Arduino Dev-Board <dev-board/index>
     Frequently Asked Questions <frequently_asked_questions>
     
 Relevant Offical Resources
 --------------------------
 
 - `Heltec ESP32 development framework source code <https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series>`_;
-- `Heltec ESP32 series Arduino library <https://github.com/HelTecAutomation/Heltec_ESP32>`_.

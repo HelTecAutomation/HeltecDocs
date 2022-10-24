@@ -9,7 +9,7 @@
 
 - First release
 
-- 2017-6-1 public sale
+- 2017-06-01 public sale
 
 - [Pinout diagram of V1](http://resource.heltec.cn/download/Wireless_Shell/Wireless_Shell.pdf)
 
@@ -25,4 +25,16 @@
 - The LoRa crystal oscillator is upgraded to temperature compensated crystal oscillator.
 - The size, appearance, pin layout and power pins remain unchanged, but the GPIO sequence has changed. Please refer to [Pinout diagram](https://resource.heltec.cn/download/Wireless_Shell_V3/HTIT-Wsh_V3.png).
 - [Pinout diagram of V3](https://resource.heltec.cn/download/Wireless_Shell_V3/HTIT-Wsh_V3.png).
+
+&nbsp;
+
+## HT-CT62  Hardware Update Logs
+
+**HT-CT62 only have ESP32 and RF relevant circuit inside. In order to program it, need connect to an external UART-USB bridge. CH340G, CP2102 etc.**
+
+### V1
+
+- First release
+- 2022-09-15 public sale
+- [Pinout diagram of V1](https://resource.heltec.cn/download/HT-CT62/HT-CT62.png)
 

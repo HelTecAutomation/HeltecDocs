@@ -1,22 +1,26 @@
-# Wifi Kit 32  Hardware Update Logs
+# Hardware Update Logs
+
 {ht_translation}`[简体中文]:[English]`
-## V1
+
+## Wifi Kit 32  Hardware Update Logs
+
+### V1
 
 ![](img/hardware_update_log/01.png)
 
 - First release
-- 2017-6-1 public sale
+- 2017-06-01 public sale
 
 - [Pinout diagram for V1](http://resource.heltec.cn/download/WiFi_Kit_32/WIFI%20Kit%2032_pinoutDiagram_V1.pdf)
 - [Schematic diagram for V1](http://resource.heltec.cn/download/WiFi_Kit_32/WIFI_Kit_32_Schematic_diagram_V1.PDF)
 
 &nbsp;
 
-## V2
+### V2
 
 ![](img/hardware_update_log/02.png)
 
-- 2019-5 public sale;
+- 2019-05 public sale;
 - Fixed charging status (orange LED) blinking problem;
 - 4MB (32M-bits) FLASH upgrade to 8MB (64M-bits) FLASH;
 - Better 2.4GHz antenna design and impendence matching;
@@ -34,7 +38,7 @@
 
 &nbsp;
 
-## V2.1
+### V2.1
 
 ![](img/hardware_update_log/03.png)
 
@@ -45,3 +49,27 @@
 
 
 
+### V3
+
+![](img/hardware_update_log/04.png)
+
+- 2022-09-15  public sale
+- MCU is changed from ESP32-D0WDQ6 to ESP32-S3FN8. Specific differences of MCU are shown in：[https://products.espressif.com/#/product-comparison](https://products.espressif.com/#/product-comparison).
+- USB interface changed from Micro USB to Type-C.
+- The size, appearance, pin layout and power pins remain unchanged, but the GPIO sequence has changed. Please refer to [Pinout diagram](https://resource.heltec.cn/download/WiFi_Kit_32_V3/HTIT-WB32_V3.png).
+- [Pinout diagram of V3](https://resource.heltec.cn/download/WiFi_Kit_32_V3/HTIT-WB32_V3.png).
+- [Schematic diagram of V3](https://resource.heltec.cn/download/WiFi_Kit_32_V3/HTIT-WB32_V3_Schematic_Diagram.pdf).
+
+&nbsp;
+
+## ESP32-C3 Hardware Update Logs
+
+### V1
+
+![](img/hardware_update_log/05.png)
+
+- First release
+- 2022-09-15 public sale
+
+- [Pinout diagram for V1](https://resource.heltec.cn/download/ESP32-C3_DevBoard/ESP32%20C3_DevBoard.png)
+- [Schematic diagram for V1](https://resource.heltec.cn/download/ESP32-C3_DevBoard/ESP32-C3_DevBoard_Schematic_Diagram.pdf)
