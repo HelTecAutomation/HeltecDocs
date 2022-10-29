@@ -3,6 +3,10 @@
 
 Before all operation, please confirm whether the `USB driver`, `Git` and `Arduino IDE` has been installed correctly. If not, please refer to this two articles [establish serial connection](https://docs.heltec.org/general/establish_serial_connection.html) and [Install Git and Arduino IDE](https://docs.heltec.org/general/how_to_install_git_and_arduino.html).
 
+The Heltec ESP32 development environment already contains the basic code. For the special codes related to the Heltec ESP32 development board, please refer to: [https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/tree/master/esp32/libraries/Heltec-Example](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/tree/master/esp32/libraries/Heltec-Example) .
+
+![](img/quick_start/09.png)
+
 **There are three methods to install the development framework, choose one of they:**
 
 - [Via Arduino Board Manager](via-arduino-board-manager)
@@ -37,21 +41,14 @@ Click `Tools --> Board --> Boards Manager...`, search `Heltec ESP32` in the new 
 
 The source code of Heltec ESP series (ESP32 & ESP8266) framework available here: [https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series)
 
-### Step2. Download the Heltec ESP32 Library
-
-Open Arduino IDE, then Select `Sketch`->`Include Library`->`Manage Libraries...`
-Search `Heltec ESP32` and install it.
-
-![](img/quick_start/06.png)
-
-![](img/quick_start/07.png)
-
-The source code of `Heltec ESP32` library available here: [https://github.com/HelTecAutomation/Heltec_ESP32](https://github.com/HelTecAutomation/Heltec_ESP32)
-
 &nbsp;
 
 (via-git)=
 ## Via Git
+
+After obtaining updates through "**git pull**", please execute "**get. exe**" under the path of "**Arduino\hardware\WiFi_Kit_series\esp32\tools**" to obtain the latest compilation tool.
+
+![](img/quick_start/21.png)
 
 - For Windows: `https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/InstallGuide/windows.md`
 - For MacOS: `https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/InstallGuide/mac.md`

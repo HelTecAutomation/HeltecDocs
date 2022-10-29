@@ -72,7 +72,7 @@ Double-click to run "M01S_Vx_x.bat". When running to the interface shown in the 
 
 ### Activate the Gateway
 
-After the firmware download is complete, open the serial port corresponding to the HT-M01S (Rev. 2.0) and read the corresponding ESP32 chip ID of the gateway.
+After the firmware download is complete, open the serial port corresponding to the HT-M01S (Rev. 2.0) and read the corresponding ESP32 chip ID of the gateway. Baud rate is 115200.
 
 ![](img/update_firmware/09.png)
 

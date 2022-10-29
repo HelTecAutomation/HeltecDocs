@@ -78,7 +78,7 @@ After the modification is completed, run "M00_Vx_x.bat" to complete the gateway 
 
 ### Activate the Gateway
 
-After the firmware download is complete, open the serial port corresponding to the HT-M00 and read the corresponding ESP32 chip ID of the gateway.
+After the firmware download is complete, open the serial port corresponding to the HT-M00 and read the corresponding ESP32 chip ID of the gateway. Baud rate is 115200.
 
 ![](img/update_firmware/07.png)
 
