@@ -34,8 +34,7 @@ msgid ""
 "connection](https://docs.heltec.org/general/establish_serial_connection.html)"
 " and [Install Git and Arduino "
 "IDE](https://docs.heltec.org/general/how_to_install_git_and_arduino.html)."
-msgstr "在所有操作之前，请确认“USB驱动程序”、“Git”和“
-“Arduino IDE 已正确安装。如果未正确安装，请参阅[建立串行连接](https://docs.heltec.org/general/establish_serial_connection.html)和[安装Git和Arduino IDE](https://docs.heltec.org/general/how_to_install_git_and_arduino.html)."
+msgstr "在所有操作之前，请确认“USB驱动程序”、“Git”和“Arduino IDE" 已正确安装。如果未正确安装，请参阅[建立串行连接](https://docs.heltec.org/general/establish_serial_connection.html)和[安装Git和Arduino IDE](https://docs.heltec.org/general/how_to_install_git_and_arduino.html)."
 
 #: ../../source/quick_start.md:6
 msgid ""
