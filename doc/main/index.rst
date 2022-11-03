@@ -27,6 +27,13 @@ This is the documentation for `Heltec Automation <https://heltec.org>`_ products
    CubeCell Series <https://docs.heltec.org/en/node/cubecell/index.html>
    ESP32 + LoRa <https://docs.heltec.org/en/node/esp32/index.html>
    STM32 + LoRa <https://docs.heltec.org/en/node/stm32/index.html>
+   
+.. toctree::
+   :maxdepth: 2
+   :caption: Arduino Nodes
+   
+   ESP32 + Arduino <https://docs.heltec.org/en/arduino/esp32_arduino/index.html>
+   ESP8266 + Arduino <https://docs.heltec.org/en/arduino/esp8266_arduino/index.html>
 
 
 .. toctree::
