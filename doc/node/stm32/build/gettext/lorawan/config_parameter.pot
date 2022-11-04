@@ -1,0 +1,271 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the stm32 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: stm32 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-03 15:30+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/lorawan/config_parameter.md:1
+msgid "\"STM32 + LoRa\" Preparation & Config Parameters"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:2
+msgid "{ht_translation}`[简体中文]:[English]`"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:4
+msgid "[LoRa Node 151](https://heltec.org/project/lora-node-151/) is based on [STM32L151CCU6](https://www.st.com/resource/en/datasheet/stm32l151cc.pdf), [Turtle Board](https://heltec.org/project/turtle-board/) is based on [STM32L432KC](https://www.st.com/resource/en/datasheet/stm32l432KC.pdf), Our company is gradually replacing the IDE to [STM32CubeIDE](https://www.st.com/en/development-tools/stm32cubeide.html), which is the STMicroelectronics official just launched development tools for their own MCUs. Based on Eclipse, include code tracking, code completion, compilation, download, single-step debugging, and integrated with CubdeMX."
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:6
+msgid "Summary"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:8
+msgid "No matter what LoRa management platform is used, DevEui, AppKey, etc. parameters are must needed. And ensure that it is consistent with the relevant settings on the server."
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:10
+msgid "**The following parameters are essential for OTAA mode:**"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:11
+msgid "DevEui -- Mote device IEEE EUI (big endian), 8 bytes;"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:12
+msgid "AppEui -- Application IEEE EUI (big endian), 8 bytes;"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:13
+msgid "AppKey -- AES encryption/decryption cipher application key, 16 bytes;"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:14
+msgid "**The following parameters are essential for ABP mode:**"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:15
+msgid "NwkSKey -- AES encryption/decryption cipher network session key, 16 bytes;"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:16
+msgid "AppSKey -- AES encryption/decryption cipher application session key, 16 bytes;"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:17
+msgid "DevAddr -- Device address on the network (big endian), uint32_t;"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:19
+#: ../../source/lorawan/config_parameter.md:30
+#: ../../source/lorawan/config_parameter.md:46
+msgid "&nbsp;"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:21
+msgid "Preparation"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:23
+msgid "Install [STM32CubeIDE](https://www.st.com/zh/development-tools/stm32cubeide.html#get-software) and [STM32CubeProgrammer](https://www.st.com/zh/development-tools/stm32cubeprog.html) correctly."
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:24
+msgid "A standard LoRaWAN gateway with at least 8 channels (based on SX1301/8 base band chip will be OK), and make sure your gateway had already connected to a LoRa server."
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:25
+msgid "[How to connect HT-M01 to a LoRa server](https://docs.heltec.org/en/gateway/ht-m01/connect_to_server.html)"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:26
+msgid "[How to connect HT-M02 to a LoRa server](https://docs.heltec.org/en/gateway/ht-m02_4g/connect_to_server.html)"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:27
+msgid "[How to connect HT-M01S to a LoRa server](https://docs.heltec.org/en/gateway/ht-m01s_v2/connect_to_server.html)"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:28
+msgid "A STM32 LoRa node( [LoRa Node 151](https://heltec.org/project/lora-node-151/) , [Turtle Board](https://heltec.org/project/turtle-board/)), a high quality USB cable and an ST-LINK."
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:32
+msgid "Config steps"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:34
+msgid "The LoRaWAN example code of LoRa Node is a STM32CubeIDE project, here is the basic config steps."
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:36
+msgid "Download and install `STM32CubeIDE` and `STM32CubeProgramme` correctly."
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:38
+msgid "Double click `.project` document, open project."
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:40
+msgid "The first time you run, may have the following dialog box will, click Yes and then OK."
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:42
+msgid "![](img/config_parameter/01.png)"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:44
+msgid "![](img/config_parameter/02.png)"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:48
+msgid "Modify macro definition: Set working bands、working mode and debugger."
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:51
+msgid "![](img/config_parameter/03.png)"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:53
+msgid "`ACTIVE_CLASS`"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:55
+msgid "`CLASS_A`"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:57
+msgid "`CLASS_B`--NOT SUPPORT"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:59
+msgid "`CLASS_C`"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:61
+msgid "`ACTIVE_REGION`"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:63
+msgid "`LORAMAC_REGION_AS923`"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:65
+msgid "`LORAMAC_REGION_AU915`"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:67
+msgid "`LORAMAC_REGION_CN470`"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:69
+msgid "`LORAMAC_REGION_CN779`"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:71
+msgid "`LORAMAC_REGION_EU433`"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:73
+msgid "`LORAMAC_REGION_EU868`"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:75
+msgid "`LORAMAC_REGION_KR920`"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:77
+msgid "`LORAMAC_REGION_IN865`"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:79
+msgid "`LORAMAC_REGION_US915`"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:81
+msgid "`LORAMAC_REGION_US915_HYBRID`"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:83
+msgid "`LORAMAC_REGION_AU915_SB2`"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:85
+msgid "`LORAMAC_REGION_AS923_AS1`"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:87
+msgid "`LORAMAC_REGION_AS923_AS2`"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:89
+msgid "`REGION_EU868` Set to the frequency band corresponding to `ACTIVE_REGION`"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:92
+msgid "`USE_DEBUGGER`"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:94
+msgid "If define `USE_DEBUGGER` , default serial port(PA9-TX, PA10-RX) can print debugging information."
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:96
+msgid "If delete `USE_DEBUGGER` , debugging information will not be printed."
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:98
+msgid "Modify `DEVICE_EUI`, `APPLICATION_KEY`, `APPLICATION_EUI` in the `main.c` file according to your needs."
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:100
+msgid "![](img/config_parameter/04.png)"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:102
+msgid "Modify `userChannelMask` ,  access mode `overTheAirActivation` and other parameter."
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:104
+msgid "![](img/config_parameter/05.png)"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:106
+msgid "`overTheAirActivation`"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:108
+msgid "`true`--OTAA"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:110
+msgid "`false`--ABP"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:112
+msgid "Write the data you want to send in `prepareTxFrame`."
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:114
+msgid "![](img/config_parameter/06.png)"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:118
+msgid "Now, if download the program into your board, if everything is normal, it should be able to run."
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:120
+msgid "You may need: How to Download Firmware into STM32 LoRa Node([LoRa Node 151](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/lora_node_151/download_firmware.html), [Turtle Board](https://heltec-automation-docs.readthedocs.io/en/latest/stm32/turtle_board/download_firmware.html))."
+msgstr ""

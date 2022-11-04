@@ -1,0 +1,221 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the esp8266_arduino package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: esp8266_arduino \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-03 15:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/quick_start.md:1
+msgid "Heltec ESP8266+Arduino Series Quick Start"
+msgstr ""
+
+#: ../../source/quick_start.md:2
+msgid "{ht_translation}`[简体中文]:[English]`"
+msgstr ""
+
+#: ../../source/quick_start.md:4
+msgid "We suggest you confirm whether the `USB driver`, `Git` and `Arduino IDE` has installed first. If not, please view this two articles [establish serial connection](https://docs.heltec.org/general/establish_serial_connection.html) and [Install Git and Arduino IDE](https://docs.heltec.org/general/how_to_install_git_and_arduino.html)."
+msgstr ""
+
+#: ../../source/quick_start.md:6
+msgid "**There are two methods to install the development framework, choose on of they:**"
+msgstr ""
+
+#: ../../source/quick_start.md:8
+msgid "[Via Arduino Board Manager](via-arduino-board-manager)"
+msgstr ""
+
+#: ../../source/quick_start.md:9
+msgid "[Via Git](via-git)"
+msgstr ""
+
+#: ../../source/quick_start.md:10
+msgid "[Via Local File](via-local-file)"
+msgstr ""
+
+#: ../../source/quick_start.md:12
+#: ../../source/quick_start.md:48
+#: ../../source/quick_start.md:90
+msgid "&nbsp;"
+msgstr ""
+
+#: ../../source/quick_start.md:15
+msgid "Via Arduino Board Manager"
+msgstr ""
+
+#: ../../source/quick_start.md:17
+msgid "Step1. Download Arduino-ESP8266 Support"
+msgstr ""
+
+#: ../../source/quick_start.md:19
+#: ../../source/quick_start.md:66
+msgid "Open Arduino IDE, and click `File`->`Peferences`."
+msgstr ""
+
+#: ../../source/quick_start.md:21
+#: ../../source/quick_start.md:68
+msgid "![](img/quick_start/01.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:23
+msgid "![](img/quick_start/02.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:25
+msgid "**Input the last ESP8266 package URL:** [https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/releases/download/0.0.4/package_heltec_esp8266_index.json](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/releases/download/0.0.4/package_heltec_esp8266_index.json)"
+msgstr ""
+
+#: ../../source/quick_start.md:27
+msgid "![](img/quick_start/03.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:29
+msgid "Click `Tools`->`Board:`->`Boards Manager...`, search `Heltec ` in the new pop-up dialog, then click `install`."
+msgstr ""
+
+#: ../../source/quick_start.md:31
+msgid "![](img/quick_start/04.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:33
+msgid "![](img/quick_start/05.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:35
+msgid "The source code of Heltec ESP series (ESP32 & ESP8266) framework available here: [https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series)"
+msgstr ""
+
+#: ../../source/quick_start.md:37
+msgid "Step2. Download the Heltec ESP8266 Library"
+msgstr ""
+
+#: ../../source/quick_start.md:39
+msgid "Open Arduino IDE, then Select `Sketch`->`Include Library`->`Manage Libraries...` Search `Heltec ESP8266` and install it."
+msgstr ""
+
+#: ../../source/quick_start.md:42
+msgid "![](img/quick_start/06.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:44
+msgid "![](img/quick_start/07.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:46
+msgid "The source code of `Heltec ESP8266` library available here:[https://github.com/HelTecAutomation/Heltec_ESP8266](https://github.com/HelTecAutomation/Heltec_ESP8266)"
+msgstr ""
+
+#: ../../source/quick_start.md:51
+msgid "Via Git"
+msgstr ""
+
+#: ../../source/quick_start.md:53
+msgid "For Windows: `https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/InstallGuide/windows.md`"
+msgstr ""
+
+#: ../../source/quick_start.md:54
+msgid "For MacOS: `https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/InstallGuide/mac.md`"
+msgstr ""
+
+#: ../../source/quick_start.md:55
+msgid "For Linux"
+msgstr ""
+
+#: ../../source/quick_start.md:56
+msgid "Debian/Ubuntu: `https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/InstallGuide/debian_ubuntu.md`"
+msgstr ""
+
+#: ../../source/quick_start.md:57
+msgid "Fedora: `https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/InstallGuide/fedora.md`"
+msgstr ""
+
+#: ../../source/quick_start.md:58
+msgid "OpenSUSE: `https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/InstallGuide/opensuse.md`"
+msgstr ""
+
+#: ../../source/quick_start.md:62
+msgid "Via Local File"
+msgstr ""
+
+#: ../../source/quick_start.md:64
+msgid "Download the development environment. [https://resource.heltec.cn/download/tools/WiFi_Kit_series.zip](https://resource.heltec.cn/download/tools/WiFi_Kit_series.zip)"
+msgstr ""
+
+#: ../../source/quick_start.md:70
+msgid "Go to the folder in the red box."
+msgstr ""
+
+#: ../../source/quick_start.md:72
+msgid "![](img/quick_start/16.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:74
+msgid "Create a new \"hardware\" folder in the Arduino folder. If there is already a \"hardware\" folder, you don't need to create a new one."
+msgstr ""
+
+#: ../../source/quick_start.md:76
+msgid "![](img/quick_start/17.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:78
+msgid "Go to the \"hardware\" folder and extract \"WiFi_Kit_series\" into this folder."
+msgstr ""
+
+#: ../../source/quick_start.md:80
+msgid "![](img/quick_start/18.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:82
+msgid "Go to the \"WiFi_Kit_series\" folder, refer to the figure below to confirm whether the path in the red box is correct."
+msgstr ""
+
+#: ../../source/quick_start.md:84
+msgid "![](img/quick_start/19.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:86
+msgid "Restart the Arduino IDE to confirm whether the development environment is installed successfully."
+msgstr ""
+
+#: ../../source/quick_start.md:88
+msgid "![](img/quick_start/20.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:92
+msgid "Example"
+msgstr ""
+
+#: ../../source/quick_start.md:94
+msgid "This section is used to verify that Arduino programming can be used and that the environment is configured successfully."
+msgstr ""
+
+#: ../../source/quick_start.md:96
+msgid "Select `Wifi Kit 8` development board."
+msgstr ""
+
+#: ../../source/quick_start.md:98
+msgid "![](img/quick_start/08.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:100
+msgid "Select the corresponding example and upload."
+msgstr ""
+
+#: ../../source/quick_start.md:102
+msgid "![](img/quick_start/09.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:104
+msgid "If the screen or serial port has output, it means that the board runs successfully!"
+msgstr ""

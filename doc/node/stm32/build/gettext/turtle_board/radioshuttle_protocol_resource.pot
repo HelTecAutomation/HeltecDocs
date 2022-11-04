@@ -1,0 +1,141 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the stm32 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: stm32 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-03 15:30+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/turtle_board/radioshuttle_protocol_resource.md:1
+msgid "RadioShuttle Protocol Resource"
+msgstr ""
+
+#: ../../source/turtle_board/radioshuttle_protocol_resource.md:2
+msgid "{ht_translation}`[简体中文]:[English]`"
+msgstr ""
+
+#: ../../source/turtle_board/radioshuttle_protocol_resource.md:4
+msgid "The RadioShuttle Wireless Protocol"
+msgstr ""
+
+#: ../../source/turtle_board/radioshuttle_protocol_resource.md:6
+msgid "**Peer-to-peer LoRa wireless protocol software**"
+msgstr ""
+
+#: ../../source/turtle_board/radioshuttle_protocol_resource.md:8
+msgid "The standard **LoRaWAN** protocol is inefficient, does not support direct node to node communication, and is too expensive and complex for many applications. Radioshuttle can send information efficiently and safely between simple LoRa modules."
+msgstr ""
+
+#: ../../source/turtle_board/radioshuttle_protocol_resource.md:10
+msgid "**Secure message transmission.**"
+msgstr ""
+
+#: ../../source/turtle_board/radioshuttle_protocol_resource.md:12
+msgid "232 bytes user data maximum, the receipt will be acknowledged, lost data is automatically repeated"
+msgstr ""
+
+#: ../../source/turtle_board/radioshuttle_protocol_resource.md:14
+msgid "**Air traffic control**"
+msgstr ""
+
+#: ../../source/turtle_board/radioshuttle_protocol_resource.md:16
+msgid "The nodes only send if no LoRa signal is active on that channel. The stations create an automatic network plan, defining which nodes and stations are allowed to communicate, and when. (Planned)"
+msgstr ""
+
+#: ../../source/turtle_board/radioshuttle_protocol_resource.md:18
+msgid "**Optimized protocol**"
+msgstr ""
+
+#: ../../source/turtle_board/radioshuttle_protocol_resource.md:20
+msgid "Message delivery within 110 ms (SF7, 125 kHz, free channel provided)"
+msgstr ""
+
+#: ../../source/turtle_board/radioshuttle_protocol_resource.md:21
+msgid "Messages only require 2 x 12 bytes (protocol overhead)"
+msgstr ""
+
+#: ../../source/turtle_board/radioshuttle_protocol_resource.md:22
+msgid "Narrow bandwidths allow for a longer range"
+msgstr ""
+
+#: ../../source/turtle_board/radioshuttle_protocol_resource.md:23
+msgid "Automatic transmitting power adjustment saves energy and reduces traffic on the neighboring stations"
+msgstr ""
+
+#: ../../source/turtle_board/radioshuttle_protocol_resource.md:25
+msgid "**Support multiple MCU boards**"
+msgstr ""
+
+#: ../../source/turtle_board/radioshuttle_protocol_resource.md:27
+msgid "The [Turtle](https://www.radioshuttle.de/en/turtle-en/turtle-board-en/) board"
+msgstr ""
+
+#: ../../source/turtle_board/radioshuttle_protocol_resource.md:28
+msgid "The [ECO Power](https://www.radioshuttle.de/en/esp32-eco-power-en/esp32-eco-power-board-en/) board"
+msgstr ""
+
+#: ../../source/turtle_board/radioshuttle_protocol_resource.md:29
+msgid "The [LongRa](https://www.radioshuttle.de/en/longra-en/board-en/) board"
+msgstr ""
+
+#: ../../source/turtle_board/radioshuttle_protocol_resource.md:31
+msgid "**Supported multiple systems**"
+msgstr ""
+
+#: ../../source/turtle_board/radioshuttle_protocol_resource.md:33
+msgid "Arduino, Arduino Zero or newer"
+msgstr ""
+
+#: ../../source/turtle_board/radioshuttle_protocol_resource.md:34
+msgid "ARM Mbed OS, supported MCUs (e.g. STM32L0, STM32L4)"
+msgstr ""
+
+#: ../../source/turtle_board/radioshuttle_protocol_resource.md:35
+msgid "Linux (Raspberry PI/Orange PI planned)"
+msgstr ""
+
+#: ../../source/turtle_board/radioshuttle_protocol_resource.md:37
+msgid "Know more about RadioShuttle Protocol please click:[The RadioShuttle Wireless Protocol](https://www.radioshuttle.de/en/radioshuttle-en/protocol/)."
+msgstr ""
+
+#: ../../source/turtle_board/radioshuttle_protocol_resource.md:39
+msgid "&nbsp;"
+msgstr ""
+
+#: ../../source/turtle_board/radioshuttle_protocol_resource.md:41
+msgid "RadioShuttle STM32 Utility"
+msgstr ""
+
+#: ../../source/turtle_board/radioshuttle_protocol_resource.md:43
+msgid "“RadioShuttle STM32 Utility” is a special utility which easily allows uploading and downloading software to/from RadioShuttle STM32-compatible boards, via USB using the DFU protocol. The utility can be used either from a command line from Mac, Windows, and Linux, or in a GUI from Mac and Windows computers. Software can be uploaded to/downloaded from STM32 MCUs. It has been designed to be used with RadioShuttle compatible boards which obtained a valid license (code) during the manufacturing process."
+msgstr ""
+
+#: ../../source/turtle_board/radioshuttle_protocol_resource.md:45
+msgid "**System requirements**"
+msgstr ""
+
+#: ../../source/turtle_board/radioshuttle_protocol_resource.md:47
+msgid "**Windows:** Windows 7 or higher"
+msgstr ""
+
+#: ../../source/turtle_board/radioshuttle_protocol_resource.md:48
+msgid "**Mac:** macOS 10.9 or higher"
+msgstr ""
+
+#: ../../source/turtle_board/radioshuttle_protocol_resource.md:49
+msgid "**Linux:** Linux kernel 2.6.16 or higher,glibc 2.4 or higher"
+msgstr ""
+
+#: ../../source/turtle_board/radioshuttle_protocol_resource.md:51
+msgid "Know more about RadioShuttle STM32 Utility please click: [RadioShuttle STM32 Utility](https://www.radioshuttle.de/en/turtle-en/radioshuttle-stm32-utility-en/)"
+msgstr ""

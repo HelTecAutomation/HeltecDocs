@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the esp32 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: esp32 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-03 15:27+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/module/hardware_update_log.md:1
+msgid "Hardware Update Logs"
+msgstr ""
+
+#: ../../source/module/hardware_update_log.md:2
+msgid "{ht_translation}`[简体中文]:[English]`"
+msgstr ""
+
+#: ../../source/module/hardware_update_log.md:4
+msgid "Wireless Shell  Hardware Update Logs"
+msgstr ""
+
+#: ../../source/module/hardware_update_log.md:6
+msgid "**Wireless Shell is equivalent to Wireless Stick Lite without peripheral circuit,so peripheral circuit needs to be added when using,such as power supply part, serial port part,etc.**"
+msgstr ""
+
+#: ../../source/module/hardware_update_log.md:8
+#: ../../source/module/hardware_update_log.md:35
+msgid "V1"
+msgstr ""
+
+#: ../../source/module/hardware_update_log.md:10
+#: ../../source/module/hardware_update_log.md:37
+msgid "First release"
+msgstr ""
+
+#: ../../source/module/hardware_update_log.md:12
+msgid "2017-06-01 public sale"
+msgstr ""
+
+#: ../../source/module/hardware_update_log.md:14
+msgid "[Pinout diagram of V1](http://resource.heltec.cn/download/Wireless_Shell/Wireless_Shell.pdf)"
+msgstr ""
+
+#: ../../source/module/hardware_update_log.md:16
+msgid "Schematic diagram of V1"
+msgstr ""
+
+#: ../../source/module/hardware_update_log.md:18
+msgid "The schematic diagram of Wireless Shell is restricted technical data,it will become downloadable after purchase.Please read this document:[Get Limited Technical Resources](https://docs.heltec.org/general/view_limited_technical_data.html) ."
+msgstr ""
+
+#: ../../source/module/hardware_update_log.md:20
+msgid "V3"
+msgstr ""
+
+#: ../../source/module/hardware_update_log.md:22
+msgid "2022-09-15  public sale"
+msgstr ""
+
+#: ../../source/module/hardware_update_log.md:23
+msgid "MCU is changed from ESP32-PICO-V3 to ESP32-S3FN8. Specific differences of MCU are shown in：[https://products.espressif.com/#/product-comparison](https://products.espressif.com/#/product-comparison)."
+msgstr ""
+
+#: ../../source/module/hardware_update_log.md:24
+msgid "LoRa chip changed from SX1276 to SX1262."
+msgstr ""
+
+#: ../../source/module/hardware_update_log.md:25
+msgid "The LoRa crystal oscillator is upgraded to temperature compensated crystal oscillator."
+msgstr ""
+
+#: ../../source/module/hardware_update_log.md:26
+msgid "The size, appearance, pin layout and power pins remain unchanged, but the GPIO sequence has changed. Please refer to [Pinout diagram](https://resource.heltec.cn/download/Wireless_Shell_V3/HTIT-Wsh_V3.png)."
+msgstr ""
+
+#: ../../source/module/hardware_update_log.md:27
+msgid "[Pinout diagram of V3](https://resource.heltec.cn/download/Wireless_Shell_V3/HTIT-Wsh_V3.png)."
+msgstr ""
+
+#: ../../source/module/hardware_update_log.md:29
+msgid "&nbsp;"
+msgstr ""
+
+#: ../../source/module/hardware_update_log.md:31
+msgid "HT-CT62  Hardware Update Logs"
+msgstr ""
+
+#: ../../source/module/hardware_update_log.md:33
+msgid "**HT-CT62 only have ESP32 and RF relevant circuit inside. In order to program it, need connect to an external UART-USB bridge. CH340G, CP2102 etc.**"
+msgstr ""
+
+#: ../../source/module/hardware_update_log.md:38
+msgid "2022-09-15 public sale"
+msgstr ""
+
+#: ../../source/module/hardware_update_log.md:39
+msgid "[Pinout diagram of V1](https://resource.heltec.cn/download/HT-CT62/HT-CT62.png)"
+msgstr ""

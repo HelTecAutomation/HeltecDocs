@@ -20,7 +20,7 @@ Before all operation, make sure you have a Raspberry Pi that works and can conne
 
 ```
 
-**[Raspberry Pi Configuration]()**
+**[Raspberry Pi Configuration](https://docs.heltec.org/general/how_to_config_raspberry_pi.html)**
 
 (spi-mode)=
 ### SPI mode

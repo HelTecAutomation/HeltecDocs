@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the ht-m00 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ht-m00 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-03 15:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/index.rst:19
+msgid "Quick Start"
+msgstr ""
+
+#: ../../source/index.rst:19
+msgid "Connect to Gateway"
+msgstr ""
+
+#: ../../source/index.rst:19
+msgid "Coneect to LoRa server"
+msgstr ""
+
+#: ../../source/index.rst:19
+msgid "Update Firmware"
+msgstr ""
+
+#: ../../source/index.rst:19
+msgid "-->[General Docs]<--"
+msgstr ""
+
+#: ../../source/index.rst:2
+msgid "HT-M00 Dual Channel LoRa Gateway"
+msgstr ""
+
+#: ../../source/index.rst:3
+msgid ":ht_translation:`[简体中文]:[English]`"
+msgstr ""
+
+#: ../../source/index.rst:5
+msgid ""
+"HT-M00 is a small, low-cost dual-channel LoRa gateway with Type-C "
+"interface. The main function of HT-M00 is to provide a LoRaWAN network "
+"for large houses of 1500 to 2000 square meters, or to make up for signal "
+"blind spots in areas that cannot be covered by SX1301 gateway signals."
+msgstr ""
+
+#: ../../source/index.rst:7
+msgid "Drive SX1276 chip by ESP32;"
+msgstr ""
+
+#: ../../source/index.rst:8
+msgid ""
+"Software mixer (baseband simulation program) to monitor the 125KHz "
+"SF7~SF12 spreading factor;"
+msgstr ""
+
+#: ../../source/index.rst:9
+msgid "Support LoRaWAN protocol 1.0.2 Class A, Class C;"
+msgstr ""
+
+#: ../../source/index.rst:10
+msgid "Built-in antenna;"
+msgstr ""
+
+#: ../../source/index.rst:11
+msgid "Onboard display."
+msgstr ""
+
+#: ../../source/index.rst:17
+msgid ""
+"HT-M00 has no waterproof design, so please avoid contact with water when "
+"using it."
+msgstr ""
+

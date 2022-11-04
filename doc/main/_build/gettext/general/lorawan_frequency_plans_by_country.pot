@@ -1,0 +1,1306 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the main package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: main \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-03 15:22+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:3
+msgid "LoRaWAN Frequency Plans and Regulations by Country/Region"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:5
+msgid "`简体中文 <https://heltec-automation.readthedocs.io/zh_CN/latest/general/lorawan_frequency_plans_by_country.html>`_"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:8
+msgid "Summary"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:10
+msgid "This document is only a summary of radio regulations, and the appropriate frequency plan that should be used in the corresponding countries. This is in no way an official document; gateway owners are still obliged to find, study and adhere to their own country’s regulations. Some countries also expect you to register your gateway, or obtain a license. In that case you are using a “free band”, not a “license free band”. In some countries it is also necessary that the gateway is certified (CE, FCC, …) if you allow other people to also communicate via it."
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:13
+#: ../../general/lorawan_frequency_plans_by_country.rst:17
+#: ../../general/lorawan_frequency_plans_by_country.rst:45
+#: ../../general/lorawan_frequency_plans_by_country.rst:86
+#: ../../general/lorawan_frequency_plans_by_country.rst:130
+#: ../../general/lorawan_frequency_plans_by_country.rst:144
+#: ../../general/lorawan_frequency_plans_by_country.rst:166
+#: ../../general/lorawan_frequency_plans_by_country.rst:178
+#: ../../general/lorawan_frequency_plans_by_country.rst:206
+#: ../../general/lorawan_frequency_plans_by_country.rst:220
+#: ../../general/lorawan_frequency_plans_by_country.rst:242
+#: ../../general/lorawan_frequency_plans_by_country.rst:254
+#: ../../general/lorawan_frequency_plans_by_country.rst:272
+#: ../../general/lorawan_frequency_plans_by_country.rst:296
+#: ../../general/lorawan_frequency_plans_by_country.rst:338
+#: ../../general/lorawan_frequency_plans_by_country.rst:366
+#: ../../general/lorawan_frequency_plans_by_country.rst:374
+#: ../../general/lorawan_frequency_plans_by_country.rst:402
+#: ../../general/lorawan_frequency_plans_by_country.rst:410
+#: ../../general/lorawan_frequency_plans_by_country.rst:422
+#: ../../general/lorawan_frequency_plans_by_country.rst:480
+#: ../../general/lorawan_frequency_plans_by_country.rst:510
+#: ../../general/lorawan_frequency_plans_by_country.rst:530
+#: ../../general/lorawan_frequency_plans_by_country.rst:544
+#: ../../general/lorawan_frequency_plans_by_country.rst:552
+msgid "Country/Region"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:15
+msgid "A"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:17
+#: ../../general/lorawan_frequency_plans_by_country.rst:45
+#: ../../general/lorawan_frequency_plans_by_country.rst:86
+#: ../../general/lorawan_frequency_plans_by_country.rst:130
+#: ../../general/lorawan_frequency_plans_by_country.rst:144
+#: ../../general/lorawan_frequency_plans_by_country.rst:166
+#: ../../general/lorawan_frequency_plans_by_country.rst:178
+#: ../../general/lorawan_frequency_plans_by_country.rst:206
+#: ../../general/lorawan_frequency_plans_by_country.rst:220
+#: ../../general/lorawan_frequency_plans_by_country.rst:242
+#: ../../general/lorawan_frequency_plans_by_country.rst:254
+#: ../../general/lorawan_frequency_plans_by_country.rst:272
+#: ../../general/lorawan_frequency_plans_by_country.rst:296
+#: ../../general/lorawan_frequency_plans_by_country.rst:338
+#: ../../general/lorawan_frequency_plans_by_country.rst:366
+#: ../../general/lorawan_frequency_plans_by_country.rst:374
+#: ../../general/lorawan_frequency_plans_by_country.rst:402
+#: ../../general/lorawan_frequency_plans_by_country.rst:410
+#: ../../general/lorawan_frequency_plans_by_country.rst:422
+#: ../../general/lorawan_frequency_plans_by_country.rst:480
+#: ../../general/lorawan_frequency_plans_by_country.rst:510
+#: ../../general/lorawan_frequency_plans_by_country.rst:530
+#: ../../general/lorawan_frequency_plans_by_country.rst:544
+#: ../../general/lorawan_frequency_plans_by_country.rst:552
+msgid "Frequency Plan"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:17
+#: ../../general/lorawan_frequency_plans_by_country.rst:45
+#: ../../general/lorawan_frequency_plans_by_country.rst:86
+#: ../../general/lorawan_frequency_plans_by_country.rst:130
+#: ../../general/lorawan_frequency_plans_by_country.rst:144
+#: ../../general/lorawan_frequency_plans_by_country.rst:166
+#: ../../general/lorawan_frequency_plans_by_country.rst:178
+#: ../../general/lorawan_frequency_plans_by_country.rst:206
+#: ../../general/lorawan_frequency_plans_by_country.rst:220
+#: ../../general/lorawan_frequency_plans_by_country.rst:242
+#: ../../general/lorawan_frequency_plans_by_country.rst:254
+#: ../../general/lorawan_frequency_plans_by_country.rst:272
+#: ../../general/lorawan_frequency_plans_by_country.rst:296
+#: ../../general/lorawan_frequency_plans_by_country.rst:338
+#: ../../general/lorawan_frequency_plans_by_country.rst:366
+#: ../../general/lorawan_frequency_plans_by_country.rst:374
+#: ../../general/lorawan_frequency_plans_by_country.rst:402
+#: ../../general/lorawan_frequency_plans_by_country.rst:410
+#: ../../general/lorawan_frequency_plans_by_country.rst:422
+#: ../../general/lorawan_frequency_plans_by_country.rst:480
+#: ../../general/lorawan_frequency_plans_by_country.rst:510
+#: ../../general/lorawan_frequency_plans_by_country.rst:530
+#: ../../general/lorawan_frequency_plans_by_country.rst:544
+#: ../../general/lorawan_frequency_plans_by_country.rst:552
+msgid "Regulatory document"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:19
+msgid "Afghanistan"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:21
+msgid "Albania"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:21
+#: ../../general/lorawan_frequency_plans_by_country.rst:25
+#: ../../general/lorawan_frequency_plans_by_country.rst:27
+#: ../../general/lorawan_frequency_plans_by_country.rst:37
+#: ../../general/lorawan_frequency_plans_by_country.rst:49
+#: ../../general/lorawan_frequency_plans_by_country.rst:57
+#: ../../general/lorawan_frequency_plans_by_country.rst:67
+#: ../../general/lorawan_frequency_plans_by_country.rst:69
+#: ../../general/lorawan_frequency_plans_by_country.rst:76
+#: ../../general/lorawan_frequency_plans_by_country.rst:108
+#: ../../general/lorawan_frequency_plans_by_country.rst:116
+#: ../../general/lorawan_frequency_plans_by_country.rst:122
+#: ../../general/lorawan_frequency_plans_by_country.rst:124
+#: ../../general/lorawan_frequency_plans_by_country.rst:132
+#: ../../general/lorawan_frequency_plans_by_country.rst:156
+#: ../../general/lorawan_frequency_plans_by_country.rst:158
+#: ../../general/lorawan_frequency_plans_by_country.rst:170
+#: ../../general/lorawan_frequency_plans_by_country.rst:172
+#: ../../general/lorawan_frequency_plans_by_country.rst:186
+#: ../../general/lorawan_frequency_plans_by_country.rst:190
+#: ../../general/lorawan_frequency_plans_by_country.rst:214
+#: ../../general/lorawan_frequency_plans_by_country.rst:222
+#: ../../general/lorawan_frequency_plans_by_country.rst:232
+#: ../../general/lorawan_frequency_plans_by_country.rst:236
+#: ../../general/lorawan_frequency_plans_by_country.rst:276
+#: ../../general/lorawan_frequency_plans_by_country.rst:280
+#: ../../general/lorawan_frequency_plans_by_country.rst:286
+#: ../../general/lorawan_frequency_plans_by_country.rst:288
+#: ../../general/lorawan_frequency_plans_by_country.rst:290
+#: ../../general/lorawan_frequency_plans_by_country.rst:298
+#: ../../general/lorawan_frequency_plans_by_country.rst:300
+#: ../../general/lorawan_frequency_plans_by_country.rst:308
+#: ../../general/lorawan_frequency_plans_by_country.rst:314
+#: ../../general/lorawan_frequency_plans_by_country.rst:320
+#: ../../general/lorawan_frequency_plans_by_country.rst:326
+#: ../../general/lorawan_frequency_plans_by_country.rst:330
+#: ../../general/lorawan_frequency_plans_by_country.rst:340
+#: ../../general/lorawan_frequency_plans_by_country.rst:346
+#: ../../general/lorawan_frequency_plans_by_country.rst:356
+#: ../../general/lorawan_frequency_plans_by_country.rst:390
+#: ../../general/lorawan_frequency_plans_by_country.rst:392
+#: ../../general/lorawan_frequency_plans_by_country.rst:394
+#: ../../general/lorawan_frequency_plans_by_country.rst:412
+#: ../../general/lorawan_frequency_plans_by_country.rst:414
+#: ../../general/lorawan_frequency_plans_by_country.rst:436
+#: ../../general/lorawan_frequency_plans_by_country.rst:440
+#: ../../general/lorawan_frequency_plans_by_country.rst:442
+#: ../../general/lorawan_frequency_plans_by_country.rst:448
+#: ../../general/lorawan_frequency_plans_by_country.rst:450
+#: ../../general/lorawan_frequency_plans_by_country.rst:456
+#: ../../general/lorawan_frequency_plans_by_country.rst:462
+#: ../../general/lorawan_frequency_plans_by_country.rst:470
+#: ../../general/lorawan_frequency_plans_by_country.rst:472
+#: ../../general/lorawan_frequency_plans_by_country.rst:486
+#: ../../general/lorawan_frequency_plans_by_country.rst:500
+#: ../../general/lorawan_frequency_plans_by_country.rst:516
+#: ../../general/lorawan_frequency_plans_by_country.rst:518
+#: ../../general/lorawan_frequency_plans_by_country.rst:534
+#: ../../general/lorawan_frequency_plans_by_country.rst:554
+#: ../../general/lorawan_frequency_plans_by_country.rst:556
+msgid "EU863-870 EU433"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:21
+#: ../../general/lorawan_frequency_plans_by_country.rst:25
+#: ../../general/lorawan_frequency_plans_by_country.rst:37
+#: ../../general/lorawan_frequency_plans_by_country.rst:55
+#: ../../general/lorawan_frequency_plans_by_country.rst:57
+#: ../../general/lorawan_frequency_plans_by_country.rst:67
+#: ../../general/lorawan_frequency_plans_by_country.rst:76
+#: ../../general/lorawan_frequency_plans_by_country.rst:116
+#: ../../general/lorawan_frequency_plans_by_country.rst:122
+#: ../../general/lorawan_frequency_plans_by_country.rst:124
+#: ../../general/lorawan_frequency_plans_by_country.rst:132
+#: ../../general/lorawan_frequency_plans_by_country.rst:156
+#: ../../general/lorawan_frequency_plans_by_country.rst:170
+#: ../../general/lorawan_frequency_plans_by_country.rst:172
+#: ../../general/lorawan_frequency_plans_by_country.rst:184
+#: ../../general/lorawan_frequency_plans_by_country.rst:214
+#: ../../general/lorawan_frequency_plans_by_country.rst:222
+#: ../../general/lorawan_frequency_plans_by_country.rst:232
+#: ../../general/lorawan_frequency_plans_by_country.rst:236
+#: ../../general/lorawan_frequency_plans_by_country.rst:276
+#: ../../general/lorawan_frequency_plans_by_country.rst:286
+#: ../../general/lorawan_frequency_plans_by_country.rst:288
+#: ../../general/lorawan_frequency_plans_by_country.rst:290
+#: ../../general/lorawan_frequency_plans_by_country.rst:308
+#: ../../general/lorawan_frequency_plans_by_country.rst:320
+#: ../../general/lorawan_frequency_plans_by_country.rst:326
+#: ../../general/lorawan_frequency_plans_by_country.rst:356
+#: ../../general/lorawan_frequency_plans_by_country.rst:360
+#: ../../general/lorawan_frequency_plans_by_country.rst:392
+#: ../../general/lorawan_frequency_plans_by_country.rst:394
+#: ../../general/lorawan_frequency_plans_by_country.rst:412
+#: ../../general/lorawan_frequency_plans_by_country.rst:440
+#: ../../general/lorawan_frequency_plans_by_country.rst:448
+#: ../../general/lorawan_frequency_plans_by_country.rst:450
+#: ../../general/lorawan_frequency_plans_by_country.rst:462
+#: ../../general/lorawan_frequency_plans_by_country.rst:472
+#: ../../general/lorawan_frequency_plans_by_country.rst:500
+#: ../../general/lorawan_frequency_plans_by_country.rst:514
+msgid "CEPT Rec. 70-03"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:23
+msgid "Algeria"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:23
+msgid "CONDITIONS D’UTILISATION DES EQUIPEMENTS D’IDENTIFICATION PAR RADIOFREQUENCES - RFID"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:25
+msgid "Andorra"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:27
+msgid "Angola"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:27
+#: ../../general/lorawan_frequency_plans_by_country.rst:69
+#: ../../general/lorawan_frequency_plans_by_country.rst:108
+#: ../../general/lorawan_frequency_plans_by_country.rst:158
+#: ../../general/lorawan_frequency_plans_by_country.rst:298
+#: ../../general/lorawan_frequency_plans_by_country.rst:300
+#: ../../general/lorawan_frequency_plans_by_country.rst:314
+#: ../../general/lorawan_frequency_plans_by_country.rst:330
+#: ../../general/lorawan_frequency_plans_by_country.rst:340
+#: ../../general/lorawan_frequency_plans_by_country.rst:442
+#: ../../general/lorawan_frequency_plans_by_country.rst:486
+#: ../../general/lorawan_frequency_plans_by_country.rst:554
+#: ../../general/lorawan_frequency_plans_by_country.rst:556
+msgid "CRASA follows CEPT Rec. 70-03"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:29
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:31
+msgid "Argentina"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:31
+#: ../../general/lorawan_frequency_plans_by_country.rst:35
+#: ../../general/lorawan_frequency_plans_by_country.rst:71
+#: ../../general/lorawan_frequency_plans_by_country.rst:100
+#: ../../general/lorawan_frequency_plans_by_country.rst:348
+msgid "AU915-928"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:31
+msgid "RESOL-2018-581-APN-MM"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:33
+msgid "Armenia"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:33
+#: ../../general/lorawan_frequency_plans_by_country.rst:228
+#: ../../general/lorawan_frequency_plans_by_country.rst:234
+#: ../../general/lorawan_frequency_plans_by_country.rst:368
+#: ../../general/lorawan_frequency_plans_by_country.rst:498
+msgid "EN 302 208"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:35
+msgid "Australia"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:37
+msgid "Austria"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:39
+msgid "Azerbaijan"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:39
+msgid "unknown, no CEPT"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:39
+msgid "EN 302 208, CEPT Rec. 70-03"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:43
+msgid "B"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:47
+msgid "Bahamas"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:49
+msgid "Bahrain"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:49
+msgid "Kingdom Of Bahrain National Frequency Plan"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:51
+msgid "Bangladesh"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:53
+msgid "Barbados"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:55
+msgid "Belarus"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:55
+#: ../../general/lorawan_frequency_plans_by_country.rst:184
+#: ../../general/lorawan_frequency_plans_by_country.rst:360
+#: ../../general/lorawan_frequency_plans_by_country.rst:514
+msgid "unknown, limited CEPT"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:57
+msgid "Belgium"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:59
+msgid "Belize"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:61
+msgid "Benin"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:63
+msgid "Bhutan"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:65
+msgid "Bolivia"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:65
+#: ../../general/lorawan_frequency_plans_by_country.rst:94
+#: ../../general/lorawan_frequency_plans_by_country.rst:104
+#: ../../general/lorawan_frequency_plans_by_country.rst:112
+#: ../../general/lorawan_frequency_plans_by_country.rst:138
+#: ../../general/lorawan_frequency_plans_by_country.rst:146
+#: ../../general/lorawan_frequency_plans_by_country.rst:200
+#: ../../general/lorawan_frequency_plans_by_country.rst:316
+#: ../../general/lorawan_frequency_plans_by_country.rst:382
+#: ../../general/lorawan_frequency_plans_by_country.rst:386
+#: ../../general/lorawan_frequency_plans_by_country.rst:388
+#: ../../general/lorawan_frequency_plans_by_country.rst:396
+#: ../../general/lorawan_frequency_plans_by_country.rst:468
+#: ../../general/lorawan_frequency_plans_by_country.rst:520
+#: ../../general/lorawan_frequency_plans_by_country.rst:522
+#: ../../general/lorawan_frequency_plans_by_country.rst:536
+msgid "US902-928"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:67
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:69
+msgid "Botswana"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:71
+msgid "Brazil"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:71
+msgid "National Telecommunications Agency (ANATEL) Resolution No. 680, from June 27, 2017 - Portuguese only, Article 10 National Telecommunications Agency (ANATEL) Act No. 14448, from December 4, 2017 - Portuguese only, Section 10.3"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:74
+msgid "Brunei"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:74
+#: ../../general/lorawan_frequency_plans_by_country.rst:90
+#: ../../general/lorawan_frequency_plans_by_country.rst:212
+#: ../../general/lorawan_frequency_plans_by_country.rst:226
+#: ../../general/lorawan_frequency_plans_by_country.rst:274
+#: ../../general/lorawan_frequency_plans_by_country.rst:482
+#: ../../general/lorawan_frequency_plans_by_country.rst:488
+#: ../../general/lorawan_frequency_plans_by_country.rst:538
+msgid "AS923-925 (“AS2”)"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:76
+msgid "Bulgaria"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:78
+msgid "Burkina Faso"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:80
+msgid "Burundi"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:84
+msgid "C"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:88
+msgid "Cabo Verde"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:90
+msgid "Cambodia"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:92
+msgid "Cameroon"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:94
+msgid "Canada"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:96
+msgid "Central African Republic (CAR)"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:98
+msgid "Chad"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:100
+msgid "Chile"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:100
+msgid "FIJA NORMA TECNICA DE EQUIPOS DE ALCANCE REDUCIDO"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:102
+msgid "China"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:102
+msgid "CN470-510 CN779-787"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:104
+msgid "Colombia"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:106
+msgid "Comoros"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:108
+msgid "Democratic Republic of the Congo"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:110
+msgid "Republic of the Congo"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:112
+msgid "Costa Rica"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:114
+msgid "Cote d’Ivoire"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:116
+msgid "Croatia"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:118
+msgid "Cuba"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:120
+msgid "Curaçao"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:120
+msgid "Ministeriële regeling vrijstelling telecommunicatiemachtiging 2015"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:122
+msgid "Cyprus"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:124
+msgid "Czech Republic"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:128
+msgid "D"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:132
+msgid "Denmark"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:134
+msgid "Djibouti"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:136
+msgid "Dominica"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:138
+msgid "Dominican Republic"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:142
+msgid "E"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:146
+msgid "Ecuador"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:148
+msgid "Egypt"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:150
+msgid "El Salvador"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:152
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:154
+msgid "Eritrea"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:156
+msgid "Estonia"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:158
+msgid "Eswatini (formerly Swaziland)"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:160
+msgid "Ethiopia"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:164
+msgid "F"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:168
+msgid "Fiji"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:170
+msgid "Finland"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:172
+msgid "France"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:176
+msgid "G"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:180
+msgid "Gabon"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:182
+msgid "Gambia"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:184
+msgid "Georgia"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:186
+msgid "Germany"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:186
+msgid "Non-specific Short Range Devices (SRD) regulations, CEPT Rec. 70-03"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:188
+msgid "Ghana"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:190
+msgid "Greece"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:190
+msgid "Radio frequency regulations, 433MHz SRD regulations, 868MHz SRD regulations, CEPT Rec. 70-03"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:192
+msgid "Grenada"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:194
+msgid "Guatemala"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:196
+msgid "Guinea"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:198
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:200
+msgid "Guyana"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:204
+msgid "H"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:208
+msgid "Haiti"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:210
+msgid "Honduras"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:212
+msgid "Hong Kong"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:214
+msgid "Hungary"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:218
+msgid "I"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:222
+msgid "Iceland"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:224
+msgid "India"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:224
+msgid "IN865-867"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:224
+msgid "Use of low power wireless equipments in the frequency band 865-867MHz for RFID"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:226
+msgid "Indonesia"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:228
+msgid "Iran"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:230
+msgid "Iraq"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:232
+msgid "Ireland"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:234
+msgid "Israel"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:236
+msgid "Italy"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:240
+msgid "J"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:244
+msgid "Jamaica"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:246
+msgid "Japan"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:246
+#: ../../general/lorawan_frequency_plans_by_country.rst:302
+#: ../../general/lorawan_frequency_plans_by_country.rst:446
+msgid "AS920-923 (“AS1”)"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:246
+msgid "ARIB STD-T108"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:248
+msgid "Jordan"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:252
+msgid "K"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:256
+msgid "Kazakhstan"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:258
+msgid "Kenya"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:260
+msgid "Kiribati"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:262
+msgid "Kosovo"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:264
+msgid "Kuwait"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:266
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:270
+msgid "L"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:274
+msgid "Laos"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:276
+msgid "Latvia"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:278
+msgid "Lebanon"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:280
+msgid "Lesotho"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:280
+msgid "CRASA follows CEPT Rec. 70-03, Radio Spectrum Management Guidelines and Procedures 2014"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:282
+msgid "Liberia"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:284
+msgid "Libya"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:286
+msgid "Liechtenstein"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:288
+msgid "Lithuania"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:290
+msgid "Luxembourg"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:294
+msgid "M"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:298
+msgid "Madagascar"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:300
+msgid "Malawi"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:302
+msgid "Malaysia"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:304
+msgid "Maldives"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:306
+msgid "Mali"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:308
+msgid "Malta"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:310
+msgid "Marshall Islands"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:312
+msgid "Mauritania"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:314
+msgid "Mauritius"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:316
+msgid "Mexico"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:318
+msgid "Micronesia"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:320
+msgid "Moldova"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:322
+msgid "Monaco"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:324
+msgid "Mongolia"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:326
+msgid "Montenegro"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:328
+msgid "Morocco"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:328
+msgid "Decision ANRT/DG/Nº08/13 - 20th June 2013"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:330
+msgid "Mozambique"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:332
+msgid "Myanmar (Burma)"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:336
+msgid "N"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:340
+msgid "Namibia"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:342
+msgid "Nauru"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:344
+msgid "Nepal"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:346
+msgid "Netherlands"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:346
+msgid "Regeling gebruik van frequentieruimte zonder vergunning en zonder meldingsplicht 2015, CEPT Rec. 70-03"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:348
+msgid "New Zealand"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:348
+msgid "Radio Spectrum Management"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:350
+msgid "Nicaragua"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:352
+msgid "Niger"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:354
+msgid "Nigeria"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:356
+msgid "North Macedonia"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:358
+msgid "North Korea"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:360
+msgid "Norway"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:364
+msgid "O"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:368
+msgid "Oman"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:372
+msgid "P"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:376
+msgid "Pakistan"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:378
+msgid "Palau"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:380
+msgid "Palestine"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:382
+msgid "Panama"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:384
+msgid "Papua New Guinea"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:386
+msgid "Paraguay"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:388
+msgid "Peru"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:390
+msgid "Philippines"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:390
+msgid "**NOTE:** This is not a license free band."
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:392
+msgid "Poland"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:394
+msgid "Portugal"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:396
+msgid "Puerto Rico"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:400
+msgid "Q"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:404
+msgid "Qatar"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:408
+msgid "R"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:412
+msgid "Romania"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:414
+msgid "Russia"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:414
+msgid "CEPT Rec. 70-03, Decision ГКРЧ 07-20-03-001, Appendix 10"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:416
+msgid "Rwanda"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:420
+msgid "S"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:424
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:426
+msgid "Saint Lucia"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:428
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:430
+msgid "Samoa"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:432
+msgid "San Marino"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:434
+msgid "Sao Tome and Principe"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:436
+msgid "Saudi Arabia"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:436
+msgid "National frequency plan in the kingdom of Saudi Arabia"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:438
+msgid "Senegal"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:440
+msgid "Serbia"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:442
+msgid "Seychelles"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:444
+msgid "Sierra Leone"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:446
+msgid "Singapore"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:448
+msgid "Slovakia"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:450
+msgid "Slovenia"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:452
+msgid "Solomon Islands"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:454
+msgid "Somalia"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:456
+msgid "South Africa"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:456
+msgid "CRASA follows CEPT Rec. 70-03, The Radio Frequency Spectrum Regulations 2015"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:458
+msgid "South Korea"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:458
+msgid "KR920-923"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:460
+msgid "South Sudan"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:462
+msgid "Spain"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:464
+msgid "Sri Lanka"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:466
+msgid "Sudan"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:468
+msgid "Suriname"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:470
+msgid "Sweden"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:470
+msgid "Svenska frekvensplanen, CEPT Rec. 70-03"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:472
+msgid "Switzerland"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:474
+msgid "Syria"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:478
+msgid "T"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:482
+msgid "Taiwan"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:482
+msgid "LP0002 2016 or LP0002 2011, section 4, “Radio Frequency Identification, RFID”"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:484
+msgid "Tajikistan"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:486
+msgid "Tanzania"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:488
+msgid "Thailand"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:490
+msgid "Timor-Leste"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:492
+msgid "Togo"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:494
+msgid "Tonga"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:496
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:498
+msgid "Tunisia"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:500
+msgid "Turkey"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:502
+msgid "Turkmenistan"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:504
+msgid "Tuvalu"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:508
+msgid "U"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:512
+msgid "Uganda"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:514
+msgid "Ukraine"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:516
+msgid "United Arab Emirates (UAE)"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:516
+msgid "EN 302 208, TRA Regulations"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:518
+msgid "United Kingdom (UK)"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:518
+msgid "Forum thread about requirements, CEPT Rec. 70-03"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:520
+msgid "United States of America (USA)"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:522
+msgid "Uruguay"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:524
+msgid "Uzbekistan"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:528
+msgid "V"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:532
+msgid "Vanuatu"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:534
+msgid "Vatican City (Holy See)"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:536
+msgid "Venezuela"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:538
+msgid "Vietnam"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:542
+msgid "Y"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:546
+msgid "Yemen"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:550
+msgid "Z"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:554
+msgid "Zambia"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:556
+msgid "Zimbabwe"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:560
+msgid "Relevant Resources"
+msgstr ""
+
+#: ../../general/lorawan_frequency_plans_by_country.rst:562
+msgid "`Frequency Plans by Country/Region <https://www.thethingsnetwork.org/docs/lorawan/frequencies-by-country.html>`_ 。"
+msgstr ""

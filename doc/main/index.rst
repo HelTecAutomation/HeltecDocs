@@ -16,7 +16,8 @@ This is the documentation for `Heltec Automation <https://heltec.org>`_ products
    HT-M01 Evaluation LoRa Gateway <https://docs.heltec.org/en/gateway/ht-m01/index.html>
    HT-M01S Indoor LoRa Gateway <https://docs.heltec.org/en/gateway/ht-m01s/index.html>
    HT-M01S-V2 Indoor LoRa Gateway <https://docs.heltec.org/en/gateway/ht-m01s_v2/index.html>
-   HT-M02 Edge LoRa Gateway <https://docs.heltec.org/en/gateway/ht-m02_poe/index.html>
+   HT-M02 Edge LoRa Gateway(4G/LTE) <https://docs.heltec.org/en/gateway/ht-m02_4g/index.html>
+   HT-M02 Edge LoRa Gateway(POE) <https://docs.heltec.org/en/gateway/ht-m02_poe/index.html>
    SX1301 Module <https://docs.heltec.org/en/gateway/sx1301module/index.html>
    SX1303 Module <https://docs.heltec.org/en/gateway/sx1303module/index.html>
 

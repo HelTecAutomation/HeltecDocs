@@ -1,0 +1,111 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the main package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: main \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-03 15:22+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../general/sub_band_usage.md:1
+msgid "LoRaWAN example Sub-Band usage (AU915)"
+msgstr ""
+
+#: ../../general/sub_band_usage.md:2
+msgid "{ht_translation}`[简体中文]:[English]`"
+msgstr ""
+
+#: ../../general/sub_band_usage.md:3
+msgid "Description"
+msgstr ""
+
+#: ../../general/sub_band_usage.md:5
+msgid ""
+"In the LoRaWAN protocol, there are detailed regulations in various "
+"countries or regions. These regulations include uplink and downlink "
+"Channel Frequency, Bandwidth, Duty cycle etc."
+msgstr ""
+
+#: ../../general/sub_band_usage.md:7
+msgid ""
+"**[LoRaWAN 1.0.2 rvB Regional "
+"Parameters](https://resource.heltec.cn/download/LoRaWANRegionalParametersv1.0.2_final_1944_1.pdf)**"
+msgstr ""
+
+#: ../../general/sub_band_usage.md:9
+msgid "Let's take AU915 as an example:"
+msgstr ""
+
+#: ../../general/sub_band_usage.md:11
+msgid "![](img/sub-band_usage/01.png)"
+msgstr ""
+
+#: ../../general/sub_band_usage.md:15
+msgid ""
+"Then, let's look into our code: (In the `.ino` file corresponding to "
+"LoRaWAN)"
+msgstr ""
+
+#: ../../general/sub_band_usage.md:17
+msgid ""
+"Refer to \"LoRaWAN\" for CubeCell series，refer to  \"OTTA\" for ESP32 "
+"series."
+msgstr ""
+
+#: ../../general/sub_band_usage.md:19
+msgid "![](img/sub-band_usage/02.png)"
+msgstr ""
+
+#: ../../general/sub_band_usage.md:21
+msgid ""
+"Here are 6 arrays defined all channels of LoRaWAN protocol for AU915. In "
+"the userChannelsMask[0], 0x00FF means use the first 0-7 channels, they "
+"are 915.2MHz, 915.4MHz, 915.6MHz … 916.6MHz. When you set the value to "
+"0xFF00, it means the upload channels changed to 8-15, they are 916.8MHz, "
+"917.0MHz … 918.2MHz. More detail... see the below picture："
+msgstr ""
+
+#: ../../general/sub_band_usage.md:23
+msgid "![](img/sub-band_usage/03.png)"
+msgstr ""
+
+#: ../../general/sub_band_usage.md:25
+msgid ""
+"TTN uses 2nd Sub-Band only (channels 8 to 15 and 65) for AU915: "
+"[https://www.thethingsnetwork.org/docs/lorawan/frequency-"
+"plans.html](https://www.thethingsnetwork.org/docs/lorawan/frequency-"
+"plans.html)"
+msgstr ""
+
+#: ../../general/sub_band_usage.md:28
+msgid "![](img/sub-band_usage/04.png)"
+msgstr ""
+
+#: ../../general/sub_band_usage.md:30
+msgid "How To?"
+msgstr ""
+
+#: ../../general/sub_band_usage.md:32
+msgid ""
+"Generally speaking... To change the channel to 8-15，we just need to "
+"change the `channelsMaskTemp[0]=0xFF00;`, then the uplink frequency will "
+"be changed to TTN supported."
+msgstr ""
+
+#: ../../general/sub_band_usage.md:34
+msgid ""
+"**BTW. the listening frequency in your LoRa gateway must be the same as "
+"the TTN server. it's defined in your gateway's `gloable_conf.json` "
+"file.**"
+msgstr ""
+

@@ -1,0 +1,106 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the ht-m00 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ht-m00 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-03 15:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/connect_to_gateway.md:1
+msgid "Connect Nodes to HT-M00"
+msgstr ""
+
+#: ../../source/connect_to_gateway.md:3
+msgid "{ht_translation}`[简体中文]:[English]`"
+msgstr ""
+
+#: ../../source/connect_to_gateway.md:5
+msgid "Summary"
+msgstr ""
+
+#: ../../source/connect_to_gateway.md:7
+msgid "This article aims to describe how to connect nodes to [HT-M00 Gateway](https://heltec.org/project/ht-m00/), which facilitates secondary development and rapid deployment of LoRa devices. HT-M00 is a dual-channel gateway. To ensure good communication between the node and the gateway, the channel used by the node must correspond to that of the HT-M00 gateway. This document takes CN470 as an example."
+msgstr ""
+
+#: ../../source/connect_to_gateway.md:9
+msgid "Before all operation, make sure the HT-M00 and nodes are runing well . If not, please refer to this [HT-M00 Quick Start](https://docs.heltec.org/en/gateway/ht-m00/quick_start.html) document."
+msgstr ""
+
+#: ../../source/connect_to_gateway.md:12
+msgid "If the node channel is more than the gateway channel and the gateway channel is included, then the node channel can only enter the network when the node channel matches the gateway channel. If the node channel does not include the gateway channel, the node cannot enter the network."
+msgstr ""
+
+#: ../../source/connect_to_gateway.md:15
+#: ../../source/connect_to_gateway.md:33
+msgid "&nbsp;"
+msgstr ""
+
+#: ../../source/connect_to_gateway.md:17
+msgid "Channel Frequency"
+msgstr ""
+
+#: ../../source/connect_to_gateway.md:19
+msgid "![](img/connect_to_gateway/01.png)"
+msgstr ""
+
+#: ../../source/connect_to_gateway.md:21
+msgid "CN470 corresponds to a total of 96 channels from 470.3MHz to 489.3MHz. For every 200kHz increase in frequency, the channel code increases by 1, namely:"
+msgstr ""
+
+#: ../../source/connect_to_gateway.md:23
+msgid "freq=470.3+0.2*N（N is the channel coding 0-95）"
+msgstr ""
+
+#: ../../source/connect_to_gateway.md:25
+msgid "Let's look at the code: (in the `.ino` file corresponding to LoRaWAN)"
+msgstr ""
+
+#: ../../source/connect_to_gateway.md:27
+msgid "Refer to \"LoRaWAN\" for CubeCell series and refer to \"OTTA\" for ESP32 series."
+msgstr ""
+
+#: ../../source/connect_to_gateway.md:29
+msgid "![](img/connect_to_gateway/02.png)"
+msgstr ""
+
+#: ../../source/connect_to_gateway.md:31
+msgid "This is 6 arrays of all LoRaWAN protocol channels defined for CN470. In userChannelsMask[0], 0x00FF means to use the first 0-7 channels, which are 470.3MHz, 470..5MHz, 470.7MHz...471.7MHz. Converting hexadecimal FF to binary is 11111111. The 11111111 from low bits to high bits correspond to the first 0-7 channels, that is, the last 1 corresponds to channel 0, and the first 1 corresponds to channel 7. When you modify \"userChannelsMask[0]=0x0001\", it means that the channel is changed to 0, which is 470.3MHz, When you modify \"userChannelsMask[0]=0x0080\", it means that the channel is changed to 7, which is 471.7MHz, When you modify \"userChannelsMask[0]=0xFF00\", it means that the channels are changed to 8-15, which are 471.9MHz, 472.1MHz, 472.3MHz...473.3MHz."
+msgstr ""
+
+#: ../../source/connect_to_gateway.md:35
+msgid "Instructions for Use"
+msgstr ""
+
+#: ../../source/connect_to_gateway.md:37
+msgid "The web configuration interface of HT-M00 is as follows."
+msgstr ""
+
+#: ../../source/connect_to_gateway.md:39
+msgid "![](img/connect_to_gateway/03.png)"
+msgstr ""
+
+#: ../../source/connect_to_gateway.md:41
+msgid "In the configuration interface of HT-M00, the two channel frequencies of the gateway will be configured. We need to make the channel used by the node correspond to these two channels, that is, modify the channel mask in the corresponding program."
+msgstr ""
+
+#: ../../source/connect_to_gateway.md:43
+msgid "Take the CubeCell series as an example:"
+msgstr ""
+
+#: ../../source/connect_to_gateway.md:45
+msgid "![](img/connect_to_gateway/04.png)"
+msgstr ""
+
+#: ../../source/connect_to_gateway.md:47
+msgid "If the gateway configuration channel is 471.9MHz and 472.1MHz, use 9,10 channels. In the LoRaWAN program, you should modify\"userChannelsMask[0]=0x0300\"."
+msgstr ""

@@ -1,0 +1,65 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the ht-m02_poe package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ht-m02_poe \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-03 15:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/index.rst:14
+msgid "PoE Version Quick Start"
+msgstr ""
+
+#: ../../source/index.rst:14
+msgid "Coneect to LoRa server"
+msgstr ""
+
+#: ../../source/index.rst:14
+msgid "Internal LoRa Server User Manual"
+msgstr ""
+
+#: ../../source/index.rst:14
+msgid "System Upgrade"
+msgstr ""
+
+#: ../../source/index.rst:2
+msgid "HT-M02 Edge LoRa Gateway(POE)"
+msgstr ""
+
+#: ../../source/index.rst:3
+msgid ":ht_translation:`[简体中文]:[English]`"
+msgstr ""
+
+#: ../../source/index.rst:5
+msgid "In practice, the working environment of the equipment may not be as good as expected, on the contrary, it may be very bad… For example, in the industrial environment, the site may have tremendous vibration, noise, dust, high temperature, and other issues. In the city environment, sunshine and rain, low temperatures in winter and high temperatures in summer are always unavoidable… When designing the HT-M02 LoRa gateway, has considered and solves all the above problems and design strictly with industrial standards"
+msgstr ""
+
+#: ../../source/index.rst:7
+msgid "**Integrated LoRa server inside;**"
+msgstr ""
+
+#: ../../source/index.rst:8
+msgid "Useing Linux Operating System, 4.14 Kernel, Debian Stretch 9.8;"
+msgstr ""
+
+#: ../../source/index.rst:9
+msgid "**1-GHz Sitara™ ARM® Cortex®-A8** 32‑Bit RISC Processor, **512MB DDR3**, **4G eMMC**."
+msgstr ""
+
+#: ../../source/index.rst:10
+msgid "IP65 waterproofing;"
+msgstr ""
+
+#: ../../source/index.rst:11
+msgid "No fan or motor heat dissipation structure."
+msgstr ""

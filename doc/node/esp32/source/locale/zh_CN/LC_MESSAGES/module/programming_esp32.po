@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the esp32 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: esp32 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-03 15:27+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/module/programming_esp32.md:1
+msgid "How to programming a ESP32 Module"
+msgstr ""
+
+#: ../../source/module/programming_esp32.md:2
+msgid "{ht_translation}`[简体中文]:[English]`"
+msgstr ""
+
+#: ../../source/module/programming_esp32.md:4
+msgid "This document uses Wireless_ Shell as an example."
+msgstr ""
+
+#: ../../source/module/programming_esp32.md:6
+msgid ""
+"Wireless_ Shell only have ESP32 and RF relevant circute inside. In order "
+"to program it, need connect to a external UART-USB bridge. CH340G, CP2102"
+" etc."
+msgstr ""
+
+#: ../../source/module/programming_esp32.md:8
+msgid "&nbsp;"
+msgstr ""
+
+#: ../../source/module/programming_esp32.md:10
+msgid "1. Recommend Circuit"
+msgstr ""
+
+#: ../../source/module/programming_esp32.md:12
+msgid "Please refer to the recommended circuit design for your circuit."
+msgstr ""
+
+#: ../../source/module/programming_esp32.md:14
+msgid ""
+"**[Recommend circuit "
+"](https://resource.heltec.cn/download/Wireless_Shell/wireless_shell_reference_hardware_design.pdf)**"
+msgstr ""
+
+#: ../../source/module/programming_esp32.md:15
+msgid ""
+"This circuit have an auto boot circuit, can running into bootloader mode "
+"automatically."
+msgstr ""
+
+#: ../../source/module/programming_esp32.md:17
+msgid "2. Preparation"
+msgstr ""
+
+#: ../../source/module/programming_esp32.md:19
+msgid ""
+"Install the ESP32 development framework correctly ([Reference "
+"resources](https://docs.heltec.org/en/node/esp32/quick_start.html));"
+msgstr ""
+
+#: ../../source/module/programming_esp32.md:20
+msgid ""
+"Connect your redesigned board to a computer, make sure useing a high "
+"quality Micro USB cable;"
+msgstr ""
+
+#: ../../source/module/programming_esp32.md:21
+msgid ""
+"Use the serial port debugging assistant to open the serial port and check"
+" whether the serial port can print information normally."
+msgstr ""
+
+#: ../../source/module/programming_esp32.md:23
+msgid "![](img/programming_esp32/01.png)"
+msgstr ""
+
+#: ../../source/module/programming_esp32.md:27
+msgid "3. Program via Arduino IDE"
+msgstr ""
+
+#: ../../source/module/programming_esp32.md:29
+msgid ""
+"Open Arduino, select \"Tools\" ->\"Board\" ->\"Wireless Stick Lite\", "
+"click \"Upload\" to start uploading the program. Since the core circuits "
+"of Wireless_ Shell and Wireless_Stick_Lite are the same, they can use the"
+" same development environment."
+msgstr ""
+
+#: ../../source/module/programming_esp32.md:31
+msgid "![](img/programming_esp32/02.png)"
+msgstr ""
+

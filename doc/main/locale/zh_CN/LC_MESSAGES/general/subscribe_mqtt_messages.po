@@ -1,0 +1,185 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the main package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: main \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-03 15:22+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../general/subscribe_mqtt_messages.md:1
+msgid "How to Subscribe MQTT Messages from LoRa Server"
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:2
+msgid "{ht_translation}`[简体中文]:[English]`"
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:4
+msgid "Overview"
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:6
+msgid ""
+"In the LoRaWAN application framework, [MQTT](https://mqtt.org/) is wildly"
+" used. For example, your LoRa node devices send sensor data to a gateway "
+"and the gateway forward these data to a cloud server, how can we get "
+"these sensor data from the cloud server?"
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:8
+msgid ""
+"The purpose of this article is to provide some examples of how to get "
+"MQTT messages from a cloud servers. Hope these examples can provide some "
+"reference or make sense to your application."
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:14
+msgid "[Via Python](via-python)"
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:15
+msgid ""
+"[Via third party application (MQTT.fx)](via-third-party-application-mqtt-"
+"fx)"
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:19
+msgid "Via Python"
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:21
+msgid ""
+"Here is a simple python3 example that can be used to subscribe to MQTT "
+"messages from the server."
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:23
+msgid ""
+"[mqtt-receiver.py](https://resource.heltec.cn/download/tools/mqtt-"
+"reciver.py)"
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:25
+msgid ""
+"In the simple python example, the content in the three red boxes needs to"
+" be modified according to your actual situation:"
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:27
+msgid "![](img/subscribe_mqtt_messages/01.png)"
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:29
+msgid "`username_pw_set` -- The MQTT topic subscribe user name and pass word."
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:30
+msgid ""
+"For HT-M02 PoE Edge LoRa Gateway, the default user name is `loraroot`, "
+"pass word is  `62374838`"
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:31
+msgid ""
+"For [Heltec LoRa Cloud Server](http://cloud.heltec.org/), the login "
+"information is the user name and password of the MQTT subscription."
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:32
+msgid ""
+"`subscribe ` -- MQTT topic name, in the example code, the `2` is "
+"application ID allocation by server."
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:33
+msgid "`HOST` and `PORT` -- MQTT server address and communication port."
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:35
+msgid ""
+"Run it in a shell with Python3, the content with red line is the data "
+"send by node. It's encrypted in BASE64 format"
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:37
+msgid "`python3 mqtt-receiver.py`"
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:39
+msgid "![](img/subscribe_mqtt_messages/02.png)"
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:41
+msgid ""
+"If the example does not run correctly, may be missing related components,"
+" install it through the following command."
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:43
+msgid "`sudo pip3 install paho-mqtt python-etcd`"
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:46
+msgid "Via third party application (MQTT.fx)"
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:48
+msgid ""
+"There are many useful MQTT subscription and push software on the "
+"Internet. This article takes [MQTT.fx](https://mqttfx.jensd.de/index.php)"
+" as an example."
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:50
+msgid "![](img/subscribe_mqtt_messages/03.png)"
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:52
+msgid ""
+"Basic communication can be carried out with the above settings. And then "
+"click `Connect`."
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:54
+msgid ""
+"Click `Subscribe` -> `Scan` in turn, and wait for the connected node to "
+"transmit data."
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:56
+msgid "![](img/subscribe_mqtt_messages/04.png)"
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:60
+msgid ""
+"After the node uploads the data, the information will be scanned in the "
+"`Scan` column."
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:62
+msgid "![](img/subscribe_mqtt_messages/05.png)"
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:64
+msgid ""
+"Select one as the subscription information. When there is matching "
+"subscription information uploaded, it will be displayed in the data "
+"column. The sample subscription is "
+"`application/4/device/22........09/rx`."
+msgstr ""
+
+#: ../../general/subscribe_mqtt_messages.md:66
+msgid "![](img/subscribe_mqtt_messages/06.png)"
+msgstr ""
+

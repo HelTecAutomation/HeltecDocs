@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the main package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: main \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-03 15:22+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../general/tts_v3_login_issue.md:1
+msgid "Heltec LoRaWAN Test Server Login Issue"
+msgstr ""
+
+#: ../../general/tts_v3_login_issue.md:3
+msgid "{ht_translation}`[简体中文]:[English]`"
+msgstr ""
+
+#: ../../general/tts_v3_login_issue.md:5
+msgid ""
+"In June 2021, we replaced Heltec Cloud Server with the more scientific "
+"TTS V3, which is a permanent free server. It can be used for "
+"communication test and production environment of some simple "
+"applications.On the basis of the original TTS V3, we have added the user "
+"synchronization function. The purpose of this is to allow the Heltec "
+"official website account to be used to log in to the Heltec forum and "
+"Heltec's LoRaWAN test server at the same time."
+msgstr ""
+
+#: ../../general/tts_v3_login_issue.md:7
+msgid ""
+"However, the user synchronization function seems to have some problems on"
+" TTS V3 (Not alway happen). We are actively correcting this bug. Before "
+"this bug is fixed, the problem can be solved in the following ways:"
+msgstr ""
+
+#: ../../general/tts_v3_login_issue.md:9
+msgid ""
+"Login your Heltec Website account in [this page](https://heltec.org/my-"
+"account/);"
+msgstr ""
+
+#: ../../general/tts_v3_login_issue.md:11
+msgid ""
+"In the `My account` page, click the `edit your password and account "
+"details`"
+msgstr ""
+
+#: ../../general/tts_v3_login_issue.md:13
+msgid "![](img/tts_v3_login_issue/01.png)"
+msgstr ""
+
+#: ../../general/tts_v3_login_issue.md:15
+msgid "Change your password in the `Password change` area:"
+msgstr ""
+
+#: ../../general/tts_v3_login_issue.md:17
+msgid "![](img/tts_v3_login_issue/02.png)"
+msgstr ""
+
+#: ../../general/tts_v3_login_issue.md:19
+msgid "Login the [Heltec LoRaWAN test server](https://lora.heltec.org/) again."
+msgstr ""
+

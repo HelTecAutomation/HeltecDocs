@@ -19,7 +19,7 @@ ESP32 is a powerfull SoC with 240MHz Tensilica LX6 dual-core & 1 ULP core, 600 D
 
 
 .. toctree::
-    :maxdepth: 2
+   :maxdepth: 2
     
     Quick Start <quick_start>
     LoRaWAN <lorawan/index> 

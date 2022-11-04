@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the esp8266_arduino
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: esp8266_arduino \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-03 15:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/wifi_kit_8/index.rst:7
+msgid "Hardware Update Logs"
+msgstr ""
+
+#: ../../source/wifi_kit_8/index.rst:2
+msgid "WiFi Kit 8"
+msgstr ""
+
+#: ../../source/wifi_kit_8/index.rst:3
+msgid ":ht_translation:`[简体中文]:[English]`"
+msgstr ""
+
+#: ../../source/wifi_kit_8/index.rst:5
+msgid "WiFi Kit 8 relevant documents."
+msgstr ""
+
+#: ../../source/wifi_kit_8/index.rst:13
+msgid "Relevant Offical Resources"
+msgstr ""
+
+#: ../../source/wifi_kit_8/index.rst:15
+msgid ""
+"`Schematic diagram "
+"<https://resource.heltec.cn/download/WiFi_Kit_8/WIFI_Kit_8_Schematic_diagram.PDF>`_."
+msgstr ""
+

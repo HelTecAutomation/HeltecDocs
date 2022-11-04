@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the stm32 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: stm32 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-03 15:30+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/lorawan/get_lorawan_example_code.md:1
+#: ../../source/lorawan/get_lorawan_example_code.md:7
+msgid "Get LoRaWAN Example Code"
+msgstr ""
+
+#: ../../source/lorawan/get_lorawan_example_code.md:2
+msgid "{ht_translation}`[简体中文]:[English]`"
+msgstr ""
+
+#: ../../source/lorawan/get_lorawan_example_code.md:3
+msgid "Get Chip ID"
+msgstr ""
+
+#: ../../source/lorawan/get_lorawan_example_code.md:5
+msgid ""
+"Please refer to this document:[How to Get Chip "
+"ID](https://docs.heltec.org/general/view_limited_technical_data.html#how-"
+"to-get-chip-id)"
+msgstr ""
+
+#: ../../source/lorawan/get_lorawan_example_code.md:9
+msgid ""
+"Some example code is restrictive technical data, it will become "
+"downloadable after purchase.Please refer to the following steps."
+msgstr ""
+
+#: ../../source/lorawan/get_lorawan_example_code.md:11
+msgid ""
+"Copy the Chip ID and open this link  "
+"[http://www.heltec.cn/search/](http://www.heltec.cn/search/)."
+msgstr ""
+
+#: ../../source/lorawan/get_lorawan_example_code.md:13
+msgid "Input the Chip ID,click `Confirm` ."
+msgstr ""
+
+#: ../../source/lorawan/get_lorawan_example_code.md:15
+msgid "![](img/get_lorawan_example_code/01.png)"
+msgstr ""
+
+#: ../../source/lorawan/get_lorawan_example_code.md:17
+msgid ""
+"You can see some informations about this board, click`Relevant Resource` "
+"，you can see the example code."
+msgstr ""
+
+#: ../../source/lorawan/get_lorawan_example_code.md:19
+msgid "![](img/get_lorawan_example_code/02.png)"
+msgstr ""
+
+#: ../../source/lorawan/get_lorawan_example_code.md:21
+msgid "&nbsp;"
+msgstr ""
+
+#: ../../source/lorawan/get_lorawan_example_code.md:23
+msgid ""
+"**Tip: Because some of the previous product data has not been "
+"synchronized to the server, if you cannot succeed in this method, please "
+"click this link [https://docs.heltec.cn/](https://docs.heltec.cn/) to "
+"view and download.**"
+msgstr ""
+

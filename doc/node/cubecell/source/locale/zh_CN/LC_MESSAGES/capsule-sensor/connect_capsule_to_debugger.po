@@ -1,0 +1,70 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the cubecell package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: cubecell \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-03 15:25+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/capsule-sensor/connect_capsule_to_debugger.md:1
+msgid "Connect Capsule to Debugger"
+msgstr ""
+
+#: ../../source/capsule-sensor/connect_capsule_to_debugger.md:2
+msgid "{ht_translation}`[简体中文]:[English]`"
+msgstr ""
+
+#: ../../source/capsule-sensor/connect_capsule_to_debugger.md:4
+msgid ""
+"The capsule sensor itself is positioned as a small-sized, assembled and "
+"deployed sensor. It does not have programming, debugging, and other "
+"interfaces. You need to use the [Debug Board](https://heltec.org/product"
+"/cubecell-capsule-debug/) in order to program and debug the program."
+msgstr ""
+
+#: ../../source/capsule-sensor/connect_capsule_to_debugger.md:6
+msgid ""
+"Both the capsule sensor body and the debug board have a round white "
+"marking point. When connecting, the position of the white points should "
+"be matched."
+msgstr ""
+
+#: ../../source/capsule-sensor/connect_capsule_to_debugger.md:8
+msgid "![](img/connect_capsule_to_debugger/01.png)"
+msgstr ""
+
+#: ../../source/capsule-sensor/connect_capsule_to_debugger.md:10
+#: ../../source/capsule-sensor/connect_capsule_to_debugger.md:16
+msgid "&nbsp;"
+msgstr ""
+
+#: ../../source/capsule-sensor/connect_capsule_to_debugger.md:12
+msgid ""
+"After the connection is completed, the sensor body and the debugging "
+"board are integrated into one body, and the pins are in a corresponding "
+"relationship, which is convenient for plugging in various sensors."
+msgstr ""
+
+#: ../../source/capsule-sensor/connect_capsule_to_debugger.md:14
+msgid "![](img/connect_capsule_to_debugger/02.png)"
+msgstr ""
+
+#: ../../source/capsule-sensor/connect_capsule_to_debugger.md:18
+msgid "**\"Capsule Master & Debugger Board & Sensor\"** correctlly assembled:"
+msgstr ""
+
+#: ../../source/capsule-sensor/connect_capsule_to_debugger.md:20
+msgid "![](img/connect_capsule_to_debugger/03.png)"
+msgstr ""
+

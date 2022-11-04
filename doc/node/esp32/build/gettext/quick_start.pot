@@ -1,0 +1,248 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the esp32 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: esp32 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-03 15:27+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/quick_start.md:1
+msgid "Heltec ESP32+LoRa Series Quick Start"
+msgstr ""
+
+#: ../../source/quick_start.md:2
+msgid "{ht_translation}`[简体中文]:[English]`"
+msgstr ""
+
+#: ../../source/quick_start.md:4
+msgid "Before all operation, please confirm whether the `USB driver`, `Git` and `Arduino IDE` has been installed correctly. If not, please refer to this two articles [establish serial connection](https://docs.heltec.org/general/establish_serial_connection.html) and [Install Git and Arduino IDE](https://docs.heltec.org/general/how_to_install_git_and_arduino.html)."
+msgstr ""
+
+#: ../../source/quick_start.md:6
+msgid "The Heltec ESP32 development environment already contains the basic code. For the special codes related to the Heltec ESP32 development board, please refer to: [https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/tree/master/esp32/libraries/Heltec-Example](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/tree/master/esp32/libraries/Heltec-Example) ."
+msgstr ""
+
+#: ../../source/quick_start.md:8
+#: ../../source/quick_start.md:119
+msgid "![](img/quick_start/09.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:12
+msgid "**There are three methods to install the development framework, choose one of they:**"
+msgstr ""
+
+#: ../../source/quick_start.md:14
+msgid "[Via Arduino Board Manager](via-arduino-board-manager)"
+msgstr ""
+
+#: ../../source/quick_start.md:15
+msgid "[Via Git](via-git)"
+msgstr ""
+
+#: ../../source/quick_start.md:17
+msgid "[Via Local File](via-local-file)"
+msgstr ""
+
+#: ../../source/quick_start.md:20
+msgid "When we updated the V3 series development environment, we integrated the sample code and added it to the development environment without additional downloading libraries. We have handled the compatibility of the sample code so that the code can be used for various versions of the ESP32 development board. When you use the new development environment, the old version of the library can no longer be used, such as ESP32_ LoRaWAN, Heltec_ ESP32. When you update the development environment, we recommend that you delete the old development environment, download the new development environment, and delete the old version of the library. For Git, it has been updated to the V3 series development environment on September 19, 2022. For  \"Arduino Boards Manager\", V0.0.7 is the V3 series development environment. If you modify a lot of code in the old development environment and use it in the project, we recommend that you still use the old development environment."
+msgstr ""
+
+#: ../../source/quick_start.md:24
+msgid "Due to the ESP32 chip was replaced in the V3 version of the ESP32 series product. If you install the old environment through Git and get updates through \"git pull\", you need to execute 'get.exe \"under the\" WiFi_Kit_series\\esp32\\tools \"path again to download the latest compilation chain."
+msgstr ""
+
+#: ../../source/quick_start.md:27
+#: ../../source/quick_start.md:38
+#: ../../source/quick_start.md:54
+#: ../../source/quick_start.md:70
+#: ../../source/quick_start.md:101
+msgid "&nbsp;"
+msgstr ""
+
+#: ../../source/quick_start.md:30
+msgid "Via Arduino Board Manager"
+msgstr ""
+
+#: ../../source/quick_start.md:32
+msgid "Step1. Download Arduino-ESP32 Support"
+msgstr ""
+
+#: ../../source/quick_start.md:34
+#: ../../source/quick_start.md:77
+msgid "Open Arduino IDE, and click `File`->`Peferences`."
+msgstr ""
+
+#: ../../source/quick_start.md:36
+#: ../../source/quick_start.md:79
+msgid "![](img/quick_start/01.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:40
+msgid "![](img/quick_start/02.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:42
+msgid "**Input the last ESP32 package URL:** [https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/releases/download/0.0.7/package_heltec_esp32_index.json](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/releases/download/0.0.7/package_heltec_esp32_index.json)"
+msgstr ""
+
+#: ../../source/quick_start.md:44
+msgid "![](img/quick_start/03.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:46
+msgid "Click `Tools --> Board --> Boards Manager...`, search `Heltec ESP32` in the new pop-up dialog, then select the latest version and click `install`"
+msgstr ""
+
+#: ../../source/quick_start.md:48
+msgid "![](img/quick_start/04.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:50
+msgid "![](img/quick_start/05.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:52
+msgid "The source code of Heltec ESP series (ESP32 & ESP8266) framework available here: [https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series)"
+msgstr ""
+
+#: ../../source/quick_start.md:57
+msgid "Via Git"
+msgstr ""
+
+#: ../../source/quick_start.md:59
+msgid "After obtaining updates through \"**git pull**\", please execute \"**get. exe**\" under the path of \"**Arduino\\hardware\\WiFi_Kit_series\\esp32\\tools**\" to obtain the latest compilation tool."
+msgstr ""
+
+#: ../../source/quick_start.md:61
+msgid "![](img/quick_start/21.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:63
+msgid "For Windows: `https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/InstallGuide/windows.md`"
+msgstr ""
+
+#: ../../source/quick_start.md:64
+msgid "For MacOS: `https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/InstallGuide/mac.md`"
+msgstr ""
+
+#: ../../source/quick_start.md:65
+msgid "For Linux"
+msgstr ""
+
+#: ../../source/quick_start.md:66
+msgid "Debian/Ubuntu: `https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/InstallGuide/debian_ubuntu.md`"
+msgstr ""
+
+#: ../../source/quick_start.md:67
+msgid "Fedora: `https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/InstallGuide/fedora.md`"
+msgstr ""
+
+#: ../../source/quick_start.md:68
+msgid "OpenSUSE: `https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/InstallGuide/opensuse.md`"
+msgstr ""
+
+#: ../../source/quick_start.md:73
+msgid "Via Local File"
+msgstr ""
+
+#: ../../source/quick_start.md:75
+msgid "Download the development environment. [https://resource.heltec.cn/download/tools/WiFi_Kit_series.zip](https://resource.heltec.cn/download/tools/WiFi_Kit_series.zip)"
+msgstr ""
+
+#: ../../source/quick_start.md:81
+msgid "Go to the folder in the red box."
+msgstr ""
+
+#: ../../source/quick_start.md:83
+msgid "![](img/quick_start/16.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:85
+msgid "Create a new \"hardware\" folder in the Arduino folder. If there is already a \"hardware\" folder, you don't need to create a new one."
+msgstr ""
+
+#: ../../source/quick_start.md:87
+msgid "![](img/quick_start/17.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:89
+msgid "Go to the \"hardware\" folder and extract \"WiFi_Kit_series\" into this folder."
+msgstr ""
+
+#: ../../source/quick_start.md:91
+msgid "![](img/quick_start/18.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:93
+msgid "Go to the \"WiFi_Kit_series\" folder, refer to the figure below to confirm whether the path in the red box is correct."
+msgstr ""
+
+#: ../../source/quick_start.md:95
+msgid "![](img/quick_start/19.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:97
+msgid "Restart the Arduino IDE to confirm whether the development environment is installed successfully."
+msgstr ""
+
+#: ../../source/quick_start.md:99
+msgid "![](img/quick_start/20.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:103
+msgid "Example"
+msgstr ""
+
+#: ../../source/quick_start.md:105
+msgid "This section for verifying whether you can program with Arduino or not. Now, The USB cable connects to Heltec ESP32 board, then select your serial port which is connected to Heltec ESP32 board."
+msgstr ""
+
+#: ../../source/quick_start.md:109
+msgid "Select a demo example, compile and upload."
+msgstr ""
+
+#: ../../source/quick_start.md:111
+msgid "Execute an example"
+msgstr ""
+
+#: ../../source/quick_start.md:113
+msgid "Correctly select a board and relevant options in the `Tools` menu:"
+msgstr ""
+
+#: ../../source/quick_start.md:115
+msgid "![](img/quick_start/08.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:117
+msgid "Then select an example."
+msgstr ""
+
+#: ../../source/quick_start.md:121
+msgid "Compile & Upload"
+msgstr ""
+
+#: ../../source/quick_start.md:123
+msgid "![](img/quick_start/10.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:125
+msgid "New a Heltec ESP32 program"
+msgstr ""
+
+#: ../../source/quick_start.md:127
+msgid "Open Arduino IDE, create a new  `.ino` file, then copy the below code."
+msgstr ""
+
+#: ../../source/quick_start.md:145
+msgid "compile it and upload, the  screen (if this board has a screen) will show and Arduino's serial monitor will print something, it means Heltec ESP32 board is running successfully!"
+msgstr ""

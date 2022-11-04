@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the main package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: main \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-03 15:22+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../general/how_to_install_git_and_arduino.md:1
+msgid "How to install Git and Arduino IDE (Windows)"
+msgstr ""
+
+#: ../../general/how_to_install_git_and_arduino.md:2
+msgid "{ht_translation}`[简体中文]:[English]`"
+msgstr ""
+
+#: ../../general/how_to_install_git_and_arduino.md:3
+msgid "1. Install `Git`"
+msgstr ""
+
+#: ../../general/how_to_install_git_and_arduino.md:4
+msgid "If you has installed `Git`, please following next setp 2 straight.Otherwise, download the client of [Git](https://git-scm.com/download/win) and install it."
+msgstr ""
+
+#: ../../general/how_to_install_git_and_arduino.md:6
+msgid "2. Install `Arduino IDE`"
+msgstr ""
+
+#: ../../general/how_to_install_git_and_arduino.md:8
+msgid "**download address: [https://www.arduino.cc/en/Main/Software](https://www.arduino.cc/en/Main/Software)**"
+msgstr ""
+
+#: ../../general/how_to_install_git_and_arduino.md:10
+msgid "![](img/how_to_install_git_and_arduino/arduino_cc_package.png)"
+msgstr ""
+
+#: ../../general/how_to_install_git_and_arduino.md:12
+msgid "Double click to install Arduino IDE"
+msgstr ""
+
+#: ../../general/how_to_install_git_and_arduino.md:14
+msgid "![](img/how_to_install_git_and_arduino/select_arduino_install_path.png)"
+msgstr ""
+
+#: ../../general/how_to_install_git_and_arduino.md:16
+msgid "&nbsp;s"
+msgstr ""
+
+#: ../../general/how_to_install_git_and_arduino.md:18
+msgid "![](img/how_to_install_git_and_arduino/install_arduino_2.png)"
+msgstr ""

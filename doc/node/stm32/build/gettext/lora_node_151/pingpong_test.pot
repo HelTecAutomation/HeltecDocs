@@ -1,0 +1,105 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the stm32 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: stm32 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-03 15:30+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/lora_node_151/pingpong_test.md:1
+msgid "LoRa Node 151 Pingpong test"
+msgstr ""
+
+#: ../../source/lora_node_151/pingpong_test.md:2
+msgid "{ht_translation}`[简体中文]:[English]`"
+msgstr ""
+
+#: ../../source/lora_node_151/pingpong_test.md:4
+msgid "Prepare"
+msgstr ""
+
+#: ../../source/lora_node_151/pingpong_test.md:6
+msgid "Download LoRa Node 151 pingpong example: [pingpong_CDC](https://resource.heltec.cn/download/LoRa_Node_151/example_code/Pingpong_CDC.zip)."
+msgstr ""
+
+#: ../../source/lora_node_151/pingpong_test.md:8
+msgid "Download firmware to LoRa Node 151, Please refer to [Download firmware](https://docs.heltec.org/en/node/stm32/lora_node_151/download_firmware.html)."
+msgstr ""
+
+#: ../../source/lora_node_151/pingpong_test.md:10
+msgid "Start test"
+msgstr ""
+
+#: ../../source/lora_node_151/pingpong_test.md:12
+msgid "After downloading the firmware correctly, connect the development board to the computer and open the serial port."
+msgstr ""
+
+#: ../../source/lora_node_151/pingpong_test.md:14
+msgid "![](img/pingpong_test/01.png)"
+msgstr ""
+
+#: ../../source/lora_node_151/pingpong_test.md:16
+msgid "After opening the serial port, some parameters will be configured. If you do not configure them, the default parameters will be selected."
+msgstr ""
+
+#: ../../source/lora_node_151/pingpong_test.md:18
+msgid "**Configure Frequency Band**"
+msgstr ""
+
+#: ../../source/lora_node_151/pingpong_test.md:20
+msgid "![](img/pingpong_test/02.png)"
+msgstr ""
+
+#: ../../source/lora_node_151/pingpong_test.md:22
+msgid "**Configure Spreading Factor**"
+msgstr ""
+
+#: ../../source/lora_node_151/pingpong_test.md:24
+msgid "![](img/pingpong_test/03.png)"
+msgstr ""
+
+#: ../../source/lora_node_151/pingpong_test.md:26
+msgid "**Configure Coding Rate**"
+msgstr ""
+
+#: ../../source/lora_node_151/pingpong_test.md:28
+msgid "![](img/pingpong_test/04.png)"
+msgstr ""
+
+#: ../../source/lora_node_151/pingpong_test.md:30
+msgid "**Configure Output Power**"
+msgstr ""
+
+#: ../../source/lora_node_151/pingpong_test.md:32
+msgid "![](img/pingpong_test/05.png)"
+msgstr ""
+
+#: ../../source/lora_node_151/pingpong_test.md:34
+msgid "When the configuration is complete, the node will enter a wait state."
+msgstr ""
+
+#: ../../source/lora_node_151/pingpong_test.md:36
+msgid "![](img/pingpong_test/06.png)"
+msgstr ""
+
+#: ../../source/lora_node_151/pingpong_test.md:38
+msgid "Then configure another Lora node 151 node in the same way. After configuration, the two nodes will enter the pingpong test."
+msgstr ""
+
+#: ../../source/lora_node_151/pingpong_test.md:40
+msgid "![](img/pingpong_test/07.png)"
+msgstr ""
+
+#: ../../source/lora_node_151/pingpong_test.md:43
+msgid "The frequency band and the spreading factor need to be configured with the same parameters, otherwise they will not be able to communicate."
+msgstr ""

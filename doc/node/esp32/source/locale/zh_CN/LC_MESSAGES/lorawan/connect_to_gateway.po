@@ -1,0 +1,138 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the esp32 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: esp32 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-03 15:27+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/lorawan/connect_to_gateway.md:1
+msgid "Connect \"ESP32 + LoRa\" to LoRaWAN Server"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:2
+msgid "{ht_translation}`[简体中文]:[English]`"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:4
+msgid ""
+"Before this operation, please read this document carefully: **[“ESP32 + "
+"LoRa” Node Preparation & Config "
+"Parameters](https://docs.heltec.org/en/node/esp32/lorawan/config_parameter.html)**"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:6
+msgid "![](img/connect_to_gateway/01.png)"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:8
+msgid "&nbsp;"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:10
+msgid "![](img/connect_to_gateway/05.png)"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:14
+msgid "Connect to TTN/TTS"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:16
+msgid ""
+"Before that, make sure there is a LoRa Gateway active in your "
+"[TTN](https://console.thethingsnetwork.org/)/[TTS](https://lora.heltec.org/console)"
+" account."
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:18
+msgid "Register a device"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:20
+msgid ""
+"Register a new device in TTN or TTS “Applications” page. Select the "
+"corresponding Brand, Model, Hardware Version, Firmware Version, Region."
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:22
+msgid "![](img/connect_to_gateway/16.png)"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:24
+msgid ""
+"Select the frequency plan, and fill in the corresponding AppEUI, DevEUi, "
+"AppKey, and register the device."
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:26
+msgid "![](img/connect_to_gateway/17.png)"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:28
+#: ../../source/lorawan/connect_to_gateway.md:42
+msgid ""
+"After registration is complete, if all is well, you will see the device "
+"active."
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:30
+msgid "![](img/connect_to_gateway/18.png)"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:32
+msgid "Connect to ChirpStack"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:34
+msgid ""
+"Register a new device in ChirpStack’s “Applications” page. Enter the "
+"device name, description, DevEUI. Select Device-profile."
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:36
+msgid "![](img/connect_to_gateway/20.png)"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:38
+msgid "Enter the Application key of the device."
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:40
+msgid "![](img/connect_to_gateway/21.png)"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:44
+msgid "![](img/connect_to_gateway/22.png)"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:46
+msgid "Important Hints"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:48
+msgid "Please double check the following two things:"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:50
+msgid "The LoRaWAN parameters is the same as server!"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:51
+msgid ""
+"The listening frequency of your LoRa Gateway is the same as ESP32 LoRa "
+"node's sending frequency. We strictly follow [LoRaWAN™ 1.0.2 Regional "
+"Parameters "
+"rB](https://resource.heltec.cn/download/LoRaWANRegionalParametersv1.0.2_final_1944_1.pdf);"
+msgstr ""
+

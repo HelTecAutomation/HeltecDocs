@@ -5,9 +5,9 @@ ESP32 Module
 ESP32 Module relevant documents.
 
 .. toctree::
-    :maxdepth: 2
+   :maxdepth: 2
     
-    Programming ESP32 Module <programming_cubecell>
+    Programming ESP32 Module <programming_esp32>
     Hardware Update Logs <hardware_update_log>
     
 Relevant Offical Resources

@@ -1,0 +1,211 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the ht-m00 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ht-m00 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-03 15:15+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/update_firmware.md:1
+msgid "HT-M00 Firmware Upgrade"
+msgstr ""
+
+#: ../../source/update_firmware.md:3
+msgid "{ht_translation}`[简体中文]:[English]`"
+msgstr ""
+
+#: ../../source/update_firmware.md:6
+msgid "Summary"
+msgstr ""
+
+#: ../../source/update_firmware.md:8
+msgid "This article aims to describe how to upgrade the HT-M00 firmware and the processing method of overwriting the HT-M00 firmware."
+msgstr ""
+
+#: ../../source/update_firmware.md:11
+msgid "Since the HT-M00 firmware version V1.8 has updated the gateway activation code algorithm. Therefore, upgrading from V1.7 and below to V1.8 and above requires reactivating the HT-M00 gateway. Please send the gateway ESP32 chip ID to \"support@heltec.cn\", we will recalculate the activation code for you and upload it to the server."
+msgstr ""
+
+#: ../../source/update_firmware.md:15
+msgid "If your gateway ID is occupied, in order to avoid occupying other gateway IDs when modifying the gateway ID, please modify the \"FFFF\" part in the middle, thank you!"
+msgstr ""
+
+#: ../../source/update_firmware.md:18
+#: ../../source/update_firmware.md:35
+#: ../../source/update_firmware.md:57
+msgid "&nbsp;"
+msgstr ""
+
+#: ../../source/update_firmware.md:20
+msgid "Firmware Upgrade Logs"
+msgstr ""
+
+#: ../../source/update_firmware.md:22
+msgid "V1.7"
+msgstr ""
+
+#: ../../source/update_firmware.md:23
+msgid "Add noise floor automatic calibration function;"
+msgstr ""
+
+#: ../../source/update_firmware.md:24
+msgid "Known bug fix."
+msgstr ""
+
+#: ../../source/update_firmware.md:25
+msgid "V1.8"
+msgstr ""
+
+#: ../../source/update_firmware.md:26
+msgid "Timing check SX1276 working status, if the SX1276 chips working not normal, system auto reset."
+msgstr ""
+
+#: ../../source/update_firmware.md:27
+msgid "V1.9"
+msgstr ""
+
+#: ../../source/update_firmware.md:28
+msgid "Add preamble length parsing function. If the json package sent by the server has a pream field, HT-M00 will parse and forward it."
+msgstr ""
+
+#: ../../source/update_firmware.md:29
+msgid "V2.0"
+msgstr ""
+
+#: ../../source/update_firmware.md:30
+msgid "Add DHCP support in Wi-Fi connection;"
+msgstr ""
+
+#: ../../source/update_firmware.md:31
+msgid "The upstream and downstream ports can be set separately;"
+msgstr ""
+
+#: ../../source/update_firmware.md:32
+msgid "Can modify the heartbeat cycle by yourself."
+msgstr ""
+
+#: ../../source/update_firmware.md:33
+msgid "Can modify the gateway ID by yourself."
+msgstr ""
+
+#: ../../source/update_firmware.md:37
+msgid "Upgrade Firmware"
+msgstr ""
+
+#: ../../source/update_firmware.md:39
+msgid "This method is applicable to upgrading the firmware without changing the gateway configuration page. That is, this version of firmware only has the corresponding bin file. If the firmware of this version is a compressed package, please refer to \" [Complete Firmware Upgrade](complete-firmware-upgrade) \" for firmware upgrade."
+msgstr ""
+
+#: ../../source/update_firmware.md:41
+msgid "Download [HT-M00 corresponding upgrade firmware](https://resource.heltec.cn/download/HT-M00/firmware)。"
+msgstr ""
+
+#: ../../source/update_firmware.md:43
+msgid "![](img/update_firmware/01.png)"
+msgstr ""
+
+#: ../../source/update_firmware.md:45
+msgid "Enter the HT-M00 gateway configuration interface by connecting to the HT-M00 WiFi(can refer to [HT-M00 Quick Start](https://docs.heltec.org/en/gateway/ht-m00/quick_start.html))，click \"Firmwaer Update\"。"
+msgstr ""
+
+#: ../../source/update_firmware.md:47
+msgid "![](img/update_firmware/02.png)"
+msgstr ""
+
+#: ../../source/update_firmware.md:49
+msgid "Click \"Select firmware\" to select the corresponding upgrade firmware that has been downloaded, and click \"Update\" to upgrade."
+msgstr ""
+
+#: ../../source/update_firmware.md:51
+msgid "![](img/update_firmware/03.png)"
+msgstr ""
+
+#: ../../source/update_firmware.md:53
+msgid "After the upgrade is complete, a corresponding prompt will pop up and restart the gateway."
+msgstr ""
+
+#: ../../source/update_firmware.md:55
+msgid "![](img/update_firmware/04.png)"
+msgstr ""
+
+#: ../../source/update_firmware.md:61
+msgid "Complete Firmware Upgrade"
+msgstr ""
+
+#: ../../source/update_firmware.md:63
+msgid "If the new firmware modifies the gateway's web configuration or the user accidentally overwrites the gateway firmware, it is necessary to burn the complete gateway firmware."
+msgstr ""
+
+#: ../../source/update_firmware.md:65
+msgid "Download Firmware"
+msgstr ""
+
+#: ../../source/update_firmware.md:67
+msgid "Download [HT-M00 complete Firmware](https://resource.heltec.cn/download/HT-M00/firmware/complete_firmware)。"
+msgstr ""
+
+#: ../../source/update_firmware.md:69
+msgid "Open the downloaded file and edit the \"M00_Vx_x.bat\" file."
+msgstr ""
+
+#: ../../source/update_firmware.md:71
+msgid "![](img/update_firmware/05.png)"
+msgstr ""
+
+#: ../../source/update_firmware.md:73
+msgid "Change the COM port to the COM port corresponding to HT-M00."
+msgstr ""
+
+#: ../../source/update_firmware.md:75
+msgid "![](img/update_firmware/06.png)"
+msgstr ""
+
+#: ../../source/update_firmware.md:77
+msgid "After the modification is completed, run \"M00_Vx_x.bat\" to complete the gateway firmware upload."
+msgstr ""
+
+#: ../../source/update_firmware.md:79
+msgid "Activate the Gateway"
+msgstr ""
+
+#: ../../source/update_firmware.md:81
+msgid "After the firmware download is complete, open the serial port corresponding to the HT-M00 and read the corresponding ESP32 chip ID of the gateway. Baud rate is 115200."
+msgstr ""
+
+#: ../../source/update_firmware.md:83
+msgid "![](img/update_firmware/07.png)"
+msgstr ""
+
+#: ../../source/update_firmware.md:85
+msgid "Enter [https://resource.heltec.cn/search](https://resource.heltec.cn/search), enter the ESP32 chip ID to query the serial number corresponding to the gateway."
+msgstr ""
+
+#: ../../source/update_firmware.md:87
+msgid "![](img/update_firmware/08.png)"
+msgstr ""
+
+#: ../../source/update_firmware.md:89
+msgid "Open the serial port corresponding to the HT-M00, and send the command \"AT+CDKEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\" through the serial port to activate the gateway. Among them, \"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\" is the 32-bit license. For example, if the license is 0x12345678, 0x12345678, 0x12345678, 0x12345678, the activation command is AT+CDKEY=12345678123456781234567812345678."
+msgstr ""
+
+#: ../../source/update_firmware.md:91
+msgid "![](img/update_firmware/09.png)"
+msgstr ""
+
+#: ../../source/update_firmware.md:93
+msgid "After the screen displays normally, the gateway is activated successfully."
+msgstr ""
+
+#: ../../source/update_firmware.md:98
+msgid "For lower version firmware, the firmware can be upgraded according to the \"firmware upgrade\" method."
+msgstr ""

@@ -45,6 +45,12 @@ msgid ""
 "Example](https://github.com/Heltec-Aaron-"
 "Lee/WiFi_Kit_series/tree/master/esp32/libraries/Heltec-Example) ."
 msgstr ""
+"The Heltec ESP32 开发环境 already contains the basic code."
+" For the special codes related to the Heltec ESP32 development board, "
+"请参考: [https://github.com/Heltec-Aaron-"
+"Lee/WiFi_Kit_series/tree/master/esp32/libraries/Heltec-"
+"Example](https://github.com/Heltec-Aaron-"
+"Lee/WiFi_Kit_series/tree/master/esp32/libraries/Heltec-Example) ."
 
 #: ../../source/quick_start.md:8 ../../source/quick_start.md:107
 msgid "![](img/quick_start/09.png)"

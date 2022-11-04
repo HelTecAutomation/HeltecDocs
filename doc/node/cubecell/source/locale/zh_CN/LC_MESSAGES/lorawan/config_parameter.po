@@ -1,0 +1,349 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the cubecell package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: cubecell \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-03 15:25+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/lorawan/config_parameter.md:1
+msgid "Config LoRaWAN Networking Parameters for CubeCell (Dev EUI, App Key, etc.)"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:2
+msgid "{ht_translation}`[简体中文]:[English]`"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:3
+msgid "Summary"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:5
+msgid ""
+"No matter what LoRa management platform is used, DevEui, AppKey, etc. "
+"parameters are must needed. And ensure that it is consistent with the "
+"relevant settings on the server."
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:7
+msgid "**The following parameters are essential for OTAA mode:**"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:8
+msgid "[DevEui](deveui) -- Mote device IEEE EUI (big endian), 8 bytes;"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:9
+msgid "[AppEui](appeui) -- Application IEEE EUI (big endian), 8 bytes;"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:10
+msgid ""
+"[AppKey](appkey) -- AES encryption/decryption cipher application key, 16 "
+"bytes;"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:11
+msgid "**The following parameters are essential for ABP mode:**"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:12
+msgid ""
+"[NwkSKey](nwkskey) -- AES encryption/decryption cipher network session "
+"key, 16 bytes;"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:13
+msgid ""
+"[AppSKey](appskey) -- AES encryption/decryption cipher application "
+"session key, 16 bytes;"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:14
+msgid ""
+"[DevAddr](devaddr) -- Device address on the network (big endian), "
+"uint32_t;"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:17
+msgid ""
+"There are three methods to configuration LoRaWAN networking parameters, "
+"choose one of them."
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:20
+msgid "[Via Modify Code](via-modify-code)"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:21
+msgid "[Via AT Command](via-at-command)"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:22
+msgid "[Via CubeCell Configurator](via-cubecell-configurator)"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:25
+msgid "Parameters such as frequency band need to be modified in \"Tools\"."
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:28
+msgid "![](img/config_parameter/04.png)"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:30
+#: ../../source/lorawan/config_parameter.md:41
+msgid "&nbsp;"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:33
+msgid "Via Modify Code"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:35
+msgid ""
+"The relevant parameters of the LoRaWAN network are in the corresponding "
+"`.ino` file:"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:37
+msgid "![](img/config_parameter/03.png)"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:39
+msgid "Change the code and Compile/Upload again."
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:44
+msgid "The follows two methods need AT-Command enable."
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:48
+msgid "Via AT Command"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:50
+msgid ""
+"In order to use AT command, need enable AT command in the \"Tools\" menu "
+"before upload."
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:52
+msgid "![](img/config_parameter/01.png)"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:54
+msgid "Serial Port Settings"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:56
+msgid "Baud rate: 115200"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:57
+msgid "Stop bit: 1"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:58
+msgid "Data bits: 8"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:59
+msgid "DTR, RTS requirement: **None**"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:60
+msgid "Ending characters: **None**"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:63
+msgid ""
+"Make sure there is NO ending characters or new line in you serial monitor"
+" config!"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:66
+msgid ""
+"With AT command support, the CubeCell is sleeping by default. Any content"
+" through the serial port will wake it up. It means the First command via "
+"serial port only wake up system."
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:68
+msgid ""
+"For example, if send any contents such as `hello`, you will get this "
+"reply:"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:70
+msgid "`ASR is Waked,LowPower Mode Stopped`"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:73
+msgid "DevEui"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:76
+msgid "We take all zero just for example"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:79
+msgid ""
+"Config DevEui to \"0000000000000000\", send following command via serial "
+"port:"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:81
+msgid "`AT+DevEui=0000000000000000`"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:83
+#: ../../source/lorawan/config_parameter.md:97
+#: ../../source/lorawan/config_parameter.md:111
+#: ../../source/lorawan/config_parameter.md:125
+#: ../../source/lorawan/config_parameter.md:139
+#: ../../source/lorawan/config_parameter.md:153
+msgid "Command running success will print feedback:"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:91
+msgid "AppEui"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:93
+msgid ""
+"Config AppEui to \"0000000000000000\", send following command via serial "
+"port:"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:95
+msgid "`AT+AppEui=0000000000000000`"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:105
+msgid "AppKey"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:107
+msgid ""
+"Config AppKey to \"00000000000000000000000000000000\", send following "
+"command via serial port:"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:109
+msgid "`AT+AppEui=00000000000000000000000000000000`"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:119
+msgid "NwkSKey"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:121
+msgid ""
+"Config NwkSKey to \"00000000000000000000000000000000\", send following "
+"command via serial port:"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:123
+msgid "`AT+NwkSKey=00000000000000000000000000000000`"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:133
+msgid "AppSKey"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:135
+msgid ""
+"Config AppSKey to \"00000000000000000000000000000000\", send following "
+"command via serial port:"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:137
+msgid "`AT+AppSKey=00000000000000000000000000000000`"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:147
+msgid "DevAddr"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:149
+msgid "Config DevAddr to \"00000000\", send following command via serial port:"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:151
+msgid "`AT+DevAddr=00000000`"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:160
+msgid "Duty Cycle"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:162
+msgid ""
+"LoRa Node's default sending data period is 15 seconds, change this period"
+" to 60 seconds:"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:164
+msgid "`AT+DutyCycle=60000`"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:166
+msgid "Reset CubeCell"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:168
+msgid ""
+"LoRaWAN parameters need reset to active, CubeCell can reset via three "
+"methods:"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:170
+msgid "Push the RST key;"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:171
+msgid "Use AT command: `AT+RESET=1`"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:172
+msgid "Provide a ≥10ms LOW signal to RST pin."
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:174
+msgid ""
+"Looking for more AT commands? Please refer to **[CubeCell AT Command "
+"list](https://resource.heltec.cn/download/CubeCell/AT_Command_list/CubeCell_Series_AT_Command_User_Manual_V0.4.pdf)**."
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:178
+msgid "Via CubeCell Configurator"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:180
+msgid ""
+"Special thanks [WASN](https://github.com/wasn-eu) made a configurator for"
+" CubeCell, now it's only have Windows<sup>®</sup> support."
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:182
+msgid ""
+"[https://github.com/wasn-eu/CubeCell_Getting_Started](https://github.com"
+"/wasn-eu/CubeCell_Getting_Started)"
+msgstr ""
+
+#: ../../source/lorawan/config_parameter.md:184
+msgid "![](img/config_parameter/02.png)"
+msgstr ""
+

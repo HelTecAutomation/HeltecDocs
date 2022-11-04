@@ -1,0 +1,61 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the ht-m01s package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ht-m01s \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-03 15:17+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/index.rst:14
+msgid "Quick Start"
+msgstr ""
+
+#: ../../source/index.rst:14
+msgid "Coneect to LoRa server"
+msgstr ""
+
+#: ../../source/index.rst:14
+msgid "Update Firmware"
+msgstr ""
+
+#: ../../source/index.rst:2
+msgid "HT-M01S Indoor LoRa Gateway"
+msgstr ""
+
+#: ../../source/index.rst:3
+msgid ":ht_translation:`[简体中文]:[English]`"
+msgstr ""
+
+#: ../../source/index.rst:5
+msgid "HT-M01S is positioned as a low-cost standard gateway for indoor use. LoRa part based on the SX1308 + 1255/7 structure,  we innovatively use ESP32 as the main control chip, and completely transplant the hardware driver, data forwarding and message queue of SX1308 to the ESP32 platform. There is no need to run the Linux operating system separately. It is simpler and more convenient to use. HT-M01S has basic mechanical protection and dustproof structure, but does not have waterproof performance. It can be connected to the cloud server via Wi-Fi or Ethernet, can be powered by Type-C_5V or PoE, and has a 1.8-inch TFT display under the tempered glass panel. It is very suitable for deployment in factories, warehouses, homes and other indoor environments that can provide power and network."
+msgstr ""
+
+#: ../../source/index.rst:8
+msgid "SX1308 baseband chip;"
+msgstr ""
+
+#: ../../source/index.rst:9
+msgid "LoRaWAN protocol 1.0.2 Class A, Class C support;"
+msgstr ""
+
+#: ../../source/index.rst:10
+msgid "Support Wi-Fi or Ethernet to connect to the network;;"
+msgstr ""
+
+#: ../../source/index.rst:11
+msgid "Support Type-C_5V or PoE power supply；"
+msgstr ""
+
+#: ../../source/index.rst:12
+msgid "Onboard 1.8-inch TFT display."
+msgstr ""

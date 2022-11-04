@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the esp32 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: esp32 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-03 15:27+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/wireless_bridge/wifi_ble_user_manual.md:1
+msgid "Wireless Bridge WiFi_BLE Example User Manual"
+msgstr ""
+
+#: ../../source/wireless_bridge/wifi_ble_user_manual.md:3
+msgid "{ht_translation}`[简体中文]:[English]`"
+msgstr ""
+
+#: ../../source/wireless_bridge/wifi_ble_user_manual.md:5
+msgid "Summary"
+msgstr ""
+
+#: ../../source/wireless_bridge/wifi_ble_user_manual.md:7
+msgid "This document will briefly introduce the usage of Wireless_Bridge WiFi_BLE example."
+msgstr ""
+
+#: ../../source/wireless_bridge/wifi_ble_user_manual.md:9
+msgid "Usage"
+msgstr ""
+
+#: ../../source/wireless_bridge/wifi_ble_user_manual.md:11
+msgid "To view Bluetooth messages, you need the corresponding Bluetooth debugging tools."
+msgstr ""
+
+#: ../../source/wireless_bridge/wifi_ble_user_manual.md:13
+msgid "Configure WiFi information in the program."
+msgstr ""
+
+#: ../../source/wireless_bridge/wifi_ble_user_manual.md:15
+msgid "![](img/wifi_ble_user_manual/01.png)"
+msgstr ""
+
+#: ../../source/wireless_bridge/wifi_ble_user_manual.md:17
+msgid "After uploading the program to the development board, open the serial port to view the IP address of the web page. Among them, \"View page IP address\" is the viewing webpage for forwarding Bluetooth information to WiFi, and \"Write page IP address\" is the sending webpage for forwarding WiFi information to Bluetooth. The device that opens the webpage must be in the same local area network as the Wireless_Bridge."
+msgstr ""
+
+#: ../../source/wireless_bridge/wifi_ble_user_manual.md:19
+msgid "![](img/wifi_ble_user_manual/02.png)"
+msgstr ""
+
+#: ../../source/wireless_bridge/wifi_ble_user_manual.md:21
+msgid "Open the corresponding Bluetooth debugging tool and connect to the Bluetooth named \"UART Service\". When connecting, please note that the Bluetooth transmission parameters are consistent with the parameters in the program."
+msgstr ""
+
+#: ../../source/wireless_bridge/wifi_ble_user_manual.md:23
+msgid "![](img/wifi_ble_user_manual/03.png)"
+msgstr ""
+
+#: ../../source/wireless_bridge/wifi_ble_user_manual.md:25
+msgid "After the Bluetooth connection is successful, send information through the Bluetooth debugging tool, and the received data will be displayed on the web page via WiFi. The default web page refresh time is 10S, and the web page refresh time can be modified in the \"setTimeout\" function according to specific needs."
+msgstr ""
+
+#: ../../source/wireless_bridge/wifi_ble_user_manual.md:27
+msgid "![](img/wifi_ble_user_manual/04.png)"
+msgstr ""
+
+#: ../../source/wireless_bridge/wifi_ble_user_manual.md:29
+msgid "The information issued by the webpage will be forwarded to Bluetooth and can be viewed in the Bluetooth debugging tool."
+msgstr ""
+
+#: ../../source/wireless_bridge/wifi_ble_user_manual.md:31
+msgid "![](img/wifi_ble_user_manual/05.png)"
+msgstr ""

@@ -1,0 +1,177 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the main package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: main \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-03 15:22+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../general/connect_to_single_channel_gateway.md:1
+msgid "LoRa Node Connect to a Single/Dual Channel Gateway"
+msgstr ""
+
+#: ../../general/connect_to_single_channel_gateway.md:3
+msgid "{ht_translation}`[简体中文]:[English]`"
+msgstr ""
+
+#: ../../general/connect_to_single_channel_gateway.md:5
+msgid "Summary"
+msgstr ""
+
+#: ../../general/connect_to_single_channel_gateway.md:7
+msgid ""
+"This article aims to describe how to connect nodes to a non-standard "
+"gateway less than 8 channels (such as a sigle channel gateway and [Heltec"
+" HT-M00 Dual Channel Gateway](https://heltec.org/project/ht-m00/)). The "
+"key to a succcess communication between the node and the gateway: **The "
+"sending/listenig frequency between the gateway and Node must match!!!**"
+msgstr ""
+
+#: ../../general/connect_to_single_channel_gateway.md:9
+msgid ""
+"This document have a detailed introduction to the channel mask, highly "
+"recommend read it carefully and that will make sense: [LoRaWAN example "
+"Sub-Band usage (AU915)](https://heltec-automation-"
+"docs.readthedocs.io/en/latest/general/sub_band_usage.html)."
+msgstr ""
+
+#: ../../general/connect_to_single_channel_gateway.md:15
+#: ../../general/connect_to_single_channel_gateway.md:41
+msgid "&nbsp;"
+msgstr ""
+
+#: ../../general/connect_to_single_channel_gateway.md:17
+msgid "Communication Channels and Frequencies"
+msgstr ""
+
+#: ../../general/connect_to_single_channel_gateway.md:19
+msgid ""
+"In the LoRaWAN protocol, the uplink and downlink frequencies of each band"
+" are defined in detail. These frequencies used are called channels. For "
+"reference, we have intercepted the description of the CN470-510 channel "
+"definition in the protocol document."
+msgstr ""
+
+#: ../../general/connect_to_single_channel_gateway.md:21
+msgid "![](img/connect_to_single_channel_gateway/01.png)"
+msgstr ""
+
+#: ../../general/connect_to_single_channel_gateway.md:23
+msgid ""
+"CN470 corresponds to a total of 96 channels from 470.3MHz to 489.3MHz. "
+"For every 200kHz increase in frequency, the channel code increases by 1, "
+"namely:"
+msgstr ""
+
+#: ../../general/connect_to_single_channel_gateway.md:25
+msgid "`freq(MHz)=470.3+0.2*N`"
+msgstr ""
+
+#: ../../general/connect_to_single_channel_gateway.md:27
+msgid ""
+"In the code of loramac-node, the content in the `userChannelsMask` array "
+"corresponds to the communication channel. A bit set to 1, means that the "
+"channel is enabled."
+msgstr ""
+
+#: ../../general/connect_to_single_channel_gateway.md:29
+msgid ""
+"In the [Heltec ESP32 LoRa](https://heltec.org/proudct_center/lora/lora-"
+"node/) and [CubeCell](https://heltec.org/proudct_center/lora/cubecell/) "
+"example code, we had moved the `ChannelsMask` definition to the `.ino` "
+"files."
+msgstr ""
+
+#: ../../general/connect_to_single_channel_gateway.md:31
+msgid "![](img/connect_to_single_channel_gateway/02.png)"
+msgstr ""
+
+#: ../../general/connect_to_single_channel_gateway.md:33
+msgid ""
+"In the default definition had enabled channels 0~7, and if node use band "
+"CN470, that means the node send date will use 470.3~471.7 MHz, and "
+"lestenning downlink message will use 500.3~501.7 MHz."
+msgstr ""
+
+#: ../../general/connect_to_single_channel_gateway.md:35
+msgid "If the code become to this, what  channels will be?"
+msgstr ""
+
+#: ../../general/connect_to_single_channel_gateway.md:37
+msgid ""
+"`uint16_t userChannelsMask[6]={ 0x0000,0xFFF0,0x0000,0x0000,0x0000,0x0000"
+" };`"
+msgstr ""
+
+#: ../../general/connect_to_single_channel_gateway.md:39
+msgid "The answer is **Channels 21~32**."
+msgstr ""
+
+#: ../../general/connect_to_single_channel_gateway.md:43
+msgid "Instructions for Use"
+msgstr ""
+
+#: ../../general/connect_to_single_channel_gateway.md:45
+msgid ""
+"Generally speaking, to connect a node to a Single/Dual-channel gateway, "
+"we need to make the channel used by the node correspond to the channel of"
+" the Single/Dual-channel gateway!"
+msgstr ""
+
+#: ../../general/connect_to_single_channel_gateway.md:47
+msgid ""
+"Example 1 -- Connect to [Heltec HT-M00 Dual-Channel "
+"Gateway](https://heltec.org/project/ht-m00/)"
+msgstr ""
+
+#: ../../general/connect_to_single_channel_gateway.md:49
+msgid ""
+"If the HT-M00 is setted to 472. 1 and 472.3 (channels 10, 11), the "
+"`ChannelsMask` should be:"
+msgstr ""
+
+#: ../../general/connect_to_single_channel_gateway.md:51
+msgid ""
+"`uint16_t userChannelsMask[6]={ 0x0600,0x0000,0x0000,0x0000,0x0000,0x0000"
+" };`"
+msgstr ""
+
+#: ../../general/connect_to_single_channel_gateway.md:53
+msgid "Example 2 -- Connect to a single channel gateway"
+msgstr ""
+
+#: ../../general/connect_to_single_channel_gateway.md:55
+msgid ""
+"The single channel getaway is setted to 470.7 MHz (channel 3), the "
+"`ChannelsMask` should be;"
+msgstr ""
+
+#: ../../general/connect_to_single_channel_gateway.md:57
+msgid ""
+"`uint16_t userChannelsMask[6]={ 0x0004,0x0000,0x0000,0x0000,0x0000,0x0000"
+" };`"
+msgstr ""
+
+#: ../../general/connect_to_single_channel_gateway.md:61
+msgid "Relevant Resources"
+msgstr ""
+
+#: ../../general/connect_to_single_channel_gateway.md:63
+msgid ""
+"[Fix Preamble Length to Fit HT-M00 Dual-Channel Gateway](https://heltec-"
+"automation-"
+"docs.readthedocs.io/en/latest/gateway/frequently_asked_questions.html"
+"#fix-preamble-length-to-fit-ht-m00-dual-channel-gateway)"
+msgstr ""
+

@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the main package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: main \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-03 15:22+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../general/decode_payload.md:1
+msgid "How to Decode Payload Data"
+msgstr ""
+
+#: ../../general/decode_payload.md:2
+msgid "{ht_translation}`[简体中文]:[English]`"
+msgstr ""
+
+#: ../../general/decode_payload.md:3
+msgid "Why need decode messages?"
+msgstr ""
+
+#: ../../general/decode_payload.md:5
+msgid "Suppose you have a very high accurate sensor, for example, the measured data is 27.313232421875, if send this data via string like `char data[] = \"27.313232421875\"`, Has the following disadvantages:"
+msgstr ""
+
+#: ../../general/decode_payload.md:7
+msgid "It spends more bytes *(in this example, it will spend 15 bytes)*;"
+msgstr ""
+
+#: ../../general/decode_payload.md:8
+msgid "Convert float to char process consumes a lot of computing resources."
+msgstr ""
+
+#: ../../general/decode_payload.md:10
+msgid "Everyone knows that `float` data occupies 4 bytes in memory, and `unsigned int` data occupies 2 bytes. If transmit in byte `80 81 DA 41`, only spend 4 bytes! It can perfectly avoid the above disadvantages. But the data in byte format is hard to read for people, this may cause a lot of trouble for the debugging process. So we need to restore byte data to float."
+msgstr ""
+
+#: ../../general/decode_payload.md:12
+msgid "Decode payload data in TTN"
+msgstr ""
+
+#: ../../general/decode_payload.md:14
+msgid "In the `Applications -> Node name -> Payload Formats -> decoder` section, add following `js` script:"
+msgstr ""
+
+#: ../../general/decode_payload.md:35
+msgid "![](img/decode_payload/01.png)"
+msgstr ""
+
+#: ../../general/decode_payload.md:37
+msgid "Now, we can have a try if this decoder running:"
+msgstr ""
+
+#: ../../general/decode_payload.md:39
+msgid "![](img/decode_payload/02.png)"
+msgstr ""
+
+#: ../../general/decode_payload.md:41
+msgid "That's it!"
+msgstr ""
+
+#: ../../general/decode_payload.md:43
+msgid "Decode payload data in ChripStack"
+msgstr ""
+
+#: ../../general/decode_payload.md:45
+msgid "Similar with TTN, add relevant decode script in the `Applications -> Node name -> APPLICATION CONFIGURATION` section:"
+msgstr ""
+
+#: ../../general/decode_payload.md:47
+msgid "![](img/decode_payload/03.png)"
+msgstr ""

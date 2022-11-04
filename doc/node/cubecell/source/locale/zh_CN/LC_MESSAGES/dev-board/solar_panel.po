@@ -1,0 +1,56 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the cubecell package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: cubecell \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-03 15:25+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/dev-board/solar_panel.md:1
+msgid "Connect a Solar Panel to CubeCell Boards"
+msgstr ""
+
+#: ../../source/dev-board/solar_panel.md:2
+msgid "{ht_translation}`[简体中文]:[English]`"
+msgstr ""
+
+#: ../../source/dev-board/solar_panel.md:4
+msgid "Take HTCC-AB01 as an example."
+msgstr ""
+
+#: ../../source/dev-board/solar_panel.md:6
+msgid ""
+"Please refer to the [pinout diagram of HTCC-"
+"AB01](https://resource.heltec.cn/download/CubeCell/HTCC-AB01/HTCC-"
+"AB01_PinoutDiagram.pdf)."
+msgstr ""
+
+#: ../../source/dev-board/solar_panel.md:8
+msgid ""
+"The `VS` pin is the solar panel input, any 5.5~7V solar panel can be "
+"connected to this `VS` and `GND`."
+msgstr ""
+
+#: ../../source/dev-board/solar_panel.md:10
+msgid "![](img/solar_panel/03.png)"
+msgstr ""
+
+#: ../../source/dev-board/solar_panel.md:16
+msgid "![](img/solar_panel/01.png)"
+msgstr ""
+
+#: ../../source/dev-board/solar_panel.md:20
+msgid "![](img/solar_panel/02.png)"
+msgstr ""
+

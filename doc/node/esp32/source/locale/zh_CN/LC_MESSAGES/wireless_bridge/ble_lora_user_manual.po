@@ -1,0 +1,90 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the esp32 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: esp32 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-03 15:27+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/wireless_bridge/ble_lora_user_manual.md:1
+msgid "Wireless Bridge BLE_LoRa Example User Manual"
+msgstr ""
+
+#: ../../source/wireless_bridge/ble_lora_user_manual.md:3
+msgid "{ht_translation}`[简体中文]:[English]`"
+msgstr ""
+
+#: ../../source/wireless_bridge/ble_lora_user_manual.md:5
+msgid "Summary"
+msgstr ""
+
+#: ../../source/wireless_bridge/ble_lora_user_manual.md:7
+msgid ""
+"This document will briefly introduce the usage of Wireless_Bridge "
+"BLE_LoRa example."
+msgstr ""
+
+#: ../../source/wireless_bridge/ble_lora_user_manual.md:10
+msgid "loraWanClass should choose CLASS_C"
+msgstr ""
+
+#: ../../source/wireless_bridge/ble_lora_user_manual.md:13
+msgid "Usage"
+msgstr ""
+
+#: ../../source/wireless_bridge/ble_lora_user_manual.md:15
+msgid ""
+"Before starting the test, make sure that Wireless_Bridge can communicate "
+"with the gateway normally. To view Bluetooth messages, you need the "
+"corresponding Bluetooth debugging tools."
+msgstr ""
+
+#: ../../source/wireless_bridge/ble_lora_user_manual.md:17
+msgid ""
+"After uploading the program to the development board, open the "
+"corresponding Bluetooth debugging tool and connect to the Bluetooth named"
+" \"UART Service\". When connecting, please note that the Bluetooth "
+"transmission parameters are consistent with the parameters in the "
+"program."
+msgstr ""
+
+#: ../../source/wireless_bridge/ble_lora_user_manual.md:19
+msgid "![](img/ble_lora_user_manual/01.png)"
+msgstr ""
+
+#: ../../source/wireless_bridge/ble_lora_user_manual.md:21
+msgid ""
+"After the Bluetooth connection is successful, the information sent "
+"through the Bluetooth debugging tool will be forwarded to LoRa. The "
+"information forwarded to LoRa needs to be decoded accordingly."
+msgstr ""
+
+#: ../../source/wireless_bridge/ble_lora_user_manual.md:23
+msgid "![](img/ble_lora_user_manual/02.png)"
+msgstr ""
+
+#: ../../source/wireless_bridge/ble_lora_user_manual.md:25
+msgid ""
+"The information sent via LoRa will be forwarded to Bluetooth, and can be "
+"viewed in the Bluetooth debugging tool."
+msgstr ""
+
+#: ../../source/wireless_bridge/ble_lora_user_manual.md:27
+msgid "![](img/ble_lora_user_manual/03.png)"
+msgstr ""
+
+#: ../../source/wireless_bridge/ble_lora_user_manual.md:29
+msgid "The corresponding decoding of this example is as follows:"
+msgstr ""
+

@@ -1,0 +1,97 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the main package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: main \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-03 15:22+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../index.rst:11
+msgid "HT-M00 Dual Channel LoRa Gateway"
+msgstr ""
+
+#: ../../index.rst:11
+msgid "HT-M01 Evaluation LoRa Gateway"
+msgstr ""
+
+#: ../../index.rst:11
+msgid "HT-M01S Indoor LoRa Gateway"
+msgstr ""
+
+#: ../../index.rst:11
+msgid "HT-M01S-V2 Indoor LoRa Gateway"
+msgstr ""
+
+#: ../../index.rst:11
+msgid "HT-M02 Edge LoRa Gateway(4G/LTE)"
+msgstr ""
+
+#: ../../index.rst:11
+msgid "HT-M02 Edge LoRa Gateway(POE)"
+msgstr ""
+
+#: ../../index.rst:11
+msgid "SX1301 Module"
+msgstr ""
+
+#: ../../index.rst:11
+msgid "SX1303 Module"
+msgstr ""
+
+#: ../../index.rst:11
+msgid "LoRa Gateway"
+msgstr ""
+
+#: ../../index.rst:24
+msgid "CubeCell Series"
+msgstr ""
+
+#: ../../index.rst:24
+msgid "ESP32 + LoRa"
+msgstr ""
+
+#: ../../index.rst:24
+msgid "STM32 + LoRa"
+msgstr ""
+
+#: ../../index.rst:24
+msgid "LoRa Nodes"
+msgstr ""
+
+#: ../../index.rst:32
+msgid "ESP32 + Arduino"
+msgstr ""
+
+#: ../../index.rst:32
+msgid "ESP8266 + Arduino"
+msgstr ""
+
+#: ../../index.rst:32
+msgid "Arduino Nodes"
+msgstr ""
+
+#: ../../index.rst:40
+msgid "General Docs"
+msgstr ""
+
+#: ../../index.rst:7
+msgid "Heltec Product Documention"
+msgstr ""
+
+#: ../../index.rst:9
+msgid ""
+"This is the documentation for `Heltec Automation <https://heltec.org>`_ "
+"products."
+msgstr ""
+

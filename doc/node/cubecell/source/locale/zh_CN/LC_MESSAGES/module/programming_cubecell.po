@@ -1,0 +1,154 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the cubecell package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: cubecell \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-03 15:25+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/module/programming_cubecell.md:1
+msgid "How to programming a CubeCell Module"
+msgstr ""
+
+#: ../../source/module/programming_cubecell.md:2
+msgid "{ht_translation}`[简体中文]:[English]`"
+msgstr ""
+
+#: ../../source/module/programming_cubecell.md:4
+msgid "**CubeCell module provide two version:**"
+msgstr ""
+
+#: ../../source/module/programming_cubecell.md:6
+msgid "**AT command only**"
+msgstr ""
+
+#: ../../source/module/programming_cubecell.md:7
+msgid ""
+"*For the flash size reason, the \"AT command only\" HTCC-AM01 only "
+"provide CN470-510MHz hardware versions, sending & lestening frequency are"
+" fixed (Channel 0~7), cannot be configured by software, and can't upgrade"
+" without special hardwares.*"
+msgstr ""
+
+#: ../../source/module/programming_cubecell.md:8
+msgid "**Arduino compatible & AT command**"
+msgstr ""
+
+#: ../../source/module/programming_cubecell.md:9
+msgid ""
+"*Support AT command defaultly, already have an actived Arduino "
+"bootloader, can development via Arduino.*"
+msgstr ""
+
+#: ../../source/module/programming_cubecell.md:11
+msgid ""
+"This document is for the \"Arduino compatible & AT command\" version. "
+"Take HTCC-AM01 as an example."
+msgstr ""
+
+#: ../../source/module/programming_cubecell.md:13
+msgid ""
+"CubeCell module (HTCC-AM01) only have ASR6501and RF relevant circute "
+"inside. In order to program it, need connect to a external UART-USB "
+"bridge. CH340G, CP2102 etc."
+msgstr ""
+
+#: ../../source/module/programming_cubecell.md:15
+#: ../../source/module/programming_cubecell.md:40
+msgid "&nbsp;"
+msgstr ""
+
+#: ../../source/module/programming_cubecell.md:17
+msgid "1. Recommend Circuit"
+msgstr ""
+
+#: ../../source/module/programming_cubecell.md:19
+msgid "There are two recommend schematics:"
+msgstr ""
+
+#: ../../source/module/programming_cubecell.md:21
+msgid ""
+"**[Arduino compatible recommend "
+"design](http://resource.heltec.cn/download/CubeCell/HTCC-AM01_Module"
+"/HTCC-AM01_Reference_Design(Arduino).pdf)**"
+msgstr ""
+
+#: ../../source/module/programming_cubecell.md:22
+msgid ""
+"This circuit have an auto boot circuit, can running into bootloader mode "
+"automatically."
+msgstr ""
+
+#: ../../source/module/programming_cubecell.md:23
+msgid ""
+"**[A slave module control by a master "
+"device](http://resource.heltec.cn/download/CubeCell/HTCC-AM01_Module"
+"/HTCC-AM01_Reference_Design(AT).pdf)**"
+msgstr ""
+
+#: ../../source/module/programming_cubecell.md:24
+msgid ""
+"This circuit need access bootloader mode manually ([How to access "
+"bootloader](https://heltec-automation-"
+"docs.readthedocs.io/en/latest/cubecell/frequently_asked_questions.html"
+"#how-to-access-bootloader-mode))."
+msgstr ""
+
+#: ../../source/module/programming_cubecell.md:26
+msgid "2. Preparation"
+msgstr ""
+
+#: ../../source/module/programming_cubecell.md:28
+msgid ""
+"Install the CubeCell development framework correctly ([Reference "
+"resources](https://heltec-automation-"
+"docs.readthedocs.io/en/latest/cubecell/quick_start.html));"
+msgstr ""
+
+#: ../../source/module/programming_cubecell.md:29
+msgid ""
+"Connect your redesigned board to a computer, make sure useing a high "
+"quality Micro USB cable;"
+msgstr ""
+
+#: ../../source/module/programming_cubecell.md:30
+msgid ""
+"success access the bootloader mode, following log will be print via "
+"serial port:"
+msgstr ""
+
+#: ../../source/module/programming_cubecell.md:32
+msgid "![](img/programming_cubecell/01.png)"
+msgstr ""
+
+#: ../../source/module/programming_cubecell.md:34
+msgid ""
+"*If use the Arduino compatible circuit, and system into bootloader mode "
+"automatically, will not see this log. Log printed by CubeCell normally, "
+"but the com port used by IDE for programming purpose,  there is no place "
+"to show.*"
+msgstr ""
+
+#: ../../source/module/programming_cubecell.md:36
+msgid "3. Program via Arduino IDE;"
+msgstr ""
+
+#: ../../source/module/programming_cubecell.md:38
+msgid "![](img/programming_cubecell/02.png)"
+msgstr ""
+
+#: ../../source/module/programming_cubecell.md:42
+msgid "Enjoy."
+msgstr ""
+

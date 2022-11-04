@@ -1,0 +1,267 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the ht-m01 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ht-m01 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-03 17:46+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/quick_start.md:1
+msgid "HT-M01 Mini LoRa Gateway Quick Start"
+msgstr ""
+
+#: ../../source/quick_start.md:2
+msgid "{ht_translation}`[简体中文]:[English]`"
+msgstr ""
+
+#: ../../source/quick_start.md:3
+msgid "Summary"
+msgstr ""
+
+#: ../../source/quick_start.md:5
+msgid ""
+"The HT-M01 LoRa Gateway supports both USB and SPI mode. The SPI mode can "
+"only running with Linux systems (Raspberry PI), the USB mode can be used "
+"on Linux and Windows<sup>®</sup>. generally speaking, to make HT-M01 "
+"running, just chose one of the following three methods:"
+msgstr ""
+
+#: ../../source/quick_start.md:7
+msgid "**Linux (Raspberry PI)**"
+msgstr ""
+
+#: ../../source/quick_start.md:8
+msgid "[SPI mode](spi-mode)"
+msgstr ""
+
+#: ../../source/quick_start.md:9
+msgid "[USB mode](usb-mode)"
+msgstr ""
+
+#: ../../source/quick_start.md:10
+msgid "**Windows<sup>®</sup>**"
+msgstr ""
+
+#: ../../source/quick_start.md:11
+msgid "[USB mode for Windows<sup>®</sup>](use-ht-m01-with-windows-sup-sup)"
+msgstr ""
+
+#: ../../source/quick_start.md:15
+msgid "Use HT-M01 with Linux (Raspberry PI)"
+msgstr ""
+
+#: ../../source/quick_start.md:17
+msgid ""
+"Before all operation, make sure you have a Raspberry Pi that works and "
+"can connect to Wi-Fi. In this document, we used [Raspberry Pi Zero "
+"W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/)."
+msgstr ""
+
+#: ../../source/quick_start.md:20
+msgid "As we tested, Raspberry Pi 2, 3, 3B are also worked."
+msgstr ""
+
+#: ../../source/quick_start.md:23
+msgid ""
+"**[Raspberry Pi "
+"Configuration](https://docs.heltec.org/general/how_to_config_raspberry_pi.html)**"
+msgstr ""
+
+#: ../../source/quick_start.md:26
+msgid "SPI mode"
+msgstr ""
+
+#: ../../source/quick_start.md:28
+msgid ""
+"Have a [PRI to HT-M01 "
+"converter](https://heltec.org/product/m01-converter/) will make your "
+"operation more easy."
+msgstr ""
+
+#: ../../source/quick_start.md:30
+msgid "![](img/quick_start/01.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:32
+msgid ""
+"The wiring diagram of the Raspberry Pi and the adapter board is shown in "
+"the figure below."
+msgstr ""
+
+#: ../../source/quick_start.md:34
+msgid "![](img/quick_start/09.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:36
+msgid ""
+"The Raspberry Pi SPI bus is disabled by default. Enter the following "
+"command in putty to open the Raspberry Pi configuration interface and "
+"enable the SPI bus."
+msgstr ""
+
+#: ../../source/quick_start.md:38
+msgid "`sudo raspi-config`"
+msgstr ""
+
+#: ../../source/quick_start.md:40
+msgid "![](img/quick_start/02.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:42
+msgid ""
+"Choose `Interfacing Options → SPI → Yes` and may need restart Raspberry "
+"Pi."
+msgstr ""
+
+#: ../../source/quick_start.md:44
+msgid "Install HT-M01 relevant application and services via following commands:"
+msgstr ""
+
+#: ../../source/quick_start.md:69 ../../source/quick_start.md:96
+msgid ""
+"Among them, \"global_conf_EU868.json\" can be replaced with "
+"\"global_conf_EU433.json\", \"global_conf_CN470.json\", "
+"\"global_conf_US915.json\", etc., respectively corresponding to the "
+"corresponding frequency bands."
+msgstr ""
+
+#: ../../source/quick_start.md:72 ../../source/quick_start.md:117
+msgid "USB mode"
+msgstr ""
+
+#: ../../source/quick_start.md:74
+msgid ""
+"Before proceeding with the following operations, use a high-quality Micro"
+" USB cable to connect the HT-M01 Gateway to the Raspberry Pi, otherwise "
+"it will cause a lot of problems! Enter the following commands:"
+msgstr ""
+
+#: ../../source/quick_start.md:99
+msgid ""
+"The \"global_conf.json\" file determines the listening frequency of the "
+"gateway, which is the key to a node can successfully communicate with the"
+" gateway!"
+msgstr ""
+
+#: ../../source/quick_start.md:102
+msgid ""
+"Whether it is in SPI or USB mode, when `./install.sh` is executed, if "
+"everything goes normal, the unique ID of the current gateway will be "
+"printed. **While register a gateway on a LoRa server need this unique "
+"ID.**"
+msgstr ""
+
+#: ../../source/quick_start.md:104
+msgid "![](img/quick_start/08.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:106
+msgid "Confirm Installation"
+msgstr ""
+
+#: ../../source/quick_start.md:108
+msgid ""
+"Run `sudo systemctl status lrgateway` in Raspberry Pi, if all goes well, "
+"the service is running:"
+msgstr ""
+
+#: ../../source/quick_start.md:110
+msgid "![](img/quick_start/03.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:112
+msgid "&nbsp;"
+msgstr ""
+
+#: ../../source/quick_start.md:115
+msgid "Use HT-M01 with Windows<sup>®</sup>"
+msgstr ""
+
+#: ../../source/quick_start.md:119
+msgid ""
+"Install [PicoGW "
+"UI](http://resource.heltec.cn/download/HT-M01/PicoGW_UI_Release_V1.0.3.4.zip)"
+" **before** connect HT-M01 to a Windows<sup>®</sup> computer. then with "
+"HT-M01 connected, you will see a serial device in Windows<sup>®</sup> "
+"device manager."
+msgstr ""
+
+#: ../../source/quick_start.md:121
+msgid "![](img/quick_start/04.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:123
+msgid ""
+"Open PicoGW_UI and choose suitable region and click `Save my choice`. The"
+" default region didn't cover your location? please refer to this "
+"document."
+msgstr ""
+
+#: ../../source/quick_start.md:125
+msgid "![](img/quick_start/05.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:127
+msgid "Choose `Packet Forwarder`."
+msgstr ""
+
+#: ../../source/quick_start.md:129
+msgid "![](img/quick_start/06.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:131
+msgid "Configuration PicoGW Tools"
+msgstr ""
+
+#: ../../source/quick_start.md:133
+msgid "![](img/quick_start/07.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:135
+msgid ""
+"Click `Global Conf` to open the `Properties_UI` window, the parameters in"
+" this window are relative to the `global_conf.json` in `C:\\Users\\user "
+"name\\AppData\\Roaming\\Semtech\\PicoGW_UI` path. We just need pay "
+"attention to this three parts, others keep default."
+msgstr ""
+
+#: ../../source/quick_start.md:137
+msgid ""
+"**Cloud network/Server Address** and **Port** -- This part is used for "
+"TTN only;"
+msgstr ""
+
+#: ../../source/quick_start.md:138
+msgid ""
+"**Gateway properties/Server Address**, **Port up** and **Port down** -- "
+"This part is used for a custom server, it can be cloud server, private or"
+" local server, such as [ChripStack](https://www.chirpstack.io/);"
+msgstr ""
+
+#: ../../source/quick_start.md:139
+msgid ""
+"**Get Gateway Unique ID** -- will generate a unique ID for your HT-M01, "
+"it will be used while register a gateway in the LoRa server."
+msgstr ""
+
+#: ../../source/quick_start.md:142
+msgid ""
+"the Unique ID generated by PicoGW UI and Raspberry Pi are different. "
+"Because the Unique ID from PicoGW UI is relative to HT-M01's STM32 chip. "
+"Raspberry Pi use self's ethernet Mac address."
+msgstr ""
+
+#~ msgid "**[Raspberry Pi Configuration]()**"
+#~ msgstr ""
+

@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the ht-m01 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ht-m01 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-03 15:16+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/add_region_on_picogw_ui.md:1
+msgid "Add More Region Support on PicoGW UI"
+msgstr ""
+
+#: ../../source/add_region_on_picogw_ui.md:2
+msgid "{ht_translation}`[简体中文]:[English]`"
+msgstr ""
+
+#: ../../source/add_region_on_picogw_ui.md:3
+msgid "Summary"
+msgstr ""
+
+#: ../../source/add_region_on_picogw_ui.md:5
+msgid "[PicoGW UI](http://resource.heltec.cn/download/HT-M01/PicoGW_UI_Release_V1.0.3.4.zip) is provided by Semtech<sup>®</sup>, allow users running a Pico Cell LoRa Gateway ([HT-M01](https://heltec.org/project/ht-m01)) on Windows<sup>®</sup> with directly UI."
+msgstr ""
+
+#: ../../source/add_region_on_picogw_ui.md:7
+msgid "But PicoGW_UI only provided four region support by default."
+msgstr ""
+
+#: ../../source/add_region_on_picogw_ui.md:9
+msgid "![](img/add_region_on_picogw_ui/01.png)"
+msgstr ""
+
+#: ../../source/add_region_on_picogw_ui.md:11
+msgid "Add More Region Support"
+msgstr ""
+
+#: ../../source/add_region_on_picogw_ui.md:13
+msgid "*Suppose you need to add support for AU915_SB2 ([AU915 Sub-band 2 for TTN](https://heltec-automation-docs.readthedocs.io/en/latest/general/sub_band_usage.html))*"
+msgstr ""
+
+#: ../../source/add_region_on_picogw_ui.md:15
+msgid "Clone or download this repository: [https://github.com/HelTecAutomation/lorasdk](https://github.com/HelTecAutomation/lorasdk);"
+msgstr ""
+
+#: ../../source/add_region_on_picogw_ui.md:16
+msgid "Rename `global_conf_AU915_SB2.json` to `global_conf.json`;"
+msgstr ""
+
+#: ../../source/add_region_on_picogw_ui.md:17
+msgid "Copy `global_conf.json` to `C:\\Users\\user name\\AppData\\Roaming\\Semtech\\PicoGW_UI` path and replace the current one;"
+msgstr ""
+
+#: ../../source/add_region_on_picogw_ui.md:18
+msgid "Reopen PicoGW_UI and choose `Keep the current gobal conf`."
+msgstr ""
+
+#: ../../source/add_region_on_picogw_ui.md:20
+msgid "![](img/add_region_on_picogw_ui/02.png)"
+msgstr ""
+
+#: ../../source/add_region_on_picogw_ui.md:22
+msgid "Now, the PicoGW_UI will work on the definition of `global_conf.json`."
+msgstr ""
+
+#: ../../source/add_region_on_picogw_ui.md:26
+msgid "&nbsp;"
+msgstr ""
+
+#: ../../source/add_region_on_picogw_ui.md:28
+msgid "External resources"
+msgstr ""
+
+#: ../../source/add_region_on_picogw_ui.md:30
+msgid "[LoRaWAN regional parameters](https://lora-alliance.org/sites/default/files/2018-04/lorawantm_regional_parameters_v1.1rb_-_final.pdf)"
+msgstr ""

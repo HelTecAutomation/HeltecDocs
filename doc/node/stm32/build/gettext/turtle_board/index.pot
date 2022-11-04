@@ -1,0 +1,69 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the stm32 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: stm32 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-03 15:30+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/turtle_board/index.rst:7
+msgid "Download Firmware"
+msgstr ""
+
+#: ../../source/turtle_board/index.rst:7
+msgid "Establish Serial Connection"
+msgstr ""
+
+#: ../../source/turtle_board/index.rst:7
+msgid "RadioShuttle Protocol Resource"
+msgstr ""
+
+#: ../../source/turtle_board/index.rst:7
+msgid "Hardware Update Logs"
+msgstr ""
+
+#: ../../source/turtle_board/index.rst:2
+msgid "Turtle Board"
+msgstr ""
+
+#: ../../source/turtle_board/index.rst:3
+msgid ":ht_translation:`[简体中文]:[English]`"
+msgstr ""
+
+#: ../../source/turtle_board/index.rst:5
+msgid "Turtle Board relevant documents."
+msgstr ""
+
+#: ../../source/turtle_board/index.rst:16
+msgid "Relevant Offical Resources"
+msgstr ""
+
+#: ../../source/turtle_board/index.rst:18
+msgid "LoRaWAN example for Turtle Board -- Refer to `this document <https://docs.heltec.org/general/view_limited_technical_data.html>`_ to get limited resource;"
+msgstr ""
+
+#: ../../source/turtle_board/index.rst:19
+msgid "Factory test firmware"
+msgstr ""
+
+#: ../../source/turtle_board/index.rst:21
+msgid "`470MHz <http://resource.heltec.cn/download/TurtleBoard/Turtle_RadioShuttle.FactoryTest_470.bin>`_"
+msgstr ""
+
+#: ../../source/turtle_board/index.rst:22
+msgid "`868MHz <http://resource.heltec.cn/download/TurtleBoard/Turtle_RadioShuttle.FactoryTest_868.bin>`_"
+msgstr ""
+
+#: ../../source/turtle_board/index.rst:23
+msgid "`Factory test source code <https://os.mbed.com/users/Helmut64/code/Turtle_RadioShuttle/>`_"
+msgstr ""

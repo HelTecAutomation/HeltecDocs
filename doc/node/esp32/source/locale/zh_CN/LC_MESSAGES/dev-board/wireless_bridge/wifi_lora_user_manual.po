@@ -1,0 +1,104 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the esp32 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: esp32 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-03 17:53+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/dev-board/wireless_bridge/wifi_lora_user_manual.md:1
+msgid "Wireless Bridge WiFi_LoRa Example User Manual"
+msgstr ""
+
+#: ../../source/dev-board/wireless_bridge/wifi_lora_user_manual.md:3
+msgid "{ht_translation}`[简体中文]:[English]`"
+msgstr ""
+
+#: ../../source/dev-board/wireless_bridge/wifi_lora_user_manual.md:5
+msgid "Summary"
+msgstr ""
+
+#: ../../source/dev-board/wireless_bridge/wifi_lora_user_manual.md:7
+msgid ""
+"This document will briefly introduce the usage of Wireless_Bridge "
+"WiFi_LoRa example."
+msgstr ""
+
+#: ../../source/dev-board/wireless_bridge/wifi_lora_user_manual.md:10
+msgid "loraWanClass should choose CLASS_C"
+msgstr ""
+
+#: ../../source/dev-board/wireless_bridge/wifi_lora_user_manual.md:13
+msgid "Usage"
+msgstr ""
+
+#: ../../source/dev-board/wireless_bridge/wifi_lora_user_manual.md:15
+msgid ""
+"Before starting the test, make sure that Wireless_Bridge can communicate "
+"with the gateway normally."
+msgstr ""
+
+#: ../../source/dev-board/wireless_bridge/wifi_lora_user_manual.md:17
+msgid "Configure WiFi information in the program."
+msgstr ""
+
+#: ../../source/dev-board/wireless_bridge/wifi_lora_user_manual.md:19
+msgid "![](img/wifi_lora_user_manual/01.png)"
+msgstr ""
+
+#: ../../source/dev-board/wireless_bridge/wifi_lora_user_manual.md:21
+msgid ""
+"After uploading the program to the development board, open the serial "
+"port to view the IP address of the web page. Among them, \"View page IP "
+"address\" is the viewing webpage for forwarding LoRa information to WiFi,"
+" and \"Write page IP address\" is the sending webpage for forwarding WiFi"
+" information to LoRa. The device that opens the webpage must be in the "
+"same local area network as the Wireless_Bridge."
+msgstr ""
+
+#: ../../source/dev-board/wireless_bridge/wifi_lora_user_manual.md:23
+msgid "![](img/wifi_lora_user_manual/02.png)"
+msgstr ""
+
+#: ../../source/dev-board/wireless_bridge/wifi_lora_user_manual.md:25
+msgid ""
+"Send information through LoRa, and the received data will be displayed on"
+" the web page through WiFi. The default web page refresh time is 10S, and"
+" the web page refresh time can be modified in the \"setTimeout\" function"
+" according to specific needs."
+msgstr ""
+
+#: ../../source/dev-board/wireless_bridge/wifi_lora_user_manual.md:27
+msgid "![](img/wifi_lora_user_manual/03.png)"
+msgstr ""
+
+#: ../../source/dev-board/wireless_bridge/wifi_lora_user_manual.md:29
+msgid "![](img/wifi_lora_user_manual/04.png)"
+msgstr ""
+
+#: ../../source/dev-board/wireless_bridge/wifi_lora_user_manual.md:31
+msgid ""
+"The information issued by the webpage will be forwarded to LoRa and can "
+"be viewed in the node data. The information forwarded to LoRa needs to be"
+" decoded accordingly."
+msgstr ""
+
+#: ../../source/dev-board/wireless_bridge/wifi_lora_user_manual.md:33
+msgid "![](img/wifi_lora_user_manual/05.png)"
+msgstr ""
+
+#: ../../source/dev-board/wireless_bridge/wifi_lora_user_manual.md:35
+msgid "The corresponding decoding of this example is as follows:"
+msgstr ""
+

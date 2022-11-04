@@ -1,0 +1,218 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the ht-m02_poe package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ht-m02_poe \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-03 15:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/connect_to_server.md:1
+msgid "Connect HT-M02 to a LoRa Server"
+msgstr ""
+
+#: ../../source/connect_to_server.md:2
+msgid "{ht_translation}`[简体中文]:[English]`"
+msgstr ""
+
+#: ../../source/connect_to_server.md:4
+msgid "Summary"
+msgstr ""
+
+#: ../../source/connect_to_server.md:6
+msgid ""
+"This article aims to describe how to connect [HT-M02 "
+"Gateway](https://heltec.org/project/ht-m02/) to a LoRa server, such as "
+"[TTN](https://www.thethingsnetwork.org/), "
+"[ChirpStack](https://www.chirpstack.io/), which facilitates secondary "
+"development and rapid deployment of LoRa devices."
+msgstr ""
+
+#: ../../source/connect_to_server.md:8
+msgid ""
+"Before all operation, make sure the HT-M02 is runing well . If not, "
+"please refer to this [HT-M02(4G/LTE) Quick Start](https://heltec-"
+"automation-docs.readthedocs.io/en/latest/gateway/ht-"
+"m02_4g/quick_start_4g.html) document."
+msgstr ""
+
+#: ../../source/connect_to_server.md:10 ../../source/connect_to_server.md:77
+msgid "&nbsp;"
+msgstr ""
+
+#: ../../source/connect_to_server.md:12 ../../source/connect_to_server.md:33
+msgid "Connect to TTN"
+msgstr ""
+
+#: ../../source/connect_to_server.md:14
+msgid "Register a LoRa gateway in TTN"
+msgstr ""
+
+#: ../../source/connect_to_server.md:16
+msgid ""
+"Create and active an account in TTN. Select ```Gateway``` in the "
+"[console](https://console.thethingsnetwork.org/) page."
+msgstr ""
+
+#: ../../source/connect_to_server.md:18
+msgid "![](img/connect_to_server/03.png)"
+msgstr ""
+
+#: ../../source/connect_to_server.md:20 ../../source/connect_to_server.md:96
+msgid "Fill in the HT-M02 information as shown below and complete the addition."
+msgstr ""
+
+#: ../../source/connect_to_server.md:22
+msgid "![](img/connect_to_server/04.png)"
+msgstr ""
+
+#: ../../source/connect_to_server.md:24
+msgid "**Gateway EUI** -- The unique ID of HT-M02 gateway;"
+msgstr ""
+
+#: ../../source/connect_to_server.md:25
+msgid "**I'm using the legacy packet forwarder** -- Must select this;"
+msgstr ""
+
+#: ../../source/connect_to_server.md:26
+msgid "**Frequency Plan** -- Must matach the LoRa band configuration in HT-M02；"
+msgstr ""
+
+#: ../../source/connect_to_server.md:27
+msgid "**Router** -- Must use the default router allocated by TTN system."
+msgstr ""
+
+#: ../../source/connect_to_server.md:30
+msgid "That four points are the key to success connection with TTN."
+msgstr ""
+
+#: ../../source/connect_to_server.md:35 ../../source/connect_to_server.md:104
+msgid ""
+"In the HT-M02 gateway, only the server address and port need to be "
+"configured."
+msgstr ""
+
+#: ../../source/connect_to_server.md:37 ../../source/connect_to_server.md:106
+msgid "config the `server address` and `port` in `global_conf.json`:"
+msgstr ""
+
+#: ../../source/connect_to_server.md:43 ../../source/connect_to_server.md:112
+msgid "At the end of this file, make suitable changes:"
+msgstr ""
+
+#: ../../source/connect_to_server.md:51 ../../source/connect_to_server.md:120
+msgid "![](img/connect_to_server/01.png)"
+msgstr ""
+
+#: ../../source/connect_to_server.md:53 ../../source/connect_to_server.md:122
+msgid "`ctrl + O` to save and `ctrl + X` to exit, and restart the service:"
+msgstr ""
+
+#: ../../source/connect_to_server.md:59 ../../source/connect_to_server.md:128
+msgid "Check whether the system running normally:"
+msgstr ""
+
+#: ../../source/connect_to_server.md:65 ../../source/connect_to_server.md:134
+msgid "![](img/connect_to_server/02.png)"
+msgstr ""
+
+#: ../../source/connect_to_server.md:67
+msgid "The TTN's router addresses for different region:"
+msgstr ""
+
+#: ../../source/connect_to_server.md:69
+msgid ""
+"[https://www.thethingsnetwork.org/docs/gateways/packet-forwarder/semtech-"
+"udp.html#router-addresses](https://www.thethingsnetwork.org/docs/gateways"
+"/packet-forwarder/semtech-udp.html#router-addresses)"
+msgstr ""
+
+#: ../../source/connect_to_server.md:71
+msgid "![](img/connect_to_server/05.png)"
+msgstr ""
+
+#: ../../source/connect_to_server.md:73
+msgid "View gateway status, it is runing:："
+msgstr ""
+
+#: ../../source/connect_to_server.md:75
+msgid "![](img/connect_to_server/06.png)"
+msgstr ""
+
+#: ../../source/connect_to_server.md:79 ../../source/connect_to_server.md:102
+msgid "Connect to ChirpStack server"
+msgstr ""
+
+#: ../../source/connect_to_server.md:81
+msgid ""
+"[ChirpStack](https://www.chirpstack.io/) is the most popular LoRa server "
+"open source project, widely used in many fields, and also the best choise"
+" for a private LoRa server."
+msgstr ""
+
+#: ../../source/connect_to_server.md:83
+msgid ""
+"ChirpStack Installation guide: "
+"[https://www.chirpstack.io/overview/](https://www.chirpstack.io/overview/)"
+msgstr ""
+
+#: ../../source/connect_to_server.md:84
+msgid ""
+"ChirpStack support forum: "
+"[https://forum.chirpstack.io/](https://forum.chirpstack.io/)"
+msgstr ""
+
+#: ../../source/connect_to_server.md:86
+msgid "ChirpStack Gateway Bridge"
+msgstr ""
+
+#: ../../source/connect_to_server.md:88
+msgid ""
+"**One thing need attention!** the ChirpStack need a special service named"
+" `Gateway Bridge`, which converts LoRa® Packet Forwarder protocols into a"
+" ChirpStack Network Server common data-format(JSON and Protobuf)."
+msgstr ""
+
+#: ../../source/connect_to_server.md:90
+msgid ""
+"the `Gateway Bridge` service can running on the Raspberry Pi or the "
+"ChirpStack server."
+msgstr ""
+
+#: ../../source/connect_to_server.md:92
+msgid ""
+"Install ChirpStack Gateway Bridge: [https://www.chirpstack.io/gateway-"
+"bridge/install/debian/](https://www.chirpstack.io/gateway-"
+"bridge/install/debian/)"
+msgstr ""
+
+#: ../../source/connect_to_server.md:94
+msgid "Register LoRa Gateway in ChirpStack"
+msgstr ""
+
+#: ../../source/connect_to_server.md:98
+msgid "![](img/connect_to_server/07.png)"
+msgstr ""
+
+#: ../../source/connect_to_server.md:100
+msgid "**Gateway ID** -- The unique ID of the HT-M02 gateway."
+msgstr ""
+
+#: ../../source/connect_to_server.md:136
+msgid "View gateway status, it is runing:"
+msgstr ""
+
+#: ../../source/connect_to_server.md:138
+msgid "![](img/connect_to_server/08.png)"
+msgstr ""
+

@@ -1,0 +1,201 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the ht-m02_poe package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ht-m02_poe \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-03 15:19+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/quick_start_poe.md:1
+msgid "HT-M02 Edge LoRa Gateway PoE Quick Start"
+msgstr ""
+
+#: ../../source/quick_start_poe.md:2
+msgid "{ht_translation}`[简体中文]:[English]`"
+msgstr ""
+
+#: ../../source/quick_start_poe.md:3
+msgid "Summary"
+msgstr ""
+
+#: ../../source/quick_start_poe.md:5
+msgid "HT-M02 has integrated operating system and LoRa related programs, so it can be used directly in applications. HT-M02 has two versions: PoE and 4G(LTE). The purpose of this article is how to use the PoE version."
+msgstr ""
+
+#: ../../source/quick_start_poe.md:8
+msgid "Before powering up for the first time, make sure the antenna is properly installed in the appropriate location. The standard antenna itself is not water-discharged. If it is necessary to use it outdoors for a long time, it is recommended to use a plastic film to properly block the antenna part."
+msgstr ""
+
+#: ../../source/quick_start_poe.md:11
+msgid "Power ON for the first time"
+msgstr ""
+
+#: ../../source/quick_start_poe.md:13
+msgid "This version only supports the PoE power supply mode. Connect the cable as shown in Figure 2-1. It is recommended to connect the network cable on the HT-M02 before plugging the PoE adapter into the 220V/110V AC."
+msgstr ""
+
+#: ../../source/quick_start_poe.md:15
+msgid "![](img/quick_start_poe/01.png)"
+msgstr ""
+
+#: ../../source/quick_start_poe.md:17
+msgid "If everything goes well, the system will run automatically, and the LED lights will start working. When the system kernel starts successfully, the SYS LED will be on. After the processes and services are started, the TX indicator will flash once and the system will enter the normal working state. The entire startup process lasts approximately 40 seconds."
+msgstr ""
+
+#: ../../source/quick_start_poe.md:19
+msgid "Configuration HT-M02"
+msgstr ""
+
+#: ../../source/quick_start_poe.md:21
+msgid "When PoE supplies power to the HT-M02, it will provide Ethernet at the same time. The DHCP service is enabled by default in the HT-M02 system. If the connected router supports DHCP at the same time, it will automatically assign an IP address to the HT-M02. In general, you can query the IP address of the HT-M02 on the DHCP client list of the router."
+msgstr ""
+
+#: ../../source/quick_start_poe.md:23
+msgid "![](img/quick_start_poe/02.png)"
+msgstr ""
+
+#: ../../source/quick_start_poe.md:25
+msgid "Load HT-M02 Configuration Page"
+msgstr ""
+
+#: ../../source/quick_start_poe.md:27
+msgid "Input the IP address of the HT-M02 in the browser to open the configuration page."
+msgstr ""
+
+#: ../../source/quick_start_poe.md:29
+msgid "![](img/quick_start_poe/03.png)"
+msgstr ""
+
+#: ../../source/quick_start_poe.md:31
+msgid "Username: `Heltec-M02`"
+msgstr ""
+
+#: ../../source/quick_start_poe.md:32
+msgid "Password: `temppwd`"
+msgstr ""
+
+#: ../../source/quick_start_poe.md:34
+msgid "![](img/quick_start_poe/04.png)"
+msgstr ""
+
+#: ../../source/quick_start_poe.md:36
+msgid "Options in the Configuration Page"
+msgstr ""
+
+#: ../../source/quick_start_poe.md:38
+msgid "**Status** -- HT-M02 running status;"
+msgstr ""
+
+#: ../../source/quick_start_poe.md:39
+msgid "**Gateway_ID** -- The Unique ID of current HT-M02;"
+msgstr ""
+
+#: ../../source/quick_start_poe.md:40
+msgid "**Band** -- Reginal frequency plans, strictly follow [LoRaWAN™ 1.0.2 Regional Parameters rB](https://resource.heltec.cn/download/LoRaWANRegionalParametersv1.0.2_final_1944_1.pdf);"
+msgstr ""
+
+#: ../../source/quick_start_poe.md:41
+msgid "**Channels** -- The listening channels of each bands, the [LoRaWAN Regional Parameters](https://resource.heltec.cn/download/LoRaWANRegionalParametersv1.0.2_final_1944_1.pdf) had defined detail uplink/downlink frequency of each channels, here `CN470`, `channels 0-7` means the HT-M02 will listen `470.3 MHz, 470.5 MHz, 470.7 MHz, 470.9 MHz, 471.1 MHz, 471.3 MHz, 471.5 MHz, 471.7 MHz` 8 channels."
+msgstr ""
+
+#: ../../source/quick_start_poe.md:42
+msgid "**Server** -- Which LoRa server will be used"
+msgstr ""
+
+#: ../../source/quick_start_poe.md:43
+msgid "`Internal Server` -- HT-M02 will forward data to it self's internal LoRa server;"
+msgstr ""
+
+#: ../../source/quick_start_poe.md:44
+msgid "`TTN` -- HT-M02 will forward data to TTN's LoRa server;"
+msgstr ""
+
+#: ../../source/quick_start_poe.md:45
+msgid "`Custom Server` -- HT-M02 will forward data to a custom server, such as a private servers like ChripStack."
+msgstr ""
+
+#: ../../source/quick_start_poe.md:46
+msgid "**Server Addr** -- LoRa server address"
+msgstr ""
+
+#: ../../source/quick_start_poe.md:47
+msgid "If use `Internal Server`, the server address must be `127.0.0.1`, can't be fixed;"
+msgstr ""
+
+#: ../../source/quick_start_poe.md:48
+msgid "If use `TTN` server, the server address will automatic adaptation to [TTN's router addresses](https://www.thethingsnetwork.org/docs/gateways/packet-forwarder/semtech-udp.html#router-addresses), can't be fixed;"
+msgstr ""
+
+#: ../../source/quick_start_poe.md:49
+msgid "If use `Custom Server`, the `Server Addr` and `Uplink/Downlink Port` should match the custom server."
+msgstr ""
+
+#: ../../source/quick_start_poe.md:51
+msgid "Establish Serial/SSH Connection"
+msgstr ""
+
+#: ../../source/quick_start_poe.md:53
+msgid "HT-M02 can provide serial/SSH connection if required."
+msgstr ""
+
+#: ../../source/quick_start_poe.md:55
+msgid "Default login username: `debian`"
+msgstr ""
+
+#: ../../source/quick_start_poe.md:56
+msgid "Default login password: `temppwd`"
+msgstr ""
+
+#: ../../source/quick_start_poe.md:58
+msgid "SSH"
+msgstr ""
+
+#: ../../source/quick_start_poe.md:60
+msgid "Establish SSH connection need make sure the client in a same LAN with HT-M02, SSH use default Port 22."
+msgstr ""
+
+#: ../../source/quick_start_poe.md:62
+msgid "![](img/quick_start_poe/05.png)"
+msgstr ""
+
+#: ../../source/quick_start_poe.md:64
+msgid "Serial"
+msgstr ""
+
+#: ../../source/quick_start_poe.md:66
+msgid "Because of the waterproof design, the UART interface is not directly exposed outside. If need a serial port connection, need to remove the protective board on the side of the HT-M02, and also a UART-USB bridge is required (CP2102, CP2104, CH340G etc.)."
+msgstr ""
+
+#: ../../source/quick_start_poe.md:68
+msgid "HT-M02 TXD `<---->` UART-USB bridge RXD"
+msgstr ""
+
+#: ../../source/quick_start_poe.md:70
+msgid "HT-M02 RXD `<---->` UART-USB bridge TXD"
+msgstr ""
+
+#: ../../source/quick_start_poe.md:72
+msgid "HT-M02 GND `<---->` UART-USB bridge GND"
+msgstr ""
+
+#: ../../source/quick_start_poe.md:74
+msgid "![](img/quick_start_poe/06.png)"
+msgstr ""
+
+#: ../../source/quick_start_poe.md:76
+msgid "Recommended to use [Putty,](https://putty.org/) configured as shown in the following image."
+msgstr ""
+
+#: ../../source/quick_start_poe.md:78
+msgid "![](img/quick_start_poe/07.png)"
+msgstr ""

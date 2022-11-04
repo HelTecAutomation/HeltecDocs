@@ -1,0 +1,124 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the stm32 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: stm32 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-03 15:30+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/lora_node_151/establish_serial_connection.md:1
+msgid "Establish Serial Connection"
+msgstr ""
+
+#: ../../source/lora_node_151/establish_serial_connection.md:2
+msgid "{ht_translation}`[简体中文]:[English]`"
+msgstr ""
+
+#: ../../source/lora_node_151/establish_serial_connection.md:4
+msgid ""
+"The LoRa Node can print debugging information through USB-CDC (USB-"
+"Virtual Serial Poart) or UART, but the USB to UART chip is not integrated"
+" on the board. If the debugging information is to be output through the "
+"UART, an external USB to UART module is required."
+msgstr ""
+
+#: ../../source/lora_node_151/establish_serial_connection.md:6
+msgid "Use UART"
+msgstr ""
+
+#: ../../source/lora_node_151/establish_serial_connection.md:8
+#: ../../source/lora_node_151/establish_serial_connection.md:39
+msgid "Open the example of we provided."
+msgstr ""
+
+#: ../../source/lora_node_151/establish_serial_connection.md:9
+#: ../../source/lora_node_151/establish_serial_connection.md:40
+msgid "Right-click the project to open `Properties`."
+msgstr ""
+
+#: ../../source/lora_node_151/establish_serial_connection.md:11
+#: ../../source/lora_node_151/establish_serial_connection.md:42
+msgid "![](img/establish_serial_connection/07.png)"
+msgstr ""
+
+#: ../../source/lora_node_151/establish_serial_connection.md:13
+msgid "Add `USE_DEBUGGER` in macro definitions, compile and download program."
+msgstr ""
+
+#: ../../source/lora_node_151/establish_serial_connection.md:15
+msgid "![](img/establish_serial_connection/04.png)"
+msgstr ""
+
+#: ../../source/lora_node_151/establish_serial_connection.md:17
+msgid "Connect the board and USB-UART module correctly."
+msgstr ""
+
+#: ../../source/lora_node_151/establish_serial_connection.md:20
+msgid ""
+"The LoRa Node and USB-UART module are connect as below (if the LoRa Node "
+"is powered via USB or battery, the UART module&amp;#39;s 3.3 / 5V pin do "
+"not need connect, just need TXD, RXD, GND)."
+msgstr ""
+
+#: ../../source/lora_node_151/establish_serial_connection.md:23
+msgid "![](img/establish_serial_connection/01.png)"
+msgstr ""
+
+#: ../../source/lora_node_151/establish_serial_connection.md:26
+msgid ""
+"When using UART, the TX and RX pins used in the program should be "
+"corresponding to the TX and RX pins on the board. In the routine we "
+"provide, we use TX-PA9 and RX-PA10. Therefore, TX of UART module should "
+"be connected to RX(PA10） of board, RX of UART module should be connected "
+"to TX(PA9） of board."
+msgstr ""
+
+#: ../../source/lora_node_151/establish_serial_connection.md:29
+msgid "![](img/establish_serial_connection/06.png)"
+msgstr ""
+
+#: ../../source/lora_node_151/establish_serial_connection.md:31
+msgid "Open serial port."
+msgstr ""
+
+#: ../../source/lora_node_151/establish_serial_connection.md:33
+msgid "![](img/establish_serial_connection/02.png)"
+msgstr ""
+
+#: ../../source/lora_node_151/establish_serial_connection.md:35
+msgid "&nbsp;"
+msgstr ""
+
+#: ../../source/lora_node_151/establish_serial_connection.md:37
+msgid "Use virtual serial port"
+msgstr ""
+
+#: ../../source/lora_node_151/establish_serial_connection.md:44
+msgid ""
+"Add `USB_VCP` and `USE_DEBUGGER`  in macro definitions, compile and "
+"download program."
+msgstr ""
+
+#: ../../source/lora_node_151/establish_serial_connection.md:46
+msgid "![](img/establish_serial_connection/05.png)"
+msgstr ""
+
+#: ../../source/lora_node_151/establish_serial_connection.md:48
+msgid "Connect LoRa Node to computer via a Micro USB cable and open serial port."
+msgstr ""
+
+#: ../../source/lora_node_151/establish_serial_connection.md:50
+msgid "![](img/establish_serial_connection/03.png)"
+msgstr ""
+
