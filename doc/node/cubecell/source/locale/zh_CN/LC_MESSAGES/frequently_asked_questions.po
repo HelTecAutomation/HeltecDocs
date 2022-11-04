@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: cubecell \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-03 15:25+0800\n"
+"POT-Creation-Date: 2022-11-04 17:58+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -168,77 +168,89 @@ msgid ""
 msgstr ""
 
 #: ../../source/frequently_asked_questions.md:55
+msgid "HTCC-AB01_V1 version."
+msgstr ""
+
+#: ../../source/frequently_asked_questions.md:57
 msgid "![](img/frequently_asked_questions/03.png)"
 msgstr ""
 
-#: ../../source/frequently_asked_questions.md:58
+#: ../../source/frequently_asked_questions.md:59
+msgid "HTCC-AB01_V2 version."
+msgstr ""
+
+#: ../../source/frequently_asked_questions.md:61
+msgid "![](img/frequently_asked_questions/05.png)"
+msgstr ""
+
+#: ../../source/frequently_asked_questions.md:64
 msgid "the ADC of CubeCell uses internal 1.2V reference voltage"
 msgstr ""
 
-#: ../../source/frequently_asked_questions.md:62
+#: ../../source/frequently_asked_questions.md:68
 msgid "ADC input voltage can NOT higher than 2.4V."
 msgstr ""
 
-#: ../../source/frequently_asked_questions.md:65
+#: ../../source/frequently_asked_questions.md:71
 msgid "Vext Control"
 msgstr ""
 
-#: ../../source/frequently_asked_questions.md:67
+#: ../../source/frequently_asked_questions.md:73
 msgid ""
 "The `Vext` is a power source for external devices. Refer from the "
 "schematic diagram, It's controlled by `GPIO6`:"
 msgstr ""
 
-#: ../../source/frequently_asked_questions.md:69
+#: ../../source/frequently_asked_questions.md:75
 msgid "![](img/frequently_asked_questions/04.png)"
 msgstr ""
 
-#: ../../source/frequently_asked_questions.md:71
+#: ../../source/frequently_asked_questions.md:77
 msgid "`GPIO 6 --> LOW --> Vext(3.3V/300mA) ON`"
 msgstr ""
 
-#: ../../source/frequently_asked_questions.md:73
+#: ../../source/frequently_asked_questions.md:79
 msgid "`GPIO 6 --> HIGH --> Vext(3.3V/300mA) OFF`"
 msgstr ""
 
-#: ../../source/frequently_asked_questions.md:76
+#: ../../source/frequently_asked_questions.md:82
 msgid ""
 "The Vext features is very important for some devices without deep sleep "
 "mode. When the system need in deep sleep status, we can turn off the Vext"
 " by set GPIO 21 to HIGH, then to save energy."
 msgstr ""
 
-#: ../../source/frequently_asked_questions.md:79
+#: ../../source/frequently_asked_questions.md:85
 msgid "How to upgrade using firmware"
 msgstr ""
 
-#: ../../source/frequently_asked_questions.md:80
+#: ../../source/frequently_asked_questions.md:86
 msgid "Select the desired project to compile."
 msgstr ""
 
-#: ../../source/frequently_asked_questions.md:81
+#: ../../source/frequently_asked_questions.md:87
 msgid ""
 "Find the location of the ***CubeCellelftool.exe*** file and the file of "
 "type ***.cyacd*** in the build process information."
 msgstr ""
 
-#: ../../source/frequently_asked_questions.md:82
+#: ../../source/frequently_asked_questions.md:88
 msgid "Create a new folder and copy the two files of appeal to this folder."
 msgstr ""
 
-#: ../../source/frequently_asked_questions.md:83
+#: ../../source/frequently_asked_questions.md:89
 msgid ""
 "Check the port number of the development board (it is assumed to be COM3 "
 "here)."
 msgstr ""
 
-#: ../../source/frequently_asked_questions.md:84
+#: ../../source/frequently_asked_questions.md:90
 msgid ""
 "Open a command line window under Windows and go to the folder you created"
 " above. Enter the following command and execute it to download."
 msgstr ""
 
-#: ../../source/frequently_asked_questions.md:85
+#: ../../source/frequently_asked_questions.md:91
 msgid "CubeCellflash.exe -serial COM3   XXXXXXXX.cyacd"
 msgstr ""
 

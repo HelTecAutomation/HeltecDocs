@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../../source/quick_start.md:1
 msgid "Heltec ESP32+Arduino Series Quick Start"
-msgstr "Heltec ESP32+Arduino 系列快速入门"
+msgstr ""
 
 #: ../../source/quick_start.md:2
 msgid "{ht_translation}`[简体中文]:[English]`"
@@ -34,7 +34,7 @@ msgid ""
 "connection](https://docs.heltec.org/general/establish_serial_connection.html)"
 " and [Install Git and Arduino "
 "IDE](https://docs.heltec.org/general/how_to_install_git_and_arduino.html)."
-msgstr "在所有操作之前，请确认“USB驱动程序”、“Git”和“Arduino IDE" 已正确安装。如果未正确安装，请参阅[建立串行连接](https://docs.heltec.org/general/establish_serial_connection.html)和[安装Git和Arduino IDE](https://docs.heltec.org/general/how_to_install_git_and_arduino.html)."
+msgstr ""
 
 #: ../../source/quick_start.md:6
 msgid ""
@@ -45,12 +45,6 @@ msgid ""
 "Example](https://github.com/Heltec-Aaron-"
 "Lee/WiFi_Kit_series/tree/master/esp32/libraries/Heltec-Example) ."
 msgstr ""
-"The Heltec ESP32 开发环境 already contains the basic code."
-" For the special codes related to the Heltec ESP32 development board, "
-"请参考: [https://github.com/Heltec-Aaron-"
-"Lee/WiFi_Kit_series/tree/master/esp32/libraries/Heltec-"
-"Example](https://github.com/Heltec-Aaron-"
-"Lee/WiFi_Kit_series/tree/master/esp32/libraries/Heltec-Example) ."
 
 #: ../../source/quick_start.md:8 ../../source/quick_start.md:107
 msgid "![](img/quick_start/09.png)"

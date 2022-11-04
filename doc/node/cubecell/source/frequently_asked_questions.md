@@ -52,7 +52,13 @@ Here are two methods access bootloader manually:
 
 In order to read other analog signal, user need remove the resistance BR1, then the ADC header will be free. 
 
+HTCC-AB01_V1 version.
+
 ![](img/frequently_asked_questions/03.png)
+
+HTCC-AB01_V2 version.
+
+![](img/frequently_asked_questions/05.png)
 
 ``` {Tip} the ADC of CubeCell uses internal 1.2V reference voltage
 
