@@ -6,8 +6,8 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'sx1303module'
-conf_py_path = '/doc/gateway/sx1303module/source/'
+project = 'ht-1303'
+conf_py_path = '/doc/gateway/ht-1303/source/'
 
 copyright = '2022, shug'
 author = 'shug'

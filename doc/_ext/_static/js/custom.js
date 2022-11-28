@@ -12,13 +12,13 @@ var prod_obj = {
         {text: "HT-M01S", value: "ht-m01s"},
         {text: "HT-M01S_V2", value: "ht-m01s_v2"},
         {text: "HT-M02", value: "ht-m02"},
-        {text: "SX1301module", value: "sx1301module"},
-        {text: "SX1303module", value: "sx1303module"},
+        {text: "HT-1303", value: "ht-1303"},
+        {text: "SX1301module (Phaseout)", value: "sx1301module"},
     ],
     node: [
         {text: "CUBECELL", value: "cubecell"},
-        {text: "STM32 + LoRa", value: "stm32"},
         {text: "ESP32 + LoRa", value: "esp32"},
+        {text: "MCU + LoRa", value: "stm32"},
     ],
     arduino: [
         {text: "ESP32+ARDUINO", value: "esp32_arduino"},

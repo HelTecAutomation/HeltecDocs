@@ -1,4 +1,4 @@
-# SX1303 LoRa Gateway Module Quick Start
+# HT-1303 LoRaWAN concentrator module Quick Start
 
 {ht_translation}`[简体中文]:[English]`
 
