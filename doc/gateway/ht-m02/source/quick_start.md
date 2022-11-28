@@ -12,7 +12,7 @@ HT-M02 has integrated operating system and LoRa related programs, so it can be u
 
 This version only supports the PoE power supply mode. Connect the cable as shown in Figure 2-1. It is recommended to connect the network cable on the HT-M02 before plugging the PoE adapter into the 220V/110V AC.
 
-![](img/quick_start_poe/01.png)
+![](img/quick_start/01.png)
 
 If everything goes well, the system will run automatically, and the LED lights will start working. When the system kernel starts successfully, the SYS LED will be on. After the processes and services are started, the TX indicator will flash once and the system will enter the normal working state. The entire startup process lasts approximately 40 seconds.
 
@@ -20,18 +20,18 @@ If everything goes well, the system will run automatically, and the LED lights w
 
 When PoE supplies power to the HT-M02, it will provide Ethernet at the same time. The DHCP service is enabled by default in the HT-M02 system. If the connected router supports DHCP at the same time, it will automatically assign an IP address to the HT-M02. In general, you can query the IP address of the HT-M02 on the DHCP client list of the router.
 
-![](img/quick_start_poe/02.png)
+![](img/quick_start/02.png)
 
 ### Load HT-M02 Configuration Page
 
 Input the IP address of the HT-M02 in the browser to open the configuration page.
 
-![](img/quick_start_poe/03.png)
+![](img/quick_start/03.png)
 
 - Username: `Heltec-M02`
 - Password: `temppwd`
 
-![](img/quick_start_poe/04.png)
+![](img/quick_start/04.png)
 
 ### Options in the Configuration Page
 
@@ -59,7 +59,7 @@ HT-M02 can provide serial/SSH connection if required.
 
 Establish SSH connection need make sure the client in a same LAN with HT-M02, SSH use default Port 22.
 
-![](img/quick_start_poe/05.png)
+![](img/quick_start/05.png)
 
 ### Serial
 
@@ -71,8 +71,8 @@ Because of the waterproof design, the UART interface is not directly exposed out
 
 - HT-M02 GND `<---->` UART-USB bridge GND
 
-![](img/quick_start_poe/06.png)
+![](img/quick_start/06.png)
 
 Recommended to use [Putty,](https://putty.org/) configured as shown in the following image. 
 
-![](img/quick_start_poe/07.png)
+![](img/quick_start/07.png)
