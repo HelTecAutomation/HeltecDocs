@@ -7,7 +7,7 @@ In practice, the working environment of the equipment may not be as good as expe
 HT-M02 considers and solves all the above problems and design strictly with industrial standards, Integrated Linux Operating System (4.19 Kernel, Debian Stretch 10). IP66 waterproofing, no fan or motor heat dissipation structure, ROCKCHIP Quad-core Cortex-A55 64-bit 1.8GHz processor, 2G DDR4 RAM, 32G eMMC 5.1 ROM, support Micro TF card expansion. Support DC power supply and PoE power supply, support 4G (Cat. 1\Cat. 4), Wi-Fi (2.4GHz). it is convenient for users to apply in different scenarios. 
 
 .. figure:: img/01.png
-    :scale: 100%
+    :scale: 70%
     :alt: no-component
     :figclass: align-center
 
