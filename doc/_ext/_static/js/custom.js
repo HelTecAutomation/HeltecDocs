@@ -1,7 +1,7 @@
 var P = [
     { text: "LoRa Gateway", value: "gateway"},
     { text: "LoRa Node", value: "node"},
-    { text: "Arduino", value: "arduino"},
+    { text: "Development Kits", value: "dev-kits"},
  ]
 
 
@@ -20,9 +20,10 @@ var prod_obj = {
         {text: "ESP32 + LoRa", value: "esp32"},
         {text: "MCU + LoRa", value: "stm32"},
     ],
-    arduino: [
+    dev-kits: [
         {text: "ESP32+ARDUINO", value: "esp32_arduino"},
         {text: "ESP8266+ARDUINO", value: "esp8266_arduino"},
+        {text: "Sufficient IoT Hub", value: "sufficient_iot_hub"},
     ],
 }
 

@@ -9,8 +9,7 @@ ESP8266 is a powerfull SoC with 160MHz Tensilica L06 32-bits. The benefit of "ES
 -  Powerful computing skills;
 -  Large FLASH size;
 -  Power mananagement system and Li-Po support;
--  Arduino-compitable;
--  We also provide `LoRaWAN-Node protocol Arduino library <https://github.com/HelTecAutomation/Heltec_ESP8266>`_;
+-  Arduino-compitable.
 
 
 .. toctree::
