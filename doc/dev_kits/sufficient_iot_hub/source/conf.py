@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'sufficient_iot_hub'
-conf_py_path = '/doc/dev-kits/sufficient_iot_hub/source/'
+conf_py_path = '/doc/dev_kits/sufficient_iot_hub/source/'
 
 copyright = '2023, shug'
 author = 'shug'
