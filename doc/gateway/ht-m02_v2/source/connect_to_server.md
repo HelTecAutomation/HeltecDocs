@@ -1,4 +1,4 @@
-# Connect HT-M02 to a LoRa Server
+# Connect HT-M02_V2 to a LoRa Server
 {ht_translation}`[简体中文]:[English]`
 
 ## Summary

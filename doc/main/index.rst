@@ -17,6 +17,7 @@ This is the documentation for `Heltec Automation <https://heltec.org>`_ products
    HT-M01S Indoor LoRa Gateway <https://docs.heltec.org/en/gateway/ht-m01s/index.html>
    HT-M01S-V2 Indoor LoRa Gateway <https://docs.heltec.org/en/gateway/ht-m01s_v2/index.html>
    HT-M02 Edge LoRa Gateway <https://docs.heltec.org/en/gateway/ht-m02/index.html>
+   HT-M02_V2 Edge LoRa Gateway <https://docs.heltec.org/en/gateway/ht-m02_v2/index.html>
    HT-1303 LoRaWAN Concentrator Module <https://docs.heltec.org/en/gateway/ht-1303/index.html>
    SX1301 Module (Phaseout) <https://docs.heltec.org/en/gateway/sx1301module/index.html>
 
@@ -30,7 +31,7 @@ This is the documentation for `Heltec Automation <https://heltec.org>`_ products
    
 .. toctree::
    :maxdepth: 2
-   :caption: Arduino Nodes
+   :caption: Development Kits
    
    ESP32 + Arduino <https://docs.heltec.org/en/dev_kits/esp32_arduino/index.html>
    ESP8266 + Arduino <https://docs.heltec.org/en/dev_kits/esp8266_arduino/index.html>
