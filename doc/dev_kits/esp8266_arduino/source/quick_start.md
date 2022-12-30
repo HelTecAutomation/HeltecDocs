@@ -3,7 +3,7 @@
 
 We suggest you confirm whether the `USB driver`, `Git` and `Arduino IDE` has installed first. If not, please view this two articles [establish serial connection](https://docs.heltec.org/general/establish_serial_connection.html) and [Install Git and Arduino IDE](https://docs.heltec.org/general/how_to_install_git_and_arduino.html).
 
-**There are two methods to install the development framework, choose on of they:**
+**There are two methods to install the development framework, choose one of they:**
 
 - [Via Arduino Board Manager](via-arduino-board-manager)
 - [Via Git](via-git)

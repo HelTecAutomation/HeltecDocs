@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2022, shug
-# This file is distributed under the same license as the ht-m02_4g package.
+# This file is distributed under the same license as the ht-m02 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: ht-m02_4g \n"
+"Project-Id-Version: ht-m02 \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-03 15:18+0800\n"
+"POT-Creation-Date: 2022-12-30 14:35+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -66,7 +66,7 @@ msgid "Download the latest firmware from [http://resource.heltec.cn/download/HT-
 msgstr ""
 
 #: ../../source/system_upgrade.md:24
-msgid "[Latest firmware for HT-M02 4G](https://resource.heltec.cn/download/HT-M02/firmware/heltec-M02-4G-debian-v2.img)"
+msgid "[Latest firmware for HT-M02 PoE](http://resource.heltec.cn/download/HT-M02/firmware/heltec-M02-POE-debian-v2.img)"
 msgstr ""
 
 #: ../../source/system_upgrade.md:25

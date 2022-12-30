@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ht-m02_4g \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-03 15:18+0800\n"
+"POT-Creation-Date: 2022-12-30 14:35+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,20 +17,20 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.10.3\n"
 
-#: ../../source/index.rst:13
-msgid "4G(LTE) Version Quick Start"
+#: ../../source/index.rst:14
+msgid "PoE Version Quick Start"
 msgstr ""
 
-#: ../../source/index.rst:13
+#: ../../source/index.rst:14
 msgid "Coneect to LoRa server"
 msgstr ""
 
-#: ../../source/index.rst:13
+#: ../../source/index.rst:14
 msgid "System Upgrade"
 msgstr ""
 
 #: ../../source/index.rst:2
-msgid "HT-M02 Edge LoRa Gateway(4G/LTE)"
+msgid "HT-M02 Edge LoRa Gateway(POE)"
 msgstr ""
 
 #: ../../source/index.rst:3
@@ -50,20 +50,30 @@ msgid ""
 msgstr ""
 
 #: ../../source/index.rst:7
-msgid "Useing Linux Operating System, 4.14 Kernel, Debian Stretch 9.8;"
+msgid "**Integrated LoRa server inside;**"
 msgstr ""
 
 #: ../../source/index.rst:8
+msgid "Useing Linux Operating System, 4.14 Kernel, Debian Stretch 9.8;"
+msgstr ""
+
+#: ../../source/index.rst:9
 msgid ""
 "**1-GHz Sitara™ ARM® Cortex®-A8** 32‑Bit RISC Processor, **512MB DDR3**, "
 "**4G eMMC**."
 msgstr ""
 
-#: ../../source/index.rst:9
+#: ../../source/index.rst:10
 msgid "IP65 waterproofing;"
 msgstr ""
 
-#: ../../source/index.rst:10
+#: ../../source/index.rst:11
 msgid "No fan or motor heat dissipation structure."
 msgstr ""
+
+#~ msgid "4G(LTE) Version Quick Start"
+#~ msgstr ""
+
+#~ msgid "HT-M02 Edge LoRa Gateway(4G/LTE)"
+#~ msgstr ""
 
