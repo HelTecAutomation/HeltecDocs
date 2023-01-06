@@ -15,5 +15,5 @@ HT-M01S (Rev. 2.0) has basic mechanical protection and dustproof structure, but 
     :maxdepth: 2
     
     Quick Start <quick_start>
-    Coneect to LoRa server <connect_to_server>
+    Connect to LoRa server <connect_to_server>
     Update Firmware <update_firmware>
