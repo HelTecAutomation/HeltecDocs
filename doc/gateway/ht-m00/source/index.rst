@@ -4,11 +4,11 @@ HT-M00 Dual Channel LoRa Gateway
 
 HT-M00 is a small, low-cost dual-channel LoRa gateway with Type-C interface. The main function of HT-M00 is to provide a LoRaWAN network for large houses of 1500 to 2000 square meters, or to make up for signal blind spots in areas that cannot be covered by SX1301 gateway signals.
 
--  Drive SX1276 chip by ESP32;
--  Software mixer (baseband simulation program) to monitor the 125KHz SF7~SF12 spreading factor;
--  Support LoRaWAN protocol 1.0.2 Class A, Class C;
--  Built-in antenna;
--  Onboard display.
++  Drive SX1276 chip by ESP32;
++  Software mixer (baseband simulation program) to monitor the 125KHz SF7~SF12 spreading factor;
++  Support LoRaWAN protocol 1.0.2 Class A, Class C;
++  Built-in antenna;
++  Onboard display.
 
 
 

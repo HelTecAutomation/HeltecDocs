@@ -3,8 +3,15 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Heltec Product Documention
---------------------------
+Heltec Products Operation Documention
+-------------------------------------
+
+Heltec Automation is an IoT solution provider mainly in LoRa/LoRaWAN field.
+
+.. figure:: img/01.png
+    :scale: 70%
+    :alt: no-component
+    :figclass: align-center
 
 This is the documentation for `Heltec Automation <https://heltec.org>`_ products.
 

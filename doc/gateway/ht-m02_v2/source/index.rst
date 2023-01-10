@@ -13,22 +13,22 @@ Regarding the device functions, the basic version of HT-M02 provides LoRa gatewa
 
 The HT-M02 Rev. 2.0 has the following features:
 -----------------------------------------------
--ROCKCHIP Quad-core Cortex-A55 64-bit 1.8GHz processor, 2G DDR4 RAM, 32G eMMC 5.1 ROM;
--**Integrated Docker inside;**
--Linux 4.19 Kernel, aarch 64, Debian 10;
--**ROCKCHIP Quad-core Cortex®-A55 64-bit 1.8GHz processor, 2GB DDR4, 32GB eMMC.**
--IP66 waterproofing;
--SX1303 + SX1250 baseband chipset;
--No fan or motor heat dissipation structure;
--Multi version can be selected according to your needs.
++ ROCKCHIP Quad-core Cortex-A55 64-bit 1.8GHz processor, 2G DDR4 RAM, 32G eMMC 5.1 ROM,
++ **Integrated Docker inside,**
++ Linux 4.19 Kernel, aarch 64, Debian 10,
++ **ROCKCHIP Quad-core Cortex®-A55 64-bit 1.8GHz processor, 2GB DDR4, 32GB eMMC,**
++ IP66 waterproofing,
++ SX1303 + SX1250 baseband chipset,
++ No fan or motor heat dissipation structure,
++ Multi version can be selected according to your needs.
 
 optional functions of HT-M02 Rev. 2.0
 -------------------------------------
+Users can choose add one or more of the following functions while place an order:
 
-Users can choose add one or more of the following functions while place an order.
--LTE (Cat. 1 or Cat. 4);
--Wi-Fi;
--PoE.
++ LTE (Cat. 1 or Cat. 4),
++ Wi-Fi,
++ PoE.
 
 
 .. toctree::
@@ -36,3 +36,4 @@ Users can choose add one or more of the following functions while place an order
     
     Quick Start <quick_start>
     Coneect to LoRa server <connect_to_server>
+    -->[General Docs]<-- <https://docs.heltec.org/general/index.html>
