@@ -1,23 +1,34 @@
-HT-M02 Edge LoRa Gateway(POE)
+HT-M02 Edge LoRa Gateway
 =============================
 :ht_translation:`[简体中文]:[English]`
 
-In practice, the working environment of the equipment may not be as good as expected, on the contrary, it may be very tough. For example, in the industrial environment, the site may have tremendous vibration, noise, dust, high temperature, and other issues. In the city environment, sunshine and rain, low temperature in winter and high temperature in summer are always unavoidable.
+HT-M02 is a edge computing LoRa gateway that is very suitable for use in application environments. The pure aluminum shell makes it not only have a profect protective structure, but also ensure excellent heat dissipation characteristics. Powerful system resources provide good processing capabilities, let you can install various tools and software to complete your work.
 
-HT-M02 considers and solves all the above problems and design strictly with industrial standards, Integrated Linux Operating System (4.19 Kernel, Debian Stretch 10). IP66 waterproofing, no fan or motor heat dissipation structure, ROCKCHIP Quad-core Cortex-A55 64-bit 1.8GHz processor, 2G DDR4 RAM, 32G eMMC 5.1 ROM, support Micro TF card expansion. Support DC power supply and PoE power supply, support 4G (Cat. 1\Cat. 4), Wi-Fi (2.4GHz). it is convenient for users to apply in different scenarios. 
+Regarding the device functions, the basic version of HT-M02 provides LoRa gateway and network interface, but it also has rich optional functions such as LTE, PoE, Wi-Fi, which makes it well applicable to various application scenarios.
 
 .. figure:: img/01.png
     :scale: 70%
     :alt: no-component
     :figclass: align-center
 
-- **Integrated Docker inside;**
-- Linux 4.19 Kernel, aarch 64, Debian 10;
-- **ROCKCHIP Quad-core Cortex®-A55 64-bit 1.8GHz processor, 2GB DDR4, 32GB eMMC.**
-- IP66 waterproofing;
-- SX1303 + SX1250 baseband chipset;
-- Multi version can be selected according to your needs;
-- No fan or motor heat dissipation structure.
+The HT-M02 Rev. 2.0 has the following features:
+-----------------------------------------------
+> ROCKCHIP Quad-core Cortex-A55 64-bit 1.8GHz processor, 2G DDR4 RAM, 32G eMMC 5.1 ROM;
+> **Integrated Docker inside;**
+> Linux 4.19 Kernel, aarch 64, Debian 10;
+> **ROCKCHIP Quad-core Cortex®-A55 64-bit 1.8GHz processor, 2GB DDR4, 32GB eMMC.**
+> IP66 waterproofing;
+> SX1303 + SX1250 baseband chipset;
+> No fan or motor heat dissipation structure;
+> Multi version can be selected according to your needs.
+
+optional functions of HT-M02 Rev. 2.0
+-------------------------------------
+
+Users can choose add one or more of the following functions while place an order.
+- LTE (Cat. 1 or Cat. 4);
+- Wi-Fi;
+- PoE.
 
 
 .. toctree::

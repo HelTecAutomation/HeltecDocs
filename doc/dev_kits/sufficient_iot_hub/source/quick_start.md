@@ -9,11 +9,17 @@ Here is a T113 development board with LoRaWAN function.
 
 ### Make a SD Cards for Sufficient IoT Hub
 1. Download [SD_Card_Toolkit.zip]() and unzip it.  
+
 2. Insert the SD card into the computer with the card reader, and the computer will detect the SD card.        
+
 3. Find the **SD Card Formatter** tool, double-click to open it, and select the card to be burned for formatting, as shown in the figure.
-![](img/SD_Formatter.png)       
+
+  ![](img/SD_Formatter.png)       
+
 4. Download [T113_sdcard.img]() locally.  
+
 5. Open the tool **Win32DiskImager** just downloaded, and burn it according to the following steps.
+
 ![](img/Win32DiskImager.png)
 
 > Note: SD needs at least 2G capacity, 8G memory card is recommended.
