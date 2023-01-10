@@ -9,7 +9,7 @@ Heltec Products Operation Documention
 Heltec Automation is an IoT solution provider mainly in LoRa/LoRaWAN field.
 
 .. figure:: img/01.png
-    :scale: 70%
+    :scale: 90%
     :alt: no-component
     :figclass: align-center
 
