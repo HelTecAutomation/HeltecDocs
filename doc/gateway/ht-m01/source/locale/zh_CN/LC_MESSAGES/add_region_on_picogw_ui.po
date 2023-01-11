@@ -19,15 +19,15 @@ msgstr ""
 
 #: ../../source/add_region_on_picogw_ui.md:1
 msgid "Add More Region Support on PicoGW UI"
-msgstr ""
+msgstr "在PicoGW UI界面上添加更多的区域支持"
 
 #: ../../source/add_region_on_picogw_ui.md:2
 msgid "{ht_translation}`[简体中文]:[English]`"
-msgstr ""
+msgstr "{ht_translation}`[简体中文]:[English]`"
 
 #: ../../source/add_region_on_picogw_ui.md:3
 msgid "Summary"
-msgstr ""
+msgstr "概要"
 
 #: ../../source/add_region_on_picogw_ui.md:5
 msgid ""
@@ -37,18 +37,22 @@ msgid ""
 " Gateway ([HT-M01](https://heltec.org/project/ht-m01)) on "
 "Windows<sup>®</sup> with directly UI."
 msgstr ""
+"[PicoGW "
+"UI](http://resource.heltec.cn/download/HT-M01/PicoGW_UI_Release_V1.0.3.4.zip)"
+" 由Semtech®提供, 允许用户在Windows®上使用直接UI运行Pico Cell LoRa"
+"网关 ([HT-M01](https://heltec.org/project/ht-m01)) ."
 
 #: ../../source/add_region_on_picogw_ui.md:7
 msgid "But PicoGW_UI only provided four region support by default."
-msgstr ""
+msgstr "但是PicoGW_UI默认只提供四个区域支持."
 
 #: ../../source/add_region_on_picogw_ui.md:9
 msgid "![](img/add_region_on_picogw_ui/01.png)"
-msgstr ""
+msgstr "![](img/add_region_on_picogw_ui/01.png)"
 
 #: ../../source/add_region_on_picogw_ui.md:11
 msgid "Add More Region Support"
-msgstr ""
+msgstr "添加更多区域支持"
 
 #: ../../source/add_region_on_picogw_ui.md:13
 msgid ""
@@ -56,16 +60,21 @@ msgid ""
 "TTN](https://heltec-automation-"
 "docs.readthedocs.io/en/latest/general/sub_band_usage.html))*"
 msgstr ""
+"*假设你需要添加对AU915_SB2 ([AU915子带2 "
+"TTN](https://heltec-automation-"
+"docs.readthedocs.io/en/latest/general/sub_band_usage.html))*"
 
 #: ../../source/add_region_on_picogw_ui.md:15
 msgid ""
 "Clone or download this repository: "
 "[https://github.com/HelTecAutomation/lorasdk](https://github.com/HelTecAutomation/lorasdk);"
 msgstr ""
+"克隆或下载此存储库: "
+"[https://github.com/HelTecAutomation/lorasdk](https://github.com/HelTecAutomation/lorasdk);"
 
 #: ../../source/add_region_on_picogw_ui.md:16
 msgid "Rename `global_conf_AU915_SB2.json` to `global_conf.json`;"
-msgstr ""
+msgstr "重命名 `global_conf_AU915_SB2.json` 到 `global_conf.json`;"
 
 #: ../../source/add_region_on_picogw_ui.md:17
 msgid ""
@@ -73,30 +82,35 @@ msgid ""
 "name\\AppData\\Roaming\\Semtech\\PicoGW_UI` path and replace the current "
 "one;"
 msgstr ""
+"复制 `global_conf.json` 到 `C:\\Users\\user "
+"name\\AppData\\Roaming\\Semtech\\PicoGW_UI` 路径并替换当前"
+"路径;"
 
 #: ../../source/add_region_on_picogw_ui.md:18
 msgid "Reopen PicoGW_UI and choose `Keep the current gobal conf`."
-msgstr ""
+msgstr "重新打开 PicoGW_UI 并选择 `Keep the current gobal conf`."
 
 #: ../../source/add_region_on_picogw_ui.md:20
 msgid "![](img/add_region_on_picogw_ui/02.png)"
-msgstr ""
+msgstr "![](img/add_region_on_picogw_ui/02.png)"
 
 #: ../../source/add_region_on_picogw_ui.md:22
 msgid "Now, the PicoGW_UI will work on the definition of `global_conf.json`."
-msgstr ""
+msgstr "现在, PicoGW_UI 将处理 `global_conf.json`的定义."
 
 #: ../../source/add_region_on_picogw_ui.md:26
 msgid "&nbsp;"
-msgstr ""
+msgstr "&nbsp;"
 
 #: ../../source/add_region_on_picogw_ui.md:28
 msgid "External resources"
-msgstr ""
+msgstr "外部资源"
 
 #: ../../source/add_region_on_picogw_ui.md:30
 msgid ""
 "[LoRaWAN regional parameters](https://lora-"
 "alliance.org/sites/default/files/2018-04/lorawantm_regional_parameters_v1.1rb_-_final.pdf)"
 msgstr ""
+"[LoRaWAN 区域参数](https://lora-"
+"alliance.org/sites/default/files/2018-04/lorawantm_regional_parameters_v1.1rb_-_final.pdf)"
 

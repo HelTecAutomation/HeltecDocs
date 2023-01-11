@@ -19,21 +19,23 @@ msgstr ""
 
 #: ../../source/update_firmware.md:1
 msgid "HT-M00 Firmware Upgrade"
-msgstr ""
+msgstr "HT-M00固件升级"
 
 #: ../../source/update_firmware.md:3
 msgid "{ht_translation}`[简体中文]:[English]`"
-msgstr ""
+msgstr "{ht_translation}`[简体中文]:[English]`"
 
 #: ../../source/update_firmware.md:6
 msgid "Summary"
-msgstr ""
+msgstr "概要"
 
 #: ../../source/update_firmware.md:8
 msgid ""
 "This article aims to describe how to upgrade the HT-M00 firmware and the "
 "processing method of overwriting the HT-M00 firmware."
 msgstr ""
+"本文主要介绍了HT-M00固件的升级方法和"
+"覆盖HT-M00固件的处理方法."
 
 #: ../../source/update_firmware.md:11
 msgid ""
@@ -43,6 +45,11 @@ msgid ""
 "ESP32 chip ID to \"support@heltec.cn\", we will recalculate the "
 "activation code for you and upload it to the server."
 msgstr ""
+"由于HT-M00固件版本V1.8更新了网关激活"
+"码算法. 因此, 从V1.7及以下升级到V1.8及"
+"以上需要重新激活HT-M00网关. 请将网关"
+"ESP32芯片ID发送到 \"support@heltec.cn\", 我们将为您重新"
+"计算激活码并上传到服务器."
 
 #: ../../source/update_firmware.md:15
 msgid ""
@@ -50,71 +57,78 @@ msgid ""
 " IDs when modifying the gateway ID, please modify the \"FFFF\" part in "
 "the middle, thank you!"
 msgstr ""
+"如果您的网关ID被占用, 为了避免在修改网关ID"
+"时占用其他网关ID, 请修改中间的 \"FFFF\" "
+"部分, 谢谢!"
 
 #: ../../source/update_firmware.md:18 ../../source/update_firmware.md:35
 #: ../../source/update_firmware.md:57
 msgid "&nbsp;"
-msgstr ""
+msgstr "&nbsp;"
 
 #: ../../source/update_firmware.md:20
 msgid "Firmware Upgrade Logs"
-msgstr ""
+msgstr "固件升级日志"
 
 #: ../../source/update_firmware.md:22
 msgid "V1.7"
-msgstr ""
+msgstr "V1.7"
 
 #: ../../source/update_firmware.md:23
 msgid "Add noise floor automatic calibration function;"
-msgstr ""
+msgstr "增加噪音地板自动校正功能;"
 
 #: ../../source/update_firmware.md:24
 msgid "Known bug fix."
-msgstr ""
+msgstr "已知的bug修复."
 
 #: ../../source/update_firmware.md:25
 msgid "V1.8"
-msgstr ""
+msgstr "V1.8"
 
 #: ../../source/update_firmware.md:26
 msgid ""
 "Timing check SX1276 working status, if the SX1276 chips working not "
 "normal, system auto reset."
 msgstr ""
+"定时检查SX1276工作状态, 如果SX1276芯片工作不"
+"正常, 系统自动复位."
 
 #: ../../source/update_firmware.md:27
 msgid "V1.9"
-msgstr ""
+msgstr "V1.9"
 
 #: ../../source/update_firmware.md:28
 msgid ""
 "Add preamble length parsing function. If the json package sent by the "
 "server has a pream field, HT-M00 will parse and forward it."
 msgstr ""
+"增加前导码长度解析功能. 如果服务器发送的json包"
+"有pream字段, HT-M00将解析并转发它."
 
 #: ../../source/update_firmware.md:29
 msgid "V2.0"
-msgstr ""
+msgstr "V2.0"
 
 #: ../../source/update_firmware.md:30
 msgid "Add DHCP support in Wi-Fi connection;"
-msgstr ""
+msgstr "Wi-Fi连接增加DHCP支持;"
 
 #: ../../source/update_firmware.md:31
 msgid "The upstream and downstream ports can be set separately;"
-msgstr ""
+msgstr "上下行端口可单独设置;"
 
 #: ../../source/update_firmware.md:32
 msgid "Can modify the heartbeat cycle by yourself."
-msgstr ""
+msgstr "可自行修改心跳周期."
 
 #: ../../source/update_firmware.md:33
 msgid "Can modify the gateway ID by yourself."
-msgstr ""
+msgstr "可以自行修改网关ID."
 
 #: ../../source/update_firmware.md:37
 msgid "Upgrade Firmware"
-msgstr ""
+msgstr "升级固件"
 
 #: ../../source/update_firmware.md:39
 msgid ""
@@ -124,16 +138,23 @@ msgid ""
 "compressed package, please refer to \" [Complete Firmware Upgrade"
 "](complete-firmware-upgrade) \" for firmware upgrade."
 msgstr ""
+"该方法适用于升级固件时不"
+"改变网关配置页面. 也就是说, 这个版本的固件只有"
+"相应的bin文件. 如果此版本的固件是"
+"压缩包, 固件升级请参考 \" [Complete Firmware Upgrade"
+"](complete-firmware-upgrade) \"."
 
 #: ../../source/update_firmware.md:41
 msgid ""
 "Download [HT-M00 corresponding upgrade "
 "firmware](https://resource.heltec.cn/download/HT-M00/firmware)。"
 msgstr ""
+"下载 [HT-M00 对应的升级"
+"固件](https://resource.heltec.cn/download/HT-M00/firmware)。"
 
 #: ../../source/update_firmware.md:43
 msgid "![](img/update_firmware/01.png)"
-msgstr ""
+msgstr "![](img/update_firmware/01.png)"
 
 #: ../../source/update_firmware.md:45
 msgid ""
@@ -142,34 +163,42 @@ msgid ""
 "Start](https://docs.heltec.org/en/gateway/ht-m00/quick_start.html))，click"
 " \"Firmwaer Update\"。"
 msgstr ""
+"通过连接HT-M00 WiFi进入HT-M00网关"
+"配置界面(可参考 [HT-M00 快速"
+"入门](https://docs.heltec.org/en/gateway/ht-m00/quick_start.html))，点击"
+" \"Firmwaer Update\"。"
 
 #: ../../source/update_firmware.md:47
 msgid "![](img/update_firmware/02.png)"
-msgstr ""
+msgstr "![](img/update_firmware/02.png)"
 
 #: ../../source/update_firmware.md:49
 msgid ""
 "Click \"Select firmware\" to select the corresponding upgrade firmware "
 "that has been downloaded, and click \"Update\" to upgrade."
 msgstr ""
+"点击 \"Select firmware\", 选择已下载的相应"
+"升级固件, 点击 \"Update\" 进行升级."
 
 #: ../../source/update_firmware.md:51
 msgid "![](img/update_firmware/03.png)"
-msgstr ""
+msgstr "![](img/update_firmware/03.png)"
 
 #: ../../source/update_firmware.md:53
 msgid ""
 "After the upgrade is complete, a corresponding prompt will pop up and "
 "restart the gateway."
 msgstr ""
+"升级完成后, 会弹出相应的提示, 并"
+"重启网关."
 
 #: ../../source/update_firmware.md:55
 msgid "![](img/update_firmware/04.png)"
-msgstr ""
+msgstr "![](img/update_firmware/04.png)"
 
 #: ../../source/update_firmware.md:61
 msgid "Complete Firmware Upgrade"
-msgstr ""
+msgstr "完整固件升级"
 
 #: ../../source/update_firmware.md:63
 msgid ""
@@ -177,42 +206,49 @@ msgid ""
 "accidentally overwrites the gateway firmware, it is necessary to burn the"
 " complete gateway firmware."
 msgstr ""
+"如果新固件修改了网关的web配置, 或者用户"
+"不小心覆盖了网关固件, 就有必要烧掉"
+"完整的网关固件."
 
 #: ../../source/update_firmware.md:65
 msgid "Download Firmware"
-msgstr ""
+msgstr "下载固件"
 
 #: ../../source/update_firmware.md:67
 msgid ""
-"Download [HT-M00 complete "
+"下载 [HT-M00 complete "
 "Firmware](https://resource.heltec.cn/download/HT-M00/firmware/complete_firmware)。"
 msgstr ""
+"Download [HT-M00 完整"
+"固件](https://resource.heltec.cn/download/HT-M00/firmware/complete_firmware)。"
 
 #: ../../source/update_firmware.md:69
 msgid "Open the downloaded file and edit the \"M00_Vx_x.bat\" file."
-msgstr ""
+msgstr "打开下载的文件并编辑 \"M00_Vx_x.bat\" 文件."
 
 #: ../../source/update_firmware.md:71
 msgid "![](img/update_firmware/05.png)"
-msgstr ""
+msgstr "![](img/update_firmware/05.png)"
 
 #: ../../source/update_firmware.md:73
 msgid "Change the COM port to the COM port corresponding to HT-M00."
-msgstr ""
+msgstr "将COM口修改为HT-M00对应的COM口."
 
 #: ../../source/update_firmware.md:75
 msgid "![](img/update_firmware/06.png)"
-msgstr ""
+msgstr "![](img/update_firmware/06.png)"
 
 #: ../../source/update_firmware.md:77
 msgid ""
 "After the modification is completed, run \"M00_Vx_x.bat\" to complete the"
 " gateway firmware upload."
 msgstr ""
+"修改完成后, 运行 \"M00_Vx_x.bat\" 以完成"
+"网关固件的上传."
 
 #: ../../source/update_firmware.md:79
 msgid "Activate the Gateway"
-msgstr ""
+msgstr "激活网关"
 
 #: ../../source/update_firmware.md:81
 msgid ""
@@ -220,10 +256,13 @@ msgid ""
 "corresponding to the HT-M00 and read the corresponding ESP32 chip ID of "
 "the gateway. Baud rate is 115200."
 msgstr ""
+"固件下载完成后, 打开HT-M00"
+"对应的串口, 读取对应网关的ESP32"
+"芯片ID. 波特率为115200."
 
 #: ../../source/update_firmware.md:83
 msgid "![](img/update_firmware/07.png)"
-msgstr ""
+msgstr "![](img/update_firmware/07.png)"
 
 #: ../../source/update_firmware.md:85
 msgid ""
@@ -232,10 +271,14 @@ msgid ""
 "enter the ESP32 chip ID to query the serial number corresponding to the "
 "gateway."
 msgstr ""
+"输入 "
+"[https://resource.heltec.cn/search](https://resource.heltec.cn/search), "
+"输入ESP32芯片ID, 查询网关对应的"
+"序列号."
 
 #: ../../source/update_firmware.md:87
 msgid "![](img/update_firmware/08.png)"
-msgstr ""
+msgstr "![](img/update_firmware/08.png)"
 
 #: ../../source/update_firmware.md:89
 msgid ""
@@ -246,18 +289,26 @@ msgid ""
 "0x12345678, 0x12345678, 0x12345678, the activation command is "
 "AT+CDKEY=12345678123456781234567812345678."
 msgstr ""
+"打开HT-M00对应的串口, 通过串口发送命令 "
+"\"AT+CDKEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\" "
+"激活网关. 其中, \"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\" 是"
+"32位的许可证. 例如, 如果许可证是 0x12345678, "
+"0x12345678, 0x12345678, 0x12345678, 则激活命令为 "
+"AT+CDKEY=12345678123456781234567812345678."
 
 #: ../../source/update_firmware.md:91
 msgid "![](img/update_firmware/09.png)"
-msgstr ""
+msgstr "![](img/update_firmware/09.png)"
 
 #: ../../source/update_firmware.md:93
 msgid "After the screen displays normally, the gateway is activated successfully."
-msgstr ""
+msgstr "屏幕显示正常后, 表示激活成功."
 
 #: ../../source/update_firmware.md:98
 msgid ""
 "For lower version firmware, the firmware can be upgraded according to the"
 " \"firmware upgrade\" method."
 msgstr ""
+"对于较低版本的固件, 可以根据"
+" \"firmware upgrade\" 方法进行升级."
 
