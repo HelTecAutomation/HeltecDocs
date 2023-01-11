@@ -20,27 +20,29 @@ msgstr ""
 
 #: ../../source/wifi_kit_8/index.rst:7
 msgid "Hardware Update Logs"
-msgstr ""
+msgstr "硬件更新日志"
 
 #: ../../source/wifi_kit_8/index.rst:2
 msgid "WiFi Kit 8"
-msgstr ""
+msgstr "WiFi Kit 8"
 
 #: ../../source/wifi_kit_8/index.rst:3
 msgid ":ht_translation:`[简体中文]:[English]`"
-msgstr ""
+msgstr ":ht_translation:`[简体中文]:[English]`"
 
 #: ../../source/wifi_kit_8/index.rst:5
 msgid "WiFi Kit 8 relevant documents."
-msgstr ""
+msgstr "WiFi Kit 8 相关文档."
 
 #: ../../source/wifi_kit_8/index.rst:13
 msgid "Relevant Offical Resources"
-msgstr ""
+msgstr "相关官方资源"
 
 #: ../../source/wifi_kit_8/index.rst:15
 msgid ""
 "`Schematic diagram "
 "<https://resource.heltec.cn/download/WiFi_Kit_8/WIFI_Kit_8_Schematic_diagram.PDF>`_."
 msgstr ""
+"`原理图 "
+"<https://resource.heltec.cn/download/WiFi_Kit_8/WIFI_Kit_8_Schematic_diagram.PDF>`_."
 

@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/module/programming_esp32.md:1
 msgid "How to programming a ESP32 Module"
-msgstr ""
+msgstr "如何为ESP32模块编程"
 
 #: ../../source/module/programming_esp32.md:2
 msgid "{ht_translation}`[简体中文]:[English]`"
@@ -27,60 +27,60 @@ msgstr ""
 
 #: ../../source/module/programming_esp32.md:4
 msgid "This document uses Wireless_ Shell as an example."
-msgstr ""
+msgstr "本文档以Wireless_ Shell为例进行说明."
 
 #: ../../source/module/programming_esp32.md:6
 msgid ""
 "Wireless_ Shell only have ESP32 and RF relevant circute inside. In order "
 "to program it, need connect to a external UART-USB bridge. CH340G, CP2102"
 " etc."
-msgstr ""
+msgstr "Wireless_ Shell内部只有ESP32和射频相关电路.为了编程，需要连接到一个外部UART-USB bridge. CH340G, CP2102等."
 
 #: ../../source/module/programming_esp32.md:8
 msgid "&nbsp;"
-msgstr ""
+msgstr "&nbsp;"
 
 #: ../../source/module/programming_esp32.md:10
 msgid "1. Recommend Circuit"
-msgstr ""
+msgstr "1.推荐电路"
 
 #: ../../source/module/programming_esp32.md:12
 msgid "Please refer to the recommended circuit design for your circuit."
-msgstr ""
+msgstr "请参考您的电路的推荐电路设计."
 
 #: ../../source/module/programming_esp32.md:14
 msgid ""
 "**[Recommend circuit "
 "](https://resource.heltec.cn/download/Wireless_Shell/wireless_shell_reference_hardware_design.pdf)**"
-msgstr ""
+msgstr "**[推荐电路](https://resource.heltec.cn/download/Wireless_Shell/wireless_shell_reference_hardware_design.pdf)**"
 
 #: ../../source/module/programming_esp32.md:15
 msgid ""
 "This circuit have an auto boot circuit, can running into bootloader mode "
 "automatically."
-msgstr ""
+msgstr "该电路具有自动引导电路，可自动进入bootloader模式"
 
 #: ../../source/module/programming_esp32.md:17
 msgid "2. Preparation"
-msgstr ""
+msgstr "2.准备"
 
 #: ../../source/module/programming_esp32.md:19
 msgid ""
 "Install the ESP32 development framework correctly ([Reference "
 "resources](https://docs.heltec.org/en/node/esp32/quick_start.html));"
-msgstr ""
+msgstr "正确安装ESP32开发框架 ([参考文献](https://docs.heltec.org/en/node/esp32/quick_start.html));"
 
 #: ../../source/module/programming_esp32.md:20
 msgid ""
 "Connect your redesigned board to a computer, make sure useing a high "
 "quality Micro USB cable;"
-msgstr ""
+msgstr "将您重新设计的电路板连接到计算机，确保使用高质量的Micro USB电缆;"
 
 #: ../../source/module/programming_esp32.md:21
 msgid ""
 "Use the serial port debugging assistant to open the serial port and check"
 " whether the serial port can print information normally."
-msgstr ""
+msgstr ""使用串口调试助手打开串口，查看串口是否能正常打印信息.
 
 #: ../../source/module/programming_esp32.md:23
 msgid "![](img/programming_esp32/01.png)"
@@ -88,7 +88,7 @@ msgstr ""
 
 #: ../../source/module/programming_esp32.md:27
 msgid "3. Program via Arduino IDE"
-msgstr ""
+msgstr "3.通过Arduino IDE编程 "
 
 #: ../../source/module/programming_esp32.md:29
 msgid ""
@@ -96,7 +96,7 @@ msgid ""
 "click \"Upload\" to start uploading the program. Since the core circuits "
 "of Wireless_ Shell and Wireless_Stick_Lite are the same, they can use the"
 " same development environment."
-msgstr ""
+msgstr "打开Arduino,选择\"Tools\" ->\"Board\" ->\"Wireless Stick Lite\", 点击 \"Upload\"开始上传程序.由于wireless_shell和Wireless_Stick_Lite的核心电路是相同的,所以它们可以使用相同的开发环境."
 
 #: ../../source/module/programming_esp32.md:31
 msgid "![](img/programming_esp32/02.png)"

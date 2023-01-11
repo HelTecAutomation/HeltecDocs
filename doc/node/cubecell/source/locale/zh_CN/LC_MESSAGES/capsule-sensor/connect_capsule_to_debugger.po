@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/capsule-sensor/connect_capsule_to_debugger.md:1
 msgid "Connect Capsule to Debugger"
-msgstr ""
+msgstr "连接胶囊到调试"
 
 #: ../../source/capsule-sensor/connect_capsule_to_debugger.md:2
 msgid "{ht_translation}`[简体中文]:[English]`"
@@ -31,14 +31,14 @@ msgid ""
 "deployed sensor. It does not have programming, debugging, and other "
 "interfaces. You need to use the [Debug Board](https://heltec.org/product"
 "/cubecell-capsule-debug/) in order to program and debug the program."
-msgstr ""
+msgstr "胶囊传感器本身定位为一个小型,组装和部署传感器.它没有编程,调试,和其他接口.您需要使用[调试板](https://heltec.org/product"/cubecell-capsule-debug/)来编写和调试程序."
 
 #: ../../source/capsule-sensor/connect_capsule_to_debugger.md:6
 msgid ""
 "Both the capsule sensor body and the debug board have a round white "
 "marking point. When connecting, the position of the white points should "
 "be matched."
-msgstr ""
+msgstr "胶囊传感器本体和调试板均有圆形白色标记点.连接时,白点的位置要匹配."
 
 #: ../../source/capsule-sensor/connect_capsule_to_debugger.md:8
 msgid "![](img/connect_capsule_to_debugger/01.png)"
@@ -47,14 +47,14 @@ msgstr ""
 #: ../../source/capsule-sensor/connect_capsule_to_debugger.md:10
 #: ../../source/capsule-sensor/connect_capsule_to_debugger.md:16
 msgid "&nbsp;"
-msgstr ""
+msgstr "&nbsp;"
 
 #: ../../source/capsule-sensor/connect_capsule_to_debugger.md:12
 msgid ""
 "After the connection is completed, the sensor body and the debugging "
 "board are integrated into one body, and the pins are in a corresponding "
 "relationship, which is convenient for plugging in various sensors."
-msgstr ""
+msgstr "连接完成后,传感器体与调试板一体,引脚处于对应关系,方便各种传感器的插接."
 
 #: ../../source/capsule-sensor/connect_capsule_to_debugger.md:14
 msgid "![](img/connect_capsule_to_debugger/02.png)"
@@ -62,7 +62,7 @@ msgstr ""
 
 #: ../../source/capsule-sensor/connect_capsule_to_debugger.md:18
 msgid "**\"Capsule Master & Debugger Board & Sensor\"** correctlly assembled:"
-msgstr ""
+msgstr "**\"胶囊主体 & 调试板 & 传感器\"**正确安装:"
 
 #: ../../source/capsule-sensor/connect_capsule_to_debugger.md:20
 msgid "![](img/connect_capsule_to_debugger/03.png)"

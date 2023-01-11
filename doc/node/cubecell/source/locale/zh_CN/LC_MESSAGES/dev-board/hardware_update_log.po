@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/dev-board/hardware_update_log.md:1
 msgid "Hardware Update Logs"
-msgstr ""
+msgstr "硬件更新日志"
 
 #: ../../source/dev-board/hardware_update_log.md:2
 msgid "{ht_translation}`[简体中文]:[English]`"
@@ -27,13 +27,13 @@ msgstr ""
 
 #: ../../source/dev-board/hardware_update_log.md:4
 msgid "HTTC - AB01 Hardware Update Logs"
-msgstr ""
+msgstr "http - AB01硬件更新日志"
 
 #: ../../source/dev-board/hardware_update_log.md:6
 #: ../../source/dev-board/hardware_update_log.md:17
 #: ../../source/dev-board/hardware_update_log.md:28
 msgid "V1"
-msgstr ""
+msgstr "v1"
 
 #: ../../source/dev-board/hardware_update_log.md:8
 msgid "![](img/hardware_update_log/01.png)"
@@ -43,27 +43,27 @@ msgstr ""
 #: ../../source/dev-board/hardware_update_log.md:21
 #: ../../source/dev-board/hardware_update_log.md:32
 msgid "First release"
-msgstr ""
+msgstr "首次发布"
 
 #: ../../source/dev-board/hardware_update_log.md:11
 msgid "2017-6-1 public sale"
-msgstr ""
+msgstr "2017-6-1公开发售"
 
 #: ../../source/dev-board/hardware_update_log.md:12
 msgid ""
 "[Pinout diagram of V1](http://resource.heltec.cn/download/CubeCell/HTCC-"
 "AB01/HTCC-AB01_PinoutDiagram.pdf)"
-msgstr ""
+msgstr "[v1引脚图](http://resource.heltec.cn/download/CubeCell/HTCC-AB01/HTCC-AB01_PinoutDiagram.pdf)"
 
 #: ../../source/dev-board/hardware_update_log.md:13
 msgid ""
 "[Schematic diagram of V1](http://resource.heltec.cn/download/CubeCell"
 "/HTCC-AB01/HTCC-AB01_SchematicDiagram.pdf)"
-msgstr ""
+msgstr "[v1原理图](http://resource.heltec.cn/download/CubeCell/HTCC-AB01/HTCC-AB01_SchematicDiagram.pdf)"
 
 #: ../../source/dev-board/hardware_update_log.md:15
 msgid "HTTC - AB02 Hardware Update Logs"
-msgstr ""
+msgstr "HTTC - AB02硬件更新日志"
 
 #: ../../source/dev-board/hardware_update_log.md:19
 msgid "![](img/hardware_update_log/02.png)"
@@ -72,23 +72,23 @@ msgstr ""
 #: ../../source/dev-board/hardware_update_log.md:22
 #: ../../source/dev-board/hardware_update_log.md:33
 msgid "2020-04-30 public sale"
-msgstr ""
+msgstr "2020年4月30日公开发售"
 
 #: ../../source/dev-board/hardware_update_log.md:23
 msgid ""
 "[Pinout diagram of V1](http://resource.heltec.cn/download/CubeCell/HTCC-"
 "AB02/HTCC-AB02_PinoutDiagram.pdf)"
-msgstr ""
+msgstr "[v1引脚图](http://resource.heltec.cn/download/CubeCell/HTCC-AB02/HTCC-AB02_PinoutDiagram.pdf)"
 
 #: ../../source/dev-board/hardware_update_log.md:24
 msgid ""
 "[Schematic diagram of V1](http://resource.heltec.cn/download/CubeCell"
 "/HTCC-AB02/HTCC-AB02_SchematicDiagram.pdf)"
-msgstr ""
+msgstr "[v1原理图](http://resource.heltec.cn/download/CubeCell/HTCC-AB02/HTCC-AB02_SchematicDiagram.pdf)"
 
 #: ../../source/dev-board/hardware_update_log.md:26
 msgid "HTTC - AB02A Hardware Update Logs"
-msgstr ""
+msgstr "HTTC - AB02A硬件更新日志"
 
 #: ../../source/dev-board/hardware_update_log.md:30
 msgid "![](img/hardware_update_log/03.png)"
@@ -98,21 +98,21 @@ msgstr ""
 msgid ""
 "[Pinout diagram of V1](http://resource.heltec.cn/download/CubeCell/HTCC-"
 "AB02A/HTCC-AB02A_PinoutDiagram.pdf)"
-msgstr ""
+msgstr "[v1引脚图](http://resource.heltec.cn/download/CubeCell/HTCC-AB02A/HTCC-AB02A_PinoutDiagram.pdf)"
 
 #: ../../source/dev-board/hardware_update_log.md:35
 msgid ""
 "[Schematic diagram of V1](http://resource.heltec.cn/download/CubeCell"
 "/HTCC-AB02A/HTCC-AB02A_SchematicDiagram.pdf)"
-msgstr ""
+msgstr "[v1原理图][Schematic diagram of V1](http://resource.heltec.cn/download/CubeCell/HTCC-AB02A/HTCC-AB02A_SchematicDiagram.pdf)"
 
 #: ../../source/dev-board/hardware_update_log.md:37
 msgid "HTTC - AB02S Hardware Update Logs"
-msgstr ""
+msgstr "HTTC - AB02S硬件更新日志"
 
 #: ../../source/dev-board/hardware_update_log.md:39
 msgid "V1.0"
-msgstr ""
+msgstr "V1.0"
 
 #: ../../source/dev-board/hardware_update_log.md:41
 msgid "![](img/hardware_update_log/04.png)"
@@ -120,52 +120,52 @@ msgstr ""
 
 #: ../../source/dev-board/hardware_update_log.md:43
 msgid "First release."
-msgstr ""
+msgstr "首次发布"
 
 #: ../../source/dev-board/hardware_update_log.md:44
 msgid "2020-04-30 public sale."
-msgstr ""
+msgstr "2020-04-30 公开销售"
 
 #: ../../source/dev-board/hardware_update_log.md:45
 msgid ""
 "[Pinout diagram of V1](http://resource.heltec.cn/download/CubeCell/HTCC-"
 "AB02S/HTCC-AB02S_PinoutDiagram.pdf)"
-msgstr ""
+msgstr "[v1引脚图](http://resource.heltec.cn/download/CubeCell/HTCC-AB02S/HTCC-AB02S_PinoutDiagram.pdf)"
 
 #: ../../source/dev-board/hardware_update_log.md:46
 msgid ""
 "[Schematic diagram of V1](http://resource.heltec.cn/download/CubeCell"
 "/HTCC-AB02S/HTCC-AB02S_SchematicDiagram.pdf)"
-msgstr ""
+msgstr "[v1原理图](http://resource.heltec.cn/download/CubeCell/HTCC-AB02S/HTCC-AB02S_SchematicDiagram.pdf)"
 
 #: ../../source/dev-board/hardware_update_log.md:48
 msgid "V1.0.1"
-msgstr ""
+msgstr "V1.0.1"
 
 #: ../../source/dev-board/hardware_update_log.md:50
 msgid "2020-10-08 public sale."
-msgstr ""
+msgstr "2020-10-08公开销售"
 
 #: ../../source/dev-board/hardware_update_log.md:51
 msgid "Change the GPS indicator pin from IO8 to IO12."
-msgstr ""
+msgstr "将GPS指示灯引脚从IO8改为IO12."
 
 #: ../../source/dev-board/hardware_update_log.md:52
 msgid ""
 "[Pinout diagram of V1.0.1](http://resource.heltec.cn/download/CubeCell"
 "/HTCC-AB02S/HTCC-AB02S_PinoutDiagram.pdf)"
-msgstr ""
+msgstr "[v1.0.1引脚图](http://resource.heltec.cn/download/CubeCell/HTCC-AB02S/HTCC-AB02S_PinoutDiagram.pdf)"
 
 #: ../../source/dev-board/hardware_update_log.md:54
 msgid ""
 "[Schematic diagram of "
 "V1.0.1](https://resource.heltec.cn/download/CubeCell/HTCC-AB02S/HTCC-"
 "AB02S_SchematicDiagram_V1.1.pdf)"
-msgstr ""
+msgstr "[v1.0.1原理图](https://resource.heltec.cn/download/CubeCell/HTCC-AB02S/HTCC-AB02S_SchematicDiagram_V1.1.pdf)"
 
 #: ../../source/dev-board/hardware_update_log.md:56
 msgid "V1.1"
-msgstr ""
+msgstr "V1.1"
 
 #: ../../source/dev-board/hardware_update_log.md:58
 msgid "![](img/hardware_update_log/05.png)"
@@ -173,27 +173,27 @@ msgstr ""
 
 #: ../../source/dev-board/hardware_update_log.md:60
 msgid "2021-03-28 public sale."
-msgstr ""
+msgstr "2021-03-28公开销售"
 
 #: ../../source/dev-board/hardware_update_log.md:61
 msgid ""
 "Replace the GPS module from AIR530 to AIR530Z to further improve "
 "performance and optimize low power consumption."
-msgstr ""
+msgstr "将GPS模块从AIR530替换为AIR530Z，进一步提高性能和优化低功耗."
 
 #: ../../source/dev-board/hardware_update_log.md:62
 msgid "Optimize the circuit and optimize the PCB layout."
-msgstr ""
+msgstr "优化电路，优化PCB布局."
 
 #: ../../source/dev-board/hardware_update_log.md:63
 msgid ""
 "[Pinout diagram of V1.1](http://resource.heltec.cn/download/CubeCell"
 "/HTCC-AB02S/HTCC-AB02S_PinoutDiagram.pdf)"
-msgstr ""
+msgstr "[v1.1引脚图](http://resource.heltec.cn/download/CubeCell/HTCC-AB02S/HTCC-AB02S_PinoutDiagram.pdf)"
 
 #: ../../source/dev-board/hardware_update_log.md:64
 msgid ""
 "[Schematic diagram of V1.1](https://resource.heltec.cn/download/CubeCell"
 "/HTCC-AB02S/HTCC-AB02S_SchematicDiagram_V1.1.pdf)"
-msgstr ""
+msgstr "[v1.1原理图](https://resource.heltec.cn/download/CubeCell/HTCC-AB02S/HTCC-AB02S_SchematicDiagram_V1.1.pdf)"
 

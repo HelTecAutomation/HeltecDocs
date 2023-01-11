@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/wireless_bridge/wifi_lora_user_manual.md:1
 msgid "Wireless Bridge WiFi_LoRa Example User Manual"
-msgstr ""
+msgstr "Wireless Bridge WiFi_LoRa 例程用户手册"
 
 #: ../../source/wireless_bridge/wifi_lora_user_manual.md:3
 msgid "{ht_translation}`[简体中文]:[English]`"
@@ -27,31 +27,31 @@ msgstr ""
 
 #: ../../source/wireless_bridge/wifi_lora_user_manual.md:5
 msgid "Summary"
-msgstr ""
+msgstr "摘要"
 
 #: ../../source/wireless_bridge/wifi_lora_user_manual.md:7
 msgid ""
 "This document will briefly introduce the usage of Wireless_Bridge "
 "WiFi_LoRa example."
-msgstr ""
+msgstr "本文档将简要介绍Wireless_Bridge WiFi_LoRa例程的用法."
 
 #: ../../source/wireless_bridge/wifi_lora_user_manual.md:10
 msgid "loraWanClass should choose CLASS_C"
-msgstr ""
+msgstr "loraWanClass应该选择CLASS_C"
 
 #: ../../source/wireless_bridge/wifi_lora_user_manual.md:13
 msgid "Usage"
-msgstr ""
+msgstr "用法"
 
 #: ../../source/wireless_bridge/wifi_lora_user_manual.md:15
 msgid ""
 "Before starting the test, make sure that Wireless_Bridge can communicate "
 "with the gateway normally."
-msgstr ""
+msgstr "在开始测试之前，请确保Wireless_Bridge可以与网关正常通信."
 
 #: ../../source/wireless_bridge/wifi_lora_user_manual.md:17
 msgid "Configure WiFi information in the program."
-msgstr ""
+msgstr "在程序中配置WiFi信息."
 
 #: ../../source/wireless_bridge/wifi_lora_user_manual.md:19
 msgid "![](img/wifi_lora_user_manual/01.png)"
@@ -65,7 +65,7 @@ msgid ""
 " and \"Write page IP address\" is the sending webpage for forwarding WiFi"
 " information to LoRa. The device that opens the webpage must be in the "
 "same local area network as the Wireless_Bridge."
-msgstr ""
+msgstr "将程序上传到开发板后,打开串行端口以查看网页的IP地址. 其中,\"View page IP address\"是用于将LoRa信息转发到WiFi的查看网页,而\"Write page IP address\"是用于将WiFi信息转发到LoRa的发送网页. 打开网页的设备必须与Wireless_Bridge位于同一局域网中. "
 
 #: ../../source/wireless_bridge/wifi_lora_user_manual.md:23
 msgid "![](img/wifi_lora_user_manual/02.png)"
@@ -77,7 +77,7 @@ msgid ""
 " the web page through WiFi. The default web page refresh time is 10S, and"
 " the web page refresh time can be modified in the \"setTimeout\" function"
 " according to specific needs."
-msgstr ""
+msgstr "通过LoRa发送信息,接收到的数据将通过WiFi显示在网页上. 默认的网页刷新时间为10S,可以根据特定需要在 \"setTimeout\"函数中修改网页刷新时间."
 
 #: ../../source/wireless_bridge/wifi_lora_user_manual.md:27
 msgid "![](img/wifi_lora_user_manual/03.png)"
@@ -92,7 +92,7 @@ msgid ""
 "The information issued by the webpage will be forwarded to LoRa and can "
 "be viewed in the node data. The information forwarded to LoRa needs to be"
 " decoded accordingly."
-msgstr ""
+msgstr "网页发布的信息将转发到LoRa,并且可以在节点数据中查看. 转发到LoRa的信息需要相应地进行解码."
 
 #: ../../source/wireless_bridge/wifi_lora_user_manual.md:33
 msgid "![](img/wifi_lora_user_manual/05.png)"
@@ -100,5 +100,5 @@ msgstr ""
 
 #: ../../source/wireless_bridge/wifi_lora_user_manual.md:35
 msgid "The corresponding decoding of this example is as follows:"
-msgstr ""
+msgstr "该示例的相应解码如下:"
 

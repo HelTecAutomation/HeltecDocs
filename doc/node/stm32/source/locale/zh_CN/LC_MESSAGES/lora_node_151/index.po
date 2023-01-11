@@ -19,23 +19,23 @@ msgstr ""
 
 #: ../../source/lora_node_151/index.rst:7
 msgid "Download Firmware"
-msgstr ""
+msgstr "下载固件"
 
 #: ../../source/lora_node_151/index.rst:7
 msgid "Establish Serial Connection"
-msgstr ""
+msgstr "建立串行连接"
 
 #: ../../source/lora_node_151/index.rst:7
 msgid "Pingpong Test"
-msgstr ""
+msgstr "Pingpong测试"
 
 #: ../../source/lora_node_151/index.rst:7
 msgid "Hardware Update Logs"
-msgstr ""
+msgstr "硬件更新日志"
 
 #: ../../source/lora_node_151/index.rst:2
 msgid "LoRa Node 151"
-msgstr ""
+msgstr "LoRa Node 151"
 
 #: ../../source/lora_node_151/index.rst:3
 msgid ":ht_translation:`[简体中文]:[English]`"
@@ -43,21 +43,21 @@ msgstr ""
 
 #: ../../source/lora_node_151/index.rst:5
 msgid "LoRa Node 151 relevant documents."
-msgstr ""
+msgstr "LoRa Node 151相关文档."
 
 #: ../../source/lora_node_151/index.rst:16
 msgid "Relevant Offical Resources"
-msgstr ""
+msgstr "相关官方资源"
 
 #: ../../source/lora_node_151/index.rst:18
 msgid ""
 "`Basic hardware test "
 "<http://resource.heltec.cn/download/LoRa_Node_151/Pingpong_CDC.zip>`_;"
-msgstr ""
+msgstr "`基础硬件测试<http://resource.heltec.cn/download/LoRa_Node_151/Pingpong_CDC.zip>`_;"
 
 #: ../../source/lora_node_151/index.rst:19
 msgid ""
 "`Schematic diagram "
 "<https://resource.heltec.cn/download/LoRa_Node_151/LoRa_Node_151_Block_Diagram_V1.pdf>`_."
-msgstr ""
+msgstr "`原理图<https://resource.heltec.cn/download/LoRa_Node_151/LoRa_Node_151_Block_Diagram_V1.pdf>`_."
 

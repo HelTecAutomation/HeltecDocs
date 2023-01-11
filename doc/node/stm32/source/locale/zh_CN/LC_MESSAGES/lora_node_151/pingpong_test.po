@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/lora_node_151/pingpong_test.md:1
 msgid "LoRa Node 151 Pingpong test"
-msgstr ""
+msgstr "LoRa Node 151 Pingpong测试"
 
 #: ../../source/lora_node_151/pingpong_test.md:2
 msgid "{ht_translation}`[简体中文]:[English]`"
@@ -27,29 +27,29 @@ msgstr ""
 
 #: ../../source/lora_node_151/pingpong_test.md:4
 msgid "Prepare"
-msgstr ""
+msgstr "准备"
 
 #: ../../source/lora_node_151/pingpong_test.md:6
 msgid ""
 "Download LoRa Node 151 pingpong example: "
 "[pingpong_CDC](https://resource.heltec.cn/download/LoRa_Node_151/example_code/Pingpong_CDC.zip)."
-msgstr ""
+msgstr "下载LoRa Node 151 pingpong示例:[pingpong_CDC](https://resource.heltec.cn/download/LoRa_Node_151/example_code/Pingpong_CDC.zip)."
 
 #: ../../source/lora_node_151/pingpong_test.md:8
 msgid ""
 "Download firmware to LoRa Node 151, Please refer to [Download "
 "firmware](https://docs.heltec.org/en/node/stm32/lora_node_151/download_firmware.html)."
-msgstr ""
+msgstr "下载固件到LoRa Node 151,请参考[下载固件](https://docs.heltec.org/en/node/stm32/lora_node_151/download_firmware.html)."
 
 #: ../../source/lora_node_151/pingpong_test.md:10
 msgid "Start test"
-msgstr ""
+msgstr "开始测试"
 
 #: ../../source/lora_node_151/pingpong_test.md:12
 msgid ""
 "After downloading the firmware correctly, connect the development board "
 "to the computer and open the serial port."
-msgstr ""
+msgstr "正确下载固件后将开发板连接到电脑,并打开串口."
 
 #: ../../source/lora_node_151/pingpong_test.md:14
 msgid "![](img/pingpong_test/01.png)"
@@ -59,11 +59,11 @@ msgstr ""
 msgid ""
 "After opening the serial port, some parameters will be configured. If you"
 " do not configure them, the default parameters will be selected."
-msgstr ""
+msgstr "打开串口后,会配置一些参数.如果您没有进行配置,那么会选用默认参数."
 
 #: ../../source/lora_node_151/pingpong_test.md:18
 msgid "**Configure Frequency Band**"
-msgstr ""
+msgstr "**配置频段**"
 
 #: ../../source/lora_node_151/pingpong_test.md:20
 msgid "![](img/pingpong_test/02.png)"
@@ -71,7 +71,7 @@ msgstr ""
 
 #: ../../source/lora_node_151/pingpong_test.md:22
 msgid "**Configure Spreading Factor**"
-msgstr ""
+msgstr "**配置扩频因子**"
 
 #: ../../source/lora_node_151/pingpong_test.md:24
 msgid "![](img/pingpong_test/03.png)"
@@ -79,7 +79,7 @@ msgstr ""
 
 #: ../../source/lora_node_151/pingpong_test.md:26
 msgid "**Configure Coding Rate**"
-msgstr ""
+msgstr "**配置编码率**"
 
 #: ../../source/lora_node_151/pingpong_test.md:28
 msgid "![](img/pingpong_test/04.png)"
@@ -87,7 +87,7 @@ msgstr ""
 
 #: ../../source/lora_node_151/pingpong_test.md:30
 msgid "**Configure Output Power**"
-msgstr ""
+msgstr "**配置输出功率**"
 
 #: ../../source/lora_node_151/pingpong_test.md:32
 msgid "![](img/pingpong_test/05.png)"
@@ -95,7 +95,7 @@ msgstr ""
 
 #: ../../source/lora_node_151/pingpong_test.md:34
 msgid "When the configuration is complete, the node will enter a wait state."
-msgstr ""
+msgstr "当配置完成后,节点将进入等待状态."
 
 #: ../../source/lora_node_151/pingpong_test.md:36
 msgid "![](img/pingpong_test/06.png)"
@@ -105,7 +105,7 @@ msgstr ""
 msgid ""
 "Then configure another Lora node 151 node in the same way. After "
 "configuration, the two nodes will enter the pingpong test."
-msgstr ""
+msgstr "再按相同方法配置另一个LoRa Node 151节点,配置完成后,这两个节点将进入pingpong测试."
 
 #: ../../source/lora_node_151/pingpong_test.md:40
 msgid "![](img/pingpong_test/07.png)"
@@ -115,5 +115,5 @@ msgstr ""
 msgid ""
 "The frequency band and the spreading factor need to be configured with "
 "the same parameters, otherwise they will not be able to communicate."
-msgstr ""
+msgstr "频段和扩频因子需配置为相同参数,否则会无法通信."
 

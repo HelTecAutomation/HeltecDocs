@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/lorawan/config_parameter.md:1
 msgid "\"ESP32 + LoRa\" Preparation & Config Parameters"
-msgstr ""
+msgstr "\"ESP32 + LoRa\" 节点准备和配置参数"
 
 #: ../../source/lorawan/config_parameter.md:2
 msgid "{ht_translation}`[简体中文]:[English]`"
@@ -27,13 +27,13 @@ msgstr ""
 
 #: ../../source/lorawan/config_parameter.md:4
 msgid "Preparation"
-msgstr ""
+msgstr "准备"
 
 #: ../../source/lorawan/config_parameter.md:6
 msgid ""
 "Arduino IDE.  How to install please click "
 "[here](https://docs.heltec.org/general/how_to_install_git_and_arduino.html)."
-msgstr ""
+msgstr "Arduino IDE.如何安装请按[这里](https://docs.heltec.org/general/how_to_install_git_and_arduino.html)."
 
 #: ../../source/lorawan/config_parameter.md:7
 msgid ""
@@ -41,36 +41,36 @@ msgid ""
 "framework](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series). "
 "Installation manual  please refer to "
 "[here](https://docs.heltec.org/en/node/esp32/quick_start.html)."
-msgstr ""
+msgstr "这个库必须与[Heltec WiFi_Kit_series Arduino开发框架](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series)一起运行.安装手册请参考[此文档](https://docs.heltec.org/en/node/esp32/quick_start.html)."
 
 #: ../../source/lorawan/config_parameter.md:9
 msgid "A gateway already connected a LoRa server."
-msgstr ""
+msgstr "一个网关已经连接了一个LoRa服务器."
 
 #: ../../source/lorawan/config_parameter.md:10
 msgid ""
 "[Connect HT-M01 to a LoRa "
 "server](https://docs.heltec.org/en/gateway/ht-m01/connect_to_server.html);"
-msgstr ""
+msgstr "[连接HT-M01到LoRa服务器](https://docs.heltec.org/en/gateway/ht-m01/connect_to_server.html);"
 
 #: ../../source/lorawan/config_parameter.md:11
 msgid ""
 "[Connect HT-M02 to a LoRa server](https://docs.heltec.org/en/gateway/ht-"
 "m02_4g/connect_to_server.html)."
-msgstr ""
+msgstr "[连接HT-M02到LoRa服务器](https://docs.heltec.org/en/gateway/ht-m02_4g/connect_to_server.html)."
 
 #: ../../source/lorawan/config_parameter.md:12
 msgid ""
 "[Connect HT-M01S to a LoRa server](https://docs.heltec.org/en/gateway/ht-"
 "m01s_v2/connect_to_server.html)."
-msgstr ""
+msgstr "[连接HT-M01S到LoRa服务器](https://docs.heltec.org/en/gateway/ht-m01s_v2/connect_to_server.html)."
 
 #: ../../source/lorawan/config_parameter.md:13
 msgid ""
 "An ESP32 + LoRa ([WiFi LoRa 32](https://heltec.org/project/wifi-"
 "lora-32/), [Wireless Stick](https://heltec.org/project/wireless-stick/), "
 "etc.) node and a high quality USB cable."
-msgstr ""
+msgstr "一个ESP32 + LoRa ([WiFi LoRa 32](https://heltec.org/project/wifi-lora-32/), [Wireless Stick](https://heltec.org/project/wireless-stick/),等.) 节点和一根高质量的Micro-USB数据线."
 
 #: ../../source/lorawan/config_parameter.md:14
 msgid ""
@@ -79,58 +79,58 @@ msgid ""
 "Windows<sup>®</sup> via USB, and use [WiFi LoRa 32 "
 "(V2)](https://heltec.org/project/wifi-lora-32/) Board to quickly connect "
 "to TTN."
-msgstr ""
+msgstr "在本例中，我们使用[HT-M01 Gateway](https://heltec.org/project/ht-m01/)并通过Micro-USB数据线将它连接到Windows<sup>®</sup>, 然后使用[WiFi LoRa 32(V2)](https://heltec.org/project/wifi-lora-32/)开发板快速连接到TTN."
 
 #: ../../source/lorawan/config_parameter.md:17
 msgid "Configure Parameters"
-msgstr ""
+msgstr "配置参数"
 
 #: ../../source/lorawan/config_parameter.md:19
 msgid ""
 "No matter what LoRa management platform is used, DevEui, AppKey, etc. "
 "parameters are must needed. And ensure that it is consistent with the "
 "relevant settings on the server."
-msgstr ""
+msgstr "无论使用何种LoRa管理平台,都需要DevEui,AppKey,等参数.并确保它与服务器上的相关设置一致."
 
 #: ../../source/lorawan/config_parameter.md:21
 msgid "**The following parameters are essential for OTAA mode:**"
-msgstr ""
+msgstr "**以下参数对于OTAA模式至关重要:**"
 
 #: ../../source/lorawan/config_parameter.md:22
 msgid "DevEui -- Mote device IEEE EUI (big endian), 8 bytes;"
-msgstr ""
+msgstr "DevEui -- Mote device IEEE EUI (big endian), 8 bytes;"
 
 #: ../../source/lorawan/config_parameter.md:23
 msgid "AppEui -- Application IEEE EUI (big endian), 8 bytes;"
-msgstr ""
+msgstr "AppEui -- Application IEEE EUI (big endian), 8 bytes;"
 
 #: ../../source/lorawan/config_parameter.md:24
 msgid "AppKey -- AES encryption/decryption cipher application key, 16 bytes;"
-msgstr ""
+msgstr "AppKey -- AES encryption/decryption cipher application key, 16 bytes;"
 
 #: ../../source/lorawan/config_parameter.md:25
 msgid "**The following parameters are essential for ABP mode:**"
-msgstr ""
+msgstr "**以下参数对于ABP模式至关重要:**"
 
 #: ../../source/lorawan/config_parameter.md:26
 msgid "NwkSKey -- AES encryption/decryption cipher network session key, 16 bytes;"
-msgstr ""
+msgstr "NwkSKey -- AES encryption/decryption cipher network session key, 16 bytes;"
 
 #: ../../source/lorawan/config_parameter.md:27
 msgid ""
 "AppSKey -- AES encryption/decryption cipher application session key, 16 "
 "bytes;"
-msgstr ""
+msgstr "AppSKey -- AES encryption/decryption cipher application session key, 16 bytes;"
 
 #: ../../source/lorawan/config_parameter.md:28
 msgid "DevAddr -- Device address on the network (big endian), uint32_t;"
-msgstr ""
+msgstr "DevAddr -- Device address on the network (big endian), uint32_t;"
 
 #: ../../source/lorawan/config_parameter.md:30
 msgid ""
 "Choose an example from menu `File -- Examples -- Heltec-Example -- "
 "LoRaWAN -- LoRaWAN`."
-msgstr ""
+msgstr "依次点击`File -- Examples -- Heltec-Example --LoRaWAN -- LoRaWAN`选择一个例程."
 
 #: ../../source/lorawan/config_parameter.md:32
 msgid "![](img/config_parameter/01.png)"
@@ -140,7 +140,7 @@ msgstr ""
 msgid ""
 "The LoRaWAN relevant parameters are in the `.ino` file, fix it in the "
 "code directly."
-msgstr ""
+msgstr "LoRaWAN相关参数在 `.ino`文件中,直接在代码中修改."
 
 #: ../../source/lorawan/config_parameter.md:36
 msgid "![](img/config_parameter/02.png)"
@@ -148,11 +148,11 @@ msgstr ""
 
 #: ../../source/lorawan/config_parameter.md:38
 msgid "Choose Frequency Band"
-msgstr ""
+msgstr "选择频段"
 
 #: ../../source/lorawan/config_parameter.md:40
 msgid "There are some options in the Arduino Tools menu:"
-msgstr ""
+msgstr "Arduino工具菜单中有一些选项:"
 
 #: ../../source/lorawan/config_parameter.md:42
 msgid "![](img/config_parameter/03.png)"
@@ -163,53 +163,53 @@ msgid ""
 "`Board, Upload Speed, CPU Frequency, Core Debug Level, PSRAM` are ESP32 "
 "chip's normal option, just keep default. Special notice the `LoRaWan "
 "Region` and `LoRaWan Debug Level`:"
-msgstr ""
+msgstr "`Board, Upload Speed, CPU Frequency, Core Debug Level, PSRAM`是ESP32芯片的常规选项,仅保留默认值.特别注意`LoRaWan Region`和`LoRaWan Debug Level`:"
 
 #: ../../source/lorawan/config_parameter.md:46
 msgid ""
 "**LoRaWan Region** -- LoRaWAN protocol region definition, strictly follow"
 " [LoRaWAN™ 1.0.2 Regional Parameters "
 "rB](https://resource.heltec.cn/download/LoRaWANRegionalParametersv1.0.2_final_1944_1.pdf);"
-msgstr ""
+msgstr "**LoRaWan Region** -- 严格遵守LoRaWAN 协议区域定义[LoRaWAN™ 1.0.2 Regional Parameters rB](https://resource.heltec.cn/download/LoRaWANRegionalParametersv1.0.2_final_1944_1.pdf);"
 
 #: ../../source/lorawan/config_parameter.md:47
 msgid "**LoRaWan Debug Level** -- Messages printed via serial."
-msgstr ""
+msgstr "LoRaWan Debug Level** -- 通过串行端口打印的消息."
 
 #: ../../source/lorawan/config_parameter.md:48
 msgid "None -- Default;"
-msgstr ""
+msgstr "None --默认;"
 
 #: ../../source/lorawan/config_parameter.md:49
 msgid "Freq -- Uplink/downlink frequency;"
-msgstr ""
+msgstr "Freq -- 上/下行频率;"
 
 #: ../../source/lorawan/config_parameter.md:50
 msgid "Freq && DIO -- Uplink/downlink frequency and DIO interrupt information;"
-msgstr ""
+msgstr "Freq && DIO -- 上/下行链路频率和DIO中断信息;"
 
 #: ../../source/lorawan/config_parameter.md:51
 msgid ""
 "Freq && DIO && PW -- Uplink/downlink frequency, DIO interrupt information"
 " and low power status."
-msgstr ""
+msgstr "Freq && DIO && PW -- 上/下行链路频率,DIO中断信息和低功耗状态."
 
 #: ../../source/lorawan/config_parameter.md:52
 msgid "**LORAWAN_DEVEUI** -- LoRaWAN Device EUI generate method"
-msgstr ""
+msgstr "**LORAWAN_DEVEUI** --LoRaWAN Device EUI生成方法 "
 
 #: ../../source/lorawan/config_parameter.md:53
 msgid "CUSTOM -- Defined by the user in the DevEui array of the code, 8 bytes;"
-msgstr ""
+msgstr "CUSTOM -- 由用户在DevEui数组中定义的代码，8个字节"
 
 #: ../../source/lorawan/config_parameter.md:54
 msgid ""
 "Generate By ChipID -- Generated according to the Chip ID of the chip. "
 "Selecting this option will override the setting in the DevEui array in "
 "the code."
-msgstr ""
+msgstr "Generate By ChipID --根据芯片的Chip ID生成,选择此选项将覆盖代码中DevEui数组中的设置."
 
 #: ../../source/lorawan/config_parameter.md:58
 msgid "Print too much messages may cause the system unstable."
-msgstr ""
+msgstr "打印过多的消息可能会导致系统不稳定."
 

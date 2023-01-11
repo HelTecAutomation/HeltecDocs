@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: esp8266_arduino \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-03 15:15+0800\n"
+"POT-Creation-Date: 2023-01-11 15:00+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,15 +16,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../source/index.rst:16
+#: ../../source/index.rst:15
 msgid "Quick Start"
 msgstr ""
 
-#: ../../source/index.rst:16
+#: ../../source/index.rst:15
 msgid "WiFi Kit 8"
 msgstr ""
 
-#: ../../source/index.rst:16
+#: ../../source/index.rst:15
 msgid "Frequently Asked Questions"
 msgstr ""
 
@@ -57,21 +57,17 @@ msgid "Power mananagement system and Li-Po support;"
 msgstr ""
 
 #: ../../source/index.rst:12
-msgid "Arduino-compitable;"
+msgid "Arduino-compitable."
 msgstr ""
 
-#: ../../source/index.rst:13
-msgid "We also provide `LoRaWAN-Node protocol Arduino library <https://github.com/HelTecAutomation/Heltec_ESP8266>`_;"
-msgstr ""
-
-#: ../../source/index.rst:24
+#: ../../source/index.rst:23
 msgid "Relevant Offical Resources"
 msgstr ""
 
-#: ../../source/index.rst:26
+#: ../../source/index.rst:25
 msgid "`Heltec ESP8266 development framework source code <https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series>`_;"
 msgstr ""
 
-#: ../../source/index.rst:27
+#: ../../source/index.rst:26
 msgid "`Heltec ESP8266 series Arduino library <https://github.com/HelTecAutomation/Heltec_ESP8266>`_."
 msgstr ""

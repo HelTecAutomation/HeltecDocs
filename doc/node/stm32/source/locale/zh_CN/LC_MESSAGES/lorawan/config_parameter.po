@@ -15,11 +15,11 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.3\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../source/lorawan/config_parameter.md:1
 msgid "\"STM32 + LoRa\" Preparation & Config Parameters"
-msgstr ""
+msgstr "\"STM32 + LoRa\" 准备和配置参数"
 
 #: ../../source/lorawan/config_parameter.md:2
 msgid "{ht_translation}`[简体中文]:[English]`"
@@ -38,61 +38,69 @@ msgid ""
 "code tracking, code completion, compilation, download, single-step "
 "debugging, and integrated with CubdeMX."
 msgstr ""
+"[LoRa Node 151](https://heltec.org/project/lora-"
+"node-151/)基于STM32L151CCU6](https://www.st.com/resource/en/datasheet/stm32l151cc.pdf),[Turtle"
+" Board](https://heltec.org/project/turtle-"
+"board/)基于[STM32L432KC](https://www.st.com/resource/en/datasheet/stm32l432KC.pdf),我们公司正在逐步将IDE替换为[STM32CubeIDE](https://www.st.com/en"
+"/development-"
+"tools/stm32cubeide.html),这是STMicroelectronics官方刚刚为自己的MCU推出的开发工具.基于Eclipse,包括代码跟踪,代码编写,编译,下载,单步调试，并与CubdeMX集成."
 
 #: ../../source/lorawan/config_parameter.md:6
 msgid "Summary"
-msgstr ""
+msgstr "摘要"
 
 #: ../../source/lorawan/config_parameter.md:8
 msgid ""
 "No matter what LoRa management platform is used, DevEui, AppKey, etc. "
 "parameters are must needed. And ensure that it is consistent with the "
 "relevant settings on the server."
-msgstr ""
+msgstr "无论使用何种LoRa管理平台,都需要DevEui, AppKey, 等.并确保它与服务器上的相关设置一致."
 
 #: ../../source/lorawan/config_parameter.md:10
 msgid "**The following parameters are essential for OTAA mode:**"
-msgstr ""
+msgstr "**以下参数对于OTAA模式至关重要:**"
 
 #: ../../source/lorawan/config_parameter.md:11
 msgid "DevEui -- Mote device IEEE EUI (big endian), 8 bytes;"
-msgstr ""
+msgstr "DevEui -- Mote device IEEE EUI (big endian), 8 bytes;"
 
 #: ../../source/lorawan/config_parameter.md:12
 msgid "AppEui -- Application IEEE EUI (big endian), 8 bytes;"
-msgstr ""
+msgstr "AppEui -- Application IEEE EUI (big endian), 8 bytes;"
 
 #: ../../source/lorawan/config_parameter.md:13
 msgid "AppKey -- AES encryption/decryption cipher application key, 16 bytes;"
-msgstr ""
+msgstr "AppKey -- AES encryption/decryption cipher application key, 16 bytes;"
 
 #: ../../source/lorawan/config_parameter.md:14
 msgid "**The following parameters are essential for ABP mode:**"
-msgstr ""
+msgstr "**以下参数对于ABP模式至关重要:**"
 
 #: ../../source/lorawan/config_parameter.md:15
 msgid "NwkSKey -- AES encryption/decryption cipher network session key, 16 bytes;"
-msgstr ""
+msgstr "NwkSKey -- AES encryption/decryption cipher network session key, 16 bytes;"
 
 #: ../../source/lorawan/config_parameter.md:16
 msgid ""
 "AppSKey -- AES encryption/decryption cipher application session key, 16 "
 "bytes;"
 msgstr ""
+"AppSKey -- AES encryption/decryption cipher application session key, 16 "
+"bytes;"
 
 #: ../../source/lorawan/config_parameter.md:17
 msgid "DevAddr -- Device address on the network (big endian), uint32_t;"
-msgstr ""
+msgstr "DevAddr -- Device address on the network (big endian), uint32_t;"
 
 #: ../../source/lorawan/config_parameter.md:19
 #: ../../source/lorawan/config_parameter.md:30
 #: ../../source/lorawan/config_parameter.md:46
 msgid "&nbsp;"
-msgstr ""
+msgstr "&nbsp;"
 
 #: ../../source/lorawan/config_parameter.md:21
 msgid "Preparation"
-msgstr ""
+msgstr "准备"
 
 #: ../../source/lorawan/config_parameter.md:23
 msgid ""
@@ -101,19 +109,26 @@ msgid ""
 "[STM32CubeProgrammer](https://www.st.com/zh/development-"
 "tools/stm32cubeprog.html) correctly."
 msgstr ""
+"正确安装[STM32CubeIDE](https://www.st.com/zh/development-"
+"tools/stm32cubeide.html#get-"
+"software)和STM32CubeProgrammer](https://www.st.com/zh/development-"
+"tools/stm32cubeprog.html) correctly."
 
 #: ../../source/lorawan/config_parameter.md:24
+#, fuzzy
 msgid ""
 "A standard LoRaWAN gateway with at least 8 channels (based on SX1301/8 "
 "base band chip will be OK), and make sure your gateway had already "
 "connected to a LoRa server."
-msgstr ""
+msgstr "至少有8个通道的标准LoRaWAN网关"
 
 #: ../../source/lorawan/config_parameter.md:25
 msgid ""
 "[How to connect HT-M01 to a LoRa "
 "server](https://docs.heltec.org/en/gateway/ht-m01/connect_to_server.html)"
 msgstr ""
+"[怎样连接HT-"
+"M01到LoRa服务器](https://docs.heltec.org/en/gateway/ht-m01/connect_to_server.html)"
 
 #: ../../source/lorawan/config_parameter.md:26
 msgid ""
@@ -121,6 +136,8 @@ msgid ""
 "server](https://docs.heltec.org/en/gateway/ht-"
 "m02_4g/connect_to_server.html)"
 msgstr ""
+"[怎样连接HT-M02到LoRa服务器](https://docs.heltec.org/en/gateway/ht-"
+"m02_4g/connect_to_server.html)"
 
 #: ../../source/lorawan/config_parameter.md:27
 msgid ""
@@ -128,6 +145,8 @@ msgid ""
 "server](https://docs.heltec.org/en/gateway/ht-"
 "m01s_v2/connect_to_server.html)"
 msgstr ""
+"[怎样连接HT-M01s到LoRa服务器](https://docs.heltec.org/en/gateway/ht-"
+"m01s_v2/connect_to_server.html)"
 
 #: ../../source/lorawan/config_parameter.md:28
 msgid ""
@@ -135,30 +154,33 @@ msgid ""
 "node-151/) , [Turtle Board](https://heltec.org/project/turtle-board/)), a"
 " high quality USB cable and an ST-LINK."
 msgstr ""
+"一个STM32 LoRa节点( [LoRa Node 151](https://heltec.org/project/lora-"
+"node-151/) , [Turtle Board](https://heltec.org/project/turtle-board"
+"/)),一根高质量的Micro-USB数据线和一个ST-LINK."
 
 #: ../../source/lorawan/config_parameter.md:32
 msgid "Config steps"
-msgstr ""
+msgstr "配置步骤"
 
 #: ../../source/lorawan/config_parameter.md:34
 msgid ""
 "The LoRaWAN example code of LoRa Node is a STM32CubeIDE project, here is "
 "the basic config steps."
-msgstr ""
+msgstr "LoRa节点的LoRaWAN例程代码是一个STM32CubeIDE项目,下面是基本的配置步骤."
 
 #: ../../source/lorawan/config_parameter.md:36
 msgid "Download and install `STM32CubeIDE` and `STM32CubeProgramme` correctly."
-msgstr ""
+msgstr "正确下载并安装`STM32CubeIDE`和`STM32CubeProgramme`."
 
 #: ../../source/lorawan/config_parameter.md:38
 msgid "Double click `.project` document, open project."
-msgstr ""
+msgstr "双击`.project`文件,打开这个工程."
 
 #: ../../source/lorawan/config_parameter.md:40
 msgid ""
 "The first time you run, may have the following dialog box will, click Yes"
 " and then OK."
-msgstr ""
+msgstr "第一次运行时,可能会出现以下对话框,单击是，然后单击确定."
 
 #: ../../source/lorawan/config_parameter.md:42
 msgid "![](img/config_parameter/01.png)"
@@ -170,7 +192,7 @@ msgstr ""
 
 #: ../../source/lorawan/config_parameter.md:48
 msgid "Modify macro definition: Set working bands、working mode and debugger."
-msgstr ""
+msgstr "修改宏定义:设置工作频段、工作模式和调试打印"
 
 #: ../../source/lorawan/config_parameter.md:51
 msgid "![](img/config_parameter/03.png)"
@@ -178,99 +200,99 @@ msgstr ""
 
 #: ../../source/lorawan/config_parameter.md:53
 msgid "`ACTIVE_CLASS`"
-msgstr ""
+msgstr "`ACTIVE_CLASS`"
 
 #: ../../source/lorawan/config_parameter.md:55
 msgid "`CLASS_A`"
-msgstr ""
+msgstr "`CLASS_A`"
 
 #: ../../source/lorawan/config_parameter.md:57
 msgid "`CLASS_B`--NOT SUPPORT"
-msgstr ""
+msgstr "`CLASS_B`--目前不支持"
 
 #: ../../source/lorawan/config_parameter.md:59
 msgid "`CLASS_C`"
-msgstr ""
+msgstr "`CLASS_C`"
 
 #: ../../source/lorawan/config_parameter.md:61
 msgid "`ACTIVE_REGION`"
-msgstr ""
+msgstr "`ACTIVE_REGION`"
 
 #: ../../source/lorawan/config_parameter.md:63
 msgid "`LORAMAC_REGION_AS923`"
-msgstr ""
+msgstr "`LORAMAC_REGION_AS923`"
 
 #: ../../source/lorawan/config_parameter.md:65
 msgid "`LORAMAC_REGION_AU915`"
-msgstr ""
+msgstr "`LORAMAC_REGION_AU915`"
 
 #: ../../source/lorawan/config_parameter.md:67
 msgid "`LORAMAC_REGION_CN470`"
-msgstr ""
+msgstr "`LORAMAC_REGION_CN470`"
 
 #: ../../source/lorawan/config_parameter.md:69
 msgid "`LORAMAC_REGION_CN779`"
-msgstr ""
+msgstr "`LORAMAC_REGION_CN779`"
 
 #: ../../source/lorawan/config_parameter.md:71
 msgid "`LORAMAC_REGION_EU433`"
-msgstr ""
+msgstr "`LORAMAC_REGION_EU433`"
 
 #: ../../source/lorawan/config_parameter.md:73
 msgid "`LORAMAC_REGION_EU868`"
-msgstr ""
+msgstr "`LORAMAC_REGION_EU868`"
 
 #: ../../source/lorawan/config_parameter.md:75
 msgid "`LORAMAC_REGION_KR920`"
-msgstr ""
+msgstr "`LORAMAC_REGION_KR920`"
 
 #: ../../source/lorawan/config_parameter.md:77
 msgid "`LORAMAC_REGION_IN865`"
-msgstr ""
+msgstr "`LORAMAC_REGION_IN865`"
 
 #: ../../source/lorawan/config_parameter.md:79
 msgid "`LORAMAC_REGION_US915`"
-msgstr ""
+msgstr "`LORAMAC_REGION_US915`"
 
 #: ../../source/lorawan/config_parameter.md:81
 msgid "`LORAMAC_REGION_US915_HYBRID`"
-msgstr ""
+msgstr "`LORAMAC_REGION_US915_HYBRID`"
 
 #: ../../source/lorawan/config_parameter.md:83
 msgid "`LORAMAC_REGION_AU915_SB2`"
-msgstr ""
+msgstr "`LORAMAC_REGION_AU915_SB2`"
 
 #: ../../source/lorawan/config_parameter.md:85
 msgid "`LORAMAC_REGION_AS923_AS1`"
-msgstr ""
+msgstr "`LORAMAC_REGION_AS923_AS1`"
 
 #: ../../source/lorawan/config_parameter.md:87
 msgid "`LORAMAC_REGION_AS923_AS2`"
-msgstr ""
+msgstr "`LORAMAC_REGION_AS923_AS2`"
 
 #: ../../source/lorawan/config_parameter.md:89
 msgid "`REGION_EU868` Set to the frequency band corresponding to `ACTIVE_REGION`"
-msgstr ""
+msgstr "`REGION_EU868`设置为与`ACTIVE_REGION`对应的频段"
 
 #: ../../source/lorawan/config_parameter.md:92
 msgid "`USE_DEBUGGER`"
-msgstr ""
+msgstr "`USE_DEBUGGER`"
 
 #: ../../source/lorawan/config_parameter.md:94
 msgid ""
 "If define `USE_DEBUGGER` , default serial port(PA9-TX, PA10-RX) can print"
 " debugging information."
-msgstr ""
+msgstr "如果定义`USE_DEBUGGER` ,默认串口(PA9-TX, PA10-RX)将打印调试信息."
 
 #: ../../source/lorawan/config_parameter.md:96
 msgid "If delete `USE_DEBUGGER` , debugging information will not be printed."
-msgstr ""
+msgstr "如果删除`USE_DEBUGGER` ,则不会打印调试信息."
 
 #: ../../source/lorawan/config_parameter.md:98
 msgid ""
 "Modify `DEVICE_EUI`, `APPLICATION_KEY`, `APPLICATION_EUI` in the `main.c`"
 " file according to your needs."
-msgstr ""
+msgstr "在`main.c`文件中将 `DEVICE_EUI`, `APPLICATION_KEY`, `APPLICATION_EUI`修改为你需要的值."
 
 #: ../../source/lorawan/config_parameter.md:100
 msgid "![](img/config_parameter/04.png)"
@@ -280,7 +302,7 @@ msgstr ""
 msgid ""
 "Modify `userChannelMask` ,  access mode `overTheAirActivation` and other "
 "parameter."
-msgstr ""
+msgstr "在`main.c`文件中将`userChannelMask` , `overTheAirActivation`和其他参数设置为你需要的值."
 
 #: ../../source/lorawan/config_parameter.md:104
 msgid "![](img/config_parameter/05.png)"
@@ -288,19 +310,19 @@ msgstr ""
 
 #: ../../source/lorawan/config_parameter.md:106
 msgid "`overTheAirActivation`"
-msgstr ""
+msgstr "`overTheAirActivation`"
 
 #: ../../source/lorawan/config_parameter.md:108
 msgid "`true`--OTAA"
-msgstr ""
+msgstr "`true`--OTAA"
 
 #: ../../source/lorawan/config_parameter.md:110
 msgid "`false`--ABP"
-msgstr ""
+msgstr "`false`--ABP"
 
 #: ../../source/lorawan/config_parameter.md:112
 msgid "Write the data you want to send in `prepareTxFrame`."
-msgstr ""
+msgstr "在`prepareTxFrame`中填入你要发送的数据."
 
 #: ../../source/lorawan/config_parameter.md:114
 msgid "![](img/config_parameter/06.png)"
@@ -310,7 +332,7 @@ msgstr ""
 msgid ""
 "Now, if download the program into your board, if everything is normal, it"
 " should be able to run."
-msgstr ""
+msgstr "现在,把程序下载到你的开发板上,如果一切正常,它应该可以正常运行."
 
 #: ../../source/lorawan/config_parameter.md:120
 msgid ""
@@ -320,4 +342,8 @@ msgid ""
 " [Turtle Board](https://heltec-automation-"
 "docs.readthedocs.io/en/latest/stm32/turtle_board/download_firmware.html))."
 msgstr ""
+"你或许需要:如何将固件下载到STM32 LoRa节点([LoRa Node 151](https://heltec-automation-"
+"docs.readthedocs.io/en/latest/stm32/lora_node_151/download_firmware.html),[Turtle"
+" Board](https://heltec-automation-"
+"docs.readthedocs.io/en/latest/stm32/turtle_board/download_firmware.html))."
 

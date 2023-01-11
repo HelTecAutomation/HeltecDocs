@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/lorawan/config_parameter.md:1
 msgid "Config LoRaWAN Networking Parameters for CubeCell (Dev EUI, App Key, etc.)"
-msgstr ""
+msgstr "CubeCell配置LoRaWAN网络参数(Dev EUI, App Key, 等.)"
 
 #: ../../source/lorawan/config_parameter.md:2
 msgid "{ht_translation}`[简体中文]:[English]`"
@@ -27,76 +27,76 @@ msgstr ""
 
 #: ../../source/lorawan/config_parameter.md:3
 msgid "Summary"
-msgstr ""
+msgstr "摘要"
 
 #: ../../source/lorawan/config_parameter.md:5
 msgid ""
 "No matter what LoRa management platform is used, DevEui, AppKey, etc. "
 "parameters are must needed. And ensure that it is consistent with the "
 "relevant settings on the server."
-msgstr ""
+msgstr "无论使用何种LoRa管理平台,都必须使用DevEui,AppKey等参数。并确保它与服务器上的相关设置一致."
 
 #: ../../source/lorawan/config_parameter.md:7
 msgid "**The following parameters are essential for OTAA mode:**"
-msgstr ""
+msgstr "**以下参数对于OTAA模式是必不可少的:**"
 
 #: ../../source/lorawan/config_parameter.md:8
 msgid "[DevEui](deveui) -- Mote device IEEE EUI (big endian), 8 bytes;"
-msgstr ""
+msgstr "[DevEui](deveui) -- Mote device IEEE EUI (big endian), 8 bytes;"
 
 #: ../../source/lorawan/config_parameter.md:9
 msgid "[AppEui](appeui) -- Application IEEE EUI (big endian), 8 bytes;"
-msgstr ""
+msgstr "[AppEui](appeui) -- Application IEEE EUI (big endian), 8 bytes;"
 
 #: ../../source/lorawan/config_parameter.md:10
 msgid ""
 "[AppKey](appkey) -- AES encryption/decryption cipher application key, 16 "
 "bytes;"
-msgstr ""
+msgstr "[AppKey](appkey) -- AES encryption/decryption cipher application key, 16 bytes;"
 
 #: ../../source/lorawan/config_parameter.md:11
 msgid "**The following parameters are essential for ABP mode:**"
-msgstr ""
+msgstr "**以下参数对于ABP模式是必不可少的:**"
 
 #: ../../source/lorawan/config_parameter.md:12
 msgid ""
 "[NwkSKey](nwkskey) -- AES encryption/decryption cipher network session "
 "key, 16 bytes;"
-msgstr ""
+msgstr "[NwkSKey](nwkskey) -- AES encryption/decryption cipher network session key, 16 bytes;"
 
 #: ../../source/lorawan/config_parameter.md:13
 msgid ""
 "[AppSKey](appskey) -- AES encryption/decryption cipher application "
 "session key, 16 bytes;"
-msgstr ""
+msgstr "[AppSKey](appskey) -- AES encryption/decryption cipher application session key, 16 bytes;"
 
 #: ../../source/lorawan/config_parameter.md:14
 msgid ""
 "[DevAddr](devaddr) -- Device address on the network (big endian), "
 "uint32_t;"
-msgstr ""
+msgstr "[DevAddr](devaddr) -- Device address on the network (big endian),uint32_t;"
 
 #: ../../source/lorawan/config_parameter.md:17
 msgid ""
 "There are three methods to configuration LoRaWAN networking parameters, "
 "choose one of them."
-msgstr ""
+msgstr "这有配置LoRaWAN网络参数的三种方法,请选择其中一种."
 
 #: ../../source/lorawan/config_parameter.md:20
 msgid "[Via Modify Code](via-modify-code)"
-msgstr ""
+msgstr "通过修改源代码参数"
 
 #: ../../source/lorawan/config_parameter.md:21
 msgid "[Via AT Command](via-at-command)"
-msgstr ""
+msgstr "通过AT命令"
 
 #: ../../source/lorawan/config_parameter.md:22
 msgid "[Via CubeCell Configurator](via-cubecell-configurator)"
-msgstr ""
+msgstr "通过CubeCell Configurator"
 
 #: ../../source/lorawan/config_parameter.md:25
 msgid "Parameters such as frequency band need to be modified in \"Tools\"."
-msgstr ""
+msgstr "频段等参数需在\"Tools\"中修改"
 
 #: ../../source/lorawan/config_parameter.md:28
 msgid "![](img/config_parameter/04.png)"
@@ -105,17 +105,17 @@ msgstr ""
 #: ../../source/lorawan/config_parameter.md:30
 #: ../../source/lorawan/config_parameter.md:41
 msgid "&nbsp;"
-msgstr ""
+msgstr "&nbsp;"
 
 #: ../../source/lorawan/config_parameter.md:33
 msgid "Via Modify Code"
-msgstr ""
+msgstr "通过修改代码参数"
 
 #: ../../source/lorawan/config_parameter.md:35
 msgid ""
 "The relevant parameters of the LoRaWAN network are in the corresponding "
 "`.ino` file:"
-msgstr ""
+msgstr "LoRaWAN网络相关参数在相应的.ino文件中修改:"
 
 #: ../../source/lorawan/config_parameter.md:37
 msgid "![](img/config_parameter/03.png)"
@@ -123,21 +123,21 @@ msgstr ""
 
 #: ../../source/lorawan/config_parameter.md:39
 msgid "Change the code and Compile/Upload again."
-msgstr ""
+msgstr "更改代码并再次编译/上载."
 
 #: ../../source/lorawan/config_parameter.md:44
 msgid "The follows two methods need AT-Command enable."
-msgstr ""
+msgstr "下面的两种方法需要AT命令支持."
 
 #: ../../source/lorawan/config_parameter.md:48
 msgid "Via AT Command"
-msgstr ""
+msgstr "通过AT命令"
 
 #: ../../source/lorawan/config_parameter.md:50
 msgid ""
 "In order to use AT command, need enable AT command in the \"Tools\" menu "
 "before upload."
-msgstr ""
+msgstr "为了使用AT命令,需要在上传前在 \"Tools\" 菜单中启用AT命令."
 
 #: ../../source/lorawan/config_parameter.md:52
 msgid "![](img/config_parameter/01.png)"
@@ -145,68 +145,68 @@ msgstr ""
 
 #: ../../source/lorawan/config_parameter.md:54
 msgid "Serial Port Settings"
-msgstr ""
+msgstr "串行端口设置"
 
 #: ../../source/lorawan/config_parameter.md:56
 msgid "Baud rate: 115200"
-msgstr ""
+msgstr "Baud rate: 115200"
 
 #: ../../source/lorawan/config_parameter.md:57
 msgid "Stop bit: 1"
-msgstr ""
+msgstr "Stop bit: 1"
 
 #: ../../source/lorawan/config_parameter.md:58
 msgid "Data bits: 8"
-msgstr ""
+msgstr "Data bits: 8"
 
 #: ../../source/lorawan/config_parameter.md:59
 msgid "DTR, RTS requirement: **None**"
-msgstr ""
+msgstr "DTR, RTS requirement: **None**"
 
 #: ../../source/lorawan/config_parameter.md:60
 msgid "Ending characters: **None**"
-msgstr ""
+msgstr "Ending characters: **None**"
 
 #: ../../source/lorawan/config_parameter.md:63
 msgid ""
 "Make sure there is NO ending characters or new line in you serial monitor"
 " config!"
-msgstr ""
+msgstr "确保串行监视器配置中没有结束字符或新行!"
 
 #: ../../source/lorawan/config_parameter.md:66
 msgid ""
 "With AT command support, the CubeCell is sleeping by default. Any content"
 " through the serial port will wake it up. It means the First command via "
 "serial port only wake up system."
-msgstr ""
+msgstr "在AT命令支持下,CubeCell在默认情况下处于休眠状态.任何通过串行端口的内容都会唤醒它.这意味着第一个通过串行端口的命令只唤醒系统."
 
 #: ../../source/lorawan/config_parameter.md:68
 msgid ""
 "For example, if send any contents such as `hello`, you will get this "
 "reply:"
-msgstr ""
+msgstr "例如,如果发送`hello`等内容,您将收到以下答复:"
 
 #: ../../source/lorawan/config_parameter.md:70
 msgid "`ASR is Waked,LowPower Mode Stopped`"
-msgstr ""
+msgstr "`ASR is Waked,LowPower Mode Stopped`"
 
 #: ../../source/lorawan/config_parameter.md:73
 msgid "DevEui"
-msgstr ""
+msgstr "DevEui"
 
 #: ../../source/lorawan/config_parameter.md:76
 msgid "We take all zero just for example"
-msgstr ""
+msgstr "我们以全为0为例"
 
 #: ../../source/lorawan/config_parameter.md:79
 msgid ""
 "Config DevEui to \"0000000000000000\", send following command via serial "
 "port:"
-msgstr ""
+msgstr "配置DevEui为\"0000000000000000\"，通过串行发送以下命令:"
 
 #: ../../source/lorawan/config_parameter.md:81
 msgid "`AT+DevEui=0000000000000000`"
-msgstr ""
+msgstr "`AT+DevEui=0000000000000000`"
 
 #: ../../source/lorawan/config_parameter.md:83
 #: ../../source/lorawan/config_parameter.md:97
@@ -215,133 +215,133 @@ msgstr ""
 #: ../../source/lorawan/config_parameter.md:139
 #: ../../source/lorawan/config_parameter.md:153
 msgid "Command running success will print feedback:"
-msgstr ""
+msgstr "命令运行成功将打印反馈："
 
 #: ../../source/lorawan/config_parameter.md:91
 msgid "AppEui"
-msgstr ""
+msgstr "AppEui"
 
 #: ../../source/lorawan/config_parameter.md:93
 msgid ""
 "Config AppEui to \"0000000000000000\", send following command via serial "
 "port:"
-msgstr ""
+msgstr "配置 AppEui 为 \"0000000000000000\",通过串行端口发送以下命令:"
 
 #: ../../source/lorawan/config_parameter.md:95
 msgid "`AT+AppEui=0000000000000000`"
-msgstr ""
+msgstr "`AT+AppEui=0000000000000000`"
 
 #: ../../source/lorawan/config_parameter.md:105
 msgid "AppKey"
-msgstr ""
+msgstr "AppKey"
 
 #: ../../source/lorawan/config_parameter.md:107
 msgid ""
 "Config AppKey to \"00000000000000000000000000000000\", send following "
 "command via serial port:"
-msgstr ""
+msgstr "配置AppKey 为\"00000000000000000000000000000000\", 通过串行端口发送以下命令:"
 
 #: ../../source/lorawan/config_parameter.md:109
 msgid "`AT+AppEui=00000000000000000000000000000000`"
-msgstr ""
+msgstr "`AT+AppEui=00000000000000000000000000000000`"
 
 #: ../../source/lorawan/config_parameter.md:119
 msgid "NwkSKey"
-msgstr ""
+msgstr "NwkSKey"
 
 #: ../../source/lorawan/config_parameter.md:121
 msgid ""
 "Config NwkSKey to \"00000000000000000000000000000000\", send following "
 "command via serial port:"
-msgstr ""
+msgstr "配置NwkSKey 为\"00000000000000000000000000000000\", 通过串行端口发送以下命令:"
 
 #: ../../source/lorawan/config_parameter.md:123
 msgid "`AT+NwkSKey=00000000000000000000000000000000`"
-msgstr ""
+msgstr "`AT+NwkSKey=00000000000000000000000000000000`"
 
 #: ../../source/lorawan/config_parameter.md:133
 msgid "AppSKey"
-msgstr ""
+msgstr "AppSKey"
 
 #: ../../source/lorawan/config_parameter.md:135
 msgid ""
 "Config AppSKey to \"00000000000000000000000000000000\", send following "
 "command via serial port:"
-msgstr ""
+msgstr "配置AppSKey 为\"00000000000000000000000000000000\", 通过串行端口发送以下命令:"
 
 #: ../../source/lorawan/config_parameter.md:137
 msgid "`AT+AppSKey=00000000000000000000000000000000`"
-msgstr ""
+msgstr "`AT+AppSKey=00000000000000000000000000000000`"
 
 #: ../../source/lorawan/config_parameter.md:147
 msgid "DevAddr"
-msgstr ""
+msgstr "DevAddr"
 
 #: ../../source/lorawan/config_parameter.md:149
 msgid "Config DevAddr to \"00000000\", send following command via serial port:"
-msgstr ""
+msgstr "配置DevAddr 为 \"00000000\", 通过串行端口发送以下命令:"
 
 #: ../../source/lorawan/config_parameter.md:151
 msgid "`AT+DevAddr=00000000`"
-msgstr ""
+msgstr "`AT+DevAddr=00000000`"
 
 #: ../../source/lorawan/config_parameter.md:160
 msgid "Duty Cycle"
-msgstr ""
+msgstr "Duty Cycle"
 
 #: ../../source/lorawan/config_parameter.md:162
 msgid ""
 "LoRa Node's default sending data period is 15 seconds, change this period"
 " to 60 seconds:"
-msgstr ""
+msgstr "LoRa节点的默认发送数据周期为15秒,将此周期更改为60秒:"
 
 #: ../../source/lorawan/config_parameter.md:164
 msgid "`AT+DutyCycle=60000`"
-msgstr ""
+msgstr "`AT+DutyCycle=60000`"
 
 #: ../../source/lorawan/config_parameter.md:166
 msgid "Reset CubeCell"
-msgstr ""
+msgstr "重置CubeCell"
 
 #: ../../source/lorawan/config_parameter.md:168
 msgid ""
 "LoRaWAN parameters need reset to active, CubeCell can reset via three "
 "methods:"
-msgstr ""
+msgstr "LoRaWAN参数需要重置CubeCell才能生效,CubeCell可以通过三种方法重置:"
 
 #: ../../source/lorawan/config_parameter.md:170
 msgid "Push the RST key;"
-msgstr ""
+msgstr "按下RST按键;"
 
 #: ../../source/lorawan/config_parameter.md:171
 msgid "Use AT command: `AT+RESET=1`"
-msgstr ""
+msgstr "使用AT命令:`AT+RESET=1`"
 
 #: ../../source/lorawan/config_parameter.md:172
 msgid "Provide a ≥10ms LOW signal to RST pin."
-msgstr ""
+msgstr "向RST引脚提供≥10ms的低电平信号."
 
 #: ../../source/lorawan/config_parameter.md:174
 msgid ""
 "Looking for more AT commands? Please refer to **[CubeCell AT Command "
 "list](https://resource.heltec.cn/download/CubeCell/AT_Command_list/CubeCell_Series_AT_Command_User_Manual_V0.4.pdf)**."
-msgstr ""
+msgstr "查看更多的AT命令请参考**[CubeCell AT命令列表](https://resource.heltec.cn/download/CubeCell/AT_Command_list/CubeCell_Series_AT_Command_User_Manual_V0.4.pdf)**"
 
 #: ../../source/lorawan/config_parameter.md:178
 msgid "Via CubeCell Configurator"
-msgstr ""
+msgstr "通过CubeCell Configurator"
 
 #: ../../source/lorawan/config_parameter.md:180
 msgid ""
 "Special thanks [WASN](https://github.com/wasn-eu) made a configurator for"
 " CubeCell, now it's only have Windows<sup>®</sup> support."
-msgstr ""
+msgstr "特别感谢WASN(https://github.com/wasn-eu)为CubeCell制作了一个配置程序,现在它只支持Windows<sup>®</sup>."
 
 #: ../../source/lorawan/config_parameter.md:182
 msgid ""
 "[https://github.com/wasn-eu/CubeCell_Getting_Started](https://github.com"
 "/wasn-eu/CubeCell_Getting_Started)"
-msgstr ""
+msgstr "[https://github.com/wasn-eu/CubeCell_Getting_Started](https://github.com/wasn-eu/CubeCell_Getting_Started)"
 
 #: ../../source/lorawan/config_parameter.md:184
 msgid "![](img/config_parameter/02.png)"

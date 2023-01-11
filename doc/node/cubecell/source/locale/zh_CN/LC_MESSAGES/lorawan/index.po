@@ -19,15 +19,15 @@ msgstr ""
 
 #: ../../source/lorawan/index.rst:7
 msgid "Configuration Parameters"
-msgstr ""
+msgstr "配置参数"
 
 #: ../../source/lorawan/index.rst:7
 msgid "Connect to LoRaWAN server"
-msgstr ""
+msgstr "连接到LoRaWAN服务器"
 
 #: ../../source/lorawan/index.rst:2
 msgid "LoRaWAN"
-msgstr ""
+msgstr "LoRaWAN"
 
 #: ../../source/lorawan/index.rst:3
 msgid ":ht_translation:`[简体中文]:[English]`"
@@ -35,5 +35,5 @@ msgstr ""
 
 #: ../../source/lorawan/index.rst:5
 msgid "CubeCell series LoRaWAN protocol usage and configuration."
-msgstr ""
+msgstr "CubeCell系列LoRaWAN协议的使用和配置."
 

@@ -8,17 +8,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ht-m02_v2 \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-30 14:32+0800\n"
+"POT-Creation-Date: 2023-01-11 15:07+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.3\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../source/connect_to_server.md:1
-msgid "Connect HT-M02 to a LoRa Server"
+msgid "Connect HT-M02_V2 to a LoRa Server"
 msgstr ""
 
 #: ../../source/connect_to_server.md:2
@@ -215,4 +215,7 @@ msgstr ""
 #: ../../source/connect_to_server.md:138
 msgid "![](img/connect_to_server/08.png)"
 msgstr ""
+
+#~ msgid "Connect HT-M02 to a LoRa Server"
+#~ msgstr ""
 

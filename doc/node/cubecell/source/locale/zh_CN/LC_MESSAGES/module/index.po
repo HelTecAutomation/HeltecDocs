@@ -19,15 +19,15 @@ msgstr ""
 
 #: ../../source/module/index.rst:7
 msgid "Programming CubeCell Module"
-msgstr ""
+msgstr "CubeCell模块编程"
 
 #: ../../source/module/index.rst:7
 msgid "Hardware Update Logs"
-msgstr ""
+msgstr "硬件更新日志"
 
 #: ../../source/module/index.rst:2
 msgid "CubeCell Module"
-msgstr ""
+msgstr "CubeCell模块"
 
 #: ../../source/module/index.rst:3
 msgid ":ht_translation:`[简体中文]:[English]`"
@@ -35,37 +35,37 @@ msgstr ""
 
 #: ../../source/module/index.rst:5
 msgid "CubeCell Module relevant documents."
-msgstr ""
+msgstr "CubeCell模块相关文档."
 
 #: ../../source/module/index.rst:14
 msgid "Relevant Offical Resources"
-msgstr ""
+msgstr "相关官方资源"
 
 #: ../../source/module/index.rst:16
 msgid ""
 "`HTCC-AM01 Reference Design(Arduino) "
 "<http://resource.heltec.cn/download/CubeCell/HTCC-AM01_Module/HTCC-"
 "AM01_Reference_Design(Arduino).pdf>`_;"
-msgstr ""
+msgstr "`HTCC-AM01参考设计(Arduino)<http://resource.heltec.cn/download/CubeCell/HTCC-AM01_Module/HTCC-AM01_Reference_Design(Arduino).pdf>`_;"
 
 #: ../../source/module/index.rst:17
 msgid ""
 "`HTCC-AM01 Reference Design(AT) "
 "<http://resource.heltec.cn/download/CubeCell/HTCC-AM01_Module/HTCC-"
 "AM01_Reference_Design(AT).pdf>`_;"
-msgstr ""
+msgstr "`HTCC-AM01 参考设计(AT)<http://resource.heltec.cn/download/CubeCell/HTCC-AM01_Module/HTCC-AM01_Reference_Design(AT).pdf>`_;"
 
 #: ../../source/module/index.rst:18
 msgid ""
 "`HTCC-AM02 Reference Design(Arduino) "
 "<https://resource.heltec.cn/download/CubeCell/HTCC-AM02_Module/HTCC-"
 "AM02_Reference_Design(Arduino).pdf>`_;"
-msgstr ""
+msgstr "`HTCC-AM02 参考设计(Arduino)<https://resource.heltec.cn/download/CubeCell/HTCC-AM02_Module/HTCC-AM02_Reference_Design(Arduino).pdf>`_;"
 
 #: ../../source/module/index.rst:19
 msgid ""
 "`HTCC-AM02 Reference Design(AT) "
 "<https://resource.heltec.cn/download/CubeCell/HTCC-AM02_Module/HTCC-"
 "AM02_Reference_Design(AT).pdf>`_."
-msgstr ""
+msgstr "`HTCC-AM02 参考设计(AT)<https://resource.heltec.cn/download/CubeCell/HTCC-AM02_Module/HTCC-AM02_Reference_Design(AT).pdf>`_."
 

@@ -19,23 +19,23 @@ msgstr ""
 
 #: ../../source/capsule-sensor/index.rst:7
 msgid "Quick Start"
-msgstr ""
+msgstr "快速入门"
 
 #: ../../source/capsule-sensor/index.rst:7
 msgid "Assemble a Battery"
-msgstr ""
+msgstr "组装电池"
 
 #: ../../source/capsule-sensor/index.rst:7
 msgid "Connect Capsule Sensor to Debugger"
-msgstr ""
+msgstr "将胶囊传感器连接到调试板"
 
 #: ../../source/capsule-sensor/index.rst:7
 msgid "Sensor Pinout Diagram"
-msgstr ""
+msgstr "传感器引脚图"
 
 #: ../../source/capsule-sensor/index.rst:2
 msgid "CubeCell Capsule Sensor"
-msgstr ""
+msgstr "CubeCell胶囊传感器"
 
 #: ../../source/capsule-sensor/index.rst:3
 msgid ":ht_translation:`[简体中文]:[English]`"
@@ -43,15 +43,15 @@ msgstr ""
 
 #: ../../source/capsule-sensor/index.rst:5
 msgid "CubeCell Capsule sensor relevant documents."
-msgstr ""
+msgstr "CubeCell胶囊传感器相关文档."
 
 #: ../../source/capsule-sensor/index.rst:16
 msgid "Relevant Offical Resources"
-msgstr ""
+msgstr "相关官方资源"
 
 #: ../../source/capsule-sensor/index.rst:18
 msgid ""
 "`Schematic diagram "
 "<https://resource.heltec.cn/download/CubeCell/Capsule/Capsule_MCU_Part_Schematic_Diagram.pdf>`_."
-msgstr ""
+msgstr "`原理图<https://resource.heltec.cn/download/CubeCell/Capsule/Capsule_MCU_Part_Schematic_Diagram.pdf>`_."
 

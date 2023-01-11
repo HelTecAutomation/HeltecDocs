@@ -8,38 +8,42 @@ msgid ""
 msgstr ""
 "Project-Id-Version: stm32 \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-03 15:30+0800\n"
+"POT-Creation-Date: 2023-01-11 15:00+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.3\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../source/index.rst:21
 msgid "Quick Start"
-msgstr ""
+msgstr "快速入门"
 
 #: ../../source/index.rst:21
 msgid "LoRaWAN"
-msgstr ""
+msgstr "LoRaWAN"
 
 #: ../../source/index.rst:21
 msgid "LoRa Node 151"
-msgstr ""
+msgstr "LoRa Node 151"
 
 #: ../../source/index.rst:21
 msgid "Turtle Board"
+msgstr "Turtle Board"
+
+#: ../../source/index.rst:21
+msgid "HT-AT62"
 msgstr ""
 
 #: ../../source/index.rst:21
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "常见问题"
 
 #: ../../source/index.rst:2
 msgid "Contents"
-msgstr ""
+msgstr "目录"
 
 #: ../../source/index.rst:3
 msgid ":ht_translation:`[简体中文]:[English]`"
@@ -50,41 +54,43 @@ msgid ""
 "This document branch is for `Heltec STM32 + LoRa Node series "
 "<https://heltec.org/proudct_center/lora/lora-node/>`_."
 msgstr ""
+"本文档针对 `Heltec STM32 + LoRa节点系列<https://heltec.org/proudct_center/lora"
+"/lora-node/>`_."
 
 #: ../../source/index.rst:7
 msgid ""
 "STM32 is a powerfull SoC with Ultra-low-power 32-bit MCU,The benefit of "
 "\"STM32 + LoRa\" combination:"
-msgstr ""
+msgstr "STM32是一个强大的SoC超低功耗32位MCU,\"STM32 + LoRa\"组合的好处:"
 
 #: ../../source/index.rst:9
 msgid "Low power features;"
-msgstr ""
+msgstr "低功率特性;"
 
 #: ../../source/index.rst:10
 msgid "Multiple bus interfaces;"
-msgstr ""
+msgstr "多个总线接口;"
 
 #: ../../source/index.rst:11
 msgid "Powerful computing skills;"
-msgstr ""
+msgstr "强大的计算能力;"
 
 #: ../../source/index.rst:12
 msgid "Power mananagement system and different types of batteries support;"
-msgstr ""
+msgstr "支持电源管理系统和不同型号电池;"
 
 #: ../../source/index.rst:13
 msgid "Multiple general GPIOs;"
-msgstr ""
+msgstr "多个通用GPIOs;"
 
 #: ../../source/index.rst:14
 msgid "LoRaWAN 1.0.2 protocol support."
-msgstr ""
+msgstr "支持LoRaWAN 1.0.2协议"
 
 #: ../../source/index.rst:18
 msgid ""
 "This series boards also don't have an onboard USB-UART bridge. If plug it"
 " directly into a computer, it may prompt \"Unrecognized USB device\", "
 "which is normal."
-msgstr ""
+msgstr "该系列板也没有板载USB-UART bridge.如果直接插到电脑上,可能会提示\"Unrecognized USB device\",这是正常的."
 

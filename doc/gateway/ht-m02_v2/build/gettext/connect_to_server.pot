@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ht-m02_v2 \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-30 14:32+0800\n"
+"POT-Creation-Date: 2023-01-11 15:07+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../source/connect_to_server.md:1
-msgid "Connect HT-M02 to a LoRa Server"
+msgid "Connect HT-M02_V2 to a LoRa Server"
 msgstr ""
 
 #: ../../source/connect_to_server.md:2

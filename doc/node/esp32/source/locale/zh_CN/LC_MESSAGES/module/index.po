@@ -19,15 +19,15 @@ msgstr ""
 
 #: ../../source/module/index.rst:7
 msgid " Programming ESP32 Module"
-msgstr ""
+msgstr "ESP32模块编程"
 
 #: ../../source/module/index.rst:7
 msgid " Hardware Update Logs"
-msgstr ""
+msgstr "硬件更新日志"
 
 #: ../../source/module/index.rst:2
 msgid "ESP32 Module"
-msgstr ""
+msgstr "ESP32模块"
 
 #: ../../source/module/index.rst:3
 msgid ":ht_translation:`[简体中文]:[English]`"
@@ -35,31 +35,31 @@ msgstr ""
 
 #: ../../source/module/index.rst:5
 msgid "ESP32 Module relevant documents."
-msgstr ""
+msgstr "ESP32模块相关文档."
 
 #: ../../source/module/index.rst:14
 msgid "Relevant Offical Resources"
-msgstr ""
+msgstr "相关官方资源"
 
 #: ../../source/module/index.rst:16
 msgid ""
 "`Wireless_Shell Reference Design "
 "<https://resource.heltec.cn/download/Wireless_Shell/wireless_shell_reference_hardware_design.pdf>`_;"
-msgstr ""
+msgstr "`Wireless_Shell参考设计<https://resource.heltec.cn/download/Wireless_Shell/wireless_shell_reference_hardware_design.pdf>`_;"
 
 #: ../../source/module/index.rst:17
 msgid ""
 "`Wireless_Shell_V3 Reference Design "
 "<https://resource.heltec.cn/download/Wireless_Shell_V3/HTIT-"
 "Wsh_V3_Reference_Design.pdf>`_;"
-msgstr ""
+msgstr "`Wireless_Shell_V3参考设计<https://resource.heltec.cn/download/Wireless_Shell_V3/HTIT-Wsh_V3_Reference_Design.pdf>`_;"
 
 #: ../../source/module/index.rst:18
 msgid ""
 "`HT-CT62 Reference Design <https://resource.heltec.cn/download/HT-CT62"
 "/HT-CT62_Reference_Design.pdf>`_."
-msgstr ""
+msgstr "`HT-CT62参考设计<https://resource.heltec.cn/download/HT-CT62/HT-CT62_Reference_Design.pdf>`_."
 
 #~ msgid "Hardware Update Logs"
-#~ msgstr ""
+#~ msgstr "硬件更新日志"
 
