@@ -58,7 +58,7 @@ msgid ""
 "We believe `the CubeCell Series <https://heltec.org/cubecell>`__ is the "
 "best choice for LoRaWAN node applications. The following are some of the "
 "key features:"
-msgstr "我们认为 'CubeCell系列<https://heltec.org/cubecell>`是最好的LoRaWAN节点应用的选择。以下是一些关键特征："
+msgstr "我们认为 `CubeCell系列 <https://heltec.org/cubecell>`__ 是最好的LoRaWAN节点应用的选择。以下是一些关键特征："
 
 #: ../../source/index.rst:9
 msgid "Fully compatible with the Arduino development environment;"
@@ -122,9 +122,9 @@ msgstr "相关官方资源"
 msgid ""
 "`ASR650x - Arduino repository <https://github.com/HelTecAutomation"
 "/ASR650x-Arduino>`_;"
-msgstr "'ASR650x - Arduino repository<https://github.com/HelTecAutomation/ASR650x-Arduino>`_;"
+msgstr "`ASR650x - Arduino repository <https://github.com/HelTecAutomation/ASR650x-Arduino>`_ ;"
 
 #: ../../source/index.rst:43
 msgid "`CubeCell introduction page <https://heltec.org/cubecell/>`_."
-msgstr "'CubeCell简介页面<https://heltec.org/cubecell/>`_."
+msgstr "`CubeCell简介页面 <https://heltec.org/cubecell/>`_."
 

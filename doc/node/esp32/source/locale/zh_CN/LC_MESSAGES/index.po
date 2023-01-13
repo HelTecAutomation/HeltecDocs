@@ -49,7 +49,7 @@ msgstr ""
 msgid ""
 "This document branch is for `Heltec ESP32 + LoRa Node series "
 "<https://heltec.org/proudct_center/lora/lora-node/>`_,"
-msgstr "此文档适用于 `Heltec ESP32 + LoRa 节点系列<https://heltec.org/proudct_center/lora/lora-node/>`_,"
+msgstr "此文档适用于 `Heltec ESP32 + LoRa 节点系列 <https://heltec.org/proudct_center/lora/lora-node/>`_,"
 
 #: ../../source/index.rst:7
 msgid ""
@@ -83,7 +83,7 @@ msgstr "兼容Arduino;"
 msgid ""
 "We also provide `LoRaWAN-Node protocol Arduino library "
 "<https://github.com/HelTecAutomation/ESP32_LoRaWAN>`_;"
-msgstr "我们提供 `LoRaWAN-节点协议Arduino库<https://github.com/HelTecAutomation/ESP32_LoRaWAN>`_;"
+msgstr "我们提供 `LoRaWAN-节点协议Arduino库 <https://github.com/HelTecAutomation/ESP32_LoRaWAN>`_;"
 
 #: ../../source/index.rst:18
 msgid ""
@@ -105,13 +105,13 @@ msgstr "`Heltec ESP32 开发框架代码 <https://github.com/Heltec-Aaron-Lee/Wi
 msgid ""
 "`Heltec ESP32 series Arduino library "
 "<https://github.com/HelTecAutomation/Heltec_ESP32>`_;"
-msgstr "`Heltec ESP32 系列 Arduino 库<https://github.com/HelTecAutomation/Heltec_ESP32>`_;"
+msgstr "`Heltec ESP32 系列 Arduino 库 <https://github.com/HelTecAutomation/Heltec_ESP32>`_;"
 
 #: ../../source/index.rst:35
 msgid ""
 "`LoRaWAN-Node protocol Arduino library "
 "<https://github.com/HelTecAutomation/ESP32_LoRaWAN>`_."
-msgstr "`LoRaWAN-节点协议 Arduino 库<https://github.com/HelTecAutomation/ESP32_LoRaWAN>`_."
+msgstr "`LoRaWAN-节点协议 Arduino 库 <https://github.com/HelTecAutomation/ESP32_LoRaWAN>`_."
 
 #~ msgid "Quick Start"
 #~ msgstr "快速开始"

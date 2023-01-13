@@ -54,7 +54,7 @@ msgid ""
 "LoRaWAN example for Turtle Board -- Refer to `this document "
 "<https://docs.heltec.org/general/view_limited_technical_data.html>`_ to "
 "get limited resource;"
-msgstr "urtle Board的LoRaWAN例程请参考 `此文档<https://docs.heltec.org/general/view_limited_technical_data.html>`_来获取受限资源;"
+msgstr "urtle Board的LoRaWAN例程请参考 `此文档 <https://docs.heltec.org/general/view_limited_technical_data.html>`_ 来获取受限资源;"
 
 #: ../../source/turtle_board/index.rst:19
 msgid "Factory test firmware"
@@ -76,5 +76,5 @@ msgstr "`868MHz <http://resource.heltec.cn/download/TurtleBoard/Turtle_RadioShut
 msgid ""
 "`Factory test source code "
 "<https://os.mbed.com/users/Helmut64/code/Turtle_RadioShuttle/>`_"
-msgstr "工厂测试源代码 <https://os.mbed.com/users/Helmut64/code/Turtle_RadioShuttle/>`_"
+msgstr "`工厂测试源代码 <https://os.mbed.com/users/Helmut64/code/Turtle_RadioShuttle/>`_"
 

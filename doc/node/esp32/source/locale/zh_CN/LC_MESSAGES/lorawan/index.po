@@ -37,7 +37,7 @@ msgstr ""
 msgid ""
 "This article is intended to describe how to use the `Heltec ESP32 LoRaWAN"
 " library <https://github.com/HelTecAutomation/ESP32_LoRaWAN>`_."
-msgstr "本文旨在描述如何使用 `Heltec ESP32 LoRaWAN 库<https://github.com/HelTecAutomation/ESP32_LoRaWAN>`_."
+msgstr "本文旨在描述如何使用 `Heltec ESP32 LoRaWAN 库 <https://github.com/HelTecAutomation/ESP32_LoRaWAN>`_."
 
 #: ../../source/lorawan/index.rst:7
 msgid ""
@@ -51,7 +51,7 @@ msgid ""
 "Only support the ESP32 + LoRa series products made by `HelTec "
 "Automation(TM) <https://heltec.org>`_, and a `LoRa gateway "
 "<https://heltec.org/proudct_center/lora/lora-gateway/>`_ is must needed."
-msgstr "该库使LoRaWAN 1.0.2协议与ESP32 Arduino一起运行.只支持由`HelTecAutomation(TM) <https://heltec.org>`_生产的ESP32 + LoRa系列产品, 并且 `LoRa gateway<https://heltec.org/proudct_center/lora/lora-gateway/>`_是必须的"
+msgstr "该库使LoRaWAN 1.0.2协议与ESP32 Arduino一起运行.只支持由 `HelTecAutomation(TM) <https://heltec.org>`_ 生产的ESP32 + LoRa系列产品, 并且 `LoRa gateway <https://heltec.org/proudct_center/lora/lora-gateway/>`_ 是必须的"
 
 #: ../../source/lorawan/index.rst:11
 msgid ""

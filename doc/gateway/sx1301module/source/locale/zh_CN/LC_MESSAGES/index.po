@@ -75,7 +75,7 @@ msgid ""
 "`Pin out diagram "
 "<https://resource.heltec.cn/download/sx1301_module/LoRaGateway_Module_pinout.pdf>`_."
 msgstr ""
-"`引脚图"
+"`引脚图 "
 "<https://resource.heltec.cn/download/sx1301_module/LoRaGateway_Module_pinout.pdf>`_."
 
 #: ../../source/index.rst:24
@@ -83,6 +83,6 @@ msgid ""
 "`minimal system reference design "
 "<http://resource.heltec.cn/download/sx1301_module/SX1301_reference_design.pdf>`_."
 msgstr ""
-"`最小系统参考设计"
+"`最小系统参考设计 "
 "<http://resource.heltec.cn/download/sx1301_module/SX1301_reference_design.pdf>`_."
 

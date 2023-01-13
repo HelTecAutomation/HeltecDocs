@@ -54,7 +54,7 @@ msgid ""
 "This document branch is for `Heltec STM32 + LoRa Node series "
 "<https://heltec.org/proudct_center/lora/lora-node/>`_."
 msgstr ""
-"本文档针对 `Heltec STM32 + LoRa节点系列<https://heltec.org/proudct_center/lora"
+"本文档针对 `Heltec STM32 + LoRa节点系列 <https://heltec.org/proudct_center/lora"
 "/lora-node/>`_."
 
 #: ../../source/index.rst:7

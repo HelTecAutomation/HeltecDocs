@@ -53,11 +53,11 @@ msgstr "相关官方资源"
 msgid ""
 "`Basic hardware test "
 "<http://resource.heltec.cn/download/LoRa_Node_151/Pingpong_CDC.zip>`_;"
-msgstr "`基础硬件测试<http://resource.heltec.cn/download/LoRa_Node_151/Pingpong_CDC.zip>`_;"
+msgstr "`基础硬件测试 <http://resource.heltec.cn/download/LoRa_Node_151/Pingpong_CDC.zip>`_;"
 
 #: ../../source/lora_node_151/index.rst:19
 msgid ""
 "`Schematic diagram "
 "<https://resource.heltec.cn/download/LoRa_Node_151/LoRa_Node_151_Block_Diagram_V1.pdf>`_."
-msgstr "`原理图<https://resource.heltec.cn/download/LoRa_Node_151/LoRa_Node_151_Block_Diagram_V1.pdf>`_."
+msgstr "`原理图 <https://resource.heltec.cn/download/LoRa_Node_151/LoRa_Node_151_Block_Diagram_V1.pdf>`_."
 

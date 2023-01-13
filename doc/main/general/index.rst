@@ -1,6 +1,6 @@
 General Docs
 ============
-`简体中文 <https://heltec-automation.readthedocs.io/zh_CN/latest/general/index.html>`_
+
 
 This document is used to solve some common problems.
 

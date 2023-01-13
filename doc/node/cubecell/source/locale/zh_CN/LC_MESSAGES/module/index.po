@@ -46,26 +46,26 @@ msgid ""
 "`HTCC-AM01 Reference Design(Arduino) "
 "<http://resource.heltec.cn/download/CubeCell/HTCC-AM01_Module/HTCC-"
 "AM01_Reference_Design(Arduino).pdf>`_;"
-msgstr "`HTCC-AM01参考设计(Arduino)<http://resource.heltec.cn/download/CubeCell/HTCC-AM01_Module/HTCC-AM01_Reference_Design(Arduino).pdf>`_;"
+msgstr "`HTCC-AM01参考设计(Arduino) <http://resource.heltec.cn/download/CubeCell/HTCC-AM01_Module/HTCC-AM01_Reference_Design(Arduino).pdf>`_;"
 
 #: ../../source/module/index.rst:17
 msgid ""
 "`HTCC-AM01 Reference Design(AT) "
 "<http://resource.heltec.cn/download/CubeCell/HTCC-AM01_Module/HTCC-"
 "AM01_Reference_Design(AT).pdf>`_;"
-msgstr "`HTCC-AM01 参考设计(AT)<http://resource.heltec.cn/download/CubeCell/HTCC-AM01_Module/HTCC-AM01_Reference_Design(AT).pdf>`_;"
+msgstr "`HTCC-AM01 参考设计(AT) <http://resource.heltec.cn/download/CubeCell/HTCC-AM01_Module/HTCC-AM01_Reference_Design(AT).pdf>`_;"
 
 #: ../../source/module/index.rst:18
 msgid ""
 "`HTCC-AM02 Reference Design(Arduino) "
 "<https://resource.heltec.cn/download/CubeCell/HTCC-AM02_Module/HTCC-"
 "AM02_Reference_Design(Arduino).pdf>`_;"
-msgstr "`HTCC-AM02 参考设计(Arduino)<https://resource.heltec.cn/download/CubeCell/HTCC-AM02_Module/HTCC-AM02_Reference_Design(Arduino).pdf>`_;"
+msgstr "`HTCC-AM02 参考设计(Arduino) <https://resource.heltec.cn/download/CubeCell/HTCC-AM02_Module/HTCC-AM02_Reference_Design(Arduino).pdf>`_;"
 
 #: ../../source/module/index.rst:19
 msgid ""
 "`HTCC-AM02 Reference Design(AT) "
 "<https://resource.heltec.cn/download/CubeCell/HTCC-AM02_Module/HTCC-"
 "AM02_Reference_Design(AT).pdf>`_."
-msgstr "`HTCC-AM02 参考设计(AT)<https://resource.heltec.cn/download/CubeCell/HTCC-AM02_Module/HTCC-AM02_Reference_Design(AT).pdf>`_."
+msgstr "`HTCC-AM02 参考设计(AT) <https://resource.heltec.cn/download/CubeCell/HTCC-AM02_Module/HTCC-AM02_Reference_Design(AT).pdf>`_."
 

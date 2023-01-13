@@ -45,20 +45,20 @@ msgstr "相关官方资源"
 msgid ""
 "`Wireless_Shell Reference Design "
 "<https://resource.heltec.cn/download/Wireless_Shell/wireless_shell_reference_hardware_design.pdf>`_;"
-msgstr "`Wireless_Shell参考设计<https://resource.heltec.cn/download/Wireless_Shell/wireless_shell_reference_hardware_design.pdf>`_;"
+msgstr "`Wireless_Shell参考设计 <https://resource.heltec.cn/download/Wireless_Shell/wireless_shell_reference_hardware_design.pdf>`_;"
 
 #: ../../source/module/index.rst:17
 msgid ""
 "`Wireless_Shell_V3 Reference Design "
 "<https://resource.heltec.cn/download/Wireless_Shell_V3/HTIT-"
 "Wsh_V3_Reference_Design.pdf>`_;"
-msgstr "`Wireless_Shell_V3参考设计<https://resource.heltec.cn/download/Wireless_Shell_V3/HTIT-Wsh_V3_Reference_Design.pdf>`_;"
+msgstr "`Wireless_Shell_V3参考设计 <https://resource.heltec.cn/download/Wireless_Shell_V3/HTIT-Wsh_V3_Reference_Design.pdf>`_;"
 
 #: ../../source/module/index.rst:18
 msgid ""
 "`HT-CT62 Reference Design <https://resource.heltec.cn/download/HT-CT62"
 "/HT-CT62_Reference_Design.pdf>`_."
-msgstr "`HT-CT62参考设计<https://resource.heltec.cn/download/HT-CT62/HT-CT62_Reference_Design.pdf>`_."
+msgstr "`HT-CT62参考设计 <https://resource.heltec.cn/download/HT-CT62/HT-CT62_Reference_Design.pdf>`_."
 
 #~ msgid "Hardware Update Logs"
 #~ msgstr "硬件更新日志"

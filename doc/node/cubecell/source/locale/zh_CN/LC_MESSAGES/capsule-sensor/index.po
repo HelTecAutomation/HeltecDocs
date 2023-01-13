@@ -53,5 +53,5 @@ msgstr "相关官方资源"
 msgid ""
 "`Schematic diagram "
 "<https://resource.heltec.cn/download/CubeCell/Capsule/Capsule_MCU_Part_Schematic_Diagram.pdf>`_."
-msgstr "`原理图<https://resource.heltec.cn/download/CubeCell/Capsule/Capsule_MCU_Part_Schematic_Diagram.pdf>`_."
+msgstr "`原理图 <https://resource.heltec.cn/download/CubeCell/Capsule/Capsule_MCU_Part_Schematic_Diagram.pdf>`_."
 
