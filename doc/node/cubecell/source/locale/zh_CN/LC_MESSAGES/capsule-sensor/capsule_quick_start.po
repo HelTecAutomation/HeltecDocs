@@ -159,7 +159,7 @@ msgstr "在所有的传感器和LoRaWAN示例中,传感器数据在发送前被�
 msgid ""
 "The `PrepareTxFrame` had read temperature (float), humidity (float) and "
 "battery voltage (unsigned int). And convert data to a char. The contents:"
-msgstr "`PrepareTxFrame`读取了温度(浮动),湿度(浮动)和电池电压(无符号int).并将数据转换为字符.内容:"
+msgstr "`PrepareTxFrame`读取了温度(float),湿度(float)和电池电压(unsigned int).并将数据转换为字符.内容:"
 
 #: ../../source/capsule-sensor/capsule_quick_start.md:93
 msgid "Why convert data to byte?"

@@ -154,7 +154,7 @@ msgid ""
 " complete gateway firmware."
 msgstr ""
 "如果新固件修改了网关的web配置, 或者用户"
-"不小心覆盖了网关固件, 则需要烧掉"
+"不小心覆盖了网关固件, 则需要烧录"
 "完整的网关固件."
 
 #: ../../source/update_firmware.md:53

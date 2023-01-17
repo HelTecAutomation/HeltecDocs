@@ -119,7 +119,7 @@ msgstr "**网关名称** -- 由用户填写, 可任意填写."
 
 #: ../../source/connect_to_server.md:31
 msgid "**Frequency Plan** -- Matches the LoRa band configuration in HT-M00."
-msgstr "**频率方案** -- 匹配HT-M00中的LoRa波段配置."
+msgstr "**频率方案** -- 匹配HT-M00中的LoRa频段配置."
 
 #: ../../source/connect_to_server.md:33
 msgid "Configure the Gateway"
@@ -135,8 +135,7 @@ msgid ""
 "document."
 msgstr ""
 "对于HT-M00网关, 需要配置服务器地址, 端口, 频带, 和"
-"通道. 服务器地址, 端口, 频带"
-"和和通道在 \"HT-M00 Config\" 界面中配置, 请"
+"通道在 \"HT-M00 Config\" 界面中配置, 请"
 "参考 [HT-M00 快速"
 "入门](https://docs.heltec.org/en/gateway/ht-m00/quick_start.html) "
 "文档."

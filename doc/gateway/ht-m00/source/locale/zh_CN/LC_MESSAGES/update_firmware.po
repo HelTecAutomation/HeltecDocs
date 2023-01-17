@@ -68,7 +68,7 @@ msgstr "V1.7"
 
 #: ../../source/update_firmware.md:23
 msgid "Add noise floor automatic calibration function;"
-msgstr "增加噪音地板自动校正功能;"
+msgstr "增加噪音基底自动校正功能;"
 
 #: ../../source/update_firmware.md:24
 msgid "Known bug fix."
@@ -183,7 +183,7 @@ msgid ""
 "If the new firmware modifies the gateway's web configuration or the user "
 "accidentally overwrites the gateway firmware, it is necessary to burn the"
 " complete gateway firmware."
-msgstr "如果新固件修改了网关的web配置, 或者用户不小心覆盖了网关固件, 就有必要烧掉完整的网关固件."
+msgstr "如果新固件修改了网关的web配置, 或者用户不小心覆盖了网关固件, 就有必要烧录完整的网关固件."
 
 #: ../../source/update_firmware.md:65
 msgid "Download Firmware"

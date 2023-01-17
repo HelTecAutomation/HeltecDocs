@@ -60,7 +60,7 @@ msgstr "强大的计算能力;"
 
 #: ../../source/index.rst:10
 msgid "Large FLASH size;"
-msgstr "大FLASH尺寸;"
+msgstr "大FLASH容量;"
 
 #: ../../source/index.rst:11
 msgid "Power mananagement system and Li-Po support;"

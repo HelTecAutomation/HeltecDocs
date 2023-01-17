@@ -41,7 +41,7 @@ msgstr ""
 "网关](https://heltec.org/project/ht-m01) 到LoRa服务器, 如"
 "[TTN](https://www.thethingsnetwork.org/), "
 "[ChirpStack](https://www.chirpstack.io/), 以促进"
-"LoRa设备的二次开发和快速部署.ff"
+"LoRa设备的二次开发和快速部署"
 
 #: ../../source/connect_to_server.md:7
 msgid ""
@@ -117,7 +117,7 @@ msgid ""
 "and port."
 msgstr ""
 "在HT-M01网关中, 需要配置网关ID, 服务器地址"
-"和端口."
+"和端口。"
 
 #: ../../source/connect_to_server.md:36
 msgid "The TTN's router addresses for different region:"
@@ -143,7 +143,7 @@ msgstr "Linux下的HT-M01 (树莓派)"
 
 #: ../../source/connect_to_server.md:44 ../../source/connect_to_server.md:130
 msgid "Fix parameters in `global_conf.json`:"
-msgstr "修复 `global_conf.json`中的参数:"
+msgstr "确定 `global_conf.json`中的参数:"
 
 #: ../../source/connect_to_server.md:50 ../../source/connect_to_server.md:136
 msgid ""
@@ -158,7 +158,7 @@ msgid ""
 "`ctrl + O` to save and `ctrl + X` to exit, and restart the service in "
 "Raspberry Pi:"
 msgstr ""
-"`ctrl + O` 保存, `ctrl + X` to 退出, 重新启动树莓派"
+"`ctrl + O` 保存, `ctrl + X`  退出, 重新启动树莓派"
 "的服务:"
 
 #: ../../source/connect_to_server.md:66 ../../source/connect_to_server.md:152
