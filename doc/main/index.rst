@@ -21,10 +21,10 @@ For a whole LoRaWAN communication process, a server is must needed, LoRaWAN serv
 
 .. only:: 123
 
-   * `TTN <https://www.thethingsnetwork.org/>`_.
-   * `ChirpStack <https://www.chirpstack.io/>`_, need to be deployed on a server.
-   * `TTN <https://www.thethingsnetwork.org/>`_, Reday to use.
-   * `Heltec LoRaWAN Test Server <https://lora.heltec.org/>`_, Reday to use.
+   - `TTN <https://www.thethingsnetwork.org/>`_.
+   - `ChirpStack <https://www.chirpstack.io/>`_, need to be deployed on a server.
+   - `TTN <https://www.thethingsnetwork.org/>`_, Reday to use.
+   - `Heltec LoRaWAN Test Server <https://lora.heltec.org/>`_, Reday to use.
 
 .. note:: We highly recommend use `Heltec LoRaWAN Test Server <https://lora.heltec.org/>`_, it's a TTS V3 based, login with Heltec website account.
 
