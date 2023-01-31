@@ -14,17 +14,16 @@ This picture shown the LoRaWAN communication framkework.
     :alt: no-component
     :figclass: align-center
 
+About LoRa server
+
 LoRa server
 ===========
 
 For a whole LoRaWAN communication process, a server is must needed, LoRaWAN server includedd two parts: Network Server and Application Server (We also generally call them NS). LoRa node join network, ACK, identity identification, communication authentication, etc. are handled by NS. Now there are many excellent LoRaWAN NS, such as:
 
-.. only:: 123
-
-   * `TTN <https://www.thethingsnetwork.org/>`_.
-   * `ChirpStack <https://www.chirpstack.io/>`_, need to be deployed on a server.
-   * `TTN <https://www.thethingsnetwork.org/>`_, Reday to use.
-   * `Heltec LoRaWAN Test Server <https://lora.heltec.org/>`_, Reday to use.
+* `ChirpStack <https://www.chirpstack.io/>`_, need to be deployed on a server.
+* `TTN <https://www.thethingsnetwork.org/>`_, Reday to use.
+* `Heltec LoRaWAN Test Server <https://lora.heltec.org/>`_, Reday to use.
 
 .. note:: We highly recommend use `Heltec LoRaWAN Test Server <https://lora.heltec.org/>`_, it's a TTS V3 based, login with Heltec website account.
 
@@ -36,14 +35,14 @@ LoRa Gateway
 
 Here are the LoRa Gateways produced by Heltec Automation. You will be able to find the quict start and how to register on LoRa NS.
 
-   * HT-M00 Dual Channel LoRa Gateway <https://docs.heltec.org/en/gateway/ht-m00/index.html>
-   * HT-M01 Evaluation LoRa Gateway <https://docs.heltec.org/en/gateway/ht-m01/index.html>
-   * HT-M01S Indoor LoRa Gateway <https://docs.heltec.org/en/gateway/ht-m01s/index.html>
-   * HT-M01S-V2 Indoor LoRa Gateway <https://docs.heltec.org/en/gateway/ht-m01s_v2/index.html>
-   * HT-M02 Edge LoRa Gateway <https://docs.heltec.org/en/gateway/ht-m02/index.html>
-   * HT-M02_V2 Edge LoRa Gateway <https://docs.heltec.org/en/gateway/ht-m02_v2/index.html>
-   * HT-1303 LoRaWAN Concentrator Module <https://docs.heltec.org/en/gateway/ht-1303/index.html>
-   * SX1301 Module (Phaseout) <https://docs.heltec.org/en/gateway/sx1301module/index.html>
+- HT-M00 Dual Channel LoRa Gateway <https://docs.heltec.org/en/gateway/ht-m00/index.html>
+- HT-M01 Evaluation LoRa Gateway <https://docs.heltec.org/en/gateway/ht-m01/index.html>
+- HT-M01S Indoor LoRa Gateway <https://docs.heltec.org/en/gateway/ht-m01s/index.html>
+- HT-M01S-V2 Indoor LoRa Gateway <https://docs.heltec.org/en/gateway/ht-m01s_v2/index.html>
+- HT-M02 Edge LoRa Gateway <https://docs.heltec.org/en/gateway/ht-m02/index.html>
+- HT-M02_V2 Edge LoRa Gateway <https://docs.heltec.org/en/gateway/ht-m02_v2/index.html>
+- HT-1303 LoRaWAN Concentrator Module <https://docs.heltec.org/en/gateway/ht-1303/index.html>
+- SX1301 Module (Phaseout) <https://docs.heltec.org/en/gateway/sx1301module/index.html>
 
 .. toctree::
    :maxdepth: 2
