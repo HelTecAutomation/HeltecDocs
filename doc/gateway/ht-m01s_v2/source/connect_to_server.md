@@ -11,7 +11,7 @@ Before all operation, make sure the HT-M01S is runing well . If not, please refe
 
 ## Connect to TTN/TTS
 
-### Register a LoRa gateway in TTN
+### Register a LoRa gateway in TTN/TTS
 
 Select a cluster in the [TTN console](https://console.thethingsnetwork.org/) page to start adding devices and gateways. Or start adding devices and gateways in [TTS console](https://lora.heltec.org/console).
 
