@@ -18,11 +18,11 @@ LoRa server
 For a whole LoRaWAN communication process, a server is must needed, LoRaWAN server includedd two parts: Network Server and Application Server (We also generally call them NS). LoRa node join network, ACK, identity identification, communication authentication, etc. are handled by NS. Now there are many excellent LoRaWAN NS, such as:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    
-   `ChirpStack <https://www.chirpstack.io/>`_, need to be deployed on a server.
-   `TTN <https://www.thethingsnetwork.org/>`_, Reday to use.
-   `Heltec LoRaWAN Test Server <https://lora.heltec.org/>`_, Reday to use.
+   ChirpStack <https://www.chirpstack.io/>, need to be deployed on a server.
+   TTN <https://www.thethingsnetwork.org/>, Reday to use.
+   Heltec LoRaWAN Test Server <https://lora.heltec.org/>, Reday to use.
 
 .. note:: We highly recommend use `Heltec LoRaWAN Test Server <https://lora.heltec.org/>`_, it's a TTS V3 based, login with Heltec website account.
 
@@ -34,9 +34,9 @@ LoRa Gateway
 Here are the LoRa Gateways produced by Heltec Automation. You will be able to find the quict start and how to register on LoRa NS.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    
-   HT-M00 Dual Channel LoRa Gateway <https://docs.heltec.org/en/gateway/ht-m00/index.html>
+   HT-M00 Dual Channel LoRa Gateway <https://docs.heltec.cn/en/gateway/ht-m00/index.html>
    HT-M01 Evaluation LoRa Gateway <https://docs.heltec.org/en/gateway/ht-m01/index.html>
    HT-M01S Indoor LoRa Gateway <https://docs.heltec.org/en/gateway/ht-m01s/index.html>
    HT-M01S-V2 Indoor LoRa Gateway <https://docs.heltec.org/en/gateway/ht-m01s_v2/index.html>
