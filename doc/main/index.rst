@@ -20,11 +20,11 @@ For a whole LoRaWAN communication process, a server is must needed, LoRaWAN serv
 .. toctree::
    :maxdepth: 1
    
-   ChirpStack <https://www.chirpstack.io/>, need to be deployed on a server.
-   TTN <https://www.thethingsnetwork.org/>, Reday to use.
-   Heltec LoRaWAN Test Server <https://lora.heltec.org/>, Reday to use.
+   ChirpStack <https://www.chirpstack.io/>
+   TTN <https://www.thethingsnetwork.org/>
+   Heltec LoRaWAN Test Server <https://lora.heltec.org/>
 
-.. note:: We highly recommend use `Heltec LoRaWAN Test Server <https://lora.heltec.org/>`_, it's a TTS V3 based, login with Heltec website account.
+.. note:: We highly recommend use `Heltec LoRaWAN Test Server <https://lora.heltec.org/>`_, it's a ready to use LoRa server based on TTS V3, users can login with Heltec website account.
 
 After login the LoRaWAN server, the next thing to do is register your gateway and nodes.
 
