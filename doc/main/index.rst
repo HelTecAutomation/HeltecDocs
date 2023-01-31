@@ -1,25 +1,42 @@
-.. main documentation master file, created by
-   sphinx-quickstart on Wed Sep 14 09:58:03 2022.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
+*************************************
 Heltec Products Operation Documention
--------------------------------------
+*************************************
 
-Heltec Automation is an IoT solution provider mainly in LoRa/LoRaWAN field.
+Heltec Automation is an IoT device/solution provider mainly in LoRa/LoRaWAN field. This documentation page is trying to make sense to you about how to use our products. This is a document in the nature of operation guide. If you want to get more information about product parameters, please refer to the product manual or `Heltec Automation website <https://heltec.org>`_.
+
+This picture shown the LoRaWAN communication framkework.
 
 .. figure:: img/01.png
-    :scale: 90%
-    :alt: no-component
-    :figclass: align-center
+   :scale: 90%
+   :align: center
+   :alt: LoRaWAN communication framkework
+   :figclass: align-center
 
-This is the documentation for `Heltec Automation <https://heltec.org>`_ products.
+LoRa server
+===========
+
+For a whole LoRaWAN communication process, a server is must needed, LoRaWAN server includedd two parts: Network Server and Application Server (We also generally call them NS). LoRa node join network, ACK, identity identification, communication authentication, etc. are handled by NS. Now there are many excellent LoRaWAN NS, such as:
 
 .. toctree::
-   :maxdepth: 2
-   :caption: LoRa Gateway
+   :maxdepth: 1
+   
+   ChirpStack <https://www.chirpstack.io/>
+   TTN <https://www.thethingsnetwork.org/>
+   Heltec LoRaWAN Test Server <https://lora.heltec.org/>
 
-   HT-M00 Dual Channel LoRa Gateway <https://docs.heltec.org/en/gateway/ht-m00/index.html>
+.. note:: We highly recommend use `Heltec LoRaWAN Test Server <https://lora.heltec.org/>`_, it's a ready to use LoRa server based on TTS V3, users can login with Heltec website account.
+
+After login the LoRaWAN server, the next thing to do is register your gateway and nodes.
+
+LoRa Gateway
+============
+
+Here are the LoRa Gateways produced by Heltec Automation. You will be able to find the quict start and how to register on LoRa NS.
+
+.. toctree::
+   :maxdepth: 1
+   
+   HT-M00 Dual Channel LoRa Gateway <https://docs.heltec.cn/en/gateway/ht-m00/index.html>
    HT-M01 Evaluation LoRa Gateway <https://docs.heltec.org/en/gateway/ht-m01/index.html>
    HT-M01S Indoor LoRa Gateway <https://docs.heltec.org/en/gateway/ht-m01s/index.html>
    HT-M01S-V2 Indoor LoRa Gateway <https://docs.heltec.org/en/gateway/ht-m01s_v2/index.html>
@@ -49,3 +66,4 @@ This is the documentation for `Heltec Automation <https://heltec.org>`_ products
    :caption: General Docs
 
    /general/index
+
