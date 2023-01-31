@@ -13,17 +13,20 @@ This picture shown the LoRaWAN communication framkework.
     :scale: 90%
     :alt: no-component
     :figclass: align-center
-..
 
 LoRa server
 ===========
 
 For a whole LoRaWAN communication process, a server is must needed, LoRaWAN server includedd two parts: Network Server and Application Server (We also generally call them NS). LoRa node join network, ACK, identity identification, communication authentication, etc. are handled by NS. Now there are many excellent LoRaWAN NS, such as:
 
+.. only:: 123
+
    * `TTN <https://www.thethingsnetwork.org/>`_.
    * `ChirpStack <https://www.chirpstack.io/>`_, need to be deployed on a server.
    * `TTN <https://www.thethingsnetwork.org/>`_, Reday to use.
    * `Heltec LoRaWAN Test Server <https://lora.heltec.org/>`_, Reday to use.
+
+.. note:: We highly recommend use `Heltec LoRaWAN Test Server <https://lora.heltec.org/>`_, it's a TTS V3 based, login with Heltec website account.
 
 After login the LoRaWAN server, the next thing to do is register your gateway and nodes.
 
