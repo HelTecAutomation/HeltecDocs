@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/quick_start.md:1
 msgid "Heltec STM32+LoRa Series Quick Start"
-msgstr ""
+msgstr "Heltec STM32+LoRa系列快速入门"
 
 #: ../../source/quick_start.md:2
 msgid "{ht_translation}`[简体中文]:[English]`"
@@ -32,23 +32,23 @@ msgid ""
 " [STM32CubeIDE](https://www.st.com/zh/development-tools/stm32cubeide.html"
 "#get-software) and [STM32CubeProgrammer](https://www.st.com/zh"
 "/development-tools/stm32cubeprog.html) ."
-msgstr ""
+msgstr "我们建议您先确认是否已安装`STM32CubeIDE` 和 `STM32CubeProgrammer`"
 
 #: ../../source/quick_start.md:6
 msgid "Install STM32CubeIDE"
-msgstr ""
+msgstr "安装STM32CubeIDE"
 
 #: ../../source/quick_start.md:8
 msgid "Please click this link to download the STM32CubeIDE."
-msgstr ""
+msgstr "请点击此链接下载STM32CubeIDE."
 
 #: ../../source/quick_start.md:10
 msgid "[Download Link](https://www.st.com/zh/development-tools/stm32cubeide.html)"
-msgstr ""
+msgstr "[下载链接](https://www.st.com/zh/development-tools/stm32cubeide.html)"
 
 #: ../../source/quick_start.md:12
 msgid "Install STM32CubeIDE correctly."
-msgstr ""
+msgstr "正确安装STM32CubeIDE"
 
 #: ../../source/quick_start.md:14
 msgid "![](img/quick_start/01.png)"
@@ -56,25 +56,25 @@ msgstr ""
 
 #: ../../source/quick_start.md:16
 msgid "&nbsp;"
-msgstr ""
+msgstr "&nbsp;"
 
 #: ../../source/quick_start.md:18
 msgid "Install STM32CubeProgrammer"
-msgstr ""
+msgstr "安装STM32CubeProgrammer"
 
 #: ../../source/quick_start.md:20
 msgid "Please click this link to download the STM32CubeProgrammer."
-msgstr ""
+msgstr "请点击此链接下载STM32CubeProgrammer."
 
 #: ../../source/quick_start.md:22
 msgid ""
 "[Download Link](https://www.st.com/zh/development-"
 "tools/stm32cubeprog.html)"
-msgstr ""
+msgstr "[下载链接](https://www.st.com/zh/development-tools/stm32cubeprog.html)"
 
 #: ../../source/quick_start.md:24
 msgid "Install STM32CubeProgrammer correctly."
-msgstr ""
+msgstr "正确安装STM32CubeProgrammer."
 
 #: ../../source/quick_start.md:26
 msgid "![](img/quick_start/02.png)"

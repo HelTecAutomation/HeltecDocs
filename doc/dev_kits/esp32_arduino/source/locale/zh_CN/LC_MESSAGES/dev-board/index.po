@@ -20,13 +20,13 @@ msgstr ""
 
 #: ../../source/dev-board/index.rst:5
 msgid "Hardware Update Log"
-msgstr ""
+msgstr "硬件更新日志"
 
 #: ../../source/dev-board/index.rst:2
 msgid "ESP32 Arduino Dev-Board"
-msgstr ""
+msgstr "ESP32 Arduino Dev-Board"
 
 #: ../../source/dev-board/index.rst:3
 msgid ":ht_translation:`[简体中文]:[English]`"
-msgstr ""
+msgstr ":ht_translation:`[简体中文]:[English]`"
 

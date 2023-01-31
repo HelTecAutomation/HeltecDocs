@@ -20,15 +20,15 @@ msgstr ""
 
 #: ../../source/qucik_start.md:1
 msgid "SX1301/8 LoRa Gateway Module Quick Start"
-msgstr ""
+msgstr "SX1301/8 LoRa网关模块快速入门"
 
 #: ../../source/qucik_start.md:3
 msgid "{ht_translation}`[简体中文]:[English]`"
-msgstr ""
+msgstr "{ht_translation}`[简体中文]:[English]`"
 
 #: ../../source/qucik_start.md:5
 msgid "Summary"
-msgstr ""
+msgstr "概要"
 
 #: ../../source/qucik_start.md:7
 msgid ""
@@ -39,30 +39,36 @@ msgid ""
 "and Linux operating system (such as Raspberry Pi), then it can work as a "
 "LoRa gateway."
 msgstr ""
+"对于SX1301和SX1308, 它们的性能, 驱动程序, 接口封装"
+"和功能是完全相同的. 其差值就是工作"
+"温度范围. SX1301定位为室外型, SX1308"
+"定位为室内型. 与合适的驱动硬件"
+"和Linux操作系统 (如树莓派)合作, 就可以作为"
+"LoRa网关."
 
 #: ../../source/qucik_start.md:9
 msgid "Technical Characteristics"
-msgstr ""
+msgstr "技术特点"
 
 #: ../../source/qucik_start.md:11
 msgid "Pin Definition"
-msgstr ""
+msgstr "引脚定义"
 
 #: ../../source/qucik_start.md:13
 msgid "![](img/quick_start/01.png)"
-msgstr ""
+msgstr "![](img/quick_start/01.png)"
 
 #: ../../source/qucik_start.md:15
 msgid "Electrical characteristics"
-msgstr ""
+msgstr "电气特性"
 
 #: ../../source/qucik_start.md:17
 msgid "![](img/quick_start/00.png)"
-msgstr ""
+msgstr "![](img/quick_start/00.png)"
 
 #: ../../source/qucik_start.md:19
 msgid "Running SX130x module with SPI mode (Raspberry Pi)"
-msgstr ""
+msgstr "使用SPI模式运行SX130x模块(树莓派)"
 
 #: ../../source/qucik_start.md:21
 msgid ""
@@ -70,26 +76,33 @@ msgid ""
 "command in putty to open the Raspberry Pi configuration interface and "
 "enable the SPI bus."
 msgstr ""
+"默认情况下, 树莓派SPI总线是禁用的. 在putty中输入"
+"以下命令打开树莓派配置界面, 并"
+"启用SPI总线."
 
 #: ../../source/qucik_start.md:23
 msgid "`sudo raspi-config`"
-msgstr ""
+msgstr "`sudo raspi-config`"
 
 #: ../../source/qucik_start.md:25
 msgid "![](img/quick_start/02.png)"
-msgstr ""
+msgstr "![](img/quick_start/02.png)"
 
 #: ../../source/qucik_start.md:27
 msgid ""
 "Choose `Interfacing Options → SPI → Yes` and may need restart Raspberry "
 "Pi."
 msgstr ""
+"选择 `Interfacing Options → SPI → Yes`, 可能需要重新启动树莓"
+"派."
 
 #: ../../source/qucik_start.md:29
 msgid ""
 "Install SX1301 module relevant application and services via following "
 "commands:"
 msgstr ""
+"通过以下命令安装SX1301模块相关的应用程序和"
+"服务:"
 
 #: ../../source/qucik_start.md:55
 msgid ""
@@ -97,6 +110,9 @@ msgid ""
 "gateway, which is the key to a node can successfully communicate with the"
 " gateway!"
 msgstr ""
+"\"global_conf.json\" 文件决定了网关的监听"
+"频率, 这是节点能否成功与网关通信的"
+"关键!"
 
 #: ../../source/qucik_start.md:58
 msgid ""
@@ -104,32 +120,37 @@ msgid ""
 " of the current gateway will be printed. While register a gateway on a "
 "LoRa server need this unique ID."
 msgstr ""
+"当 `./install.sh` 执行时, 如果一切正常, 将打印"
+"当前网关的唯一ID. LoRa服务器上注册网关时"
+"需要这个唯一的ID."
 
 #: ../../source/qucik_start.md:60
 msgid "![](img/quick_start/08.png)"
-msgstr ""
+msgstr "![](img/quick_start/08.png)"
 
 #: ../../source/qucik_start.md:62
 msgid "Confirm Installation"
-msgstr ""
+msgstr "确认安装"
 
 #: ../../source/qucik_start.md:64
 msgid ""
 "Run `sudo systemctl status lrgateway` in Raspberry Pi, if all goes well, "
 "the service is running:"
 msgstr ""
+"在树莓派中运行 `sudo systemctl status lrgateway`, 如果一切正常, "
+"服务正在运行:"
 
 #: ../../source/qucik_start.md:66
 msgid "![](img/quick_start/03.png)"
-msgstr ""
+msgstr "![](img/quick_start/03.png)"
 
 #: ../../source/qucik_start.md:68
 msgid "&nbsp;"
-msgstr ""
+msgstr "&nbsp;"
 
 #: ../../source/qucik_start.md:70
 msgid "Connect to LoRa Server"
-msgstr ""
+msgstr "连接到LoRa服务器"
 
 #: ../../source/qucik_start.md:72
 msgid ""
@@ -138,6 +159,10 @@ msgid ""
 " SPI mode. Steps to connect to a LoRa server, please refer to this "
 "document:"
 msgstr ""
+"与树莓派工作的SX130x模块与树莓派在SPI模式下的"
+"[HT-M01](https://heltec.org/project/ht-m01/) 网关最相似"
+". 连接到LoRa服务器的步骤, 请参阅本"
+"文档:"
 
 #: ../../source/qucik_start.md:74
 msgid ""
@@ -146,4 +171,8 @@ msgid ""
 "://heltec-automation-"
 "docs.readthedocs.io/en/latest/gateway/ht-m01/connect_to_server.html)"
 msgstr ""
+"[https://heltec-automation-"
+"docs.readthedocs.io/en/latest/gateway/ht-m01/connect_to_server.html](https"
+"://heltec-automation-"
+"docs.readthedocs.io/en/latest/gateway/ht-m01/connect_to_server.html)"
 

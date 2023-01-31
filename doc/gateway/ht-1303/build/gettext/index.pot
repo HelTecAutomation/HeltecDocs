@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2022, shug
-# This file is distributed under the same license as the sx1303module package.
+# This file is distributed under the same license as the ht-1303 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: sx1303module \n"
+"Project-Id-Version: ht-1303 \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-03 15:19+0800\n"
+"POT-Creation-Date: 2023-01-11 15:10+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,12 +16,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../source/index.rst:12
+#: ../../source/index.rst:11
 msgid "Quick Start"
 msgstr ""
 
 #: ../../source/index.rst:2
-msgid "SX1303 Module"
+msgid "HT-1303 LoRaWAN concentrator module"
 msgstr ""
 
 #: ../../source/index.rst:3
@@ -29,11 +29,11 @@ msgid ":ht_translation:`[简体中文]:[English]`"
 msgstr ""
 
 #: ../../source/index.rst:5
-msgid "The HT1303 LoRaWAN concentrator is a mini-PCIe-based LPWAN concentrator module based on the Semtech SX1303, which enables easy integration into existing routers or other network equipment equipped with LPWAN Gateway capabilities."
+msgid "The HT-1303 LoRaWAN concentrator module is a mini-PCIe-based LPWAN concentrator module based on the Semtech SX1303, which enables easy integration into existing routers or other network equipment equipped with LPWAN Gateway capabilities."
 msgstr ""
 
 #: ../../source/index.rst:7
-msgid "SX1303 baseband chip;"
+msgid "SX1303 + SX1250 baseband chipset;"
 msgstr ""
 
 #: ../../source/index.rst:8
@@ -41,17 +41,17 @@ msgid "SPI bus;"
 msgstr ""
 
 #: ../../source/index.rst:9
-msgid "SX1250 sub-GHz RF  Front End."
+msgid "Mini PCIe socket."
 msgstr ""
 
-#: ../../source/index.rst:18
+#: ../../source/index.rst:17
 msgid "Relevant Offical Resources"
 msgstr ""
 
-#: ../../source/index.rst:20
+#: ../../source/index.rst:19
 msgid "`Pin out diagram <https://resource.heltec.cn/download/HT-1303/HT-1303.png>`_."
 msgstr ""
 
-#: ../../source/index.rst:21
+#: ../../source/index.rst:20
 msgid "`Reference design <https://resource.heltec.cn/download/HT-1303/HT-1303_Reference_Design.pdf>`_."
 msgstr ""

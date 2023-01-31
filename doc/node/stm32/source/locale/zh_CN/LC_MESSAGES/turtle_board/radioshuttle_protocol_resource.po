@@ -15,11 +15,11 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.3\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../source/turtle_board/radioshuttle_protocol_resource.md:1
 msgid "RadioShuttle Protocol Resource"
-msgstr ""
+msgstr "无线电传输协议资源"
 
 #: ../../source/turtle_board/radioshuttle_protocol_resource.md:2
 msgid "{ht_translation}`[简体中文]:[English]`"
@@ -27,11 +27,11 @@ msgstr ""
 
 #: ../../source/turtle_board/radioshuttle_protocol_resource.md:4
 msgid "The RadioShuttle Wireless Protocol"
-msgstr ""
+msgstr "无线传输协议"
 
 #: ../../source/turtle_board/radioshuttle_protocol_resource.md:6
 msgid "**Peer-to-peer LoRa wireless protocol software**"
-msgstr ""
+msgstr "**点对点LoRa 无线协议软件**"
 
 #: ../../source/turtle_board/radioshuttle_protocol_resource.md:8
 msgid ""
@@ -40,100 +40,107 @@ msgid ""
 "applications. Radioshuttle can send information efficiently and safely "
 "between simple LoRa modules."
 msgstr ""
+"标准的LoRaWAN协议效率低,不支持直接的节点间通信,而且对于许多应用程序来说太昂贵和复杂.无线电中继可以在简单的LoRa "
+"模块之间高效和安全地发送信息."
 
 #: ../../source/turtle_board/radioshuttle_protocol_resource.md:10
 msgid "**Secure message transmission.**"
-msgstr ""
+msgstr "**安全信息传输.**"
 
 #: ../../source/turtle_board/radioshuttle_protocol_resource.md:12
 msgid ""
 "232 bytes user data maximum, the receipt will be acknowledged, lost data "
 "is automatically repeated"
-msgstr ""
+msgstr "最多232字节用户数据,接收将被确认,丢失的数据将自动重发"
 
 #: ../../source/turtle_board/radioshuttle_protocol_resource.md:14
 msgid "**Air traffic control**"
-msgstr ""
+msgstr "**空中交通管制**"
 
 #: ../../source/turtle_board/radioshuttle_protocol_resource.md:16
 msgid ""
 "The nodes only send if no LoRa signal is active on that channel. The "
 "stations create an automatic network plan, defining which nodes and "
 "stations are allowed to communicate, and when. (Planned)"
-msgstr ""
+msgstr "节点只在该通道上没有活动的LoRa信号时才发送.点创建自动网络计划,定义允许哪些节点和站点通信以及何时通信.(计划中)"
 
 #: ../../source/turtle_board/radioshuttle_protocol_resource.md:18
 msgid "**Optimized protocol**"
-msgstr ""
+msgstr "**优化的协议**"
 
 #: ../../source/turtle_board/radioshuttle_protocol_resource.md:20
 msgid "Message delivery within 110 ms (SF7, 125 kHz, free channel provided)"
-msgstr ""
+msgstr "110 ms内的消息传送(SF7,125 kHz,提供免费信道)"
 
 #: ../../source/turtle_board/radioshuttle_protocol_resource.md:21
 msgid "Messages only require 2 x 12 bytes (protocol overhead)"
-msgstr ""
+msgstr "消息只需要2 x 12字节(协议开销)"
 
 #: ../../source/turtle_board/radioshuttle_protocol_resource.md:22
 msgid "Narrow bandwidths allow for a longer range"
-msgstr ""
+msgstr "窄带宽允许更长的范围"
 
 #: ../../source/turtle_board/radioshuttle_protocol_resource.md:23
 msgid ""
 "Automatic transmitting power adjustment saves energy and reduces traffic "
 "on the neighboring stations"
-msgstr ""
+msgstr "自动传输功率调整,节约能源,减少邻近站流量"
 
 #: ../../source/turtle_board/radioshuttle_protocol_resource.md:25
 msgid "**Support multiple MCU boards**"
-msgstr ""
+msgstr "**支持多个MCU开发板**"
 
 #: ../../source/turtle_board/radioshuttle_protocol_resource.md:27
 msgid ""
 "The [Turtle](https://www.radioshuttle.de/en/turtle-en/turtle-board-en/) "
 "board"
 msgstr ""
+"The [Turtle](https://www.radioshuttle.de/en/turtle-en/turtle-board-"
+"en/)board"
 
 #: ../../source/turtle_board/radioshuttle_protocol_resource.md:28
 msgid ""
 "The [ECO Power](https://www.radioshuttle.de/en/esp32-eco-power-en/esp32"
 "-eco-power-board-en/) board"
 msgstr ""
+"The [ECO Power](https://www.radioshuttle.de/en/esp32-eco-power-en/esp32"
+"-eco-power-board-en/) board"
 
 #: ../../source/turtle_board/radioshuttle_protocol_resource.md:29
 msgid "The [LongRa](https://www.radioshuttle.de/en/longra-en/board-en/) board"
-msgstr ""
+msgstr "The [LongRa](https://www.radioshuttle.de/en/longra-en/board-en/) board"
 
 #: ../../source/turtle_board/radioshuttle_protocol_resource.md:31
 msgid "**Supported multiple systems**"
-msgstr ""
+msgstr "**支持多个系统**"
 
 #: ../../source/turtle_board/radioshuttle_protocol_resource.md:33
 msgid "Arduino, Arduino Zero or newer"
-msgstr ""
+msgstr "Arduino, Arduino Zero or newer"
 
 #: ../../source/turtle_board/radioshuttle_protocol_resource.md:34
 msgid "ARM Mbed OS, supported MCUs (e.g. STM32L0, STM32L4)"
-msgstr ""
+msgstr "ARM Mbed OS, supported MCUs (e.g. STM32L0, STM32L4)"
 
 #: ../../source/turtle_board/radioshuttle_protocol_resource.md:35
 msgid "Linux (Raspberry PI/Orange PI planned)"
-msgstr ""
+msgstr "Linux (Raspberry PI/Orange PI planned)"
 
 #: ../../source/turtle_board/radioshuttle_protocol_resource.md:37
+#, fuzzy
 msgid ""
 "Know more about RadioShuttle Protocol please click:[The RadioShuttle "
 "Wireless Protocol](https://www.radioshuttle.de/en/radioshuttle-"
 "en/protocol/)."
-msgstr ""
+msgstr "了解更多有关无线电传输协议的信息请点击:[The RadioShuttle "
 
 #: ../../source/turtle_board/radioshuttle_protocol_resource.md:39
 msgid "&nbsp;"
-msgstr ""
+msgstr "&nbsp;"
 
 #: ../../source/turtle_board/radioshuttle_protocol_resource.md:41
 msgid "RadioShuttle STM32 Utility"
-msgstr ""
+msgstr "RadioShuttle STM32 Utility"
 
 #: ../../source/turtle_board/radioshuttle_protocol_resource.md:43
 msgid ""
@@ -145,22 +152,26 @@ msgid ""
 "MCUs. It has been designed to be used with RadioShuttle compatible boards"
 " which obtained a valid license (code) during the manufacturing process."
 msgstr ""
+"“RadioShuttle STM32 "
+"Utility”是一个特殊的实用程序,它可以使用DFU协议通过USB轻松地将软件上载到RadioShuttle "
+"STM32兼容板或从中下载软件.该实用程序可以从Mac,Windows和Linux的命令行使用,也可以在Mac和Windows计算机的GUI中使用.软件可上传至/下载自STM32"
+" MCU.被设计用于在制造过程中获得有效许可证(代码)的无线电换向兼容板."
 
 #: ../../source/turtle_board/radioshuttle_protocol_resource.md:45
 msgid "**System requirements**"
-msgstr ""
+msgstr "**系统要求**"
 
 #: ../../source/turtle_board/radioshuttle_protocol_resource.md:47
 msgid "**Windows:** Windows 7 or higher"
-msgstr ""
+msgstr "**Windows:** Windows 7 or higher"
 
 #: ../../source/turtle_board/radioshuttle_protocol_resource.md:48
 msgid "**Mac:** macOS 10.9 or higher"
-msgstr ""
+msgstr "**Mac:** macOS 10.9 or higher"
 
 #: ../../source/turtle_board/radioshuttle_protocol_resource.md:49
 msgid "**Linux:** Linux kernel 2.6.16 or higher,glibc 2.4 or higher"
-msgstr ""
+msgstr "**Linux:** Linux kernel 2.6.16 or higher,glibc 2.4 or higher"
 
 #: ../../source/turtle_board/radioshuttle_protocol_resource.md:51
 msgid ""
@@ -168,4 +179,7 @@ msgid ""
 "STM32 Utility](https://www.radioshuttle.de/en/turtle-en/radioshuttle-"
 "stm32-utility-en/)"
 msgstr ""
+"了解更多有关RadioShuttle STM32 Utility 信息请点击: [RadioShuttle STM32 "
+"Utility](https://www.radioshuttle.de/en/turtle-en/radioshuttle-stm32"
+"-utility-en/)"
 

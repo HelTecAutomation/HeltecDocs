@@ -19,25 +19,27 @@ msgstr ""
 
 #: ../../source/index.rst:14
 msgid "Quick Start"
-msgstr ""
+msgstr "快速入门"
 
 #: ../../source/index.rst:14
 msgid "Coneect to LoRa server"
-msgstr ""
+msgstr "连接到LoRa服务器"
 
 #: ../../source/index.rst:14
 msgid "Update Firmware"
-msgstr ""
+msgstr "升级固件"
 
 #: ../../source/index.rst:2
 msgid "HT-M01S (Rev. 2.0)"
-msgstr ""
+msgstr "HT-M01S (Rev. 2.0)"
 
 #: ../../source/index.rst:3
 msgid ""
 "`简体中文 <https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-"
 "m01s/index.html>`_"
 msgstr ""
+"`简体中文 <https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-"
+"m01s/index.html>`_"
 
 #: ../../source/index.rst:5
 msgid ""
@@ -54,24 +56,36 @@ msgid ""
 "for deployment in factories, warehouses, homes and other indoor "
 "environments that can provide power and network."
 msgstr ""
+"HT-M01S(2.0版本)定位为室内使用的低成本标准"
+"网关. LoRa部分基于SX1303 + 1250结构, "
+"创新性地采用ESP32作为主控芯片, 将"
+"SX1303的硬件驱动, 数据转发和消息队列完全移植到"
+"ESP32平台上. 不需要单独运行Linux"
+"操作系统. 它使用起来更简单, 更方便. HT-M01S "
+"(Rev. 2.0) 具有基本的机械保护和防尘结构, 但"
+"不具备防水性能. 它可以通过Wi-Fi或以太网"
+"连接到云服务器, 可以由Type-C_5V供电, 在钢化"
+"玻璃面板下有1.8英寸TFT显示屏. 它非常适合"
+"部署在工厂, 仓库, 家庭和其他可以"
+"提供电力和网络的室内环境中."
 
 #: ../../source/index.rst:8
 msgid "SX1303 baseband chip;"
-msgstr ""
+msgstr "SX1303基带芯片;"
 
 #: ../../source/index.rst:9
 msgid "LoRaWAN protocol 1.0.2 Class A, Class C support;"
-msgstr ""
+msgstr "LoRaWAN协议 1.0.2 Class A, Class C 支持;"
 
 #: ../../source/index.rst:10
 msgid "Support Wi-Fi or Ethernet to connect to the network;"
-msgstr ""
+msgstr "支持Wi-Fi或以太网连接网络;"
 
 #: ../../source/index.rst:11
 msgid "Support Type-C_5V power supply；"
-msgstr ""
+msgstr "支持 Type-C_5V 电源；"
 
 #: ../../source/index.rst:12
 msgid "Onboard 1.8-inch TFT display."
-msgstr ""
+msgstr "板载1.8英寸TFT显示屏."
 

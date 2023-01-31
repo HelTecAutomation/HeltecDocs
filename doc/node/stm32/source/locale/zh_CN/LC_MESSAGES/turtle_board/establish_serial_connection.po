@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/turtle_board/establish_serial_connection.md:1
 msgid "Establish Serial Connection"
-msgstr ""
+msgstr "建立串行连接"
 
 #: ../../source/turtle_board/establish_serial_connection.md:2
 msgid "{ht_translation}`[简体中文]:[English]`"
@@ -31,21 +31,21 @@ msgid ""
 "Virtual Serial Poart) or UART, but the USB to UART chip is not integrated"
 " on the board. If the debugging information is to be output through the "
 "UART, an external USB to UART module is required."
-msgstr ""
+msgstr "LoRa节点可以通过 USB-CDC (USB-Virtual Serial Poart)或UART打印调试信息,但USB-UART芯片没有集成在开发板上.如果要通过UART输出调试信息,则需要一个外部USB-UART模块."
 
 #: ../../source/turtle_board/establish_serial_connection.md:6
 msgid "Use UART"
-msgstr ""
+msgstr "通过UART"
 
 #: ../../source/turtle_board/establish_serial_connection.md:8
 #: ../../source/turtle_board/establish_serial_connection.md:37
 msgid "Open the example of we provided."
-msgstr ""
+msgstr "打开提供的例程."
 
 #: ../../source/turtle_board/establish_serial_connection.md:9
 #: ../../source/turtle_board/establish_serial_connection.md:38
 msgid "Right-click the project to open `Properties`."
-msgstr ""
+msgstr "右键单击项目以打开`Properties`."
 
 #: ../../source/turtle_board/establish_serial_connection.md:11
 #: ../../source/turtle_board/establish_serial_connection.md:40
@@ -54,7 +54,7 @@ msgstr ""
 
 #: ../../source/turtle_board/establish_serial_connection.md:13
 msgid "Add `USE_DEBUGGER` in macro definitions, compile and download program."
-msgstr ""
+msgstr "在宏定义中添加`USE_DEBUGGER`,编译并下载程序."
 
 #: ../../source/turtle_board/establish_serial_connection.md:15
 msgid "![](img/establish_serial_connection/04.png)"
@@ -62,14 +62,14 @@ msgstr ""
 
 #: ../../source/turtle_board/establish_serial_connection.md:17
 msgid "Connect the board and USB-UART module correctly."
-msgstr ""
+msgstr "正确连接开发板和USB-UART模块."
 
 #: ../../source/turtle_board/establish_serial_connection.md:20
 msgid ""
 "The LoRa Node and USB-UART module are connect as below (if the LoRa Node "
 "is powered via USB or battery, the UART module&#39;s 3.3 / 5V pin do not "
 "need connect, just need TXD, RXD, GND)."
-msgstr ""
+msgstr "LoRa节点和USB-UART模块的连接方式如下(如果LoRa节点通过USB或电池供电,则UART模块的3.3/5V引脚不需要连接,只需要TXD, RXD, GND)."
 
 #: ../../source/turtle_board/establish_serial_connection.md:23
 msgid "![](img/establish_serial_connection/02.png)"
@@ -82,11 +82,11 @@ msgid ""
 "provide, we use TX-PA9 and RX-PA10. Therefore, TX of UART module should "
 "be connected to RX(PA10) of board, RX of UART module should be connected "
 "to TX(PA9) of board."
-msgstr ""
+msgstr "当使用UART时,程序中使用的TX和RX引脚应与板上的TX和RX引脚相对应.在我们提供的例程中,我们使用TX-PA9和RX-PA10.因此,UART模块的TX应连接到开发板的RX(PA10),UART模块的RX应连接到开发板的TX(PA9)."
 
 #: ../../source/turtle_board/establish_serial_connection.md:29
 msgid "Open serial port."
-msgstr ""
+msgstr "打开串口"
 
 #: ../../source/turtle_board/establish_serial_connection.md:31
 msgid "![](img/establish_serial_connection/05.png)"
@@ -94,17 +94,17 @@ msgstr ""
 
 #: ../../source/turtle_board/establish_serial_connection.md:33
 msgid "&nbsp;"
-msgstr ""
+msgstr "&nbsp;"
 
 #: ../../source/turtle_board/establish_serial_connection.md:35
 msgid "Use virtual serial port"
-msgstr ""
+msgstr "使用虚拟串口"
 
 #: ../../source/turtle_board/establish_serial_connection.md:42
 msgid ""
 "Add `USB_VCP` and `USE_DEBUGGER`  in macro definitions, compile and "
 "download program."
-msgstr ""
+msgstr "在宏定义中添加`USB_VCP`和`USE_DEBUGGER`,编译并下载程序."
 
 #: ../../source/turtle_board/establish_serial_connection.md:44
 msgid "![](img/establish_serial_connection/01.png)"
@@ -112,7 +112,7 @@ msgstr ""
 
 #: ../../source/turtle_board/establish_serial_connection.md:46
 msgid "Connect LoRa Node to computer via a Micro USB cable and open serial port."
-msgstr ""
+msgstr "通过Micro-USB数据线将LoRa节点连接到计算机并打开串行端口."
 
 #: ../../source/turtle_board/establish_serial_connection.md:48
 msgid "![](img/establish_serial_connection/06.png)"

@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/lorawan/connect_to_gateway.md:1
 msgid "Connect \"ESP32 + LoRa\" to LoRaWAN Server"
-msgstr ""
+msgstr " 连接\"ESP32 + LoRa\"节点到LoRaWAN服务器"
 
 #: ../../source/lorawan/connect_to_gateway.md:2
 msgid "{ht_translation}`[简体中文]:[English]`"
@@ -30,7 +30,7 @@ msgid ""
 "Before this operation, please read this document carefully: **[“ESP32 + "
 "LoRa” Node Preparation & Config "
 "Parameters](https://docs.heltec.org/en/node/esp32/lorawan/config_parameter.html)**"
-msgstr ""
+msgstr "配置前请仔细阅读本文档:**[“ESP32 +LoRa” 节点准备和配置参数](https://docs.heltec.org/en/node/esp32/lorawan/config_parameter.html)**"
 
 #: ../../source/lorawan/connect_to_gateway.md:6
 msgid "![](img/connect_to_gateway/01.png)"
@@ -38,7 +38,7 @@ msgstr ""
 
 #: ../../source/lorawan/connect_to_gateway.md:8
 msgid "&nbsp;"
-msgstr ""
+msgstr "&nbsp;"
 
 #: ../../source/lorawan/connect_to_gateway.md:10
 msgid "![](img/connect_to_gateway/05.png)"
@@ -46,24 +46,24 @@ msgstr ""
 
 #: ../../source/lorawan/connect_to_gateway.md:14
 msgid "Connect to TTN/TTS"
-msgstr ""
+msgstr "连接到TTN/TTS"
 
 #: ../../source/lorawan/connect_to_gateway.md:16
 msgid ""
 "Before that, make sure there is a LoRa Gateway active in your "
 "[TTN](https://console.thethingsnetwork.org/)/[TTS](https://lora.heltec.org/console)"
 " account."
-msgstr ""
+msgstr "在此之前,请确保您的[TTN](https://console.thethingsnetwork.org/)/[TTS](https://lora.heltec.org/console)帐户中有一个激活的LoRa网关."
 
 #: ../../source/lorawan/connect_to_gateway.md:18
 msgid "Register a device"
-msgstr ""
+msgstr "注册设备"
 
 #: ../../source/lorawan/connect_to_gateway.md:20
 msgid ""
 "Register a new device in TTN or TTS “Applications” page. Select the "
 "corresponding Brand, Model, Hardware Version, Firmware Version, Region."
-msgstr ""
+msgstr "在TTN或者TTS“Applications”页面注册新设备.选择相应的品牌、型号、硬件版本、固件版本、范围."
 
 #: ../../source/lorawan/connect_to_gateway.md:22
 msgid "![](img/connect_to_gateway/16.png)"
@@ -73,7 +73,7 @@ msgstr ""
 msgid ""
 "Select the frequency plan, and fill in the corresponding AppEUI, DevEUi, "
 "AppKey, and register the device."
-msgstr ""
+msgstr "选择频率方案,填写对应的AppEUI,DevEUi,AppKey,并注册设备."
 
 #: ../../source/lorawan/connect_to_gateway.md:26
 msgid "![](img/connect_to_gateway/17.png)"
@@ -84,7 +84,7 @@ msgstr ""
 msgid ""
 "After registration is complete, if all is well, you will see the device "
 "active."
-msgstr ""
+msgstr "注册完成后，如果一切正常，您将看到设备处于活动状态。"
 
 #: ../../source/lorawan/connect_to_gateway.md:30
 msgid "![](img/connect_to_gateway/18.png)"
@@ -92,13 +92,13 @@ msgstr ""
 
 #: ../../source/lorawan/connect_to_gateway.md:32
 msgid "Connect to ChirpStack"
-msgstr ""
+msgstr "连接到ChirpStack"
 
 #: ../../source/lorawan/connect_to_gateway.md:34
 msgid ""
 "Register a new device in ChirpStack’s “Applications” page. Enter the "
 "device name, description, DevEUI. Select Device-profile."
-msgstr ""
+msgstr "在ChirpStack的“应用程序”页面注册一个新设备.输入设备名称,描述,DevEUI,选择Device-profile."
 
 #: ../../source/lorawan/connect_to_gateway.md:36
 msgid "![](img/connect_to_gateway/20.png)"
@@ -106,7 +106,7 @@ msgstr ""
 
 #: ../../source/lorawan/connect_to_gateway.md:38
 msgid "Enter the Application key of the device."
-msgstr ""
+msgstr "输入设备的Application key"
 
 #: ../../source/lorawan/connect_to_gateway.md:40
 msgid "![](img/connect_to_gateway/21.png)"
@@ -118,15 +118,15 @@ msgstr ""
 
 #: ../../source/lorawan/connect_to_gateway.md:46
 msgid "Important Hints"
-msgstr ""
+msgstr "重要提示"
 
 #: ../../source/lorawan/connect_to_gateway.md:48
 msgid "Please double check the following two things:"
-msgstr ""
+msgstr "请仔细检查以下两件事:"
 
 #: ../../source/lorawan/connect_to_gateway.md:50
 msgid "The LoRaWAN parameters is the same as server!"
-msgstr ""
+msgstr "LoRaWAN参数与服务器相同!"
 
 #: ../../source/lorawan/connect_to_gateway.md:51
 msgid ""
@@ -134,5 +134,5 @@ msgid ""
 "node's sending frequency. We strictly follow [LoRaWAN™ 1.0.2 Regional "
 "Parameters "
 "rB](https://resource.heltec.cn/download/LoRaWANRegionalParametersv1.0.2_final_1944_1.pdf);"
-msgstr ""
+msgstr "您的LoRa网关的监听频率和ESP32节点的发送频率相同.我们严格遵守[LoRaWAN™ 1.0.2 Regional Parameters rB](https://resource.heltec.cn/download/LoRaWANRegionalParametersv1.0.2_final_1944_1.pdf);"
 

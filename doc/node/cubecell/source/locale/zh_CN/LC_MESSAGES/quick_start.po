@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/quick_start.md:1
 msgid "CubeCell Series Quick Start"
-msgstr ""
+msgstr "CubeCell系列快速入门"
 
 #: ../../source/quick_start.md:2
 msgid "{ht_translation}`[简体中文]:[English]`"
@@ -27,42 +27,42 @@ msgstr ""
 
 #: ../../source/quick_start.md:3
 msgid "Summary"
-msgstr ""
+msgstr "摘要"
 
 #: ../../source/quick_start.md:5
 msgid ""
 "CubeCell is based on ASR650x series, this page shown how to install and "
 "configuration CubeCell Arduino Framework, and how to uploading and "
 "running code (examples)."
-msgstr ""
+msgstr "CubeCell基于ASR650x系列，本页面展示了如何安装和配置CubeCell Arduino框架，以及如何上传和运行代码（示例）。"
 
 #: ../../source/quick_start.md:7
 msgid "Install CubeCell Relevant Framework"
-msgstr ""
+msgstr "安装CubeCell相关框架"
 
 #: ../../source/quick_start.md:9
 msgid ""
 "**there are three methods to install the CubeCell framework, choose one "
 "of them.**"
-msgstr ""
+msgstr "**安装CubeCell框架有三种方法，请选择其中一种.**"
 
 #: ../../source/quick_start.md:11
 msgid "[Use Arduino board manager](use-arduino-board-manager)"
-msgstr ""
+msgstr "通过[Arduino board manager](use-arduino-board-manager)"
 
 #: ../../source/quick_start.md:12
 msgid "[Via Git](via-git)"
-msgstr ""
+msgstr "[通过Git](via-git)"
 
 #: ../../source/quick_start.md:13
 msgid "[Via Local File](via-local-file)"
-msgstr ""
+msgstr "[通过本地文件](via-local-file)"
 
 #: ../../source/quick_start.md:16
 msgid ""
 "Please confirm whether the USB driver, Git and Arduino IDE has been "
 "installed correctly."
-msgstr ""
+msgstr "请确认USB驱动程序，Git和Arduino IDE是否已正确安装."
 
 #: ../../source/quick_start.md:19
 msgid ""
@@ -70,15 +70,15 @@ msgid ""
 "connection](https://docs.heltec.org/general/establish_serial_connection.html)"
 " and [Install Git and Arduino "
 "IDE](https://docs.heltec.org/general/how_to_install_git_and_arduino.html).*"
-msgstr ""
+msgstr "*如果没有，请看这两篇文章 [建立串行连接 ](https://docs.heltec.org/general/establish_serial_connection.html)和 [安装Git 和 Arduino IDE](https://docs.heltec.org/general/how_to_install_git_and_arduino.html).*"
 
 #: ../../source/quick_start.md:22
 msgid "Use Arduino board manager"
-msgstr ""
+msgstr "通过Arduino board manager"
 
 #: ../../source/quick_start.md:24
 msgid "Open Arduino IDE, and click `File`->`Peferences`->`Settings`"
-msgstr ""
+msgstr "打开 Arduino IDE，然后依次点击 'File'->'Peferences'->S'ettings'"
 
 #: ../../source/quick_start.md:26 ../../source/quick_start.md:61
 msgid "![](img/quick_start/01.png)"
@@ -90,14 +90,14 @@ msgstr ""
 
 #: ../../source/quick_start.md:30
 msgid "Input following json url to board manager URLs:"
-msgstr ""
+msgstr "输入以下json url到board manager URLs:"
 
 #: ../../source/quick_start.md:32
 msgid ""
 "[https://github.com/HelTecAutomation/CubeCell-"
 "Arduino/releases/download/V1.5.0/package_CubeCell_index.json](https://github.com/HelTecAutomation"
 "/CubeCell-Arduino/releases/download/V1.5.0/package_CubeCell_index.json)"
-msgstr ""
+msgstr "[https://github.com/HelTecAutomation/CubeCell-Arduino/releases/download/V1.5.0/package_CubeCell_index.json](https://github.com/HelTecAutomation/CubeCell-Arduino/releases/download/V1.5.0/package_CubeCell_index.json)"
 
 #: ../../source/quick_start.md:34
 msgid "![](img/quick_start/03.png)"
@@ -107,7 +107,7 @@ msgstr ""
 msgid ""
 "Click `Tools`->`Board:`->`Boards Manager...`, search `Heltec cubecell`in "
 "the new pop-up dialog, select the latest `releases` and  click `install`"
-msgstr ""
+msgstr "依次点击'Tools'->'Board:'->'Boards Manager...'，在新弹出对话框中搜索'Heltec cubecell'，选择最新的'版本'，然后点击'安装'。"
 
 #: ../../source/quick_start.md:38
 msgid "![](img/quick_start/04.png)"
@@ -122,52 +122,55 @@ msgid ""
 "The source code of Heltec ASR650x series (ASR6501&ASR6502) framework "
 "available here: [https://github.com/HelTecAutomation/ASR650x-"
 "Arduino](https://github.com/HelTecAutomation/ASR650x-Arduino)"
-msgstr ""
+msgstr "Heltec ASR650x 系列 (ASR6501&ASR6502)的框架源码:[https://github.com/HelTecAutomation/ASR650x-Arduino](https://github.com/HelTecAutomation/ASR650x-Arduino)"
 
 #: ../../source/quick_start.md:45
 msgid "Via Git"
-msgstr ""
+msgstr "通过Git"
 
 #: ../../source/quick_start.md:47
 msgid ""
 "For Windows: `https://github.com/HelTecAutomation/ASR650x-"
 "Arduino/blob/master/InstallGuide/windows.md`"
-msgstr ""
+msgstr "For Windows: `https://github.com/HelTecAutomation/ASR650x-"
+"Arduino/blob/master/InstallGuide/windows.md`"
 
 #: ../../source/quick_start.md:48
 msgid ""
 "For MacOS: `https://github.com/HelTecAutomation/ASR650x-"
 "Arduino/blob/master/InstallGuide/mac.md`"
-msgstr ""
+msgstr "For MacOS: `https://github.com/HelTecAutomation/ASR650x-"
+"Arduino/blob/master/InstallGuide/mac.md`"
 
 #: ../../source/quick_start.md:49
 msgid ""
 "For Linux(Ubuntu/Debian): `https://github.com/HelTecAutomation/ASR650x-"
 "Arduino/blob/master/InstallGuide/debian_ubuntu.md`"
-msgstr ""
+msgstr "For Linux(Ubuntu/Debian): `https://github.com/HelTecAutomation/ASR650x-"
+"Arduino/blob/master/InstallGuide/debian_ubuntu.md`"
 
 #: ../../source/quick_start.md:51 ../../source/quick_start.md:148
 #: ../../source/quick_start.md:157
 msgid "&nbsp;"
-msgstr ""
+msgstr "&nbsp;"
 
 #: ../../source/quick_start.md:55
 msgid "Via Local File"
-msgstr ""
+msgstr "通过本地文件"
 
 #: ../../source/quick_start.md:57
 msgid ""
 "Download the development environment. "
 "[https://resource.heltec.cn/download/CubeCell/CubeCell.zip](https://resource.heltec.cn/download/CubeCell/CubeCell.zip)"
-msgstr ""
+msgstr "下载开发环境。[https://resource.heltec.cn/download/CubeCell/CubeCell.zip](https://resource.heltec.cn/download/CubeCell/CubeCell.zip)"
 
 #: ../../source/quick_start.md:59
 msgid "Open Arduino IDE, and click `File`->`Peferences`."
-msgstr ""
+msgstr "打开Arduino IDE,并且点击`File`->`Peferences`. "
 
 #: ../../source/quick_start.md:63
 msgid "Go to the folder in the red box."
-msgstr ""
+msgstr "转到红框里的文件夹"
 
 #: ../../source/quick_start.md:65
 msgid "![](img/quick_start/09.png)"
@@ -177,7 +180,7 @@ msgstr ""
 msgid ""
 "Create a new \"hardware\" folder in the Arduino folder. If there is "
 "already a \"hardware\" folder, you don't need to create a new one."
-msgstr ""
+msgstr "在Arduino文件夹中创建一个新的\"hardware\"文件夹。如果已经有一个\"hardware\"文件夹，你不需要创建一个新的。"
 
 #: ../../source/quick_start.md:69
 msgid "![](img/quick_start/10.png)"
@@ -185,7 +188,7 @@ msgstr ""
 
 #: ../../source/quick_start.md:71
 msgid "Go to the \"hardware\" folder and extract \"CubeCell\" into this folder."
-msgstr ""
+msgstr "进入\"hardware\"文件夹，并解压\"CubeCell\"到这个文件夹。"
 
 #: ../../source/quick_start.md:73
 msgid "![](img/quick_start/11.png)"
@@ -195,7 +198,7 @@ msgstr ""
 msgid ""
 "Go to the \"CubeCell\" folder, refer to the figure below to confirm "
 "whether the path in the red box is correct."
-msgstr ""
+msgstr "进入\"CubeCell\"文件夹，参考下图确认红框中的路径是否正确。"
 
 #: ../../source/quick_start.md:77
 msgid "![](img/quick_start/12.png)"
@@ -205,7 +208,7 @@ msgstr ""
 msgid ""
 "Restart the Arduino IDE to confirm whether the development environment is"
 " installed successfully."
-msgstr ""
+msgstr "重新启动Arduino IDE，确认开发环境是否安装成功。"
 
 #: ../../source/quick_start.md:81
 msgid "![](img/quick_start/13.png)"
@@ -213,60 +216,60 @@ msgstr ""
 
 #: ../../source/quick_start.md:84
 msgid "Running an Example"
-msgstr ""
+msgstr "运行一个例程"
 
 #: ../../source/quick_start.md:86
 msgid ""
 "Connect your CubeCell board to computer via a **high quality** Micro USB "
 "cable *(This is the most common reason we had encountered can’t program "
 "software)*."
-msgstr ""
+msgstr "将CubeCell开发板通过一根高质量的Micro-USB数据线连接到电脑*（这是我们遇到的最常见的无法编译程序的原因）*。"
 
 #: ../../source/quick_start.md:88
 msgid "Correctly Config the Tools Menu"
-msgstr ""
+msgstr "正确配置工具菜单"
 
 #: ../../source/quick_start.md:90
 msgid "In the tools menu, there are following options:"
-msgstr ""
+msgstr "在工具菜单中，有以下选项："
 
 #: ../../source/quick_start.md:92
 msgid "**Board** -- Choose the right hardware connected to your computer;"
-msgstr ""
+msgstr "**Board** --选择正确的硬件连接到电脑;"
 
 #: ../../source/quick_start.md:93
 msgid ""
 "**LORAWAN_REGION** -- LoRaWAN protocol region definition, strictly follow"
 " [LoRaWAN™ 1.0.2 Regional Parameters "
 "rB](https://resource.heltec.cn/download/LoRaWANRegionalParametersv1.0.2_final_1944_1.pdf);"
-msgstr ""
+msgstr "**LORAWAN_REGION** -- 严格遵守LORAWAN协议区域规定 [LoRaWAN™ 1.0.2 Regional Parameters rB](https://resource.heltec.cn/download/LoRaWANRegionalParametersv1.0.2_final_1944_1.pdf);"
 
 #: ../../source/quick_start.md:94
 msgid "**LORAWAN_CLASS** -- Now with Class A and Class C supported;"
-msgstr ""
+msgstr "**LORAWAN_CLASS** --现在支持Class A 和 Class C"
 
 #: ../../source/quick_start.md:95
 msgid "**LORAWAN_DEVEUI** -- The source of the LoRaWAN parameter `DevEUI`"
-msgstr ""
+msgstr "**LORAWAN_DEVEUI** --LoRaWAN参数'DevEUI'的来源"
 
 #: ../../source/quick_start.md:96
 msgid ""
 "`CUSTOM -- Use the value defined in the devEui array, which is in the "
 ".ino file, Can be any value, but it may conflict with other serial "
 "numbers.`"
-msgstr ""
+msgstr "`CUSTOM --使用.ino文件中devEui数组中定义的值，可以是任何值，但可能与其他序列号冲突。`"
 
 #: ../../source/quick_start.md:97
 msgid "`Generate by ChipID -- Generated based on the ASR650x's unique Chip ID`"
-msgstr ""
+msgstr "`Generate by ChipID -- 根据ASR650x的唯一芯片ID生成`"
 
 #: ../../source/quick_start.md:98
 msgid "**LORAWAN_NETMODE** -- OTAA or ABP;"
-msgstr ""
+msgstr "**LORAWAN_NETMODE** -- OTAA or ABP;"
 
 #: ../../source/quick_start.md:99
 msgid "**LORAWAN_ADR** -- Turn ON or turn OFF ADR (Adaptive Data Rate);"
-msgstr ""
+msgstr "**LORAWAN_ADR** -- ON or OFF ADR (自适应数据速率);"
 
 #: ../../source/quick_start.md:100
 msgid ""
@@ -274,63 +277,63 @@ msgid ""
 "protocol, only valid in OTAA mode. If this option is enabled, when system"
 " reset does not need join again. Projects such as smart street lights may"
 " be useful."
-msgstr ""
+msgstr "**LORAWAN_Net_Reservation** -- 这是LoRaWAN协议之外的功能，仅在OTAA模式下有效。如果启用此选项，则系统复位时不需要再次加入。智能路灯等项目可能有用."
 
 #: ../../source/quick_start.md:101
 msgid ""
 "**LORAWAN_UPLINKMODE** -- LoRa uplink confirmed/unconfirmed messages. "
 "Confirmed messages need server send downlink to node, but some LoRa "
 "server have downlink limited (such as TTN)."
-msgstr ""
+msgstr "**LORAWAN_UPLINKMODE** --LoRa上行确认/未确认信息。确认后的消息需要服务器发送下行链路到节点，但有些LoRa服务器下行链路受限（如TTN）。 "
 
 #: ../../source/quick_start.md:102
 msgid ""
 "**LORAWAN_AT_SUPPORT** -- AT command will provide many useful functions, "
 "for example, users can use serial port to config LoRa Node's DevEui, "
 "AppKey, or make node sleep, reset etc."
-msgstr ""
+msgstr "**LORAWAN_AT_SUPPORT** --  AT命令将提供许多有用的功能，例如，用户可以使用串行端口来配置LoRa节点的DevEui、AppKey或使节点休眠、复位等。"
 
 #: ../../source/quick_start.md:103
 msgid "**LORAWAN_RGB** -- RGB light for LoRaWAN status:"
-msgstr ""
+msgstr "**LORAWAN_RGB**– LoRaWAN状态的RGB灯："
 
 #: ../../source/quick_start.md:104
 msgid "`Purple -- Join;`"
-msgstr ""
+msgstr "`紫色 -- 入网;`"
 
 #: ../../source/quick_start.md:105
 msgid "`Blue -- First RX window;`"
-msgstr ""
+msgstr "`蓝色 -- 第一接收窗口;`"
 
 #: ../../source/quick_start.md:106
 msgid "`Yellow -- Second RX window;`"
-msgstr ""
+msgstr "`黄色 -- 第二接收窗口;`"
 
 #: ../../source/quick_start.md:107
 msgid "`Green -- Join done.`"
-msgstr ""
+msgstr "`绿色 -- 入网成功.`"
 
 #: ../../source/quick_start.md:108
 msgid "**LoRaWan Debug Level** -- LoRaWAN relevant messages print by serial port"
-msgstr ""
+msgstr "**LoRaWan Debug Level** – 通过串行端口打印LoRaWAN相关信息"
 
 #: ../../source/quick_start.md:109
 msgid "`None -- Default;`"
-msgstr ""
+msgstr "`None -- 默认；`"
 
 #: ../../source/quick_start.md:110
 msgid "`Freq -- Sending/receiving frequency;`"
-msgstr ""
+msgstr "`Freq -- 发送/接收频率;`"
 
 #: ../../source/quick_start.md:111
 msgid ""
 "`Freq && DIO -- Sending/receiving frequency, and DIO pin interrupt "
 "information.`"
-msgstr ""
+msgstr "'Freq && DIO -- 发送/接收频率和DIO引脚中断信息。'"
 
 #: ../../source/quick_start.md:112
 msgid "**COM Port** -- Device's serial port in your computer."
-msgstr ""
+msgstr "**COM Port** -- 设备在计算机中的串行端口。"
 
 #: ../../source/quick_start.md:116
 msgid ""
@@ -339,7 +342,7 @@ msgid ""
 "network at the same time, which may cause the LoRa gateway or server to "
 "fail. Enable this feature will avoid this situation. Enable "
 "LORAWAN_Net_Reservation must disable Frame counter (fCnt) in LoRa server."
-msgstr ""
+msgstr "**LORAWAN_Net_Reservation:**例如，城市发生大规模停电，恢复供电后，数千台设备同时接入网络，可能导致LoRa网关或服务器故障。启用此功能将避免这种情况。启用LORAWAN_Net_Reservation必须禁用LoRa服务器中的帧计数器（fCnt）。"
 
 #: ../../source/quick_start.md:119
 msgid "![](img/quick_start/06.png)"
@@ -347,7 +350,7 @@ msgstr ""
 
 #: ../../source/quick_start.md:121
 msgid "Select an example"
-msgstr ""
+msgstr "选择一个例程"
 
 #: ../../source/quick_start.md:123
 msgid "![](img/quick_start/07.png)"
@@ -355,7 +358,8 @@ msgstr ""
 
 #: ../../source/quick_start.md:125
 msgid "Compile and upload"
-msgstr ""
+msgstr "编译并上传
+"
 
 #: ../../source/quick_start.md:127
 msgid "![](img/quick_start/08.png)"
@@ -363,26 +367,26 @@ msgstr ""
 
 #: ../../source/quick_start.md:131
 msgid "New a sketch for CubeCell"
-msgstr ""
+msgstr "为CubeCell新建工程"
 
 #: ../../source/quick_start.md:133
 msgid "In Arduino IDE, click `File --> new` and copy the following code:"
-msgstr ""
+msgstr "在Arduino IDE中, 点击'File --> new' 然后复制下面这段代码："
 
 #: ../../source/quick_start.md:150
 msgid "External resources"
-msgstr ""
+msgstr "外部资源"
 
 #: ../../source/quick_start.md:152
 msgid "**Serial port cannot connected to Linux system?**"
-msgstr ""
+msgstr "**串行端口无法连接到Linux系统？**"
 
 #: ../../source/quick_start.md:154
 msgid ""
 "In the Linux system, If encounter the serial port cannot be connected. "
 "Please refer to this document: "
 "[https://playground.arduino.cc/Linux/All/#Permission](https://playground.arduino.cc/Linux/All/#Permission)"
-msgstr ""
+msgstr "在Linux系统中，如果遇到无法连接的串行端口。请参阅本文档：[https://playground.arduino.cc/Linux/All/#Permission](https://playground.arduino.cc/Linux/All/#Permission)"
 
 #: ../../source/quick_start.md:159
 msgid "Enjoy!"

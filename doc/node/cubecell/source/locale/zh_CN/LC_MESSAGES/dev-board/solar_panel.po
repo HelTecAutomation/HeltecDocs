@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/dev-board/solar_panel.md:1
 msgid "Connect a Solar Panel to CubeCell Boards"
-msgstr ""
+msgstr "连接太阳能电池板到CubeCell板"
 
 #: ../../source/dev-board/solar_panel.md:2
 msgid "{ht_translation}`[简体中文]:[English]`"
@@ -27,20 +27,20 @@ msgstr ""
 
 #: ../../source/dev-board/solar_panel.md:4
 msgid "Take HTCC-AB01 as an example."
-msgstr ""
+msgstr "以HTCC-AB01为例."
 
 #: ../../source/dev-board/solar_panel.md:6
 msgid ""
 "Please refer to the [pinout diagram of HTCC-"
 "AB01](https://resource.heltec.cn/download/CubeCell/HTCC-AB01/HTCC-"
 "AB01_PinoutDiagram.pdf)."
-msgstr ""
+msgstr "请参考[HTCC-AB01的引脚图](https://resource.heltec.cn/download/CubeCell/HTCC-AB01/HTCC-AB01_PinoutDiagram.pdf)."
 
 #: ../../source/dev-board/solar_panel.md:8
 msgid ""
 "The `VS` pin is the solar panel input, any 5.5~7V solar panel can be "
 "connected to this `VS` and `GND`."
-msgstr ""
+msgstr "`VS`脚是太阳能电池板的输入端,任何5.5~7V的太阳能板都可以连接到这个`VS` 和 `GND`."
 
 #: ../../source/dev-board/solar_panel.md:10
 msgid "![](img/solar_panel/03.png)"

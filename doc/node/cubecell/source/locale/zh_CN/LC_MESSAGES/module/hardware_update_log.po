@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/module/hardware_update_log.md:1
 msgid "Hardware Update Logs"
-msgstr ""
+msgstr "硬件更新日志"
 
 #: ../../source/module/hardware_update_log.md:2
 msgid "{ht_translation}`[简体中文]:[English]`"
@@ -27,76 +27,76 @@ msgstr ""
 
 #: ../../source/module/hardware_update_log.md:4
 msgid "HTTC - AM01 Hardware Update Logs"
-msgstr ""
+msgstr "HTTC - AM01 硬件更新日志"
 
 #: ../../source/module/hardware_update_log.md:6
 msgid ""
 "**HTCC-AM01 only have ASR6501 and RF relevant circuit inside. In order to"
 " program it, need connect to an external UART-USB bridge. CH340G, CP2102 "
 "etc.**"
-msgstr ""
+msgstr "**HTCC-AM01内部只有ASR6501和射频相关电路.要对其进行编程,需要连接外部UART-USB bridge.CH340G,CP2102等.**"
 
 #: ../../source/module/hardware_update_log.md:8
 #: ../../source/module/hardware_update_log.md:27
 msgid "V1"
-msgstr ""
+msgstr "v1"
 
 #: ../../source/module/hardware_update_log.md:10
 #: ../../source/module/hardware_update_log.md:31
 msgid "First release"
-msgstr ""
+msgstr "首次发布"
 
 #: ../../source/module/hardware_update_log.md:11
 msgid "2017-6-1 public sale"
-msgstr ""
+msgstr "2017-6-1 公开销售"
 
 #: ../../source/module/hardware_update_log.md:12
 msgid ""
 "[Pinout diagram of V1](http://resource.heltec.cn/download/CubeCell/HTCC-"
 "AM01_Module/HTCC-AM01_PinoutDiagram.pdf)"
-msgstr ""
+msgstr "[V1引脚图](http://resource.heltec.cn/download/CubeCell/HTCC-AM01_Module/HTCC-AM01_PinoutDiagram.pdf)"
 
 #: ../../source/module/hardware_update_log.md:14
 msgid "V2"
-msgstr ""
+msgstr "v2"
 
 #: ../../source/module/hardware_update_log.md:16
 msgid "2022-09-15  public sale"
-msgstr ""
+msgstr "2022-09-15 公开销售"
 
 #: ../../source/module/hardware_update_log.md:17
 msgid ""
 "MCU is changed from ASR6501 to ASR6502. Specific differences of MCU are "
 "shown in：[https://products.espressif.com/#/product-"
 "comparison](https://products.espressif.com/#/product-comparison)."
-msgstr ""
+msgstr "MCU由ASR6501改为ASR6502.MCU的具体区别是[https://products.espressif.com/#/product-comparison](https://products.espressif.com/#/product-comparison)."
 
 #: ../../source/module/hardware_update_log.md:18
 msgid ""
 "The size, appearance, pin layout and GPIO pins remain unchanged, only the"
 " ADC pin definition is changed, and ADC is changed from P2_3 to P2_1."
-msgstr ""
+msgstr "尺寸,外观,引脚布局,GPIO引脚不变,仅ADC引脚定义改变,ADC由P2_3变为P2_1."
 
 #: ../../source/module/hardware_update_log.md:19
 msgid ""
 "[Pinout diagram of V2](https://resource.heltec.cn/download/CubeCell/HTCC-"
 "AM01_V2/HTCC-AM01_V2.png)."
-msgstr ""
+msgstr "[v2引脚图](https://resource.heltec.cn/download/CubeCell/HTCC-AM01_V2/HTCC-AM01_V2.png)."
 
 #: ../../source/module/hardware_update_log.md:21
 msgid "&nbsp;"
-msgstr ""
+msgstr "&nbsp;"
 
 #: ../../source/module/hardware_update_log.md:23
 msgid "HTTC - AM02 Hardware Update Logs"
-msgstr ""
+msgstr "HTTC - AM02 硬件更新日志"
 
 #: ../../source/module/hardware_update_log.md:25
 msgid ""
 "**HTCC-AM02 only have ASR6502 and RF relevant circuit inside. In order to"
 " program it, need connect to an external UART-USB bridge. CH340G, CP2102 "
 "etc.**"
-msgstr ""
+msgstr "HTCC-AM02内部只有ASR6502和射频相关电路.要对其进行编程,需要连接外部UART-USB bridge.如CH340G,CP2102等."
 
 #: ../../source/module/hardware_update_log.md:29
 msgid "![](img/hardware_update_log/01.png)"
@@ -104,11 +104,11 @@ msgstr ""
 
 #: ../../source/module/hardware_update_log.md:32
 msgid "2020-04-30 public sale"
-msgstr ""
+msgstr "2020-04-30 公开销售 "
 
 #: ../../source/module/hardware_update_log.md:33
 msgid ""
 "[Pinout diagram of V1](http://resource.heltec.cn/download/CubeCell/HTCC-"
 "AM02_Module/HTCC-AM02_PinoutDiagram.pdf)"
-msgstr ""
+msgstr "[v1引脚图](http://resource.heltec.cn/download/CubeCell/HTCC-AM02_Module/HTCC-AM02_PinoutDiagram.pdf)"
 

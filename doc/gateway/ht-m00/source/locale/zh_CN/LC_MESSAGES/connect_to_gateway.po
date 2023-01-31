@@ -19,15 +19,15 @@ msgstr ""
 
 #: ../../source/connect_to_gateway.md:1
 msgid "Connect Nodes to HT-M00"
-msgstr ""
+msgstr "连接节点至HT-M00"
 
 #: ../../source/connect_to_gateway.md:3
 msgid "{ht_translation}`[简体中文]:[English]`"
-msgstr ""
+msgstr "{ht_translation}`[简体中文]:[English]`"
 
 #: ../../source/connect_to_gateway.md:5
 msgid "Summary"
-msgstr ""
+msgstr "概要"
 
 #: ../../source/connect_to_gateway.md:7
 msgid ""
@@ -38,6 +38,12 @@ msgid ""
 "gateway, the channel used by the node must correspond to that of the "
 "HT-M00 gateway. This document takes CN470 as an example."
 msgstr ""
+"本文旨在描述如何连接节点到 [HT-M00 "
+"网关](https://heltec.org/project/ht-m00/), 方便LoRa设备的"
+"二次开发和快速部署. HT-M00 是一种双通道"
+"网关. 为了保证节点和网关之间能够正常"
+"通信, 节点所使用的通道必须与HT-M00网关的"
+"通道一致. 本文档以CN470为例进行说明."
 
 #: ../../source/connect_to_gateway.md:9
 msgid ""
@@ -46,6 +52,10 @@ msgid ""
 "Start](https://docs.heltec.org/en/gateway/ht-m00/quick_start.html) "
 "document."
 msgstr ""
+"在所有操作前, 请确保HT-M00及各节点正常运行 . 如果"
+"没有, 请参考[HT-M00 快速"
+"入门](https://docs.heltec.org/en/gateway/ht-m00/quick_start.html) "
+"document."
 
 #: ../../source/connect_to_gateway.md:12
 msgid ""
@@ -54,18 +64,22 @@ msgid ""
 "when the node channel matches the gateway channel. If the node channel "
 "does not include the gateway channel, the node cannot enter the network."
 msgstr ""
+"如果节点通道大于网关通道, 且包含"
+"网关通道, 则只有节点通道与网关通道匹配时, "
+"节点通道才能进入网络. 如果节点通道中"
+"不包含网关通道, 则节点无法进入网络."
 
 #: ../../source/connect_to_gateway.md:15 ../../source/connect_to_gateway.md:33
 msgid "&nbsp;"
-msgstr ""
+msgstr "&nbsp;"
 
 #: ../../source/connect_to_gateway.md:17
 msgid "Channel Frequency"
-msgstr ""
+msgstr "通道频率"
 
 #: ../../source/connect_to_gateway.md:19
 msgid "![](img/connect_to_gateway/01.png)"
-msgstr ""
+msgstr "![](img/connect_to_gateway/01.png)"
 
 #: ../../source/connect_to_gateway.md:21
 msgid ""
@@ -73,24 +87,29 @@ msgid ""
 "For every 200kHz increase in frequency, the channel code increases by 1, "
 "namely:"
 msgstr ""
+"CN470对应470.3MHz ~ 489.3MHz共96个信道. "
+"频率每增加200kHz, 信道码增加1, "
+"即:"
 
 #: ../../source/connect_to_gateway.md:23
 msgid "freq=470.3+0.2*N（N is the channel coding 0-95）"
-msgstr ""
+msgstr "freq=470.3+0.2*N（N为信道编码 0-95）"
 
 #: ../../source/connect_to_gateway.md:25
 msgid "Let's look at the code: (in the `.ino` file corresponding to LoRaWAN)"
-msgstr ""
+msgstr "让我们看看代码: (在 `.ino` 文件对应LoRaWAN)"
 
 #: ../../source/connect_to_gateway.md:27
 msgid ""
 "Refer to \"LoRaWAN\" for CubeCell series and refer to \"OTTA\" for ESP32 "
 "series."
 msgstr ""
+"CubeCell系列参考 \"LoRaWAN\",  ESP32系列参考"
+" \"OTTA\"."
 
 #: ../../source/connect_to_gateway.md:29
 msgid "![](img/connect_to_gateway/02.png)"
-msgstr ""
+msgstr "![](img/connect_to_gateway/02.png)"
 
 #: ../../source/connect_to_gateway.md:31
 msgid ""
@@ -106,18 +125,29 @@ msgid ""
 "modify \"userChannelsMask[0]=0xFF00\", it means that the channels are "
 "changed to 8-15, which are 471.9MHz, 472.1MHz, 472.3MHz...473.3MHz."
 msgstr ""
+"这是为CN470定义的所有LoRaWAN协议通道的6个数组. 在 "
+"userChannelsMask[0]中, 0x00FF 表示使用前0-7个通道, 即"
+" 470.3MHz, 470..5MHz, 470.7MHz...471.7MHz. 将十六进制 FF "
+"转换为二进制是 11111111. 从低到高的 11111111 对应的"
+" 是前0 ~ 7个通道, 即后1对应的是通道0,"
+" 前1对应的是通道7. 当您修改 "
+"\"userChannelsMask[0]=0x0001\"时, 这意味着通道被更改为 "
+"0, 即 470.3MHz, 当您修改 \"userChannelsMask[0]=0x0080\"时, 这"
+"意味着通道被更改为 7, 即 471.7MHz, 当您"
+"修改 \"userChannelsMask[0]=0xFF00\"时, 这意味着通道被 "
+"更改为 8-15, 即 471.9MHz, 472.1MHz, 472.3MHz...473.3MHz."
 
 #: ../../source/connect_to_gateway.md:35
 msgid "Instructions for Use"
-msgstr ""
+msgstr "使用说明"
 
 #: ../../source/connect_to_gateway.md:37
 msgid "The web configuration interface of HT-M00 is as follows."
-msgstr ""
+msgstr "HT-M00的web配置界面如下所示."
 
 #: ../../source/connect_to_gateway.md:39
 msgid "![](img/connect_to_gateway/03.png)"
-msgstr ""
+msgstr "![](img/connect_to_gateway/03.png)"
 
 #: ../../source/connect_to_gateway.md:41
 msgid ""
@@ -126,14 +156,18 @@ msgid ""
 "node correspond to these two channels, that is, modify the channel mask "
 "in the corresponding program."
 msgstr ""
+"在HT-M00的配置界面中, 会配置网关的"
+"两个通道频率. 我们需要使节点使用的"
+"通道与这两个通道相对应, 即在相应的程序中"
+"修改信道掩码."
 
 #: ../../source/connect_to_gateway.md:43
 msgid "Take the CubeCell series as an example:"
-msgstr ""
+msgstr "以CubeCell系列为例:"
 
 #: ../../source/connect_to_gateway.md:45
 msgid "![](img/connect_to_gateway/04.png)"
-msgstr ""
+msgstr "![](img/connect_to_gateway/04.png)"
 
 #: ../../source/connect_to_gateway.md:47
 msgid ""
@@ -141,4 +175,7 @@ msgid ""
 "channels. In the LoRaWAN program, you should "
 "modify\"userChannelsMask[0]=0x0300\"."
 msgstr ""
+"如果网关配置通道为 471.9MHz 和 472.1MHz, 则使用 9,10 "
+"个通道. 在LoRaWAN程序中, 您应该"
+"修改\"userChannelsMask[0]=0x0300\"."
 

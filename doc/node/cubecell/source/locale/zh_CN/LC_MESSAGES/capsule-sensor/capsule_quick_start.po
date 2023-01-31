@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/capsule-sensor/capsule_quick_start.md:1
 msgid "Capsule Sensor Quick Start"
-msgstr ""
+msgstr "胶囊传感器快速入门"
 
 #: ../../source/capsule-sensor/capsule_quick_start.md:2
 msgid "{ht_translation}`[简体中文]:[English]`"
@@ -27,11 +27,11 @@ msgstr ""
 
 #: ../../source/capsule-sensor/capsule_quick_start.md:3
 msgid "Summary"
-msgstr ""
+msgstr "摘要"
 
 #: ../../source/capsule-sensor/capsule_quick_start.md:5
 msgid "**Pay attention to the following issues while using a capsule sensor**"
-msgstr ""
+msgstr "**使用胶囊传感器时,请注意以下问题**"
 
 #: ../../source/capsule-sensor/capsule_quick_start.md:7
 msgid ""
@@ -39,7 +39,7 @@ msgid ""
 "deployed sensor. It does not have programming, debugging, and other "
 "interfaces. You need to use the [Debug Board](https://heltec.org/product"
 "/cubecell-capsule-debug/) in order to program and debug the program;"
-msgstr ""
+msgstr "胶囊传感器本身定位为一个小型,组装和部署传感器.它没有编程,调试和其他接口.您需要使用[调试板](https://heltec.org/product /cubecell-capsule-debug/)来编写和调试程序"
 
 #: ../../source/capsule-sensor/capsule_quick_start.md:8
 msgid ""
@@ -47,18 +47,18 @@ msgid ""
 "inside the capsule by default. Users in mainland China can inform our "
 "customer service when placing an order and we will provide integrated "
 "battery services."
-msgstr ""
+msgstr "由于储存和运输问题,电池默认不集成在胶囊内.中国大陆用户在下单时可通知我们的客服,我们将提供电池一体化服务."
 
 #: ../../source/capsule-sensor/capsule_quick_start.md:9
 msgid ""
 "[How to assemble a battery inside the Capsule Sensor](https://heltec-"
 "automation-docs.readthedocs.io/en/latest/cubecell/capsule-sensor/htcc-"
 "ac01/assemble_a_battery.html)"
-msgstr ""
+msgstr "[如何在胶囊传感器内部组装电池](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/capsule-sensor/htcc-ac01/assemble_a_battery.html）"
 
 #: ../../source/capsule-sensor/capsule_quick_start.md:11
 msgid "Get Ready"
-msgstr ""
+msgstr "准备"
 
 #: ../../source/capsule-sensor/capsule_quick_start.md:12
 msgid ""
@@ -66,22 +66,22 @@ msgid ""
 "://heltec-automation-"
 "docs.readthedocs.io/en/latest/cubecell/quick_start.html#install-cubecell-"
 "relevant-framework)；"
-msgstr ""
+msgstr "[正确安装CubeCell Arduino开发框架]（https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/quick_start.html#install-cubecell-relevant-framework)；"
 
 #: ../../source/capsule-sensor/capsule_quick_start.md:13
 msgid "A high quality Micro USB cable;"
-msgstr ""
+msgstr "一根高质量的Micro USB数据线;"
 
 #: ../../source/capsule-sensor/capsule_quick_start.md:14
 msgid ""
 "[Connect Capsule to Debugger board](https://heltec-automation-"
 "docs.readthedocs.io/en/latest/cubecell/capsule-sensor/htcc-"
 "ac01/connect_capsule_to_debugger.html)；"
-msgstr ""
+msgstr "[连接胶囊到调试器板](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/capsule-sensor/htcc-ac01/connect_capsule_to_debugger.html)；"
 
 #: ../../source/capsule-sensor/capsule_quick_start.md:15
 msgid "Install CP2102 USB-UART bridge driver."
-msgstr ""
+msgstr "安装CP2102 USB-UART bridge驱动程序."
 
 #: ../../source/capsule-sensor/capsule_quick_start.md:16
 msgid ""
@@ -89,22 +89,22 @@ msgid ""
 "the CP2102 USB-UART bridge. If it is not recognized properly, please "
 "refer to [here](https://heltec-automation-"
 "docs.readthedocs.io/en/latest/general/establish_serial_connection.html).*"
-msgstr ""
+msgstr "*在大多数情况下,Mac OS和Linux会自动识别the CP2102 USB-UART bridge.如果不能正确识别,请参考[此处](https://heltec-automation-docs.readthedocs.io/en/latest/general/establish_serial_connection.html)。*"
 
 #: ../../source/capsule-sensor/capsule_quick_start.md:18
 msgid "Capsule Sensor Test"
-msgstr ""
+msgstr "胶囊传感器测试"
 
 #: ../../source/capsule-sensor/capsule_quick_start.md:20
 msgid "Basic Test"
-msgstr ""
+msgstr "基础测试"
 
 #: ../../source/capsule-sensor/capsule_quick_start.md:22
 msgid ""
 "In the example menu `CubeCell - xxxx Sensor Examples`, is the basic test "
 "program used by capsule sensors, which can be used to quickly verify the "
 "sensor and read the value from sensors:"
-msgstr ""
+msgstr "在示例菜单`CubeCell - xxxx传感器示例`中,是基本的测试.程序所使用的胶囊传感器,可用于快速验证传感器,并从传感器读取值:"
 
 #: ../../source/capsule-sensor/capsule_quick_start.md:24
 msgid "![](img/capsule_quick_start/01.png)"
@@ -115,34 +115,34 @@ msgid ""
 "**Heltec Produced Sensor Examples:** Sensor modules made by Heltec. "
 "Sensor List: `https://github.com/HelTecAutomation/ASR650x-"
 "Arduino/blob/master/libraries/SensorBasic/readme.md`"
-msgstr ""
+msgstr "**Heltec生产的传感器示例:Heltec生产的传感器模块**.传感器清单:`https://github.com/HelTecAutomation/ASR650x-Arduino/blob/master/libraries/SensorBasic/readme.md`"
 
 #: ../../source/capsule-sensor/capsule_quick_start.md:28
 msgid ""
 "**Third Party Sensor Examples:** For third-party sensor modules developed"
 " by users. Sensor List: `https://github.com/HelTecAutomation/ASR650x-"
 "Arduino/blob/master/libraries/Sensor_ThirdParty/readme.md`"
-msgstr ""
+msgstr "**第三方传感器举例:**用户自行开发的第三方传感器模块.传感器列表: `https://github.com/HelTecAutomation/ASR650x-Arduino/blob/master/libraries/Sensor_ThirdParty/readme.md`"
 
 #: ../../source/capsule-sensor/capsule_quick_start.md:30
 msgid "&nbsp;"
-msgstr ""
+msgstr "&nbsp;"
 
 #: ../../source/capsule-sensor/capsule_quick_start.md:32
 msgid "Transmit Sensor Data Via LoRaWAN protocol"
-msgstr ""
+msgstr "通过LoRaWAN协议传输传感器数据"
 
 #: ../../source/capsule-sensor/capsule_quick_start.md:35
 msgid ""
 "This part operations must performed with a gateway that supports the "
 "standard LoRaWAN protocol."
-msgstr ""
+msgstr "此部分操作必须在支持标准LoRaWAN协议的网关中进行."
 
 #: ../../source/capsule-sensor/capsule_quick_start.md:38
 msgid ""
 "In the example menu `LoRa → LoRaWAN → LoRaWAN_Sensors(_ThirdParty)`, we "
 "provided some examples transmit sensor's data via LoRaWAN protocol."
-msgstr ""
+msgstr "在`LoRa→LoRaWAN→LoRaWAN_Sensors(_ThirdParty)`示例菜单中,我们提供了一些通过LoRaWAN协议传输传感器数据的示例."
 
 #: ../../source/capsule-sensor/capsule_quick_start.md:40
 msgid "![](img/capsule_quick_start/02.png)"
@@ -153,17 +153,17 @@ msgid ""
 "In all sensor & LoRaWAN examples, the sensor data is read once before "
 "sending. For example, in the HDC1080 temperature and humidity sensor "
 "example:"
-msgstr ""
+msgstr "在所有的传感器和LoRaWAN示例中,传感器数据在发送前被读取一次.以HDC1080温湿度传感器为例:"
 
 #: ../../source/capsule-sensor/capsule_quick_start.md:53
 msgid ""
 "The `PrepareTxFrame` had read temperature (float), humidity (float) and "
 "battery voltage (unsigned int). And convert data to a char. The contents:"
-msgstr ""
+msgstr "`PrepareTxFrame`读取了温度(float),湿度(float)和电池电压(unsigned int).并将数据转换为字符.内容:"
 
 #: ../../source/capsule-sensor/capsule_quick_start.md:93
 msgid "Why convert data to byte?"
-msgstr ""
+msgstr "为什么要将数据转换为字节？"
 
 #: ../../source/capsule-sensor/capsule_quick_start.md:95
 msgid ""
@@ -173,5 +173,5 @@ msgid ""
 "this data via string like `char data[] = \"27.313232421875\"`, it will "
 "spend 15 bytes. but if transmit in byte `80 81 DA 41`, only spend 4 "
 "bytes."
-msgstr ""
+msgstr "众所周知 `float`数据占用内存4个字节,而`unsigned int`数据占用内存2个字节.假设你有一个非常精确的传感器,例如,测量的数据是12.34567890987654321,如果通过 `char data[] = \"27.313232421875\"`这样的字符串发送这个数据,它将花费15个字节.但如果以字节`8081 DA 41`传输,只需花费4个字节."
 

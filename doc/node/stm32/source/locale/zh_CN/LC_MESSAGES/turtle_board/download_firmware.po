@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/turtle_board/download_firmware.md:1
 msgid "Download Firmware"
-msgstr ""
+msgstr "固件下载"
 
 #: ../../source/turtle_board/download_firmware.md:2
 msgid "{ht_translation}`[简体中文]:[English]`"
@@ -27,17 +27,17 @@ msgstr ""
 
 #: ../../source/turtle_board/download_firmware.md:3
 msgid "Via DFU Mode"
-msgstr ""
+msgstr "通过DFU模式"
 
 #: ../../source/turtle_board/download_firmware.md:5
 msgid ""
 "STM32L432KC had already included DFU Bootloader, it means just need a "
 "Micro USB cable, users can download .elf/.bin files into the board."
-msgstr ""
+msgstr "STM32L432KC芯片已经包含了DFU Bootloader,这意味着只需要一根Micro-USB数据线,用户就可以将.elf/.bin文件下载到开发板中."
 
 #: ../../source/turtle_board/download_firmware.md:7
 msgid "How to access DFU mode."
-msgstr ""
+msgstr "怎样进入DFU模式"
 
 #: ../../source/turtle_board/download_firmware.md:9
 msgid ""
@@ -45,25 +45,25 @@ msgid ""
 "button of the Lora node before inserting it into any USB port of the "
 "computer (press the “USER\"  key all the time before inserting, and "
 "release it after connecting to the USB port)."
-msgstr ""
+msgstr "如果开发板未连接到计算机 —— 插入电脑USB端口前先按下Lora节点的\"USER\"键(插入前一直按住"USER\"键，连接USB端口后松开)."
 
 #: ../../source/turtle_board/download_firmware.md:10
 msgid ""
 "If the board had connected to the computer —— Keep the “USER” button "
 "pressed → Press the \"RST\" button → Release the \"RST\" button → Release"
 " the \"USER\" button."
-msgstr ""
+msgstr "果电路板已连接到计算机——保持按下“USER”按钮→按下\"RST\"按钮→松开\"RST\"按钮→松开 \"USER\"按钮."
 
 #: ../../source/turtle_board/download_firmware.md:12
 #: ../../source/turtle_board/download_firmware.md:50
 msgid "Download firmware."
-msgstr ""
+msgstr "下载固件"
 
 #: ../../source/turtle_board/download_firmware.md:14
 msgid ""
 "If enter DFU mode successfully (with the driver is installed correctly), "
 "you can see the STM32 flash in `RadioShuttle STM32 Utility`."
-msgstr ""
+msgstr "如果成功进入DFU模式(驱动程序安装正确),则可以在`RadioShuttle STM32 Utility`中看到STM32 flash."
 
 #: ../../source/turtle_board/download_firmware.md:16
 msgid "![](img/download_firmware/05.png)"
@@ -71,7 +71,7 @@ msgstr ""
 
 #: ../../source/turtle_board/download_firmware.md:18
 msgid "Drag the `.bin` file into the window."
-msgstr ""
+msgstr "将`.bin`文件拖到窗口中."
 
 #: ../../source/turtle_board/download_firmware.md:20
 msgid "![](img/download_firmware/04.png)"
@@ -82,46 +82,46 @@ msgid ""
 "For Turtle Board, if you use \"STM32CubeProgrammer\" to download "
 "firmware, it may damage the bootloader of the Turtle Board, so we "
 "recommend using \"RadioShuttle STM32 Utility\"."
-msgstr ""
+msgstr "对于Turtle Board,如果你使用\"STM32CubeProgrammer\"下载固件,可能会损坏Turtle Board的bootloader,因此建议使用\"RadioShuttle STM32 Utility\"."
 
 #: ../../source/turtle_board/download_firmware.md:26
 msgid ""
 "***The advantage of using the DFU mode is that you can easily find a "
 "Micro USB cable. But the disadvantage is that there is no way to simulate"
 " online.***"
-msgstr ""
+msgstr "***使用DFU模式的优点是您可以轻松找到Micro-USB 数据线.但缺点是无法在线模拟.***"
 
 #: ../../source/turtle_board/download_firmware.md:28
 msgid ""
 "Know more about `RadioShuttle STM32 Utility` please click [About "
 "RadioShuttle STM32 Utility](https://www.radioshuttle.de/en/turtle-en"
 "/radioshuttle-stm32-utility-en/) ."
-msgstr ""
+msgstr "了解更多关于`RadioShuttle STM32 Utility`请点击[About RadioShuttle STM32 Utility](https://www.radioshuttle.de/en/turtle-en/radioshuttle-stm32-utility-en/) ."
 
 #: ../../source/turtle_board/download_firmware.md:30
 msgid ""
 "Download `RadioShuttle STM32 Utility`  please click [Download "
 "RadioShuttle STM32 Utility](https://www.radioshuttle.de/wp-"
 "content/uploads/2019/04/RadioShuttle-STM32-Tools-1.1.1.zip) ."
-msgstr ""
+msgstr "下载`RadioShuttle STM32 Utility`请点击[Download RadioShuttle STM32 Utility](https://www.radioshuttle.de/wp-content/uploads/2019/04/RadioShuttle-STM32-Tools-1.1.1.zip) ."
 
 #: ../../source/turtle_board/download_firmware.md:32
 msgid "&nbsp;"
-msgstr ""
+msgstr "&nbsp;"
 
 #: ../../source/turtle_board/download_firmware.md:34
 msgid "Via ST-LINK"
-msgstr ""
+msgstr "通过ST-LINK"
 
 #: ../../source/turtle_board/download_firmware.md:36
 msgid "How to connect to ST-LINK."
-msgstr ""
+msgstr "怎样连接ST-LINK."
 
 #: ../../source/turtle_board/download_firmware.md:38
 msgid ""
 "Connect the ST-LINK to the LoRa Node correctly, please refer to this "
 "picture."
-msgstr ""
+msgstr "将ST-LINK正确连接到LoRa节点,请参考这个图片."
 
 #: ../../source/turtle_board/download_firmware.md:40
 msgid "![](img/download_firmware/03.png)"
@@ -132,11 +132,11 @@ msgid ""
 "ST-LINK can provide power to target device! If the LoRa Node is connected"
 " to the computer via the Micro USB interface, the ST-LINK 3.3V can not "
 "connect to the VDD! Doing so may damage the development board!"
-msgstr ""
+msgstr "ST-LINK可以为目标设备提供电源!如果LoRa节点通过Micro-USB数据线连接到计算机,则ST-LINK 3.3V不能连接到VDD!这样做可能会损坏开发板!"
 
 #: ../../source/turtle_board/download_firmware.md:46
 msgid "Use ST-LINK matching the Turtle Board."
-msgstr ""
+msgstr "使用与 Turtle Board匹配的ST-LINK."
 
 #: ../../source/turtle_board/download_firmware.md:48
 msgid "![](img/download_firmware/01.png)"
@@ -144,7 +144,7 @@ msgstr ""
 
 #: ../../source/turtle_board/download_firmware.md:52
 msgid "After connecting ST-LINK correctly, click on this icon."
-msgstr ""
+msgstr "正确连接ST-LINK后,点击此图标."
 
 #: ../../source/turtle_board/download_firmware.md:54
 msgid "![](img/download_firmware/06.png)"
@@ -155,5 +155,5 @@ msgid ""
 "***The advantage of using the ST-LINK method is that it can be single-"
 "stepped debugging with the STM32CubeIDE , but the disadvantage is that "
 "the ST-LINK debugger tool is required***"
-msgstr ""
+msgstr "***使用ST-LINK方法的优点是可以使用STM32CubeIDE进行单步调试,但缺点是需要ST-LINK调试器工具.***"
 

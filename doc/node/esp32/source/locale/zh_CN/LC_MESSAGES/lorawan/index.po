@@ -19,15 +19,15 @@ msgstr ""
 
 #: ../../source/lorawan/index.rst:14
 msgid "Configuration Parameters"
-msgstr ""
+msgstr "配置参数"
 
 #: ../../source/lorawan/index.rst:14
 msgid "Connect to LoRaWAN server"
-msgstr ""
+msgstr "连接到LoRaWAN服务"
 
 #: ../../source/lorawan/index.rst:2
 msgid "LoRaWAN"
-msgstr ""
+msgstr "LoRaWAN"
 
 #: ../../source/lorawan/index.rst:3
 msgid ":ht_translation:`[简体中文]:[English]`"
@@ -37,13 +37,13 @@ msgstr ""
 msgid ""
 "This article is intended to describe how to use the `Heltec ESP32 LoRaWAN"
 " library <https://github.com/HelTecAutomation/ESP32_LoRaWAN>`_."
-msgstr ""
+msgstr "本文旨在描述如何使用 `Heltec ESP32 LoRaWAN 库 <https://github.com/HelTecAutomation/ESP32_LoRaWAN>`_."
 
 #: ../../source/lorawan/index.rst:7
 msgid ""
 "This library is transplanted form https://github.com/Lora-net/LoRaMac-"
 "node."
-msgstr ""
+msgstr "这个库是从https://github.com/Lora-net/LoRaMac-node移植的."
 
 #: ../../source/lorawan/index.rst:9
 msgid ""
@@ -51,12 +51,12 @@ msgid ""
 "Only support the ESP32 + LoRa series products made by `HelTec "
 "Automation(TM) <https://heltec.org>`_, and a `LoRa gateway "
 "<https://heltec.org/proudct_center/lora/lora-gateway/>`_ is must needed."
-msgstr ""
+msgstr "该库使LoRaWAN 1.0.2协议与ESP32 Arduino一起运行.只支持由 `HelTecAutomation(TM) <https://heltec.org>`_ 生产的ESP32 + LoRa系列产品, 并且 `LoRa gateway <https://heltec.org/proudct_center/lora/lora-gateway/>`_ 是必须的"
 
 #: ../../source/lorawan/index.rst:11
 msgid ""
 "Heltec ESP32 LoRaWAN library need a license to active, it's relative to "
 "ESP32's Chip ID. Query your board's license here: "
 "`http://resource.heltec.cn/search <http://resource.heltec.cn/search>`_."
-msgstr ""
+msgstr "Heltec ESP32 LoRaWAN库需要license才能激活,license对应ESP32的芯片ID.查询开发板的license请点击:`http://resource.heltec.cn/search <http://resource.heltec.cn/search>`_."
 

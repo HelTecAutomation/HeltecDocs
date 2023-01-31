@@ -19,15 +19,15 @@ msgstr ""
 
 #: ../../source/connect_to_server.md:1
 msgid "Connect HT-M01 to a LoRa Server"
-msgstr ""
+msgstr "连接HT-M01到LoRa服务器"
 
 #: ../../source/connect_to_server.md:2
 msgid "{ht_translation}`[简体中文]:[English]`"
-msgstr ""
+msgstr "{ht_translation}`[简体中文]:[English]`"
 
 #: ../../source/connect_to_server.md:3
 msgid "Summary"
-msgstr ""
+msgstr "概要"
 
 #: ../../source/connect_to_server.md:5
 msgid ""
@@ -37,6 +37,11 @@ msgid ""
 "[ChirpStack](https://www.chirpstack.io/), which facilitates secondary "
 "development and rapid deployment of LoRa devices.ff"
 msgstr ""
+"本文旨在描述如何连接 [HT-M01 "
+"网关](https://heltec.org/project/ht-m01) 到LoRa服务器, 如"
+"[TTN](https://www.thethingsnetwork.org/), "
+"[ChirpStack](https://www.chirpstack.io/), 以促进"
+"LoRa设备的二次开发和快速部署"
 
 #: ../../source/connect_to_server.md:7
 msgid ""
@@ -45,68 +50,78 @@ msgid ""
 "[HT-M01 Quick Start](https://heltec-automation-"
 "docs.readthedocs.io/en/latest/gateway/ht-m01/quick_start.html) document."
 msgstr ""
+"在所有操作之前, 确保HT-M01在树莓派(Linux)或Windows电脑上 "
+"运行良好. 如果没有, 请参考此"
+"[HT-M01 快速入门](https://heltec-automation-"
+"docs.readthedocs.io/en/latest/gateway/ht-m01/quick_start.html) 文档."
 
 #: ../../source/connect_to_server.md:9 ../../source/connect_to_server.md:80
 msgid "&nbsp;"
-msgstr ""
+msgstr "&nbsp;"
 
 #: ../../source/connect_to_server.md:11 ../../source/connect_to_server.md:32
 msgid "Connect to TTN"
-msgstr ""
+msgstr "连接TTN"
 
 #: ../../source/connect_to_server.md:13
 msgid "Register a LoRa gateway in TTN"
-msgstr ""
+msgstr "在TTN中注册LoRa网关"
 
 #: ../../source/connect_to_server.md:15
 msgid ""
 "Create and active an account in TTN. Select ```Gateway``` in the "
 "[console](https://console.thethingsnetwork.org/) page."
 msgstr ""
+"在TTN中创建并激活一个帐户. 在[控制台] "
+"(https://console.thethingsnetwork.org/) 页面中选择```Gateway```."
 
 #: ../../source/connect_to_server.md:17
 msgid "![](img/connect_to_server/01.png)"
-msgstr ""
+msgstr "![](img/connect_to_server/01.png)"
 
 #: ../../source/connect_to_server.md:19 ../../source/connect_to_server.md:118
 msgid "Fill in the HT-M01 information as shown below and complete the addition."
-msgstr ""
+msgstr "如下图填写HT-M01信息, 完成添加."
 
 #: ../../source/connect_to_server.md:21
 msgid "![](img/connect_to_server/02.png)"
-msgstr ""
+msgstr "![](img/connect_to_server/02.png)"
 
 #: ../../source/connect_to_server.md:23
 msgid "**Gateway EUI** -- The unique ID of HT-M01 gateway;"
-msgstr ""
+msgstr "**网关EUI** -- HT-M01网关唯一标识;"
 
 #: ../../source/connect_to_server.md:24
 msgid "**I'm using the legacy packet forwarder** -- Must select this;"
-msgstr ""
+msgstr "**我使用的是遗留包转发器** -- 必须选择这个;"
 
 #: ../../source/connect_to_server.md:25
 msgid ""
 "**Frequency Plan** -- Must matach the LoRa band configuration "
 "(`global_conf.json`) in HT-M01."
 msgstr ""
+"**频率计划** -- 必须匹配HT-M01中的LoRa波段配置"
+"(`global_conf.json`)."
 
 #: ../../source/connect_to_server.md:26
 msgid "**Router** -- Must use the default router allocated by TTN system."
-msgstr ""
+msgstr "**路由器** -- 必须使用TTN系统分配的默认路由器."
 
 #: ../../source/connect_to_server.md:29
 msgid "That four points are the key to success connection with TTN."
-msgstr ""
+msgstr "这四点是TTN成功的关键."
 
 #: ../../source/connect_to_server.md:34 ../../source/connect_to_server.md:126
 msgid ""
 "In the HT-M01 gateway, need to configure the gateway ID, server address "
 "and port."
 msgstr ""
+"在HT-M01网关中, 需要配置网关ID, 服务器地址"
+"和端口。"
 
 #: ../../source/connect_to_server.md:36
 msgid "The TTN's router addresses for different region:"
-msgstr ""
+msgstr "TTN的不同区域的路由器地址:"
 
 #: ../../source/connect_to_server.md:38
 msgid ""
@@ -114,64 +129,73 @@ msgid ""
 "udp.html#router-addresses](https://www.thethingsnetwork.org/docs/gateways"
 "/packet-forwarder/semtech-udp.html#router-addresses)"
 msgstr ""
+"[https://www.thethingsnetwork.org/docs/gateways/packet-forwarder/semtech-"
+"udp.html#router-addresses](https://www.thethingsnetwork.org/docs/gateways"
+"/packet-forwarder/semtech-udp.html#router-addresses)"
 
 #: ../../source/connect_to_server.md:40
 msgid "![](img/connect_to_server/08.png)"
-msgstr ""
+msgstr "![](img/connect_to_server/08.png)"
 
 #: ../../source/connect_to_server.md:42 ../../source/connect_to_server.md:128
 msgid "HT-M01 in Linux (Raspberry Pi)"
-msgstr ""
+msgstr "Linux下的HT-M01 (树莓派)"
 
 #: ../../source/connect_to_server.md:44 ../../source/connect_to_server.md:130
 msgid "Fix parameters in `global_conf.json`:"
-msgstr ""
+msgstr "确定 `global_conf.json`中的参数:"
 
 #: ../../source/connect_to_server.md:50 ../../source/connect_to_server.md:136
 msgid ""
 "Configure gateway ID, server address, port. At the end of the "
 "`global_conf.json`, make these changes:"
 msgstr ""
+"配置网关ID, 服务器地址, 端口. 在"
+"`global_conf.json`的末尾, 做以下修改:"
 
 #: ../../source/connect_to_server.md:60 ../../source/connect_to_server.md:146
 msgid ""
 "`ctrl + O` to save and `ctrl + X` to exit, and restart the service in "
 "Raspberry Pi:"
 msgstr ""
+"`ctrl + O` 保存, `ctrl + X`  退出, 重新启动树莓派"
+"的服务:"
 
 #: ../../source/connect_to_server.md:66 ../../source/connect_to_server.md:152
 msgid "HT-M01 in Windows"
-msgstr ""
+msgstr "Windows下的HT-M01"
 
 #: ../../source/connect_to_server.md:68
 msgid ""
 "Select `Use a cloud network`, and fill in correct `server address`, keep "
 "`Port` default 1700."
 msgstr ""
+"选择 `Use a cloud network`, 填写正确的 `server address`, 保持 "
+"`Port` 默认1700."
 
 #: ../../source/connect_to_server.md:70
 msgid "![](img/connect_to_server/03.png)"
-msgstr ""
+msgstr "![](img/connect_to_server/03.png)"
 
 #: ../../source/connect_to_server.md:72 ../../source/connect_to_server.md:158
 msgid "Click `OK` and `Start Packet Forwarder`."
-msgstr ""
+msgstr "点击 `OK` 和 `Start Packet Forwarder`."
 
 #: ../../source/connect_to_server.md:74 ../../source/connect_to_server.md:160
 msgid "![](img/connect_to_server/05.png)"
-msgstr ""
+msgstr "![](img/connect_to_server/05.png)"
 
 #: ../../source/connect_to_server.md:76 ../../source/connect_to_server.md:162
 msgid "View gateway status, it is runing:"
-msgstr ""
+msgstr "查看网关状态, 为运行:"
 
 #: ../../source/connect_to_server.md:78
 msgid "![](img/connect_to_server/04.png)"
-msgstr ""
+msgstr "![](img/connect_to_server/04.png)"
 
 #: ../../source/connect_to_server.md:82 ../../source/connect_to_server.md:124
 msgid "Connect to ChirpStack server"
-msgstr ""
+msgstr "连接到ChirpStack服务器"
 
 #: ../../source/connect_to_server.md:84
 msgid ""
@@ -179,22 +203,29 @@ msgid ""
 "open source project, widely used in many fields, and also the best choise"
 " for a private LoRa server."
 msgstr ""
+"[ChirpStack](https://www.chirpstack.io/) 是最流行的LoRa服务器"
+"开源项目, 广泛应用于许多领域, 也是私有LoRa服务器的"
+"最佳选择."
 
 #: ../../source/connect_to_server.md:86
 msgid ""
 "ChirpStack Installation guide: "
 "[https://www.chirpstack.io/overview/](https://www.chirpstack.io/overview/)"
 msgstr ""
+"ChirpStack 安装指南: "
+"[https://www.chirpstack.io/overview/](https://www.chirpstack.io/overview/)"
 
 #: ../../source/connect_to_server.md:87
 msgid ""
 "ChirpStack support forum: "
 "[https://forum.chirpstack.io/](https://forum.chirpstack.io/)"
 msgstr ""
+"ChirpStack 支持论坛: "
+"[https://forum.chirpstack.io/](https://forum.chirpstack.io/)"
 
 #: ../../source/connect_to_server.md:89
 msgid "ChirpStack Gateway Bridge"
-msgstr ""
+msgstr "ChirpStack网关网桥"
 
 #: ../../source/connect_to_server.md:91
 msgid ""
@@ -202,16 +233,21 @@ msgid ""
 " `Gateway Bridge`, which converts LoRa® Packet Forwarder protocols into a"
 " ChirpStack Network Server common data-format(JSON and Protobuf)."
 msgstr ""
+"**有一件事需要注意!** the ChirpStack 需要一个名为"
+" `网关桥`的特殊服务, 它将LoRa®包转发器协议转换为"
+"ChirpStack网络服务器通用数据格式(JSON 和 Protobuf)."
 
 #: ../../source/connect_to_server.md:93
 msgid ""
 "The `Gateway Bridge` service can running on the Raspberry Pi or the "
 "ChirpStack server. We recommend install it on the Raspberry Pi."
 msgstr ""
+"`网关桥` 服务可以运行在树莓派或"
+"ChirpStack服务器上. 我们建议将它安装在树莓派上."
 
 #: ../../source/connect_to_server.md:95
 msgid "Install LoRa-gateway-bridge:"
-msgstr ""
+msgstr "安装LoRa-gateway-bridge:"
 
 #: ../../source/connect_to_server.md:108
 msgid ""
@@ -219,32 +255,35 @@ msgid ""
 "/gateway-bridge/install/debian](https://www.chirpstack.io/gateway-"
 "bridge/install/debian)"
 msgstr ""
+"安装ChirpStack网关网桥可参考 [https://www.chirpstack.io"
+"/gateway-bridge/install/debian](https://www.chirpstack.io/gateway-"
+"bridge/install/debian)"
 
 #: ../../source/connect_to_server.md:110
 msgid "Starting the ChirpStack Gateway Bridge:"
-msgstr ""
+msgstr "启动ChirpStack网关桥:"
 
 #: ../../source/connect_to_server.md:116
 msgid "Register LoRa Gateway in ChirpStack"
-msgstr ""
+msgstr "在ChirpStack中注册LoRa Gateway"
 
 #: ../../source/connect_to_server.md:120
 msgid "![](img/connect_to_server/09.png)"
-msgstr ""
+msgstr "![](img/connect_to_server/09.png)"
 
 #: ../../source/connect_to_server.md:122
 msgid "**Gateway ID** -- The unique ID of HT-M01 gateway。"
-msgstr ""
+msgstr "**网关ID** -- HT-M01网关的唯一ID。"
 
 #: ../../source/connect_to_server.md:154
 msgid "Fill in the correct `ID`, `server address`, keep `Port` default 1700."
-msgstr ""
+msgstr "填写正确的 `ID`, `server address`, 保持 `Port` 默认1700."
 
 #: ../../source/connect_to_server.md:156
 msgid "![](img/connect_to_server/07.png)"
-msgstr ""
+msgstr "![](img/connect_to_server/07.png)"
 
 #: ../../source/connect_to_server.md:164
 msgid "![](img/connect_to_server/06.png)"
-msgstr ""
+msgstr "![](img/connect_to_server/06.png)"
 

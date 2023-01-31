@@ -19,19 +19,19 @@ msgstr ""
 
 #: ../../source/wireless_bridge/index.rst:7
 msgid " WiFi_LoRa Example User Manual"
-msgstr ""
+msgstr "WiFi_LoRa 例程用户手册"
 
 #: ../../source/wireless_bridge/index.rst:7
 msgid " BLE_LoRa Example User Manual"
-msgstr ""
+msgstr "BLE_LoRa 例程用户手册"
 
 #: ../../source/wireless_bridge/index.rst:7
 msgid " WiFi_BLE Example User Manual"
-msgstr ""
+msgstr "WiFi_BLE 例程用户手册"
 
 #: ../../source/wireless_bridge/index.rst:2
 msgid "Wireless Bridge"
-msgstr ""
+msgstr "Wireless Bridge"
 
 #: ../../source/wireless_bridge/index.rst:3
 msgid ":ht_translation:`[简体中文]:[English]`"
@@ -39,14 +39,14 @@ msgstr ""
 
 #: ../../source/wireless_bridge/index.rst:5
 msgid "Wireless Bridge rExample User Manuals."
-msgstr ""
+msgstr "Wireless Bridge例程用户手册"
 
 #~ msgid "WiFi_LoRa Example User Manual"
-#~ msgstr ""
+#~ msgstr "WiFi_LoRa 例程用户手册"
 
 #~ msgid "BLE_LoRa Example User Manual"
-#~ msgstr ""
+#~ msgstr "BLE_LoRa 例程用户手册"
 
 #~ msgid "WiFi_BLE Example User Manual"
-#~ msgstr ""
+#~ msgstr "WiFi_BLE 例程用户手册"
 

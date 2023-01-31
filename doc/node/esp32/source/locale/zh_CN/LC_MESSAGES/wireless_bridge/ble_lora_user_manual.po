@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/wireless_bridge/ble_lora_user_manual.md:1
 msgid "Wireless Bridge BLE_LoRa Example User Manual"
-msgstr ""
+msgstr "Wireless Bridge BLE_LoRa 例程用户手册"
 
 #: ../../source/wireless_bridge/ble_lora_user_manual.md:3
 msgid "{ht_translation}`[简体中文]:[English]`"
@@ -27,28 +27,28 @@ msgstr ""
 
 #: ../../source/wireless_bridge/ble_lora_user_manual.md:5
 msgid "Summary"
-msgstr ""
+msgstr "摘要"
 
 #: ../../source/wireless_bridge/ble_lora_user_manual.md:7
 msgid ""
 "This document will briefly introduce the usage of Wireless_Bridge "
 "BLE_LoRa example."
-msgstr ""
+msgstr "本文档将简要介绍Wireless_Bridge BLE_LoRa例程的用法."
 
 #: ../../source/wireless_bridge/ble_lora_user_manual.md:10
 msgid "loraWanClass should choose CLASS_C"
-msgstr ""
+msgstr "loraWanClass应该选择CLASS_C"
 
 #: ../../source/wireless_bridge/ble_lora_user_manual.md:13
 msgid "Usage"
-msgstr ""
+msgstr "用法"
 
 #: ../../source/wireless_bridge/ble_lora_user_manual.md:15
 msgid ""
 "Before starting the test, make sure that Wireless_Bridge can communicate "
 "with the gateway normally. To view Bluetooth messages, you need the "
 "corresponding Bluetooth debugging tools."
-msgstr ""
+msgstr "在开始测试之前,请确保Wireless_Bridge可以与网关正常通信.要查看蓝牙消息,您需要相应的蓝牙调试工具."
 
 #: ../../source/wireless_bridge/ble_lora_user_manual.md:17
 msgid ""
@@ -57,7 +57,7 @@ msgid ""
 " \"UART Service\". When connecting, please note that the Bluetooth "
 "transmission parameters are consistent with the parameters in the "
 "program."
-msgstr ""
+msgstr "将程序上传到开发板后,打开相应的蓝牙调试工具并连接到名为\"UART Service\"的蓝牙.连接时,请注意蓝牙传输参数与程序中的参数一致."
 
 #: ../../source/wireless_bridge/ble_lora_user_manual.md:19
 msgid "![](img/ble_lora_user_manual/01.png)"
@@ -68,7 +68,9 @@ msgid ""
 "After the Bluetooth connection is successful, the information sent "
 "through the Bluetooth debugging tool will be forwarded to LoRa. The "
 "information forwarded to LoRa needs to be decoded accordingly."
-msgstr ""
+msgstr "蓝牙连接成功后,通过蓝牙调试工具发送的信息将被转发到LoRa.转发到LoRa的信息需要相应地进行解码.
+
+"
 
 #: ../../source/wireless_bridge/ble_lora_user_manual.md:23
 msgid "![](img/ble_lora_user_manual/02.png)"
@@ -78,7 +80,7 @@ msgstr ""
 msgid ""
 "The information sent via LoRa will be forwarded to Bluetooth, and can be "
 "viewed in the Bluetooth debugging tool."
-msgstr ""
+msgstr "通过LoRa发送的信息将被转发到蓝牙,并且可以在蓝牙调试工具中查看."
 
 #: ../../source/wireless_bridge/ble_lora_user_manual.md:27
 msgid "![](img/ble_lora_user_manual/03.png)"
@@ -86,5 +88,5 @@ msgstr ""
 
 #: ../../source/wireless_bridge/ble_lora_user_manual.md:29
 msgid "The corresponding decoding of this example is as follows:"
-msgstr ""
+msgstr "该示例的相应解码如:"
 

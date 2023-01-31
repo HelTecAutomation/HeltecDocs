@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/frequently_asked_questions.md:1
 msgid "Heltec<sup>TM</sup> STM32+LoRa Series Frequently Asked Questions"
-msgstr ""
+msgstr "HeltecTM STM32+LoRa系列常见问题"
 
 #: ../../source/frequently_asked_questions.md:2
 msgid "{ht_translation}`[简体中文]:[English]`"
@@ -30,49 +30,49 @@ msgid ""
 "This page contains the most frequently questions from user. If this "
 "page's detail can't solve your problem, you can also talk in our forum: "
 "[community.heltec.cn](http://community.heltec.cn/)"
-msgstr ""
+msgstr "此页面包含用户最常提出的问题.如果此页面的详细信息无法解决您的问题,您也可以在我们的论坛中留言:[community.heltec.cn](http://community.heltec.cn/)"
 
 #: ../../source/frequently_asked_questions.md:6
 #: ../../source/frequently_asked_questions.md:32
 msgid "&nbsp;"
-msgstr ""
+msgstr "&nbsp;"
 
 #: ../../source/frequently_asked_questions.md:8
 msgid "Can't Download Firmware"
-msgstr ""
+msgstr "无法下载固件"
 
 #: ../../source/frequently_asked_questions.md:10
 msgid "Use USB cable."
-msgstr ""
+msgstr "使用USB数据线."
 
 #: ../../source/frequently_asked_questions.md:11
 msgid "Use a better USB cable, or change a USB socket."
-msgstr ""
+msgstr "使用更好的USB线,或更换USB底座."
 
 #: ../../source/frequently_asked_questions.md:12
 msgid "Enter the DFU mode correctly."
-msgstr ""
+msgstr "正确进入DFU模式."
 
 #: ../../source/frequently_asked_questions.md:13
 msgid "Use ST-LINK."
-msgstr ""
+msgstr "使用ST-LINK."
 
 #: ../../source/frequently_asked_questions.md:15
 msgid "Make sure that the development board is connected to ST-LINK correctly."
-msgstr ""
+msgstr "确认开发板与ST-LINK连接正确."
 
 #: ../../source/frequently_asked_questions.md:17
 msgid ""
 "About the solution to the failure to download firmware using ST-LINK(This"
 " method is mainly for Node 151, ):"
-msgstr ""
+msgstr "关于使用ST-LINK无法下载固件的解决方案(这个方法主要针对Node151):"
 
 #: ../../source/frequently_asked_questions.md:19
 msgid ""
 "The first step of normal use -> Then **press** the RST KEY before "
 "proceeding to the second step -> The second step, then **release** the "
 "RST KEY."
-msgstr ""
+msgstr " 正常进行1的步骤->在继续执行第二步之前,然后**按** RST键->第二步，然后**释放** RST键。"
 
 #: ../../source/frequently_asked_questions.md:21
 msgid "![](img/frequently_asked_questions/01.png)"
@@ -83,56 +83,56 @@ msgid ""
 "​\t\tThe reason for this situation is: For the ultimate **low power** "
 "consumption, we have disabled \t\tmost of the pins that are not normally "
 "used."
-msgstr ""
+msgstr "造成这种情况的原因是: 为了实现**极致低功耗**,我们禁用了大多数通常不使用的引脚."
 
 #: ../../source/frequently_asked_questions.md:27
 #: ../../source/frequently_asked_questions.md:41
 msgid "Please refer to the following documents:"
-msgstr ""
+msgstr "请参考以下文件:"
 
 #: ../../source/frequently_asked_questions.md:29
 msgid ""
 "[LoRa Node 151 download "
 "firmware](https://docs.heltec.org/en/node/stm32/lora_node_151/download_firmware.html);"
-msgstr ""
+msgstr "[LoRa Node 151 下载固件](https://docs.heltec.org/en/node/stm32/lora_node_151/download_firmware.html);"
 
 #: ../../source/frequently_asked_questions.md:30
 msgid ""
 "[Turtle Board download "
 "firmware](https://docs.heltec.org/en/node/stm32/turtle_board/download_firmware.html)."
-msgstr ""
+msgstr "[Turtle Board 下载固件](https://docs.heltec.org/en/node/stm32/turtle_board/download_firmware.html)."
 
 #: ../../source/frequently_asked_questions.md:34
 msgid "Serial port has no output"
-msgstr ""
+msgstr "串口无输出"
 
 #: ../../source/frequently_asked_questions.md:36
 msgid "Use USB-CDC(USB-Virtual Serial Port)"
-msgstr ""
+msgstr "使用USB-CDC(USB-虚拟串口)"
 
 #: ../../source/frequently_asked_questions.md:37
 msgid "USB-CDC is not configured correctly(You can refer to our examples)."
-msgstr ""
+msgstr "USB-CDC没有配置正确(你可以参考我们的例程)."
 
 #: ../../source/frequently_asked_questions.md:38
 msgid "Use USB-UART"
-msgstr ""
+msgstr "使用USB-UART"
 
 #: ../../source/frequently_asked_questions.md:39
 msgid ""
 "Make sure that the development board is connected to USB-UART module "
 "correctly."
-msgstr ""
+msgstr "确保开发板正确连接到USB-UART模块."
 
 #: ../../source/frequently_asked_questions.md:43
 msgid ""
 "[LoRa Node 151 Establish Serial "
 "Connection](https://docs.heltec.org/en/node/stm32/lora_node_151/establish_serial_connection.html);"
-msgstr ""
+msgstr "[LoRa Node 151 建立串行连接](https://docs.heltec.org/en/node/stm32/lora_node_151/establish_serial_connection.html)"
 
 #: ../../source/frequently_asked_questions.md:44
 msgid ""
 "[Turtle Board Establish Serial "
 "Connection](https://docs.heltec.org/en/node/stm32/turtle_board/establish_serial_connection.html)."
-msgstr ""
+msgstr "[Turtle Board 建立串行连接](https://docs.heltec.org/en/node/stm32/turtle_board/establish_serial_connection.html)."
 

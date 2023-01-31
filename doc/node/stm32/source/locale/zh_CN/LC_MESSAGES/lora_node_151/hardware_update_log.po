@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/lora_node_151/hardware_update_log.md:1
 msgid "LoRa Node 151 Hardware Update Logs"
-msgstr ""
+msgstr "LoRa Node 151硬件更新日志"
 
 #: ../../source/lora_node_151/hardware_update_log.md:2
 msgid "{ht_translation}`[简体中文]:[English]`"
@@ -27,7 +27,7 @@ msgstr ""
 
 #: ../../source/lora_node_151/hardware_update_log.md:3
 msgid "V1"
-msgstr ""
+msgstr "V1"
 
 #: ../../source/lora_node_151/hardware_update_log.md:5
 msgid "![](img/hardware_update_log/01.png)"
@@ -35,69 +35,69 @@ msgstr ""
 
 #: ../../source/lora_node_151/hardware_update_log.md:7
 msgid "First release"
-msgstr ""
+msgstr "首次发布"
 
 #: ../../source/lora_node_151/hardware_update_log.md:8
 msgid "2017-6-1 public sale"
-msgstr ""
+msgstr "2017-6-1 公开销售"
 
 #: ../../source/lora_node_151/hardware_update_log.md:9
 msgid ""
 "[Pinout diagram of "
 "V1](http://resource.heltec.cn/download/LoRa_Node_151/LoRa_Node_151_Pinout_Diagram.pdf)"
-msgstr ""
+msgstr "[V1引脚图](http://resource.heltec.cn/download/LoRa_Node_151/LoRa_Node_151_Pinout_Diagram.pdf)"
 
 #: ../../source/lora_node_151/hardware_update_log.md:10
 msgid ""
 "[Schematic diagram of "
 "V1](http://resource.heltec.cn/download/LoRa_Node_151/LoRa_Node_151_Block_Diagram_V1.pdf)"
-msgstr ""
+msgstr "[V1原理图](http://resource.heltec.cn/download/LoRa_Node_151/LoRa_Node_151_Block_Diagram_V1.pdf)"
 
 #: ../../source/lora_node_151/hardware_update_log.md:12
 msgid "V2.0"
-msgstr ""
+msgstr "V2.0"
 
 #: ../../source/lora_node_151/hardware_update_log.md:14
 msgid "2019-10-20 public sale"
-msgstr ""
+msgstr "2019-10-20 公开销售"
 
 #: ../../source/lora_node_151/hardware_update_log.md:15
 msgid "Change the RF switch from PE4259 to UPG2179."
-msgstr ""
+msgstr "将射频开关从PE4259更换为UPG2179."
 
 #: ../../source/lora_node_151/hardware_update_log.md:17
 msgid ""
 "[Pinout diagram of "
 "V2.0](http://resource.heltec.cn/download/LoRa_Node_151/LoRa_Node_151_Pinout_Diagram.pdf)"
-msgstr ""
+msgstr "[V2.0引脚图](http://resource.heltec.cn/download/LoRa_Node_151/LoRa_Node_151_Pinout_Diagram.pdf)"
 
 #: ../../source/lora_node_151/hardware_update_log.md:18
 msgid ""
 "[Schematic diagram of "
 "V2.0](https://resource.heltec.cn/download/LoRa_Node_151/LoRa_Node_151_Block_Diagram_V2.2.pdf)"
-msgstr ""
+msgstr "[V2.0原理图](https://resource.heltec.cn/download/LoRa_Node_151/LoRa_Node_151_Block_Diagram_V2.2.pdf)"
 
 #: ../../source/lora_node_151/hardware_update_log.md:20
 msgid "V2.2"
-msgstr ""
+msgstr "V2.2"
 
 #: ../../source/lora_node_151/hardware_update_log.md:22
 msgid "2020-04-01 public sale"
-msgstr ""
+msgstr "2020-04-01 公开销售"
 
 #: ../../source/lora_node_151/hardware_update_log.md:23
 msgid "Added version number on the board silk print."
-msgstr ""
+msgstr "在丝印板上增加了版本号."
 
 #: ../../source/lora_node_151/hardware_update_log.md:25
 msgid ""
 "[Pinout diagram of "
 "V2.2](http://resource.heltec.cn/download/LoRa_Node_151/LoRa_Node_151_Pinout_Diagram.pdf)"
-msgstr ""
+msgstr "[V2.2引脚图](http://resource.heltec.cn/download/LoRa_Node_151/LoRa_Node_151_Pinout_Diagram.pdf)"
 
 #: ../../source/lora_node_151/hardware_update_log.md:26
 msgid ""
 "[Schematic diagram of "
 "V2.2](https://resource.heltec.cn/download/LoRa_Node_151/LoRa_Node_151_Block_Diagram_V2.2.pdf)"
-msgstr ""
+msgstr "[V2.2原理图](https://resource.heltec.cn/download/LoRa_Node_151/LoRa_Node_151_Block_Diagram_V2.2.pdf)"
 

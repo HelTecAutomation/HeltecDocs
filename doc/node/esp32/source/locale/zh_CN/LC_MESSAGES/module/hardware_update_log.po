@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/module/hardware_update_log.md:1
 msgid "Hardware Update Logs"
-msgstr ""
+msgstr "硬件更新日志"
 
 #: ../../source/module/hardware_update_log.md:2
 msgid "{ht_translation}`[简体中文]:[English]`"
@@ -27,24 +27,24 @@ msgstr ""
 
 #: ../../source/module/hardware_update_log.md:4
 msgid "Wireless Shell  Hardware Update Logs"
-msgstr ""
+msgstr "Wireless Shell硬件更新日志"
 
 #: ../../source/module/hardware_update_log.md:6
 msgid ""
 "**Wireless Shell is equivalent to Wireless Stick Lite without peripheral "
 "circuit,so peripheral circuit needs to be added when using,such as power "
 "supply part, serial port part,etc.**"
-msgstr ""
+msgstr "**Wireless Shell相当于没有外围电路的Wireless Stick Lite,所以使用时需要增加外围电路，如电源部分、串行口部分等.**"
 
 #: ../../source/module/hardware_update_log.md:8
 #: ../../source/module/hardware_update_log.md:35
 msgid "V1"
-msgstr ""
+msgstr "V1"
 
 #: ../../source/module/hardware_update_log.md:10
 #: ../../source/module/hardware_update_log.md:37
 msgid "First release"
-msgstr ""
+msgstr "首次发布"
 
 #: ../../source/module/hardware_update_log.md:12
 msgid "2017-06-01 public sale"
@@ -54,11 +54,11 @@ msgstr ""
 msgid ""
 "[Pinout diagram of "
 "V1](http://resource.heltec.cn/download/Wireless_Shell/Wireless_Shell.pdf)"
-msgstr ""
+msgstr "[V1引脚图](http://resource.heltec.cn/download/Wireless_Shell/Wireless_Shell.pdf)"
 
 #: ../../source/module/hardware_update_log.md:16
 msgid "Schematic diagram of V1"
-msgstr ""
+msgstr "V1原理图"
 
 #: ../../source/module/hardware_update_log.md:18
 msgid ""
@@ -67,32 +67,32 @@ msgid ""
 "Limited Technical "
 "Resources](https://docs.heltec.org/general/view_limited_technical_data.html)"
 " ."
-msgstr ""
+msgstr "Wireless Shell的原理图为限制性技术数据,购买后可下载.请阅读本文档:[查看受限技术资源](https://docs.heltec.org/general/view_limited_technical_data.html)"
 
 #: ../../source/module/hardware_update_log.md:20
 msgid "V3"
-msgstr ""
+msgstr "V3"
 
 #: ../../source/module/hardware_update_log.md:22
 msgid "2022-09-15  public sale"
-msgstr ""
+msgstr "2022-09-15  public sale"
 
 #: ../../source/module/hardware_update_log.md:23
 msgid ""
 "MCU is changed from ESP32-PICO-V3 to ESP32-S3FN8. Specific differences of"
 " MCU are shown in：[https://products.espressif.com/#/product-"
 "comparison](https://products.espressif.com/#/product-comparison)."
-msgstr ""
+msgstr "MCU由ESP32-PICO-V3更换为ESP32-S3FN8.MCU的具体区别表现在:[https://products.espressif.com/#/product-comparison](https://products.espressif.com/#/product-comparison)."
 
 #: ../../source/module/hardware_update_log.md:24
 msgid "LoRa chip changed from SX1276 to SX1262."
-msgstr ""
+msgstr "LoRa芯片由SX1276变更为SX1262."
 
 #: ../../source/module/hardware_update_log.md:25
 msgid ""
 "The LoRa crystal oscillator is upgraded to temperature compensated "
 "crystal oscillator."
-msgstr ""
+msgstr "将LoRa晶体振荡器升级为温度补偿晶体振荡器."
 
 #: ../../source/module/hardware_update_log.md:26
 msgid ""
@@ -100,37 +100,37 @@ msgid ""
 " GPIO sequence has changed. Please refer to [Pinout "
 "diagram](https://resource.heltec.cn/download/Wireless_Shell_V3/HTIT-"
 "Wsh_V3.png)."
-msgstr ""
+msgstr "尺寸、外观、引脚布局和电源引脚保持不变,但是GPIO序列改变了.请参考[引脚图](https://resource.heltec.cn/download/Wireless_Shell_V3/HTIT-Wsh_V3.png)."
 
 #: ../../source/module/hardware_update_log.md:27
 msgid ""
 "[Pinout diagram of "
 "V3](https://resource.heltec.cn/download/Wireless_Shell_V3/HTIT-"
 "Wsh_V3.png)."
-msgstr ""
+msgstr "[V3引脚图](https://resource.heltec.cn/download/Wireless_Shell_V3/HTIT-Wsh_V3.png)."
 
 #: ../../source/module/hardware_update_log.md:29
 msgid "&nbsp;"
-msgstr ""
+msgstr "&nbsp;"
 
 #: ../../source/module/hardware_update_log.md:31
 msgid "HT-CT62  Hardware Update Logs"
-msgstr ""
+msgstr "HT-CT62硬件更新日志"
 
 #: ../../source/module/hardware_update_log.md:33
 msgid ""
 "**HT-CT62 only have ESP32 and RF relevant circuit inside. In order to "
 "program it, need connect to an external UART-USB bridge. CH340G, CP2102 "
 "etc.**"
-msgstr ""
+msgstr "**HT-CT62内部只有ESP32和射频相关电路.为了对它进行编程，需要连接到一个外部UART-USB bridge.CH340G,CP2102等.**"
 
 #: ../../source/module/hardware_update_log.md:38
 msgid "2022-09-15 public sale"
-msgstr ""
+msgstr "2022-09-15公开销售"
 
 #: ../../source/module/hardware_update_log.md:39
 msgid ""
 "[Pinout diagram of V1](https://resource.heltec.cn/download/HT-CT62/HT-"
 "CT62.png)"
-msgstr ""
+msgstr "[V1引脚图](https://resource.heltec.cn/download/HT-CT62/HT-CT62.png)"
 
