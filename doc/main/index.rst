@@ -16,13 +16,10 @@ LoRa server
 ===========
 
 For a whole LoRaWAN communication process, a server is must needed, LoRaWAN server includedd two parts: Network Server and Application Server (We also generally call them NS). LoRa node join network, ACK, identity identification, communication authentication, etc. are handled by NS. Now there are many excellent LoRaWAN NS, such as:
-
-.. toctree::
-   :maxdepth: 1
    
-   ChirpStack <https://www.chirpstack.io/>
-   TTN <https://www.thethingsnetwork.org/>
-   Heltec LoRaWAN Test Server <https://lora.heltec.org/>
+- ChirpStack <https://www.chirpstack.io/>
+- TTN <https://www.thethingsnetwork.org/>
+- Heltec LoRaWAN Test Server <https://lora.heltec.org/>
 
 .. note:: We highly recommend use `Heltec LoRaWAN Test Server <https://lora.heltec.org/>`_, it's a ready to use LoRa server based on TTS V3, users can login with Heltec website account.
 
