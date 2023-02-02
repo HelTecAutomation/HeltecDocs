@@ -19,15 +19,15 @@ msgstr ""
 
 #: ../../source/quick_start.md:1
 msgid "HT-M00 Dual Channel LoRa Gateway Quick Start"
-msgstr ""
+msgstr "HT-M00双通道LoRa网关快速入门"
 
 #: ../../source/quick_start.md:2
 msgid "{ht_translation}`[简体中文]:[English]`"
-msgstr ""
+msgstr "{ht_translation}`[简体中文]:[English]`"
 
 #: ../../source/quick_start.md:4
 msgid "Summary"
-msgstr ""
+msgstr "概要"
 
 #: ../../source/quick_start.md:6
 msgid ""
@@ -39,6 +39,13 @@ msgid ""
 "or to make up for the blind spots of the signal in the area that the "
 "SX1301 gateway signal cannot cover."
 msgstr ""
+"HT-M00是一种小型, 低成本的双通道LoRa网关, 使用Type-C"
+"接口. HT-M00网关驱动基于ESP32的两块SX1276芯片. 我们"
+"编写了一个软件混频器 (基带仿真程序) 来监测"
+"125KHz SF7~SF12的扩频因子. HT-M00的主要功能是"
+"为1500~2000平方米的大房子提供LoRaWAN网络, "
+"或者是弥补SX1301网关信号无法覆盖的区域的"
+"信号盲点."    
 
 #: ../../source/quick_start.md:11
 msgid ""
@@ -49,25 +56,33 @@ msgid ""
 "is 8, and the gateway sets the minimum SF to 7 and the maximum SF to 12, "
 "then only SF7 will be received."
 msgstr ""
+"在使用HT-M00网关时, 需要将节点的前导码长度"
+"修改为16 (默认为8). 当前导码长度为8时, 最小SF"
+"和最大SF需要设置相等, 否则只有最小 SF"
+"会被接收. 例如, 节点的前导码长度"
+"为8, 网关将最小SF设置为7, 最大SF设置为12, "
+"则只接收到SF7."
 
 #: ../../source/quick_start.md:14
 msgid "![](img/quick_start/08.png)"
-msgstr ""
+msgstr "![](img/quick_start/08.png)"
 
 #: ../../source/quick_start.md:16
 msgid ""
 "Modify the preamble length in this function to 16 as shown in the figure "
 "above."
 msgstr ""
+"将此函数的前导码长度修改为16, 如上图"
+"所示."
 
 #: ../../source/quick_start.md:18 ../../source/quick_start.md:66
 #: ../../source/quick_start.md:82
 msgid "&nbsp;"
-msgstr ""
+msgstr "&nbsp;"
 
 #: ../../source/quick_start.md:20
 msgid "Configure the gateway"
-msgstr ""
+msgstr "配置网关"
 
 #: ../../source/quick_start.md:23
 msgid ""
@@ -75,20 +90,25 @@ msgid ""
 " IDs when modifying the gateway ID, please modify the \"FFFF\" part in "
 "the middle, thank you!"
 msgstr ""
+"如果您的网关ID被占用, 为了避免在修改网关ID时"
+"占用其他网关ID, 请修改中间的 \"FFFF\" "
+"部分, 谢谢!"
 
 #: ../../source/quick_start.md:26
 msgid ""
 "The HT-M00 gateway has already downloaded the relevant program when it "
 "leaves the factory, you can use it with just a few simple operations."
 msgstr ""
+"HT-M00网关出厂时已经下载了"
+"相关程序, 您只需进行一些简单的操作就可以使用."
 
 #: ../../source/quick_start.md:28
 msgid "Firmware version V1.9 and below"
-msgstr ""
+msgstr "固件版本V1.9及以下"
 
 #: ../../source/quick_start.md:30 ../../source/quick_start.md:47
 msgid "![](img/quick_start/01.png)"
-msgstr ""
+msgstr "![](img/quick_start/01.png)"
 
 #: ../../source/quick_start.md:32 ../../source/quick_start.md:49
 msgid ""
@@ -97,10 +117,14 @@ msgid ""
 "\"RST\" button, After the gateway enters the interface as shown in the "
 "figure below, release the \"CFG\" button."
 msgstr ""
+"通过Type-C数据线给网关通电后, 持续"
+"按住 \"CFG\" 键, 按下 \"RST\" 键, 然后松开 "
+"\"RST\" 键, 当网关进入下图所示"
+"界面后, 松开 \"CFG\" 键."
 
 #: ../../source/quick_start.md:34 ../../source/quick_start.md:51
 msgid "![](img/quick_start/02.png)"
-msgstr ""
+msgstr "![](img/quick_start/02.png)"
 
 #: ../../source/quick_start.md:36
 msgid ""
@@ -108,10 +132,13 @@ msgid ""
 "the password \"heltec.org\", then enter \"192.168.4.1\" through the "
 "browser, enter the gateway configuration page."
 msgstr ""
+"这时, 找到名为 \"M00_XXXX\"的WiFi, 用密码 "
+"\"heltec.org\"连接WiFi, 然后通过浏览器"
+"输入 \"192.168.4.1\", 进入网关配置页面."
 
 #: ../../source/quick_start.md:38
 msgid "![](img/quick_start/03.png)"
-msgstr ""
+msgstr "![](img/quick_start/03.png)"
 
 #: ../../source/quick_start.md:40
 msgid ""
@@ -121,6 +148,11 @@ msgid ""
 "the same time, we will put the relevant firmware of HT-M00 on this "
 "webpage, and click \"Firmware Update\" to update accordingly."
 msgstr ""
+"在上图页面中, 配置HT-M00需要连接的"
+" WiFi信息, 网关通道频率, sf, 服务器地址及端口, "
+"时区, 配置完成后点击 \"Submit\". 同"
+"时, 我们会把HT-M00的相关固件放在这个"
+"网页上, 点击 \"Firmware Update\" 进行相应的更新."
 
 #: ../../source/quick_start.md:41 ../../source/quick_start.md:58
 msgid ""
@@ -129,14 +161,18 @@ msgid ""
 "to the configured WiFi. If the connection fails, it will restart again "
 "until the connection is successful."
 msgstr ""
+"配置完成并提交后, 网关将重新"
+"启动. 当网关打开时, 它会自动连接到"
+"配置的WiFi. 如果连接失败, 它将重新启动, "
+"直到连接成功."
 
 #: ../../source/quick_start.md:43 ../../source/quick_start.md:60
 msgid "![](img/quick_start/04.png)"
-msgstr ""
+msgstr "![](img/quick_start/04.png)"
 
 #: ../../source/quick_start.md:45
 msgid "Firmware Version V2.0 and Above"
-msgstr ""
+msgstr "固件版本V2.0及以上"
 
 #: ../../source/quick_start.md:53
 msgid ""
@@ -144,10 +180,13 @@ msgid ""
 "enter “192.168.4.1” through the browser, and log in to the gateway "
 "configuration page with the user name “HT-M00” and password “heltec.org”."
 msgstr ""
+"这时, 找到名为“M00_XXXX”的WiFi, 连接到该WiFi, 在"
+"浏览器中输入“192.168.4.1”, 以用户名“HT-M00” "
+"和密码“heltec.org”登录网关配置页面."
 
 #: ../../source/quick_start.md:55
 msgid "![](img/quick_start/09.png)"
-msgstr ""
+msgstr "![](img/quick_start/09.png)"
 
 #: ../../source/quick_start.md:57
 msgid ""
@@ -158,6 +197,12 @@ msgid ""
 "firmware of HT-M00 on this webpage, and click \"Firmware Update\" to "
 "update accordingly."
 msgstr ""
+"在上图界面中, 配置HT-M00需要连接的"
+"WiFi信息, 网关ID, 网关通道频率, sf, 服务器地址"
+"及端口, 心跳周期, 时区, 配置完成后点击 \"Submit\". "
+"同时, 我们会把HT-M00的"
+"相关固件放在这个网页上, 点击 \"Firmware Update\" 进行"
+"相应的更新."
 
 #: ../../source/quick_start.md:63
 msgid ""
@@ -166,28 +211,34 @@ msgid ""
 "“Local IP” on the display (the login device must be in the same LAN as "
 "the gateway)."
 msgstr ""
+"当网关通过WiFi连接到网络并工作"
+"正常后, 可以通过显示屏上的 "
+"“Local IP” 直接进入配置界面 (登录设备必须与网关在"
+"同一个局域网内)."
 
 #: ../../source/quick_start.md:68
 msgid "View Gateway Information"
-msgstr ""
+msgstr "查看网关信息"
 
 #: ../../source/quick_start.md:70
 msgid ""
 "After the WiFi connection is successful, the gateway will enter the "
 "interface shown in the figure below."
 msgstr ""
+"WiFi连接成功后, 网关将进入"
+"下图所示的界面."
 
 #: ../../source/quick_start.md:72
 msgid "![](img/quick_start/05.png)"
-msgstr ""
+msgstr "![](img/quick_start/05.png)"
 
 #: ../../source/quick_start.md:74
 msgid "Press the \"STA\" button to switch the display content."
-msgstr ""
+msgstr "按 \"STA\" 键切换显示内容."
 
 #: ../../source/quick_start.md:76
 msgid "![](img/quick_start/06.png)"
-msgstr ""
+msgstr "![](img/quick_start/06.png)"
 
 #: ../../source/quick_start.md:78
 msgid ""
@@ -198,18 +249,24 @@ msgid ""
 "directly enter the configuration interface through the “Local IP” on the "
 "display (the login device must be in the same LAN as the gateway)."
 msgstr ""
+"按 \"STA\" 键, 可以切换显示内容. 您"
+"可以查看时间, 最新收发时间, "
+"网关ID, 服务器地址, 通道频率等信息. 固件版本"
+"V2.0 及以上, 可以在显示屏上看到 \"Local IP\", 可以通过显示屏上"
+"的“Local IP”直接进入配置"
+"界面 (登录设备必须与网关在同一局域网内)."
 
 #: ../../source/quick_start.md:80
 msgid "![](img/quick_start/07.png)"
-msgstr ""
+msgstr "![](img/quick_start/07.png)"
 
 #: ../../source/quick_start.md:84
 msgid "Common Problems and Solutions"
-msgstr ""
+msgstr "常见问题及解决办法"
 
 #: ../../source/quick_start.md:86
 msgid "Question: The gateway cannot boot normally after downloading new firmware."
-msgstr ""
+msgstr "问题: 下载新固件后, 网关无法正常启动."
 
 #: ../../source/quick_start.md:88
 msgid ""
@@ -221,10 +278,17 @@ msgid ""
 "Gateway](https://docs.heltec.org/en/gateway/ht-m00/update_firmware.html"
 "#activate-the-gateway)) to activate it."
 msgstr ""
+"解决方法: 打开串口, 查看网关是否被激活."
+" 使用串口调试助手打开串口后,"
+" 按下网关 \"RST\" 键. 如果串口显示 "
+"\"ESP32ChipID=xxxxxxxxxxxx\", 则表示网关未激活."
+" 请参考本文档([激活"
+"网关](https://docs.heltec.org/en/gateway/ht-m00/update_firmware.html"
+"#activate-the-gateway)) 激活它."
 
 #: ../../source/quick_start.md:90
 msgid "Question: The gateway keeps restarting."
-msgstr ""
+msgstr "问题: 网关一直在重启."
 
 #: ../../source/quick_start.md:92
 msgid ""
@@ -232,4 +296,7 @@ msgid ""
 "the gateway is correct according to the prompts on the gateway display. "
 "Such as WiFi username, WiFi password, server address."
 msgstr ""
+"解决方法: 根据网关界面提示, "
+"检查网关对应的配置信息是否正确. "
+"比如WiFi用户名, WiFi密码, 服务器地址."
 

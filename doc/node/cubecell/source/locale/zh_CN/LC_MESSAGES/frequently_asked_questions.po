@@ -21,7 +21,7 @@ msgstr ""
 msgid ""
 "Heltec<sup>TM</sup> CubeCell<sup>TM</sup> Series Frequently Asked "
 "Questions"
-msgstr ""
+msgstr "HeltecTMCubeCellTM系列常见问题"
 
 #: ../../source/frequently_asked_questions.md:2
 msgid "{ht_translation}`[简体中文]:[English]`"
@@ -32,29 +32,29 @@ msgid ""
 "This page contains the most frequently questions from user. If this "
 "page's detail can't solve your problem, you can also talk in our forum: "
 "[community.heltec.cn](http://community.heltec.cn/)"
-msgstr ""
+msgstr "此页面包含了用户最常提出的问题。如果此页面的详细信息无法解决您的问题，您也可以在我们的论坛上留言：[community.heltec.cn](http://community.heltec.cn/)"
 
 #: ../../source/frequently_asked_questions.md:6
 #: ../../source/frequently_asked_questions.md:45
 msgid "&nbsp;"
-msgstr ""
+msgstr "&nbsp;"
 
 #: ../../source/frequently_asked_questions.md:8
 msgid "How to Access Bootloader Mode"
-msgstr ""
+msgstr "怎样进入Bootloader模式"
 
 #: ../../source/frequently_asked_questions.md:10
 msgid ""
 "The bootloader of CubeCell<sup>TM</sup> is preprogrammed software for "
 "burning and verification firmware. In FLASH row 0~33, rewrite this part "
 "will break the bootloader and can't download firmware anymore."
-msgstr ""
+msgstr "CubeCellTM的bootloader是用于烧录和验证固件的预编程软件。在FLASH0~33行中，重写此部分将破坏Bootloader，无法再下载固件。"
 
 #: ../../source/frequently_asked_questions.md:12
 msgid ""
 "Entering the bootloader mode needs to meet the following timing "
 "(T<sub>RST</sub>≥10mS):"
-msgstr ""
+msgstr "进入bootloader模式需要满足以下时间(T<sub>RST</sub>≥10mS):："
 
 #: ../../source/frequently_asked_questions.md:14
 msgid "![](img/frequently_asked_questions/01.png)"
@@ -62,74 +62,74 @@ msgstr ""
 
 #: ../../source/frequently_asked_questions.md:16
 msgid "Here are two methods access bootloader manually:"
-msgstr ""
+msgstr "以下是手动进入bootloader 的两种方法："
 
 #: ../../source/frequently_asked_questions.md:18
 msgid ""
 "CubeCell not connect to a computer -- Press the “USER” button of the "
 "CubeCell while plugging it to any USB port of a computer."
-msgstr ""
+msgstr "CubeCell没有连接到计算机 – 将CubeCell插入计算机的任何USB端口前，请按住它的“USER”按钮，直到CubeCell连接到计算机再松开。"
 
 #: ../../source/frequently_asked_questions.md:19
 msgid ""
 "CubeCell already connected to a computer -- Keep the \"USER\" button "
 "pressed → Press the \"RESET\" button → Release the \"RESET\" button → "
 "release the \"USER\" button."
-msgstr ""
+msgstr "CubeCell已经连接到计算机 – 按住\"USER"\按钮→按下\"RESET"\按钮→松开”RESET”按钮→松开/"USER"/按钮。"
 
 #: ../../source/frequently_asked_questions.md:21
 msgid "**USER Pin map**"
-msgstr ""
+msgstr "USER引脚"
 
 #: ../../source/frequently_asked_questions.md:23
 msgid "Dev-Board"
-msgstr ""
+msgstr "开发板"
 
 #: ../../source/frequently_asked_questions.md:24
 msgid "**[HTCC-AB01](https://heltec.org/project/htcc-ab01/)** -- `GPIO 7`"
-msgstr ""
+msgstr "**[HTCC-AB01](https://heltec.org/project/htcc-ab01/)** -- `GPIO 7`"
 
 #: ../../source/frequently_asked_questions.md:25
 msgid ""
 "**[HTCC-AB02](https://heltec.org/project/htcc-ab02/)** -- `GPIO 11` or "
 "`GPIO 16`"
-msgstr ""
+msgstr "**[HTCC-AB02](https://heltec.org/project/htcc-ab02/)** -- `GPIO 11` or`GPIO 16`"
 
 #: ../../source/frequently_asked_questions.md:26
 msgid ""
 "**[HTCC-AB02S](https://heltec.org/project/htcc-ab02s/)** -- `GPIO 11` or "
 "`GPIO 16`"
-msgstr ""
+msgstr "**[HTCC-AB02S](https://heltec.org/project/htcc-ab02s/)** -- `GPIO 11` or`GPIO 16`"
 
 #: ../../source/frequently_asked_questions.md:27
 msgid ""
 "**[HTCC-AB02A](https://heltec.org/project/htcc-ab02a/)** -- `GPIO 11` or "
 "`GPIO 16`"
-msgstr ""
+msgstr "**[HTCC-AB02A](https://heltec.org/project/htcc-ab02a/)** -- `GPIO 11` or `GPIO 16`"
 
 #: ../../source/frequently_asked_questions.md:28
 msgid "Module"
-msgstr ""
+msgstr "模块"
 
 #: ../../source/frequently_asked_questions.md:29
 msgid "**[HTCC-AM01](https://heltec.org/project/htcc-am01/)** -- `GPIO 0`"
-msgstr ""
+msgstr "**[HTCC-AM01](https://heltec.org/project/htcc-am01/)** -- `GPIO 0`"
 
 #: ../../source/frequently_asked_questions.md:30
 msgid ""
 "**[HTCC-AM02](https://heltec.org/project/htcc-am02/)** -- `GPIO 11` or "
 "`GPIO 16`"
-msgstr ""
+msgstr "**[HTCC-AM02](https://heltec.org/project/htcc-am02/)** -- `GPIO 11` or`GPIO 16`"
 
 #: ../../source/frequently_asked_questions.md:32
 msgid "Capsule Sensor"
-msgstr ""
+msgstr "胶囊传感器"
 
 #: ../../source/frequently_asked_questions.md:33
 msgid ""
 "**[Capsule Sensor(HTCC-AC01) + Debug board](https://heltec.org/project"
 "/htcc-ac01/)** -- `GPIO 0`"
-msgstr ""
+msgstr "**[Capsule Sensor(HTCC-AC01) + Debug board](https://heltec.org/project/htcc-ac01/)** -- `GPIO 0`"
 
 #: ../../source/frequently_asked_questions.md:36
 msgid ""
@@ -137,25 +137,25 @@ msgid ""
 "GPIO16, but the USER pin defaults to GPIO16 in the Dev-Board, and you "
 "should be careful not to pull GPIO11 low when entering the bootloader "
 "mode."
-msgstr ""
+msgstr "HTCC-AB02，HTCC-AB02S和HTCC-AB02A的USER引脚可以使用GPIO11或GPIO16，但是在开发板上，USER引脚默认为GPIO16，在进入bootloader模式时，请注意不要将GPIO11拉低。"
 
 #: ../../source/frequently_asked_questions.md:42
 msgid ""
 "If keep USER pin keep LOW all the time (software set LOW or pull down to "
 "GND), may cause auto-boot system not working, users can access bootloader"
 " mode manually."
-msgstr ""
+msgstr "如果始终保持”USER”引脚低电平（软件设置低或下拉到GND），可能导致自动引导系统不工作，用户可以手动访问bootloader模式。"
 
 #: ../../source/frequently_asked_questions.md:47
 msgid "How to use the ADC pin for AnalogRead (ASR6501)"
-msgstr ""
+msgstr "如何使用ADC引脚进行模拟读取（ASR6501）"
 
 #: ../../source/frequently_asked_questions.md:49
 msgid ""
 "**The ASR6501 embedded 12-bit 1Msps SAR ADC, but only have one channel "
 "ADC input pin**, this pin had been used for battery voltage reading "
 "default."
-msgstr ""
+msgstr "ASR6501嵌入了12位1Msps SAR ADC，但只有一个通道ADC输入引脚，该引脚已默认用于读取电池电压值。"
 
 #: ../../source/frequently_asked_questions.md:51
 msgid "![](img/frequently_asked_questions/02.png)"
@@ -165,11 +165,11 @@ msgstr ""
 msgid ""
 "In order to read other analog signal, user need remove the resistance "
 "BR1, then the ADC header will be free."
-msgstr ""
+msgstr "为了读取其他模拟信号，用户需要移除电阻BR1，然后ADC引脚将空闲。"
 
 #: ../../source/frequently_asked_questions.md:55
 msgid "HTCC-AB01_V1 version."
-msgstr ""
+msgstr "HTCC-AB01_V1版本。"
 
 #: ../../source/frequently_asked_questions.md:57
 msgid "![](img/frequently_asked_questions/03.png)"
@@ -177,7 +177,7 @@ msgstr ""
 
 #: ../../source/frequently_asked_questions.md:59
 msgid "HTCC-AB01_V2 version."
-msgstr ""
+msgstr "HTCC-AB01_V2版本。"
 
 #: ../../source/frequently_asked_questions.md:61
 msgid "![](img/frequently_asked_questions/05.png)"
@@ -185,21 +185,21 @@ msgstr ""
 
 #: ../../source/frequently_asked_questions.md:64
 msgid "the ADC of CubeCell uses internal 1.2V reference voltage"
-msgstr ""
+msgstr "CubeCell的ADC使用内部1.2V参考电压。"
 
 #: ../../source/frequently_asked_questions.md:68
 msgid "ADC input voltage can NOT higher than 2.4V."
-msgstr ""
+msgstr "ADC输入电压不能高于2.4V。"
 
 #: ../../source/frequently_asked_questions.md:71
 msgid "Vext Control"
-msgstr ""
+msgstr "Vext控制"
 
 #: ../../source/frequently_asked_questions.md:73
 msgid ""
 "The `Vext` is a power source for external devices. Refer from the "
 "schematic diagram, It's controlled by `GPIO6`:"
-msgstr ""
+msgstr "'Vext'是外部设备的电源。参考原理图，它由' GPIO6 '控制:"
 
 #: ../../source/frequently_asked_questions.md:75
 msgid "![](img/frequently_asked_questions/04.png)"
@@ -207,50 +207,50 @@ msgstr ""
 
 #: ../../source/frequently_asked_questions.md:77
 msgid "`GPIO 6 --> LOW --> Vext(3.3V/300mA) ON`"
-msgstr ""
+msgstr "`GPIO 6 --> LOW --> Vext(3.3V/300mA) ON`"
 
 #: ../../source/frequently_asked_questions.md:79
 msgid "`GPIO 6 --> HIGH --> Vext(3.3V/300mA) OFF`"
-msgstr ""
+msgstr "`GPIO 6 --> HIGH --> Vext(3.3V/300mA) OFF`"
 
 #: ../../source/frequently_asked_questions.md:82
 msgid ""
 "The Vext features is very important for some devices without deep sleep "
 "mode. When the system need in deep sleep status, we can turn off the Vext"
 " by set GPIO 21 to HIGH, then to save energy."
-msgstr ""
+msgstr "对于一些没有深度睡眠模式的设备来说，Vext功能非常重要。当系统需要处于深度休眠状态时，可以通过将GPIO 21设置为HIGH来关闭Vext，从而节约能源。"
 
 #: ../../source/frequently_asked_questions.md:85
 msgid "How to upgrade using firmware"
-msgstr ""
+msgstr "如何使用固件升级"
 
 #: ../../source/frequently_asked_questions.md:86
 msgid "Select the desired project to compile."
-msgstr ""
+msgstr "选择要编译的所需项目"
 
 #: ../../source/frequently_asked_questions.md:87
 msgid ""
 "Find the location of the ***CubeCellelftool.exe*** file and the file of "
 "type ***.cyacd*** in the build process information."
-msgstr ""
+msgstr "在构建过程信息中找到***CubeCellelftool.exe***文件和*** cyacd***类型文件的位置 "
 
 #: ../../source/frequently_asked_questions.md:88
 msgid "Create a new folder and copy the two files of appeal to this folder."
-msgstr ""
+msgstr "创建一个新文件夹，并将上诉的两个文件复制到该文件夹。"
 
 #: ../../source/frequently_asked_questions.md:89
 msgid ""
 "Check the port number of the development board (it is assumed to be COM3 "
 "here)."
-msgstr ""
+msgstr "检查开发板的端口号(这里假设是COM3)。"
 
 #: ../../source/frequently_asked_questions.md:90
 msgid ""
 "Open a command line window under Windows and go to the folder you created"
 " above. Enter the following command and execute it to download."
-msgstr ""
+msgstr "在Windows下打开一个命令行窗口，然后转到上面创建的文件夹。输入以下命令并执行它以下载。"
 
 #: ../../source/frequently_asked_questions.md:91
 msgid "CubeCellflash.exe -serial COM3   XXXXXXXX.cyacd"
-msgstr ""
+msgstr "CubeCellflash.exe -serial COM3   XXXXXXXX.cyacd"
 

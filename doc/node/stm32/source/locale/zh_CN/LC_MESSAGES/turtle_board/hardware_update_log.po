@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/turtle_board/hardware_update_log.md:1
 msgid "Turtle Board  Hardware Update Logs"
-msgstr ""
+msgstr "Turtle Board硬件更新日志"
 
 #: ../../source/turtle_board/hardware_update_log.md:2
 msgid "{ht_translation}`[简体中文]:[English]`"
@@ -27,7 +27,7 @@ msgstr ""
 
 #: ../../source/turtle_board/hardware_update_log.md:3
 msgid "V1.1"
-msgstr ""
+msgstr "V1.1"
 
 #: ../../source/turtle_board/hardware_update_log.md:5
 msgid "![](img/hardware_update_log/01.png)"
@@ -35,13 +35,13 @@ msgstr ""
 
 #: ../../source/turtle_board/hardware_update_log.md:7
 msgid "First release"
-msgstr ""
+msgstr "首次发布"
 
 #: ../../source/turtle_board/hardware_update_log.md:8
 msgid "2018-12-1 public sale"
-msgstr ""
+msgstr "2018-12-1公开销售"
 
 #: ../../source/turtle_board/hardware_update_log.md:10
 msgid "[Pinout diagram of V1.1](https://docs.heltec.cn/download/Turtle_Board.pdf)"
-msgstr ""
+msgstr "[V1.1引脚图](https://docs.heltec.cn/download/Turtle_Board.pdf)"
 

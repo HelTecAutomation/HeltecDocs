@@ -20,11 +20,11 @@ msgstr ""
 
 #: ../../source/frequently_asked_questions.md:1
 msgid "Heltec<sup>TM</sup> ESP8266+Arduino Series Frequently Asked Questions"
-msgstr ""
+msgstr "Heltec<sup>TM</sup> ESP8266+Arduino 系列常见问题"
 
 #: ../../source/frequently_asked_questions.md:2
 msgid "{ht_translation}`[简体中文]:[English]`"
-msgstr ""
+msgstr "{ht_translation}`[简体中文]:[English]`"
 
 #: ../../source/frequently_asked_questions.md:4
 msgid ""
@@ -32,52 +32,59 @@ msgid ""
 "page's detail can't solve your problem, you can also talk in our forum: "
 "[community.heltec.cn](http://community.heltec.cn/)"
 msgstr ""
+"此页面包含来自用户的最常见问题. 如果此"
+"页面的回答不能解决您的问题, 您也可以在我们的论坛里讨论: "
+"[community.heltec.cn](http://community.heltec.cn/)"
 
 #: ../../source/frequently_asked_questions.md:6
 msgid "Orange LED Blink Problem"
-msgstr ""
+msgstr "橙色LED闪烁问题"
 
 #: ../../source/frequently_asked_questions.md:8
 msgid ""
 "Annoying orange LED lights are always flashing? It's because the battery "
 "management chip MCP73831. with the following control logic:"
 msgstr ""
+"讨厌的橙色LED灯总是闪烁? 这是因为电池"
+"管理芯片 MCP73831. 具有以下控制逻辑:"
 
 #: ../../source/frequently_asked_questions.md:10
 msgid "Blink -- Power on"
-msgstr ""
+msgstr "闪烁 -- 电源开"
 
 #: ../../source/frequently_asked_questions.md:11
 #: ../../source/frequently_asked_questions.md:21
 msgid "Light -- Charging"
-msgstr ""
+msgstr "长亮 -- 充电"
 
 #: ../../source/frequently_asked_questions.md:12
 #: ../../source/frequently_asked_questions.md:22
 msgid "Turn OFF -- Battery filled"
-msgstr ""
+msgstr "关闭 -- 电量已满"
 
 #: ../../source/frequently_asked_questions.md:14
 msgid "Change this capacitor to 220nF to temporarily correct this problem."
-msgstr ""
+msgstr "将这个电容更改为220nF可以暂时纠正这个问题."
 
 #: ../../source/frequently_asked_questions.md:16
 msgid "![](img/frequently_asked_questions/01.png)"
-msgstr ""
+msgstr "![](img/frequently_asked_questions/01.png)"
 
 #: ../../source/frequently_asked_questions.md:18
 msgid ""
 "We had use the TP4054 to replace MCP73831, the orange LED have new "
 "control logic:"
 msgstr ""
+"我们用TP4054代替MCP73831, 橙色 LED 有新的"
+"控制逻辑:"
 
 #: ../../source/frequently_asked_questions.md:20
 msgid "Dim -- Power on"
-msgstr ""
+msgstr "暗 -- 电源开"
 
 #: ../../source/frequently_asked_questions.md:24
 msgid "Note about the device cannot connect to WiFi"
-msgstr ""
+msgstr "注意设备无法连接WiFi"
 
 #: ../../source/frequently_asked_questions.md:26
 msgid ""
@@ -86,6 +93,10 @@ msgid ""
 " the device is plugged into the breadboard, it **cannot connect** to WiFi"
 " normally. We investigated this."
 msgstr ""
+"我们从一些客户那里得到反馈: 设备在正常情况下可以正常"
+"连接WiFi(无外设插入). 但是一旦"
+" 设备插在面包板上, 它 **无法正常连接** 到 WiFi."
+"我们对此进行了调查."
 
 #: ../../source/frequently_asked_questions.md:28
 msgid ""
@@ -94,14 +105,20 @@ msgid ""
 "and eventually cause the device to fail to connect to WiFi "
 "normally(please refer the picture)."
 msgstr ""
+"面包板上安装了大量的金属条, 这些金属条"
+"会对WiFi天线造成一定程度的 **干扰** "
+"最终导致设备无法正常连接 WiFi "
+"(请参考图片)."
 
 #: ../../source/frequently_asked_questions.md:30
 msgid ""
 "If you want to use the WiFi function, please try to avoid using the "
 "breadboard."
 msgstr ""
+"如果您想使用WiFi功能, 请尽量避免使用"
+"面包板."
 
 #: ../../source/frequently_asked_questions.md:32
 msgid "![](img/frequently_asked_questions/02.png)"
-msgstr ""
+msgstr "![](img/frequently_asked_questions/02.png)"
 

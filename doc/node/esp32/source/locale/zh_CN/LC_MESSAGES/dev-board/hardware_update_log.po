@@ -8,18 +8,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: esp32 \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-03 15:27+0800\n"
+"POT-Creation-Date: 2023-01-11 14:59+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.3\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../source/dev-board/hardware_update_log.md:1
 msgid "Hardware Update Logs"
-msgstr ""
+msgstr "硬件更新日志"
 
 #: ../../source/dev-board/hardware_update_log.md:2
 msgid "{ht_translation}`[简体中文]:[English]`"
@@ -27,66 +27,68 @@ msgstr ""
 
 #: ../../source/dev-board/hardware_update_log.md:4
 msgid "WiFi LoRa 32 Hardware Update Logs"
-msgstr ""
+msgstr "WiFi LoRa 32硬件更新日志"
 
 #: ../../source/dev-board/hardware_update_log.md:6
 #: ../../source/dev-board/hardware_update_log.md:90
-#: ../../source/dev-board/hardware_update_log.md:112
-#: ../../source/dev-board/hardware_update_log.md:145
+#: ../../source/dev-board/hardware_update_log.md:127
+#: ../../source/dev-board/hardware_update_log.md:160
 msgid "V1"
-msgstr ""
+msgstr "V1"
 
 #: ../../source/dev-board/hardware_update_log.md:8
 #: ../../source/dev-board/hardware_update_log.md:94
-#: ../../source/dev-board/hardware_update_log.md:116
-#: ../../source/dev-board/hardware_update_log.md:149
+#: ../../source/dev-board/hardware_update_log.md:131
+#: ../../source/dev-board/hardware_update_log.md:164
 msgid "First release"
-msgstr ""
+msgstr "首次发布"
 
 #: ../../source/dev-board/hardware_update_log.md:9
 #: ../../source/dev-board/hardware_update_log.md:96
-#: ../../source/dev-board/hardware_update_log.md:117
+#: ../../source/dev-board/hardware_update_log.md:132
 msgid "2017-6-1 public sale"
-msgstr ""
+msgstr "2017-6-1公开销售"
 
 #: ../../source/dev-board/hardware_update_log.md:11
 msgid ""
 "[Pinout diagram of "
 "V1](http://resource.heltec.cn/download/WiFi_LoRa_32/WIFI_LoRa_32_V1.pdf)"
-msgstr ""
+msgstr "[V1引脚图](http://resource.heltec.cn/download/WiFi_LoRa_32/WIFI_LoRa_32_V1.pdf)"
 
 #: ../../source/dev-board/hardware_update_log.md:13
 #: ../../source/dev-board/hardware_update_log.md:100
-#: ../../source/dev-board/hardware_update_log.md:120
+#: ../../source/dev-board/hardware_update_log.md:135
 msgid "Schematic diagram of V1"
-msgstr ""
+msgstr "v1原理图"
 
 #: ../../source/dev-board/hardware_update_log.md:14
 msgid ""
 "[433, 470~510 "
 "Version](http://resource.heltec.cn/download/WiFi_LoRa_32/V1/WIFI_LoRa_32(433_470-510%20version)Schematic_diagram.PDF)"
 msgstr ""
+"[433, "
+"470~510版本](http://resource.heltec.cn/download/WiFi_LoRa_32/V1/WIFI_LoRa_32(433_470-510%20version)Schematic_diagram.PDF)"
 
 #: ../../source/dev-board/hardware_update_log.md:15
 msgid ""
 "[868~915 "
 "Version](http://resource.heltec.cn/download/WiFi_LoRa_32/V1/WIFI_LoRa_32(868-915version)Schematic_diagram.PDF)"
-msgstr ""
+msgstr "[868~915版本](http://resource.heltec.cn/download/WiFi_LoRa_32/V1/WIFI_LoRa_32(868-915version)Schematic_diagram.PDF)"
 
 #: ../../source/dev-board/hardware_update_log.md:17
 #: ../../source/dev-board/hardware_update_log.md:56
 #: ../../source/dev-board/hardware_update_log.md:70
 #: ../../source/dev-board/hardware_update_log.md:86
 #: ../../source/dev-board/hardware_update_log.md:104
-#: ../../source/dev-board/hardware_update_log.md:108
 #: ../../source/dev-board/hardware_update_log.md:123
-#: ../../source/dev-board/hardware_update_log.md:139
+#: ../../source/dev-board/hardware_update_log.md:138
+#: ../../source/dev-board/hardware_update_log.md:154
 msgid "&nbsp;"
-msgstr ""
+msgstr "&nbsp;"
 
 #: ../../source/dev-board/hardware_update_log.md:19
 msgid "V2"
-msgstr ""
+msgstr "V2"
 
 #: ../../source/dev-board/hardware_update_log.md:21
 msgid "![](img/hardware_update_log/02.png)"
@@ -94,42 +96,42 @@ msgstr ""
 
 #: ../../source/dev-board/hardware_update_log.md:23
 msgid "2018-9-15 public sale"
-msgstr ""
+msgstr "2018-9-15公开销售"
 
 #: ../../source/dev-board/hardware_update_log.md:25
 msgid "4MB (32M-bits) FLASH upgrade to 8MB (64M-bits) FLASH;"
-msgstr ""
+msgstr "4MB（32M-bits）FLASH 升级到8MB（64M-bits）FLASH; "
 
 #: ../../source/dev-board/hardware_update_log.md:27
 msgid "Use 40MHz HSE (V1 use 26MHz);"
-msgstr ""
+msgstr "使用40MHz HSE (V1 使用26MHz);"
 
 #: ../../source/dev-board/hardware_update_log.md:29
 msgid "Basic low power design (800uA in deep sleep);"
-msgstr ""
+msgstr "基本低功耗设计（深度睡眠800uA);"
 
 #: ../../source/dev-board/hardware_update_log.md:31
 msgid ""
 "Add Vext power output pin, users can use this pin to drive some external "
 "device (sensor, motor etc.), when system need into deep sleep mode, Vext "
 "can be turn off."
-msgstr ""
+msgstr "添加Vext电源输出引脚,用户可以使用该引脚驱动一些外部设备（传感器,电机等),当系统需要进入深度睡眠模式时,Vext可以关闭."
 
 #: ../../source/dev-board/hardware_update_log.md:33
 msgid "**This pin was controlled by GPIO21, for example:**"
-msgstr ""
+msgstr "**此引脚由GPIO21控制,例如:**"
 
 #: ../../source/dev-board/hardware_update_log.md:35
 msgid "​\t\tTurn ON:  `digitalWrite(21, LOW);`"
-msgstr ""
+msgstr "​\t\tTurn ON:  `digitalWrite(21, LOW);`"
 
 #: ../../source/dev-board/hardware_update_log.md:37
 msgid "​\t\tTurn OFF: `digitalWrite(21, HIGH);`"
-msgstr ""
+msgstr "\t\tTurn OFF: `digitalWrite(21, HIGH);`"
 
 #: ../../source/dev-board/hardware_update_log.md:39
 msgid "Changed some pin connection:"
-msgstr ""
+msgstr "更改了一些引脚连接:"
 
 #: ../../source/dev-board/hardware_update_log.md:41
 msgid "![](img/hardware_update_log/01.png)"
@@ -137,41 +139,43 @@ msgstr ""
 
 #: ../../source/dev-board/hardware_update_log.md:43
 msgid "Circuit optimization, system more stable;"
-msgstr ""
+msgstr "电路优化, 系统更稳定;"
 
 #: ../../source/dev-board/hardware_update_log.md:45
 msgid "Better power manage system design;"
-msgstr ""
+msgstr "更好的电源管理系统设计;"
 
 #: ../../source/dev-board/hardware_update_log.md:47
 msgid "Better RF impendence matching."
-msgstr ""
+msgstr "更好的射频阻抗匹配."
 
 #: ../../source/dev-board/hardware_update_log.md:49
 msgid ""
 "[Pinout diagram of "
 "V2](http://resource.heltec.cn/download/WiFi_LoRa_32/WIFI_LoRa_32_V2.pdf)"
-msgstr ""
+msgstr "[V2引脚图](http://resource.heltec.cn/download/WiFi_LoRa_32/WIFI_LoRa_32_V2.pdf)"
 
 #: ../../source/dev-board/hardware_update_log.md:51
 msgid "Schematic diagram of V2"
-msgstr ""
+msgstr "V2原理图"
 
 #: ../../source/dev-board/hardware_update_log.md:53
 msgid ""
 "[433, 470~510 "
 "Version](http://resource.heltec.cn/download/WiFi_LoRa_32/V2/WiFi_LoRa_32_V2(433%2C470-510).PDF)"
 msgstr ""
+"[433, "
+"470~510版本](http://resource.heltec.cn/download/WiFi_LoRa_32/V2/WiFi_LoRa_32_V2(433%2C470-510).PDF)"
 
 #: ../../source/dev-board/hardware_update_log.md:54
 msgid ""
 "[868~915 "
 "Version](http://resource.heltec.cn/download/WiFi_LoRa_32/V2/WIFI_LoRa_32_V2(868-915).PDF)"
-msgstr ""
+msgstr "[868~915版本](http://resource.heltec.cn/download/WiFi_LoRa_32/V2/WIFI_LoRa_32_V2(868-915).PDF)"
 
 #: ../../source/dev-board/hardware_update_log.md:58
 msgid "V2.1"
-msgstr ""
+msgstr "V2.1"
 
 #: ../../source/dev-board/hardware_update_log.md:60
 msgid "![](img/hardware_update_log/03.png)"
@@ -179,77 +183,87 @@ msgstr ""
 
 #: ../../source/dev-board/hardware_update_log.md:62
 msgid "2019-6-15  public sale"
-msgstr ""
+msgstr "2019-6-15公开销售"
 
 #: ../../source/dev-board/hardware_update_log.md:63
 msgid ""
 "Change the RF switch from PE4259 to UPG2179, and change the RF part to "
 "the official recommended value;"
-msgstr ""
+msgstr "将射频开关从PE4259换成UPG2179，并将射频部分换成官方推荐值;"
 
 #: ../../source/dev-board/hardware_update_log.md:64
 msgid "Change the power detection pin from 13(ADC2: 4) to 37(ADC1: 1)."
-msgstr ""
+msgstr "将电源检测引脚从13(ADC2: 4)换到37(ADC1: 1)."
 
 #: ../../source/dev-board/hardware_update_log.md:65
 msgid ""
 "[Pinout diagram of "
 "V2.1](https://resource.heltec.cn/download/WiFi_LoRa_32/WIFI_LoRa_32_V2.1.pdf)"
-msgstr ""
+msgstr "[V2.1引脚图](https://resource.heltec.cn/download/WiFi_LoRa_32/WIFI_LoRa_32_V2.1.pdf)"
 
 #: ../../source/dev-board/hardware_update_log.md:66
 msgid "Schematic diagram of V2.1"
-msgstr ""
+msgstr "V2.1原理图"
 
 #: ../../source/dev-board/hardware_update_log.md:67
 msgid ""
 "[433, 470~510 "
 "Version](https://resource.heltec.cn/download/WiFi_LoRa_32/V2.1/WiFi_LoRa_32_V2.1(433%2C470-510).PDF)"
 msgstr ""
+"[433, "
+"470~510版本](https://resource.heltec.cn/download/WiFi_LoRa_32/V2.1/WiFi_LoRa_32_V2.1(433%2C470-510).PDF)"
 
 #: ../../source/dev-board/hardware_update_log.md:68
 msgid ""
 "[868~915 "
 "Version](https://resource.heltec.cn/download/WiFi_LoRa_32/V2.1/WIFI_LoRa_32_V2.1(868-915).PDF)"
-msgstr ""
+msgstr "[868~915版本](https://resource.heltec.cn/download/WiFi_LoRa_32/V2.1/WIFI_LoRa_32_V2.1(868-915).PDF)"
 
 #: ../../source/dev-board/hardware_update_log.md:72
-#: ../../source/dev-board/hardware_update_log.md:125
+#: ../../source/dev-board/hardware_update_log.md:106
+#: ../../source/dev-board/hardware_update_log.md:140
 msgid "V3"
-msgstr ""
+msgstr "V3"
 
 #: ../../source/dev-board/hardware_update_log.md:74
 msgid "![](img/hardware_update_log/07.png)"
 msgstr ""
 
 #: ../../source/dev-board/hardware_update_log.md:76
-#: ../../source/dev-board/hardware_update_log.md:129
+#: ../../source/dev-board/hardware_update_log.md:144
 msgid "2022-09-15  public sale"
-msgstr ""
+msgstr "2022-09-15公开销售"
 
 #: ../../source/dev-board/hardware_update_log.md:78
+#: ../../source/dev-board/hardware_update_log.md:112
 msgid ""
 "MCU is changed from ESP32-D0WDQ6 to ESP32-S3FN8. Specific differences of "
 "MCU are shown in：[https://products.espressif.com/#/product-"
 "comparison](https://products.espressif.com/#/product-comparison)."
 msgstr ""
+"MCU由ESP32-D0WDQ6改为ESP32-S3FN8.MCU的具体区别表现在：[https://products.espressif.com"
+"/#/product-comparison](https://products.espressif.com/#/product-"
+"comparison)."
 
 #: ../../source/dev-board/hardware_update_log.md:79
-#: ../../source/dev-board/hardware_update_log.md:132
+#: ../../source/dev-board/hardware_update_log.md:114
+#: ../../source/dev-board/hardware_update_log.md:147
 msgid "USB interface changed from Micro USB to Type-C."
-msgstr ""
+msgstr "USB接口由Micro USB改为Type-C."
 
 #: ../../source/dev-board/hardware_update_log.md:80
-#: ../../source/dev-board/hardware_update_log.md:133
+#: ../../source/dev-board/hardware_update_log.md:115
+#: ../../source/dev-board/hardware_update_log.md:148
 msgid "LoRa chip changed from SX1276 to SX1262."
-msgstr ""
+msgstr "LoRa芯片由SX1276变更为SX1262.\""
 
 #: ../../source/dev-board/hardware_update_log.md:81
-#: ../../source/dev-board/hardware_update_log.md:134
+#: ../../source/dev-board/hardware_update_log.md:116
+#: ../../source/dev-board/hardware_update_log.md:149
 msgid ""
 "The LoRa crystal oscillator is upgraded to temperature compensated "
 "crystal oscillator."
-msgstr ""
+msgstr "将LoRa晶体振荡器升级为温度补偿晶体振荡器"
 
 #: ../../source/dev-board/hardware_update_log.md:82
 msgid ""
@@ -258,12 +272,16 @@ msgid ""
 "diagram](https://resource.heltec.cn/download/WiFi_LoRa32_V3/HTIT-"
 "WB32LA(F)_V3.png)."
 msgstr ""
+"尺寸,外观,引脚布局和电源引脚不变，但GPIO顺序发生了变化.请参考[引脚图](https://resource.heltec.cn/download/WiFi_LoRa32_V3"
+"/HTIT-WB32LA(F)_V3.png)."
 
 #: ../../source/dev-board/hardware_update_log.md:83
 msgid ""
 "[Pinout diagram of V3](https://resource.heltec.cn/download/WiFi_LoRa32_V3"
 "/HTIT-WB32LA(F)_V3.png)."
 msgstr ""
+"[V3引脚图](https://resource.heltec.cn/download/WiFi_LoRa32_V3/HTIT-"
+"WB32LA(F)_V3.png)."
 
 #: ../../source/dev-board/hardware_update_log.md:84
 msgid ""
@@ -271,10 +289,12 @@ msgid ""
 "V3](https://resource.heltec.cn/download/WiFi_LoRa32_V3/HTIT-"
 "WB32LA(F)_V3_Schematic_Diagram.pdf)."
 msgstr ""
+"[V3原理图](https://resource.heltec.cn/download/WiFi_LoRa32_V3/HTIT-"
+"WB32LA(F)_V3_Schematic_Diagram.pdf)."
 
 #: ../../source/dev-board/hardware_update_log.md:88
 msgid "Wireless Stick  Hardware Update Logs"
-msgstr ""
+msgstr "Wireless Stick硬件更新日志"
 
 #: ../../source/dev-board/hardware_update_log.md:92
 msgid "![](img/hardware_update_log/04.png)"
@@ -284,7 +304,7 @@ msgstr ""
 msgid ""
 "[Pinout diagram of "
 "V1](http://resource.heltec.cn/download/Wireless_Stick/Wireless_Stick.pdf)"
-msgstr ""
+msgstr "[V1]引脚图(http://resource.heltec.cn/download/Wireless_Stick/Wireless_Stick.pdf)"
 
 #: ../../source/dev-board/hardware_update_log.md:102
 msgid ""
@@ -293,77 +313,132 @@ msgid ""
 "Limited Technical Resources](https://heltec-automation-"
 "docs.readthedocs.io/en/latest/general/view_limited_technical_data.html) ."
 msgstr ""
+"Wireless Stick原理图为受限技术资料,购买后可以下载.请阅读此文档:[获取受限的技术资料](https://heltec-"
+"automation-"
+"docs.readthedocs.io/en/latest/general/view_limited_technical_data.html) ."
 
-#: ../../source/dev-board/hardware_update_log.md:110
-msgid "Wireless Stick Lite Hardware Update Logs"
+#: ../../source/dev-board/hardware_update_log.md:108
+msgid "![](img/hardware_update_log/09.png)"
 msgstr ""
 
-#: ../../source/dev-board/hardware_update_log.md:114
+#: ../../source/dev-board/hardware_update_log.md:110
+#, fuzzy
+msgid "2022-11-10  public sale"
+msgstr "2022-09-15公开销售"
+
+#: ../../source/dev-board/hardware_update_log.md:117
+#, fuzzy
+msgid ""
+"The size, appearance, pin layout and power pins remain unchanged, but the"
+" GPIO sequence has changed. Please refer to [Pinout "
+"diagram](https://resource.heltec.cn/download/Wireless_Stick_V3/HTIT-"
+"WS_V3.png)."
+msgstr ""
+"尺寸,外观,引脚布局和电源引脚不变，但GPIO顺序发生了变化.请参考[引脚图](https://resource.heltec.cn/download/Wireless_Stick_Lite_V3"
+"/HTIT-WSL_V3.png)."
+
+#: ../../source/dev-board/hardware_update_log.md:118
+#, fuzzy
+msgid ""
+"[Pinout diagram of "
+"V3](https://resource.heltec.cn/download/Wireless_Stick_V3/HTIT-"
+"WS_V3.png)."
+msgstr ""
+"[V3引脚图](https://resource.heltec.cn/download/Wireless_Stick_Lite_V3/HTIT-"
+"WSL_V3.png)."
+
+#: ../../source/dev-board/hardware_update_log.md:119
+#, fuzzy
+msgid ""
+"[Schematic diagram of "
+"V3](https://resource.heltec.cn/download/Wireless_Stick_V3/HTIT-"
+"WS_V3_Schematic_Diagram.pdf)."
+msgstr ""
+"[V3原理图](https://resource.heltec.cn/download/Wireless_Stick_Lite_V3/HTIT-"
+"WSL_V3_Schematic_Diagram.pdf)."
+
+#: ../../source/dev-board/hardware_update_log.md:125
+msgid "Wireless Stick Lite Hardware Update Logs"
+msgstr "Wireless Stick硬件更新日志"
+
+#: ../../source/dev-board/hardware_update_log.md:129
 msgid "![](img/hardware_update_log/05.png)"
 msgstr ""
 
-#: ../../source/dev-board/hardware_update_log.md:119
+#: ../../source/dev-board/hardware_update_log.md:134
 msgid ""
 "[Pinout diagram of "
 "V1](http://resource.heltec.cn/download/Wireless_Stick_Lite/Wireless_Stick_Lite.pdf)"
-msgstr ""
+msgstr "[V1引脚图](http://resource.heltec.cn/download/Wireless_Stick_Lite/Wireless_Stick_Lite.pdf)"
 
-#: ../../source/dev-board/hardware_update_log.md:121
+#: ../../source/dev-board/hardware_update_log.md:136
 msgid ""
 "The schematic diagram of Wireless Stick Lite is restricted technical "
 "data,it will become downloadable after purchase.Please read this "
 "document:[Get Limited Technical Resources](https://heltec-automation-"
 "docs.readthedocs.io/en/latest/general/view_limited_technical_data.html) ."
 msgstr ""
+"Wireless Stick Lite原理图为受限技术资料,购买后可以下载.请阅读此文档:[获取受限的技术资料](https://heltec-"
+"automation-"
+"docs.readthedocs.io/en/latest/general/view_limited_technical_data.html) ."
 
-#: ../../source/dev-board/hardware_update_log.md:127
+#: ../../source/dev-board/hardware_update_log.md:142
 msgid "![](img/hardware_update_log/08.png)"
 msgstr ""
 
-#: ../../source/dev-board/hardware_update_log.md:131
+#: ../../source/dev-board/hardware_update_log.md:146
 msgid ""
 "MCU is changed from ESP32-PICO-V3 to ESP32-S3FN8. Specific differences of"
 " MCU are shown in：[https://products.espressif.com/#/product-"
 "comparison](https://products.espressif.com/#/product-comparison)."
 msgstr ""
+"MCU由ESP32-PICO-"
+"V3改为ESP32-S3FN8.MCU的具体区别表现在：[https://products.espressif.com/#/product-"
+"comparison](https://products.espressif.com/#/product-comparison)."
 
-#: ../../source/dev-board/hardware_update_log.md:135
+#: ../../source/dev-board/hardware_update_log.md:150
 msgid ""
 "The size, appearance, pin layout and power pins remain unchanged, but the"
 " GPIO sequence has changed. Please refer to [Pinout "
 "diagram](https://resource.heltec.cn/download/Wireless_Stick_Lite_V3/HTIT-"
 "WSL_V3.png)."
 msgstr ""
+"尺寸,外观,引脚布局和电源引脚不变，但GPIO顺序发生了变化.请参考[引脚图](https://resource.heltec.cn/download/Wireless_Stick_Lite_V3"
+"/HTIT-WSL_V3.png)."
 
-#: ../../source/dev-board/hardware_update_log.md:136
+#: ../../source/dev-board/hardware_update_log.md:151
 msgid ""
 "[Pinout diagram of "
 "V3](https://resource.heltec.cn/download/Wireless_Stick_Lite_V3/HTIT-"
 "WSL_V3.png)."
 msgstr ""
+"[V3引脚图](https://resource.heltec.cn/download/Wireless_Stick_Lite_V3/HTIT-"
+"WSL_V3.png)."
 
-#: ../../source/dev-board/hardware_update_log.md:137
+#: ../../source/dev-board/hardware_update_log.md:152
 msgid ""
 "[Schematic diagram of "
 "V3](https://resource.heltec.cn/download/Wireless_Stick_Lite_V3/HTIT-"
 "WSL_V3_Schematic_Diagram.pdf)."
 msgstr ""
+"[V3原理图](https://resource.heltec.cn/download/Wireless_Stick_Lite_V3/HTIT-"
+"WSL_V3_Schematic_Diagram.pdf)."
 
-#: ../../source/dev-board/hardware_update_log.md:141
+#: ../../source/dev-board/hardware_update_log.md:156
 msgid "Wireless Bridge  Hardware Update Logs"
-msgstr ""
+msgstr "Wireless Bridge硬件更新日志"
 
-#: ../../source/dev-board/hardware_update_log.md:143
+#: ../../source/dev-board/hardware_update_log.md:158
 msgid ""
 "[简体中文](https://heltec-"
 "automation.readthedocs.io/zh_CN/latest/esp32/wireless_bridge/hardware_update_log.html)"
 msgstr ""
 
-#: ../../source/dev-board/hardware_update_log.md:147
+#: ../../source/dev-board/hardware_update_log.md:162
 msgid "![](img/hardware_update_log/06.png)"
 msgstr ""
 
-#: ../../source/dev-board/hardware_update_log.md:150
+#: ../../source/dev-board/hardware_update_log.md:165
 msgid "2021-04-01 public sale"
-msgstr ""
+msgstr "2021-04-01公开销售"
 

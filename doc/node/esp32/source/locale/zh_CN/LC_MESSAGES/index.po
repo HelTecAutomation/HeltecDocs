@@ -19,27 +19,27 @@ msgstr ""
 
 #: ../../source/index.rst:21
 msgid " Quick Start"
-msgstr ""
+msgstr "快速入门"
 
 #: ../../source/index.rst:21
 msgid " LoRaWAN"
-msgstr ""
+msgstr "LoRaWAN"
 
 #: ../../source/index.rst:21
 msgid " ESP32 Dev-Board"
-msgstr ""
+msgstr "ESP32开发板"
 
 #: ../../source/index.rst:21
 msgid " ESP32 Module"
-msgstr ""
+msgstr "ESP32模块"
 
 #: ../../source/index.rst:21
 msgid " Frequently Asked Questions"
-msgstr ""
+msgstr "常见问题"
 
 #: ../../source/index.rst:2
 msgid "Contents"
-msgstr ""
+msgstr "目录"
 
 #: ../../source/index.rst:3
 msgid ":ht_translation:`[简体中文]:[English]`"
@@ -49,82 +49,82 @@ msgstr ""
 msgid ""
 "This document branch is for `Heltec ESP32 + LoRa Node series "
 "<https://heltec.org/proudct_center/lora/lora-node/>`_,"
-msgstr ""
+msgstr "此文档适用于 `Heltec ESP32 + LoRa 节点系列 <https://heltec.org/proudct_center/lora/lora-node/>`_,"
 
 #: ../../source/index.rst:7
 msgid ""
 "ESP32 is a powerfull SoC with 240MHz Tensilica LX6 dual-core & 1 ULP "
 "core, 600 DMIPS, 520KB SRAM. The benefit of \"ESP32 + LoRa\" combination:"
-msgstr ""
+msgstr "ESP32带有240MHz Tensilica LX6 dual-core & 1 ULP core, 600 DMIPS, 520KB SRAM. \"ESP32 + LoRa\"具有以下优点："
 
 #: ../../source/index.rst:9
 msgid ""
 "Multi wireless communication technical on board, include Wi-Fi, "
 "BlueTooh/BLE, LoRa;"
-msgstr ""
+msgstr "具有多个无线通信技术，包括Wi-Fi, BlueTooh/BLE, LoRa;"
 
 #: ../../source/index.rst:10
 msgid "Powerful computing skills;"
-msgstr ""
+msgstr ""强大的计算能力;
 
 #: ../../source/index.rst:11
 msgid "Large FLASH size;"
-msgstr ""
+msgstr "具有较大FLASH内存;"
 
 #: ../../source/index.rst:12
 msgid "Power mananagement system and Li-Po support;"
-msgstr ""
+msgstr "电源管理系统与锂电池支持;"
 
 #: ../../source/index.rst:13
 msgid "Arduino-compitable;"
-msgstr ""
+msgstr "兼容Arduino;"
 
 #: ../../source/index.rst:14
 msgid ""
 "We also provide `LoRaWAN-Node protocol Arduino library "
 "<https://github.com/HelTecAutomation/ESP32_LoRaWAN>`_;"
-msgstr ""
+msgstr "我们提供 `LoRaWAN-节点协议Arduino库 <https://github.com/HelTecAutomation/ESP32_LoRaWAN>`_;"
 
 #: ../../source/index.rst:18
 msgid ""
 "ESP32's BlueTooth and Wi-Fi antenna use a same pin, so BlueTooth and Wi-"
 "Fi can't work at the same time."
-msgstr ""
+msgstr "ESP32的BlueTooth和Wi-Fi天线使用同一个引脚，所以BlueTooth和Wi-Fi不能同时使用。"
 
 #: ../../source/index.rst:31
 msgid "Relevant Offical Resources"
-msgstr ""
+msgstr "相关官方资源"
 
 #: ../../source/index.rst:33
 msgid ""
 "`Heltec ESP32 development framework source code <https://github.com"
 "/Heltec-Aaron-Lee/WiFi_Kit_series>`_;"
-msgstr ""
+msgstr "`Heltec ESP32 开发框架代码 <https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series>`_;"
 
 #: ../../source/index.rst:34
 msgid ""
 "`Heltec ESP32 series Arduino library "
 "<https://github.com/HelTecAutomation/Heltec_ESP32>`_;"
-msgstr ""
+msgstr "`Heltec ESP32 系列 Arduino 库 <https://github.com/HelTecAutomation/Heltec_ESP32>`_;"
 
 #: ../../source/index.rst:35
 msgid ""
 "`LoRaWAN-Node protocol Arduino library "
 "<https://github.com/HelTecAutomation/ESP32_LoRaWAN>`_."
-msgstr ""
+msgstr "`LoRaWAN-节点协议 Arduino 库 <https://github.com/HelTecAutomation/ESP32_LoRaWAN>`_."
 
 #~ msgid "Quick Start"
-#~ msgstr ""
+#~ msgstr "快速开始"
 
 #~ msgid "LoRaWAN"
-#~ msgstr ""
+#~ msgstr "LoRaWAN"
 
 #~ msgid "ESP32 Dev-Board"
-#~ msgstr ""
+#~ msgstr "ESP32开发板"
 
 #~ msgid "ESP32 Module"
-#~ msgstr ""
+#~ msgstr "ESP32模块"
 
 #~ msgid "Frequently Asked Questions"
-#~ msgstr ""
+#~ msgstr "常见问题"
 

@@ -19,15 +19,15 @@ msgstr ""
 
 #: ../../source/quick_start.md:1
 msgid "HT-M01 Mini LoRa Gateway Quick Start"
-msgstr ""
+msgstr "HT-M01 Mini LoRa网关快速入门"
 
 #: ../../source/quick_start.md:2
 msgid "{ht_translation}`[简体中文]:[English]`"
-msgstr ""
+msgstr "{ht_translation}`[简体中文]:[English]`"
 
 #: ../../source/quick_start.md:3
 msgid "Summary"
-msgstr ""
+msgstr "概要"
 
 #: ../../source/quick_start.md:5
 msgid ""
@@ -36,30 +36,34 @@ msgid ""
 "on Linux and Windows<sup>®</sup>. generally speaking, to make HT-M01 "
 "running, just chose one of the following three methods:"
 msgstr ""
+"HT-M01 LoRa网关支持USB和SPI模式. SPI模式"
+"只能在Linux系统 (树莓派)下运行, USB模式可以在"
+"Linux和Windows<sup>®</sup>上使用. 一般来说, 要使HT-M01"
+"运行, 只需选择以下三种方法之一:"
 
 #: ../../source/quick_start.md:7
 msgid "**Linux (Raspberry PI)**"
-msgstr ""
+msgstr "**Linux (树莓派)**"
 
 #: ../../source/quick_start.md:8
 msgid "[SPI mode](spi-mode)"
-msgstr ""
+msgstr "[SPI 模式](spi-mode)"
 
 #: ../../source/quick_start.md:9
 msgid "[USB mode](usb-mode)"
-msgstr ""
+msgstr "[USB 模式](usb-mode)"
 
 #: ../../source/quick_start.md:10
 msgid "**Windows<sup>®</sup>**"
-msgstr ""
+msgstr "**Windows<sup>®</sup>**"
 
 #: ../../source/quick_start.md:11
 msgid "[USB mode for Windows<sup>®</sup>](use-ht-m01-with-windows-sup-sup)"
-msgstr ""
+msgstr "[USB 模式用于Windows<sup>®</sup>](use-ht-m01-with-windows-sup-sup)"
 
 #: ../../source/quick_start.md:15
 msgid "Use HT-M01 with Linux (Raspberry PI)"
-msgstr ""
+msgstr "Linux下使用HT-M01 (树莓派)"
 
 #: ../../source/quick_start.md:17
 msgid ""
@@ -67,20 +71,25 @@ msgid ""
 "can connect to Wi-Fi. In this document, we used [Raspberry Pi Zero "
 "W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/)."
 msgstr ""
+"在所有操作之前, 确保你的树莓派可以工作, "
+"可以连接Wi-Fi. 在这个文档中, 我们使用了 [树莓派 Zero "
+"W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/)."
 
 #: ../../source/quick_start.md:20
 msgid "As we tested, Raspberry Pi 2, 3, 3B are also worked."
-msgstr ""
+msgstr "在我们的测试中, 树莓派 2, 3, 3B 也可以工作."
 
 #: ../../source/quick_start.md:23
 msgid ""
 "**[Raspberry Pi "
 "Configuration](https://docs.heltec.org/general/how_to_config_raspberry_pi.html)**"
 msgstr ""
+"**[树莓派"
+"配置](https://docs.heltec.org/general/how_to_config_raspberry_pi.html)**"
 
 #: ../../source/quick_start.md:26
 msgid "SPI mode"
-msgstr ""
+msgstr "SPI 模式"
 
 #: ../../source/quick_start.md:28
 msgid ""
@@ -88,20 +97,25 @@ msgid ""
 "converter](https://heltec.org/product/m01-converter/) will make your "
 "operation more easy."
 msgstr ""
+"有一个 [PRI 到 HT-M01 "
+"转换器](https://heltec.org/product/m01-converter/) 将使您的"
+"操作更容易."
 
 #: ../../source/quick_start.md:30
 msgid "![](img/quick_start/01.png)"
-msgstr ""
+msgstr "![](img/quick_start/01.png)"
 
 #: ../../source/quick_start.md:32
 msgid ""
 "The wiring diagram of the Raspberry Pi and the adapter board is shown in "
 "the figure below."
 msgstr ""
+"树莓派和适配板的接线图如"
+"下图所示."
 
 #: ../../source/quick_start.md:34
 msgid "![](img/quick_start/09.png)"
-msgstr ""
+msgstr "![](img/quick_start/09.png)"
 
 #: ../../source/quick_start.md:36
 msgid ""
@@ -109,24 +123,29 @@ msgid ""
 "command in putty to open the Raspberry Pi configuration interface and "
 "enable the SPI bus."
 msgstr ""
+"默认情况下, 树莓派SPI总线是禁用的. 在putty中"
+"输入以下命令打开树莓派配置界面, 并"
+"启用SPI总线."
 
 #: ../../source/quick_start.md:38
 msgid "`sudo raspi-config`"
-msgstr ""
+msgstr "`sudo raspi-config`"
 
 #: ../../source/quick_start.md:40
 msgid "![](img/quick_start/02.png)"
-msgstr ""
+msgstr "![](img/quick_start/02.png)"
 
 #: ../../source/quick_start.md:42
 msgid ""
 "Choose `Interfacing Options → SPI → Yes` and may need restart Raspberry "
 "Pi."
 msgstr ""
+"选择 `Interfacing Options → SPI → Yes` 可能需要重新启动树莓"
+"派."
 
 #: ../../source/quick_start.md:44
 msgid "Install HT-M01 relevant application and services via following commands:"
-msgstr ""
+msgstr "通过以下命令安装HT-M01相关应用程序和服务:"
 
 #: ../../source/quick_start.md:69 ../../source/quick_start.md:96
 msgid ""
@@ -135,10 +154,14 @@ msgid ""
 "\"global_conf_US915.json\", etc., respectively corresponding to the "
 "corresponding frequency bands."
 msgstr ""
+"其中, \"global_conf_EU868.json\" 可以替换为 "
+"\"global_conf_EU433.json\", \"global_conf_CN470.json\", "
+"\"global_conf_US915.json\", 等, 分别对应于"
+"相应的频段."
 
 #: ../../source/quick_start.md:72 ../../source/quick_start.md:117
 msgid "USB mode"
-msgstr ""
+msgstr "USB 模式"
 
 #: ../../source/quick_start.md:74
 msgid ""
@@ -146,6 +169,9 @@ msgid ""
 " USB cable to connect the HT-M01 Gateway to the Raspberry Pi, otherwise "
 "it will cause a lot of problems! Enter the following commands:"
 msgstr ""
+"在进行以下操作之前, 请使用一根高质量的 Micro"
+" USB 连接线将 HT-M01 网关连接到树莓派上, 否则"
+"会导致很多问题! 输入以下命令:"
 
 #: ../../source/quick_start.md:99
 msgid ""
@@ -153,6 +179,9 @@ msgid ""
 "gateway, which is the key to a node can successfully communicate with the"
 " gateway!"
 msgstr ""
+"\"global_conf.json\" 文件决定了网关的监听频率, "
+"这是节点能否成功与网关通信的"
+"关键!"
 
 #: ../../source/quick_start.md:102
 msgid ""
@@ -161,32 +190,38 @@ msgid ""
 "printed. **While register a gateway on a LoRa server need this unique "
 "ID.**"
 msgstr ""
+"无论是SPI模式还是USB模式, 当执行 `./install.sh` 时, 如果"
+"一切正常, 将打印当前网关的唯一ID. "
+"**在LoRa服务器上注册网关时需要此唯一"
+"ID.**"
 
 #: ../../source/quick_start.md:104
 msgid "![](img/quick_start/08.png)"
-msgstr ""
+msgstr "![](img/quick_start/08.png)"
 
 #: ../../source/quick_start.md:106
 msgid "Confirm Installation"
-msgstr ""
+msgstr "确认安装"
 
 #: ../../source/quick_start.md:108
 msgid ""
 "Run `sudo systemctl status lrgateway` in Raspberry Pi, if all goes well, "
 "the service is running:"
 msgstr ""
+"在树莓派中运行 `sudo systemctl status lrgateway` , 如果一切正常, "
+"服务正在运行:"
 
 #: ../../source/quick_start.md:110
 msgid "![](img/quick_start/03.png)"
-msgstr ""
+msgstr "![](img/quick_start/03.png)"
 
 #: ../../source/quick_start.md:112
 msgid "&nbsp;"
-msgstr ""
+msgstr "&nbsp;"
 
 #: ../../source/quick_start.md:115
 msgid "Use HT-M01 with Windows<sup>®</sup>"
-msgstr ""
+msgstr "在 Windows<sup>®</sup>中使用HT-M01"
 
 #: ../../source/quick_start.md:119
 msgid ""
@@ -196,10 +231,15 @@ msgid ""
 "HT-M01 connected, you will see a serial device in Windows<sup>®</sup> "
 "device manager."
 msgstr ""
+"安装 [PicoGW "
+"UI](http://resource.heltec.cn/download/HT-M01/PicoGW_UI_Release_V1.0.3.4.zip)"
+" **before** 连接 HT-M01 到 Windows<sup>®</sup> 计算机. 然后连接"
+"HT-M01, 您将在 Windows<sup>®</sup>设备管理器中看到"
+"串行设备."
 
 #: ../../source/quick_start.md:121
 msgid "![](img/quick_start/04.png)"
-msgstr ""
+msgstr "![](img/quick_start/04.png)"
 
 #: ../../source/quick_start.md:123
 msgid ""
@@ -207,26 +247,29 @@ msgid ""
 " default region didn't cover your location? please refer to this "
 "document."
 msgstr ""
+"打开 PicoGW_UI, 选择合适的区域, 然后点击 `Save my choice`. "
+"默认区域没有覆盖你的位置? 请参考这份"
+"文件."
 
 #: ../../source/quick_start.md:125
 msgid "![](img/quick_start/05.png)"
-msgstr ""
+msgstr "![](img/quick_start/05.png)"
 
 #: ../../source/quick_start.md:127
 msgid "Choose `Packet Forwarder`."
-msgstr ""
+msgstr "选择 `Packet Forwarder`."
 
 #: ../../source/quick_start.md:129
 msgid "![](img/quick_start/06.png)"
-msgstr ""
+msgstr "![](img/quick_start/06.png)"
 
 #: ../../source/quick_start.md:131
 msgid "Configuration PicoGW Tools"
-msgstr ""
+msgstr "配置PicoGW工具"
 
 #: ../../source/quick_start.md:133
 msgid "![](img/quick_start/07.png)"
-msgstr ""
+msgstr "![](img/quick_start/07.png)"
 
 #: ../../source/quick_start.md:135
 msgid ""
@@ -235,12 +278,18 @@ msgid ""
 "name\\AppData\\Roaming\\Semtech\\PicoGW_UI` path. We just need pay "
 "attention to this three parts, others keep default."
 msgstr ""
+"点击 `Global Conf` 打开 `Properties_UI` 窗口, 该窗口中"
+"的参数与 `C:\\Users\\user "
+"name\\AppData\\Roaming\\Semtech\\PicoGW_UI` 路径中的`global_conf.json` 相关. "
+"我们只需要注意这三部分, 其他部分保持默认."
 
 #: ../../source/quick_start.md:137
 msgid ""
 "**Cloud network/Server Address** and **Port** -- This part is used for "
 "TTN only;"
 msgstr ""
+"**云网络/服务器地址** 和 **端口** -- 此部分"
+"仅用于TTN;"
 
 #: ../../source/quick_start.md:138
 msgid ""
@@ -248,12 +297,17 @@ msgid ""
 "This part is used for a custom server, it can be cloud server, private or"
 " local server, such as [ChripStack](https://www.chirpstack.io/);"
 msgstr ""
+"**网关属性/服务器地址**, **向上端口** 和 **向下端口** -- "
+"这部分用于自定义服务器, 它可以是云服务器, 私有或"
+"本地服务器, 如[ChripStack](https://www.chirpstack.io/);"
 
 #: ../../source/quick_start.md:139
 msgid ""
 "**Get Gateway Unique ID** -- will generate a unique ID for your HT-M01, "
 "it will be used while register a gateway in the LoRa server."
 msgstr ""
+"**获取网关唯一ID** -- 将为您的HT-M01生成一个唯一ID, "
+"它将在LoRa服务器中注册网关时使用."
 
 #: ../../source/quick_start.md:142
 msgid ""
@@ -261,7 +315,10 @@ msgid ""
 "Because the Unique ID from PicoGW UI is relative to HT-M01's STM32 chip. "
 "Raspberry Pi use self's ethernet Mac address."
 msgstr ""
+"PicoGW UI生成的唯一ID和树莓派是不一样的. "
+"因为PicoGW UI中的唯一ID是相对于HT-M01的STM32芯片的. "
+"树莓派使用自己的以太网Mac地址."
 
 #~ msgid "**[Raspberry Pi Configuration]()**"
-#~ msgstr ""
+#~ msgstr "**[树莓派配置 Configuration]()**"
 

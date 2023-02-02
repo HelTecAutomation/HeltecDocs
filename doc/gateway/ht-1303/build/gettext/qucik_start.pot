@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2022, shug
-# This file is distributed under the same license as the sx1303module package.
+# This file is distributed under the same license as the ht-1303 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: sx1303module \n"
+"Project-Id-Version: ht-1303 \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-03 15:19+0800\n"
+"POT-Creation-Date: 2023-01-11 15:10+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../source/qucik_start.md:1
-msgid "SX1303 LoRa Gateway Module Quick Start"
+msgid "HT-1303 LoRaWAN concentrator module Quick Start"
 msgstr ""
 
 #: ../../source/qucik_start.md:3

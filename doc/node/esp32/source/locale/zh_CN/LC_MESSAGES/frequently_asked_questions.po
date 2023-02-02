@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/frequently_asked_questions.md:1
 msgid "Heltec<sup>TM</sup> ESP32+LoRa Series Frequently Asked Questions"
-msgstr ""
+msgstr "Heltec<sup>TM</sup> ESP32+LoRa 系列常见问题"
 
 #: ../../source/frequently_asked_questions.md:2
 msgid "{ht_translation}`[简体中文]:[English]`"
@@ -30,22 +30,22 @@ msgid ""
 "This page contains the most frequently questions from user. If this "
 "page's detail can't solve your problem, you can also talk in our forum: "
 "[community.heltec.cn](http://community.heltec.cn/)"
-msgstr ""
+msgstr "此页包含用户最常提出的问题.如果此页面的详细信息无法解决您的问题,您也可以在我们的论坛上留言:[community.heltec.cn](http://community.heltec.cn/)"
 
 #: ../../source/frequently_asked_questions.md:6
 #: ../../source/frequently_asked_questions.md:14
 #: ../../source/frequently_asked_questions.md:34
 #: ../../source/frequently_asked_questions.md:42
 msgid "&nbsp;"
-msgstr ""
+msgstr "&nbsp;"
 
 #: ../../source/frequently_asked_questions.md:8
 msgid "Can't Download Firmware"
-msgstr ""
+msgstr "无法下载固件"
 
 #: ../../source/frequently_asked_questions.md:10
 msgid "Use a better USB cable, or change a USB socket;"
-msgstr ""
+msgstr "使用更好的USB线,或更换USB底座;"
 
 #: ../../source/frequently_asked_questions.md:11
 msgid ""
@@ -53,39 +53,39 @@ msgid ""
 "can refer to this document: [Establish Serial Connection](https://heltec-"
 "automation-"
 "docs.readthedocs.io/en/latest/general/establish_serial_connection.html);"
-msgstr ""
+msgstr "检查并确保CP210x驱动器已正确安装,用户可以参考以下文档:[建立串行连接] Connection](https://heltec-automation-docs.readthedocs.io/en/latest/general/establish_serial_connection.html);"
 
 #: ../../source/frequently_asked_questions.md:12
 msgid "Press \"PRG\" button before upload."
-msgstr ""
+msgstr "上传前按\"PRG\"按钮."
 
 #: ../../source/frequently_asked_questions.md:16
 msgid "Orange LED Blink Problem"
-msgstr ""
+msgstr "橙色LED闪烁问题"
 
 #: ../../source/frequently_asked_questions.md:18
 msgid ""
 "Annoying orange LED lights are always flashing? It's because the battery "
 "management chip MCP73831. with the following control logic:"
-msgstr ""
+msgstr "橙色LED灯总是闪烁？因为电池管理芯片MCP73831.具有以下控制逻辑："
 
 #: ../../source/frequently_asked_questions.md:20
 msgid "Blink -- Power on"
-msgstr ""
+msgstr "闪烁--打开电源"
 
 #: ../../source/frequently_asked_questions.md:21
 #: ../../source/frequently_asked_questions.md:31
 msgid "Light -- Charging"
-msgstr ""
+msgstr "高亮--充电"
 
 #: ../../source/frequently_asked_questions.md:22
 #: ../../source/frequently_asked_questions.md:32
 msgid "Turn OFF -- Battery filled"
-msgstr ""
+msgstr "关闭--电池已充满"
 
 #: ../../source/frequently_asked_questions.md:24
 msgid "Change this capacitor to 220nF to temporarily correct this problem."
-msgstr ""
+msgstr "将此电容器改为220nF,以暂时解决此问题。"
 
 #: ../../source/frequently_asked_questions.md:26
 msgid "![](img/frequently_asked_questions/replcae.png)"
@@ -95,37 +95,37 @@ msgstr ""
 msgid ""
 "We had use the TP4054 to replace MCP73831, the orange LED have new "
 "control logic:"
-msgstr ""
+msgstr "我们用TP4054代替了MCP73831,橙色的LED有了新的控制逻辑："
 
 #: ../../source/frequently_asked_questions.md:30
 msgid "Dim -- Power on"
-msgstr ""
+msgstr "暗淡--打开电源"
 
 #: ../../source/frequently_asked_questions.md:36
 msgid "Another Communication Bus Usage Example"
-msgstr ""
+msgstr "其他通信总线使用示例"
 
 #: ../../source/frequently_asked_questions.md:38
 msgid ""
 "**[SPI0 / SPI1 / SPI2 / SPI3](https://github.com/Heltec-Aaron-"
 "Lee/WiFi_Kit_series/tree/master/esp32/libraries/SPI/examples/SPI_Multiple_Buses)**"
-msgstr ""
+msgstr "**[SPI0 / SPI1 / SPI2 / SPI3](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/tree/master/esp32/libraries/SPI/examples/SPI_Multiple_Buses)**"
 
 #: ../../source/frequently_asked_questions.md:39
 msgid ""
 "**[I2C0 / "
 "I2C1](https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/examples/ESP32/I2C1_Scanner/I2C1_Scanner.ino)**"
-msgstr ""
+msgstr "**[I2C0 /I2C1](https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/examples/ESP32/I2C1_Scanner/I2C1_Scanner.ino)**"
 
 #: ../../source/frequently_asked_questions.md:40
 msgid ""
 "**[UART0 / "
 "UART1](https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/examples/ESP32/Serial2/Serial2.ino)**"
-msgstr ""
+msgstr "**[UART0 /UART1](https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/examples/ESP32/Serial2/Serial2.ino)**"
 
 #: ../../source/frequently_asked_questions.md:44
 msgid "System Reset All the Time"
-msgstr ""
+msgstr "系统一直复位"
 
 #: ../../source/frequently_asked_questions.md:46
 msgid "![](img/frequently_asked_questions/resetallthetime.png)"
@@ -135,99 +135,99 @@ msgstr ""
 msgid ""
 "According to the situation we have collected so far, the most likely to "
 "cause a constant reset problem may have two reasons:"
-msgstr ""
+msgstr "根据我们目前收集到的情况，最有可能导致恒定复位问题的可能有两个原因："
 
 #: ../../source/frequently_asked_questions.md:50
 msgid "Power supply problem: please make sure the voltage of USB ≥ 4.7V, 300mA;"
-msgstr ""
+msgstr "电源问题:请确认USB电压≥4.7V，300mA;"
 
 #: ../../source/frequently_asked_questions.md:51
 msgid ""
 "You chose an error board: because each type of board may have a different"
 " FLASH size, and they have a different partition map, it will cause the "
 "internal logic error."
-msgstr ""
+msgstr "您下载程序时没有选择对应的开发板:因为每种类型的板可能有不同的FLASH大小,并且它们有不同的分区映射,这将导致内部逻辑错误."
 
 #: ../../source/frequently_asked_questions.md:53
 msgid "About WiFi LoRa 32(V2) Sleep Current Test"
-msgstr ""
+msgstr "关于WiFi LoRa 32（V2）睡眠电流测试"
 
 #: ../../source/frequently_asked_questions.md:55
 msgid ""
 "Use the battery to power the development board, and connect an ammeter to"
 " the positive pole of the battery. Download this [Example "
 "Code](https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/examples/Low_Power/Low_Power.ino)"
-msgstr ""
+msgstr "使用电池为开发板供电,并将电流表串联接入电路,下载这个[示例代码](https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/examples/Low_Power/Low_Power.ino)"
 
 #: ../../source/frequently_asked_questions.md:57
 msgid ""
 "This video is the test effect:[Test "
 "Video](https://v.youku.com/v_show/id_XNDI2NTE1NTQ3Ng==.html?spm=a2h3j.8428770.3416059.1)"
-msgstr ""
+msgstr "这段视频是测试效果:[测试视频](https://v.youku.com/v_show/id_XNDI2NTE1NTQ3Ng==.html?spm=a2h3j.8428770.3416059.1)"
 
 #: ../../source/frequently_asked_questions.md:59
 msgid "Node to node communication"
-msgstr ""
+msgstr "点对点通信"
 
 #: ../../source/frequently_asked_questions.md:61
 msgid ""
 "On the premise of no hardware problem, LoRa nodes can communicate with "
 "each other node-to-node. The key to success node-to-node communication "
 "need make sure the following 7 points the same:"
-msgstr ""
+msgstr "在不存在硬件问题的前提下，LoRa节点可以进行点对点通信。点对点通信成功的关键在于确保以下7点相同:"
 
 #: ../../source/frequently_asked_questions.md:63
 msgid "The same sending and listening frequency: `LoRa.setFrequency(frequency);`"
-msgstr ""
+msgstr "相同的发送和接收频率:`LoRa.setFrequency(frequency);` "
 
 #: ../../source/frequently_asked_questions.md:64
 msgid "The same bandwidth: `LoRa.setSignalBandwidth(signalBandwidth);`"
-msgstr ""
+msgstr "相同的带宽:`LoRa.setSignalBandwidth(signalBandwidth);`"
 
 #: ../../source/frequently_asked_questions.md:65
 msgid "The same coding rate: `LoRa.setCodingRate4(codingRateDenominator);`"
-msgstr ""
+msgstr "相同的编码率:`LoRa.setCodingRate4(codingRateDenominator);`"
 
 #: ../../source/frequently_asked_questions.md:66
 msgid "The same preamble length: `LoRa.setPreambleLength(preambleLength);`"
-msgstr ""
+msgstr "相同的前导码长度:  `LoRa.setPreambleLength(preambleLength);`"
 
 #: ../../source/frequently_asked_questions.md:67
 msgid "The same sync word: `LoRa.setSyncWord(syncWord);`"
-msgstr ""
+msgstr "相同的同步字:`LoRa.setSyncWord(syncWord);`"
 
 #: ../../source/frequently_asked_questions.md:68
 msgid "The status of `LORA_IQ_INVERSION` is the same;"
-msgstr ""
+msgstr "相同的`LORA_IQ_INVERSION`状态;"
 
 #: ../../source/frequently_asked_questions.md:69
 msgid "the same `SPREADING FACTOR`;"
-msgstr ""
+msgstr "相同的SPREADING FACTOR;"
 
 #: ../../source/frequently_asked_questions.md:71
 msgid ""
 "Know more information about LoRa node-to-node communication, please refer"
 " to LoRa basic library APIs: "
 "`https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/src/lora/API.md`"
-msgstr ""
+msgstr "了解更多关于LoRa节点间通信的信息,请参考LoRa基本库APIs:`https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/src/lora/API.md`"
 
 #: ../../source/frequently_asked_questions.md:73
 msgid "Vext control"
-msgstr ""
+msgstr "外部设备电源控制"
 
 #: ../../source/frequently_asked_questions.md:75
 msgid ""
 "The `Vext` is a power source for external devices. Refer from the "
 "schematic diagram, It's controlled by GPIO21:"
-msgstr ""
+msgstr "`Vext`是外部设备的电源.从原理图上看,由GPIO21控制:"
 
 #: ../../source/frequently_asked_questions.md:77
 msgid "`GPIO 21 --> LOW --> Vext(3.3V/250mA) ON`"
-msgstr ""
+msgstr "`GPIO 21 --> 低电平 --> Vext(3.3V/250mA) 开启`"
 
 #: ../../source/frequently_asked_questions.md:79
 msgid "`GPIO 21 --> HIGH --> Vext(3.3V/250mA) OFF`"
-msgstr ""
+msgstr "`GPIO 21 --> 高电平 --> Vext(3.3V/250mA) 关闭`"
 
 #: ../../source/frequently_asked_questions.md:83
 msgid "![](img/frequently_asked_questions/03.png)"

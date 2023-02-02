@@ -20,15 +20,15 @@ msgstr ""
 
 #: ../../source/index.rst:15
 msgid "Quick Start"
-msgstr ""
+msgstr "快速入门"
 
 #: ../../source/index.rst:2
 msgid "SX1301/8 Module"
-msgstr ""
+msgstr "SX1301/8模块"
 
 #: ../../source/index.rst:3
 msgid ":ht_translation:`[简体中文]:[English]`"
-msgstr ""
+msgstr ":ht_translation:`[简体中文]:[English]`"
 
 #: ../../source/index.rst:5
 msgid ""
@@ -39,38 +39,50 @@ msgid ""
 "and Linux operating system (such as Raspberry Pi), then it can work as a "
 "LoRa gateway."
 msgstr ""
+"对于SX1301和SX1308, 它们的性能, 驱动程序, 接口封装"
+"和功能是完全相同的. 其差值就是工作"
+"温度范围. SX1301定位为室外型, SX1308"
+"定位为室内型. 与合适的驱动硬件"
+"和Linux操作系统 (如树莓派)合作, 就可以作为"
+"LoRa网关."
 
 #: ../../source/index.rst:7
 msgid "SX1301/SX1308 baseband chip;"
-msgstr ""
+msgstr "SX1301/SX1308基带芯片;"
 
 #: ../../source/index.rst:8
 msgid "SPI bus;"
-msgstr ""
+msgstr "SPI总线;"
 
 #: ../../source/index.rst:9
 msgid "SX1255/57 digital I and Q RF Multi-PHY Mode Analog Front End."
-msgstr ""
+msgstr "SX1255/57数字I和Q RF多PHY模式模拟前端."
 
 #: ../../source/index.rst:13
 msgid ""
 "SX1301/SX1308 will generate large heat when working, pay attention to the"
 " heat dissipation design."
 msgstr ""
+"SX1301/SX1308在工作时会产生较大的热量, 注意"
+"散热设计."
 
 #: ../../source/index.rst:21
 msgid "Relevant Offical Resources"
-msgstr ""
+msgstr "相关官方资源"
 
 #: ../../source/index.rst:23
 msgid ""
 "`Pin out diagram "
 "<https://resource.heltec.cn/download/sx1301_module/LoRaGateway_Module_pinout.pdf>`_."
 msgstr ""
+"`引脚图 "
+"<https://resource.heltec.cn/download/sx1301_module/LoRaGateway_Module_pinout.pdf>`_."
 
 #: ../../source/index.rst:24
 msgid ""
 "`minimal system reference design "
 "<http://resource.heltec.cn/download/sx1301_module/SX1301_reference_design.pdf>`_."
 msgstr ""
+"`最小系统参考设计 "
+"<http://resource.heltec.cn/download/sx1301_module/SX1301_reference_design.pdf>`_."
 

@@ -19,21 +19,23 @@ msgstr ""
 
 #: ../../source/update_firmware.md:1
 msgid "HT-M01S (Rev. 2.0) Firmware Upgrade"
-msgstr ""
+msgstr "HT-M01S (Rev. 2.0) 固件升级"
 
 #: ../../source/update_firmware.md:3
 msgid "{ht_translation}`[简体中文]:[English]`"
-msgstr ""
+msgstr "{ht_translation}`[简体中文]:[English]`"
 
 #: ../../source/update_firmware.md:6
 msgid "Summary"
-msgstr ""
+msgstr "概要"
 
 #: ../../source/update_firmware.md:8
 msgid ""
 "This article aims to describe how to upgrade the HT-M01S (Rev. 2.0) "
 "firmware."
 msgstr ""
+"本文旨在介绍如何升级HT-M01S (Rev. 2.0)"
+"固件."
 
 #: ../../source/update_firmware.md:11
 msgid ""
@@ -41,36 +43,41 @@ msgid ""
 " IDs when modifying the gateway ID, please modify the \"FFFF\" part in "
 "the middle, thank you!"
 msgstr ""
+"如果您的网关ID被占用, 为了避免在修改网关ID"
+"时占用其他网关ID, 请修改中间的 \"FFFF\" "
+"部分, 谢谢!"
 
 #: ../../source/update_firmware.md:14 ../../source/update_firmware.md:23
 msgid "&nbsp;"
-msgstr ""
+msgstr "&nbsp;"
 
 #: ../../source/update_firmware.md:16
 msgid "Firmware Upgrade Logs"
-msgstr ""
+msgstr "固件升级日志"
 
 #: ../../source/update_firmware.md:18
 msgid "V1.5"
-msgstr ""
+msgstr "V1.5"
 
 #: ../../source/update_firmware.md:19
 msgid "Initial release(Modified based on the old HT-M01S firmware)."
-msgstr ""
+msgstr "首次发布(在旧HT-M01S固件基础上修改)."
 
 #: ../../source/update_firmware.md:20
 msgid "v1.6"
-msgstr ""
+msgstr "v1.6"
 
 #: ../../source/update_firmware.md:21
 msgid ""
 "Fix a bug in json data parsing that may cause memory overflow, and add "
 "serial port to print MAC address."
 msgstr ""
+"修正了json数据解析中可能导致内存溢出的错误, 并增加"
+"了串口打印MAC地址."
 
 #: ../../source/update_firmware.md:27
 msgid "Upgrade Firmware"
-msgstr ""
+msgstr "升级固件"
 
 #: ../../source/update_firmware.md:29
 msgid ""
@@ -80,16 +87,23 @@ msgid ""
 "compressed package, please refer to \" [Complete Firmware Upgrade"
 "](complete-firmware-upgrade) \" for firmware upgrade."
 msgstr ""
+"该方法适用于升级固件时不改变"
+"网关配置页面. 也就是说, 这个版本的固件只有"
+"相应的bin文件. 如果此版本的固件是"
+"压缩包, 固件升级请参考 \" [完成固件升级"
+"](complete-firmware-upgrade) \"."
 
 #: ../../source/update_firmware.md:31
 msgid ""
 "Download [HT-M01S (Rev. 2.0) corresponding upgrade "
 "firmware](https://resource.heltec.cn/download/HT-M01S_V2/firmware)。"
 msgstr ""
+"下载 [HT-M01S (Rev. 2.0) 对应的升级"
+"固件](https://resource.heltec.cn/download/HT-M01S_V2/firmware)。"
 
 #: ../../source/update_firmware.md:33
 msgid "![](img/update_firmware/01.png)"
-msgstr ""
+msgstr "![](img/update_firmware/01.png)"
 
 #: ../../source/update_firmware.md:35
 msgid ""
@@ -97,34 +111,41 @@ msgid ""
 "to [HT-M01S (Rev. 2.0) Quick Start](https://docs.heltec.org/en/gateway"
 "/ht-m01s_v2/quick_start.html))，click \"Firmwaer Update\"。"
 msgstr ""
+"进入 HT-M01S (Rev. 2.0) 网关配置界面 (可参"
+"考 [HT-M01S (Rev. 2.0) 快速入门](https://docs.heltec.org/en/gateway"
+"/ht-m01s_v2/quick_start.html))，点击 \"Firmwaer Update\"。"
 
 #: ../../source/update_firmware.md:37
 msgid "![](img/update_firmware/02.png)"
-msgstr ""
+msgstr "![](img/update_firmware/02.png)"
 
 #: ../../source/update_firmware.md:39
 msgid ""
 "Click \"Select firmware\" to select the corresponding upgrade firmware "
 "that has been downloaded, and click \"Update\" to upgrade."
 msgstr ""
+"点击 \"Select firmware\" 选择已下载的"
+"相应升级固件, 点击 \"Update\" 进行升级."
 
 #: ../../source/update_firmware.md:41
 msgid "![](img/update_firmware/03.png)"
-msgstr ""
+msgstr "![](img/update_firmware/03.png)"
 
 #: ../../source/update_firmware.md:43
 msgid ""
 "After the upgrade is complete, a corresponding prompt will pop up and "
 "restart the gateway."
 msgstr ""
+"升级完成后, 会弹出相应的提示, "
+"并重启网关."
 
 #: ../../source/update_firmware.md:45
 msgid "![](img/update_firmware/04.png)"
-msgstr ""
+msgstr "![](img/update_firmware/04.png)"
 
 #: ../../source/update_firmware.md:49
 msgid "Complete Firmware Upgrade"
-msgstr ""
+msgstr "完成固件升级"
 
 #: ../../source/update_firmware.md:51
 msgid ""
@@ -132,10 +153,13 @@ msgid ""
 "accidentally overwrites the gateway firmware, it is necessary to burn the"
 " complete gateway firmware."
 msgstr ""
+"如果新固件修改了网关的web配置, 或者用户"
+"不小心覆盖了网关固件, 则需要烧录"
+"完整的网关固件."
 
 #: ../../source/update_firmware.md:53
 msgid "Download Firmware"
-msgstr ""
+msgstr "下载固件"
 
 #: ../../source/update_firmware.md:55
 msgid ""
@@ -143,22 +167,25 @@ msgid ""
 "firmware](https://resource.heltec.cn/download/HT-"
 "M01S_V2/firmware/complete_firmware)。"
 msgstr ""
+"下载 [HT-M01S (Rev. 2.0) 完整"
+"固件](https://resource.heltec.cn/download/HT-"
+"M01S_V2/firmware/complete_firmware)。"
 
 #: ../../source/update_firmware.md:57
 msgid "Open the downloaded file and edit the \"M01S_Vx_x.bat\" file."
-msgstr ""
+msgstr "打开下载的文件并编辑 \"M01S_Vx_x.bat\" 文件."
 
 #: ../../source/update_firmware.md:59
 msgid "![](img/update_firmware/05.png)"
-msgstr ""
+msgstr "![](img/update_firmware/05.png)"
 
 #: ../../source/update_firmware.md:61
 msgid "Change the COM port to the corresponding COM port of HT-M01S (Rev. 2.0)."
-msgstr ""
+msgstr "将COM口修改为HT-M01S (Rev. 2.0)对应的COM口."
 
 #: ../../source/update_firmware.md:63
 msgid "![](img/update_firmware/06.png)"
-msgstr ""
+msgstr "![](img/update_firmware/06.png)"
 
 #: ../../source/update_firmware.md:65
 msgid ""
@@ -167,10 +194,14 @@ msgid ""
 " the serial port to print \"waiting for download\" -> release the \"+\" "
 "key."
 msgstr ""
+"打开HT-M01S (Rev. 2.0)对应的串口, 按"
+"\"+\" 键- -> 按 \"RST\" 键 -> 释放 \"RST\" 键 -> 等待"
+"串口打印 \"waiting for download\" -> 释放 \"+\" "
+"键."
 
 #: ../../source/update_firmware.md:67
 msgid "![](img/update_firmware/07.png)"
-msgstr ""
+msgstr "![](img/update_firmware/07.png)"
 
 #: ../../source/update_firmware.md:69
 msgid ""
@@ -180,14 +211,19 @@ msgid ""
 "After the window closes automatically, the firmware programming is "
 "complete."
 msgstr ""
+"双击运行 \"M01S_Vx_x.bat\". 当进入下图所示"
+"界面时, 执行以下操作, 按 \"+\" "
+"键 -> 按 \"RST\" 键 -> 释放 \"RST\" 键 -> 释放 \"+\" 键. "
+"窗口自动关闭后, 固件编程就"
+"完成了."
 
 #: ../../source/update_firmware.md:71
 msgid "![](img/update_firmware/08.png)"
-msgstr ""
+msgstr "![](img/update_firmware/08.png)"
 
 #: ../../source/update_firmware.md:73
 msgid "Activate the Gateway"
-msgstr ""
+msgstr "激活网关"
 
 #: ../../source/update_firmware.md:75
 msgid ""
@@ -195,10 +231,13 @@ msgid ""
 "corresponding to the HT-M01S (Rev. 2.0) and read the corresponding ESP32 "
 "chip ID of the gateway. Baud rate is 115200."
 msgstr ""
+"固件下载完成后, 打开"
+"HT-M01S (Rev. 2.0)对应的串口, 读取对应网关的ESP32"
+"芯片ID. 波特率为115200."
 
 #: ../../source/update_firmware.md:77
 msgid "![](img/update_firmware/09.png)"
-msgstr ""
+msgstr "![](img/update_firmware/09.png)"
 
 #: ../../source/update_firmware.md:79
 msgid ""
@@ -207,10 +246,14 @@ msgid ""
 "enter the ESP32 chip ID to query the serial number corresponding to the "
 "gateway."
 msgstr ""
+"输入"
+"[https://resource.heltec.cn/search](https://resource.heltec.cn/search), "
+"输入ESP32芯片ID, 查询网关对应的"
+"序列号."
 
 #: ../../source/update_firmware.md:81
 msgid "![](img/update_firmware/10.png)"
-msgstr ""
+msgstr "![](img/update_firmware/10.png)"
 
 #: ../../source/update_firmware.md:83
 msgid ""
@@ -221,12 +264,18 @@ msgid ""
 "if the license is 0x12345678, 0x12345678, 0x12345678, 0x12345678, the "
 "activation command is AT+CDKEY=12345678123456781234567812345678"
 msgstr ""
+"打开HT-M01S (Rev. 2.0)对应的串口, 通过串口"
+"发送命令\"AT+CDKEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\""
+"激活网关. 其中, "
+"\"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\"是32位的许可证. 例如, "
+"如果许可证是 0x12345678, 0x12345678, 0x12345678, 0x12345678, 那么"
+"激活命令是 AT+CDKEY=12345678123456781234567812345678"
 
 #: ../../source/update_firmware.md:85
 msgid "![](img/update_firmware/11.png)"
-msgstr ""
+msgstr "![](img/update_firmware/11.png)"
 
 #: ../../source/update_firmware.md:87
 msgid "After the screen displays normally, the gateway is activated successfully."
-msgstr ""
+msgstr "屏幕显示正常后, 表示激活成功."
 

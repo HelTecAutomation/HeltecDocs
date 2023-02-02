@@ -20,11 +20,11 @@ msgstr ""
 
 #: ../../source/frequently_asked_questions.md:1
 msgid "Heltec<sup>TM</sup> ESP32+Arduino Series Frequently Asked Questions"
-msgstr ""
+msgstr "Heltec<sup>TM</sup> ESP32+Arduino 系列常见问题"
 
 #: ../../source/frequently_asked_questions.md:2
 msgid "{ht_translation}`[简体中文]:[English]`"
-msgstr ""
+msgstr "{ht_translation}`[简体中文]:[English]`"
 
 #: ../../source/frequently_asked_questions.md:4
 msgid ""
@@ -32,21 +32,24 @@ msgid ""
 "page's detail can't solve your problem, you can also talk in our forum: "
 "[community.heltec.cn](http://community.heltec.cn/)"
 msgstr ""
+"此页面包含来自用户的最常见问题. 如果此 "
+"页面的回答不能解决您的问题, 您也可以在我们的论坛里讨论: "
+"[community.heltec.cn](http://community.heltec.cn/)"
 
 #: ../../source/frequently_asked_questions.md:6
 #: ../../source/frequently_asked_questions.md:14
 #: ../../source/frequently_asked_questions.md:34
 #: ../../source/frequently_asked_questions.md:42
 msgid "&nbsp;"
-msgstr ""
+msgstr "&nbsp;"
 
 #: ../../source/frequently_asked_questions.md:8
 msgid "Can't Download Firmware"
-msgstr ""
+msgstr "无法下载固件"
 
 #: ../../source/frequently_asked_questions.md:10
 msgid "Use a better USB cable, or change a USB socket;"
-msgstr ""
+msgstr "使用更好的USB线, 或者更换USB插座;"
 
 #: ../../source/frequently_asked_questions.md:11
 msgid ""
@@ -55,92 +58,108 @@ msgid ""
 "automation-"
 "docs.readthedocs.io/en/latest/general/establish_serial_connection.html);"
 msgstr ""
+"检查并确保已正确安装CP210x驱动器, 用户 "
+"可参考此文档: [建立串行连接](https://heltec-"
+"automation-"
+"docs.readthedocs.io/en/latest/general/establish_serial_connection.html);"
 
 #: ../../source/frequently_asked_questions.md:12
 msgid "Press \"PRG\" button before upload."
-msgstr ""
+msgstr "上传前按 \"PRG\" 键."
 
 #: ../../source/frequently_asked_questions.md:16
 msgid "Orange LED Blink Problem"
-msgstr ""
+msgstr "橙色LED闪烁问题"
 
 #: ../../source/frequently_asked_questions.md:18
 msgid ""
 "Annoying orange LED lights are always flashing? It's because the battery "
 "management chip MCP73831. with the following control logic:"
 msgstr ""
+"烦人的橙色LED灯总是在闪烁? 这是因为电池 "
+"管理芯片 MCP73831. 具有以下控制逻辑:"
 
 #: ../../source/frequently_asked_questions.md:20
 msgid "Blink -- Power on"
-msgstr ""
+msgstr "闪烁 -- 电源开"
 
 #: ../../source/frequently_asked_questions.md:21
 #: ../../source/frequently_asked_questions.md:31
 msgid "Light -- Charging"
-msgstr ""
+msgstr "长亮 -- 充电"
 
 #: ../../source/frequently_asked_questions.md:22
 #: ../../source/frequently_asked_questions.md:32
 msgid "Turn OFF -- Battery filled"
-msgstr ""
+msgstr "关闭 -- 电量已满"
 
 #: ../../source/frequently_asked_questions.md:24
 msgid "Change this capacitor to 220nF to temporarily correct this problem."
-msgstr ""
+msgstr "将这个电容更改为220nF可以暂时纠正这个问题."
 
 #: ../../source/frequently_asked_questions.md:26
 msgid "![](img/frequently_asked_questions/01.png)"
-msgstr ""
+msgstr "![](img/frequently_asked_questions/01.png)"
 
 #: ../../source/frequently_asked_questions.md:28
 msgid ""
 "We had use the TP4054 to replace MCP73831, the orange LED have new "
 "control logic:"
 msgstr ""
+"我们用TP4054代替MCP73831, 橙色 LED 有新的 "
+"控制逻辑:"
 
 #: ../../source/frequently_asked_questions.md:30
 msgid "Dim -- Power on"
-msgstr ""
+msgstr "暗 -- 电源开"
 
 #: ../../source/frequently_asked_questions.md:36
 msgid "Another Communication Bus Usage Example"
-msgstr ""
+msgstr "另一个通信总线使用示例"
 
 #: ../../source/frequently_asked_questions.md:38
 msgid ""
 "**[SPI0 / SPI1 / SPI2 / SPI3](https://github.com/Heltec-Aaron-"
 "Lee/WiFi_Kit_series/tree/master/esp32/libraries/SPI/examples/SPI_Multiple_Buses)**"
 msgstr ""
+"**[SPI0 / SPI1 / SPI2 / SPI3](https://github.com/Heltec-Aaron-"
+"Lee/WiFi_Kit_series/tree/master/esp32/libraries/SPI/examples/SPI_Multiple_Buses)**"
 
 #: ../../source/frequently_asked_questions.md:39
 msgid ""
 "**[I2C0 / "
 "I2C1](https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/examples/ESP32/I2C_Scanner/I2C_Scanner.ino)**"
 msgstr ""
+"**[I2C0 / "
+"I2C1](https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/examples/ESP32/I2C_Scanner/I2C_Scanner.ino)**"
 
 #: ../../source/frequently_asked_questions.md:40
 msgid ""
 "**[UART0 / "
 "UART1](https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/examples/ESP32/Serial2/Serial2.ino)**"
 msgstr ""
+"**[UART0 / "
+"UART1](https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/examples/ESP32/Serial2/Serial2.ino)**"
 
 #: ../../source/frequently_asked_questions.md:44
 msgid "System Reset All the Time"
-msgstr ""
+msgstr "系统不断重置"
 
 #: ../../source/frequently_asked_questions.md:46
 msgid "![](img/frequently_asked_questions/02.png)"
-msgstr ""
+msgstr "![](img/frequently_asked_questions/02.png)"
 
 #: ../../source/frequently_asked_questions.md:48
 msgid ""
 "According to the situation we have collected so far, the most likely to "
 "cause a constant reset problem may have two reasons:"
 msgstr ""
+"根据我们目前收集到的情况, 最可能导致 "
+"不断重置的问题可能有两个原因:"
 
 #: ../../source/frequently_asked_questions.md:50
 msgid "Power supply problem: please make sure the voltage of USB ≥ 4.7V, 300mA;"
-msgstr ""
+msgstr "电源问题: 请确认USB电压 ≥ 4.7V, 300mA;"
 
 #: ../../source/frequently_asked_questions.md:51
 msgid ""
@@ -148,28 +167,33 @@ msgid ""
 " FLASH size, and they have a different partition map, it will cause the "
 "internal logic error."
 msgstr ""
+"您选择了一个错误板: 因为每种类型的板可能有不同的"
+" FLASH 大小, 它们有不同的分区映射, 这将导致 "
+"内部逻辑错误."
 
 #: ../../source/frequently_asked_questions.md:53
 msgid "Vext Control"
-msgstr ""
+msgstr "Vext 控制"
 
 #: ../../source/frequently_asked_questions.md:55
 msgid ""
 "The `Vext` is a power source for external devices. Refer from the "
 "schematic diagram, It's controlled by GPIO21:"
 msgstr ""
+"`Vext` 是外部设备的电源. 参考 "
+"原理图, 它由 GPIO21控制:"
 
 #: ../../source/frequently_asked_questions.md:57
 msgid "![](img/frequently_asked_questions/03.png)"
-msgstr ""
+msgstr "![](img/frequently_asked_questions/03.png)"
 
 #: ../../source/frequently_asked_questions.md:59
 msgid "`GPIO 21 --> LOW --> Vext(3.3V/250mA) ON`"
-msgstr ""
+msgstr "`GPIO 21 --> LOW --> Vext(3.3V/250mA) 开`"
 
 #: ../../source/frequently_asked_questions.md:61
 msgid "`GPIO 21 --> HIGH --> Vext(3.3V/250mA) OFF`"
-msgstr ""
+msgstr "GPIO 21 --> HIGH --> Vext(3.3V/250mA) 关"
 
 #: ../../source/frequently_asked_questions.md:64
 msgid ""
@@ -177,4 +201,7 @@ msgid ""
 "mode. When the system need in deep sleep status, we can turn off the Vext"
 " by set GPIO 21 to HIGH, then to save energy."
 msgstr ""
+"对于一些没有深度睡眠的设备来说, Vext功能非常 "
+"重要. 当系统需要处于深度睡眠状态时, 我们可以通过将"
+"GPIO 21 设置为 HIGH来关闭Vext, 以节能."
 

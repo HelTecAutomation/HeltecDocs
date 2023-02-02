@@ -20,29 +20,31 @@ msgstr ""
 
 #: ../../source/index.rst:16
 msgid "Quick Start"
-msgstr ""
+msgstr "快速启动"
 
 #: ../../source/index.rst:16
 msgid "ESP32 Arduino Dev-Board"
-msgstr ""
+msgstr "ESP32 Arduino Dev-Board"
 
 #: ../../source/index.rst:16
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "常见问题"
 
 #: ../../source/index.rst:2
 msgid "Contents"
-msgstr ""
+msgstr "目录"
 
 #: ../../source/index.rst:3
 msgid ":ht_translation:`[简体中文]:[English]`"
-msgstr ""
+msgstr ":ht_translation:`[简体中文]:[English]`"
 
 #: ../../source/index.rst:5
 msgid ""
 "This document branch is for `Heltec ESP32 + Arduino Node series "
 "<https://heltec.org/proudct_center/esp-arduino/>`_,"
 msgstr ""
+"此文档适用于 `Heltec ESP32 + Arduino Node 系列 "
+"<https://heltec.org/proudct_center/esp-arduino/>`_,"
 
 #: ../../source/index.rst:7
 msgid ""
@@ -50,42 +52,49 @@ msgid ""
 "core, 600 DMIPS, 520KB SRAM. The benefit of \"ESP32 + Arduino\" "
 "combination:"
 msgstr ""
+"SP32是一款功能强大的SoC, 具有240MHz Tensilica LX6双核和1 ULP "
+"核心, 600 DMIPS, 520KB SRAM.  \"ESP32 + Arduino\" "
+"组合的好处:"
 
 #: ../../source/index.rst:9
 msgid ""
 "Multi wireless communication technical on board, include Wi-Fi, "
 "BlueTooh/BLE;"
 msgstr ""
+"板上多种无线通信技术, 包括 Wi-Fi, "
+"蓝牙/BLE;"
 
 #: ../../source/index.rst:10
 msgid "Powerful computing skills;"
-msgstr ""
+msgstr "强大的计算能力;"
 
 #: ../../source/index.rst:11
 msgid "Large FLASH size;"
-msgstr ""
+msgstr "大 FLASH size;"
 
 #: ../../source/index.rst:12
 msgid "Power mananagement system and Li-Po support;"
-msgstr ""
-
-#: ../../source/index.rst:13
+msgstr "电源管理系统和 Li-Po 支持;"
 msgid "Arduino-compitable;"
-msgstr ""
+msgstr "Arduino-兼容;"
 
 #: ../../source/index.rst:14
 msgid ""
 "We also provide `ESP32 Node Arduino library "
 "<https://github.com/HelTecAutomation/Heltec_ESP32>`_;"
 msgstr ""
+"我们还提供 `ESP32 Node Arduino 库 "
+"<https://github.com/HelTecAutomation/Heltec_ESP32>`_;"
 
 #: ../../source/index.rst:24
 msgid "Relevant Offical Resources"
-msgstr ""
+msgstr "相关官方资源"
 
 #: ../../source/index.rst:26
 msgid ""
 "`Heltec ESP32 development framework source code <https://github.com"
 "/Heltec-Aaron-Lee/WiFi_Kit_series>`_;"
 msgstr ""
+"`Heltec ESP32 开发框架源代码 <https://github.com"
+"/Heltec-Aaron-Lee/WiFi_Kit_series>`_;"
 

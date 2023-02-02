@@ -10,7 +10,7 @@ proj_type=$(${ls_command})
 
 
 build () {
-  python -m sphinx -T -E -b html -d _build/$1/$2/$3/doctrees -D language=$1 $4 _build/html/$1/$2/$3
+  python -m sphinx -T -E -b html -d _build/$1/$2/$3/doctrees -D language=$1 $4 ../../_readthedocs/html/$1/$2/$3
 }
 
 

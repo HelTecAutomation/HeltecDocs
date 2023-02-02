@@ -19,7 +19,7 @@ msgstr ""
 
 #: ../../source/lorawan/connect_to_gateway.md:1
 msgid "Connect \"STM32 + LoRa\" to LoRaWAN Server"
-msgstr ""
+msgstr "连接 \"STM32 + LoRa\"到LoRaWAN服务器"
 
 #: ../../source/lorawan/connect_to_gateway.md:2
 msgid "{ht_translation}`[简体中文]:[English]`"
@@ -30,7 +30,7 @@ msgid ""
 "In this document, all operations and tests must be performed with a "
 "standard [LoRaWAN Gateway](https://heltec.org/proudct_center/lora/lora-"
 "gateway/), and at least have 8 channels!"
-msgstr ""
+msgstr "在本文档中,所有操作和测试必须使用标准的[LoRaWAN Gateway](https://heltec.org/proudct_center/lora/lora-gateway/)进行,并且至少有8个通道."
 
 #: ../../source/lorawan/connect_to_gateway.md:6
 msgid ""
@@ -38,34 +38,34 @@ msgid ""
 "LoRa” Node Preparation & Config "
 "Parameters](https://docs.heltec.org/en/node/stm32/lorawan/config_parameter.html)"
 " .**"
-msgstr ""
+msgstr "开始前请仔细阅读本文档: **[“STM32 +Parameters](https://docs.heltec.org/en/node/stm32/lorawan/config_parameter.html).**"
 
 #: ../../source/lorawan/connect_to_gateway.md:8
 #: ../../source/lorawan/connect_to_gateway.md:28
 #: ../../source/lorawan/connect_to_gateway.md:44
 msgid "&nbsp;"
-msgstr ""
+msgstr "&nbsp;"
 
 #: ../../source/lorawan/connect_to_gateway.md:10
 msgid "Connect to TTN/TTS"
-msgstr ""
+msgstr "连接到TTN"
 
 #: ../../source/lorawan/connect_to_gateway.md:12
 msgid ""
 "Before that, make sure there is a LoRa Gateway active in your "
 "[TTN](https://console.thethingsnetwork.org/)/[TTS](https://lora.heltec.org/console)"
 " account."
-msgstr ""
+msgstr "在此之前,请确保您的[TTN](https://console.thethingsnetwork.org/)/[TTS](https://lora.heltec.org/console)帐户中有一个激活的LoRa网关."
 
 #: ../../source/lorawan/connect_to_gateway.md:14
 msgid "Register a device"
-msgstr ""
+msgstr "注册设备"
 
 #: ../../source/lorawan/connect_to_gateway.md:16
 msgid ""
 "Register a new device in TTN or TTS “Applications” page. Select the "
 "corresponding Brand, Model, Hardware Version, Firmware Version, Region."
-msgstr ""
+msgstr "在TTN或者TTS的“Applications”页面注册新设备,选择相应的品牌,型号,硬件版本,固件版本,地区."
 
 #: ../../source/lorawan/connect_to_gateway.md:18
 msgid "![](img/connect_to_gateway/01.png)"
@@ -75,7 +75,7 @@ msgstr ""
 msgid ""
 "Select the frequency plan, and fill in the corresponding AppEUI, DevEUi, "
 "AppKey, and register the device."
-msgstr ""
+msgstr "选择频率方案,填写对应的AppEUI, DevEUi,AppKey,然后注册设备."
 
 #: ../../source/lorawan/connect_to_gateway.md:22
 msgid "![](img/connect_to_gateway/02.png)"
@@ -86,7 +86,7 @@ msgstr ""
 msgid ""
 "After registration is complete, if all is well, you will see the device "
 "active."
-msgstr ""
+msgstr "注册完成后,如果一切正常,您将看到设备处于活动状态."
 
 #: ../../source/lorawan/connect_to_gateway.md:26
 msgid "![](img/connect_to_gateway/03.png)"
@@ -94,13 +94,13 @@ msgstr ""
 
 #: ../../source/lorawan/connect_to_gateway.md:30
 msgid "Connect to ChirpStack"
-msgstr ""
+msgstr "连接到ChirpStack"
 
 #: ../../source/lorawan/connect_to_gateway.md:32
 msgid ""
 "Register a new device in ChirpStack’s “Applications” page. Enter the "
 "device name, description, DevEUI. Select Device-profile."
-msgstr ""
+msgstr "在ChirpStack的“Applications”页面注册一个新设备.输入设备名称,描述,DevEUI,选择设备概要文件."
 
 #: ../../source/lorawan/connect_to_gateway.md:34
 msgid "![](img/connect_to_gateway/04.png)"
@@ -108,7 +108,7 @@ msgstr ""
 
 #: ../../source/lorawan/connect_to_gateway.md:36
 msgid "Enter the Application key of the device."
-msgstr ""
+msgstr "输入设备的Application key"
 
 #: ../../source/lorawan/connect_to_gateway.md:38
 msgid "![](img/connect_to_gateway/05.png)"
@@ -120,19 +120,19 @@ msgstr ""
 
 #: ../../source/lorawan/connect_to_gateway.md:46
 msgid "Important Hints"
-msgstr ""
+msgstr "重要的提示"
 
 #: ../../source/lorawan/connect_to_gateway.md:48
 msgid "Please double check the following two things:"
-msgstr ""
+msgstr "请再次检查以下两件事:"
 
 #: ../../source/lorawan/connect_to_gateway.md:50
 msgid "The LoRaWAN parameters is the same as server;"
-msgstr ""
+msgstr "LoRaWAN参数与server参数相同;"
 
 #: ../../source/lorawan/connect_to_gateway.md:51
 msgid ""
 "The listening frequency of your LoRa Gateway is the same as STM32 LoRa "
 "node's sending frequency. We strictly follow [LoRaWAN™ 1.0.2 Regio"
-msgstr ""
+msgstr "你的LoRa 网关的监听频率和STM32节点的发送频率相同.我们严格遵守[LoRaWAN™ 1.0.2 Regio"
 

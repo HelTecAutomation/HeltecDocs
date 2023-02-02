@@ -20,7 +20,7 @@ msgstr ""
 #: ../../source/lorawan/get_lorawan_example_code.md:1
 #: ../../source/lorawan/get_lorawan_example_code.md:7
 msgid "Get LoRaWAN Example Code"
-msgstr ""
+msgstr "获取LoRaWAN示例代码"
 
 #: ../../source/lorawan/get_lorawan_example_code.md:2
 msgid "{ht_translation}`[简体中文]:[English]`"
@@ -28,30 +28,30 @@ msgstr ""
 
 #: ../../source/lorawan/get_lorawan_example_code.md:3
 msgid "Get Chip ID"
-msgstr ""
+msgstr "获取芯片ID"
 
 #: ../../source/lorawan/get_lorawan_example_code.md:5
 msgid ""
 "Please refer to this document:[How to Get Chip "
 "ID](https://docs.heltec.org/general/view_limited_technical_data.html#how-"
 "to-get-chip-id)"
-msgstr ""
+msgstr "请参考这篇文档:[怎样获取芯片ID](https://docs.heltec.org/general/view_limited_technical_data.html#how-to-get-chip-id)"
 
 #: ../../source/lorawan/get_lorawan_example_code.md:9
 msgid ""
 "Some example code is restrictive technical data, it will become "
 "downloadable after purchase.Please refer to the following steps."
-msgstr ""
+msgstr "一些示例代码是受限的技术数据,购买产品后将可下载.请参考以下步骤."
 
 #: ../../source/lorawan/get_lorawan_example_code.md:11
 msgid ""
 "Copy the Chip ID and open this link  "
 "[http://www.heltec.cn/search/](http://www.heltec.cn/search/)."
-msgstr ""
+msgstr "复制芯片ID并打开此链接[http://www.heltec.cn/search/](http://www.heltec.cn/search/)."
 
 #: ../../source/lorawan/get_lorawan_example_code.md:13
 msgid "Input the Chip ID,click `Confirm` ."
-msgstr ""
+msgstr "输入芯片ID,点击`Confirm` ."
 
 #: ../../source/lorawan/get_lorawan_example_code.md:15
 msgid "![](img/get_lorawan_example_code/01.png)"
@@ -61,7 +61,7 @@ msgstr ""
 msgid ""
 "You can see some informations about this board, click`Relevant Resource` "
 "，you can see the example code."
-msgstr ""
+msgstr "您可以看到一些关于这个开发板的信息,点击`Relevant Resource`,您可以看到例程代码."
 
 #: ../../source/lorawan/get_lorawan_example_code.md:19
 msgid "![](img/get_lorawan_example_code/02.png)"
@@ -69,7 +69,7 @@ msgstr ""
 
 #: ../../source/lorawan/get_lorawan_example_code.md:21
 msgid "&nbsp;"
-msgstr ""
+msgstr "&nbsp;"
 
 #: ../../source/lorawan/get_lorawan_example_code.md:23
 msgid ""
@@ -77,5 +77,5 @@ msgid ""
 "synchronized to the server, if you cannot succeed in this method, please "
 "click this link [https://docs.heltec.cn/](https://docs.heltec.cn/) to "
 "view and download.**"
-msgstr ""
+msgstr "**提示:由于2018年冬季以前的一些产品数据尚未同步到服务器,如果您无法通过此方法获得例程代码,请点击此链接[https://docs.heltec.cn/](https://docs.heltec.cn/)查看和下载.**"
 

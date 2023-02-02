@@ -19,35 +19,35 @@ msgstr ""
 
 #: ../../source/index.rst:28
 msgid "Quick Start"
-msgstr ""
+msgstr "快速入门"
 
 #: ../../source/index.rst:28
 msgid "LoRaWAN"
-msgstr ""
+msgstr "LoRaWAN"
 
 #: ../../source/index.rst:28
 msgid "AT Command List"
-msgstr ""
+msgstr "AT命令列表"
 
 #: ../../source/index.rst:28
 msgid "CubeCell Dev-Board"
-msgstr ""
+msgstr "CubeCell开发板"
 
 #: ../../source/index.rst:28
 msgid "CubeCell Capsule-Sensor"
-msgstr ""
+msgstr "CubeCell胶囊传感器"
 
 #: ../../source/index.rst:28
 msgid "CubeCell Module"
-msgstr ""
+msgstr "CubeCell模块"
 
 #: ../../source/index.rst:28
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "常见问题"
 
 #: ../../source/index.rst:2
 msgid "Contents"
-msgstr ""
+msgstr "目录"
 
 #: ../../source/index.rst:3
 msgid ":ht_translation:`[简体中文]:[English]`"
@@ -58,73 +58,73 @@ msgid ""
 "We believe `the CubeCell Series <https://heltec.org/cubecell>`__ is the "
 "best choice for LoRaWAN node applications. The following are some of the "
 "key features:"
-msgstr ""
+msgstr "我们认为 `CubeCell系列 <https://heltec.org/cubecell>`__ 是最好的LoRaWAN节点应用的选择。以下是一些关键特征："
 
 #: ../../source/index.rst:9
 msgid "Fully compatible with the Arduino development environment;"
-msgstr ""
+msgstr "与Arduino开发环境完全兼容；"
 
 #: ../../source/index.rst:10
 msgid ""
 "Based on an ultra low power design, attains 3.5uA in deep sleep mode, "
 "even with the RTC clock running;"
-msgstr ""
+msgstr "基于超低功耗设计，即使在RTC时钟运行的情况下，在深度睡眠模式下也能达到3.5μA；"
 
 #: ../../source/index.rst:12
 msgid "LoRa signal output put power range 0~22(±1) dBm;"
-msgstr ""
+msgstr "LoRa信号输出功率范围0~22（±1）dBm;"
 
 #: ../../source/index.rst:13
 msgid "Low-cost despite its current state of the art technology;"
-msgstr ""
+msgstr "尽管具有当前最先进的技术，但价格低廉；"
 
 #: ../../source/index.rst:14
 msgid ""
 "Integrated encryption algorithm protects your investment by rendering "
 "cloned firmware inoperative;"
-msgstr ""
+msgstr "通过使用集成加密算法来使克隆的固件不起作用以保护您的投资；"
 
 #: ../../source/index.rst:15
 msgid ""
 "Based on proven technology - the new ASR650x, is a combination of the "
 "PSoC4000 and SX1262 into a single chip, reducing the overall size to "
 "something smaller than the competition;"
-msgstr ""
+msgstr "基于成熟的技术 – 新的ASR650x，是将PSoC4000和SX1262组合成一个芯片，将整体尺寸进一步缩小；"
 
 #: ../../source/index.rst:17
 msgid "Solar panel support;"
-msgstr ""
+msgstr "支持太阳能电池板；"
 
 #: ../../source/index.rst:18
 msgid "LoRaWAN protocol support;"
-msgstr ""
+msgstr "LoRaWAN协议支持；"
 
 #: ../../source/index.rst:19
 msgid "AT command support;"
-msgstr ""
+msgstr "支持AT命令;"
 
 #: ../../source/index.rst:20
 msgid "In the LoRaWAN relevant examples, have a reasonable timeline planning."
-msgstr ""
+msgstr "在LoRaWAN相关的例程中，有一个合理的时间表规划。"
 
 #: ../../source/index.rst:25
 msgid ""
 "for example, an application need send data to server every 10 minutes, "
 "then in a cycle, only ~1 second is in the state of sending, other 9 "
 "minutes and 59 seconds are in deep sleep low power Consuming status."
-msgstr ""
+msgstr "例如，一个应用程序需要每10分钟向服务器发送一次数据，然后在一个周期内，只有大约1秒处于发送状态，其他9分59秒处于深度睡眠低功耗状态。"
 
 #: ../../source/index.rst:40
 msgid "Relevant Offical Resources"
-msgstr ""
+msgstr "相关官方资源"
 
 #: ../../source/index.rst:42
 msgid ""
 "`ASR650x - Arduino repository <https://github.com/HelTecAutomation"
 "/ASR650x-Arduino>`_;"
-msgstr ""
+msgstr "`ASR650x - Arduino repository <https://github.com/HelTecAutomation/ASR650x-Arduino>`_ ;"
 
 #: ../../source/index.rst:43
 msgid "`CubeCell introduction page <https://heltec.org/cubecell/>`_."
-msgstr ""
+msgstr "`CubeCell简介页面 <https://heltec.org/cubecell/>`_."
 

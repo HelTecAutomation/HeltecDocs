@@ -20,85 +20,91 @@ msgstr ""
 
 #: ../../source/dev-board/hardware_update_log.md:1
 msgid "Hardware Update Logs"
-msgstr ""
+msgstr "硬件更新日志"
 
 #: ../../source/dev-board/hardware_update_log.md:3
 msgid "{ht_translation}`[简体中文]:[English]`"
-msgstr ""
+msgstr "{ht_translation}`[简体中文]:[English]`"
 
 #: ../../source/dev-board/hardware_update_log.md:5
 msgid "Wifi Kit 32  Hardware Update Logs"
-msgstr ""
+msgstr "Wifi Kit 32  硬件更新日志"
 
 #: ../../source/dev-board/hardware_update_log.md:7
 #: ../../source/dev-board/hardware_update_log.md:67
 msgid "V1"
-msgstr ""
+msgstr "V1"
 
 #: ../../source/dev-board/hardware_update_log.md:9
 msgid "![](img/hardware_update_log/01.png)"
-msgstr ""
+msgstr "![](img/hardware_update_log/01.png)"
 
 #: ../../source/dev-board/hardware_update_log.md:11
 #: ../../source/dev-board/hardware_update_log.md:71
 msgid "First release"
-msgstr ""
+msgstr "第一版"
 
 #: ../../source/dev-board/hardware_update_log.md:12
 msgid "2017-06-01 public sale"
-msgstr ""
+msgstr "2017-06-01 公开发售"
 
 #: ../../source/dev-board/hardware_update_log.md:14
 msgid ""
 "[Pinout diagram for "
 "V1](http://resource.heltec.cn/download/WiFi_Kit_32/WIFI%20Kit%2032_pinoutDiagram_V1.pdf)"
 msgstr ""
+"[引脚图 "
+"V1](http://resource.heltec.cn/download/WiFi_Kit_32/WIFI%20Kit%2032_pinoutDiagram_V1.pdf)"
 
 #: ../../source/dev-board/hardware_update_log.md:15
 msgid ""
 "[Schematic diagram for "
 "V1](http://resource.heltec.cn/download/WiFi_Kit_32/WIFI_Kit_32_Schematic_diagram_V1.PDF)"
 msgstr ""
+"[原理图 "
+"V1](http://resource.heltec.cn/download/WiFi_Kit_32/WIFI_Kit_32_Schematic_diagram_V1.PDF)"
 
 #: ../../source/dev-board/hardware_update_log.md:17
 #: ../../source/dev-board/hardware_update_log.md:39
 #: ../../source/dev-board/hardware_update_log.md:63
 msgid "&nbsp;"
-msgstr ""
+msgstr "&nbsp;"
 
 #: ../../source/dev-board/hardware_update_log.md:19
 msgid "V2"
-msgstr ""
+msgstr "V2"
 
 #: ../../source/dev-board/hardware_update_log.md:21
 msgid "![](img/hardware_update_log/02.png)"
-msgstr ""
+msgstr "![](img/hardware_update_log/02.png)"
 
 #: ../../source/dev-board/hardware_update_log.md:23
 msgid "2019-05 public sale;"
-msgstr ""
+msgstr "2019-05 公开发售;"
 
 #: ../../source/dev-board/hardware_update_log.md:24
 msgid "Fixed charging status (orange LED) blinking problem;"
-msgstr ""
+msgstr "固定充电状态(橙色LED)闪烁问题;"
 
 #: ../../source/dev-board/hardware_update_log.md:25
 msgid "4MB (32M-bits) FLASH upgrade to 8MB (64M-bits) FLASH;"
-msgstr ""
+msgstr "4MB (32M-bits) FLASH 升级到 8MB (64M-bits) FLASH;"
 
 #: ../../source/dev-board/hardware_update_log.md:26
 msgid "Better 2.4GHz antenna design and impendence matching;"
-msgstr ""
+msgstr "更好的2.4GHz天线设计和阻抗匹配;"
 
 #: ../../source/dev-board/hardware_update_log.md:27
 msgid "Basic low power design (800uA in deep sleep);"
-msgstr ""
+msgstr "基本低功耗设计(深度睡眠800uA);"
 
 #: ../../source/dev-board/hardware_update_log.md:28
 msgid ""
 "Add battery power detection circuit. Use ADC2_4 (GPIO 13) to read battery"
 " voltage;"
 msgstr ""
+"增加电池功率检测电路. 使用ADC2_4 (GPIO 13)读取电池"
+" 电压;"
 
 #: ../../source/dev-board/hardware_update_log.md:29
 msgid ""
@@ -106,46 +112,53 @@ msgid ""
 "device (sensor, motor etc.), when system need into deep sleep mode, Vext "
 "can be turn off. **This pin was controlled by GPIO21, for example:**"
 msgstr ""
+"添加Vext电源输出引脚, 用户可以用这个引脚驱动一些外接 "
+"设备(传感器, 电机等), 当系统需要进入深度睡眠模式时, Vext "
+"可以关闭. **例如, 该引脚由GPIO21控制:**"
 
 #: ../../source/dev-board/hardware_update_log.md:31
 msgid "Turn ON: `digitalWrite(21, LOW);`"
-msgstr ""
+msgstr "打开: `digitalWrite(21, LOW);`"
 
 #: ../../source/dev-board/hardware_update_log.md:33
 msgid "Turn OFF: `digitalWrite(21, HIGH);`"
-msgstr ""
+msgstr "关闭: `digitalWrite(21, HIGH);`"
 
 #: ../../source/dev-board/hardware_update_log.md:34
 msgid "Circuit optimization, system more stable;"
-msgstr ""
+msgstr "电路优化, 系统更稳定;"
 
 #: ../../source/dev-board/hardware_update_log.md:35
 msgid "Better power manage system design."
-msgstr ""
+msgstr "更好的电源管理系统设计."
 
 #: ../../source/dev-board/hardware_update_log.md:36
 msgid ""
 "[Pinout diagram for "
 "V2](http://resource.heltec.cn/download/WiFi_Kit_32/WIFI_Kit_32_pinoutDiagram_V2.pdf);"
 msgstr ""
+"[引脚图 "
+"V2](http://resource.heltec.cn/download/WiFi_Kit_32/WIFI_Kit_32_pinoutDiagram_V2.pdf);"
 
 #: ../../source/dev-board/hardware_update_log.md:37
 msgid ""
 "[Schematic diagram for "
 "V2](http://resource.heltec.cn/download/WiFi_Kit_32/WIFI_Kit_32_Schematic_diagram_V2.pdf);"
 msgstr ""
+"[原理图 "
+"V2](http://resource.heltec.cn/download/WiFi_Kit_32/WIFI_Kit_32_Schematic_diagram_V2.pdf);"
 
 #: ../../source/dev-board/hardware_update_log.md:41
 msgid "V2.1"
-msgstr ""
+msgstr "V2.1"
 
 #: ../../source/dev-board/hardware_update_log.md:43
 msgid "![](img/hardware_update_log/03.png)"
-msgstr ""
+msgstr "![](img/hardware_update_log/03.png)"
 
 #: ../../source/dev-board/hardware_update_log.md:45
 msgid "2019-10 public sale;"
-msgstr ""
+msgstr "2019-10 公开发售;"
 
 #: ../../source/dev-board/hardware_update_log.md:46
 msgid ""
@@ -154,30 +167,38 @@ msgid ""
 "example: "
 "[ADC_Read_Voltage/Battery_power](https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/examples/ESP32/ADC_Read_Voltage/Battery_power/Battery_power.ino)."
 msgstr ""
+"修复电池电压读取无法与Wi-Fi一起工作的bug, 将 "
+"将电池电压读数引脚改为GPI37(使用ADC1_1), 请参考这个 "
+"例子: "
+"[ADC_Read_Voltage/Battery_power](https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/examples/ESP32/ADC_Read_Voltage/Battery_power/Battery_power.ino)."
 
 #: ../../source/dev-board/hardware_update_log.md:47
 msgid ""
 "[Pinout diagram for "
 "V2.1](https://resource.heltec.cn/download/WiFi_Kit_32/WIFI_Kit_32_pinoutDiagram_V2.1.pdf);"
 msgstr ""
+"[引脚图 "
+"V2.1](https://resource.heltec.cn/download/WiFi_Kit_32/WIFI_Kit_32_pinoutDiagram_V2.1.pdf);"
 
 #: ../../source/dev-board/hardware_update_log.md:48
 msgid ""
 "[Schematic diagram for "
 "V2.1](https://resource.heltec.cn/download/WiFi_Kit_32/WIFI_Kit_32_Schematic_diagram_V2.1.PDF);"
 msgstr ""
+"[原理图 "
+"V2.1](https://resource.heltec.cn/download/WiFi_Kit_32/WIFI_Kit_32_Schematic_diagram_V2.1.PDF);"
 
 #: ../../source/dev-board/hardware_update_log.md:52
 msgid "V3"
-msgstr ""
+msgstr "V3"
 
 #: ../../source/dev-board/hardware_update_log.md:54
 msgid "![](img/hardware_update_log/04.png)"
-msgstr ""
+msgstr "![](img/hardware_update_log/04.png)"
 
 #: ../../source/dev-board/hardware_update_log.md:56
 msgid "2022-09-15  public sale"
-msgstr ""
+msgstr "2022-09-15  公开发售"
 
 #: ../../source/dev-board/hardware_update_log.md:57
 msgid ""
@@ -185,10 +206,13 @@ msgid ""
 "MCU are shown in：[https://products.espressif.com/#/product-"
 "comparison](https://products.espressif.com/#/product-comparison)."
 msgstr ""
+"MCU由ESP32-D0WDQ6改为ESP32-S3FN8. "
+"MCU 的具体区别表现在：[https://products.espressif.com/#/product-"
+"comparison](https://products.espressif.com/#/product-comparison)."
 
 #: ../../source/dev-board/hardware_update_log.md:58
 msgid "USB interface changed from Micro USB to Type-C."
-msgstr ""
+msgstr "USB接口由Micro USB改为Type-C."
 
 #: ../../source/dev-board/hardware_update_log.md:59
 msgid ""
@@ -197,12 +221,18 @@ msgid ""
 "diagram](https://resource.heltec.cn/download/WiFi_Kit_32_V3/HTIT-"
 "WB32_V3.png)."
 msgstr ""
+"尺寸, 外观, 引脚布局和电源引脚保持不变, 但"
+" GPIO 序列改变了. 请参考 [引脚 "
+"图](https://resource.heltec.cn/download/WiFi_Kit_32_V3/HTIT-"
+"WB32_V3.png)."
 
 #: ../../source/dev-board/hardware_update_log.md:60
 msgid ""
 "[Pinout diagram of V3](https://resource.heltec.cn/download/WiFi_Kit_32_V3"
 "/HTIT-WB32_V3.png)."
 msgstr ""
+"[引脚图V3](https://resource.heltec.cn/download/WiFi_Kit_32_V3"
+"/HTIT-WB32_V3.png)."
 
 #: ../../source/dev-board/hardware_update_log.md:61
 msgid ""
@@ -210,28 +240,35 @@ msgid ""
 "V3](https://resource.heltec.cn/download/WiFi_Kit_32_V3/HTIT-"
 "WB32_V3_Schematic_Diagram.pdf)."
 msgstr ""
+"[原理图 "
+"V3](https://resource.heltec.cn/download/WiFi_Kit_32_V3/HTIT-"
+"WB32_V3_Schematic_Diagram.pdf)."
 
 #: ../../source/dev-board/hardware_update_log.md:65
 msgid "ESP32-C3 Hardware Update Logs"
-msgstr ""
+msgstr "ESP32-C3 硬件更新日志"
 
 #: ../../source/dev-board/hardware_update_log.md:69
 msgid "![](img/hardware_update_log/05.png)"
-msgstr ""
+msgstr "![](img/hardware_update_log/05.png)"
 
 #: ../../source/dev-board/hardware_update_log.md:72
 msgid "2022-09-15 public sale"
-msgstr ""
+msgstr "2022-09-15 公开发售"
 
 #: ../../source/dev-board/hardware_update_log.md:74
 msgid ""
 "[Pinout diagram for "
 "V1](https://resource.heltec.cn/download/ESP32-C3_DevBoard/ESP32%20C3_DevBoard.png)"
 msgstr ""
+"[引脚图 "
+"V1](https://resource.heltec.cn/download/ESP32-C3_DevBoard/ESP32%20C3_DevBoard.png)"
 
 #: ../../source/dev-board/hardware_update_log.md:75
 msgid ""
 "[Schematic diagram for "
 "V1](https://resource.heltec.cn/download/ESP32-C3_DevBoard/ESP32-C3_DevBoard_Schematic_Diagram.pdf)"
 msgstr ""
+"[原理图 "
+"V1](https://resource.heltec.cn/download/ESP32-C3_DevBoard/ESP32-C3_DevBoard_Schematic_Diagram.pdf)"
 

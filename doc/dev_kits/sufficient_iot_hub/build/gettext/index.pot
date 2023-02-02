@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2023, shug
+# This file is distributed under the same license as the sufficient_iot_hub package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: sufficient_iot_hub \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-11 15:01+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/index.rst:20
+msgid "Quick Start"
+msgstr ""
+
+#: ../../source/index.rst:20
+msgid "Sufficient IoT Application"
+msgstr ""
+
+#: ../../source/index.rst:20
+msgid "Sufficient IoT OS"
+msgstr ""
+
+#: ../../source/index.rst:20
+msgid "Hardware Update Logs"
+msgstr ""
+
+#: ../../source/index.rst:2
+msgid "Contents"
+msgstr ""
+
+#: ../../source/index.rst:3
+msgid ":ht_translation:`[简体中文]:[English]`"
+msgstr ""
+
+#: ../../source/index.rst:5
+msgid "Sufficient IoT Hub is a Linux system-in-package with a dual-core 64-bit ARM A7 processor running at 1GHz and 128MB of DDR3. This is a device designed exclusively for IoT scenarios, with LoRa, Wi-Fi, and Bluetooth built in. We also build a dedicated Sufficient IoT OS for it, so even if the user has no programing background, they can easily operate PWM, I2C, SPI, LoRa, etc. to develop whatever they want."
+msgstr ""
+
+#: ../../source/index.rst:7
+msgid "For example: It can be used to read sensors data from I2C and transmit via LoRaWAN. or as a MQTT broker, or as a LoRa Server in a local area network, or even as a LoRa gateway via an expansion panel."
+msgstr ""
+
+#: ../../source/index.rst:9
+msgid "**Sufficient IoT Hub have following main features:**"
+msgstr ""
+
+#: ../../source/index.rst:11
+msgid "Dual-Core ARM CortexTM-A7 CPU;"
+msgstr ""
+
+#: ../../source/index.rst:12
+msgid "SiP 128MB DDR3 RAM;"
+msgstr ""
+
+#: ../../source/index.rst:13
+msgid "SD 3.0 slot;"
+msgstr ""
+
+#: ../../source/index.rst:14
+msgid "Operation system is based on Linux 5.4 Kernel, Debian;"
+msgstr ""
+
+#: ../../source/index.rst:15
+msgid "Multi-interface (I2C, SPI, Ethernet, ADC, PWM, USB Host);"
+msgstr ""
+
+#: ../../source/index.rst:16
+msgid "Built-in XR829 Wi-Fi & Bluetooth chip;"
+msgstr ""
+
+#: ../../source/index.rst:17
+msgid "Built-in SX1262 LoRa node chip."
+msgstr ""
+
+#: ../../source/index.rst:29
+msgid "Relevant Offical Resources"
+msgstr ""

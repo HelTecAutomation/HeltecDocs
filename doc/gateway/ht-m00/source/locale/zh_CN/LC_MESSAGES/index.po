@@ -19,31 +19,31 @@ msgstr ""
 
 #: ../../source/index.rst:19
 msgid "Quick Start"
-msgstr ""
+msgstr "快速入门"
 
 #: ../../source/index.rst:19
 msgid "Connect to Gateway"
-msgstr ""
+msgstr "连接至网关"
 
 #: ../../source/index.rst:19
 msgid "Coneect to LoRa server"
-msgstr ""
+msgstr "连接至LoRa服务器"
 
 #: ../../source/index.rst:19
 msgid "Update Firmware"
-msgstr ""
+msgstr "更新固件"
 
 #: ../../source/index.rst:19
 msgid "-->[General Docs]<--"
-msgstr ""
+msgstr "-->[General Docs]<--"
 
 #: ../../source/index.rst:2
 msgid "HT-M00 Dual Channel LoRa Gateway"
-msgstr ""
+msgstr "HT-M00双通道LoRa网关"
 
 #: ../../source/index.rst:3
 msgid ":ht_translation:`[简体中文]:[English]`"
-msgstr ""
+msgstr ":ht_translation:`[简体中文]:[English]`"
 
 #: ../../source/index.rst:5
 msgid ""
@@ -52,32 +52,40 @@ msgid ""
 "for large houses of 1500 to 2000 square meters, or to make up for signal "
 "blind spots in areas that cannot be covered by SX1301 gateway signals."
 msgstr ""
+"HT-M00是一种小型, 低成本的双通道LoRa网关, 具有Type-C"
+"接口. HT-M00的主要功能是为1500到2000平方"
+"米的大房子提供LoRaWAN网络, 或者弥补SX1301"
+"网关信号无法覆盖的区域的信号盲点."
 
 #: ../../source/index.rst:7
 msgid "Drive SX1276 chip by ESP32;"
-msgstr ""
+msgstr "通过ESP32驱动SX1276芯片;"
 
 #: ../../source/index.rst:8
 msgid ""
 "Software mixer (baseband simulation program) to monitor the 125KHz "
 "SF7~SF12 spreading factor;"
 msgstr ""
+"监测125KHz SF7~SF12扩频因子的软件混频器"
+"(基带模拟程序);"
 
 #: ../../source/index.rst:9
 msgid "Support LoRaWAN protocol 1.0.2 Class A, Class C;"
-msgstr ""
+msgstr "支持LoRaWAN协议 1.0.2 Class A, Class C;"
 
 #: ../../source/index.rst:10
 msgid "Built-in antenna;"
-msgstr ""
+msgstr "内置天线;;"
 
 #: ../../source/index.rst:11
 msgid "Onboard display."
-msgstr ""
+msgstr "机上显示."
 
 #: ../../source/index.rst:17
 msgid ""
 "HT-M00 has no waterproof design, so please avoid contact with water when "
 "using it."
 msgstr ""
+"HT-M00无防水设计, 使用时请避免与"
+"水接触."
 

@@ -19,23 +19,23 @@ msgstr ""
 
 #: ../../source/turtle_board/index.rst:7
 msgid "Download Firmware"
-msgstr ""
+msgstr "下载固件"
 
 #: ../../source/turtle_board/index.rst:7
 msgid "Establish Serial Connection"
-msgstr ""
+msgstr "建立串行连接"
 
 #: ../../source/turtle_board/index.rst:7
 msgid "RadioShuttle Protocol Resource"
-msgstr ""
+msgstr "无线电传输协议资源"
 
 #: ../../source/turtle_board/index.rst:7
 msgid "Hardware Update Logs"
-msgstr ""
+msgstr "硬件更新日志"
 
 #: ../../source/turtle_board/index.rst:2
 msgid "Turtle Board"
-msgstr ""
+msgstr "Turtle Board"
 
 #: ../../source/turtle_board/index.rst:3
 msgid ":ht_translation:`[简体中文]:[English]`"
@@ -43,38 +43,38 @@ msgstr ""
 
 #: ../../source/turtle_board/index.rst:5
 msgid "Turtle Board relevant documents."
-msgstr ""
+msgstr "Turtle Board相关文档."
 
 #: ../../source/turtle_board/index.rst:16
 msgid "Relevant Offical Resources"
-msgstr ""
+msgstr "相关官方资源"
 
 #: ../../source/turtle_board/index.rst:18
 msgid ""
 "LoRaWAN example for Turtle Board -- Refer to `this document "
 "<https://docs.heltec.org/general/view_limited_technical_data.html>`_ to "
 "get limited resource;"
-msgstr ""
+msgstr "urtle Board的LoRaWAN例程请参考 `此文档 <https://docs.heltec.org/general/view_limited_technical_data.html>`_ 来获取受限资源;"
 
 #: ../../source/turtle_board/index.rst:19
 msgid "Factory test firmware"
-msgstr ""
+msgstr "工厂测试固件"
 
 #: ../../source/turtle_board/index.rst:21
 msgid ""
 "`470MHz "
 "<http://resource.heltec.cn/download/TurtleBoard/Turtle_RadioShuttle.FactoryTest_470.bin>`_"
-msgstr ""
+msgstr "`470MHz <http://resource.heltec.cn/download/TurtleBoard/Turtle_RadioShuttle.FactoryTest_470.bin>`_"
 
 #: ../../source/turtle_board/index.rst:22
 msgid ""
 "`868MHz "
 "<http://resource.heltec.cn/download/TurtleBoard/Turtle_RadioShuttle.FactoryTest_868.bin>`_"
-msgstr ""
+msgstr "`868MHz <http://resource.heltec.cn/download/TurtleBoard/Turtle_RadioShuttle.FactoryTest_868.bin>`_"
 
 #: ../../source/turtle_board/index.rst:23
 msgid ""
 "`Factory test source code "
 "<https://os.mbed.com/users/Helmut64/code/Turtle_RadioShuttle/>`_"
-msgstr ""
+msgstr "`工厂测试源代码 <https://os.mbed.com/users/Helmut64/code/Turtle_RadioShuttle/>`_"
 

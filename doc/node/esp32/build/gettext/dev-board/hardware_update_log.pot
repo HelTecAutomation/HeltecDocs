@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: esp32 \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-03 15:27+0800\n"
+"POT-Creation-Date: 2023-01-11 14:59+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -30,21 +30,21 @@ msgstr ""
 
 #: ../../source/dev-board/hardware_update_log.md:6
 #: ../../source/dev-board/hardware_update_log.md:90
-#: ../../source/dev-board/hardware_update_log.md:112
-#: ../../source/dev-board/hardware_update_log.md:145
+#: ../../source/dev-board/hardware_update_log.md:127
+#: ../../source/dev-board/hardware_update_log.md:160
 msgid "V1"
 msgstr ""
 
 #: ../../source/dev-board/hardware_update_log.md:8
 #: ../../source/dev-board/hardware_update_log.md:94
-#: ../../source/dev-board/hardware_update_log.md:116
-#: ../../source/dev-board/hardware_update_log.md:149
+#: ../../source/dev-board/hardware_update_log.md:131
+#: ../../source/dev-board/hardware_update_log.md:164
 msgid "First release"
 msgstr ""
 
 #: ../../source/dev-board/hardware_update_log.md:9
 #: ../../source/dev-board/hardware_update_log.md:96
-#: ../../source/dev-board/hardware_update_log.md:117
+#: ../../source/dev-board/hardware_update_log.md:132
 msgid "2017-6-1 public sale"
 msgstr ""
 
@@ -54,7 +54,7 @@ msgstr ""
 
 #: ../../source/dev-board/hardware_update_log.md:13
 #: ../../source/dev-board/hardware_update_log.md:100
-#: ../../source/dev-board/hardware_update_log.md:120
+#: ../../source/dev-board/hardware_update_log.md:135
 msgid "Schematic diagram of V1"
 msgstr ""
 
@@ -71,9 +71,9 @@ msgstr ""
 #: ../../source/dev-board/hardware_update_log.md:70
 #: ../../source/dev-board/hardware_update_log.md:86
 #: ../../source/dev-board/hardware_update_log.md:104
-#: ../../source/dev-board/hardware_update_log.md:108
 #: ../../source/dev-board/hardware_update_log.md:123
-#: ../../source/dev-board/hardware_update_log.md:139
+#: ../../source/dev-board/hardware_update_log.md:138
+#: ../../source/dev-board/hardware_update_log.md:154
 msgid "&nbsp;"
 msgstr ""
 
@@ -190,7 +190,8 @@ msgid "[868~915 Version](https://resource.heltec.cn/download/WiFi_LoRa_32/V2.1/W
 msgstr ""
 
 #: ../../source/dev-board/hardware_update_log.md:72
-#: ../../source/dev-board/hardware_update_log.md:125
+#: ../../source/dev-board/hardware_update_log.md:106
+#: ../../source/dev-board/hardware_update_log.md:140
 msgid "V3"
 msgstr ""
 
@@ -199,26 +200,30 @@ msgid "![](img/hardware_update_log/07.png)"
 msgstr ""
 
 #: ../../source/dev-board/hardware_update_log.md:76
-#: ../../source/dev-board/hardware_update_log.md:129
+#: ../../source/dev-board/hardware_update_log.md:144
 msgid "2022-09-15  public sale"
 msgstr ""
 
 #: ../../source/dev-board/hardware_update_log.md:78
+#: ../../source/dev-board/hardware_update_log.md:112
 msgid "MCU is changed from ESP32-D0WDQ6 to ESP32-S3FN8. Specific differences of MCU are shown in：[https://products.espressif.com/#/product-comparison](https://products.espressif.com/#/product-comparison)."
 msgstr ""
 
 #: ../../source/dev-board/hardware_update_log.md:79
-#: ../../source/dev-board/hardware_update_log.md:132
+#: ../../source/dev-board/hardware_update_log.md:114
+#: ../../source/dev-board/hardware_update_log.md:147
 msgid "USB interface changed from Micro USB to Type-C."
 msgstr ""
 
 #: ../../source/dev-board/hardware_update_log.md:80
-#: ../../source/dev-board/hardware_update_log.md:133
+#: ../../source/dev-board/hardware_update_log.md:115
+#: ../../source/dev-board/hardware_update_log.md:148
 msgid "LoRa chip changed from SX1276 to SX1262."
 msgstr ""
 
 #: ../../source/dev-board/hardware_update_log.md:81
-#: ../../source/dev-board/hardware_update_log.md:134
+#: ../../source/dev-board/hardware_update_log.md:116
+#: ../../source/dev-board/hardware_update_log.md:149
 msgid "The LoRa crystal oscillator is upgraded to temperature compensated crystal oscillator."
 msgstr ""
 
@@ -250,54 +255,74 @@ msgstr ""
 msgid "The schematic diagram of Wireless Stick is restricted technical data,it will become downloadable after purchase.Please read this document:[Get Limited Technical Resources](https://heltec-automation-docs.readthedocs.io/en/latest/general/view_limited_technical_data.html) ."
 msgstr ""
 
-#: ../../source/dev-board/hardware_update_log.md:110
-msgid "Wireless Stick Lite Hardware Update Logs"
+#: ../../source/dev-board/hardware_update_log.md:108
+msgid "![](img/hardware_update_log/09.png)"
 msgstr ""
 
-#: ../../source/dev-board/hardware_update_log.md:114
-msgid "![](img/hardware_update_log/05.png)"
+#: ../../source/dev-board/hardware_update_log.md:110
+msgid "2022-11-10  public sale"
+msgstr ""
+
+#: ../../source/dev-board/hardware_update_log.md:117
+msgid "The size, appearance, pin layout and power pins remain unchanged, but the GPIO sequence has changed. Please refer to [Pinout diagram](https://resource.heltec.cn/download/Wireless_Stick_V3/HTIT-WS_V3.png)."
+msgstr ""
+
+#: ../../source/dev-board/hardware_update_log.md:118
+msgid "[Pinout diagram of V3](https://resource.heltec.cn/download/Wireless_Stick_V3/HTIT-WS_V3.png)."
 msgstr ""
 
 #: ../../source/dev-board/hardware_update_log.md:119
+msgid "[Schematic diagram of V3](https://resource.heltec.cn/download/Wireless_Stick_V3/HTIT-WS_V3_Schematic_Diagram.pdf)."
+msgstr ""
+
+#: ../../source/dev-board/hardware_update_log.md:125
+msgid "Wireless Stick Lite Hardware Update Logs"
+msgstr ""
+
+#: ../../source/dev-board/hardware_update_log.md:129
+msgid "![](img/hardware_update_log/05.png)"
+msgstr ""
+
+#: ../../source/dev-board/hardware_update_log.md:134
 msgid "[Pinout diagram of V1](http://resource.heltec.cn/download/Wireless_Stick_Lite/Wireless_Stick_Lite.pdf)"
 msgstr ""
 
-#: ../../source/dev-board/hardware_update_log.md:121
+#: ../../source/dev-board/hardware_update_log.md:136
 msgid "The schematic diagram of Wireless Stick Lite is restricted technical data,it will become downloadable after purchase.Please read this document:[Get Limited Technical Resources](https://heltec-automation-docs.readthedocs.io/en/latest/general/view_limited_technical_data.html) ."
 msgstr ""
 
-#: ../../source/dev-board/hardware_update_log.md:127
+#: ../../source/dev-board/hardware_update_log.md:142
 msgid "![](img/hardware_update_log/08.png)"
 msgstr ""
 
-#: ../../source/dev-board/hardware_update_log.md:131
+#: ../../source/dev-board/hardware_update_log.md:146
 msgid "MCU is changed from ESP32-PICO-V3 to ESP32-S3FN8. Specific differences of MCU are shown in：[https://products.espressif.com/#/product-comparison](https://products.espressif.com/#/product-comparison)."
 msgstr ""
 
-#: ../../source/dev-board/hardware_update_log.md:135
+#: ../../source/dev-board/hardware_update_log.md:150
 msgid "The size, appearance, pin layout and power pins remain unchanged, but the GPIO sequence has changed. Please refer to [Pinout diagram](https://resource.heltec.cn/download/Wireless_Stick_Lite_V3/HTIT-WSL_V3.png)."
 msgstr ""
 
-#: ../../source/dev-board/hardware_update_log.md:136
+#: ../../source/dev-board/hardware_update_log.md:151
 msgid "[Pinout diagram of V3](https://resource.heltec.cn/download/Wireless_Stick_Lite_V3/HTIT-WSL_V3.png)."
 msgstr ""
 
-#: ../../source/dev-board/hardware_update_log.md:137
+#: ../../source/dev-board/hardware_update_log.md:152
 msgid "[Schematic diagram of V3](https://resource.heltec.cn/download/Wireless_Stick_Lite_V3/HTIT-WSL_V3_Schematic_Diagram.pdf)."
 msgstr ""
 
-#: ../../source/dev-board/hardware_update_log.md:141
+#: ../../source/dev-board/hardware_update_log.md:156
 msgid "Wireless Bridge  Hardware Update Logs"
 msgstr ""
 
-#: ../../source/dev-board/hardware_update_log.md:143
+#: ../../source/dev-board/hardware_update_log.md:158
 msgid "[简体中文](https://heltec-automation.readthedocs.io/zh_CN/latest/esp32/wireless_bridge/hardware_update_log.html)"
 msgstr ""
 
-#: ../../source/dev-board/hardware_update_log.md:147
+#: ../../source/dev-board/hardware_update_log.md:162
 msgid "![](img/hardware_update_log/06.png)"
 msgstr ""
 
-#: ../../source/dev-board/hardware_update_log.md:150
+#: ../../source/dev-board/hardware_update_log.md:165
 msgid "2021-04-01 public sale"
 msgstr ""
