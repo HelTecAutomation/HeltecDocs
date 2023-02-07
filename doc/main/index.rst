@@ -25,16 +25,9 @@ For a whole LoRaWAN communication process, a server is must needed, LoRaWAN serv
 
 After login the LoRaWAN server, the next thing to do is register your gateway and nodes.
 
-LoRa Gateway
-============
-
-Here are the LoRa Gateways produced by Heltec Automation. You will be able to find the quict start and how to register on LoRa NS.
-
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: LoRa Gateway
-
-Here are the LoRa Gateways produced by Heltec Automation. You will be able to find the quict start and how to register on LoRa NS.
    
    HT-M00 Dual Channel LoRa Gateway <https://docs.heltec.cn/en/gateway/ht-m00/index.html>
    HT-M01 Evaluation LoRa Gateway <https://docs.heltec.org/en/gateway/ht-m01/index.html>
@@ -44,6 +37,8 @@ Here are the LoRa Gateways produced by Heltec Automation. You will be able to fi
    HT-M02_V2 Edge LoRa Gateway <https://docs.heltec.org/en/gateway/ht-m02_v2/index.html>
    HT-1303 LoRaWAN Concentrator Module <https://docs.heltec.org/en/gateway/ht-1303/index.html>
    SX1301 Module (Phaseout) <https://docs.heltec.org/en/gateway/sx1301module/index.html>
+
+Here are the LoRa Gateways produced by Heltec Automation. You will be able to find the quict start and how to register on LoRa NS.
 
 .. toctree::
    :maxdepth: 2
