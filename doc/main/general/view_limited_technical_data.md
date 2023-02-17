@@ -39,7 +39,6 @@ The products' Chip ID is relative to the onboard MCU, each MCU have an unique ID
 
 - [ESP32 Core](esp32-lora-series)
 - [STM32 Core](stm32-series)
-  - LoRa Node 030
   - [LoRa Node 151](lora-node-151)
   - [Turtle Board](turtle-board)
 - [CubeCell Series (ASR650x Core)](cubecell-series)

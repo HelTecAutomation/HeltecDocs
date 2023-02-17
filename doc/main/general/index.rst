@@ -19,3 +19,4 @@ This document is used to solve some common problems.
    View Limited Technical Data <view_limited_technical_data>
    Connect to Single_channel Gateway <connect_to_single_channel_gateway>
    TTS_V3 Login Issue <tts_v3_login_issue>
+   How to Use License <how_to_use_license>
