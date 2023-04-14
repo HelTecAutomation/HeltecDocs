@@ -181,6 +181,24 @@ After configuring the gateway information, the user needs to click the correspon
 
 &nbsp;
 
+&nbsp;
+
+## Interface Definition
+
+![](img/quick_start/15.png)
+
+- SIM card -- Micro SIM card interface.
+- TF card -- TF card interface. 
+- USB -- Used to update firmware.
+- Debug port -- UART debugging serial port. Used to view the system log. UART pins are RX, TX, GND from left to right
+- Boot key -- Used to enter the download mode.
+
+## SIM Card Insertion Direction
+
+Please refer to the figure below.
+
+![](img/quick_start/16.png)
+
 ## Establish Serial/SSH Connection
 
 If required, HT-M02_V2 can provide serial/SSH connection.

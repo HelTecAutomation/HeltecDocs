@@ -17,24 +17,17 @@ LoRa server
 
 For a whole LoRaWAN communication process, a server is must needed, LoRaWAN server includedd two parts: Network Server and Application Server (We also generally call them NS). LoRa node join network, ACK, identity identification, communication authentication, etc. are handled by NS. Now there are many excellent LoRaWAN NS, such as:
 
-.. toctree::
-   :maxdepth: 1
-   
-   ChirpStack <https://www.chirpstack.io/>
-   TTN <https://www.thethingsnetwork.org/>
-   Heltec LoRaWAN Test Server <https://lora.heltec.org/>
+- `ChirpStack <https://www.chirpstack.io>`_
+- `TTN <https://www.thethingsnetwork.org/>`_
+- `Heltec LoRaWAN Test Server <https://lora.heltec.org/>`_
 
 .. note:: We highly recommend use `Heltec LoRaWAN Test Server <https://lora.heltec.org/>`_, it's a ready to use LoRa server based on TTS V3, users can login with Heltec website account.
 
 After login the LoRaWAN server, the next thing to do is register your gateway and nodes.
 
-LoRa Gateway
-============
-
-Here are the LoRa Gateways produced by Heltec Automation. You will be able to find the quict start and how to register on LoRa NS.
-
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
+   :caption: LoRa Gateway
    
    HT-M00 Dual Channel LoRa Gateway <https://docs.heltec.cn/en/gateway/ht-m00/index.html>
    HT-M01 Evaluation LoRa Gateway <https://docs.heltec.org/en/gateway/ht-m01/index.html>
@@ -44,6 +37,8 @@ Here are the LoRa Gateways produced by Heltec Automation. You will be able to fi
    HT-M02_V2 Edge LoRa Gateway <https://docs.heltec.org/en/gateway/ht-m02_v2/index.html>
    HT-1303 LoRaWAN Concentrator Module <https://docs.heltec.org/en/gateway/ht-1303/index.html>
    SX1301 Module (Phaseout) <https://docs.heltec.org/en/gateway/sx1301module/index.html>
+
+Here are the LoRa Gateways produced by Heltec Automation. You will be able to find the quict start and how to register on LoRa NS.
 
 .. toctree::
    :maxdepth: 2

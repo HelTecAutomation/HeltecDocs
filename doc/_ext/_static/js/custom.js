@@ -26,6 +26,9 @@ var prod_obj = {
         {text: "ESP8266+ARDUINO", value: "esp8266_arduino"},
         {text: "Sufficient IoT Hub", value: "sufficient_iot_hub"},
     ],
+    ready2use: [
+        {text:"Ready to Use", value: "hru-485-1-i"},
+    ],
 }
 
 function tt() {
