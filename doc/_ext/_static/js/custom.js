@@ -2,6 +2,7 @@ var P = [
     { text: "LoRa Gateway", value: "gateway"},
     { text: "LoRa Node", value: "node"},
     { text: "Development Kits", value: "dev_kits"},
+    { text: "Ready To Use", value: "ready2use"},
  ]
 
 
@@ -34,7 +35,7 @@ var prod_obj = {
 function tt() {
     let e = document.getElementById("product-select");
     let t = $("#type-select").val();
-    if (t === '') return
+    if (t === 'none') return
     e.options.length = 1
     e.options[0].selected = true
     for (let r = 0; r < prod_obj[t].length; r++) {
@@ -65,7 +66,7 @@ function tt() {
 
 ht_general='https://readthedocs.org/api/v3/embed/?url=https://docs.heltec.org/general/index.html'
 
-$(function () {
+document.body.onload = function () {
 
 let doc= document.getElementById('general-documents')
 if (doc) {
@@ -95,4 +96,4 @@ for (let r = 0; r < e.options.length; r++) {
         e.options[r].selected = true
     }
 }
-})
+}
