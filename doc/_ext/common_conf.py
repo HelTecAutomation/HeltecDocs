@@ -21,8 +21,7 @@ html_theme = 'sphinx_rtd_theme'
 html_static_path = ['../../../_ext/_static']
 
 html_js_files = [
-    'js/custom.js?v=1',
-    ('custom.js', {'defer': 'defer'})
+    ('js/custom.js?v=1', {'defer': 'defer'})
 ]
 html_css_files = [
     'css/custom.css',

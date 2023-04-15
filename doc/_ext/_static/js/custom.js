@@ -50,7 +50,7 @@ function tt() {
  function ht() {
     var n = document.getElementById("product-select").value;
     if (n === 'none') return
-    window.location.href = function(e) {
+    window.location.href = (function(e) {
         var t = document.getElementById("type-select").value;
         var lang = /\/(en|zh_CN)\//
         if (lang.test(window.location.href))
@@ -63,7 +63,7 @@ function tt() {
         }
         return window.location.origin + '/' + 'en' + '/' + t + '/' + e + '/index.html'
 
-    }(n)
+    })(n)
 }
 
 var ht_general='https://readthedocs.org/api/v3/embed/?url=https://docs.heltec.org/general/index.html';
