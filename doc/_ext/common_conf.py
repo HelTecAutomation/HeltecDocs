@@ -22,6 +22,7 @@ html_static_path = ['../../../_ext/_static']
 
 html_js_files = [
     'js/custom.js?v=1',
+    ('custom.js', {'defer': 'defer'})
 ]
 html_css_files = [
     'css/custom.css',

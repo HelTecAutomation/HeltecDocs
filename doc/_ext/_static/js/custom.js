@@ -1,3 +1,4 @@
+(function () {
 var P = [
     { text: "LoRa Gateway", value: "gateway"},
     { text: "LoRa Node", value: "node"},
@@ -33,29 +34,30 @@ var prod_obj = {
 }
 
 function tt() {
-    let e = document.getElementById("product-select");
-    let t = $("#type-select").val();
+    var e = document.getElementById("product-select");
+    var t = document.getElementById("type-select").value;
+    var r = 0;
     if (t === 'none') return
     e.options.length = 1
     e.options[0].selected = true
-    for (let r = 0; r < prod_obj[t].length; r++) {
-        let m = prod_obj[t][r];
+    for (r = 0; r < prod_obj[t].length; r++) {
+        var m = prod_obj[t][r];
         var o = new Option(m.text,m.value);
         e.add(o)
     }
 }
 
  function ht() {
-    var n = $("#product-select").val();
+    var n = document.getElementById("product-select").value;
     if (n === 'none') return
     window.location.href = function(e) {
-        let t = $("#type-select").val();
-        let lang = /\/(en|zh_CN)\//
+        var t = document.getElementById("type-select").value;
+        var lang = /\/(en|zh_CN)\//
         if (lang.test(window.location.href))
         {
-            let href = window.location.href.split('/')
-            let ll = document.documentElement.lang.replace('-', '_')
-            let l = href.indexOf(ll) + 1
+            var href = window.location.href.split('/')
+            var ll = document.documentElement.lang.replace('-', '_')
+            var l = href.indexOf(ll) + 1
             href.splice(l, href.length)
             return href.join('/') + '/' + t + '/' + e + '/index.html'
         }
@@ -64,15 +66,14 @@ function tt() {
     }(n)
 }
 
-ht_general='https://readthedocs.org/api/v3/embed/?url=https://docs.heltec.org/general/index.html'
+var ht_general='https://readthedocs.org/api/v3/embed/?url=https://docs.heltec.org/general/index.html';
 
-document.body.onload = function () {
 
-let doc= document.getElementById('general-documents')
+var doc= document.getElementById('general-documents')
 if (doc) {
-  $.get(ht_general, function(data) {
-  doc.innerHTML = data['content'];
-})
+        fetch(ht_general).then(function(data) {data.json().then(function(d){
+            doc.innerHTML = d.content
+        })})
 }
 var t = document.getElementById("type-select");
 var e = document.getElementById("product-select");
@@ -96,4 +97,4 @@ for (let r = 0; r < e.options.length; r++) {
         e.options[r].selected = true
     }
 }
-}
+})()
