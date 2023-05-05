@@ -37,5 +37,6 @@ Users can choose add one or more of the following functions while place an order
     Quick Start <quick_start>
     Coneect to LoRa server <connect_to_server>
     M02_V2 Install TTS through Docker <tts-docker>
+    Frequently Asked Questions <frequently_asked_questions>
     -->[General Docs]<-- <https://docs.heltec.org/general/index.html>
 
