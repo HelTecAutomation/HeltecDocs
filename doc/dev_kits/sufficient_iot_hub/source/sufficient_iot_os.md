@@ -6,6 +6,7 @@
 ## The Linux Kernel
 This kernel is fully dedicated to the mainline linux-5.4 and adapts to the features of t113.   
 linux-5.4 Summary: This release includes the kernel lockdown mode, intended to strengthen the boundary between UID 0 and the kernel; virtio-fs, a high-performance virtio driver which allows a virtualized guest to mount a directory that has been exported on the host; fs-verity, for detecting file tampering, like dm-verity, but works on files rather than block devices; dm-clone, which allows live cloning of dm targets; two new madvise() flags for improved app memory management on Android, support for new Intel/AMD GPUs, support for the exfat file system and removing the experimental status of the EROFS file system; a new haltpoll cpuidle driver and governor that greatly improves performance for virtualized guests wanting to do guest-side polling in the idle loop; and blk-iocost, a I/O cgroup controller that attempts to calculate the cost of I/O more accurately. As always, there are many other new drivers and improvements.
+
 ### Building the Kernel
 1. Download [heltec_t113.zip]() and unzip it afterwards.       
 2. Open Vmware software, click "Open" in the main interface "File" menu, and then select the OVF extension file inside the folder you just unzipped.

@@ -22,7 +22,6 @@ For example: It can be used to read sensors data from I2C and transmit via LoRaW
     
     Quick Start <quick_start>
     Sufficient IoT Application <sufficient_iot_application>
-    Sufficient IoT OS <sufficient_iot_os>
     Hardware Update Logs <hardware_update_log>
     
 Relevant Offical Resources
