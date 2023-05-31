@@ -25,15 +25,19 @@ Select the mode by pressing the RST button, Judge by the state of LED lights:
   ![](img/12.png)
 
 + Work mode
+
   Default mode, White LED light on.
 
 + Debug mode
+
   Press the RST button once, White LED slow blinking,You can print SNR and RSSI in this mode.
 
 + Sleep mode
+
   Press the RST button again, White LED light go out,device shutdown.
 
 + Configuration mode
+
   Press the RST button again in sleep mode, White LED flash quickly,enter configuration mode. 
 
 ## Enter configuration page
