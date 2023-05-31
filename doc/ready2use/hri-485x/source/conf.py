@@ -6,8 +6,8 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'hru_485_1_i'
-conf_py_path = '/doc/ready2use/hru-485-1-i/source/'
+project = 'hri_485x'
+conf_py_path = '/doc/ready2use/hri-485x/source/'
 
 copyright = '2023, shug'
 author = 'shug'
