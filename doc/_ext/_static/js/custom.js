@@ -29,7 +29,7 @@ var prod_obj = {
         {text: "Sufficient IoT Hub", value: "sufficient_iot_hub"},
     ],
     ready2use: [
-        {text:"Ready to Use", value: "hru-485-1-i"},
+        {text:"Ready to Use", value: "hri-485x"},
     ],
 }
 

@@ -56,6 +56,13 @@ Here are the LoRa Gateways produced by Heltec Automation. You will be able to fi
    ESP32 + Arduino <https://docs.heltec.org/en/dev_kits/esp32_arduino/index.html>
    ESP8266 + Arduino <https://docs.heltec.org/en/dev_kits/esp8266_arduino/index.html>
    Sufficient IoT Hub <https://docs.heltec.org/en/dev_kits/sufficient_iot_hub/index.html>
+   
+.. toctree::
+   :maxdepth: 2
+   :caption: Ready to Use
+   
+   HRI-485x <https://docs.heltec.org/en/dev_kits/hri-485x/index.html>
+   
 
 .. toctree::
    :maxdepth: 2
