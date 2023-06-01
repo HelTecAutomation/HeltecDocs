@@ -17,8 +17,6 @@ HRI-485x series based on ESP32C3-FN4 / ESP32DOWDQ6, LoRa part based on SX1262 me
 
 + If the device needs to use LTE capabilities,you will also need to insert a LTE card.
 
-## Power ON device
-Press the RST button to turn on the device
 ## Select activity mode
 Select the mode by pressing the RST button, Judge by the state of LED lights:
 
