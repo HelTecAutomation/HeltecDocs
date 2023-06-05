@@ -1,3 +1,5 @@
+# HT-M7603 Quick Start
+
 {ht_translation}`[简体中文]:[English]`
 
 ## Summary
