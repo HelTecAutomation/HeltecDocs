@@ -13,6 +13,7 @@ var prod_obj = {
         {text: "HT-M01", value: "ht-m01"},
         {text: "HT-M01S (Phaseout)", value: "ht-m01s"},
         {text: "HT-M01S_V2", value: "ht-m01s_v2"},
+        {text: "HT-M7603", value: "ht-m7603"},
         {text: "HT-M02 (Phaseout)", value: "ht-m02"},
         {text: "HT-M02_V2", value: "ht-m02_v2"},
         {text: "HT-1303", value: "ht-1303"},
