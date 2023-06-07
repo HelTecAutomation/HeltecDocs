@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the ht-m7603 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ht-m7603 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-06 18:10+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../../source/index.rst:15
+msgid "Quick Start"
+msgstr "快速开始"
+
+#: ../../source/index.rst:15
+msgid "Connect to LoRa server"
+msgstr "连接到LoRa服务器"
+
+#: ../../source/index.rst:15
+msgid "-->[General Docs]<--"
+msgstr "通用文档"
+
+#: ../../source/index.rst:2
+msgid "HT-M7603 Indoor LoRa Gateway"
+msgstr "HT-M7603 室内LoRa网关"
+
+#: ../../source/index.rst:3
+msgid ""
+"`简体中文 <https://heltec-"
+"automation.readthedocs.io/zh_CN/latest/gateway/ht-m7603/index.html>`_"
+msgstr ""
+
+#: ../../source/index.rst:5
+msgid ""
+"HT-M7603 is a high cost-effective indoor standard LoRaWAN gateway, which "
+"can be used independently or as a blind filling gateway. With simple "
+"configuration, it allows you to bridge LoRa wireless networks to IP "
+"networks and different network servers via Wi-Fi or Ethernet HT-M7603 has"
+" a sleek, contemporary design. It is wall-mounted, can be easily placed "
+"anywhere indoor to ensure that it provides adequate signal coverage."
+msgstr "HT-M7603是一款高性价比室内标准LoRaWAN网关，既可以独立使用，也可以作为补盲网关。只需简单的配置，就可以通过WiFi或以太网网将无线数据桥接到IP网络和各种云服务器。HT-M7603具有时尚、现代的设计，通过壁挂式安装，可以很容易地放置在室内任何地方，以确保它提供足够的信号覆盖。"
+
+#: ../../source/index.rst:8
+msgid "MT7628 MCU, SX1303 + SX1250 Chipset;"
+msgstr "MT7628 MCU, SX1303 + SX1250 芯片组；"
+
+#: ../../source/index.rst:9
+msgid "LoRaWAN protocol 1.0.2 Class A, Class C, custom MQTT support;"
+msgstr "支持LoRaWAN 1.0.2 Class A、Class C，以及私有MQTT协议；"
+
+#: ../../source/index.rst:10
+msgid "Support Wi-Fi or Ethernet to connect to the network;"
+msgstr "支持通过WiFi或以太网连接到网络；"
+
+#: ../../source/index.rst:11
+msgid "The power supply voltage: 5V;"
+msgstr "电源电压：5V；"
+
+#: ../../source/index.rst:12
+msgid "Easy to configuration on the Web UI by connecting to the device Wi-Fi;"
+msgstr "通过连接设备WiFi，在网页上轻松配置；"
+
+#: ../../source/index.rst:13
+msgid "Light and fashionable, wall-mounted, simple to install."
+msgstr "轻巧时尚，壁挂式，易安装。"
+

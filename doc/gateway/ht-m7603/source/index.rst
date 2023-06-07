@@ -2,8 +2,7 @@ HT-M7603 Indoor LoRa Gateway
 ============================
 `简体中文 <https://heltec-automation.readthedocs.io/zh_CN/latest/gateway/ht-m7603/index.html>`_
 
-HT-M7603 is a high cost-effective indoor standard LoRaWAN gateway, which can be used independently or as a blind filling gateway. With simple configuration, it allows you to bridge LoRa wireless networks to IP networks and different network servers via Wi-Fi or Ethernet
-HT-M7603 has a sleek, contemporary design. It is wall-mounted, can be easily placed anywhere indoor to ensure that it provides adequate signal coverage.
+HT-M7603 is a high cost-effective indoor standard LoRaWAN gateway, which can be used independently or as a blind filling gateway. With simple configuration, it allows you to bridge wireless networks to IP networks and different network servers via Wi-Fi or Ethernet. HT-M7603 has a sleek, contemporary design. It is wall-mounted, can be easily placed anywhere indoor to ensure that it provides adequate signal coverage.
 
 -  MT7628 MCU, SX1303 + SX1250 Chipset;
 -  LoRaWAN protocol 1.0.2 Class A, Class C, custom MQTT support;

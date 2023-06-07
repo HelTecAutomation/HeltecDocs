@@ -1,4 +1,4 @@
-# HT-M7603 Quick Start
+# Quick Start
 
 {ht_translation}`[简体中文]:[English]`
 
@@ -13,7 +13,7 @@ HT-M7603 is positioned as a low-cost standard gateway for indoor use. LoRa part 
 
 The HT-M7603 gateway has already downloaded the relevant program when it leaves the factory, and it can be used with only a few simple operations.
 
-![](img/quick_start/01.png) ![](img/quick_start/10.png) ![](img/quick_start/11.png)
+![](img/quick_start/01.png) ![](img/quick_start/11.png)
 
 
 

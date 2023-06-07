@@ -1,0 +1,133 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the ht-m7603 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ht-m7603 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-06-06 18:10+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh_CN\n"
+"Language-Team: zh_CN <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../../source/quick_start.md:1
+msgid "Quick Start"
+msgstr "快速入门"
+
+#: ../../source/quick_start.md:3
+msgid "{ht_translation}`[简体中文]:[English]`"
+msgstr ""
+
+#: ../../source/quick_start.md:5
+msgid "Summary"
+msgstr "概述"
+
+#: ../../source/quick_start.md:7
+msgid ""
+"HT-M7603 is positioned as a low-cost standard gateway for indoor use. "
+"LoRa part based on the SX1303 + 1250 structure,  we innovatively use "
+"ESP32 as the main control chip, and completely transplant the hardware "
+"driver, data forwarding and message queue of SX1303 to the ESP32 "
+"platform. There is no need to run the Linux operating system separately. "
+"With simple configuration, it allows you to bridge  to IP networks and "
+"different network servers via Wi-Fi or Ethernet."
+msgstr "HT-M7603定位为室内使用的低成本网关。LoRa部分基于SX1303+1250的结构，我们创新性的采用ESP32作为主控芯片，将SX1303的硬件驱动、数据转发、消息队列等全部移植到ESP32平台上。不需要单独运行Linux操作系统。通过简单的配置，你可以通过Wi-Fi或以太网桥接到IP网络和各种云服务器。"
+
+#: ../../source/quick_start.md:9 ../../source/quick_start.md:38
+msgid "&nbsp;"
+msgstr ""
+
+#: ../../source/quick_start.md:11
+msgid "Configure the gateway"
+msgstr "配置网关"
+
+#: ../../source/quick_start.md:14
+msgid ""
+"The HT-M7603 gateway has already downloaded the relevant program when it "
+"leaves the factory, and it can be used with only a few simple operations."
+msgstr "HT-M7603网关在出厂时已经下载了相关程序，只需要进行一些简单的操作即可使用。"
+
+#: ../../source/quick_start.md:16
+msgid "![](img/quick_start/01.png) ![](img/quick_start/11.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:20
+msgid ""
+"After the gateway is powered on, find the WiFi named \"HT_M7603_xxxx\", "
+"password \"heltec.org\". connect to this WiFi, and enter \"192.168.8.1\" "
+"through the browser, and log in to the gateway configuration page with "
+"the user name \"HT-M7603\" and password \"heltec.org\"."
+msgstr "网关接通电源后，找到名称为\“HT_M7603_xxxx\“的WiFi，密码为\”heltec.org\“。连接这个WiFi，通过浏览器输如\”192.168.8.1\“进入配置页面，其用户名为\”HT-M7603\“，密码为\”heltec.org\“。"
+
+#: ../../source/quick_start.md:23
+msgid "First Configuration via WiFi"
+msgstr "首次使用WiFi配置"
+
+#: ../../source/quick_start.md:25
+msgid "![](img/quick_start/02.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:29
+msgid ""
+"Configure the HT-M7603 gateway information on the page shown in the "
+"figure above, such as gateway mode, server address and port, regional "
+"frequency band. Click \"Set Gateway\" after the configuration is "
+"complete."
+msgstr "如下图所示，配置HT-M7603网关的信息，如网关模式、服务器地址和端口、区域频带等。配置完成后，点击\”Set Gateway\“。"
+
+#: ../../source/quick_start.md:31
+msgid "Connect to Network"
+msgstr "连接到网络"
+
+#: ../../source/quick_start.md:33
+msgid "![](img/quick_start/03.jpg)"
+msgstr ""
+
+#: ../../source/quick_start.md:35
+msgid ""
+"**Using Ethernet**: insert the cable directly into the interface, after a"
+" successful connection, the device LED will change from blue to green."
+msgstr "**通过以太网**：将网线直接插入接口即可，联网成功后，设备指示灯会由蓝色变为绿色。"
+
+#: ../../source/quick_start.md:36
+msgid ""
+"**Using WiFi**: Click the \"Status \"option at the top left, click "
+"\"WiFi\". Select the WiFi you want to connect to in \"WIFI list\", enter "
+"password of this WiFi, click \"connect\". It usually takes 10-30 seconds "
+"for the HT-M7603 to connect to the WiFi, and the device LED will change "
+"from blue to green."
+msgstr "**通过WiFi**：点击配置页面左上角的\”Status\“选项，点击\”WiFi\“。在WiFi list 重选择你要接入的WiFi，输入WiFi密码，点击\”connect\“。通常HT-M7603连接到WiFi需要10到30秒的时间，设备的指示灯会由蓝色变为绿色。"
+
+#: ../../source/quick_start.md:40
+msgid "Common Problems and Solutions"
+msgstr "常见问题与解决方法"
+
+#: ../../source/quick_start.md:42
+msgid "Question: After the WiFi configuration is complete, Web is not responding."
+msgstr "问题：WiFi配置完成后，配置页面没由响应。"
+
+#: ../../source/quick_start.md:44
+msgid ""
+"Solution: The WiFi connection takes some time (usually under 30 seconds),"
+" please refresh the page after the LED turns green."
+msgstr "解决方法：WiFi连接成功需要一些时间（通常在30秒以内），你可以在设备指示灯变为绿色以后刷新该页面。"
+
+#: ../../source/quick_start.md:46
+msgid "Question: The gateway is unable to access the network."
+msgstr "问题：网关无法接入网络。"
+
+#: ../../source/quick_start.md:48
+msgid ""
+"Solution: Check your configuration information, Such as WiFi password, "
+"server address."
+msgstr "解决方法：检查你的配置信息，如WiFi密码、服务器地址等。"
+
