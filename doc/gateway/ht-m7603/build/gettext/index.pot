@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ht-m7603 \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-06 18:10+0800\n"
+"POT-Creation-Date: 2023-06-07 16:14+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,15 +16,15 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: ../../source/index.rst:15
+#: ../../source/index.rst:14
 msgid "Quick Start"
 msgstr ""
 
-#: ../../source/index.rst:15
+#: ../../source/index.rst:14
 msgid "Connect to LoRa server"
 msgstr ""
 
-#: ../../source/index.rst:15
+#: ../../source/index.rst:14
 msgid "-->[General Docs]<--"
 msgstr ""
 
@@ -37,29 +37,29 @@ msgid "`简体中文 <https://heltec-automation.readthedocs.io/zh_CN/latest/gate
 msgstr ""
 
 #: ../../source/index.rst:5
-msgid "HT-M7603 is a high cost-effective indoor standard LoRaWAN gateway, which can be used independently or as a blind filling gateway. With simple configuration, it allows you to bridge LoRa wireless networks to IP networks and different network servers via Wi-Fi or Ethernet HT-M7603 has a sleek, contemporary design. It is wall-mounted, can be easily placed anywhere indoor to ensure that it provides adequate signal coverage."
+msgid "HT-M7603 is a high cost-effective indoor standard LoRaWAN gateway, which can be used independently or as a blind filling gateway. With simple configuration, it allows you to bridge wireless networks to IP networks and different network servers via Wi-Fi or Ethernet. HT-M7603 has a sleek, contemporary design. It is wall-mounted, can be easily placed anywhere indoor to ensure that it provides adequate signal coverage."
 msgstr ""
 
-#: ../../source/index.rst:8
+#: ../../source/index.rst:7
 msgid "MT7628 MCU, SX1303 + SX1250 Chipset;"
 msgstr ""
 
-#: ../../source/index.rst:9
+#: ../../source/index.rst:8
 msgid "LoRaWAN protocol 1.0.2 Class A, Class C, custom MQTT support;"
 msgstr ""
 
-#: ../../source/index.rst:10
+#: ../../source/index.rst:9
 msgid "Support Wi-Fi or Ethernet to connect to the network;"
 msgstr ""
 
-#: ../../source/index.rst:11
+#: ../../source/index.rst:10
 msgid "The power supply voltage: 5V;"
 msgstr ""
 
-#: ../../source/index.rst:12
+#: ../../source/index.rst:11
 msgid "Easy to configuration on the Web UI by connecting to the device Wi-Fi;"
 msgstr ""
 
-#: ../../source/index.rst:13
+#: ../../source/index.rst:12
 msgid "Light and fashionable, wall-mounted, simple to install."
 msgstr ""
