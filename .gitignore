@@ -1,4 +1,5 @@
 .DS_Store
+**/*.pyc
 en/build
 .git
 zh_CN/source
