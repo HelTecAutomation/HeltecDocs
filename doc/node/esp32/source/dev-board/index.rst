@@ -5,5 +5,7 @@ ESP32 Dev-Board
 .. toctree::
    :maxdepth: 2
     
-    Wireless Bridge Example manual <wireless_bridge/index.rst>
+    Wireless Bridge <wireless_bridge/index.rst>
+    Wireless Paper <wireless_paper/index.rst>
+    Wireless Tracker <wireless_tracker/index.rst>
     Hardware Update Log <hardware_update_log>
