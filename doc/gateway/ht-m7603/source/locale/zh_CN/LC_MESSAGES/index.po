@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ht-m7603 \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-12 18:06+0800\n"
+"POT-Creation-Date: 2023-06-08 14:30+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh_CN\n"
@@ -17,7 +17,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.11.0\n"
+"Generated-By: Babel 2.12.1\n"
 
 #: ../../source/index.rst:14
 msgid "Quick Start"
@@ -36,7 +36,7 @@ msgid "HT-M7603 Indoor LoRa Gateway"
 msgstr "HT-M7603 室内LoRa网关"
 
 #: ../../source/index.rst:3
-msgid ":ht_translation:`[简体中文]:[English]`"
+msgid ":ht_translation:`[简体中文]:[Eglish]`"
 msgstr ""
 
 #: ../../source/index.rst:5
@@ -48,8 +48,7 @@ msgid ""
 "sleek, contemporary design. It is wall-mounted, can be easily placed "
 "anywhere indoor to ensure that it provides adequate signal coverage."
 msgstr ""
-"HT-"
-"M7603是一款高性价比室内标准LoRaWAN网关，既可以独立使用，也可以作为补盲网关。只需简单的配置，就可以通过WiFi或以太网网将无线数据桥接到IP网络和各种云服务器。HT-M7603具有时尚、现代的设计，通过壁挂式安装，可以很容易地放置在室内任何地方，以确保它提供足够的信号覆盖。"
+"HT-M7603是一款高性价比室内标准LoRaWAN网关，既可以独立使用，也可以作为补盲网关。只需简单的配置，就可以通过WiFi或以太网网将无线数据桥接到IP网络和各种云服务器。HT-M7603具有时尚、现代的设计，通过壁挂式安装，可以很容易地放置在室内任何地方，以确保它提供足够的信号覆盖。"
 
 #: ../../source/index.rst:7
 msgid "MT7628 MCU, SX1303 + SX1250 Chipset;"
@@ -75,4 +74,8 @@ msgstr "通过连接设备WiFi，在网页上轻松配置；"
 msgid "Light and fashionable, wall-mounted, simple to install."
 msgstr "轻巧时尚，壁挂式，易安装。"
 
+#~ msgid ""
+#~ "`简体中文 <https://heltec-"
+#~ "automation.readthedocs.io/zh_CN/latest/gateway/ht-m7603/index.html>`_"
+#~ msgstr ""
 

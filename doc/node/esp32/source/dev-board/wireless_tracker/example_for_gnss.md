@@ -14,16 +14,15 @@ The Heltec ESP32 development environment already contains the basic code. For th
 
 ## Example
 
+### Precondition
 
-```{Tip} Confirm whether the `USB driver` , `Git` and `Arduino IDE` has been installed correctly. If not, please refer to this two articles [establish serial connection](https://docs.heltec.org/general/establish_serial_connection.html) and [Install Git and Arduino IDE](https://docs.heltec.org/general/how_to_install_git_and_arduino.html).
++ Confirm whether the `USB driver` , `Git` and `Arduino IDE` has been installed correctly. If not, please refer to this two articles [establish serial connection](https://docs.heltec.org/general/establish_serial_connection.html) and [Install Git and Arduino IDE](https://docs.heltec.org/general/how_to_install_git_and_arduino.html).
 
-```
++ Confirm that The Heltec ESP32 development environment is installed, please refer to[ESP32+LoRa Quick start](https://docs.heltec.org/en/node/esp32/quick_start.html)
 
-```{Tip} Confirm that The Heltec ESP32 development environment is installed, please refer to[ESP32+LoRa Quick start](https://docs.heltec.org/en/node/esp32/quick_start.html)
+### Downloading the sample application
 
-```
-
-Open `Arduino IDE` , click `tool`, select the development board model, port, RF parameters, etc. As shown below
+Open `Arduino IDE` , click `tool`, selmodel, port, RF parameters, etc. As shown below
 
 ![](img/02.png)
 
