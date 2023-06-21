@@ -36,12 +36,34 @@ Here is a T113 development board with LoRaWAN function.
 ### Wi-Fi Connection
 1. Go under the **/etc** directory.
 2. Use the following statement for networking.
-```
+```sh
 bash wlan-connect.sh yourssid  yourpwssd   1
 ```
 ### Ethernet Connection
 1. You need to plug in the Internet cable first.
 2. Execute the following statement to connect to the Internet.
-```
+```sh
 udhcpc -i eth0
+```
+### Illuminate the white light
+1. Execute the following statement in any directory:
+```sh
+ echo 113 > /sys/class/gpio/export
+ echo out > /sys/class/gpio/gpio113/direction
+ echo 1 > /sys/class/gpio/gpio113/value
+```
+### I2C scanning
+1. If an I2C device is connected, its address will be displayed in the scan.
+```sh
+echo 1 > /proc/sys/kernel/printk
+i2cdetect -y -r 2
+#      0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
+# 00:          -- -- -- -- -- -- -- -- -- -- -- -- -- 
+# 10: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+# 20: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+# 30: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+# 40: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+# 50: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+# 60: 60 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+# 70: -- -- -- -- -- -- -- --
 ```

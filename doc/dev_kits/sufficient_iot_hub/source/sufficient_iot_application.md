@@ -1,38 +1,40 @@
 # Sufficient IoT Application
 
 
-
 ## Introduction
 
 
 ## Use the Sufficient IoT Application
 
 ### Configuration
-1. Go to the **. /linux_lora/build** directory and execute the following statement, which will generate the executable **demo** under the **. /linux_lora/bin** path, the executable file **demo** will be created.
+1. Go to the **. /home/lora/linux_lora/build** directory and execute the following statement, which will generate the executable **demo** under the **/home/lora/linux_lora/bin** path, the executable file **demo** will be created.
 ```
 cmake ..
 make clean
 make 
 ```
 #### LoRaWAN Parameter Configuration
-1. In **. /linux_lora/build** , use the following statement to enter the configuration interface, you can configure the parameters of LoRaWAN.
+1. In **/home/lora/linux_lora/build** , use the following statement to enter the configuration interface, you can configure the parameters of LoRaWAN.
 ```
 make menuconfig
 ```
 2. The interface is as follows:
 ![](img/lora_config.jpg)
 3. Here you can configure various parameters of lorawan, such as: front channel code, EUI, appkey, etc.
+
 #### Sensor Configuration
 1. In the ***LoRaWAN upload data selection*** option, the data from the optional sensors can be uploaded.
 2. The following sensors are currently available：
 ![](img/sensor.jpg)
+3. If you choose the I2C sensor, then you need to connect the corresponding sensor to TWI2_SDA and TWI2_SCK.![](img/t113_pin.jpg)
+
 ### Usage Example
 1. Configure the frequency band, APP_KEY, APP_EUI, APP_KEY, how to configure see LoRaWAN Parameter Configuration.   
 2. Select bmp180 sensor：   
 ![](img/bmp180.jpg)   
-3. Go to the **. /linux_lora/bin** folder and execute **. /demo** to upload the sensor data.
+3. Go to the **/home/lora/linux_lora/bin** folder and execute **./demo** to upload the sensor data.
 
-## Source Code
+## Source Code 
 
 ### The development frame work
 #### The basic structure of the project
