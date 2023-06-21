@@ -50,13 +50,13 @@ Command (m for help): w
 
 ## How to add swap memory?
 ```sh
-	mkdir /opt/swapfile
-	dd if=/dev/zero of=/opt/swapfile/swap256 bs=1M count=256
-	chown root:root /opt/swapfile/swap256
-	chmod 0600 /opt/swapfile/swap256
-	mkswap /opt/swapfile/swap256
-	swapon /opt/swapfile/swap256
-	vim  /etc/fstab  #Add a new line in the /etc/fstab file to indicate automatic mounting upon startup. ( /opt/swapfile/swap256  swap swap defaults 0 0 )
+mkdir /opt/swapfile
+dd if=/dev/zero of=/opt/swapfile/swap256 bs=1M count=256
+chown root:root /opt/swapfile/swap256
+chmod 0600 /opt/swapfile/swap256
+mkswap /opt/swapfile/swap256
+swapon /opt/swapfile/swap256
+vim  /etc/fstab  #Add a new line in the /etc/fstab file to indicate automatic mounting upon startup. ( /opt/swapfile/swap256  swap swap defaults 0 0 )
 ```
 
 ## Make msconfig cannot function properly on SSH on Mac
