@@ -33,13 +33,31 @@ Here is a T113 development board with LoRaWAN function.
 
 ## Configuration
 
-### Wi-Fi Connection
+### Manually connect to WiFi
+
 1. Go under the **/etc** directory.
 2. Use the following statement for networking.
 ```sh
 bash wlan-connect.sh yourssid  yourpwssd   1
 ```
+### Automatically connect to WiFi
+
+  After the first configuration, it will automatically connect every time it is turned on, and there is no need to configure it again.
+
+1. Configure the ssid and password of WiFi.
+
+```sh
+wpa_passphrase  SSID  Password  > /etc/wpa_supplicant/user_wifi.conf 
+```
+
+2. Restart the service for networking
+
+```sh
+reboot
+```
+
 ### Ethernet Connection
+
 1. You need to plug in the Internet cable first.
 2. Execute the following statement to connect to the Internet.
 ```sh
