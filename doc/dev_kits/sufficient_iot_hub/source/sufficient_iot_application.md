@@ -34,9 +34,37 @@ make menuconfig
 ![](img/bmp180.jpg)   
 3. Go to the **/home/lora/linux_lora/bin** folder and execute **./demo** to upload the sensor data.
 
-## Source Code 
+
+
+## License Validation
+
+1. Enter the folder of LoRaWAN executable files.
+
+   ```sh
+   cd /home/lora/linux_lora/bin/
+   ```
+
+2. Execution ./demo
+
+   ```c
+   Certificate verification failed
+   Please provide a correct license! For more information:
+   http://www.heltec.cn/search/ 
+   ChipID=303030303337   
+   ```
+
+3. Open the [address](https://resource.heltec.cn/search) connection to obtain the license, enter the **ChipID** of the product obtained in the previous step, and you can obtain the required license.
+
+4. Use the shell command **make menuconfig** to open the configuration interface, find the license input option, and enter the aforementioned license. Save and exit.
+
+   ```sh
+   HelTec LoRaWAN license --->
+   ```
+
+## Source Code
 
 ### The development frame work
+
 #### The basic structure of the project
 ```
 |-- bin                #Executable files
