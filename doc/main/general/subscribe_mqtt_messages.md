@@ -7,8 +7,7 @@ In the LoRaWAN application framework, [MQTT](https://mqtt.org/) is wildly used. 
 
 The purpose of this article is to provide some examples of how to get MQTT messages from a cloud servers. Hope these examples can provide some reference or make sense to your application.
 
-```{Tip The four keys to success MQTT subscription: 1. Host address, 2. Host port; 3. user name/pass word, 4. MQTT Topic.
-}
+```{Tip} The four keys to success MQTT subscription: 1. Host address, 2. Host port; 3. user name/pass word, 4. MQTT Topic.
 ```
 
 ## Connect the node to the server
