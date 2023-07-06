@@ -24,7 +24,7 @@ Insert the SD card into the computer with the card reader, and the computer will
 
   ![](img/SD_Formatter.png)
 
-Download the newest [Sufficient IoT Hub image](https://resource.heltec.cn/download/surficient_iot_hub/t113_img) locally.  
+Download the newest [Sufficient IoT Hub image](https://resource.heltec.cn/download/sufficient_iot_hub/t113_img) locally.  
 
 Open the tool [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/) just downloaded, and burn it according to the following steps.
 
