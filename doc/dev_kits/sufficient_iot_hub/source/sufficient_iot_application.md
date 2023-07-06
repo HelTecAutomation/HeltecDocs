@@ -1,67 +1,112 @@
 # Sufficient IoT Application
 
-
 ## Introduction
+
+The [Sufficient IoT Application](https://github.com/HelTecAutomation/Sufficient-IoT-Application) is a specially designed application for LoRa/LoRaWAN, it will greatly facilitate users to learn and use LoRa technology.
 
 
 ## Use the Sufficient IoT Application
 
 ### Configuration
-1. Go to the **. /home/lora/linux_lora/build** directory and execute the following statement, which will generate the executable **demo** under the **/home/lora/linux_lora/bin** path, the executable file **demo** will be created.
+Go to the `/home/lora/linux_lora/build` directory and execute the following statement, which will generate the executable demo under the `/home/lora/linux_lora/bin` path, the executable file **demo** will be created.
+
 ```
 cmake ..
 make clean
 make 
 ```
-#### LoRaWAN Parameter Configuration
-1. In **/home/lora/linux_lora/build** , use the following statement to enter the configuration interface, you can configure the parameters of LoRaWAN.
+### License Validation
+
+When running for the first time, or change a TF card running system, you may need a license to activate the device.
+
+Enter the folder of LoRaWAN executable files.
+
+```sh
+cd /home/lora/linux_lora/bin/
 ```
+
+Execution `./demo`
+
+```shell
+Certificate verification failed
+Please provide a correct license! For more information:
+http://www.heltec.cn/search/
+ChipID=303030303337
+```
+
+Open the [address](https://resource.heltec.cn/search) connection to obtain the license, enter the **ChipID** of the product obtained in the previous step, and you can obtain the required license.
+
+![](img/10.png)
+
+Use the shell command `make menuconfig` to open the configuration interface, find the license input option, and enter the aforementioned license. Save and exit.
+
+![](img/09.png)
+
+### LoRaWAN Parameter Configuration
+
+When the Sufficient IoT Application is correctly compiled and lincese actived, use the following statement to enter the configuration interface, you can configure the parameters of LoRaWAN.
+
+```
+cd /home/lora/linux_lora/build
 make menuconfig
 ```
-2. The interface is as follows:
-![](img/lora_config.jpg)
-3. Here you can configure various parameters of lorawan, such as: front channel code, EUI, appkey, etc.
+Then you will see a menu like this:
+![](img/11.png)
 
-#### Sensor Configuration
-1. In the ***LoRaWAN upload data selection*** option, the data from the optional sensors can be uploaded.
-2. The following sensors are currently available：
-![](img/sensor.jpg)
-3. If you choose the I2C sensor, then you need to connect the corresponding sensor to TWI2_SDA and TWI2_SCK.![](img/t113_pin.jpg)
+In the configure menu, there are following options can be set:
 
-### Usage Example
-1. Configure the frequency band, APP_KEY, APP_EUI, APP_KEY, how to configure see LoRaWAN Parameter Configuration.   
-2. Select bmp180 sensor：   
-![](img/bmp180.jpg)   
-3. Go to the **/home/lora/linux_lora/bin** folder and execute **./demo** to upload the sensor data.
+- **LORAWAN_REGION** -- LoRaWAN protocol region definition, strictly follow [LoRaWAN™ 1.0.2 Regional Parameters rB](https://resource.heltec.cn/download/LoRaWANRegionalParametersv1.0.2_final_1944_1.pdf).
+- **LORAWAN_CLASS** -- Now with `Class A` and `Class C` supported.
+- **LoRaWAN preamble length** -- LoRaWAN preamble length can be set to `8` or `16`.
+- **LoRaWAN network access method** -- `OTAA` or `ABP`, parameters such as EUI and AppKey in their sub options.
+- **LoRaWAN debug level** -- Print uplink/downlink frequency, DIO, error messages.
+- **LoRaWAN upload data** -- Custom data or predefined sensor data be sent in LoRaWAN format.
+- **LoRaWAN channels mask** -- The maximum number of channels used in LoRaWAN communication is **8**, and the channels must be continuous, such as 0~7,  8~15. For the definition of LoRaWAN channels, please refer to [LoRaWAN™ 1.0.2 Regional Parameters rB](https://resource.heltec.cn/download/LoRaWANRegionalParametersv1.0.2_final_1944_1.pdf).
+- **LoRaWAN duty cycle** -- The time interval between each two transmit data.
+- **LoRaWAN app port** -- Default app port.
+- **LoRaWAN other options configuration** -- Enable/disable `ADR` and `Confirmed data` functions.
 
+#### Send custom test data via LoRaWAN
 
+In the `LoRaWAN upload data selection` option, `fixed data` can set some custom data to be sent in LoRaWAN format as test.
 
-## License Validation
+![](img/12.png)
 
-1. Enter the folder of LoRaWAN executable files.
+#### Or send predefined sensor data via LoRaWAN
 
-   ```sh
-   cd /home/lora/linux_lora/bin/
-   ```
+```{Note} This part must work with an external sensor.
 
-2. Execution ./demo
+```
 
-   ```c
-   Certificate verification failed
-   Please provide a correct license! For more information:
-   http://www.heltec.cn/search/ 
-   ChipID=303030303337   
-   ```
+In the `LoRaWAN upload data selection` option, the data from the optional sensors can be uploaded.
 
-3. Open the [address](https://resource.heltec.cn/search) connection to obtain the license, enter the **ChipID** of the product obtained in the previous step, and you can obtain the required license.
+The following sensors are currently available：
 
-4. Use the shell command **make menuconfig** to open the configuration interface, find the license input option, and enter the aforementioned license. Save and exit.
+- HDC1080 temperature and humidity sensor
+- BMP180 air pressure and temperature sensors
 
-   ```sh
-   HelTec LoRaWAN license --->
-   ```
+At present, all predefined sensor are I2C sensor, then you need to connect the corresponding sensor to `TWI2_SDA` and `TWI2_SCK`.![](img/08.png)
+
+[Sufficient IoT Hub Pinmap](https://resource.heltec.cn/download/surficient_iot_hub/Sufficient_IoT_Hub_Pinmap.pdf)
+
+### Running the Application
+
+After configuration is completed, use the following commands to run the Sufficient Iot Application:
+
+```shell
+cd /home/lora/linux_lora/bin/
+./demo
+```
+
+```{Tip} Configuration parameters must be in path "/home/lora/linux_lora/build", and the running the Sufficient Iot Application must be in path "/home/lora/linux_lora/bin/".
+
+```
 
 ## Source Code
+
+In the downloadable firmware, there already have a Sufficient IoT Application package in the `/home/lora/linux_LoRa` path. But it may not be the latest version, you can obtain the latest version of the code in GitHub:
+
+https://github.com/HelTecAutomation/Sufficient-IoT-Application
 
 ### The development frame work
 
@@ -86,7 +131,7 @@ make menuconfig
 ```
 
 ---------------------------------------
-####  Currently supported bands
+####  Currently supported LoRaWAN bands
  >- [x] AS923 region
  >- [x] AU915 region
  >- [x] CN470 region
@@ -102,8 +147,9 @@ make menuconfig
  >- [x] AS923 AS2 region
 
 ---------------------------------------
-#### Add your own functional modules
+### Add your own functional modules
 **Take bmp180 as an example**
+
 1. Add a new folder with the file name bmp180 to the functional_module folder.
 2. Add the following file to the bmp180 folder    
 > bmp180.c     
@@ -143,12 +189,14 @@ target_link_libraries(${PROJECT_NAME} fifo config lora hdc1080 bmp180 data_conve
 
 ---------------------------------------
 #### Add graphical configuration interface options
-1. Find the project's Kconfig file, and in the LORAWAN_APP_DATA menu bar, add
+Find the project's Kconfig file, and in the LORAWAN_APP_DATA menu bar, add
+
 ```kconfig
 config BMP180_DATA
     bool "bmp180"
 ```
-2. In the LORAWAN_DATA_SELECTION menu bar of project/config/config.ini, add
+In the LORAWAN_DATA_SELECTION menu bar of project/config/config.ini, add
+
 ```ini
 ;BMP180_DATA=3
 ```
@@ -163,17 +211,19 @@ typedef enum
     bmp180_data
 }data_selection_num;
 ```
-3.  In project/config/kconfig_lib/configini_to_kconfig.sh  #Configure LoRaWAN upload data selection add
+In project/config/kconfig_lib/configini_to_kconfig.sh  #Configure LoRaWAN upload data selection add
+
 ```sh
 elif [ $DATA_SELECTION -eq 3 ];then
     echo "CONFIG_BMP180_DATA=y" >> $K_CONFIGFILE
 ```
 - The above sentence indicates that the C configuration file is synchronized with the GUI configuration file.
 
-4. Add read config.ini file to project/main/main.c.
+Add read config.ini file to project/main/main.c.
+
 ```c
     data_selection = iniparser_getint(ini,"LORAWAN_DATA_SELECTION:data_selection",-1);
 ```
-5. Use make menuconfig to configure the bmp180 option and save it, then read out data_selection = 3 in main.c.
+Use make menuconfig to configure the bmp180 option and save it, then read out data_selection = 3 in main.c.
 
-6. Once added, you can go through the options in man.c to implement the relevant functions.
+Once added, you can go through the options in man.c to implement the relevant functions.
