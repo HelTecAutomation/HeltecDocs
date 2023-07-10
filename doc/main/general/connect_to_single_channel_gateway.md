@@ -8,7 +8,7 @@ This article aims to describe how to connect nodes to a non-standard gateway les
 
 This document have a detailed introduction to the channel mask, highly recommend read it carefully and that will make sense: [LoRaWAN example Sub-Band usage (AU915)](https://heltec-automation-docs.readthedocs.io/en/latest/general/sub_band_usage.html).
 
-```{Tip) If the node channel is more than the gateway channel and the gateway channel is included, then the node channel can only enter the network when the node channel matches the gateway channel. If the node channel does not include the gateway channel, the node cannot enter the network.
+```{Tip} If the node channel is more than the gateway channel and the gateway channel is included, then the node channel can only enter the network when the node channel matches the gateway channel. If the node channel does not include the gateway channel, the node cannot enter the network.
 
 ```
 
