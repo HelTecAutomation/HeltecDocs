@@ -8,16 +8,14 @@ This topic aims to describe refreshing the Wireless Paper by downloading the pro
 
 
 ## Image coding
-```{Tip} This screen does not support grayscale, so when making pictures, you need to make it
-
-212x104 pure black and white image, save to.jpg or.bmp monochrome bitmap file.
+```{Tip} This screen does not support grayscale, so when making the image, you will need to convert it to a pure black and white image smaller than 250X122.
 
 ```
-Using program refresh paper, you'll need a tool for image transcoding, in this case [**E-ink Bitmap Array**](https://resource.heltec.cn/image-to-hex).
+Using program refresh paper, you'll need a tool for image transcoding, in this case [**Convertio**](https://convertio.co/zh/xbm-converter/).
 
-+ Open **E-ink Bitmap Array**: https://resource.heltec.cn/image-to-hex, and select the image that needs to be taken, Select "**2.13 white and black***", Select "**By Custom**", adjust your image parameters;
++ Open **Convertio**: https://convertio.co/zh/xbm-converter/, and select the image that needs to be taken, 
 
-![](img/01.png)
+![](img/10.png)
 
 + Copy and save the code you get.
 
@@ -29,11 +27,11 @@ Using program refresh paper, you'll need a tool for image transcoding, in this c
 
 + Confirm that The Heltec ESP32 development environment is installed, please refer to[ESP32+LoRa Quick start](https://docs.heltec.org/en/node/esp32/quick_start.html).
 
-Use Arduino IDE to open the example we provided or any other program that works, as shown below.
+Connect the Wireless Paper to the computer using a TYPE-C wire. Use Arduino IDE to open the example we provided or any other program that works, as shown below.
 
 ![](img/03.png)
 
-Replace the contents of `image.h` with the file **E-ink Bitmap Array** generated earlier, as shown below.
+Replace the contents of `image.h` with the file **Convertio** generated earlier, as shown below.
 
 ```{Tip} Be careful to fill in the data of Weight and Hight in the red box part of the figure, rather than copying this part directly.
 

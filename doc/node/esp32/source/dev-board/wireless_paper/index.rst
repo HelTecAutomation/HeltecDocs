@@ -10,5 +10,6 @@ days after power outage.
    :maxdepth: 2
     
     Via Program Refresh<via_program_refresh>
+    Via Web Refresh<via_web_refresh>
     Wireless Refresh<wireless_refresh>
     

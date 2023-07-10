@@ -1,4 +1,4 @@
-Contents
+HRI-485x
 ========
 :ht_translation:`[简体中文]:[English]`
 
@@ -19,4 +19,5 @@ HRI-485x is a data transmission device based on industrial grade LoRa modulation
 
     Quick Start <quick_start>
     Setting of communication conditions <setting_of_communication_conditions>
+    LoRaWAN<lorawan>
     -->[General Docs]<-- <https://docs.heltec.org/general/index.html>

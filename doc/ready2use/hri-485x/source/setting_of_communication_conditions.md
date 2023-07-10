@@ -1,7 +1,14 @@
-# Communication conditions
+# Communication Conditions
 
 {ht_translation}`[简体中文]:[English]`
 
+The HRI-485x series has a variety of networking modes, but different versions have different functions.
+
+ ![](img/13.png) 
+
+``` {Tip} HRI-4852 is usually only used as a gateway for HRI-4851 to enter the network.
+
+```
 ## Prerequisites
 &nbsp;
 **Preconditions for device communication : Air Rate, Tx Power, Baud Rate, Data Mode, Channel, KEY parameters are the same between devices.**
@@ -30,7 +37,9 @@ The message delivered by the "Gateway" must indicate the "Address" of the object
   ![](img/07.png) 
 &nbsp;
 
-## HRI-4852
+``` {Tip} HRI-4852 is usually only used as a gateway for HRI-4851 to enter the network.
+
+```
 Enter the configuration page of HRI-4852, set it "Address"and"Group".
 Use the "NET mode" option to set the connection method of your choice.
 Use the "server address"and "server port" options to configure the server you want to connect to.
