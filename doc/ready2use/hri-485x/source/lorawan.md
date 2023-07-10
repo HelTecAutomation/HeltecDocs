@@ -1,53 +1,45 @@
-# Getting Started
+# LoRaWAN
+HRI-4851L is a DTU device using LoRaWAN protocol, and its network access must also rely on LoRaWAN gateway and server.
+## Connect to TTN/TTS
+Before that, make sure there is a LoRa Gateway active in your [TTN](https://console.thethingsnetwork.org/)/[TTS](https://lora.heltec.org/console) account.
 
-{ht_translation}`[简体中文]:[English]`
+## Configure End Device
+Go to the configuration page of HRI-4851L and configure the information of the device according to your requirements, pay attention to the red part, you will register the LoRaWAN server with this information.
 
-## Summary
-HRI-485x series based on ESP32C3-FN4 / ESP32DOWDQ6, LoRa part based on SX1262 mechanism, can support 4.5 ~ 28V voltage. The device can be widely used in various industrial scenarios to meet the data transmission requirements in different scenarios, and provide users with more convenient and efficient data transmission methods.
+![](img/15.png)
 
-## Connect the wires
-+ As shown in the figure,Connect the power wires and data bus of the device.
+### Register a device
 
-   ![](img/01.png) 
+Register a new device in TTN or TTS “Applications” page. Select the corresponding Brand, Model, Hardware Version, Firmware Version, Region.
 
-+ Install the antenna we provided.
+![](img/16.png)
 
-   ![](img/02.png) 
+Select the frequency plan, and fill in the corresponding AppEUI, DevEUi, AppKey, and register the device.
 
-+ If the device needs to use LTE capabilities,you will also need to insert a LTE card.
+![](img/17.png)
 
-## Select activity mode
-Select the mode by pressing the RST button, Judge by the state of LED lights:
+After registration is complete, if all is well, you will see the device active.
 
-  ![](img/12.png)
+![](img/18.png)
 
-+ Work mode
+## Connect to ChirpStack
 
-  Default mode, White LED light on.
+Register a new device in ChirpStack’s “Applications” page. Enter the device name, description, DevEUI. Select Device-profile.
 
-+ Debug mode
+![](img/20.png)
 
-  Press the RST button once, White LED slow blinking,You can print SNR and RSSI in this mode.
+Enter the Application key of the device.
 
-+ Sleep mode
+![](img/21.png)
 
-  Press the RST button again, White LED light go out,device shutdown.
+After registration is complete, if all is well, you will see the device active.
 
-+ Configuration mode
+![](img/22.png)
 
-  Press the RST button again in sleep mode, White LED flash quickly,enter configuration mode. 
+## Important Hints
 
-## Enter configuration page
-In configuration mode (White LED flash quickly), you can find HRI-485x's Wi-Fi, in general, it has    the format"HRI-485x-xxxx".
+Please double check the following two things:
 
-+ Connect to WiFi "HRI-485x-xxxx".
-+ Enter "192.168.4.1" through the Web UI.
-+ Write the parameters as needed, configure it, and click Submit. 
+1. The LoRaWAN parameters is the same as server!
+2. The listening frequency of your LoRa Gateway is the same as ESP32 LoRa node's sending frequency. We strictly follow [LoRaWAN™ 1.0.2 Regional Parameters rB](https://resource.heltec.cn/download/LoRaWANRegionalParametersv1.0.2_final_1944_1.pdf);
 
-![](img/03.png)
-
-## Common problems and solutions
-+ The browser will not connect
-If you type "192.168.4.1", the browser will not connect,please check if you are connected to the WiFi of the device you are configuring.
-+ Device not working
-After each configuration, you must press the switch to put the device into "work mode".
