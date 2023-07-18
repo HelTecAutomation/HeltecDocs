@@ -65,6 +65,6 @@ Replace the contents of `image.h` with the file **Convertio** generated earlier,
 
 ```
 
-![](img/08.png)
+![](img/eink_refresh/08.png)
 
 Click upload, when the program is uploaded, the image is displayed on E-Ink.
