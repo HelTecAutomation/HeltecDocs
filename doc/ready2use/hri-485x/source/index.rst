@@ -16,8 +16,8 @@ HRI-485x is a data transmission device based on industrial grade LoRa modulation
 .. toctree::
     :maxdepth: 2
     
-
     Quick Start <quick_start>
-    Setting of communication conditions <setting_of_communication_conditions>
-    LoRaWAN<lorawan>
+    Setting of Communication <setting_of_communication_conditions>
+    LoRaWAN <lorawan>
+    Application Example <application_example>
     -->[General Docs]<-- <https://docs.heltec.org/general/index.html>
