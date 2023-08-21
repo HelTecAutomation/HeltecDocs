@@ -43,25 +43,27 @@ Here are the LoRa Gateways produced by Heltec Automation. You will be able to fi
 
 .. toctree::
    :maxdepth: 2
-   :caption: LoRa Nodes
+   :caption: Dev Board
 
-   CubeCell Series <https://docs.heltec.org/en/node/cubecell/index.html>
-   ESP32 + LoRa <https://docs.heltec.org/en/node/esp32/index.html>
-   STM32 + LoRa <https://docs.heltec.org/en/node/stm32/index.html>
+   ASR650x Series <https://docs.heltec.org/en/board/asr650x/index.html>
+   ESP32 Series <https://docs.heltec.org/en/board/esp32/index.html>
+   STM32 Series <https://docs.heltec.org/en/board/stm32/index.html>
+   Sufficient IoT Hub <https://docs.heltec.org/dev_board/sufficient_iot_hub/index.html>
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Module
+   
+   ASR650x Series <https://docs.heltec.org/en/module/asr650x/index.html>
+   Esp32 Series <https://docs.heltec.org/en/module/esp32/index.html>
+   HT-AT62 <https://docs.heltec.org/en/module/ht_at62/index.html>
+   HT-RA62 <https://docs.heltec.org/en/module/ht_ra62/index.html>
    
 .. toctree::
    :maxdepth: 2
-   :caption: Development Kits
+   :caption: DTU and sensor
    
-   ESP32 + Arduino <https://docs.heltec.org/en/dev_kits/esp32_arduino/index.html>
-   ESP8266 + Arduino <https://docs.heltec.org/en/dev_kits/esp8266_arduino/index.html>
-   Sufficient IoT Hub <https://docs.heltec.org/en/dev_kits/sufficient_iot_hub/index.html>
-   
-.. toctree::
-   :maxdepth: 2
-   :caption: Ready to Use
-   
-   HRI-485x <https://docs.heltec.org/en/ready2use/hri-485x/index.html>
+   HRI-485x <https://docs.heltec.org/en/ready2use/hri_485x/index.html>
    
 
 .. toctree::
