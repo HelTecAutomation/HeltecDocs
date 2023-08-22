@@ -31,6 +31,7 @@ var prod_obj = {
     ],
     ready2use: [
         {text:"HRI-485x", value: "hri-485x"},
+        {text:"HRU-3601", value: "hru-3601"},
     ],
 }
 

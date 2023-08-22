@@ -62,6 +62,7 @@ Here are the LoRa Gateways produced by Heltec Automation. You will be able to fi
    :caption: Ready to Use
    
    HRI-485x <https://docs.heltec.org/en/ready2use/hri-485x/index.html>
+   HRU-3601 <https://docs.heltec.org/en/ready2use/hru-3601/index.html>
    
 
 .. toctree::
