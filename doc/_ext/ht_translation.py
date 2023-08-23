@@ -26,7 +26,8 @@ class TranslationLinkNodeTransform(SphinxPostTransform):
                 (zh, en) = text.split(':')
                 env = self.document.settings.env
                 docname = env.docname
-                base_url = self.app.outdir.split('/html', maxsplit=1)[1]
+                print(self.app.outdir)
+                base_url = str(self.app.outdir).split('/html', maxsplit=1)[1]
                 if base_url.startswith('/en'):
                     base_url = base_url.replace('/en', '/zh_CN')
                     url = '{}.html'.format(os.path.join(base_url, docname))
