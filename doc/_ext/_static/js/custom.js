@@ -1,9 +1,8 @@
 (function () {
 var P = [
     { text: "LoRa Gateway", value: "gateway"},
-    { text: "Dev Board", value: "board"},
-    { text: "Module", value: "module"},
-    { text: "Ready To Use", value: "ready2use"},
+    { text: "Node", value: "node"},
+    { text: "Ready to Use", value: "ready_to_use"},
  ]
 
 
@@ -13,26 +12,25 @@ var prod_obj = {
         {text: "HT-M01", value: "ht-m01"},
         {text: "HT-M01S_V2", value: "ht-m01s_v2"},
         {text: "HT-M7603", value: "ht-m7603"},
-        {text: "HT-M02 (Phaseout)", value: "ht-m02"},
         {text: "HT-M02_V2", value: "ht-m02_v2"},
         {text: "HT-1303", value: "ht-1303"},
         {text: "HT-M01S (Phaseout)", value: "ht-m01s"},
+        {text: "HT-M02 (Phaseout)", value: "ht-m02"},
         {text: "SX1301module (Phaseout)", value: "sx1301module"},
     ],
-    board: [
-        {text: "Cubecell Series", value: "cubecell"},
+    node: [
+        {text: "ASR650x Series", value: "asr650x"},
         {text: "ESP32 Series", value: "esp32"},
         {text: "STM32 Series", value: "stm32"},
         {text: "Sufficient IoT Hub", value: "sufficient_iot_hub"},
+        {text: "HT-AT62", value: "ht-at62"},
+        {text: "HT-RA62", value: "ht-ra62"},
     ],
-    module: [
-        {text: "Cubecell Series", value: "cubecell"},
-        {text: "ESP32 Series", value: "esp32"},
-        {text: "HT-AT62", value: "ht_at62"},
-        {text: "HT-RA62", value: "ht_ra62"},
-    ],
-    ready2use: [
+    ready_to_use: [
         {text:"HRI-485x", value: "hri-485x"},
+        {text:"HRU-3601", value: "hri-485x"},
+        {text:"HRU-1000", value: "hru-1000"},
+        {text:"HRI-362x", value: "hri-362x"},
     ],
 }
 
