@@ -1,5 +1,5 @@
-Contents
-========
+ASR-650x Series
+===============
 :ht_translation:`[简体中文]:[English]`
 
 We believe `the CubeCell Series <https://heltec.org/cubecell>`__ is the best
@@ -26,7 +26,8 @@ features:
 
 
 .. toctree::
-    :maxdepth: 2
+   :maxdepth: 2
+   
     HTCC-AB01<htcc_ab01/index>
     HTCC-AB02<htcc_ab02/index>
     HTCC-AB02S<htcc_ab02s/index>

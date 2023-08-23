@@ -1,7 +1,7 @@
 (function () {
 var P = [
     { text: "LoRa Gateway", value: "gateway"},
-    { text: "Node", value: "node"},
+    { text: "Nodes", value: "node"},
     { text: "Ready to Use", value: "ready_to_use"},
  ]
 
@@ -18,7 +18,7 @@ var prod_obj = {
         {text: "HT-M02 (Phaseout)", value: "ht-m02"},
         {text: "SX1301module (Phaseout)", value: "sx1301module"},
     ],
-    node: [
+    nodes: [
         {text: "ASR650x Series", value: "asr650x"},
         {text: "ESP32 Series", value: "esp32"},
         {text: "STM32 Series", value: "stm32"},
@@ -28,13 +28,9 @@ var prod_obj = {
     ],
     ready_to_use: [
         {text:"HRI-485x", value: "hri-485x"},
-<<<<<<< HEAD
         {text:"HRU-3601", value: "hri-485x"},
         {text:"HRU-1000", value: "hru-1000"},
         {text:"HRI-362x", value: "hri-362x"},
-=======
-        {text:"HRU-3601", value: "hru-3601"},
->>>>>>> bb316b1365a95461e91f66176ee1b02dd4e1d137
     ],
 }
 
