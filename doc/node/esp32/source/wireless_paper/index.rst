@@ -8,6 +8,7 @@ days after power outage.
 
 .. toctree::
    :maxdepth: 2
+   
     Quick Start <quick_start>
     Via Program Refresh<via_program_refresh>
     Via Web Refresh<via_web_refresh>

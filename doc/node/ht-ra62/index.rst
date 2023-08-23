@@ -13,10 +13,9 @@ HT-RA62 is a module, must work with other PCB boards, it belongs to “Heltec Lo
 
 .. toctree::
    :maxdepth: 2
-    
+
    Quick Start <quick_start>
    LoRaWAN <lorawan/index>
-   
 Relevant Offical Resources
 --------------------------
 
