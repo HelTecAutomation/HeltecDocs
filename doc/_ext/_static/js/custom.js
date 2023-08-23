@@ -18,7 +18,7 @@ var prod_obj = {
         {text: "HT-M02 (Phaseout)", value: "ht-m02"},
         {text: "SX1301module (Phaseout)", value: "sx1301module"},
     ],
-    nodes: [
+    node: [
         {text: "ASR650x Series", value: "asr650x"},
         {text: "ESP32 Series", value: "esp32"},
         {text: "STM32 Series", value: "stm32"},
@@ -28,7 +28,7 @@ var prod_obj = {
     ],
     ready_to_use: [
         {text:"HRI-485x", value: "hri-485x"},
-        {text:"HRU-3601", value: "hri-485x"},
+        {text:"HRU-3601", value: "hri-3601"},
         {text:"HRU-1000", value: "hru-1000"},
         {text:"HRI-362x", value: "hri-362x"},
     ],

@@ -1,8 +1,8 @@
-Contents
+ESP32 Series
 ========
 :ht_translation:`[简体中文]:[English]`
 
-This document branch is for `Heltec ESP32 + LoRa Node series <https://heltec.org/proudct_center/lora/lora-node/>`_,
+This document branch is for `Heltec ESP32 Node series <https://heltec.org/proudct_center/lora/lora-node/>`_,
 
 ESP32 is a powerfull SoC with 240MHz Tensilica LX6 dual-core & 1 ULP core, 600 DMIPS, 520KB SRAM. The benefit of "ESP32 + LoRa" combination:
 
@@ -30,7 +30,7 @@ ESP32 is a powerfull SoC with 240MHz Tensilica LX6 dual-core & 1 ULP core, 600 D
     Wifi kit 32<wifi_kit_32/index>
     Wifi kit 8<wifi_kit_8/index>
     HT-CT62<ht_ct62/index>
-    Wireless Shell<wirwlee_shell/index>
+    Wireless Shell<wireless_shell/index>
     ESP32 General Docs<esp32_general_docs/index>
     -->[Heltec General Docs]<-- <https://docs.heltec.org/general/index.html>
     
