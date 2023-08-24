@@ -15,5 +15,3 @@ and supports GPS, GLONASS, BDS, Galileo, NAVIC, QZSS multi-system joint position
     ESP32 General Docs<https://docs.heltec.org/en/node/esp32/esp32_general_docs/index>
     -->[Heltec General Docs]<-- <https://docs.heltec.org/general/index.html>
     
-Relevant Offical Resources
---------------------------

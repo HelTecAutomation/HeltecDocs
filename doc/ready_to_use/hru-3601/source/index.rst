@@ -20,6 +20,7 @@ HRU-3601 employs LoRaWAN communication, and utilizes Web for easy configuration 
     
     Quick Start <quick_start>
     Connect to LoRaWAN Server<connect_to_lorawan_server>
+    Related resources Download<https://resource.heltec.cn/download/HRU3601>
     Subscribe MQTT Messages from LoRa Server<https://docs.heltec.org/general/subscribe_mqtt_messages.html>
     Publish MQTT Message<https://docs.heltec.org/general/publish_mqtt_message.html#id1>
     -->[General Docs]<-- <https://docs.heltec.org/general/index.html>

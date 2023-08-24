@@ -2,7 +2,7 @@ ASR-650x Series
 ===============
 :ht_translation:`[简体中文]:[English]`
 
-We believe `the CubeCell Series <https://heltec.org/cubecell>`__ is the best
+We believe the `CubeCell(ASR-650X) Series <https://heltec.org/cubecell>`__(ASR-650x) is the best
 choice for LoRaWAN node applications. The following are some of the key
 features:
 

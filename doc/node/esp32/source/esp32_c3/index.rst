@@ -8,7 +8,7 @@ Wi-Fi, BLE, LoRa functions, also Li-Po battery management system, 0.96" OLEDarea
 .. toctree::
    :maxdepth: 2
     
-    Quick Start<quick_start>
+    Quick Start<https://docs.heltec.org/en/node/esp32/esp32_general_docs/quick_start.html>
     Example Manual<example>
     ESP32 General Docs<https://docs.heltec.org/en/node/esp32/esp32_general_docs/index>
     -->[Heltec General Docs]<-- <https://docs.heltec.org/general/index.html>
