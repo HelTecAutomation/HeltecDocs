@@ -14,8 +14,8 @@ development and application.
 .. toctree::
    :maxdepth: 2
     
-    Quick Start<quick_start>
+    Quick Start<https://docs.heltec.org/en/node/esp32/esp32_general_docs/quick_start.html>
     Example Manual<example>
-    
+    LoRaWAN<https://docs.heltec.org/en/node/esp32/esp32_general_docs/lorawan/index.html>
     -->[Heltec General Docs]<-- <https://docs.heltec.org/general/index.html>
     

@@ -20,9 +20,9 @@ Wireless Shell
 .. toctree::
    :maxdepth: 2
     
-    Quick Start <quick_start>
+    Quick Start <https://docs.heltec.org/en/node/esp32/esp32_general_docs/quick_start.html>
     Programming_esp32<programming_esp32>
-    LoRaWAN <lorawan/index> 
+    LoRaWAN<https://docs.heltec.org/en/node/esp32/esp32_general_docs/lorawan/index.html>
     ESP32 General Docs<https://docs.heltec.org/en/node/esp32/esp32_general_docs/index>
     -->[Heltec General Docs]<-- <https://docs.heltec.org/general/index.html>
     

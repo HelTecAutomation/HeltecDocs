@@ -10,8 +10,9 @@ and supports GPS, GLONASS, BDS, Galileo, NAVIC, QZSS multi-system joint position
 .. toctree::
    :maxdepth: 2
     
-    Quick Start<quick_start>
+    Quick Start<https://docs.heltec.org/en/node/esp32/esp32_general_docs/quick_start.html>
     Example Manual<example_for_gnss>
+    LoRaWAN<https://docs.heltec.org/en/node/esp32/esp32_general_docs/lorawan/index.html>
     ESP32 General Docs<https://docs.heltec.org/en/node/esp32/esp32_general_docs/index>
     -->[Heltec General Docs]<-- <https://docs.heltec.org/general/index.html>
     

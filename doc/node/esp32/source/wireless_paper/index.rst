@@ -9,7 +9,7 @@ days after power outage.
 .. toctree::
    :maxdepth: 2
    
-    Quick Start <quick_start>
+    Quick Start <https://docs.heltec.org/en/node/esp32/esp32_general_docs/quick_start.html>
     Via Program Refresh<via_program_refresh>
     Via Web Refresh<via_web_refresh>
     Wireless Refresh<wireless_refresh>

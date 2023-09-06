@@ -20,7 +20,7 @@ HT-CT62 is a module, must work with other PCB boards, it belongs to “Heltec Lo
 .. toctree::
    :maxdepth: 2
     
-    Quick Start <quick_start>
+    Quick Start <https://docs.heltec.org/en/node/esp32/esp32_general_docs/quick_start.html>
     Programming_esp32<programming_esp32>
     LoRaWAN <lorawan/index> 
     ESP32 General Docs<https://docs.heltec.org/en/node/esp32/esp32_general_docs/index>
