@@ -12,9 +12,10 @@ The configuration of LoRaWAN is detailed in various series of instructions, so m
 
 [Sufficent IoT LoRaWAN](https://docs.heltec.org/en/node/sufficient_iot_hub/sufficient_iot_application.html).
 
-```{TIP} HT-AT62 and HT-RA62 please refer to [STM32 Series LoRaWAN](https://docs.heltec.org/en/node/stm32/general_docs/lorawan/index.html)
+``` {TIP} HT-AT62 and HT-RA62 please refer to STM32 Series LoRaWAN
 
 ```
+
 .. toctree::
     :maxdepth: 2
     
