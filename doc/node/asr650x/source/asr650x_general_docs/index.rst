@@ -10,7 +10,7 @@ HTCC-AB01 (V2) is a Dev-Board. Which is an upgraded version of HTCC-AB01, and ca
    :maxdepth: 2
     
     Quick Start<quick_start>
-    LoRaWAN<lorawan>
+    LoRaWAN<lorawan/index>
     Solar Panel<solar_panel>
     Frequently Asked Questions<frequently_asked_questions>
     Hardware Update Logs<asr-650x>
