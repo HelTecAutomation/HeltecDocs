@@ -34,7 +34,8 @@ Enter `false` as shown below, which means that the code selects ABP.
 ## other options
 There are some options in the Arduino Tools menu.
 
-```{tip}This section is the same as OTAA, please refer to the link given at the beginning of this topic depending on your device.
+```{Tip} This section is the same as OTAA, please refer to the link given at the beginning of this topic depending on your device.
+
 ```
 
 ![](img/config_parameter/04.png)

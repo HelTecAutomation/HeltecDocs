@@ -17,6 +17,7 @@ Notice the option `Network defaults`. The `Resets frame counters` is not enabled
 ![](img/connect_to_gateway/05.jpg)
 
 Fill in the corresponding parameters in the pop-up options.
+
 ```{tip} DevEui is free to fill in the code is not affected, but we recommend that you use the ID provided by the device, so as not to cause confusion.
 ```
 
