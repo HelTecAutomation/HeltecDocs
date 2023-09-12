@@ -19,7 +19,7 @@ var prod_obj = {
         {text: "SX1301module (Phaseout)", value: "sx1301module"},
     ],
     node: [
-        {text: "ASR650x Series", value: "asr650x"},
+        {text: "Cubecell (ASR650x) Series", value: "asr650x"},
         {text: "ESP32 Series", value: "esp32"},
         {text: "STM32 Series", value: "stm32"},
         {text: "Sufficient IoT Hub", value: "sufficient_iot_hub"},

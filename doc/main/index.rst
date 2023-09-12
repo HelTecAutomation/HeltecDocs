@@ -45,7 +45,7 @@ Here are the LoRa Gateways produced by Heltec Automation. You will be able to fi
    :maxdepth: 2
    :caption: Nodes
 
-   ASR650x Series <https://docs.heltec.org/en/node/asr650x/index.html>
+   CubeCell(ASR650x) Series <https://docs.heltec.org/en/node/asr650x/index.html>
    ESP32 Series <https://docs.heltec.org/en/node/esp32/index.html>
    STM32 Series <https://docs.heltec.org/en/node/stm32/index.html>
    Sufficient IoT Hub <https://docs.heltec.org/node/sufficient_iot_hub/index.html>
