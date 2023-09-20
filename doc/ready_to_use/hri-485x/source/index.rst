@@ -4,7 +4,7 @@ HRI-485x
 
 The HRI-485x series is a DTU device that converts the RS-485 bus to wireless data. Sub models achieve RS-485 data to LTE (Cat. 1/Cat. 4), private LoRa, standardLoRaWAN, Ethernet, etc. communications method. 
 
-  ![](img/13.png)
+![](img/13.png)
 
 **HRI-485x have following main features:**
 
@@ -23,4 +23,5 @@ The HRI-485x series is a DTU device that converts the RS-485 bus to wireless dat
     Setting of Communication <setting_of_communication_conditions>
     LoRaWAN <lorawan>
     Application Example <application_example>
+    OTA Upgrade<ota_upgrade>
     -->[General Docs]<-- <https://docs.heltec.org/general/index.html>
