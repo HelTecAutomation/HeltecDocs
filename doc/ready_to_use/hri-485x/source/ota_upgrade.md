@@ -16,7 +16,7 @@ Locate the device hotspot and connect to it. Enter 192.168.4.1 on the web page t
 
 ```{Tip}If you forget how to access the diagram configuration page, see [Quick Start](https://docs.heltec.org/en/ready_to_use/hri-485x/quick_start.html)
 
-``````
+```
 ## Firmware upgrade
 Click on the red box below, select the firmware you downloaded, and then click Upgrade.
 
