@@ -26,6 +26,7 @@ ESP32 is a powerfull SoC with 240MHz Tensilica LX6 dual-core & 1 ULP core, 600 D
     Wireless Paper<wireless_paper/index>
     Wireless Stick<wireless_stick/index>
     Wireless Stick Lite<wireless_stick_lite/index>
+    HT-DE01<ht-de01>
     ESP32-C3<esp32_c3/index>
     Wifi kit 32<wifi_kit_32/index>
     Wifi kit 8<wifi_kit_8/index>
