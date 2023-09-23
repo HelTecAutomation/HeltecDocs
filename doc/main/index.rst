@@ -61,6 +61,7 @@ Here are the LoRa Gateways produced by Heltec Automation. You will be able to fi
    HRU-1000 <https://docs.heltec.org/en/ready_to_use/hru-1000/index.html>
    HRI-362x <https://docs.heltec.org/en/ready_to_use/hri-362x/index.html>
    Sensor Hub for Outdoor <https://docs.heltec.org/en/ready_to_use/hri_485x/index.html>
+   Wireless Bridge<https://docs.heltec.org/en/ready_to_use/wireless_bridge/index.html>
 
 .. toctree::
    :maxdepth: 2
