@@ -1,15 +1,25 @@
-WiFi LoRa 32
-============
+Contents
+========
 :ht_translation:`[简体中文]:[English]`
 
-WiFi LoRa 32 is a classic IoT dev-board designed & produced by HeltecAutomation(TM), it's a highly integrated product based on ESP32 + SX127x, it has
-Wi-Fi, BLE, LoRa functions, also Li-Po battery management system, 0.96" OLEDarealso included. It's the best choice for smart cities, smart farms, smart home, andIoTmakers.
+This document branch is for `Heltec ESP8266 + Arduino Node series <https://heltec.org/proudct_center/esp-arduino/>`_,
+
+ESP8266 is a powerfull SoC with 160MHz Tensilica L06 32-bits. The benefit of "ESP8266 + Arduino" combination:
+
+-  Powerful computing skills;
+-  Large FLASH size;
+-  Power mananagement system and Li-Po support;
+-  Arduino-compitable.
+
 
 .. toctree::
-   :maxdepth: 2
+    :maxdepth: 2
     
-    Quick Start<https://docs.heltec.org/en/node/esp32/esp32_general_docs/quick_start.html>
-    Example Manual<example>
-    ESP32 General Docs<https://docs.heltec.org/en/node/esp32/esp32_general_docs/index>
-    -->[General Docs]<-- <https://docs.heltec.org/general/index.html>
+    Quick Start <quick_start>
+    Frequently Asked Questions <frequently_asked_questions>
     
+Relevant Offical Resources
+--------------------------
+
+- `Heltec ESP8266 development framework source code <https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series>`_;
+- `Heltec ESP8266 series Arduino library <https://github.com/HelTecAutomation/Heltec_ESP8266>`_.
