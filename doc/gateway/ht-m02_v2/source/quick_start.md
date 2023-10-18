@@ -25,7 +25,7 @@ Connect the antenna and network cable to the gateway, and then connect the gatew
 
 ![](img/quick_start/01.png)
 
-Log in to the configuration page through the user name "HT-M02" and password "heltec. org".  The device used to log in to the configuration page needs to be on the same LAN as the gateway. The user can view the basic information of the gateway and configure the gateway on the configuration page.
+Log in to the configuration page through the user name "HT-M02" and password "heltec.org".  The device used to log in to the configuration page needs to be on the same LAN as the gateway. The user can view the basic information of the gateway and configure the gateway on the configuration page.
 
 ![](img/quick_start/04.png)
 

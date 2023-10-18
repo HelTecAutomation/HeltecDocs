@@ -6,10 +6,12 @@ LoRa Node 151 relevant documents.
 
 .. toctree::
    :maxdepth: 2
-    
+
+   Quick Start<quick_start> 
    Download Firmware <download_firmware>
    Establish Serial Connection <establish_serial_connection>
    Pingpong Test <pingpong_test>
+   LoRaWAN <lorawan>
    Hardware Update Logs <hardware_update_log>
    
 Relevant Offical Resources

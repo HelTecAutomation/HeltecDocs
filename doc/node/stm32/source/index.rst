@@ -10,7 +10,7 @@ STM32 is a powerfull SoC with Ultra-low-power 32-bit MCU,The benefit of "STM32 +
 -  Multiple bus interfaces;
 -  Powerful computing skills;
 -  Power mananagement system and different types of batteries support;
--  Multiple general GPIOs;
+-  Multiple general GPIOS;
 -  LoRaWAN 1.0.2 protocol support.
 
 .. tip::
@@ -20,9 +20,8 @@ STM32 is a powerfull SoC with Ultra-low-power 32-bit MCU,The benefit of "STM32 +
 
 .. toctree::
 
-   Quick Start <quick_start>
-   LoRaWAN <lorawan/index.rst>
-   LoRa Node 151 <lora_node_151/index.rst> 
-   Turtle Board <turtle_board/index.rst>
-   HT-AT62 <ht_at62/index.rst>
-   Frequently Asked Questions <frequently_asked_questions>
+   LoRa Kit 151 <lora_kit_151/index>
+   LoRa Node 151 <lora_node_151/index> 
+   Turtle Board <turtle_board/index>
+   STM32 General Docs <general_docs/index>
+    -->[General Docs]<-- <https://docs.heltec.org/general/index.html>

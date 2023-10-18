@@ -1,6 +1,8 @@
 #!/bin/bash
 
-#echo 'test' > ./_build/html/h.html 
+echo '-------------------------------'
+echo "$READTHEDOCS_OUTPUT"
+echo '-------------------------------'
 
 language="zh_CN en"
 
@@ -10,7 +12,7 @@ proj_type=$(${ls_command})
 
 
 build () {
-  python -m sphinx -T -E -b html -d _build/$1/$2/$3/doctrees -D language=$1 $4 ../../_readthedocs/html/$1/$2/$3
+  python -m sphinx -T -E -b html -d _build/$1/$2/$3/doctrees -D language=$1 $4 $READTHEDOCS_OUTPUT/html/$1/$2/$3
 }
 
 
@@ -25,4 +27,5 @@ do
   done
 done
 
+tree $READTHEDOCS_OUTPUT
 

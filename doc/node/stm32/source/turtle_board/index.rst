@@ -6,7 +6,8 @@ Turtle Board relevant documents.
 
 .. toctree::
    :maxdepth: 2
-    
+
+   Quick Start <quick_start>
    Download Firmware <download_firmware>
    Establish Serial Connection <establish_serial_connection>
    RadioShuttle Protocol Resource <radioshuttle_protocol_resource>
