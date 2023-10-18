@@ -46,3 +46,6 @@ Similar with TTN, add relevant decode script in the `Applications -> Node name -
 
 ![](img/decode_payload/03.png)
 
+## Some decode JS examples
+
+Some decode examples are available here: [Decode JS](https://resource.heltec.cn/download/tools/DecodeJS)

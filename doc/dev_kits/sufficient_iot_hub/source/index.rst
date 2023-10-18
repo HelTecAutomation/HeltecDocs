@@ -22,11 +22,9 @@ For example: It can be used to read sensors data from I2C and transmit via LoRaW
     
     Quick Start <quick_start>
     Sufficient IoT Application <sufficient_iot_application>
-    Hardware Update Logs <hardware_update_log>
     T113 Install ChirpStack <t113_install_ChirpStack>
     SX1303 Startup <sx1303_startup>
     Connect SSH <connect_ssh>
+    Hardware Update Logs <hardware_update_log>
     Frequently Asked Questions <frequently_asked_questions>
 
-Relevant Offical Resources
---------------------------
