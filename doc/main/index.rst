@@ -48,7 +48,7 @@ Here are the LoRa Gateways produced by Heltec Automation. You will be able to fi
    CubeCell(ASR650x) Series <https://docs.heltec.org/en/node/asr650x/index.html>
    ESP32 Series <https://docs.heltec.org/en/node/esp32/index.html>
    STM32 Series <https://docs.heltec.org/en/node/stm32/index.html>
-   Sufficient IoT Hub <https://docs.heltec.org/node/sufficient_iot_hub/index.html>
+   Sufficient IoT Hub <https://docs.heltec.org/en/node/sufficient_iot_hub/index.html>
    HT-AT62 <https://docs.heltec.org/en/node/ht-at62/index.html>
    HT-RA62 <https://docs.heltec.org/en/node/ht-ra62/index.html>
    
@@ -61,7 +61,7 @@ Here are the LoRa Gateways produced by Heltec Automation. You will be able to fi
    HRU-1000 <https://docs.heltec.org/en/ready_to_use/hru-1000/index.html>
    HRI-362x <https://docs.heltec.org/en/ready_to_use/hri-362x/index.html>
    Sensor Hub for Outdoor <https://docs.heltec.org/en/ready_to_use/hri_485x/index.html>
-   Wireless Bridge<https://docs.heltec.org/en/ready_to_use/wireless_bridge/index.html>
+   Wireless Bridge <https://docs.heltec.org/en/ready_to_use/wireless_bridge/index.html>
 
 .. toctree::
    :maxdepth: 2
@@ -69,3 +69,11 @@ Here are the LoRa Gateways produced by Heltec Automation. You will be able to fi
 
    /general/index
 
+/*Content Show/Hide on Hover*/
+selector{
+   opacity: 0;
+   transition: 0.5s ease-in-out;
+}
+selector:hover{
+   opacity: 1;
+}
