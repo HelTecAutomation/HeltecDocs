@@ -2,7 +2,7 @@
 var P = [
     { text: "LoRa Gateway", value: "gateway"},
     { text: "Nodes", value: "node"},
-    { text: "Ready to Use", value: "ready_to_use"},
+    { text: "Plug & Play", value: "ready_to_use"},
  ]
 
 
@@ -30,7 +30,8 @@ var prod_obj = {
         {text:"HRI-485x", value: "hri-485x"},
         {text:"HRU-3601", value: "hru-3601"},
         {text:"HRU-1000", value: "hru-1000"},
-        {text:"HRI-362x", value: "hri-362x"},
+        {text:"HRI-3621", value: "hri-3621"},
+        {text:"HRI-3622", value: "hri-3622"},
         {text:"Wireless Bridge", value: "wireless_bridge"},
     ],
 }

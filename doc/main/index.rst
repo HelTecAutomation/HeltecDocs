@@ -54,12 +54,13 @@ Here are the LoRa Gateways produced by Heltec Automation. You will be able to fi
    
 .. toctree::
    :maxdepth: 2
-   :caption: Ready to Use
+   :caption: Plug&Play(Ready to Use)
    
-   HRI-485x <https://docs.heltec.org/en/ready_to_use/hri-485x/index.html>
-   HRU-3601 <https://docs.heltec.org/en/ready_to_use/hru-3601/index.html>
-   HRU-1000 <https://docs.heltec.org/en/ready_to_use/hru-1000/index.html>
-   HRI-362x <https://docs.heltec.org/en/ready_to_use/hri-362x/index.html>
+   HRI-485x(RS-485 Wireless converter) <https://docs.heltec.org/en/ready_to_use/hri-485x/index.html>
+   HRU-3601(Indoor environment monitor) <https://docs.heltec.org/en/ready_to_use/hru-3601/index.html>
+   HRU-1000(Wireless ThermoProbe) <https://docs.heltec.org/en/ready_to_use/hru-1000/index.html>
+   HRI-3621(Sensor Hub) <https://docs.heltec.org/en/ready_to_use/hri-3621/index.html>
+   HRI-3622(Sensor Hub Bus Transformer) <https://docs.heltec.org/en/ready_to_use/hri-3621/index.html>
    Sensor Hub for Outdoor <https://docs.heltec.org/en/ready_to_use/hri_485x/index.html>
    Wireless Bridge <https://docs.heltec.org/en/ready_to_use/wireless_bridge/index.html>
 
