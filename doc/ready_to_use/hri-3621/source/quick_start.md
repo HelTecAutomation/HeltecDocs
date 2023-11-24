@@ -37,37 +37,36 @@ Configure the parameters according to specific requirements on the configuration
 
   ![](img/06.png)
 
-+ **LoRaWAN Configuration Page**: Shows the parameter configuration associated with LoRaWAN
++ **LoRaWAN Configuration Page**: Shows the parameter configuration associated with LoRaWAN.
 
   ![](img/07.png)
 
-  - `Network access mode` LoRaWAN network access mode
-  - `NwkSKey` `appSKey` `devAddr` ABP node parameters, must be consistent across the server
-  - `RxWindow1Delay unit:S` Receive window 1 delay
-  - `RxWindow2Delay unit:S` Receive window 2 delay
-  - `Rx2dr` Window 2 data rate adaptive
-  - `DevEui`  `appEui`  `appKey` OTAA node parameters, must be consistent across the server
-  - `AppTxDutyCycle unit:S` Node transmission period
-  - `AppPort` AppPort
-  - `Channel_start` LoRaWAN channel start,
-  - `Channel_end` LoRaWAN channel end
-  - `LoRaWanClass`LoRaWAN Class A, Class C
+  - `Network access mode` LoRaWAN network access mode.
+  - `NwkSKey` `appSKey` `devAddr` ABP node parameters, must be consistent across the server.
+  - `RxWindow1Delay unit:S` Receive window 1 delay.
+  - `RxWindow2Delay unit:S` Receive window 2 delay.
+  - `Rx2dr` Window 2 data rate adaptive.
+  - `DevEui`  `appEui`  `appKey` OTAA node parameters, must be consistent across the server.
+  - `AppTxDutyCycle unit:S` Node transmission period.
+  - `AppPort` AppPort.
+  - `Channel_start` LoRaWAN channel start.
+  - `Channel_end` LoRaWAN channel end.
+  - `LoRaWanClass`LoRaWAN Class A, Class C.
   - `IsTxConfirmed` Send Receive confirmation
-  - `LoRa signal light` Signal LED light switch
-  - `Adr` Data rate adaptation
-
+  - `LoRa signal light` Signal LED light switch.
+  - `Adr` Data rate adaptation.
++ **Submit**: Configuration is complete, click here to submit.
 + **OTA UPDATE**: Sensor Hub for Industry series supports OTA upgrade.
 
 ## Operating
-+ After the configuration is completed, long press the button for five seconds, and when the light goes off, the device is shut down.
-
-+ Press the button for 3 seconds. When the button shows white light, release the button. At this time, the device enters the working state, where the sending is green light and the receiving is purple light.
+### Power off
+After the configuration is completed, long press the button for five seconds, and when the light goes off, the device is shut down.
+### Power on
+Press the button for 3 seconds. When the button shows white light, release the button. At this time, the device enters the working state, where the sending is green light and the receiving is purple light.
 
 ## Common problems and solutions
 + Unable to confirm device working status.
-
 Press the device button once, and if it shows blue light, it will wake up, and the device will upload a message immediately.
 
 + Device not working
-
 After each configuration, you must button off in, then button on.
