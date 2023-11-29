@@ -2,7 +2,7 @@ HRI-3621 Sensor Hub for Industry
 ================================
 :ht_translation:`[简体中文]:[English]`
 
-[Sensor Hub](https://heltec.org/project/sensor-hub/) is a ready-to-use LoRa/LoRaWAN sensor for indoor (industrial) applications. Modular design allows for the replacement of sensor probes to adjust different projects. The device can be registered by one click via APP and Heltec Snap Emu IoT Platform.
+`Sensor Hub <https://heltec.org/project/sensor-hub/>`_ is a ready-to-use LoRa/LoRaWAN sensor for indoor (industrial) applications. Modular design allows for the replacement of sensor probes to adjust different projects. The device can be registered by one click via APP and Heltec Snap Emu IoT Platform.
 
 Sensor Hub for Industry has excellent low power consumption characteristics and LoRa provides Long-distance transmission capability. It comes with a built-in 1100mAh rechargeable battery and magnetic charging interface. The stainless-steel shell and high-strength plastic provide an IP66 protection level, allowing it to perform stably and excellently in complex industrial environments.
 

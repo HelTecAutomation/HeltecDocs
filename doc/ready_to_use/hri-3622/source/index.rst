@@ -2,12 +2,9 @@ HRI-3622 Sensor Hub Bus Transformer
 ===================================
 :ht_translation:`[简体中文]:[English]`
 
-Sensor Hub is a ready-to-use LoRa/LoRaWAN sensor for indoor (industrial) applications. Modular design allows for the replacement of sensor probes to adjust different projects. The device can be registered by one click via APP and Heltec Snap Emu IoT Platform.
+`HRI-3622 <https://heltec.org/project/sensor-hub/>`_ is a sub-model of the Sensor Hub for Industry series that specifically drives third-party sensors.
 
-Sensor Hub for Industry has excellent low power consumption characteristics and LoRa provides Long-distance transmission capability. It comes with a built-in 1100mAh rechargeable battery and magnetic charging interface. The stainless-steel shell and high-strength plastic provide an IP66 protection level, allowing it to perform stably and excellently in complex industrial environments.
-
-.. image:: ./img/01.jpg
-   :align: center 
+Sensor Hub for Industry has excellent low power consumption and long transmission distance characteristics, comes with a built-in 1100mAh rechargeable battery. The stainless-steel shell and high-strength plastic provide an IP66 protection level, allowing it to perform stably and excellently in complex industrial environments.
 
 **Sensor Hub have following main features:**
 
