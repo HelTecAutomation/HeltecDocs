@@ -16,15 +16,27 @@ The HRI-362x series has a wealth of indicator effects, which can help you more e
   ![](img/led.png)
 
 ## Connect third-party sensors
+
 There are two recommended ways to connect sensors:
 
-+ Connect the sensor directly to the HRI-3622.
+### Connect the sensor directly to the HRI-3622.
+
+ + We provide 12mm 8Pin flange conversion head, first through the flange seat diagram below, you can connect the pin of the sensor to the conversion head.
+
+ ![](img/flange.png)
+ 
+ + Connect the conversion head to the flange seat of the sensor hub and gently screw it on.
 
   ![](img/00.png) 
 
-+ Connect via Junction box
+### Connect via Junction box
+ + Connect the sensor junction box.
 
-  ![](img/01.png) 
+ + Connect the Junction box with the conversion head.
+
+ + Connect the conversion head to the flange seat of the sensor hub and gently screw it on.
+
+ ![](img/01.png) 
 
 ## Configura
 ### Enter Configuration mode
