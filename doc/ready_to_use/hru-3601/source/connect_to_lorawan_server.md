@@ -13,25 +13,24 @@ Refer to [Quick Start](https://docs.heltec.org/en/ready2use/hru-3601/quick_start
 ![](img/4.png)
 
 The details of the introduction of each parameter are as follows:
-+ `network access mode` choose `OTAA`.
-+ `devEui` Your node ID, you can fill in your own, in this case we'll write "2233445566778898".
-+ `appEui` Feel free to fill it out. Here we'll write "0000000000000000".
-+ `appKey` Feel free to fill it out. Here we'll write "88888888888888888888888888888888".
++ `network access mode` choose `OTAA` or `ABP`, .
++ `devEui` Your node ID, you can fill in your own, must be 16 hexadecimal digits, such as "2233445566778898".
++ `appEui` Feel free to fill it out, must be 16 hexadecimal digits, such as "0000000000000000".
++ `appKey` Feel free to fill it out, must be 32 hexadecimal digits, "88888888888888888888888888888888".
 + `appIxDutyCycle unit:S` the transmission interval of the LoRa signal.
-+ `appPort` Feel free to fill it out. Here we'll write "1".
-+ `channel start` Align with the gateway.
-+ `channel end` Align with the gateway.
-+ `loraWanClass` The communication mode of LoRaWAN, here we choose `CLASS A`.
-+ `isTxConfirmed` Whether to wait for server confirmation after sending the message, choose `true`.
-+ `adr` The transmit power is adaptive, choose `true`.
++ `appPort` free choice.
++ `channel start` `channel end` Align with the gateway, For example, if you want to select 0~7, fill in 0 and 7.
++ `loraWanClass` The communication mode of LoRaWAN, we can choose `CLASS A` or `CLASS C`.
++ `isTxConfirmed` Uplink receives confirmation whether it is enabled or not.
++ `adr` Whether data rate adaptation is enabled.
 
-``` {Tip} If you are not familiar with LoRaWAN, try to choose the default and set a simple EUI and KEY.
+``` {Tip} The above is the configuration page in OTAA mode. If ABP needs to be used, the configuration will be slightly different.
 
 ```
 
 ## Registering node on server
 
-Register a new device in TTN or TTS "Applications",choose`Enter end device specifics manually`.
+Register a new device in TTN or TTS "Applications",choose `Enter end device specifics manually`.
 
 ![](img/5.png)
 

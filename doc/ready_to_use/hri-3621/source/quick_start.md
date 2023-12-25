@@ -7,16 +7,16 @@ HRI-3621 integrates a 1100aMh rechargeable lithium battery, charging voltage is 
 
 ![](img/02.jpg) 
 
-## LED light status description
+## RGB light status description
 The HRI-362x series has a wealth of indicator effects, which can help you more easily use the device, or determine the status of the device.
 
 ![](img/led.png)
 
 ## Configura
 ### Enter Configuration mode
-+ Long press the button on the top of the device, and the device will first display white light and then orange light. At this time, release your finger.
++ Long press the button on the top of the device, and the device will **first display White light and then Yellow light**. At this time, release your finger.
 
-``` {Tip} If the blue light/green light blinks sequentially after long press, it means that the device is in working state. After 5 seconds, when the light is all out and no longer blinks, release your finger and long press again to enter the configuration page.
+``` {Tip} If the blue light/green light blinks sequentially after long press, it means that the device is in working state. At this point, long press the device will shut down, fter 5 seconds, release the button and repeat the above operation until the indicator light turns yellow.
 
 ```
 
@@ -66,7 +66,13 @@ Press the button for 3 seconds. When the button shows white light, release the b
 
 ## Common problems and solutions
 + Unable to confirm device working status.
+
 Press the device button once, and if it shows blue light, it will wake up, and the device will upload a message immediately.
 
-+ Device not working
-After each configuration, you must button off in, then button on.
++ The device could not be turned on.
+
+Try to connect its charging cable and turn it on while it is charging.
+
++ RGB light does not respond when sending and receiving.
+
+Go to the configuration page and see if the  `LoRa signal light` option is turned on.
