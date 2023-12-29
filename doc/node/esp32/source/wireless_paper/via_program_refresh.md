@@ -3,13 +3,9 @@
 {ht_translation}`[简体中文]:[English]`
 
 ## Summary
-
 This topic aims to describe refreshing the Wireless Paper by downloading the program through the USB interface.
-
-
 ## Image coding
 ```{Tip} This screen does not support grayscale, so when making the image, you will need to convert it to a pure black and white image smaller than 250X122.
-
 ```
 Using program refresh paper, you'll need a tool for image transcoding, in this case [**Convertio**](https://convertio.co/zh/xbm-converter/).
 
@@ -29,7 +25,10 @@ Using program refresh paper, you'll need a tool for image transcoding, in this c
 
 Connect the Wireless Paper to the computer using a TYPE-C wire. Use Arduino IDE to open the example we provided or any other program that works, as shown below.
 
-![](img/03.png)
+```{Tip} There are currently two versions of the diplay, if the protector sticker has a red mark, please select the code 'QYEG0213RWS800_BWR'; For others, select 'HT ICMEN2R13EFC1'. If you are not sure which version you have, please contact us at Support@heltec.cn.
+```
+
+![](img/03.jpg)
 
 Replace the contents of `image.h` with the file **Convertio** generated earlier, as shown below.
 
