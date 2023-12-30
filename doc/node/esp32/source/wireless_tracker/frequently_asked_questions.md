@@ -26,4 +26,4 @@ Connect Wireless Tracker to computer, `cd` into the unzipped temporary firmware 
 
 ![](img/frequently_asked_questions/02.png)
 
-*If you already have firmware in your current Wireless Tracker, it may prevent you from downloading the new firmware. Please refer to [this section](#How to access boot mode manually) to manually enter Boot mode and try again.*
+*If you already have firmware in your current Wireless Tracker, it may prevent you from downloading the new firmware. Please refer to [this section](#how_to_access_boot_mode_manually) to manually enter Boot mode and try again.*
