@@ -12,6 +12,7 @@ and supports GPS, GLONASS, BDS, Galileo, NAVIC, QZSS multi-system joint position
     
     Quick Start<https://docs.heltec.org/en/node/esp32/esp32_general_docs/quick_start.html>
     Example Manual<example_for_gnss>
+    Frequently Asked Questions <frequently_asked_questions>
     LoRaWAN<https://docs.heltec.org/en/node/esp32/esp32_general_docs/lorawan/index.html>
     ESP32 General Docs<https://docs.heltec.org/en/node/esp32/esp32_general_docs/index>
     -->[Heltec General Docs]<-- <https://docs.heltec.org/general/index.html>
