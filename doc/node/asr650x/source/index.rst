@@ -37,6 +37,7 @@ features:
     HTCC-AM01<htcc_am01/index>
     HTCC-AM02<htcc_am02/index>
     CubeCell Capsule Sensor<cubeCell_capsule_sensor/index>
+    Hardware Update log<hardware_update_log>
     ASR650x General Docs<asr650x_general_docs/index>
     -->[General Docs]<-- <https://docs.heltec.org/general/index.html>
 
