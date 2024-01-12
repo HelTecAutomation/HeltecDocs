@@ -83,8 +83,8 @@
 ### V1.1
 ![](img/hardware_update_log/tracker2.png)
 
-- Fixed an issue where the GNSS module loses power when LoRa starts.
-- The pins were modified.
+- Fixed an issue where the GNSS module loses power when LoRa starts, enhance low power features.
+- Added an additional LDO as UC6580 GNSS power source, Set GPIO 3 `HIGH` to enable GNSS power source.
 - [Schematic diagram of Tracker 1.1](https://resource.heltec.cn/download/Wireless_Tracker/Wireless_Tacker1.1)
 - [Datasheet of Tracker 1.1](https://resource.heltec.cn/download/Wireless_Tracker/Wireless%20Tracker%201.1.pdf)
 
