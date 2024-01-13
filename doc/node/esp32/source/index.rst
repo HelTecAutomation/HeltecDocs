@@ -23,7 +23,7 @@ ESP32 is a powerfull SoC with 240MHz Tensilica LX6 dual-core & 1 ULP core, 600 D
    
     WiFi LoRa 32<wifi_lora_32/index>
     Wireless Tracker<wireless_tracker/index>
-    Wireless Paper<wireless_paper/index>
+    Wireless Paper V1.0<wireless_paper/index>
     Wireless Stick<wireless_stick/index>
     Wireless Stick Lite<wireless_stick_lite/index>
     HT-DE01<ht-de01>

@@ -7,15 +7,17 @@ This topic aims to describe refreshing the Wireless Paper by downloading the pro
 ## Image coding
 ```{Tip} This screen does not support grayscale, so when making the image, you will need to convert it to a pure black and white image smaller than 250X122.
 ```
-Using program refresh paper, you'll need a tool for image transcoding, in this case [**Convertio**](https://convertio.co/zh/xbm-converter/).
+First, convert your image to **XBM** format.
 
-+ Open **Convertio**: https://convertio.co/zh/xbm-converter/, and select the image that needs to be taken, 
+Let's use [**Convertio**](https://convertio.co/zh/xbm-converter/) as an example .
 
-![](img/10.png)
+ + Open **Convertio**: https://convertio.co/zh/xbm-converter/, and select the image that needs to be taken, Select convert to **XBM** format.
 
-+ Copy and save the code you get.
+ ![](img/10.png)
 
-![](img/02.png)
+ + Open the downloaded file with Notebook, and copy the contents in the red box.
+
+ ![](img/02.png)
 
 ## Downloading the program
 
@@ -23,16 +25,20 @@ Using program refresh paper, you'll need a tool for image transcoding, in this c
 
 + Confirm that The Heltec ESP32 development environment is installed, please refer to[ESP32+LoRa Quick start](https://docs.heltec.org/en/node/esp32/quick_start.html).
 
-Connect the Wireless Paper to the computer using a TYPE-C wire. Use Arduino IDE to open the example we provided or any other program that works, as shown below.
+Connect the Wireless Paper to the computer using a TYPE-C wire. 
+Open Arduino, in `Tools` >  `Board Manager`, select `Wireless Paper`, and select the corresponding `Port`, `LoRaWAN REGION`.
 
+![](img/tool.png)
+
+Open the sample code provided by **Heltec**.
 ```{Tip} There are currently two versions of the diplay, if the protector sticker has a red mark, please select the code 'QYEG0213RWS800_BWR'; For others, select 'HT ICMEN2R13EFC1'. If you are not sure which version you have, please contact us at Support@heltec.cn.
 ```
 
 ![](img/03.jpg)
 
-Replace the contents of `image.h` with the file **Convertio** generated earlier, as shown below.
+Replace the green box in the figure below with the code you obtained earlier.
 
-```{Tip} Be careful to fill in the data of Weight and Hight in the red box part of the figure, rather than copying this part directly.
+```{Tip} Be careful to fill in the data of Weight and Hight in the black box part of the figure, rather than copying this part directly.
 
 ```
 
