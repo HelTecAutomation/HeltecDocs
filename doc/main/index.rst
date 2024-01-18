@@ -29,6 +29,7 @@ After login the LoRaWAN server, the next thing to do is register your gateway an
    :maxdepth: 2
    :caption: Gateway
    
+   HT-M00S Single Channel LoRa Gateway <https://docs.heltec.cn/en/gateway/ht-m00s/index.html>
    HT-M00 Dual Channel LoRa Gateway <https://docs.heltec.cn/en/gateway/ht-m00/index.html>
    HT-M01 Evaluation LoRa Gateway <https://docs.heltec.org/en/gateway/ht-m01/index.html>
    HT-M01S Indoor LoRa Gateway <https://docs.heltec.org/en/gateway/ht-m01s/index.html>
