@@ -6,21 +6,21 @@
 
  The HT-M00S is powered by 5V DC, and the interface is USB Type-C.
 
-<img src="img/quick_start/01.png" style="zoom:50%;" /> 
+![](img/quick_start/01.png) 
 
 
 ## Configuration
  After the device is powered on, long press the USER key until the device RGB changes to yellow, and release the key.
 
- <img src="img/quick_start/02.png" style="zoom:50%;" /> 
+ ![](img/quick_start/02.png) 
 
  At this time, find the WiFi named HT-M00S-XXXX through PC or mobile phone , and connect to this WiFi.
 
- <img src="img/quick_start/03.png" style="zoom:50%;" /> 
+ ![](img/quick_start/03.png) 
 
  After connecting to WiFi, enter 192.168.4.1 in the browser and enter to enter the configuration page.
 
- <img src="img/quick_start/04.png" style="zoom:50%;" />
+ ![](img/quick_start/04.png)
 
  The configuration page parameters are defined as follows:
 

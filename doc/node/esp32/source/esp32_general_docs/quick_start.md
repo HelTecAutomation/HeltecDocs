@@ -13,7 +13,6 @@ The Heltec ESP32 development environment already contains the basic code. For th
 
 - [Via Arduino Board Manager](via-arduino-board-manager)
 - [Via Git](via-git)
-
 - [Via Local File](via-local-file)
 
 ```{Tip} When we updated the V3 series development environment, we integrated the sample code and added it to the development environment without additional downloading libraries. We have handled the compatibility of the sample code so that the code can be used for various versions of the ESP32 development board. When you use the new development environment, the old version of the library can no longer be used, such as ESP32_ LoRaWAN, Heltec_ ESP32. When you update the development environment, we recommend that you delete the old development environment, download the new development environment, and delete the old version of the library. For Git, it has been updated to the V3 series development environment on September 19, 2022. For  "Arduino Boards Manager", V0.0.7 is the V3 series development environment. If you modify a lot of code in the old development environment and use it in the project, we recommend that you still use the old development environment.
@@ -39,7 +38,7 @@ Open Arduino IDE, and click `File`->`Peferences`.
 
 ![](img/quick_start/02.png)
 
-**Input the last ESP32 package URL:** [https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/releases/download/0.0.9/package_heltec_esp32_index.json](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/releases/download/0.0.9/package_heltec_esp32_index.json)
+**Input the last ESP32 package URL:** [https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/releases/download/1.0.0/package_heltec_esp32_index.json](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/releases/download/1.0.0/package_heltec_esp32_index.json)
 
 ![](img/quick_start/03.png)
 
