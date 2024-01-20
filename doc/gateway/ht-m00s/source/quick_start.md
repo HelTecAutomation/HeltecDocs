@@ -36,11 +36,15 @@
   - ` Submit` Submit when the configuration is complete;
   - `Firmware Update` OTA update.
 
+After configuration, click `submit`, and the gateway will restart automatically, You can tell when the device is running by looking at the RGB lights.
+
+![](img/quick_start/rgb.png) 
+
 ## Common Problems and Solutions
 
- - Question: A node join request was received, but the node did not successfully join the network.
+ - Question: Nodes are always "Joining".
 
-   Solution: The common reason is that the SF of the gateway does not match the DR Of the device.
+   Solution: Common reasons are mismatches between node and gateway Settings, such as frequency band, channel, DR, SF, etc.
 
  - Question: Nodes no longer work after changing servers or gateways.
 
@@ -48,4 +52,4 @@
 
  - After the configuration is completed, the device indicator light is always blue and cannot be connected to the network.
 
-   Solution: Please check whether the power supply of the equipment is sufficient, Especially if you have used a USB adapter.
+   Solution: Please check whether the power supply of the equipment is sufficient, Especially if you have used a USB adapter; Check that the Wi-Fi SSID and password are correct. 
