@@ -27,8 +27,7 @@
   - `WiFi-MAC` MAC address of HT-M00S;
   - `WiFi-SSID` The WiFi account connected to the network;
   - `WiFi-PASS` The WiFi password connected to the network;
-  - `SF` Spreading factor, SF is associated with the DR, Please refer to the table below for their correspondence;
-
+  - `SF` Spreading factor;
   - `Freq` Transmitting frequency of gateway LoRa, it must be a frequency point, such as 470300000, which means 470MHz band / 0 channel;
   - `Gateway ID` The ID of the HT-M00S, used for server registration;
   - `Server Addr` HT-M00S needs to connect to the server address;

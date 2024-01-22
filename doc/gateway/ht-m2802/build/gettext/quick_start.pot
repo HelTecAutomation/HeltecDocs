@@ -1,0 +1,281 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the ht-m02_v2 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ht-m02_v2 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-11 15:07+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/quick_start.md:1
+msgid "HT-M02_V2 Edge LoRa Gateway  Quick Start"
+msgstr ""
+
+#: ../../source/quick_start.md:2
+msgid "{ht_translation}`[简体中文]:[English]`"
+msgstr ""
+
+#: ../../source/quick_start.md:3
+msgid "Summary"
+msgstr ""
+
+#: ../../source/quick_start.md:5
+msgid "HT-M02_V2 has integrated operating system and LoRa related programs, so it can be used directly in applications.  HT-M02_V2  has multiple optional versions, the main difference is the networking mode and power supply mode. The power supply mode is divided into POE mode and 12V DC mode. Different network modes have different gateway configuration methods. Please refer to the corresponding version for specific configuration methods."
+msgstr ""
+
+#: ../../source/quick_start.md:7
+msgid "[ETH Version](eth-version)"
+msgstr ""
+
+#: ../../source/quick_start.md:8
+msgid "[ETH & WIFI Version](eth&wifi-version)"
+msgstr ""
+
+#: ../../source/quick_start.md:9
+msgid "[ETH & 4G Version](eth&4g-version)"
+msgstr ""
+
+#: ../../source/quick_start.md:10
+msgid "[ETH & WIFI & 4G versions](eth&wifi&4g-version)"
+msgstr ""
+
+#: ../../source/quick_start.md:13
+msgid "Before you use POE for power supply, please confirm whether your gateway supports POE. If not, you can choose to use a [POE splitter](https://heltec.org/product/miner-poe-splitter)."
+msgstr ""
+
+#: ../../source/quick_start.md:18
+msgid "Basic Gateway Configuration"
+msgstr ""
+
+#: ../../source/quick_start.md:22
+msgid "ETH Version"
+msgstr ""
+
+#: ../../source/quick_start.md:24
+#: ../../source/quick_start.md:48
+#: ../../source/quick_start.md:106
+#: ../../source/quick_start.md:130
+msgid "Connect the antenna and network cable to the gateway, and then connect the gateway power supply. Check the ETH MAC address of the gateway on the gateway label, find it in the router, and log in to the configuration page through its IP address."
+msgstr ""
+
+#: ../../source/quick_start.md:26
+#: ../../source/quick_start.md:50
+#: ../../source/quick_start.md:108
+#: ../../source/quick_start.md:132
+msgid "![](img/quick_start/01.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:28
+#: ../../source/quick_start.md:52
+#: ../../source/quick_start.md:92
+#: ../../source/quick_start.md:110
+#: ../../source/quick_start.md:134
+#: ../../source/quick_start.md:174
+msgid "Log in to the configuration page through the user name \"HT-M02\" and password \"heltec. org\".  The device used to log in to the configuration page needs to be on the same LAN as the gateway. The user can view the basic information of the gateway and configure the gateway on the configuration page."
+msgstr ""
+
+#: ../../source/quick_start.md:30
+msgid "![](img/quick_start/04.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:32
+#: ../../source/quick_start.md:56
+#: ../../source/quick_start.md:70
+#: ../../source/quick_start.md:82
+#: ../../source/quick_start.md:96
+#: ../../source/quick_start.md:138
+#: ../../source/quick_start.md:152
+#: ../../source/quick_start.md:164
+#: ../../source/quick_start.md:178
+msgid "After configuring the gateway information, the user needs to click the corresponding key to make the changes take effect."
+msgstr ""
+
+#: ../../source/quick_start.md:34
+msgid "![](img/quick_start/03.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:36
+#: ../../source/quick_start.md:100
+#: ../../source/quick_start.md:118
+#: ../../source/quick_start.md:182
+msgid "&nbsp;"
+msgstr ""
+
+#: ../../source/quick_start.md:40
+msgid "ETH & WIFI Version"
+msgstr ""
+
+#: ../../source/quick_start.md:42
+#: ../../source/quick_start.md:124
+msgid "This version uses ETH to connect to the network by default."
+msgstr ""
+
+#: ../../source/quick_start.md:44
+#: ../../source/quick_start.md:126
+msgid "Connect to the network using ETH"
+msgstr ""
+
+#: ../../source/quick_start.md:46
+#: ../../source/quick_start.md:76
+#: ../../source/quick_start.md:128
+#: ../../source/quick_start.md:158
+msgid "Access the configuration page through ETH"
+msgstr ""
+
+#: ../../source/quick_start.md:54
+#: ../../source/quick_start.md:68
+msgid "![](img/quick_start/02.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:58
+#: ../../source/quick_start.md:72
+#: ../../source/quick_start.md:84
+#: ../../source/quick_start.md:98
+#: ../../source/quick_start.md:154
+msgid "![](img/quick_start/06.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:60
+#: ../../source/quick_start.md:86
+#: ../../source/quick_start.md:142
+#: ../../source/quick_start.md:168
+msgid "Access the configuration page through WIFI"
+msgstr ""
+
+#: ../../source/quick_start.md:62
+#: ../../source/quick_start.md:144
+msgid "Connect the antenna to the gateway, and then connect the gateway power supply.  After the gateway is started, WIFI will enter AP mode, find the WIFI named \"HT-M02-AP\" and connect to this WIFI."
+msgstr ""
+
+#: ../../source/quick_start.md:64
+#: ../../source/quick_start.md:146
+msgid "![](img/quick_start/05.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:66
+#: ../../source/quick_start.md:148
+msgid "After connecting to WIFI, use this device to open 192.168.4.1, and use the user name \"HT-M02\" and password \"heltec. org\" to log in to the configuration page. The user can view the basic information of the gateway and configure the gateway on the configuration page."
+msgstr ""
+
+#: ../../source/quick_start.md:74
+#: ../../source/quick_start.md:156
+msgid "Connect to the network using WIFI"
+msgstr ""
+
+#: ../../source/quick_start.md:78
+#: ../../source/quick_start.md:160
+msgid "Connect the antenna to the gateway, and then connect the gateway power supply.  Connect the gateway to the computer through the network cable, and use this computer to open 192.168.4.1.   And use the user name \"HT-M02\" and password \"heltec. org\" to log in to the configuration page. The user can view the basic information of the gateway and configure the gateway on the configuration page."
+msgstr ""
+
+#: ../../source/quick_start.md:80
+#: ../../source/quick_start.md:94
+msgid "![](img/quick_start/08.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:88
+#: ../../source/quick_start.md:170
+msgid "Connect the antenna to the gateway, and then connect the gateway power supply.  Check the WIFI MAC address of the gateway on the gateway label, find it in the router, and log in to the configuration page through its IP address."
+msgstr ""
+
+#: ../../source/quick_start.md:90
+#: ../../source/quick_start.md:172
+msgid "![](img/quick_start/07.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:104
+msgid "ETH & 4G Version"
+msgstr ""
+
+#: ../../source/quick_start.md:112
+msgid "![](img/quick_start/09.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:114
+msgid "After configuring the gateway information, the user needs to click the corresponding key to make the changes take effect. In the 4G setting, select the corresponding option and it will take effect automatically without clicking other key."
+msgstr ""
+
+#: ../../source/quick_start.md:116
+msgid "![](img/quick_start/10.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:122
+msgid "ETH & WIFI & 4G Versions"
+msgstr ""
+
+#: ../../source/quick_start.md:136
+#: ../../source/quick_start.md:150
+#: ../../source/quick_start.md:162
+#: ../../source/quick_start.md:176
+msgid "![](img/quick_start/11.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:140
+#: ../../source/quick_start.md:166
+#: ../../source/quick_start.md:180
+msgid "![](img/quick_start/12.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:184
+msgid "Establish Serial/SSH Connection"
+msgstr ""
+
+#: ../../source/quick_start.md:186
+msgid "If required, HT-M02_V2 can provide serial/SSH connection."
+msgstr ""
+
+#: ../../source/quick_start.md:188
+msgid "Default login user name: root"
+msgstr ""
+
+#: ../../source/quick_start.md:190
+msgid "Default login password: heltec.org"
+msgstr ""
+
+#: ../../source/quick_start.md:192
+msgid "Serial"
+msgstr ""
+
+#: ../../source/quick_start.md:194
+msgid "Because of the waterproof design, the UART interface is not directly exposed outside. If need a serial port connection, need to remove the protective board on the side of the HT-M02_V2, and also a UART-USB bridge is required (CP2102, CP2104, CH340G etc.)."
+msgstr ""
+
+#: ../../source/quick_start.md:196
+msgid "HT-M02_V2 TXD `<---->` UART-USB bridge RXD"
+msgstr ""
+
+#: ../../source/quick_start.md:197
+msgid "HT-M02_V2 RXD `<---->` UART-USB bridge TXD"
+msgstr ""
+
+#: ../../source/quick_start.md:198
+msgid "HT-M02_V2 GND `<---->` UART-USB bridge GND"
+msgstr ""
+
+#: ../../source/quick_start.md:200
+msgid "Select an appropriate serial port debugging tool. Recommended to use [Putty](https://putty.org/). Select the port corresponding to the UART-USB bridge. The default baud rate is 115200. You can refer to the following configuration."
+msgstr ""
+
+#: ../../source/quick_start.md:202
+msgid "![](img/quick_start/13.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:206
+msgid "SSH"
+msgstr ""
+
+#: ../../source/quick_start.md:208
+msgid "Establish SSH connection need make sure the client in a same LAN with HT-M02_V2, SSH use default Port 22."
+msgstr ""
+
+#: ../../source/quick_start.md:210
+msgid "![](img/quick_start/14.png)"
+msgstr ""

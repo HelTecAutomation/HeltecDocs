@@ -8,6 +8,7 @@ var P = [
 
 var prod_obj = {
     gateway: [
+        {text: "HT-M2802", value: "ht-m2802"},
         {text: "HT-M00S", value: "ht-m00s"},
         {text: "HT-M00", value: "ht-m00"},
         {text: "HT-M01", value: "ht-m01"},

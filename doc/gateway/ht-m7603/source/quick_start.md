@@ -28,7 +28,8 @@ After the gateway is powered on, find the WiFi named "HT_M7603_xxxx", password "
 
 Configure the HT-M7603 gateway information on the page shown in the figure above, such as gateway mode, server address and port, regional frequency band. Click "Set Gateway" after the configuration is complete.
 
-HT-M7603 default mode is LoRaWAN, if you want to use MQTT, please select in `Gateway Mode`. you need to configure the information as shown in the red box below.
+``` {Tip} HT-M7603 default mode is LoRaWAN, if you want to use MQTT, please select Custom MQTT in Gateway Mode. you need to configure the information as shown in the red box below. Once selected, click node example.ino to get the sample code of the data format.
+```
 
 ![](img/quick_start/12.jpg)
 

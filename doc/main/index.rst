@@ -28,7 +28,7 @@ After login the LoRaWAN server, the next thing to do is register your gateway an
 .. toctree::
    :maxdepth: 2
    :caption: Gateway
-   
+   HT-M2802 Indoor LoRa Gateway <https://docs.heltec.cn/en/gateway/ht-m2802/index.html>
    HT-M00S Single Channel LoRa Gateway <https://docs.heltec.cn/en/gateway/ht-m00s/index.html>
    HT-M00 Dual Channel LoRa Gateway <https://docs.heltec.cn/en/gateway/ht-m00/index.html>
    HT-M01 Evaluation LoRa Gateway <https://docs.heltec.org/en/gateway/ht-m01/index.html>
@@ -62,7 +62,7 @@ Here are the LoRa Gateways produced by Heltec Automation. You will be able to fi
    HRU-1000(Wireless ThermoProbe) <https://docs.heltec.org/en/ready_to_use/hru-1000/index.html>
    HRI-3621(Sensor Hub) <https://docs.heltec.org/en/ready_to_use/hri-3621/index.html>
    HRI-3622(Sensor Hub Bus Transformer) <https://docs.heltec.org/en/ready_to_use/hri-3621/index.html>
-   Sensor Hub for Outdoor <https://docs.heltec.org/en/ready_to_use/hri_485x/index.html>
+   HRI-3631 <https://docs.heltec.org/en/ready_to_use/hri-3631/index.html>
    Wireless Bridge <https://docs.heltec.org/en/ready_to_use/wireless_bridge/index.html>
 
 .. toctree::
