@@ -28,6 +28,7 @@ After login the LoRaWAN server, the next thing to do is register your gateway an
 .. toctree::
    :maxdepth: 2
    :caption: Gateway
+   
    HT-M2802 Indoor LoRa Gateway <https://docs.heltec.cn/en/gateway/ht-m2802/index.html>
    HT-M00S Single Channel LoRa Gateway <https://docs.heltec.cn/en/gateway/ht-m00s/index.html>
    HT-M00 Dual Channel LoRa Gateway <https://docs.heltec.cn/en/gateway/ht-m00/index.html>
