@@ -97,7 +97,11 @@ Search the **App Store** for `SnapEmu`, download and install it.
 ![](img/connect_to_server/installapp.jpg)
 
 
-Open the `Scan` option to scan the Heltec device QR code, If the device does not have a QR code, click `Input` for manual registration.
+Open the `Scan` option to scan the Heltec device QR code.
+
+``` {Tip} If the device does not have a QR code, click 'Input' for manual registration. For product information you can refer to the corresponding 'Quick Start'.
+
+```
 
 ![](img/connect_to_server/scanapp.jpg)
 
@@ -114,7 +118,7 @@ Registration is completed and the device display is activated.
 
 &nbsp;
 
-### Manual registration through the SnapEmu IoT Platform
+### Manual registration through the SnapEmu IoT Platform webpage
 Register and log in to SnapEmu: [SnapEmu Web Page link](platform.snapemu.com).
 
 Click where shown below.
