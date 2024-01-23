@@ -7,6 +7,12 @@ This article aims to describe how to connect [HT-M2802 Gateway](https://heltec.o
 
 Before all operation, make sure the HT-M2802 is runing well . If not, please refer to this [HT-M2802 Quick Start](https://docs.heltec.org/en/gateway/ht-m2802/quick_start.html) document.
 
+[Connect to TTN/TTS](connect-to-ttn)
+
+[Connect to Chirpstack](connect-to-chirpstack)
+
+[Connect to SnapEmu](connect-to-snapemu)
+
 &nbsp;
 
 ## Connect to TTN/TTS
@@ -96,3 +102,69 @@ sudo systemctl status lrgateway
 View gateway status, it is runing:
 
 ![](img/connect_to_server/08.png)
+
+&nbsp;
+
+(connect-to-snapemu)=
+## Connect to SnapEmu
+
+### Register through SnapEmu APP
+Search the **App Store** for `SnapEmu`, download and install it.
+
+![](img/connect_to_server/installapp.jpg)
+
+
+Open the `Scan` option to scan the Heltec device QR code.
+
+``` {Tip} If the device does not have a QR code, click 'Input' for manual registration. For product information you can refer to the corresponding 'Quick Start'.
+
+```
+
+![](img/connect_to_server/scanapp.jpg)
+
+
+Fill in the group and add the device.
+
+![](img/connect_to_server/addapp.jpg)
+
+
+
+Registration is completed and the device display is activated.
+
+![](img/connect_to_server/appcheck.jpg)
+
+&nbsp;
+
+### Manual registration through the SnapEmu IoT Platform webpage
+Register and log in to SnapEmu: [SnapEmu Web Page link](platform.snapemu.com).
+
+Click where shown below.
+
+![](img/connect_to_server/platformlog.png)
+
+
+
+Click `CREATE A NEW DEVICE`.
+
+![](img/connect_to_server/platformcreate.png)
+
+
+
+Go to the device registration page.
+
+![](img/connect_to_server/platformregister.png)
+
+   - `Name` and `Description` can be filled in freely, and they will become the name and remark of the device displayed on the platform. 
+   - `Group` denotes the grouping of the device on SnapEmu.
+   - `Device type` This device is a gateway, so choose "LoRaGate".
+   - `Region` Match the frequency band of the gateway.
+   - `GatewayEUI` Gateway ID, through device configuration page or scan the device QR code to obtain.
+
+
+
+After filling in the information, click Submit and refresh the page to see the device.
+
+![](img/connect_to_server/platformcreategate.png) 
+
+``` {Tips} If the device shows "unactiveted", it means that the device was not successfully connected. Don't worry, it usually takes some time for the server to respond, please wait a minute and refresh the web page again.
+```
