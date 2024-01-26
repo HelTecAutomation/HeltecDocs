@@ -14,20 +14,25 @@ Before all operation, make sure the HT-M02 is runing well . If not, please refer
 [Connect to SnapEmu](connect-to-snapemu)
 
 &nbsp;
+(connect-to-ttn)=
 
 ## Connect to TTN/TTS
 
+### Configure Gateway
+
+Configure your gateway and fill in the server address as the server you want to connect to, please refer to the [HT-M2802 Quick Start](https://docs.heltec.org/en/gateway/ht-m2802/quick_start.html) document.
+
 ### Register a LoRa gateway in TTN/TTS
 
-Select a cluster in the [TTN console](https://console.thethingsnetwork.org/) page to start adding devices and gateways. Or start adding devices and gateways in [TTS console](https://lora.heltec.org/console).
+*Select a cluster in the [TTN console](https://console.thethingsnetwork.org/) page to start adding devices and gateways. Or start adding devices and gateways in [TTS console](https://lora.heltec.org/console).*
 
 ![](img/connect_to_server/10.png)
 
-Create a new gateway.
+*Create a new gateway.*
 
 ![](img/connect_to_server/11.jpg)
 
-Fill in the HT-M02_V2 information as shown below and complete the addition.
+*Fill in the HT-M02_V2 information as shown below and complete the addition.*
 
 ![](img/connect_to_server/12.jpg)
 
@@ -36,7 +41,11 @@ Fill in the HT-M02_V2 information as shown below and complete the addition.
 - **Gateway name** -- Filled in by the user, can be filled in arbitrarily.
 - **Frequency Plan** -- Matches the LoRa band configuration in HT-M01S.
 
-&nbsp;
+*View gateway status, it is runing:*
+
+![](img/connect_to_server/13.png)
+
+(connect-to-chirpstack)=
 
 ## Connect to ChirpStack server
 
@@ -55,47 +64,13 @@ Install ChirpStack Gateway Bridge: [https://www.chirpstack.io/gateway-bridge/ins
 
 ### Register LoRa Gateway in ChirpStack
 
-Fill in the HT-M02 information as shown below and complete the addition.
+*Fill in the HT-M02 information as shown below and complete the addition.*
 
 ![](img/connect_to_server/07.png)
 
 - **Gateway ID** -- The unique ID of the HT-M02 gateway.
 
-### Connect to ChirpStack server
-
-In the HT-M02 gateway, only the server address and port need to be configured.
-
-config the `server address` and `port` in `global_conf.json`:
-
-```shell
-sudo nano lora/packet_forwarder/lora_pkt_fwd/global_conf.json
-```
-
-At the end of this file, make suitable changes:
-
-```json
-  "server_address": "router.eu.thethings.network", /*The server IP address or domain*/
-  "serv_port_up": 1700,
-  "serv_port_down": 1700,
-```
-
-![](img/connect_to_server/01.png)
-
-`ctrl + O` to save and `ctrl + X` to exit, and restart the service:
-
-```shell
-sudo systemctl restart lrgateway
-```
-
-Check whether the system running normally:
-
-```shell
-sudo systemctl status lrgateway
-```
-
-![](img/connect_to_server/02.png)
-
-View gateway status, it is runing:
+*View gateway status, it is runing:*
 
 ![](img/connect_to_server/08.png)
 
@@ -105,12 +80,11 @@ View gateway status, it is runing:
 ## Connect to SnapEmu
 
 ### Register through SnapEmu APP
-Search the **App Store** for `SnapEmu`, download and install it.
+*Search the **App Store** for `SnapEmu`, download and install it.*
 
 ![](img/connect_to_server/installapp.jpg)
 
-
-Open the `Scan` option to scan the Heltec device QR code.
+*Open the `Scan` option to scan the Heltec device QR code.*
 
 ``` {Tip} If the device does not have a QR code, click 'Input' for manual registration. For product information you can refer to the corresponding 'Quick Start'.
 
@@ -118,14 +92,13 @@ Open the `Scan` option to scan the Heltec device QR code.
 
 ![](img/connect_to_server/scanapp.jpg)
 
-
-Fill in the group and add the device.
+*Fill in the group and add the device.*
 
 ![](img/connect_to_server/addapp.jpg)
 
 
 
-Registration is completed and the device display is activated.
+*Registration is completed and the device display is activated.*
 
 ![](img/connect_to_server/appcheck.jpg)
 
@@ -134,19 +107,19 @@ Registration is completed and the device display is activated.
 ### Manual registration through the SnapEmu IoT Platform webpage
 Register and log in to SnapEmu: [SnapEmu Web Page link](platform.snapemu.com).
 
-Click where shown below.
+*Click where shown below.*
 
 ![](img/connect_to_server/platformlog.png)
 
 
 
-Click `CREATE A NEW DEVICE`.
+*Click `CREATE A NEW DEVICE`.*
 
 ![](img/connect_to_server/platformcreate.png)
 
 
 
-Go to the device registration page.
+*Go to the device registration page.*
 
 ![](img/connect_to_server/platformregister.png)
 
@@ -158,9 +131,10 @@ Go to the device registration page.
 
 
 
-After filling in the information, click Submit and refresh the page to see the device.
+*After filling in the information, click Submit and refresh the page to see the device.*
 
 ![](img/connect_to_server/platformcreategate.png) 
 
 ``` {Tips} If the device shows "unactiveted", it means that the device was not successfully connected. Don't worry, it usually takes some time for the server to respond, please wait a minute and refresh the web page again.
+
 ```

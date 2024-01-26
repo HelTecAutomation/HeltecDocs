@@ -27,7 +27,7 @@
   - `WiFi-MAC` MAC address of HT-M00S;
   - `WiFi-SSID` The WiFi account connected to the network;
   - `WiFi-PASS` The WiFi password connected to the network;
-  - `SF` Spreading factor;
+  - `SF` Spreading factor, match with a node;
   - `Freq` Transmitting frequency of gateway LoRa, it must be a frequency point, such as 470300000, which means 470MHz band / 0 channel;
   - `Gateway ID` The ID of the HT-M00S, used for server registration;
   - `Server Addr` HT-M00S needs to connect to the server address;
@@ -43,7 +43,7 @@ After configuration, click `submit`, and the gateway will restart automatically,
 
  - Question: Nodes are always "Joining".
 
-   Solution: Common reasons are mismatches between node and gateway Settings, such as frequency band, channel, DR, SF, etc.
+   Solution: Common reasons are mismatches between node and gateway settings, such as frequency band, channel, SF, etc. Please note that this gateway only supports 125K bandwidth.
 
  - Question: Nodes no longer work after changing servers or gateways.
 
