@@ -13,12 +13,13 @@ Fill in the authentication information on the mqtt client side.
 
 ![](img/subscribe-mqtt-messages-from-snapemu/03.jpg)
 
-	{Note} The client id is separated by an @, and the information after the @ at the end can be customized.
+``` {Note} The client id is separated by an @, and the information after the @ at the end can be customized.
+```
 
 Subscribe to Topics.
 
-For all data, device theme /v1/device/{username}/decode, device group theme
-/v1/group/{username}/decod
+	For all data: device theme /v1/device/{username}/decode, device group theme
+	/v1/group/{username}/decod
 
 ```
 {
@@ -39,8 +40,7 @@ For all data, device theme /v1/device/{username}/decode, device group theme
 }
 ```
 
-For data in a prescribed format
-There are themes' /v1/device/{username}/data/{data_id}'
+	For data in a prescribed format, There are themes: ' /v1/device/{username}/data/{data_id}'
 
 ```
 	data_id = (sensor_id << 4) | pk_id ;
