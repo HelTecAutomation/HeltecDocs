@@ -13,6 +13,7 @@ This document is used to solve some common problems.
    LoRaWAN Frequency Plans <lorawan_frequency_plans>
    LoRaWAN Frequency Plans and Regulations by Country <lorawan_frequency_plans_by_country>
    Subscribe MQTT Messages <subscribe_mqtt_messages>
+   Subscribe MQTT Messages Snapemu <subscribe_mqtt_messages_snapemu>
    Publish MQTT Message <publish_mqtt_message>
    Decode LoRaWAN payload <decode_payload>
    How to refresh E-INK <eink_refresh> 
