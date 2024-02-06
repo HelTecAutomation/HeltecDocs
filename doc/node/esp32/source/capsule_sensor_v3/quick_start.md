@@ -4,11 +4,11 @@
 
 CapSule Sensor V3 uses Wireless Boot to download firmware, exchange information, and print logs through WiFi. 
 
-Long press the indicator light of the device for 16 seconds until the white light of the device is always on.
+Long press the indicator light of the device for 16 seconds until the Blue light of the device is always on.
 
 ![](img/01.png)
 
-Find "WirelessBoot_xxxx" on your PC and connect.
+Find "WirelessBoot_xxxx" on your PC and connect, the password is "*helte.org*".
 
 ![](img/02.jpg)
 
