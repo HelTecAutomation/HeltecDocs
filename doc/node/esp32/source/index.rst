@@ -33,10 +33,11 @@ ESP32 is a powerfull SoC with 240MHz Tensilica LX6 dual-core & 1 ULP core, 600 D
     HT-CT62<ht_ct62/index>
     Wireless Shell<wireless_shell/index>
     Wireless Bridge<wireless_bridge/index>
+    Heltec WirelessBoot System<wireless_boot/index>
     Hardware Update Log<hardware_update_log>
     ESP32 General Docs<esp32_general_docs/index>
     -->[Heltec General Docs]<-- <https://docs.heltec.org/general/index.html>
-    
+   
 Relevant Offical Resources
 --------------------------
 
