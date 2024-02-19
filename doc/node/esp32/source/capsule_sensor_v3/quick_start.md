@@ -8,7 +8,7 @@ Long press the indicator light of the device for 16 seconds until the Blue light
 
 ![](img/01.png)
 
-Find "WirelessBoot_xxxx" on your PC and connect, the password is "*helte.org*".
+Find "WirelessBoot_xxxx" on your PC and connect, the password is "heltec.org".
 
 ![](img/02.jpg)
 
