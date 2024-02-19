@@ -64,7 +64,6 @@ Here are the LoRa Gateways produced by Heltec Automation. You will be able to fi
    HRI-3621(Sensor Hub) <https://docs.heltec.org/en/ready_to_use/hri-3621/index.html>
    HRI-3622(Sensor Hub Bus Transformer) <https://docs.heltec.org/en/ready_to_use/hri-3621/index.html>
    HRI-3631 <https://docs.heltec.org/en/ready_to_use/hri-3631/index.html>
-   Wireless Bridge <https://docs.heltec.org/en/ready_to_use/wireless_bridge/index.html>
 
 .. toctree::
    :maxdepth: 2

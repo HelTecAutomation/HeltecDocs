@@ -1,5 +1,5 @@
-HRU-1000 Sensor Hub for Industry
-================================
+Wireless Thermoprobe
+====================
 :ht_translation:`[简体中文]:[English]`
 
 `Wireless Thermoprobe <https://heltec.org/project/hri-1000/>`_ , which collect the temperature data to display on the built-in screen or upload it to the LoRaWAN network. It has the
@@ -18,7 +18,6 @@ HRU-1000 is integrated with 800mAh rechargeable battery. Benefits from the IP66 
 .. toctree::
     :maxdepth: 2
     
-    Quick Start <quick_start>
     Connect to SnapEmu<connect_to_snapemu>
     Connect to LoRa Server<lora_server_registration>
     Subscribe MQTT Messages from LoRa Server <https://docs.heltec.org/general/subscribe_mqtt_messages.html>
