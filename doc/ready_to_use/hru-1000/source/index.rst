@@ -2,9 +2,10 @@ Wireless Thermoprobe
 ====================
 :ht_translation:`[简体中文]:[English]`
 
-`Wireless Thermoprobe <https://heltec.org/project/hri-1000/>`_ , which collect the temperature data to display on the built-in screen or upload it to the LoRaWAN network. It has the
+HRU-1000 `Wireless Thermoprobe <https://heltec.org/project/hri-1000/>`_ , which collect the temperature data to display on the built-in screen or upload it to the LoRaWAN network. It has the
 characteristics of high precision, long transmission distance and low power consumption, and easy configuration via Bluetooth.
 HRU-1000 is integrated with 800mAh rechargeable battery. Benefits from the IP66 protection provided by high-strength plastics and stainless steel, it is stable and excellent in various industrial scenarios.
+
 **Wireless Thermoprobe have following main features:**
 
 - Temperature range -40~200℃, optimal accuracy ±0.5℃.
