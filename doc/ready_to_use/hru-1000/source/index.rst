@@ -19,8 +19,8 @@ HRU-1000 is integrated with 800mAh rechargeable battery. Benefits from the IP66 
 .. toctree::
     :maxdepth: 2
     
-    Connect to SnapEmu<connect_to_snapemu>
-    Connect to LoRa Server<lora_server_registration>
+    Connect to SnapEmu<connect_to_snapemu_app>
+    Connect to LoRa Server<connect_to_lora_server>
     Subscribe MQTT Messages from LoRa Server <https://docs.heltec.org/general/subscribe_mqtt_messages.html>
     OTA Upgrade<ota_upgrade>
     -->[General Docs]<-- <https://docs.heltec.org/general/index.html>
