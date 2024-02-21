@@ -22,6 +22,6 @@ HRI-3633 Wireless Aggregator — Valve Controller
     Connect to LoRaWAN Server <connect_to_lora_server>
     OTA Upgrade <ota_upgrade>
     Subscribe MQTT Messages from LoRa Server <https://docs.heltec.org/general/subscribe_mqtt_messages.html>
-    Subscribe MQTT Messages from SnapEmu <https://docs.heltec.org/general/subscribe_mqtt_messages_form_SnapEmu.html> 
+    Subscribe MQTT Messages from SnapEmu <https://docs.heltec.org/general/subscribe_mqtt_messages_form_snapemu.html> 
     
     -->[General Docs]<-- <https://docs.heltec.org/general/index.html>

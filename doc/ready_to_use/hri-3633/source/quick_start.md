@@ -13,7 +13,6 @@ This article describes how to deploy HRI-3633 quickly.
 Unscrew the nuts on the flange seat and the screws on both sides of the cover in turn as shown in the figure.
 
 ``` { Tip} Be sure to unscrew the limit screw on the flange seat first.
-
 ```
 
 ![](img/quick_start/01.jpg) 
