@@ -3,15 +3,15 @@
 
 Open the integration screen, create authentication information.
 
-![](img/subscribe-mqtt-messages-from-snapemu/01.jpg)
+![](img/subscribe_mqtt_messages_from_snapemu/01.jpg)
 
 Enter the custom name and select which device to receive data from (if device group is checked, the device group will be selected, and all device data in the device group can be received).
 
-![](img/subscribe-mqtt-messages-from-snapemu/02.jpg)
+![](img/subscribe_mqtt_messages_from_snapemu/02.jpg)
 
 Fill in the authentication information on the mqtt client side.
 
-![](img/subscribe-mqtt-messages-from-snapemu/03.jpg)
+![](img/subscribe_mqtt_messages_from_snapemu/03.jpg)
 
 ``` {Note} The client id is separated by an @, and the information after the @ at the end can be customized.
 ```
