@@ -1,6 +1,7 @@
 # Subscribe MQTT Messages from SnapEmu
 {ht_translation}`[简体中文]:[English]`
 
+## Create Topics
 Open the integration screen, create authentication information.
 
 ![](img/subscribe_mqtt_messages_from_snapemu/01.jpg)
@@ -14,12 +15,12 @@ Fill in the authentication information on the mqtt client side.
 ![](img/subscribe_mqtt_messages_from_snapemu/03.jpg)
 
 ``` {Note} The client id is separated by an @, and the information after the @ at the end can be customized.
+
 ```
 
-Subscribe to Topics.
-
-	For all data: device theme /v1/device/{username}/decode, device group theme
-	/v1/group/{username}/decod
+## Subscribe to Topics
+For all data: device theme /v1/device/{username}/decode, device group theme
+/v1/group/{username}/decod 
 
 ```
 {
@@ -40,7 +41,7 @@ Subscribe to Topics.
 }
 ```
 
-	For data in a prescribed format, There are themes: ' /v1/device/{username}/data/{data_id}'
+For data in a prescribed format, There are themes: ' /v1/device/{username}/data/{data_id}'
 
 ```
 	data_id = (sensor_id << 4) | pk_id ;

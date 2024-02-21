@@ -2,7 +2,7 @@ HRI-3633 Wireless Aggregator — Valve Controller
 ===============================================
 :ht_translation:`[简体中文]:[English]`
 
-HRI-3633 is a LoRaWAN conveter belonging to [Wireless Aggregator](https://heltec.org/project/hri-3633/) series, which is specially used to drive solenoid valves, it can control two solenoid valves at the same time and read two electrical pulses. Benefits from the IP66 protection provided by high-strength plastics, it can adapt to a variety of complex outdoor environments. HRI-3633 has the characteristics of low power consumption and long transmission distance. Built-in large capacity rechargeable battery, which can be charged through the DC and solar interface, ensures that it can work stably for a long time.
+`HRI-3633 <https://heltec.org/project/hri-3633/>`_ is a LoRaWAN conveter belonging to Wireless Aggregator series, which is specially used to drive solenoid valves, it can control two solenoid valves at the same time and read two electrical pulses. Benefits from the IP66 protection provided by high-strength plastics, it can adapt to a variety of complex outdoor environments. HRI-3633 has the characteristics of low power consumption and long transmission distance. Built-in large capacity rechargeable battery, which can be charged through the DC and solar interface, ensures that it can work stably for a long time.
 
 **Wireless Aggregator have following main features:**
 
@@ -16,6 +16,7 @@ HRI-3633 is a LoRaWAN conveter belonging to [Wireless Aggregator](https://heltec
 
 .. toctree::
     :maxdepth: 2
+
     Quick Start <quick_start>
     Connect to SnapEmu App (One-click registration) <connect_to_snapemu>
     Connect to LoRaWAN Server <connect_to_lora_server>
