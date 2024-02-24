@@ -23,3 +23,4 @@ This document is used to solve some common problems.
    TTS_V3 Login Issue <tts_v3_login_issue>
    How to Use License <how_to_use_license>
    LoRaWAN ABP Mode <lorawan_abp/index>
+   How to install MicPython Firmware Via Thonny <how_to_install_micpython_firmware>

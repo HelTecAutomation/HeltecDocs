@@ -12,9 +12,6 @@ This article describes how to deploy HRI-3633 quickly.
 ## Power on
 Unscrew the nuts on the flange seat and the screws on both sides of the cover in turn as shown in the figure.
 
-``` { Tip} Be sure to unscrew the limit screw on the flange seat first.
-```
-
 ![](img/quick_start/01.jpg) 
 
 Turn the switch to `ON`, and the green light flashes once, At this point, the device enters the working state.
@@ -38,11 +35,11 @@ Type **192.168.4.1** in your browser, and press Enter to take you to the configu
 
 ![](img/quick_start/05.png)
 
-The configuration parameters are defined as follows.
+**The configuration parameters are defined as follows：**
 
 ### *LoRaWAN Parameters*
 
-***OTAA Mode***:
+*OTAA Mode*:
 
   - `Dev-Time` Equipment time setting and calibration
   - `REGION` LoRaWAN frequency band
@@ -64,7 +61,7 @@ The configuration parameters are defined as follows.
   - `Submit` Click Submit after the configuration is complete
   - `Firmware Update` Used for OTA firmware upgrade
 
-***ABP mode -- Most are the same as above, but the differences are listed below:***
+*ABP mode -- Most are the same as above, but the differences are listed below:*
 
   - `NWKSKEY` `APPSKEY` `DEVADDR` ABP node parameters, must be consistent across the server
   - `RX1 DELAY(S)` Set the time for RX1 to be delayed on
@@ -100,6 +97,9 @@ To read an electrical Pulse, connect the positive electrode of the reading objec
 ```
 
 ![](img/quick_start/valvepin.png)
+
+``` {Tip} If you need to use the HRI-3633 to power your valves and need a different version of firmware, you can get it from Heltec staff. At the same time, this version has only one set of valve control pins.
+```
 
 (external-power-supply-and-charging)=
 ## External Power Supply and Charging

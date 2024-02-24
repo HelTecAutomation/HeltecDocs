@@ -2,9 +2,9 @@
 
 {ht_translation}`[简体中文]:[English]`. 
 
-Scanning the device QR code directly through the SnapEmu APP is the easiest and fastest way to use Wireless Aggregator.
+[SnapEmu](platform.snapemu.com) is an iot platform launched by Heltec, scanning the device QR code directly through the SnapEmu APP is the easiest and fastest way to use Wireless Aggregator.
 
-***For manual registration, please refer to: [Connnect to SnapEmu (Manual registration)]().***
+***For manual registration, please refer to: [Connnect to LoRa server (Manual registration)](https://docs.heltec.org/en/ready_to_use/hri-3633/connect_to_lora_server.html#connnect-to-snapemu-manual-registration).***
 
 ## Install SnapEmu APP
 

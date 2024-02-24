@@ -8,9 +8,7 @@ This topic describes how to connect Wireless Aggregator to the LoRaWAN server. B
 
 - Make sure your lora gateway is registered with the relevant server and is working well.
 We highly recommend the following three gateways:
-- [HT-M02](https://heltec.org/project/ht-m02-v2/)
-- [HT-M01s](https://heltec.org/project/ht-m01s-v2/)
-- [HT-M7603](https://heltec.org/project/ht-m7603/)
+[HT-M02](https://heltec.org/project/ht-m02-v2/)  [HT-M01s](https://heltec.org/project/ht-m01s-v2/)    [HT-M7603](https://heltec.org/project/ht-m7603/)
 
 ## Connect to TTN/TTS
 ### Registeration

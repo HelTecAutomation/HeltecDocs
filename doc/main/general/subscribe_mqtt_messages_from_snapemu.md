@@ -15,7 +15,6 @@ Fill in the authentication information on the mqtt client side.
 ![](img/subscribe_mqtt_messages_from_snapemu/03.jpg)
 
 ``` {Note} The client id is separated by an @, and the information after the @ at the end can be customized.
-
 ```
 
 ## Subscribe to Topics
