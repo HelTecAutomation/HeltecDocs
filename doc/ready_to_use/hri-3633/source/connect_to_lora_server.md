@@ -51,6 +51,15 @@ After registration is complete, if all is well, you will see the device active.
 
 ![](img/13.jpg)
 
+### Parsing
++ Click `payload formatters`, select `Custom Javascript formatter`, and enter decoding at the position in the figure. Download the decoder here: [https://resource.heltec.cn/download/Sensor%20Hub%20for%20industry](https://resource.heltec.cn/download/Sensor%20Hub%20for%20industry).
+
+![](img/14.jpg)
+
++ Click `Save change` and move the mouse to the uplink data output to view the data uploaded by HRU-3601.
+
+![](img/15.png)
+
 ## Connect to ChirpStack
 
 Register a new device in ChirpStack’s “Applications” page. Enter the device name, description, DevEUI. Select Device-profile.
