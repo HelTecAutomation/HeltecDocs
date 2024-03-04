@@ -11,9 +11,9 @@ The Heltec ESP32 development environment already contains the basic code. For th
 
 **There are three methods to install the development framework, choose one of they:**
 
-- [Via Arduino Board Manager](via-arduino-board-manager)
-- [Via Git](via-git)
-- [Via Local File](via-local-file)
+- [Via Arduino Board Manager](esp32-via-arduino-board-manager)
+- [Via Git](esp32-via-git)
+- [Via Local File](esp32-via-local-file)
 
 ```{Tip} When we updated the V3 series development environment, we integrated the sample code and added it to the development environment without additional downloading libraries. We have handled the compatibility of the sample code so that the code can be used for various versions of the ESP32 development board. When you use the new development environment, the old version of the library can no longer be used, such as ESP32_ LoRaWAN, Heltec_ ESP32. When you update the development environment, we recommend that you delete the old development environment, download the new development environment, and delete the old version of the library. For Git, it has been updated to the V3 series development environment on September 19, 2022. For  "Arduino Boards Manager", V0.0.7 is the V3 series development environment. If you modify a lot of code in the old development environment and use it in the project, we recommend that you still use the old development environment.
 
@@ -25,7 +25,7 @@ The Heltec ESP32 development environment already contains the basic code. For th
 
 &nbsp;
 
-(via-arduino-board-manager)=
+(esp32-via-arduino-board-manager)=
 ## Via Arduino Board Manager
 
 ### Step1. Download Arduino-ESP32 Support
@@ -52,7 +52,7 @@ The source code of Heltec ESP series (ESP32 & ESP8266) framework available here:
 
 &nbsp;
 
-(via-git)=
+(esp32-via-git)=
 ## Via Git
 
 After obtaining updates through "**git pull**", please execute "**get. exe**" under the path of "**Arduino\hardware\WiFi_Kit_series\esp32\tools**" to obtain the latest compilation tool.
@@ -68,7 +68,7 @@ After obtaining updates through "**git pull**", please execute "**get. exe**" un
 
 &nbsp;
 
-(via-local-file)=
+(esp32-via-local-file)=
 ## Via Local File
 
 Download the development environment. [https://resource.heltec.cn/download/tools/WiFi_Kit_series.zip](https://resource.heltec.cn/download/tools/WiFi_Kit_series.zip)
