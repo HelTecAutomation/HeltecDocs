@@ -25,7 +25,7 @@ This document describes the HRI-3633 remote instructions that you can issue on t
 2. Set valve status
 ===================
 +----------------+-------------------+------------------+-------------+
-| Description    | Instruction type  | Valve number(0-1) | valve state |
+| Description    | Instruction type  | Valve number(0-1) | valve state|
 +================+===================+==================+=============+
 | Setting        | 09                | 00               | 01          |
 +----------------+-------------------+------------------+-------------+
