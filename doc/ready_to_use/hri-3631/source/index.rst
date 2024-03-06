@@ -25,6 +25,7 @@ HRI-3631 has the characteristics of ultra-low power consumption and long-distanc
     Quick Start <quick_start>
     Connect to SnapEmu App (One-click registration) <connect_to_snapemu>
     Connect to LoRaWAN Server <connect_to_lora_server>
+    Data Format Document <https://docs.heltec.org/general/data_format_document.html>
     OTA Upgrade <ota_upgrade>
     Subscribe MQTT Messages from LoRa Server <https://docs.heltec.org/general/subscribe_mqtt_messages.html>
     Subscribe MQTT Messages from SnapEmu <https://docs.heltec.org/general/subscribe_mqtt_messages_form_snapemu.html> 

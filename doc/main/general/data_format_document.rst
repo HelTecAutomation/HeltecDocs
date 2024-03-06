@@ -1,11 +1,11 @@
 ***************************
 Heltec Data Format Document
 ***************************
+:ht_translation:`[简体中文]:[English]`
 
-{ht_translation}`[简体中文]:[English]`
+Click here for the decoding code: `JavaScript decoding example code <https://resource.heltec.cn/download/Sensor%20Hub%20for%20industry/data_decode.js>`_
 
-Summary
-=======
+The following is a detailed description of the data format
 
 1. LoRaWAN Node Data Upload Format
 ==================================
@@ -64,6 +64,7 @@ Note: `Total Valid Data Length (bytes)` This field is only present for arrays, o
 
 All data types (except for arrays) are split in the same way as floats. When packing, the low byte comes first.
 
+```
 typedef union
 {
     union bits_32_raw_data
@@ -79,13 +80,16 @@ data[0] = bits_32_convert_data[0];
 data[1] = bits_32_convert_data[1];
 data[2] = bits_32_convert_data[2];
 data[3] = bits_32_convert_data[3];
+```
+
+
 
 1.4 Data Packet Decoding Example
 --------------------------------
 This is an example of a complete LoRaWAN data packet upload. (The data below is in hexadecimal):
 
-        04 00 0A 02 2B 34 BB 41 12 88 C5 B3 41 00 00 02 05 07
-        =====================================================
+04 00 0A 02 2B 34 BB 41 12 88 C5 B3 41 00 00 02 05 07
+=====================================================
 +---------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
 | 0X04 0X00           | This section is the parent ID, looking up the sensor table, this is the temperature and humidity sensor GXHTC                               |
 +---------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
@@ -107,8 +111,6 @@ This is an example of a complete LoRaWAN data packet upload. (The data below is 
 +---------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
 | 0x07                | Represents the battery has 7% remaining                                                                                                     |
 +---------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
-
-`JavaScript decoding example code <https://resource.heltec.cn/download/Sensor%20Hub%20for%20industry/data_decode.js>`_
 
 2. Special Circumstances
 ========================
