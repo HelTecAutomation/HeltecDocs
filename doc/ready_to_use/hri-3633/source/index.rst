@@ -20,6 +20,8 @@ HRI-3633 Wireless Aggregator — Valve Controller
     Quick Start <quick_start>
     Connect to SnapEmu App (One-click registration) <connect_to_snapemu>
     Connect to LoRaWAN Server <connect_to_lora_server>
+    Valve Controller Instruction <hri_3633_instruction/rst>
+    Data Format Description (OUTDOOR_VALVE) <https://docs.heltec.org/general/data_format_document.html#sensors>
     OTA Upgrade <ota_upgrade>
     Subscribe MQTT Messages from LoRa Server <https://docs.heltec.org/general/subscribe_mqtt_messages.html>
     Subscribe MQTT Messages from SnapEmu <https://docs.heltec.org/general/subscribe_mqtt_messages_from_snapemu.html> 
