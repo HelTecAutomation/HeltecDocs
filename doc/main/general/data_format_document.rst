@@ -64,32 +64,29 @@ Note: `Total Valid Data Length (bytes)` This field is only present for arrays, o
 
 All data types (except for arrays) are split in the same way as floats. When packing, the low byte comes first.
 
-```
-typedef union
-{
-    union bits_32_raw_data
-    {
-        uint32_t uint32_t_raw_data;
-        int32_t  int32_t_raw_data;
-        float    float_raw_data;
-    };
-    uint8_t bits_32_convert_data[4];
-}bits_32_type_convert_t;
+::
+  typedef union
+  {
+      union bits_32_raw_data
+      {
+          uint32_t uint32_t_raw_data;
+          int32_t  int32_t_raw_data;
+          float    float_raw_data;
+      };
+      uint8_t bits_32_convert_data[4];
+  }bits_32_type_convert_t;
 
-data[0] = bits_32_convert_data[0];
-data[1] = bits_32_convert_data[1];
-data[2] = bits_32_convert_data[2];
-data[3] = bits_32_convert_data[3];
-```
-
-
+  data[0] = bits_32_convert_data[0];
+  data[1] = bits_32_convert_data[1];
+  data[2] = bits_32_convert_data[2];
+  data[3] = bits_32_convert_data[3];
 
 1.4 Data Packet Decoding Example
 --------------------------------
 This is an example of a complete LoRaWAN data packet upload. (The data below is in hexadecimal):
 
-04 00 0A 02 2B 34 BB 41 12 88 C5 B3 41 00 00 02 05 07
-=====================================================
+**04 00 0A 02 2B 34 BB 41 12 88 C5 B3 41 00 00 02 05 07**
+
 +---------------------+---------------------------------------------------------------------------------------------------------------------------------------------+
 | 0X04 0X00           | This section is the parent ID, looking up the sensor table, this is the temperature and humidity sensor GXHTC                               |
 +---------------------+---------------------------------------------------------------------------------------------------------------------------------------------+

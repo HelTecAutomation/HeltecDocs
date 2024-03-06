@@ -1,8 +1,7 @@
 *************************
 Valve control instruction
 *************************
-
-{ht_translation}`[简体中文]:[English]`
+:{ht_translation}:`[简体中文]:[English]`
 
 **This document is still under update, if you have any questions, please contact our official email: support@heltec.cn.**
 
@@ -51,7 +50,8 @@ This document describes the HRI-3633 remote instructions that you can issue on t
 4. Clear pulse counter
 ======================
 +----------------+-------------------+------------------+-----------------+
-| Description    | Instruction type  | Counter_0 4byte  | Counter_1 4byte |
+| Description    | Instruction type  | Counter_0        | Counter_1 4byte |
+|                |                   | 4byte            | Counter_1 4byte |
 +================+===================+==================+=================+
 | Clear          | 0B                |                  |                 |
 +----------------+-------------------+------------------+-----------------+
@@ -117,5 +117,4 @@ For example, **0000 0001**, means Sunday, the Hexadecimal notation is **01**; **
 **Timed2**: minutes, In hexadecimal, for example, the 30th minute should be expressed as 1E.
 
 **Repeat type**: The 8-digit binary system represents Sunday through Saturday in descending order.
-
 For example, **0000 0001**, means Sunday, the Hexadecimal notation is **01**; **0001 0001** means Thursday and Sunday, the Hexadecimal notation is **11**; **0111 1111** means every day of the week, the Hexadecimal notation is **7F**.
