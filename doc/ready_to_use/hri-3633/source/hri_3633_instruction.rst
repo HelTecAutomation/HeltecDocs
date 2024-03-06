@@ -70,15 +70,15 @@ This document describes the HRI-3633 remote instructions that you can issue on t
 +----------------+-------------------+--------------------+--------+--------------+-------------+--------+-----------+-----------------+
 | Error Feedback | 0C                | FF                 |        |              |             |        |           |                 |
 +----------------+-------------------+--------------------+--------+--------------+-------------+--------+-----------+-----------------+
-**Instruction number**: The first command is 01 and the last is 15 in the device configuration page.
-**Enable**: Instruction turn on or off, **00** means Off, **01** means On.
-**Instruction number**: The first command is 01 and the last is 15 in the device configuration page.
-**Enable**: Instruction turn on or off, **00** means Off, **01** means On.
-**Action valve**: 0 means valve_0, 1 means valve_1, 2 means valve_0 and valve_1.
-**Action type**: 0 means close, 1 means open.
-**Timed1**: hour.
-**Timed2**: minutes, In hexadecimal, for example, the 30th minute should be expressed as 1E.
-**Repeat type**: The 8-digit binary system represents Sunday through Saturday in descending order.
+- **Instruction number**: The first command is 01 and the last is 15 in the device configuration page.
+- **Enable**: Instruction turn on or off, **00** means Off, **01** means On.
+- **Instruction number**: The first command is 01 and the last is 15 in the device configuration page.
+- **Enable**: Instruction turn on or off, **00** means Off, **01** means On.
+- **Action valve**: 0 means valve_0, 1 means valve_1, 2 means valve_0 and valve_1.
+- **Action type**: 0 means close, 1 means open.
+- **Timed1**: hour.
+- **Timed2**: minutes, In hexadecimal, for example, the 30th minute should be expressed as 1E.
+- **Repeat type**: The 8-digit binary system represents Sunday through Saturday in descending order.
 For example, **0000 0001**, means Sunday, the Hexadecimal notation is **01**; **0001 0001** means Thursday and Sunday, the Hexadecimal notation is **11**; **0111 1111** means every day of the week, the Hexadecimal notation is **7F**.
 
 6. Set valve timing task instructions
@@ -92,11 +92,11 @@ For example, **0000 0001**, means Sunday, the Hexadecimal notation is **01**; **
 +----------------+-------------------+--------------------+---------+--------------+-------------+--------+-----------+-----------------+
 | Error Feedback | 0D                | FF                 |         |              |             |        |           |                 |
 +----------------+-------------------+--------------------+---------+--------------+-------------+--------+-----------+-----------------+
-**Instruction number**: The first command is 01 and the last is 15 in the device configuration page.
-**Enable**: Instruction turn on or off, **00** means Off, **01** means On.
-**Action valve**: 0 means valve_0, 1 means valve_1, 2 means valve_0 and valve_1.
-**Action type**: 0 means close, 1 means open.
-**Timed1**: hour.
-**Timed2**: minutes, In hexadecimal, for example, the 30th minute should be expressed as 1E.
-**Repeat type**: The 8-digit binary system represents Sunday through Saturday in descending order.
+- **Instruction number**: The first command is 01 and the last is 15 in the device configuration page.
+- **Enable**: Instruction turn on or off, **00** means Off, **01** means On.
+- **Action valve**: 0 means valve_0, 1 means valve_1, 2 means valve_0 and valve_1.
+- **Action type**: 0 means close, 1 means open.
+- **Timed1**: hour.
+- **Timed2**: minutes, In hexadecimal, for example, the 30th minute should be expressed as 1E.
+- **Repeat type**: The 8-digit binary system represents Sunday through Saturday in descending order.
 For example, **0000 0001**, means Sunday, the Hexadecimal notation is **01**; **0001 0001** means Thursday and Sunday, the Hexadecimal notation is **11**; **0111 1111** means every day of the week, the Hexadecimal notation is **7F**.
