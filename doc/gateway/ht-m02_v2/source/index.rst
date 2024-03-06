@@ -7,7 +7,7 @@ HT-M02 is a edge computing LoRa gateway that is very suitable for use in applica
 Regarding the device functions, the basic version of HT-M02 provides LoRa gateway and network interface, but it also has rich optional functions such as LTE, PoE, Wi-Fi, which makes it well applicable to various application scenarios.
 
 .. figure:: img/01.png
-    :scale: 70%
+    :scale: 100%
     :alt: no-component
     :figclass: align-center
 

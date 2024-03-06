@@ -37,16 +37,16 @@ This document describes the HRI-3633 remote instructions that you can issue on t
 3. Query pulse counter
 ======================
 +----------------+-------------------+-------------------+-------------------+
-| Description    | Instruction type  | Counter number    | Counter number    |
-+================+===================+=======================================+
-| Query          | 0A                | (0-2)                                 |
+| Description    | Instruction type  | Counter_0         | Counter_1         |
++================+===================+===================+===================+
+| Query          | 0A                | (00-02)                               |
 +----------------+-------------------+-------------------+-------------------+
-| Feedback       | 0A                | 4byte (counter_0) | 4byte (counter_1) |
+| Feedback       | 0A                | 4byte             | 4byte             |
 +----------------+-------------------+-------------------+-------------------+
 | Error Feedback | 0A                | FF                |                   |
 +----------------+-------------------+-------------------+-------------------+
 
-**Counter number** : 0=counter_0; 1=counter_1; 2=counter_0 and counter_1
+**Counter number** : 00=counter_0; 01=counter_1; 02=counter_0 and counter_1.
 
 4. Clear pulse counter
 ======================
@@ -55,7 +55,7 @@ This document describes the HRI-3633 remote instructions that you can issue on t
 +================+===================+==================+=================+
 | Clear          | 0B                |                  |                 |
 +----------------+-------------------+------------------+-----------------+
-| Feedback       | 0B                | 4byte            | 4byte           |
+| Feedback       | 0B                | (4byte)          | (4byte)         |
 +----------------+-------------------+------------------+-----------------+
 | Error Feedback | 0B                | FF               |                 |
 +----------------+-------------------+------------------+-----------------+
@@ -63,7 +63,7 @@ This document describes the HRI-3633 remote instructions that you can issue on t
 5. Query valve timing task instructions
 =======================================
 +----------------+-------------------+--------------------+--------+--------------+-------------+--------+-----------+-----------------+
-| Description    | Instruction type  | Instruction number | Enable | action valve | action type | timed  | timed     | The repeat type |
+| Description    | Instruction type  | Instruction number | Enable | action valve | action type | timed  | timed     | Repeat type     |
 +================+===================+====================+========+==============+=============+========+===========+=================+
 | Query          | 0C                | (01~15)            |        |              |             |        |           |                 |
 +----------------+-------------------+--------------------+--------+--------------+-------------+--------+-----------+-----------------+
@@ -72,14 +72,50 @@ This document describes the HRI-3633 remote instructions that you can issue on t
 | Error Feedback | 0C                | FF                 |        |              |             |        |           |                 |
 +----------------+-------------------+--------------------+--------+--------------+-------------+--------+-----------+-----------------+
 
-5. Set valve timing task instructions
+**Instruction number**: The first command is 01 and the last is 15 in the device configuration page.
+
+**Enable**: Instruction turn on or off, **00** means Off, **01** means On.
+
+**Instruction number**: The first command is 01 and the last is 15 in the device configuration page.
+
+**Enable**: Instruction turn on or off, **00** means Off, **01** means On.
+
+**Action valve**: 0 means valve_0, 1 means valve_1, 2 means valve_0 and valve_1.
+
+**Action type**: 0 means close, 1 means open.
+
+**Timed1**: hour.
+
+**Timed2**: minutes, In hexadecimal, for example, the 30th minute should be expressed as 1E.
+
+**Repeat type**: The 8-digit binary system represents Sunday through Saturday in descending order.
+
+For example, **0000 0001**, means Sunday, the Hexadecimal notation is **01**; **0001 0001** means Thursday and Sunday, the Hexadecimal notation is **11**; **0111 1111** means every day of the week, the Hexadecimal notation is **7F**.
+
+6. Set valve timing task instructions
 =====================================
-+----------------+-------------------+--------------------+--------+--------------+-------------+--------+-----------+-----------------+
-| Description    | Instruction type  | Instruction number | Enable | action valve | action type | timed  | timed     | The repeat type |
-+================+===================+====================+========+==============+=============+========+===========+=================+
-| Set            | 0D                | (01~15)            | (0-1)  | (0-2)        | ( 0-1 )     | (hour) | (minutes) | (0x7F)          |
-+----------------+-------------------+--------------------+--------+--------------+-------------+--------+-----------+-----------------+
-| Feedback       | 0D                | (01~15)            | (0-1)  | (0-2)        | ( 0-1 )     | (hour) | (minutes) | (0x7F)          |
-+----------------+-------------------+--------------------+--------+--------------+-------------+--------+-----------+-----------------+
-| Error Feedback | 0D                | FF                 |        |              |             |        |           |                 |
-+----------------+-------------------+--------------------+--------+--------------+-------------+--------+-----------+-----------------+
++----------------+-------------------+--------------------+---------+--------------+-------------+--------+-----------+-----------------+
+| Description    | Instruction type  | Instruction number | Enable  | action valve | action type | timed1 | timed2    | Repeat type     |
++================+===================+====================+=========+==============+=============+========+===========+=================+
+| Set            | 0D                | (01~15)            | (00-01) | (00-02)      | ( 00-01 )   | (hour) | (minutes) | (01~7F)         |
++----------------+-------------------+--------------------+---------+--------------+-------------+--------+-----------+-----------------+
+| Feedback       | 0D                | (01~15)            | (00-01) | (00-02)      | ( 00-01 )   | (hour) | (minutes) | (01~7F)         |
++----------------+-------------------+--------------------+---------+--------------+-------------+--------+-----------+-----------------+
+| Error Feedback | 0D                | FF                 |         |              |             |        |           |                 |
++----------------+-------------------+--------------------+---------+--------------+-------------+--------+-----------+-----------------+
+
+**Instruction number**: The first command is 01 and the last is 15 in the device configuration page.
+
+**Enable**: Instruction turn on or off, **00** means Off, **01** means On.
+
+**Action valve**: 0 means valve_0, 1 means valve_1, 2 means valve_0 and valve_1.
+
+**Action type**: 0 means close, 1 means open.
+
+**Timed1**: hour.
+
+**Timed2**: minutes, In hexadecimal, for example, the 30th minute should be expressed as 1E.
+
+**Repeat type**: The 8-digit binary system represents Sunday through Saturday in descending order.
+
+For example, **0000 0001**, means Sunday, the Hexadecimal notation is **01**; **0001 0001** means Thursday and Sunday, the Hexadecimal notation is **11**; **0111 1111** means every day of the week, the Hexadecimal notation is **7F**.
