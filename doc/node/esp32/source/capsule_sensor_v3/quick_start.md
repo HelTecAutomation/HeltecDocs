@@ -14,11 +14,11 @@ Find "WirelessBoot_xxxx" on your PC and connect, the password is "heltec.org".
 
 Enter `192.168.4.1` in your browser to navigate to the WirelessBoot configuration page.
 
-![](img/03.jpg)
+![](img/03.png)
 
 Enter the WiFi account and password, click `Save Configuration`.
 
-![](img/04.jpg)
+![](img/04.png)
 
 At this point, the device connected to the local area network can interact with CapSule V3.
 
