@@ -18,6 +18,7 @@ The characteristics of WiFi Kit 32 are as follows:
     
     Quick Start<https://docs.heltec.org/en/node/esp32/esp32_general_docs/quick_start.html>
     Example Manual<example>
+    Frequently Asked Questions<https://docs.heltec.org/en/node/esp32/esp32_general_docs/frequently_asked_questions.html>
     ESP32 General Docs<https://docs.heltec.org/en/node/esp32/esp32_general_docs/index>
     -->[General Docs]<-- <https://docs.heltec.org/general/index.html>
     

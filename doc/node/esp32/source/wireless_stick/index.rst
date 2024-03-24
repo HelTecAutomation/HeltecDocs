@@ -17,5 +17,6 @@ development and application.
     Quick Start<https://docs.heltec.org/en/node/esp32/esp32_general_docs/quick_start.html>
     Example Manual<example>
     LoRaWAN<https://docs.heltec.org/en/node/esp32/esp32_general_docs/lorawan/index.html>
+    Frequently Asked Questions<https://docs.heltec.org/en/node/esp32/esp32_general_docs/frequently_asked_questions.html>
     -->[Heltec General Docs]<-- <https://docs.heltec.org/general/index.html>
     

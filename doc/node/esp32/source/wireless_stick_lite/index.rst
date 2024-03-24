@@ -20,5 +20,6 @@ Wireless Stick Lite (V3) is a part of the “Heltec LoRa“ series, with the fol
     Example Manual<example>
     LoRaWAN<https://docs.heltec.org/en/node/esp32/esp32_general_docs/lorawan/index.html>
     ESP32 General Docs<https://docs.heltec.org/en/node/esp32/esp32_general_docs/index>
+    Frequently Asked Questions<https://docs.heltec.org/en/node/esp32/esp32_general_docs/frequently_asked_questions.html>
     -->[Heltec General Docs]<-- <https://docs.heltec.org/general/index.html>
     

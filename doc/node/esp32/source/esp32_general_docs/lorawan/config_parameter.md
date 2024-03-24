@@ -2,59 +2,58 @@
 {ht_translation}`[简体中文]:[English]`
 
 ## Preparation
-
-- Arduino IDE.  How to install please click [here](https://docs.heltec.org/general/how_to_install_git_and_arduino.html).
-- This library must work with [Heltec WiFi_Kit_series Arduino development framework](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series). Installation manual  please refer to [here](https://docs.heltec.org/en/node/esp32/quick_start.html).
-
-- A gateway already connected a LoRa server.
-  - [Connect HT-M01 to a LoRa server](https://docs.heltec.org/en/gateway/ht-m01/connect_to_server.html);
-  - [Connect HT-M02 to a LoRa server](https://docs.heltec.org/en/gateway/ht-m02_4g/connect_to_server.html).
-  - [Connect HT-M01S to a LoRa server](https://docs.heltec.org/en/gateway/ht-m01s_v2/connect_to_server.html).
-- An ESP32 + LoRa ([WiFi LoRa 32](https://heltec.org/project/wifi-lora-32/), [Wireless Stick](https://heltec.org/project/wireless-stick/), etc.) node and a high quality USB cable.
-- In this example, we use [HT-M01 Gateway](https://heltec.org/project/ht-m01/) and drive it through Windows<sup>®</sup> via USB, and use [WiFi LoRa 32 (V2)](https://heltec.org/project/wifi-lora-32/) Board to quickly connect to TTN.
-
+1. Install Arduino IDE. How to install please click [here](https://docs.heltec.org/general/how_to_install_git_and_arduino.html).
+2. Install [Heltec ESP32 series Arduino development framework](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series).  Installation manual  please refer to [here](https://docs.heltec.org/en/node/esp32/quick_start.html).
+3. Install [Heltec_ESP32 Library](https://github.com/HelTecAutomation/Heltec_ESP32).
+4. An [ESP32 + LoRa node](https://heltec.org/product-category/lora/lrnode/esp32-lora/).
+5. High quality USB cable. 
 
 ## Configure Parameters
+1. Connect the development board to the computer through USB data cable.
 
-No matter what LoRa management platform is used, DevEui, AppKey, etc. parameters are must needed. And ensure that it is consistent with the relevant settings on the server.
-
-- **The following parameters are essential for OTAA mode:**
-  - DevEui -- Mote device IEEE EUI (big endian), 8 bytes;
-  - AppEui -- Application IEEE EUI (big endian), 8 bytes;
-  - AppKey -- AES encryption/decryption cipher application key, 16 bytes;
-- **The following parameters are essential for ABP mode:**
-  - NwkSKey -- AES encryption/decryption cipher network session key, 16 bytes;
-  - AppSKey -- AES encryption/decryption cipher application session key, 16 bytes;
-  - DevAddr -- Device address on the network (big endian), uint32_t;
-
-Choose an example from menu `File -- Examples -- Heltec-Example -- LoRaWAN -- LoRaWAN`.
+2. Open the Arduino and in the `Tools` option, select the appropriate `Board`, `Port`.
 
 ![](img/config_parameter/01.png)
 
-The LoRaWAN relevant parameters are in the `.ino` file, fix it in the code directly.
+3. In `Tools` option, `Board`, `Upload Speed`, `CPU Frequency`, `Core Debug Level`, `PSRAM` are ESP32 chip's normal option, just keep default. Special notice the `LoRaWan Region`, `LoRaWan Debug Level`, `LoRaWANDEVEUI`.
 
 ![](img/config_parameter/02.png)
 
-## Choose Frequency Band
+  - **LoRaWan Region** -- LoRaWAN protocol region definition, strictly follow [LoRaWAN™ 1.0.2 Regional Parameters rB](https://resource.heltec.cn/download/LoRaWANRegionalParametersv1.0.2_final_1944_1.pdf);
+  - **LoRaWan Debug Level** -- Messages printed via serial.
+    - None -- Default;
+    - Freq -- Uplink/downlink frequency;
+    - Freq && DIO -- Uplink/downlink frequency and DIO interrupt information;
+    - Freq && DIO && PW -- Uplink/downlink frequency, DIO interrupt information and low power status.
+  - **LORAWAN_DEVEUI** -- LoRaWAN Device EUI generate method
+    - CUSTOM -- Defined by the user in the DevEui array of the code, 8 bytes;
+    - Generate By ChipID -- Generated according to the Chip ID of the chip. Selecting this option will override the setting in the DevEui array in the code.
 
-There are some options in the Arduino Tools menu:
+4. Follow the path shown below to open the LoraWAN demo code.
 
 ![](img/config_parameter/03.png)
 
-`Board, Upload Speed, CPU Frequency, Core Debug Level, PSRAM` are ESP32 chip's normal option, just keep default. Special notice the `LoRaWan Region` and `LoRaWan Debug Level`:
+5. Fill in **DevEu** **AppEui** **AppKey** in the following figure in the red box in the example format, which will be used in the website registration.
 
-- **LoRaWan Region** -- LoRaWAN protocol region definition, strictly follow [LoRaWAN™ 1.0.2 Regional Parameters rB](https://resource.heltec.cn/download/LoRaWANRegionalParametersv1.0.2_final_1944_1.pdf);
-- **LoRaWan Debug Level** -- Messages printed via serial.
-  - None -- Default;
-  - Freq -- Uplink/downlink frequency;
-  - Freq && DIO -- Uplink/downlink frequency and DIO interrupt information;
-  - Freq && DIO && PW -- Uplink/downlink frequency, DIO interrupt information and low power status.
-- **LORAWAN_DEVEUI** -- LoRaWAN Device EUI generate method
-  - CUSTOM -- Defined by the user in the DevEui array of the code, 8 bytes;
-  - Generate By ChipID -- Generated according to the Chip ID of the chip. Selecting this option will override the setting in the DevEui array in the code.
+![](img/config_parameter/04.png)
 
+  - DevEui -- Mote device IEEE EUI (big endian), 8 bytes;
+  - AppEui -- Application IEEE EUI (big endian), 8 bytes;
+  - AppKey -- AES encryption/decryption cipher application key, 16 bytes;
+
+```{Tip} This example uses the OTAA pattern as an example, and for the differences in the ABP pattern, please refer to this link: [ABP mode](https://docs.heltec.org/general/lorawan_abp/config_parameter.html)
+```
+
+6. Effective load is here.
+
+![](img/config_parameter/05.png)
 
 ``` {Note} Print too much messages may cause the system unstable.
-
 ```
+
+7. Other relevant parameters are in the `.ino` file, You can come back to it after you know lorawan well.
+
+8. Click `Upload` to upload the code.
+
+![](img/config_parameter/06.png)
 

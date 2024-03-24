@@ -1,21 +1,25 @@
 # Connect "ESP32 + LoRa" to LoRaWAN Server
 {ht_translation}`[简体中文]:[English]`
 
-Before this operation, please read this document carefully: **[“ESP32 + LoRa” Node Preparation & Config Parameters](https://docs.heltec.org/en/node/esp32/lorawan/config_parameter.html)**
+## Preparation
+1. A ESP32 + LoRa node that's configured and uploaded code, as described in the previous topic:: **[“ESP32 + LoRa” Node Preparation & Config Parameters](https://docs.heltec.org/en/node/esp32/lorawan/config_parameter.html)**
+2. A LoRa server, We recommend the following three:
+    - [TTN/TTS](https://console.thethingsnetwork.org/)
+    - [ChirpStack](https://www.chirpstack.io/)
+    - [SnapEmu](https://platform.snapemu.com/)
 
-![](img/connect_to_gateway/01.png)
+3. A Gateway that matches the **LoRaWAN region** of the node, and already is connected to the lora server. If you are using Heltec Gateway, you can find out how to connect to the server in the [Heltec Gateway documentation](https://docs.heltec.org/)
 
-&nbsp;
+## Connect to LoRaWAN Server
 
-![](img/connect_to_gateway/05.png)
+Before that, make sure there is a LoRa Gateway active in your server.
 
+- [Connect to TTN/TTS](connect-to-ttn)
+- [Connect to ChirpStack](connect-to-chirpstack)
+- [Connect to SnapEmu](connect-to-snapemu)
 
-
-## Connect to TTN/TTS
-
-Before that, make sure there is a LoRa Gateway active in your [TTN](https://console.thethingsnetwork.org/)/[TTS](https://lora.heltec.org/console) account.
-
-### Register a device
+(connect-to-ttn)=
+### Connect to TTN/TTS
 
 Register a new device in TTN or TTS “Applications” page. Select the corresponding Brand, Model, Hardware Version, Firmware Version, Region.
 
@@ -29,8 +33,8 @@ After registration is complete, if all is well, you will see the device active.
 
 ![](img/connect_to_gateway/18.png)
 
-## Connect to ChirpStack
-
+(connect-to-chirpstack)=
+### Connect to ChirpStack
 Register a new device in ChirpStack’s “Applications” page. Enter the device name, description, DevEUI. Select Device-profile.
 
 ![](img/connect_to_gateway/20.png)
