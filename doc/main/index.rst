@@ -64,6 +64,7 @@ Here are the LoRa Gateways produced by Heltec Automation. You will be able to fi
    HRI-3621(Sensor Hub) <https://docs.heltec.org/en/ready_to_use/hri-3621/index.html>
    HRI-3622(Sensor Hub Bus Transformer) <https://docs.heltec.org/en/ready_to_use/hri-3621/index.html>
    HRI-3631(Wireless Aggregator Sensor Docker) <https://docs.heltec.org/en/ready_to_use/hri-3631/index.html>
+   HRI-3632(Wireless Aggregator Bus Transformer) <https://docs.heltec.org/en/ready_to_use/hri-3631/index.html>
    HRI-3633(Wireless Aggregator Valve Controller) <https://docs.heltec.org/en/ready_to_use/hri-3633/index.html>
    
 .. toctree::
