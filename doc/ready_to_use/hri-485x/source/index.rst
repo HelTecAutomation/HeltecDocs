@@ -19,6 +19,7 @@ The HRI-485x series is a DTU device that converts the RS-485 bus to wireless dat
 
 .. toctree::
     :maxdepth: 2
+    
     Application Example <application_example>
     HRI-4851 <hri-4851>
     HRI-4852 <hri-4852>
