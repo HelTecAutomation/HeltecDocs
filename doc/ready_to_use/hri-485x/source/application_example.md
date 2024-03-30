@@ -2,33 +2,39 @@
 
 {ht_translation}`[简体中文]:[English]`
 
-HRI-485X series has a variety of networking methods. For details of setting, please refer to the user manual.
-This topic aims to describe some typical applications of some HRI-485X.
+HRI-485X series has a variety of networking methods. This topic introduces some common scenarios of the HRI-485X series to help you choose the right product model for your needs.
 
-## HRI-4851+HRI-4851
-HRI-4851 can be configured to achieve point-to-point and point-to-many SerialNet.
+## HRI-4851+HRI-4851 P2P/P2MP
 
-![](img/application_example/01.png) 
+HRI-4851 is connected to the RS-485 terminal, and the received RS-485 signal is forwarded with LoRa signal to realize point-to-point or point-to-many communication of different devices.
 
-## HRI-4851+HRI-4852
-The device is connected to the HRI-4851 through RS-485 and sends the data to the HRI-4852  through LoRa signal, and then sends the data to the cloud server through the ordinary gateway or LTE. 
-Attention please , **HRI-4852 is usually only used as a tool for HRI-4851 to enter the network.**
+![](img/application_example/01.png)
 
-![](img/application_example/02.png) 
+## HRI-4851+HRI-4852 Connect to Server
+On top of P2P/P2MP, if you also need to send incoming messages to the server, you need to use a combination of HRI-4852 + HRI-4851.
 
-## HRI-4851L + LoRaWAN Gateway
-The device connect to the HRI-4851 via RS-485, HRI-4851 sends data via LoRaWAN to the gateway, gateway sends data to the LoRaWAN server.
+``` {Note}  HRI-4852 is usually only used as a tool for HRI-4851 to enter the network. HRI-4852 cannot connect directly to the RS-485 device.
+```
+
+![](img/application_example/02.png)
+
+## HRI-4851L + LoRa Gateway
+The device connect to the HRI-4851 via RS-485, HRI-4851 sends data via LoRaWAN to the gateway, gateway sends data to the LoRaWAN server. 
 
 ![](img/application_example/03.png)
 
-## HRI-4853
-HRI-4853 connects the device via RS-485 and uploads the data to the cloud server via LTE or Ethernet.
+## HRI-4853  Node to Server
+For occasions where LoRa is not needed, HRI-4853 directly forwards the data from the RS-485 terminal to the server.
 
 ![](img/application_example/04.png)
 
 ## HRI-4851 Relayer
-In some special occasions, HRI-4851 can be used as a forwarding device of two HRI-4851 or HRI-4852.
+hrough the relay function of HRI-4851, the communication range of HRI-4852 or HRI-4851 can be greatly extended.
 
 ![](img/application_example/05.png)
 
+## HRI-4851 Gateway
 
+LAN Gateway functions, for example, if one of your terminals needs to receive HRI-4851 data from a different address, you can run the gateway function of HRI-4851.
+
+![](img/application_example/06.png)

@@ -46,9 +46,11 @@ The products' Chip ID is relative to the onboard MCU, each MCU have an unique ID
 (esp32-lora-series)=
 ### ESP32 (+ LoRa) Series
 
-Make sure you have already installed the [Heltec ESP32 development framework](https://heltec-automation-docs.readthedocs.io/en/latest/esp32/quick_start.html).
+Make sure you have already installed the [Heltec ESP32 Library](https://github.com/HelTecAutomation/Heltec_ESP32). The library relies on the [Heltec ESP32 Framework](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series) or the [Espressif-Arduino framework](https://github.com/espressif/arduino-esp32).
 
-Use this sample code: [Chip ID read example](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/esp32/libraries/ESP32/examples/ChipID/GetChipID/GetChipID.ino).
+Demo code: [Chip ID read example](https://github.com/HelTecAutomation/Heltec_ESP32/tree/master/examples/ESP32/GetChipID).
+
+![](img/chipid.png)
 
 After uploading this sample code, the Chip ID will be printed via serial port:
 
