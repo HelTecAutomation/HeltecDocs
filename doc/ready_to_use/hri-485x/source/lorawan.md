@@ -57,7 +57,7 @@ Each RS-485 instruction supports up to 32bytes, and if multiple 485 instructions
 
 2. Click `Create Organization` to create an Application.
 
-![](img/lorawan/02.png)
+![](img/lorawan/server2.png)
 
 3. Click `Register end device`. 
 
@@ -80,7 +80,7 @@ Each RS-485 instruction supports up to 32bytes, and if multiple 485 instructions
 
 ![](img/lorawan/server04.png) 
 
-``` {Note}The joinEui is represented as AppEui on the device configuration page.
+``` {Note} The joinEui is represented as AppEui on the device configuration page.
 ```
 
  ![](img/lorawan/01.png)
