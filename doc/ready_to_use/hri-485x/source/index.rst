@@ -26,4 +26,5 @@ The HRI-485x series is a DTU device that converts the RS-485 bus to wireless dat
     HRI-4853 <hri-4853>
     HRI-4851L(LoRaWAN)<lorawan>
     OTA Upgrade<ota_upgrade>
+    Frequently Asked Question <frequently-asked-question>
     -->[General Docs]<-- <https://docs.heltec.org/general/index.html>

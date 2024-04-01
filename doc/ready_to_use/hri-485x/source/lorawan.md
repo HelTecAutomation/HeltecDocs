@@ -3,7 +3,7 @@ HRI-4851L is a DTU device using LoRaWAN protocol, and its network access must al
 ## Hardware Connection
 1. As shown in the figure,Connect the power wires and data bus of the device.
 
-![](img/4851 Power ON.png) 
+![](img/4851poweron.png) 
 
 2. Install the antenna we provided.
 
