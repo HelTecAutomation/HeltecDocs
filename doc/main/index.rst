@@ -15,7 +15,7 @@ This picture shown the LoRaWAN communication framkework.
 LoRa server
 ===========
 
-For a whole LoRaWAN communication process, a server is must needed, LoRaWAN server includedd two parts: Network Server and Application Server (We also generally call them NS). LoRa node join network, ACK, identity identification, communication authentication, etc. are handled by NS. Now there are many excellent LoRaWAN NS, such as:
+For a whole LoRaWAN communication process, a server is must needed, LoRaWAN server included two parts: Network Server and Application Server (We also generally call them NS). LoRa node join network, ACK, identity identification, communication authentication, etc. are handled by NS. Now there are many excellent LoRaWAN NS, such as:
 
 - `ChirpStack <https://www.chirpstack.io>`_
 - `TTN <https://www.thethingsnetwork.org/>`_
