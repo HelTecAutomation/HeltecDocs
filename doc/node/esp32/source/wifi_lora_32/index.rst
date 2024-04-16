@@ -10,11 +10,7 @@ Wi-Fi, BLE, LoRa functions, also Li-Po battery management system, 0.96" OLEDarea
     
     Quick Start<https://docs.heltec.org/en/node/esp32/esp32_general_docs/quick_start.html>
     Example Manual<example>
-<<<<<<< HEAD
     LoRaWAN<https://docs.heltec.org/en/node/esp32/esp32_general_docs/lorawan/index.html>
     Frequently Asked Questions<https://docs.heltec.org/en/node/esp32/esp32_general_docs/frequently_asked_questions.html>
     ESP32 General Docs<https://docs.heltec.org/en/node/esp32/esp32_general_docs/index>
     -->[General Docs]<-- <https://docs.heltec.org/general/index.html>
-=======
-    LoRaWAN<https://docs.heltec.org/en/node/esp32/esp32_general_docs/lorawan/index.html>
->>>>>>> 012630d893e927b808dfb3d55ca5933a353100ad

@@ -21,6 +21,7 @@ ESP32 is a powerfull SoC with 240MHz Tensilica LX6 dual-core & 1 ULP core, 600 D
 .. toctree::
    :maxdepth: 2
 
+    ESP32 Series General Docs<esp32_general_docs/index>
     CapSule Sensor V3<capsule_sensor_v3/index>
     WiFi LoRa 32<wifi_lora_32/index>
     Wireless Tracker<wireless_tracker/index>
@@ -36,7 +37,6 @@ ESP32 is a powerfull SoC with 240MHz Tensilica LX6 dual-core & 1 ULP core, 600 D
     Wireless Bridge<wireless_bridge/index>
     Heltec WirelessBoot System<wireless_boot/index>
     Hardware Update Log<hardware_update_log>
-    ESP32 General Docs<esp32_general_docs/index>
     -->[Heltec General Docs]<-- <https://docs.heltec.org/general/index.html>
    
 Relevant Offical Resources

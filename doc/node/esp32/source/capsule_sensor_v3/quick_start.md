@@ -1,10 +1,10 @@
-Quick Start
+# Quick Start
 
 {ht_translation}`[简体中文]:[English]`
 
 CapSule Sensor V3 uses Wireless Boot to download firmware, exchange information, and print logs through WiFi. 
 
-## Run Wireless Boot
+## Enter downloading mode
 1. Long press the indicator light of the device for 16 seconds until the Blue light of the device is always on.
 
 ![](img/01.png)

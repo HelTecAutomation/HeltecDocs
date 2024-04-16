@@ -2,15 +2,15 @@
 
 {ht_translation}`[简体中文]:[English]`
 
-## Summary
+## Preparation
 
-This document will briefly introduce the usage of Wireless_Bridge WiFi_LoRa example.
+1. **Install the Heltec ESP32 development framework and library**，If you don't know how to install, you can refer to this link：[Heltec ESP32 Series Quickstart](https://docs.heltec.org/en/node/esp32/esp32_general_docs/quick_start.html#)
+2. **A LoRaWAN gateway** in normal operation on the LoRaWAN server.
 
-```{Tip} loraWanClass should choose CLASS_C
+## Uploading code
 
-```
-
-## Usage
+1. Connect Wireless Bridge to your computer with a USB cable and open the Arduino ID.
+2. 
 
 Before starting the test, make sure that Wireless_Bridge can communicate with the gateway normally.
 

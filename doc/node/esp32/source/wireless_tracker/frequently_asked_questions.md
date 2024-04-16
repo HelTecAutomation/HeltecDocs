@@ -28,7 +28,6 @@ Connect Wireless Tracker to computer, `cd` into the unzipped temporary firmware 
 
 *If you already have firmware in your current Wireless Tracker, it may prevent you from downloading the new firmware. Please refer to [this section](https://docs.heltec.cn/en/node/esp32/wireless_tracker/frequently_asked_questions.html#how-to-access-boot-mode-manually) to manually enter Boot mode and try again.*
 
-```
-{Tip} This issue had been well solved in the Meshtastic firmware 2.2.17.dbac2b1 Beta update. The firmware will automatically recognize the device version and operation it.
+``` {Tip} This issue had been well solved in the Meshtastic firmware 2.2.17.dbac2b1 Beta update. The firmware will automatically recognize the device version and operation it.
 ```
 

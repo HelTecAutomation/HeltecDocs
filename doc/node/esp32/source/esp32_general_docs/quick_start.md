@@ -10,7 +10,7 @@
 
 2. [Install Git and Arduino IDE](https://docs.heltec.org/general/how_to_install_git_and_arduino.html).
 
-## Installing the development framework
+## Installing development framework and 
 **There are three methods to install the development framework, choose one of they:**
 
 - [Via Arduino Board Manager](esp32-via-arduino-board-manager)
@@ -50,6 +50,7 @@
   - [OpenSUSE](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/InstallGuide/opensuse.md)
 
 ``` {TIP} After obtaining updates through "git pull", please execute "get. exe" under the path of "Arduino\hardware\heltec\esp32\tools" to obtain the latest compilation tool.
+
 ```
 
 3. The above is the development environment installation. If you need to install the Heltec ESP32 extension library, you can refer to this link:[Heltec ESP32 Series Library](https://github.com/HelTecAutomation/Heltec_ESP32)
@@ -86,14 +87,16 @@
 
 ![](img/quick_start/20.png)
 
-&nbsp;
+
+
+9. For the Heltec ESP32 specific code, just download the zip file and unzip it to the following path: **Username/Documents/Arduino/Libraries**.
 
 ## Example
 This section for verifying whether you can program with Arduino or not. Now, The USB cable connects to Heltec ESP32 board, then select your serial port which is connected to Heltec ESP32 board.
 
 Select a demo example, compile and upload.
 
-### Execute an example
+### Execute an example 
 Correctly select a board and relevant options in the `Tools` menu:
 
 ![](img/quick_start/08.png)
@@ -101,6 +104,10 @@ Correctly select a board and relevant options in the `Tools` menu:
 Then select an example.
 
 ![](img/quick_start/09.jpg)
+
+``` {Tip} To execute the code in a library, you need to mouse over, scroll down, find the library, and find the code in it.
+
+```
 
 Compile & Upload
 
@@ -126,3 +133,4 @@ void loop() {
 ```
 
 compile it and upload, the  screen (if this board has a screen) will show and Arduino's serial monitor will print something, it means Heltec ESP32 board is running successfully!
+

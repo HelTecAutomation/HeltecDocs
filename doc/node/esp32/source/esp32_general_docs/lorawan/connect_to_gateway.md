@@ -21,11 +21,53 @@ Before that, make sure there is a LoRa Gateway active in your server.
 (connect-to-ttn)=
 ### Connect to TTN/TTS
 
-Register a new device in TTN or TTS “Applications” page. Select the corresponding Brand, Model, Hardware Version, Firmware Version, Region.
+1. Log in to the [TTS server web page](lora.heltec.org), register a new “Applications” .
 
-![](img/connect_to_gateway/16.png)
+   ![](img/connect_to_gateway/06.png) 
 
-Select the frequency plan, and fill in the corresponding AppEUI, DevEUi, AppKey, and register the device.
+2. Create application
+
+![](img/connect_to_gateway/07.png)
+
+3. You can freely fill in the Application information in the red box, and click `Creat application` when you're done.
+
+   ![](img/connect_to_gateway/08.png)
+
+4. Register an end device.
+
+   ![](img/connect_to_gateway/81.png)
+
+5. Choose `Enter end device specifics manually`, Select the frequency band corresponding to the node, 
+
+   ![](img/connect_to_gateway/09.png)
+
+6. The LoRaWAN version is chosen to be 1.0.2 B
+
+   ![](img/connect_to_gateway/10.png)
+
+   The `Show advanced activation, LoRaWAN class and cluster settings` option has some other LoRaWAN parameter Settings such as OTAA/ABP.CLASS A/C, these parameters default to OTAA and CLASS A, in general need to be consistent with the node Settings.
+
+   ![](img/connect_to_gateway/11.png)
+
+7. Fill in JoinEUI and click confirm.
+
+   ![](img/connect_to_gateway/12.png)
+
+   ``` {Tip} In code or some application products, JoinEUI is represented as AppEUI.
+   ```
+
+   ![](img/connect_to_gateway/13.png)
+
+8. Fill in DevEUI and AppKey.
+
+   ![](img/connect_to_gateway/14.png)
+
+   ``` {Tip} The End device ID is automatically generated when you fill in DevEUI.
+   ```
+
+   ![](img/connect_to_gateway/31.png)
+
+9. Click to register.
 
 ![](img/connect_to_gateway/17.png)
 

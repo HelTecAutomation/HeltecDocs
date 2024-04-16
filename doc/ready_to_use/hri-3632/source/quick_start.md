@@ -5,51 +5,48 @@
 This article describes how to deploy HRI-3632 quickly.
 
 ``` {Tip} Before you enter the configuration mode, please do all operations without power.
-
 ```
 
 ## Connect to RS-485 Device
-Unscrew the connector as shown below. 
+1. Unscrew the connector as shown below. 
 
 ![](img/quick_start/06(1).jpg) 
 
-Put it on the cable of the RS-485 sensor.
+2. Put it on the cable of the RS-485 sensor.
 
 ![](img/quick_start/07(1).jpg)
 
-Unscrew and connect the sensor cable, whose interface is defined as follows.
+3. Unscrew and connect the sensor cable, whose interface is defined as follows.
 
 ![](img/quick_start/08.png)
 
 ``` {Note} that the counterclockwise direction of each interface has the number corresponding to its pins.
-
 ```
 
 ## Connect the external power connector
-Unscrew the connector as shown below. 
+1. Unscrew the connector as shown below. 
 
 ![](img/quick_start/06(1).jpg)
 
-Put it on the cable of the DC power supply or solar panel.
+2. Put it on the cable of the DC power supply or solar panel.
 
 ![](img/quick_start/07(1).jpg)
 
-Unscrew and connect the sensor cable, whose interface is defined as follows. Choose according to your use case.
+3. Unscrew and connect the sensor cable, whose interface is defined as follows. Choose according to your use case.
 
 ![](img/quick_start/09.png)
 
-There is a pin number next to each interface.
+4. There is a pin number next to each interface.
 
 ``` {Tip} DC-IN 7~24V can power the device while charging the built-in battery; DC-IN 7~48V can accommodate some higher voltage scenarios, but it cannot charge the built-in battery.
-
 ```
 
 ## Power ON
-Unscrew the nuts on the flange seat and the screws on both sides of the cover in turn as shown in the figure.
+1. Unscrew the nuts on the flange seat and the screws on both sides of the cover in turn as shown in the figure.
 
 ![](img/quick_start/01.png)  
 
-Turn the switch to `ON`, and the green light flashes once, At this point, the device enters the working state.
+2. Turn the switch to `ON`, and the green light flashes once, At this point, the device enters the working state.
 
 ![](img/quick_start/02.png)  
 
@@ -59,7 +56,6 @@ Turn the switch to `ON`, and the green light flashes once, At this point, the de
 ![](img/quick_start/03.png)  
 
 ``` {Tip} The device will automatically restart after 10 minutes in configuration mode.
-
 ```
 
 2. Use your phone or computer to find a Wi-Fi hotspot named **HRI-3632-XXXX** and connect it.
@@ -104,7 +100,6 @@ The configuration parameters are defined as follows:
   - `RX2 Freq` Can be set when the Freq type is custom
 
 ``` {Tip} The uplink port is fixed as port 2.
-
 ```
 
 ### 485-Setting Parameters
@@ -121,8 +116,7 @@ The configuration parameters are defined as follows:
   - `Time BEFORE READ` How much time to power the terminal before it starts reading.
   - `ON/OFF` Turn on/off an RS-485 instruction.
 #### I/O Setting
-
-`Repeat`The R option sets the time (weeks) the GPIO command executes. 
+The `Repeat` option sets the time (weeks) the GPIO command executes. 
 
 ![](img/quick_start/10.png)
 
@@ -134,11 +128,7 @@ Press the button `RESET`, The green light flashes once, indicating that the devi
 
 ![](img/quick_start/12.png)
 
-Cover the device, and install the power supply and sensor connector.
-
-``` 
-
-```
+**Cover the device, and install the power supply and sensor connector.**
 
 ## Resources
 [Download Related Resources](https://resource.heltec.cn/download/Sensor%20Hub%20for%20industry)
