@@ -71,13 +71,4 @@ Here are the LoRa Gateways produced by Heltec Automation. You will be able to fi
    :maxdepth: 2
    :caption: General Docs
 
-   /general/index
-
-/*Content Show/Hide on Hover*/
-selector{
-   opacity: 0;
-   transition: 0.5s ease-in-out;
-}
-selector:hover{
-   opacity: 1;
-}
+   General Docs </general/index>
