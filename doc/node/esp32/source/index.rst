@@ -1,5 +1,5 @@
-ESP32 Series
-============
+Heltec ESP32 Series
+===================
 :ht_translation:`[简体中文]:[English]`
 
 This document branch is for `Heltec ESP32 Node series <https://heltec.org/proudct_center/lora/lora-node/>`_.
@@ -21,7 +21,8 @@ ESP32 is a powerfull SoC with 240MHz Tensilica LX6 dual-core & 1 ULP core, 600 D
 .. toctree::
    :maxdepth: 2
 
-    ESP32 Series General Docs<esp32_general_docs/index>
+    Heltec ESP32 Series Quick Start<quick_start>
+    LoRaWAN
     CapSule Sensor V3<capsule_sensor_v3/index>
     WiFi LoRa 32<wifi_lora_32/index>
     Wireless Tracker<wireless_tracker/index>
