@@ -18,17 +18,17 @@ If you had correctly installed Heltec ESP32 Arduino development framework, you c
 
 - **LoRaWAN Debug Level** – LoRaWAN relevant logs print by serial port.
   
-  > None -- Default.
+  > - None -- Default.
   
-  > Freq -- Sending/receiving frequency.
+  > - Freq -- Sending/receiving frequency.
   
   > - Freq && DIO -- Sending/receiving frequency, and DIO pin interrupt information.
-  >
-  > -  Freq && DIO && PW -- Sending/receiving frequency, DIO pin interrupt information, and low power status.
+  
+  > - Freq && DIO && PW -- Sending/receiving frequency, DIO pin interrupt information, and low power status.
   
 - **Slow Clk Type (only for LoRaWAN)** – The clock source of LoRaWAN timer.
-  - Internal (default) -- Use ESP32's internal RTC crystal oscillator.
-  - External 32K -- Use external 32.768 KHz crystal oscillator as the timer source, it's more friendly for low power features.
+  - `Internal (default)` -- Use ESP32's internal RTC crystal oscillator.
+  - `External 32K` -- Use external 32.768 KHz crystal oscillator as the timer source, it's more friendly for low power features.
 
 ## 2. Some Parameters on the Code
 
@@ -36,11 +36,13 @@ You may see some parameters on the application source code like this.
 
 ![](img/lorawan_parameters/02.png)
 
-- **LoRaWAN Net mode** – OTAA. 	
+- **LoRaWAN Net mode** – OTAA
   
-  - DevEUI -- A 64-bit globally unique device identifier in IEEE EUI64 address space that uniquely identifies the end-device.
-  - AppEUI -- A 64-bit globally unique application identifier in IEEE EUI64 address space that uniquely identifies the entity able to process the Join-req frame.
-  - AppKey -- Used in OTAA  to generate session keys.
+  > - `DevEUI` -- A 64-bit globally unique device identifier in IEEE EUI64 address space that uniquely identifies the end-device.
+  
+  > - `AppEUI` -- A 64-bit globally unique application identifier in IEEE EUI64 address space that uniquely identifies the entity able to process the Join-req frame.
+  
+  > - `AppKey` -- Used in OTAA  to generate session keys.
   
 - **LoRaWAN Net mode** – ABP.
   
