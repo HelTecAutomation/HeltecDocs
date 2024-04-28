@@ -16,8 +16,8 @@ development and application.
 
 **Meshtastick Quick Start**, please refer to this link: `Meshtastick Quick Start <https://docs.heltec.org/en/node/esp32/meshtastick.html>`_.
 
-``` {Note} The device uses the firmware of Wireless Stick Lite, it does not have a display function.
-```
+.. Note::
+   The device uses the firmware of Wireless Stick Lite, it does not have a display function.
 
 **Download related resources**, including schematics, pin diagrams, and data sheets: `https://resource.heltec.cn/download/Wireless_Stick <https://resource.heltec.cn/download/Wireless_Stick_Lite_V3>`_.
 
