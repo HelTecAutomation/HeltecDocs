@@ -13,13 +13,19 @@ Wireless Stick Lite (V3) is a part of the “Heltec LoRa“ series, with the fol
 - We provide ESP32 + LoRaWAN protocol Arduino® library, this is a standard LoRaWAN protocol that can communicate with any LoRa gateway running the LoRaWAN protocol. In order to make this code running, a unique license is needed. it can be found on this page;
 - With good RF circuit design and low-powe
 
+**Wireless Stick Lite Quick Start(development framework and special libraries)**, please refer to `Heltec ESP32 series Quick Start <https://docs.heltec.org/en/node/esp32/quick_start.html>`_.
+
+**LoRaWAN example** please refer to: `Heltec ESP32 series LoRaWAN example <https://docs.heltec.org/en/node/esp32/lorawan/index.html>`_.
+
+**Meshtastick Quick Start**, please refer to this link: `Meshtastick Quick Start <https://docs.heltec.org/en/node/esp32/meshtastick.html>`_.
+
+**Download related resources**, including schematics, pin diagrams, and data sheets: `https://resource.heltec.cn/download/Wireless_Stick_Lite_V3 <https://resource.heltec.cn/download/Wireless_Stick_Lite_V3>`_.
+
 .. toctree::
    :maxdepth: 2
     
-    Quick Start<https://docs.heltec.org/en/node/esp32/esp32_general_docs/quick_start.html>
     Example Manual<example>
-    LoRaWAN<https://docs.heltec.org/en/node/esp32/esp32_general_docs/lorawan/index.html>
-    ESP32 General Docs<https://docs.heltec.org/en/node/esp32/esp32_general_docs/index>
-    Frequently Asked Questions<https://docs.heltec.org/en/node/esp32/esp32_general_docs/frequently_asked_questions.html>
+    Frequently Asked Questions<frequently_asked_questions>
+    Hardware Update Log<hardware_update_log>
     -->[Heltec General Docs]<-- <https://docs.heltec.org/general/index.html>
     
