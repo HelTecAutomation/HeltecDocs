@@ -15,15 +15,17 @@ Main Features:
    - Support Heltec Wireless Boot system, download firmware, exchange information, and print logs through Wi-Fi.
    - Meshtastic project compatible.
    - Secondary development can be done through Arduino, Platform.io, etc.
- 
+
 Related resources:
-   - ** Meshtastic Firmware ** Download link: `https://resource.heltec.cn/download/Meshtastic <https://resource.heltec.cn/download/Meshtastic>`_.
-   - ** Development framework ** : `Heltec Esp32 Quick Start <https://docs.heltec.org/en/node/esp32/quick_start.html>`_.
+   - **Meshtastic Firmware** Download link: `https://resource.heltec.cn/download/Meshtastic <https://resource.heltec.cn/download/Meshtastic>`_.
+   - **Meshtastic Introduction**: `https://docs.heltec.org/en/node/esp32/meshtastick.html <https://docs.heltec.org/en/node/esp32/meshtastick.html>`_.
+   - **Development framework** : `Heltec Esp32 Quick Start <https://docs.heltec.org/en/node/esp32/quick_start.html>`_.
+   - **Schematic** :
 
 .. toctree::
    :maxdepth: 2
    
     Quick Start(Secondary Development) <quick_start>
-    Heltec ESP32 Development Framework <https://docs.heltec.org/en/node/esp32/esp32_general_docs/quick_start.html>
+    Heltec ESP32 Development Framework <https://docs.heltec.org/en/node/esp32/quick_start.html>
     LoRaWAN <https://docs.heltec.org/en/node/esp32/lorawan/index.html>
 

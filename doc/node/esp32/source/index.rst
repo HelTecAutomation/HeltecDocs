@@ -17,7 +17,6 @@ ESP32 is a powerfull SoC with 240MHz Tensilica LX6 dual-core & 1 ULP core, 600 D
 
    ESP32's BlueTooth and Wi-Fi antenna use a same pin, so BlueTooth and Wi-Fi can't work at the same time.
 
-
 .. toctree::
    :maxdepth: 2
 

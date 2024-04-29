@@ -9,11 +9,11 @@ days after power outage.
 .. toctree::
    :maxdepth: 2
    
-    Quick Start <https://docs.heltec.org/en/node/esp32/esp32_general_docs/quick_start.html>
+    Quick Start<https://docs.heltec.org/en/node/esp32/quick_start.html>
     Via Program Refresh<via_program_refresh>
     Via Web Refresh<via_web_refresh>
     Wireless Refresh<wireless_refresh>
-    ESP32 General Docs<https://docs.heltec.org/en/node/esp32/esp32_general_docs/index>
-    Frequently Asked Questions<https://docs.heltec.org/en/node/esp32/esp32_general_docs/frequently_asked_questions.html>
+    Hardware Update Log<hardware_update_log>
+    Frequently Asked Questions<frequently_asked_questions>
     -->[Heltec General Docs]<-- <https://docs.heltec.org/general/index.html>
     
