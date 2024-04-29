@@ -13,13 +13,15 @@ Main Features:
    - Built in LoRa and Wi-Fi/BLE antennas, stylish appearance, compact and light.
    - High strength plastic, IP65 waterproof.
    - Support Heltec Wireless Boot system, download firmware, exchange information, and print logs through Wi-Fi.
-   - Meshtastic project compatible.
+   - Meshtastic project compatible, firmware Download link: `https://resource.heltec.cn/download/Meshtastic <https://resource.heltec.cn/download/Meshtastic>`_.
    - Secondary development can be done through Arduino, Platform.io, etc.
  
+ Firmware Download link: `https://resource.heltec.cn/download/Meshtastic <https://resource.heltec.cn/download/Meshtastic>`_.
+
 .. toctree::
    :maxdepth: 2
    
-    Quick Start <quick_start>
-    Heltec ESP32 development environment <https://docs.heltec.org/en/node/esp32/esp32_general_docs/quick_start.html>
-    LoRaWAN <https://docs.heltec.org/en/node/esp32/esp32_general_docs/lorawan/index.html>
+    Quick Start(Secondary Development) <quick_start>
+    Heltec ESP32 Development Framework <https://docs.heltec.org/en/node/esp32/esp32_general_docs/quick_start.html>
+    LoRaWAN <https://docs.heltec.org/en/node/esp32/lorawan/index.html>
 

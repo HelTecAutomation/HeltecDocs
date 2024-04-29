@@ -2,10 +2,13 @@
 
 {ht_translation}`[简体中文]:[English]`
 
-CapSule Sensor V3 uses Wireless Boot to download firmware, exchange information, and print logs through WiFi. 
+CapSule Sensor V3 uses **WirelessBoot mode** to download firmware, exchange information, and print logs through WiFi. 
 
-## Enter downloading mode
-1. Long press the indicator light of the device for 16 seconds until the Blue light of the device is always on.
+## Enter downloading mode(WirelessBoot)
+1. Long press the indicator light of the device for 8 seconds until the Blue light of the device is always on.
+
+``` {Note} Some early devices may require a regular press of 16 seconds.
+```
 
 ![](img/01.png)
 
@@ -17,27 +20,31 @@ CapSule Sensor V3 uses Wireless Boot to download firmware, exchange information,
 
 ![](img/10.png)
 
-```{Tip} Although you can connect directly to the Capsule's AP hotspot for uploading, this approach is simpler, but may lack stability. Connecting the PC and the capsule to the same LAN is the more stable mode of operation.
-
+``` {Tip} Although you can connect directly to the Capsule's AP hotspot for uploading, this approach is simpler, but may lack stability. Connecting the PC and the capsule to the same LAN is the more stable mode of operation.
 ```
 
-4. Enter the WiFi account and password, click `Save Configuration`.
+4. Type the WiFi account and password, click `Save Configuration`.
 
 ![](img/04.png)
 
-5. Connect your computer to the LAN where the Capsule V3 is located.
+5. Connect your computer to the LAN which the Capsule V3 is located.
 
-## Upload Firmware (Secondary Development)
+------
 
+## Upload Firmware
 - [Via Arduino](via-arduino-capsule)
 - [Via Local File](via-local-file-capsule)
 
 (via-arduino-capsule)=
 ### Via Arduino
-[Arduino](https://www.arduino.cc/) is the one we recommend, and Heltec provides a dedicated development environment, which you can install by following this link: [Heltec ESP32 DEV-Environment](https://docs.heltec.org/en/node/esp32/esp32_general_docs/quick_start.html).
+[Arduino](https://www.arduino.cc/) is the one we recommend. 
+
+Before you start, make sure your device is in WirelessBoot mode and has the Heltec ESP32 development framework and libraries installed: [Heltec Esp32 development framework and library](https://docs.heltec.org/en/node/esp32/quick_start.html)
+
+``` {Tip} The library also supports the ESP32 official development framework.
+```
 
 ``` {Tip} Make sure the node is in wireless boot mode and that the computer and the node are connected to the same local area network.
-
 ```
 
 1. Open the Arduino and click the `Tools` option. In the `Port` option, find **esp32s3_xxxx** and select it. 
@@ -45,27 +52,35 @@ CapSule Sensor V3 uses Wireless Boot to download firmware, exchange information,
 ![](img/05.jpg)
 
 ```{Tip} If you can't find such an port, restart the Arduino and check whether your device is connected to the same LAN as the computer.
-
 ```
 
-3. `Board` select **Heltec Cupsule Sensor V3**; `LoRa Region` select the frequency band corresponding to the device.
+2. `Board` select **Heltec Cupsule Sensor V3**.
 
-   ![](img/06.png)
+![](img/06.png)
 
-4. Select the sample code and upload it.
+``` {Tip} Some special code here will also have other options to select, such as the LoRaWAN example in this example, you need to set the LoRa Region to the corresponding frequency.
+```
+
+3. Select the sample code.
 
 ![](img/07.png)
 
-### Via Local File
-``` {Tip} Make sure the node is in wireless boot mode and that the computer and the node are connected to the same local area network.
+4. Write the code and click `Upload` to upload the code.
 
+![](img/14.png)
+
+------
+
+### Via Local File
+
+``` {Tip} Make sure the node is in wireless boot mode and that the computer and the node are connected to the same local area network.
 ```
 
-1. Type the router address in the browser, find the IP of the Capsule Sensor V3.
+1. After your device enters WirelessBoot mode, visit the router address in the browser, find the IP of the Capsule Sensor V3.
 
 ![](img/09.png)
 
-2. Enter the Capsule-V3 IP in your browser to navigate to the WirelessBoot page.
+2. Visit the Capsule-V3 IP in your browser to navigate to the WirelessBoot page.
 
 ![](img/10.png)
 
@@ -82,10 +97,8 @@ CapSule Sensor V3 uses Wireless Boot to download firmware, exchange information,
 ![](img/13.png)
 
 ``` {Tip} Notice the progress bar at the top left, please upload one firmware before uploading another.
-
 ```
+
 ``` {Tip} Note the size of the capacity of each partition, do not allow the uploaded firmware size to exceed the capacity of the partition.
-
 ```
-
 
