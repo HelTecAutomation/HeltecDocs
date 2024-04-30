@@ -20,6 +20,12 @@ Enter**192.168.4.1**in your browser to navigate to the configuration page of HRU
 
 In the configuration page, you can modify the relevant parameters of LoRa. Once the configuration is complete, click Submit. The blue light goes off, press the `RST` button to start sending.
 
+``` {Note} Pressing the RST key is a mandatory step.
+```
+
+``` {Note} The configuration mode causes the device temperature to rise. In this case, the test temperature is usually too high. Please wait patiently for the device to return to the normal temperature, which usually takes about 1 hour.
+```
+
 ## Common problems and solutions
 + The browser will not connect
 

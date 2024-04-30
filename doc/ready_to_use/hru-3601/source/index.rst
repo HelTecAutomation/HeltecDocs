@@ -4,10 +4,10 @@ HRU-3601
 
 HRU-3601 is a low cost indoor environment monitor, the recorded data is uploaded to the cloud server wirelessly, thus realize the remote monitoring of the environment.
 
-HRU-3601 employs LoRaWAN communication, and utilizes Web for easy configuration via WiFi. The parameters that can monitor include: TVOC, eCO2, temperature and humidity. It has powerful function, light appearance, easy installation, suitable for home life, industrial production and other indoor occasions.
+.. {Note}::
+    The configuration mode causes the device temperature to rise. In this case, the test temperature is usually too high. Please wait patiently for the device to return to the normal temperature, which usually takes about 1 hour.
 
 **HRU-360X have following main features:**
-
 +   MCU:ESP32C3
 +   LoRa:SX1262;
 +   Protocol: LoRaWAN;
