@@ -1,11 +1,11 @@
-# Meshtastick
+# Meshtastic
 {ht_translation}`[简体中文]:[English]`
 
-**Meshtastic®** is a project that enables you to use inexpensive LoRa radios as a long range off-grid communication platform in areas without existing or reliable communications infrastructure. This project is 100% community driven and open source! For a more detailed description of Meshtastick please refer to their website and forum: [https://meshtastic.org/](https://meshtastic.org/).
+**Meshtastic®** is a project that enables you to use inexpensive LoRa radios as a long range off-grid communication platform in areas without existing or reliable communications infrastructure. This project is 100% community driven and open source! For a more detailed description of Meshtastic please refer to their website and forum: [https://meshtastic.org/](https://meshtastic.org/).
 
-This topic describes how to get started with Meshtastick. 
+This topic describes how to get started with Meshtastic. 
 
-Currently, Heltec recommends the following devices for Meshtastick:
+Currently, Heltec recommends the following devices for Meshtastic:
 
 | Product | Pic | Description |
 |-|:-|:-:|
@@ -18,6 +18,7 @@ Currently, Heltec recommends the following devices for Meshtastick:
 | [Wireless Mini Shell(HT-CT62)](https://heltec.org/project/ht-ct62/) |N/A| Cost-effective LoRa+ESP32-C3 module |
 
 *This topic uses WiFi LoRa 32 V3 as an example.*
+
 ## Install ESP32 USB to Serial Drivers
 Use a USB cable to connect your computer to your device. Open your `Device Manager`, `Port`, if your computer doesn't recognize the device, You may need to install a driver from Silicon Labs for the CP210X USB to UART bridge: [CP210X USB to UART bridge - Download](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=overview)
 
@@ -58,11 +59,11 @@ Use a USB cable to connect your computer to your device. Open your `Device Manag
 
 ```
 
-8. Wait for the firmware to flash, and your device screen will display Meshtastik.
+8. Wait for the firmware to flash, and your device screen will display Meshtastic.
 
 ![](img/meshtastick/07.jpg)
 
-## Install the Meshtastick App
+## Install the Meshtastic App
 - [Android APP](https://meshtastic.org/docs/software/android/installation/)
 - [Web Client](https://client.meshtastic.org/)
 - [iOS/iPadOS/macOS App](https://meshtastic.org/docs/software/apple/installation/)
@@ -95,7 +96,7 @@ In order to start communicating over the mesh, you must set your region. This se
 
 ![](img/meshtastick/12.jpg)
 
-## Get started with Meshtastick
+## Get started with Meshtastic
 1. The map option will be able to view the location information of the companion, which can be provided by the GPS module on the device, or by the phone to which the device is connected.
 
 ![](img/meshtastick/13.jpg)
@@ -112,5 +113,4 @@ In order to start communicating over the mesh, you must set your region. This se
 Click the top right button to see more configurable options.
 
 ![](img/meshtastick/16.jpg)
-
 

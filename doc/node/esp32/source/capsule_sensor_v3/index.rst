@@ -23,4 +23,3 @@ Main Features:
    WirelessBoot(Upload Firmware) <wireless_boot>
    Secondary Development Via Arduino <secondary_development_via_arduino>
    Related Resources <related_resources>
-   
