@@ -20,7 +20,7 @@ Main Features:
    :maxdepth: 2
    
    Meshtastic Quick Start <meshtastic>
-   WirelessBoot(Upload Firmware) <Wireless_boot>
+   WirelessBoot(Upload Firmware) <wireless_boot>
    Secondary Development Via Arduino <secondary_development_via_arduino>
    Related Resources <related_resources>
    
