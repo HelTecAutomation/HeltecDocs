@@ -18,8 +18,10 @@ Main Features:
    
 .. toctree::
    :maxdepth: 2
-   
-   Meshtastic Quick Start <meshtastic>
+
    WirelessBoot(Upload Firmware) <wireless_boot>
-   Secondary Development Via Arduino <secondary_development_via_arduino>
+   Meshtastic Quick Start <meshtastic>
+   Re-Development Via Arduino <secondary_development_via_arduino>
+   LoRaWAN Demo <https://docs.heltec.org/en/node/esp32/lorawan/index.html>
+   Frequently Asked Questions<frequently_asked_questions>
    Related Resources <related_resources>

@@ -30,15 +30,15 @@ After login the LoRaWAN server, the next thing to do is register your gateway an
    :caption: Gateway
    
    HT-M2802 Indoor LoRa Gateway <https://docs.heltec.cn/en/gateway/ht-m2802/index.html>
-   HT-M00S Single Channel LoRa Gateway <https://docs.heltec.cn/en/gateway/ht-m00s/index.html>
-   HT-M00 Dual Channel LoRa Gateway <https://docs.heltec.cn/en/gateway/ht-m00/index.html>
-   HT-M01 Evaluation LoRa Gateway <https://docs.heltec.org/en/gateway/ht-m01/index.html>
-   HT-M01S Indoor LoRa Gateway <https://docs.heltec.org/en/gateway/ht-m01s/index.html>
    HT-M01S-V2 Indoor LoRa Gateway <https://docs.heltec.org/en/gateway/ht-m01s_v2/index.html>
    HT-M7603 Indoor LoRa Gateway <https://docs.heltec.org/en/gateway/ht-m7603/index.html>
-   HT-M02 Edge LoRa Gateway <https://docs.heltec.org/en/gateway/ht-m02/index.html>
    HT-M02_V2 Edge LoRa Gateway <https://docs.heltec.org/en/gateway/ht-m02_v2/index.html>
    HT-1303 LoRaWAN Concentrator Module <https://docs.heltec.org/en/gateway/ht-1303/index.html>
+   HT-M00S Single Channel LoRa Gateway <https://docs.heltec.cn/en/gateway/ht-m00s/index.html>
+   HT-M00 Dual Channel LoRa Gateway <https://docs.heltec.cn/en/gateway/ht-m00/index.html>
+   HT-M01 Evaluation LoRa Gateway (Phaseout) <https://docs.heltec.org/en/gateway/ht-m01/index.html>
+   HT-M01S Indoor LoRa Gateway (Phaseout) <https://docs.heltec.org/en/gateway/ht-m01s/index.html>
+   HT-M02 Edge LoRa Gateway (Phaseout) <https://docs.heltec.org/en/gateway/ht-m02/index.html>
    SX1301 Module (Phaseout) <https://docs.heltec.org/en/gateway/sx1301module/index.html>
 
 Here are the LoRa Gateways produced by Heltec Automation. You will be able to find the quict start and how to register on LoRa NS.

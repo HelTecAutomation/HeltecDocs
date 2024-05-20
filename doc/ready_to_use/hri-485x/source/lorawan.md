@@ -48,6 +48,9 @@ Each RS-485 instruction supports up to 32bytes, and if multiple 485 instructions
 **After the configuration is completed, click submit, press the RST when the white LED is always on, and the device enters the working state.**
 
 ## Connect to LoRa Servers
+
+**The default downlink port is 2.**
+
 ### Connect to TTN/TTS
 **Before that, make sure there is a LoRa Gateway active in your [TTN](https://console.thethingsnetwork.org/)/[TTS](https://lora.heltec.org/console) account.**
 
@@ -89,9 +92,13 @@ Each RS-485 instruction supports up to 32bytes, and if multiple 485 instructions
 
 ![](img/17.png)
 
-After registration is complete, if all is well, you will see the device active.
+7. After registration is complete, if all is well, you will see the device active.
 
 ![](img/lorawan/05.jpg)
+
+8. Give instructions. Click the `Messaging` option, select `Fport 2`, `Bytes`, and enter the downlink command.
+
+   ![](img/lorawan/downlink.png)
 
 ### Connect to ChirpStack
 1. Register a new device in ChirpStack’s “Applications” page. Enter the device name, description, DevEUI. Select Device-profile.

@@ -1,4 +1,4 @@
-# Secondary development via Arduino
+# Re-Development via Arduino
 
 {ht_translation}`[简体中文]:[English]`
 

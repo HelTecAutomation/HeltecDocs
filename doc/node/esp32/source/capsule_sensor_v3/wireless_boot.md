@@ -42,7 +42,12 @@ This topic describes how to enter WirelessBoot mode,and how to upload firmware i
 ``` {Tip} Note the size of the capacity of each partition, do not allow the uploaded firmware size to exceed the capacity of the partition.
 ```
 
+4.  	After the upload is complete, click `Run`,  then `Restart`.
+
+   ![](img/18.png)
+
 ## More stable uploads
+
 Although you can connect directly to the Capsule's AP hotspot for uploading, this approach is simpler, but may lack stability. Connecting the PC and the capsule to the same LAN is the more stable mode of operation.
 
 1. In WirelessBoot mode, type the WiFi account and password, click `Save Configuration`.
