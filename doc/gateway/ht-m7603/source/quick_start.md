@@ -2,43 +2,33 @@
 
 {ht_translation}`[简体中文]:[English]`
 
-## Summary
+This topic describes how to configure HT-M7603 quickly.
 
-HT-M7603 is positioned as a low-cost standard gateway for indoor use. LoRa part based on the SX1303 + 1250 structure,  we innovatively use ESP32 as the main control chip, and completely transplant the hardware driver, data forwarding and message queue of SX1303 to the ESP32 platform. There is no need to run the Linux operating system separately. With simple configuration, it allows you to bridge  to IP networks and different network servers via Wi-Fi or Ethernet. 
+## Enter configuration page
+1. Power on, find the WiFi named "HT_M7603_xxxx", connect to this WiFi, the password is "**heltec.org**". 
 
-&nbsp;
+   ![](img/quick_start/01.png) ![](img/quick_start/10.png) 
 
-## Configure the gateway
+2. Visit "**192.168.8.1**" via the browser, the user name "HT-M7603" and password "heltec.org".
 
+   ![](img/quick_start/11.png)
 
-The HT-M7603 gateway has already downloaded the relevant program when it leaves the factory, and it can be used with only a few simple operations.
-
-![](img/quick_start/01.png) ![](img/quick_start/11.png)
-
-
-
-After the gateway is powered on, find the WiFi named "HT_M7603_xxxx", password "heltec.org". connect to this WiFi, and enter "192.168.8.1" through the browser, and log in to the gateway configuration page with the user name "HT-M7603" and password "heltec.org".
-
-
-### First Configuration via WiFi
-
+## Main Settings
 ![](img/quick_start/02.png)
 
+ - **Switch Region**: Choose the frequency bands and channels you need.
+ - **Gateway Mode**: Gateway protocol mode, the default is LoRaWAN; To use MQTT, refer to this link-[MQTT Enble](https://docs.heltec.org/en/gateway/ht-m7603/mqtt.html)
+ - **Server address and port**.
 
-
-Configure the HT-M7603 gateway information on the page shown in the figure above, such as gateway mode, server address and port, regional frequency band. Click "Set Gateway" after the configuration is complete.
-
-``` {Tip} HT-M7603 default mode is LoRaWAN, if you want to use MQTT, please select Custom MQTT in Gateway Mode. you need to configure the information as shown in the red box below. Once selected, click node example.ino to get the sample code of the data format.
-```
-
-![](img/quick_start/12.jpg)
+Click `Set Gateway` when the configuration is complete.
 
 ### Connect to Network
+You can connect via Ethernet or WiFi:
 
-![](img/quick_start/03.jpg)
++ **Via Ethernet**: insert the cable directly into the interface, after a successful connection, the device LED will change from blue to green.
++ **Via WiFi**: Click the "Status "option at the top left, click "WiFi". Select the WiFi you want to connect to in "WIFI list", enter password of this WiFi, click "connect". It usually takes 10-30 seconds for the HT-M7603 to connect to the WiFi, and the device LED.
 
-+ **Using Ethernet**: insert the cable directly into the interface, after a successful connection, the device LED will change from blue to green.
-+ **Using WiFi**: Click the "Status "option at the top left, click "WiFi". Select the WiFi you want to connect to in "WIFI list", enter password of this WiFi, click "connect". It usually takes 10-30 seconds for the HT-M7603 to connect to the WiFi, and the device LED will change from blue to green.
+ ![](img/quick_start/03.jpg)
 
 &nbsp;
 
