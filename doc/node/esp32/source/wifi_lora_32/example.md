@@ -8,7 +8,7 @@
 
    The Heltec ESP32 development Framework already contains the basic code.
 
-2. Install Heltec ESP32 development board library. If you don't have it installed, please refer[ESP32 series QuickStart](https://docs.heltec.org/en/node/esp32/esp32_general_docs/quick_start.html#).
+2. Install Heltec ESP32 library. If you don't have it installed, please refer[ESP32 series QuickStart](https://docs.heltec.org/en/node/esp32/esp32_general_docs/quick_start.html#).
 
    The library contains the lora code, factory test code, and some corresponding extensions.
 

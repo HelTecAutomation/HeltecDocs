@@ -5,18 +5,20 @@
 ## Preparation
 
 1. **Install the Heltec ESP32 development framework and library**，If you don't know how to install, you can refer to this link：[Heltec ESP32 Series Quickstart](https://docs.heltec.org/en/node/esp32/esp32_general_docs/quick_start.html#)
-2. **A LoRaWAN gateway** in normal operation on the LoRaWAN server.
+2. **A LoRaWAN Gateway** in normal operation on the LoRaWAN server.
 
 ## Uploading code
 
-1. Connect Wireless Bridge to your computer with a USB cable and open the Arduino ID.
-2. 
+1. Connect Wireless Bridge to your computer with a USB cable and open the Arduino IDE.
+2. Click `Tools`,  select `Wireless Bridge` . To `Region` option based on your needs, both hardware support and the ability to communicate with the gateway.
+3. Follow the path shown to open the example "LoRaWANWiFi"
 
-Before starting the test, make sure that Wireless_Bridge can communicate with the gateway normally.
-
-- Configure WiFi information in the program.
+4. Main Options Configuration
+   - LoRaWAN Parameter，
 
 ![](img/wifi_lora_user_manual/01.png)
+
+
 
 - After uploading the program to the development board, open the serial port to view the IP address of the web page. Among them, "View page IP address" is the viewing webpage for forwarding LoRa information to WiFi, and "Write page IP address" is the sending webpage for forwarding WiFi information to LoRa. The device that opens the webpage must be in the same local area network as the Wireless_Bridge.
 

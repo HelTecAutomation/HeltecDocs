@@ -4,15 +4,13 @@
 
 ## Precondition
 
-1. Install Heltec ESP32 development framework. If you don't have it installed, please refer[ESP32 series QuickStart](https://docs.heltec.org/en/node/esp32/esp32_general_docs/quick_start.html#).
+1. Install Heltec ESP32 development framework and library. If you don't have it installed, please refer[ESP32 series QuickStart](https://docs.heltec.org/en/node/esp32/esp32_general_docs/quick_start.html#).
 
    The Heltec ESP32 development Framework already contains the basic code.
 
-2. Install Heltec ESP32 development board library. If you don't have it installed, please refer[ESP32 series QuickStart](https://docs.heltec.org/en/node/esp32/esp32_general_docs/quick_start.html#).
+   The library contains the LoRa related code, factory test code, and some corresponding extensions.
 
-   The library contains the lora code, factory test code, and some corresponding extensions.
-
-## Example
+## Factory test program
 
 1. Open `Arduino IDE` , click `tool`, selmodel, port, RF parameters, etc. As shown below
 
@@ -24,6 +22,20 @@
 
 3. Enter your WIFI account and password in the red box below.
 
-![](img/04.png)
+![](img/04.jpg)
 
 This is a test program, can test that your board is functioning correctly.
+
+## GPS display on TFT
+
+1. Open `Arduino IDE` , click `tool`, selmodel, port, RF parameters, etc. As shown below
+
+![](img/02.png)
+
+2. Follow the path below to find the program and upload it.
+
+![](img/05.jpg)
+
+3. This is an example of displaying GPS on a TFT frequency screen. After successful uploading of the code, the GPS address is generally obtained within 1 minute under good outdoor weather.
+
+   ![](img/06.jpg)
