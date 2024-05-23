@@ -5,8 +5,6 @@ This topic describes how to modify the configuration of HRU-1000.
 
 - [Via Other Bluetooth debugger](via_other_bluetooth_debugger)
 
-  
-
 (via_snapemu)=
 
 ## Register a device in Snapemu for the first time
