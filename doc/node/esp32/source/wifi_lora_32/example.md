@@ -12,18 +12,19 @@
 
    The library contains the lora code, factory test code, and some corresponding extensions.
 
-## Example
+## Factory test demo
 
-1. Open `Arduino IDE` , click `tool`, selmodel, port, RF parameters, etc. As shown below
+1. Open `Arduino IDE` , click `tool`, select `Board`, `port` parameters, etc. As shown below
 
 ![](img/02.png)
 
 2. Follow the path below to find the program and upload it.
 
-![](img/03.png)
+![](img/03.jpg)
 
 3. Enter your WIFI account and password in the red box below.
 
-![](img/04.png)
+![](img/04.jpg)
 
 This is a test program, can test that your board is functioning correctly.
+

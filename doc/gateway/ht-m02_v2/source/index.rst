@@ -20,7 +20,7 @@ The HT-M02 Rev. 2.0 has the following features:
 + No fan or motor heat dissipation structure,
 + Multi version can be selected according to your needs.
 
-optional functions of HT-M02 Rev. 2.0
+Optional functions of HT-M02 Rev. 2.0
 -------------------------------------
 Users can choose add one or more of the following functions while place an order:
 
