@@ -20,7 +20,6 @@ Wi-Fi, BLE, LoRa functions, also Li-Po battery management system, 0.96" OLEDarea
 - Datasheet 
    - `V2 <https://resource.heltec.cn/download/WiFi_LoRa_32/WiFi%20Lora32.pdf>`_.
    - `V3 <https://resource.heltec.cn/download/WiFi_Kit_32_V3/HTIT-WiFi%20kit32_V3(Rev1.1).pdf>`_.
-- `GNSS Module Manual <https://resource.heltec.cn/download/Wireless_Tracker/UFirebird_Standard%20Positioning%20Products%20Protocol%20Specification_EN_R4.6(1).pdf>`_.
 
 **Download related resources**, including schematics, pin diagrams, and data sheets: `https://resource.heltec.cn/download/WiFi_LoRa_32_V3 <https://resource.heltec.cn/download/WiFi_LoRa_32_V3>`_.
 

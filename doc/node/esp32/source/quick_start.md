@@ -1,14 +1,19 @@
-# Heltec ESP32+LoRa Series Quick Start
+# Heltec ESP32 Series Quick Start
 {ht_translation}`[简体中文]:[English]`
+
+This article describes the installation of the Heltec ESP32 series development framework and library.
 
 **LoRaWAN related code has been stripped since version 3.0.0. Heltec ESP32 framework only contains the basic code now, For the special ESP32 codes please download [Heltec ESP32 Series Library](https://github.com/HelTecAutomation/Heltec_ESP32).**
 
 **Framework v3.0.0 and Library v2.0.0 are updated together, Older frameworks and libraries are no longer applicable to the new ones.**
 
+------
+
 ## Preparation
 1. **USB driver**, you can refer to this articles [establish serial connection](https://docs.heltec.org/general/establish_serial_connection.html).
-
 2. [Install Git and Arduino IDE](https://docs.heltec.org/general/how_to_install_git_and_arduino.html).
+
+------
 
 ## Installing development framework and 
 **There are three methods to install the development framework, choose one of they:**
@@ -37,7 +42,10 @@
 
 ![](img/quick_start/lib.png)
 
+------
+
 (esp32-via-git)=
+
 ### Via Git
 1. Installing Git.
 
@@ -55,7 +63,10 @@
 
 3. The above is the development environment installation. If you need to install the Heltec ESP32 extension library, you can refer to this link:[Heltec ESP32 Series Library](https://github.com/HelTecAutomation/Heltec_ESP32)
 
+------
+
 (esp32-via-local-file)=
+
 ### Via Local File
 1. Download the development environment. [https://resource.heltec.cn/download/tools/esp32.zip](https://resource.heltec.cn/download/tools/esp32.zip)
 
@@ -89,9 +100,14 @@
 
 
 
-9. For the Heltec ESP32 specific code, just download the zip file and unzip it to the following path: **Username/Documents/Arduino/Libraries**.
+9. For special code library, search for "HELTEC ESP32" in `Library Manager`, select the latest version and install:[ESP32 Series Library](https://github.com/HelTecAutomation/Heltec_ESP32). 
+
+   ![](img/quick_start/lib.png)
+
+------
 
 ## Example
+
 This section for verifying whether you can program with Arduino or not. Now, The USB cable connects to Heltec ESP32 board, then select your serial port which is connected to Heltec ESP32 board.
 
 Select a demo example, compile and upload.
@@ -112,6 +128,8 @@ Then select an example.
 Compile & Upload
 
 ![](img/quick_start/10.png)
+
+------
 
 ### New a Heltec ESP32 program
 Open Arduino IDE, create a new  `.ino` file, then copy the below code.
