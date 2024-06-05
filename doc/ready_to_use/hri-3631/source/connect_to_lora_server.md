@@ -67,9 +67,9 @@ After registration is complete, if all is well, you will see the device active.
 
 ## Connnect to SnapEmu (Manual registration)
 
-*This section describes how to manually register nodes on SnapEmu. If you need to register by scanning the QR code of your device, please refer to this link: .*
+*This section describes how to manually register nodes on SnapEmu. If you need to register by scanning the QR code of your device, please refer to this link: https://docs.heltec.org/en/ready_to_use/hri-3631/connect_to_snapemu.html .*
 
-Enter configuration mode to get device-related registration information, please refer to: [HRI-3631 Configuration]().
+Enter configuration mode to get device-related registration information, please refer to: [HRI-3631 Configuration](https://docs.heltec.org/en/ready_to_use/hri-3631/quick_start.html#).
 
 Log into your account on **platform.snapemu.com**, click `device`, `CREATE A NEW DEVICE`.
 

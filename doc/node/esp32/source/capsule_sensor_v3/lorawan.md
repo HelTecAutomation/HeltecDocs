@@ -4,9 +4,9 @@
 
 This topic describes how to quickly get started with the sensor version of Capsule Sensor V3 and upload it to the server via LoRaWAN.
 
-If you accidentally erase the code, please refer to the WirelessBoot theme to refresh the firmware.
+If you accidentally erase the code, please refer to the WirelessBoot theme： [How to refresh the firmware](https://docs.heltec.org/en/node/esp32/capsule_sensor_v3/wireless_boot.html).
 
-[Capsule Sensor V3 LoRaWAN Firmware Download.]()
+[Capsule Sensor V3 LoRaWAN Firmware Download.](https://resource.heltec.cn/download/Heltec%20Capsule%20Sensor%20V3/lorawan.bin)
 
 ## Power On
 
@@ -58,6 +58,10 @@ We highly recommend the following three gateways:
 
 [HT-M02](https://heltec.org/project/ht-m02-v2/)  [HT-M01S](https://heltec.org/project/ht-m01s-v2/)  [HT-M7603](https://heltec.org/project/ht-m7603/)
 
+### Manual registration
+
+When you are done in the configuration page, you can register the node with TTN/TTS, Chirpstack, SnapEmu, and other LoRaWAN servers by following this link: [Connect “ESP32 + LoRa” to LoRaWAN Server ](https://docs.heltec.org/en/node/esp32/lorawan/connect_to_gateway.html)
+
 ### One-click scan registration
 
 1. Search the **App Store** for `SnapEmu`, download and install it.
@@ -82,9 +86,7 @@ We highly recommend the following three gateways:
 
 ![](img/lorawan/deviceAC.jpg)
 
-### Manual registration
 
-For manual registration, please refer to this link: [Connect to LoRaWAN Server](https://docs.heltec.org/en/node/esp32/lorawan/connect_to_gateway.html#).
 
 
 

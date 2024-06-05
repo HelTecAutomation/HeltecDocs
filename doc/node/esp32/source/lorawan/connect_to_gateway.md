@@ -10,6 +10,8 @@
 
 3. A Gateway that matches the **LoRaWAN region** of the node, and already is connected to the lora server. If you are using Heltec Gateway, you can find out how to connect to the server in the [Heltec Gateway documentation](https://docs.heltec.org/)
 
+------
+
 ## Connect to LoRaWAN Server
 
 Before that, make sure there is a LoRa Gateway active in your server.
@@ -17,6 +19,8 @@ Before that, make sure there is a LoRa Gateway active in your server.
 - [Connect to TTN/TTS](connect-to-ttn)
 - [Connect to ChirpStack](connect-to-chirpstack)
 - [Connect to SnapEmu](connect-to-snapemu)
+
+------
 
 (connect-to-ttn)=
 ### Connect to TTN/TTS
@@ -75,6 +79,8 @@ After registration is complete, if all is well, you will see the device active.
 
 ![](img/connect_to_gateway/18.png)
 
+------
+
 (connect-to-chirpstack)=
 ### Connect to ChirpStack
 Register a new device in ChirpStack’s “Applications” page. Enter the device name, description, DevEUI. Select Device-profile.
@@ -88,6 +94,28 @@ Enter the Application key of the device.
 After registration is complete, if all is well, you will see the device active.
 
 ![](img/connect_to_gateway/22.png)
+
+------
+
+(connect-to-snapemu)=
+
+### Manual registration on snapemu
+
+Enter configuration mode to get device-related registration information.
+
+Log into your account on ***\*platform.snapemu.com\****, click `device`, `CREATE A NEW DEVICE`.
+
+ **If you're using an APP,click* *`+`* *,select* *`input`**.**
+
+![](img/platformcreate.png)
+
+Fill in the device information.
+
+![](img/platformregister.png)
+
+After registration is complete, if all is well, you will see the device active.
+
+![](img/deviceAC.png)
 
 ## Important Hints
 
