@@ -1,39 +1,6 @@
 # Hardware Update Logs
 {ht_translation}`[简体中文]:[English]`
 
-## HTTC - AB01 Hardware Update Logs
-
-### V1
-
-![](img/hardware_update_log/01.png)
-
-- First release
-- 2017-6-1 public sale
-- [Pinout diagram of V1](http://resource.heltec.cn/download/CubeCell/HTCC-AB01/HTCC-AB01_PinoutDiagram.pdf)
-- [Schematic diagram of V1](http://resource.heltec.cn/download/CubeCell/HTCC-AB01/HTCC-AB01_SchematicDiagram.pdf)
-
-## HTTC - AB02 Hardware Update Logs
-
-### V1
-
-![](img/hardware_update_log/02.png)
-
-- First release
-- 2020-04-30 public sale
-- [Pinout diagram of V1](http://resource.heltec.cn/download/CubeCell/HTCC-AB02/HTCC-AB02_PinoutDiagram.pdf)
-- [Schematic diagram of V1](http://resource.heltec.cn/download/CubeCell/HTCC-AB02/HTCC-AB02_SchematicDiagram.pdf)
-
-## HTTC - AB02A Hardware Update Logs
-
-### V1
-
-![](img/hardware_update_log/03.png)
-
-- First release
-- 2020-04-30 public sale
-- [Pinout diagram of V1](http://resource.heltec.cn/download/CubeCell/HTCC-AB02A/HTCC-AB02A_PinoutDiagram.pdf)
-- [Schematic diagram of V1](http://resource.heltec.cn/download/CubeCell/HTCC-AB02A/HTCC-AB02A_SchematicDiagram.pdf)
-
 ## HTTC - AB02S Hardware Update Logs
 
 ### V1.0

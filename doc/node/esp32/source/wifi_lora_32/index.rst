@@ -8,25 +8,30 @@ Wi-Fi, BLE, LoRa functions, also Li-Po battery management system, 0.96" OLEDarea
 .. image:: ./img/01.png
    :align: center 
 
-- `Heltec ESP32 series Quick Start(Development framework and special libraries) <https://docs.heltec.org/en/node/esp32/quick_start.html>`_.
-- `Heltec ESP32 series LoRaWAN demo <https://docs.heltec.org/en/node/esp32/lorawan/index.html>`_.
+- `Quick Start(Development framework and special libraries) <https://docs.heltec.org/en/node/esp32/quick_start.html>`_.
+
+- `LoRaWAN demo <https://docs.heltec.org/en/node/esp32/lorawan/index.html>`_.
+
 - `Meshtastick Quick Start <https://docs.heltec.org/en/node/esp32/meshtastick.html>`_.
+
 - Schematic diagram
-   - `V2 HF <https://resource.heltec.cn/download/WiFi_LoRa_32/V2.1/WIFI_LoRa_32_V2.1(868-915).PDF>`_. `V2 LF <https://resource.heltec.cn/download/WiFi_LoRa_32/V2.1/WiFi_LoRa_32_V2.1(433%2C470-510).PDF>`_.
+   - `V2 <https://resource.heltec.cn/download/WiFi_LoRa_32/V2.1/WIFI_LoRa_32_V2.1(868-915).PDF>`_. `V2 LF <https://resource.heltec.cn/download/WiFi_LoRa_32/V2.1/WiFi_LoRa_32_V2.1(433%2C470-510).PDF>`_.
    - `V3 <https://resource.heltec.cn/download/WiFi_Kit_32_V3/HTIT-WB32_V3_Schematic_Diagram.pdf>`_.
+
 - Pin Map 
    - `V2 <https://resource.heltec.cn/download/WiFi_LoRa_32/WIFI_LoRa_32_V2.1.pdf>`_.
-   - `V3 <https://resource.heltec.cn/download/WiFi_Kit_32_V3/HTIT-WB32_V3.png>`
+   - `V3 <https://resource.heltec.cn/download/WiFi_Kit_32_V3/HTIT-WB32_V3.png>`.
+
 - Datasheet 
    - `V2 <https://resource.heltec.cn/download/WiFi_LoRa_32/WiFi%20Lora32.pdf>`_.
    - `V3 <https://resource.heltec.cn/download/WiFi_Kit_32_V3/HTIT-WiFi%20kit32_V3(Rev1.1).pdf>`_.
 
-**Download related resources**, including schematics, pin diagrams, and data sheets: `https://resource.heltec.cn/download/WiFi_LoRa_32_V3 <https://resource.heltec.cn/download/WiFi_LoRa_32_V3>`_.
+- Related resources: `https://resource.heltec.cn/download/WiFi_LoRa_32_V3 <https://resource.heltec.cn/download/WiFi_LoRa_32_V3>`_.
 
 .. toctree::
    :maxdepth: 2
     
-    Demo code<example>
+    Sample Code<example>
     Frequently Asked Questions<frequently_asked_questions>
     Hardware Update Log<hardware_update_log>
     -->[General Docs]<-- <https://docs.heltec.org/general/index.html>
