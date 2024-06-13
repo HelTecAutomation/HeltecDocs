@@ -24,8 +24,8 @@ ESP32 is a powerfull SoC with 240MHz Tensilica LX6 dual-core & 1 ULP core, 600 D
     LoRaWAN Demo Code <lorawan/index>
     Meshtastic Quick Start<meshtastick>
     CapSule Sensor V3 <capsule_sensor_v3/index>
-    Vision Master E213 <ht-vme213/index>
-    Vision Master E290 <ht-vme290/index>
+    Vision Master E213 <ht_vme213/index>
+    Vision Master E290 <ht_vme290/index>
     WiFi LoRa 32<wifi_lora_32/index>
     Wireless Tracker<wireless_tracker/index>
     Wireless Paper<wireless_paper/index>
