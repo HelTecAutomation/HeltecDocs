@@ -10,7 +10,7 @@ Wi-Fi, BLE, LoRa functions, also Li-Po battery management system, 0.96" OLEDarea
 
 - `Quick Start(Development framework and special libraries) <https://docs.heltec.org/en/node/esp32/quick_start.html>`_.
 
-- `LoRaWAN demo <https://docs.heltec.org/en/node/esp32/lorawan/index.html>`_.
+- `LoRaWAN Demo <https://docs.heltec.org/en/node/esp32/lorawan/index.html>`_.
 
 - `Meshtastick Quick Start <https://docs.heltec.org/en/node/esp32/meshtastick.html>`_.
 
@@ -26,7 +26,8 @@ Wi-Fi, BLE, LoRa functions, also Li-Po battery management system, 0.96" OLEDarea
    - `V2 <https://resource.heltec.cn/download/WiFi_LoRa_32/WiFi%20Lora32.pdf>`_.
    - `V3 <https://resource.heltec.cn/download/WiFi_Kit_32_V3/HTIT-WiFi%20kit32_V3(Rev1.1).pdf>`_.
 
-- Related resources: `https://resource.heltec.cn/download/WiFi_LoRa_32_V3 <https://resource.heltec.cn/download/WiFi_LoRa_32_V3>`_.
+- Related Resources
+   - `Resources <https://resource.heltec.cn/download/WiFi_LoRa_32_V3>`_.
 
 .. toctree::
    :maxdepth: 2
