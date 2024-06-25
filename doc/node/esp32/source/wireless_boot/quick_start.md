@@ -46,21 +46,19 @@ For devices without WirelessBoot firmware, follow the steps below.
 
    ![](img/19.png)
 
-(**enter_wirelessboot_mode**)=
-
+(enter_wirelessboot_mode)=
 ## Enable WirelessBoot Mode
 1. Enter WirelessBoot mode. Here is the entry method for some products:
    - **Capsule Sensor V3**: Long press the button 8 seconds( 16 seconds on some older versions), util the blue LED stays on.
 
 (enable_wirelessboot)=
+2. Once the device is in WirelessBoot mode, you can use PC to find its AP hotspot: **WirelessBoot_xxxx**.
 
-2. Once the device is in WirelessBoot mode, you can use PC to find its AP hotspot: **WirelessBoot_xxxx**.![](img/02.png)
+![](img/02.png)
 
 3. Connect the device's AP hotspot. Password: "heltec.org".
 
-4. Visit the configuration page IP address, which is also determined by the firmware. 
-
-​	Usually, the IP address of Heltec's device is set to "**192.168.4.1**" and the password is **"heltec.org**".
+4. Visit the configuration page IP address. Usually, the IP address of Heltec's device is set to "**192.168.4.1**" and the password is **"heltec.org**".
 
 ![](img/04.jpg)
 
@@ -99,10 +97,10 @@ At this point, if your PC and the device are on the same LAN, you can use Wirele
 
    ![](img/11.jpg)
 
- ``` {Tips} The firmware size should not be larger than the partition capacity.
+ ```{Tips} The firmware size should not be larger than the partition capacity.
  ```
 
- ``` {Tips}If it fails to upload, your firmware name may be too long.
+ ```{Tips} If it fails to upload, your firmware name may be too long.
  ```
 
 7. After uploading the firmware successfully, click `Run` to run the firmware, after the prompt is successful, remember to restart.
