@@ -1,7 +1,7 @@
 # Hardware Update Logs
 {ht_translation}`[简体中文]:[English]`
 
-## V1
+### V1
 
 ![](img/V1.png)
 

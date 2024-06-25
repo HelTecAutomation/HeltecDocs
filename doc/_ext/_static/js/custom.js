@@ -37,6 +37,7 @@ var prod_obj = {
         {text:"HRI-3631", value: "hri-3631"},
         {text:"HRI-3632", value: "hri-3632"},
         {text:"HRI-3633", value: "hri-3633"},
+        {text:"Juction Box", value: "junction_box"},
     ],
 }
 
