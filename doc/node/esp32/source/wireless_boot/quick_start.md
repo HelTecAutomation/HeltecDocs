@@ -3,6 +3,9 @@
 
 This topic describe the quick start and application mode for WirelessBoot .
 
+```{Tips} WirelessBoot technology is used for devices that do not have an external USB or serial port. You can download firmware, exchange information, and print logs through WiFi. Therefor, devices no longer requires a USB-UART bridge, which can reduce the hardware cost of the system and reduce device size.
+```
+
 ------
 
 ## Install WirelessBoot Firmware

@@ -2,7 +2,7 @@
 
 {ht_translation}`[简体中文]:[English]`
 
-Capsule Sensor V3 uses **WirelessBoot mode** to upload firmware, exchange information, and print logs through WiFi. 
+Capsule Sensor V3 uses **WirelessBoot mode** to upload firmware, exchange information, and print logs through WiFi. For more details, please refer to this link: [WirelessBoot](https://docs.heltec.org/en/node/esp32/wireless_boot/index.html)
 
 This topic describes how to enter WirelessBoot mode,and how to upload firmware in WirelessBoot mode.
 
@@ -42,7 +42,7 @@ This topic describes how to enter WirelessBoot mode,and how to upload firmware i
 ``` {Tip} Note the size of the capacity of each partition, do not allow the uploaded firmware size to exceed the capacity of the partition.
 ```
 
-4.  	After the upload is complete, click `Run`,  then `Restart`.
+4. After the upload is complete, click `Run`,  then `Restart`.
 
    ![](img/18.png)
 

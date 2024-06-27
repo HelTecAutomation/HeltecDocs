@@ -22,7 +22,7 @@ Main Features:
 .. toctree::
    :maxdepth: 2
 
-   WirelessBoot(Upload Firmware) <wireless_boot>
+   Upload Firmware <wireless_boot>
    Meshtastic Quick Start <meshtastic>
    Re-Development Via Arduino <secondary_development_via_arduino>
    LoRaWAN <lorawan>
