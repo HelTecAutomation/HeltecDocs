@@ -24,7 +24,7 @@ Main Features:
 
    Upload Firmware <wireless_boot>
    Meshtastic Quick Start <meshtastic>
-   Re-Development Via Arduino <secondary_development_via_arduino>
-   LoRaWAN <lorawan>
+   LoRaWAN Quick Start <lorawan>
+   Re-Development Via WirelessBoot<https://docs.heltec.org/en/node/esp32/wireless_boot/quick_start.html#>
    Frequently Asked Questions<frequently_asked_questions>
    Related Resources <related_resources>

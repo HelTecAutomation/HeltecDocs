@@ -4,7 +4,7 @@
 
 This topic describes how to quickly get started with the sensor version of Capsule Sensor V3 and upload it to the server via LoRaWAN.
 
-If you accidentally erase the code, please refer to the WirelessBoot theme： [How to refresh the firmware](https://docs.heltec.org/en/node/esp32/capsule_sensor_v3/wireless_boot.html).
+If you accidentally erase the code, please refer to the WirelessBoot theme: [How to refresh the firmware](https://docs.heltec.org/en/node/esp32/capsule_sensor_v3/wireless_boot.html).
 
 [Capsule Sensor V3 LoRaWAN Firmware Download.](https://resource.heltec.cn/download/Heltec%20Capsule%20Sensor%20V3/lorawan.bin)
 
@@ -25,12 +25,12 @@ Hold the button for 3 seconds until the white light comes on, Release the button
 
    ![](img/lorawan/02.jpg)
 
-4. The parameters are described as follows：
+4. The parameters are described as follows:
 
    | Parameters  | Description                                                  |
    | ----------- | ------------------------------------------------------------ |
    | REGION      | LoRaWAN band, which must be consistent with the gateway      |
-   | CLASS       | Working mode，support Class_A or Class_C                     |
+   | CLASS       | Working mode, support Class_A or Class_C                     |
    | OTAA/ABP    | Network access mode                                          |
    | ADR         | Data rate adaptation                                         |
    | DR          | Data rate                                                    |
@@ -63,28 +63,32 @@ We highly recommend the following three gateways:
 When you are done in the configuration page, you can register the node with TTN/TTS, Chirpstack, SnapEmu, and other LoRaWAN servers by following this link: [Connect “ESP32 + LoRa” to LoRaWAN Server ](https://docs.heltec.org/en/node/esp32/lorawan/connect_to_gateway.html)
 
 ### One-click scan registration
+```{Note} Only devices with the LoRaWAN program already installed at the factory can use the one-click code scanning registration function. If you refresh your firmware, or modify device parameters, please use manual registration.
+```
 
-1. Search the **App Store** for `SnapEmu`, download and install it.
+1. Install SnapEmu App. 
 
-![](img/lorawan/04.jpg) 
+2. Open SnapEmu, click the `+` in the upper right corner, select `SCAN`.
 
-2. To register a LoRa gateway on SnapEmu, please refer to the following link:
+ ![](img/lorawan/02.png)
 
-[HT-M02](https://docs.heltec.cn/en/gateway/ht-m02_v2/connect_to_server.html#connect-to-snapemu)
-[HT-M01S](https://docs.heltec.cn/en/gateway/ht-m01s_v2/connect_to_server.html#connect-to-snapemu)
-[HT-M7603](https://docs.heltec.cn/en/gateway/ht-m7603/connect_to_server.html#connect-to-snapemu)
+3. Scan the device QR code. 
 
-3. Click the `+` in the upper right corner of SnapEmu, select `SCAN`, and directly scan the device QR code.
+   ![](img/lorawan/05.jpg)
 
- ![](img/lorawan/02.png) 
-
-4. Fill in the device name and group.
+4. Fill in the device `group` and `Description`, then click `Add Device`.
 
 ![](img/lorawan/03.jpg)
 
-5. Registration is complete and the device is activated.
+5. Return to the APP home page and wait a few moments, the device is activated.
 
-![](img/lorawan/deviceAC.jpg)
+   ```{Tips} Refresh the page method: Press and hold the area in the diagram to drop down.
+   ```
+
+   ![](img/lorawan/06.png)
+
+```{Tips} Once the device has collected six data points, it can plot them by selecting hours, days, or weeks as units.
+```
 
 
 
