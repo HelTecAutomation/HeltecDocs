@@ -3,7 +3,7 @@
 
 This topic describe the quick start and application mode for WirelessBoot .
 
-``` {Tips} WirelessBoot technology is used for devices that do not have an external USB or serial port. You can download firmware, exchange information, and print logs through WiFi. Therefor, devices no longer requires a USB-UART bridge, which can reduce the hardware cost of the system and reduce device size.
+``` {Tip} WirelessBoot technology is used for devices that do not have an external USB or serial port. You can download firmware, exchange information, and print logs through WiFi. Therefor, devices no longer requires a USB-UART bridge, which can reduce the hardware cost of the system and reduce device size.
 
 ```
 
@@ -120,7 +120,7 @@ The development environment of Capsule Sensor V3 is a branch of Heltec-Esp32-dev
 
 1. Install [Heltec ESP32 development environment](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/tree/WirelessBoot-Framework).
 
-``` {Tips} If you don't know how to install, check out the "Readme.MD" file.
+``` {Tip} If you don't know how to install, check out the [Readme.MD](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/README.md) file.
 
 ```
 2. If you already have a development environment installed, update to the latest version.
@@ -160,7 +160,14 @@ The development environment of Capsule Sensor V3 is a branch of Heltec-Esp32-dev
 (print_logs)=
 ### Replacing serial ports through WiFi interaction
 #### Installing development environment
+The development environment of Capsule Sensor V3 is a branch of Heltec-Esp32-development environment: **WirelessBoot-Framework**.
+
 1. Install [Heltec ESP32 development environment](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/tree/WirelessBoot-Framework).
+
+``` {Tip} If you don't know how to install, check out the [Readme.MD](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/README.md) file.
+
+```
+
 2. If you already have a development environment installed, update to the latest version.
 
    ```
