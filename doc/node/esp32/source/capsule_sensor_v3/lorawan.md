@@ -46,7 +46,10 @@ Hold the button for 3 seconds until the white light comes on, Release the button
    | Battery     | Battery level                                                |
    | Charge      | Whether to charge                                            |
 
-   5. Once configured, click `Summit` to submit. Press the device button, the white light will light up, and the blue light will light up to indicate that the device has started to work.
+   5. Once configured, click `Summit` to submit. Press the device button, the white light will blink once, the device has started to work.
+
+```{Note} The device has no action in configuration mode and will restart automatically after 10 minutes.
+```
 
 ------
 
@@ -70,11 +73,11 @@ When you are done in the configuration page, you can register the node with TTN/
 
 2. Open SnapEmu, click the `+` in the upper right corner, select `SCAN`.
 
- ![](img/lorawan/02.png)
+![](img/lorawan/02.png)
 
 3. Scan the device QR code. 
 
-   ![](img/lorawan/05.jpg)
+![](img/lorawan/05.jpg)
 
 4. Fill in the device `group` and `Description`, then click `Add Device`.
 
@@ -84,10 +87,12 @@ When you are done in the configuration page, you can register the node with TTN/
 
 ![](img/lorawan/06.png)
 
-```{Tips} Refresh the page method: Press and hold the area in the diagram to drop down.
+``` {Tips} Refresh the page method: Press and hold the area in the diagram to drop down.
+
 ```
 
-```{Tips} Once the device has collected six data points, it can plot them by selecting hours, days, or weeks as units.
+``` {Tips} Once the device has collected six data points, it can plot them by selecting hours, days, or weeks as units.
+
 ```
 
 

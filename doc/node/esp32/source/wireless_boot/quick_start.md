@@ -3,7 +3,8 @@
 
 This topic describe the quick start and application mode for WirelessBoot .
 
-```{Tips} WirelessBoot technology is used for devices that do not have an external USB or serial port. You can download firmware, exchange information, and print logs through WiFi. Therefor, devices no longer requires a USB-UART bridge, which can reduce the hardware cost of the system and reduce device size.
+``` {Tips} WirelessBoot technology is used for devices that do not have an external USB or serial port. You can download firmware, exchange information, and print logs through WiFi. Therefor, devices no longer requires a USB-UART bridge, which can reduce the hardware cost of the system and reduce device size.
+
 ```
 
 ------
@@ -33,6 +34,7 @@ For devices without WirelessBoot firmware, follow the steps below.
 5. Select the corresponding MCU type,`Delepod`, `UART` , click `OK`.
 
 ``` {Tips} Please check the corresponding product manual for CPU model.
+
 ```
 
 ![](img/03.jpg)
@@ -100,11 +102,9 @@ At this point, if your PC and the device are on the same LAN, you can use Wirele
 
    ![](img/11.jpg)
 
- ```{Tips} The firmware size should not be larger than the partition capacity.
- ```
+``` {Tips} The firmware size should not be larger than the partition capacity. If it fails to upload, your firmware name may be too long.
 
- ```{Tips} If it fails to upload, your firmware name may be too long.
- ```
+```
 
 7. After uploading the firmware successfully, click `Run` to run the firmware, after the prompt is successful, remember to restart.
 
@@ -116,8 +116,13 @@ At this point, if your PC and the device are on the same LAN, you can use Wirele
 
 ### Directly upgrade and debug devices in the IDE.
 #### Installing development environment
+The development environment of Capsule Sensor V3 is a branch of Heltec-Esp32-development environment: **WirelessBoot-Framework**.
 
 1. Install [Heltec ESP32 development environment](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/tree/WirelessBoot-Framework).
+
+``` {Tips} If you don't know how to install, check out the "Readme.MD" file.
+
+```
 2. If you already have a development environment installed, update to the latest version.
 
    ```
@@ -182,7 +187,7 @@ At this point, if your PC and the device are on the same LAN, you can use Wirele
 
    ![](img/14.png)
 
-3. Copy the **Heltec Esp Network Minitor** file to the folder **Plugins**.
+3. Copy the **Heltec Esp Network Minitor** file to the folder **plugins**.
 
    ![](img/15.png)
 
