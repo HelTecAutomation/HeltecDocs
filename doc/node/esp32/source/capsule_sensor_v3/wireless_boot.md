@@ -36,10 +36,10 @@ This topic describes how to enter WirelessBoot mode,and how to upload firmware i
 
 ![](img/13.png)
 
-``` {Tip} Notice the progress bar at the top left, please upload one firmware before uploading another.
+``` {Note} Notice the progress bar at the top left, please upload one firmware before uploading another.
 ```
 
-``` {Tip} Note the size of the capacity of each partition, do not allow the uploaded firmware size to exceed the capacity of the partition.
+``` {Note} Notice the size of the capacity of each partition, do not allow the uploaded firmware size to exceed the capacity of the partition.
 ```
 
 4. After the upload is complete, click `Run`,  then `Restart`.

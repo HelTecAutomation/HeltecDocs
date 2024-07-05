@@ -11,13 +11,13 @@ This topic describe the quick start and application mode for WirelessBoot .
 
 ## Install WirelessBoot Firmware
 
-For devices that already have WirelessBoot firmware preinstalled, such as Capsule Sensor V3, please skip this step, go to [Enter WirelessBoot Mode](enter_wirelessboot_mode).
+For **devices that already have WirelessBoot firmware preinstalled**, such as Capsule Sensor V3, please skip this step, go to [Enter WirelessBoot Mode](enter_wirelessboot_mode).
 
-For devices without WirelessBoot firmware, follow the steps below.
+For **devices without WirelessBoot firmware**, follow the steps below.
 
 1. Download the relevant WirelessBoot firmware.
 
-[Heltec WirelessBoot Firmware download page]()
+[Heltec WirelessBoot Firmware download page](https://resource.heltec.cn/download/WirelessBoot)
 
 2. Download and install ESP32 flash tool.
 

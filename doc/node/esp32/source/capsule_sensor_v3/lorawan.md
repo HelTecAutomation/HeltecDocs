@@ -83,17 +83,14 @@ When you are done in the configuration page, you can register the node with TTN/
 
 ![](img/lorawan/03.jpg)
 
-5. Return to the APP home page and wait a few moments, the device is activated.
+5. Return to the APP home page and wait a few moments, the device is activated. Once the device has collected six data points, it can plot them by selecting hours, days, or weeks as units.
 
 ![](img/lorawan/06.png)
 
-``` {Tips} Refresh the page method: Press and hold the area in the diagram to drop down.
+``` {Tip} Refresh the page method: Press and hold the area in the diagram to drop down. Once the device has collected six data points, it can plot them by selecting hours, days, or weeks as units.
 
 ```
 
-``` {Tips} Once the device has collected six data points, it can plot them by selecting hours, days, or weeks as units.
-
-```
 
 
 

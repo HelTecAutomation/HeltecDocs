@@ -8,11 +8,16 @@
 ![](img/01.jpg)
 
 ### Power input and output
+
 The voltage range is 4.5~50V, and the output is as much as the input.
 ### RS485 to RS485
 All RS485 interfaces are connected, you can freely choose one RS485 interface access, and choose another RS485 interface output.
 ### 4~20mA/1~5V to RS485
-4~20mA/1~5V sensors are accessed from Analog_In and Analog_GND and output to Sensor_Hub/Wireless_ Aggregator from any RS485 interface.
+
+1. When you receive 4~20mA signal, you need to set the switch to "***I***"; when you receive 1~5V signal, then set the switch to "*** V***".
+
+2. 4~20mA/1~5V sensors are accessed from Analog_In and Analog_GND and output to Sensor_Hub/Wireless_ Aggregator from any RS485 interface.
+
 ## Dataframe Description
 ### Description
 - Baud Rate: 9600
