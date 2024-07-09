@@ -10,22 +10,15 @@ Vision Master T190 (HT-VMT190) is a development kit with ESP32-S3 and LoRa Modul
 
 - Schematic diagram `V1 <https://resource.heltec.cn/download/HT-VME213/HT-VME213%20Schematic%20Diagram.pdf>`_.
 
-.. image:: ./img/sd.png
-   :align: center 
-
 - Pin Map `V1 <https://resource.heltec.cn/download/HT-VME213/HT-VME213%20pin%20map.png>`_.
 
-.. image:: ./img/sd.png
-   :align: center
-
-- Datasheet 
-   - `V1 <https://resource.heltec.cn/download/HT-VME213/HT-VME213%20Datasheet.pdf>`_.
+- Datasheet `V1 <https://resource.heltec.cn/download/HT-VME213/HT-VME213%20Datasheet.pdf>`_.
 
 - Related resources
    - `Resources <https://resource.heltec.cn/download/HT-VME213/>`_.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
     
     Quick Start(Development framework and special libraries) <https://docs.heltec.org/en/node/esp32/quick_start.html>
     Sample Code<example>
