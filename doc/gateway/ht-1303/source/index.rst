@@ -12,6 +12,7 @@ The HT-1303 LoRaWAN concentrator module is a mini-PCIe-based LPWAN concentrator 
     :maxdepth: 2
     
     Quick Start <qucik_start>
+    HT-1303 LoRa Concentrator Module Linux Drive <ht-1303_lora_concentrator_module_linux_drive>
 
 Relevant Offical Resources
 --------------------------
