@@ -19,7 +19,7 @@ Plug the HT-1303 module into the adapter module, and  connect the adapter module
 On the Linux system `~` path, by running the following commands to install HT-1303 drive.
 
 ```shell
-git clone https://github.com/HelTecAutomation/Lora-net-sx1302 lora
+git clone https://github.com/HelTecAutomation/ht-1303.git lora
 cd lora/packet_forwarder
 cp -f global_conf_EU868.json global_conf.json  //use the corresponding region configure file
 nano global_conf.json //edit the config file
