@@ -4,7 +4,7 @@ This document is trying to make sense how to drive a  HT-1303 (SX1303 + SX1250) 
 
 ## Preparation
 
-- A [Raspberry Pi]([Raspberry Pi 4 Model B – Heltec Automation](https://heltec.org/project/raspberry-pi4-model-b/)) (ROI3, RPI4, Zero, etc. are also fine)
+- A [Raspberry Pi](https://heltec.org/project/raspberry-pi4-model-b/) (RPI3, RPI4, Zero, etc. are also fine)
 - [HT-1303 LoRa Concentrator Module]([HT1303 LoRaWAN Concentrator Module – Heltec Automation](https://heltec.org/project/ht1303/))
 - [Raspberry Pi Interposer Board](https://heltec.org/project/ht1303-converter/)
 
