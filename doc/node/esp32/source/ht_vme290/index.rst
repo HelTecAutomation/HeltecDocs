@@ -4,7 +4,7 @@ Vision Master E290
 
 Vision Master E290 (HT-VME213) is an E-Ink development kit with multiple wireless drive methods. Collaborate with the sample programs and development tools we provide, users can operate the display via Bluetooth, Wi-Fi and LoRa.
 
-.. image:: ./img/01.png
+.. image:: ./img/V1.png
    :align: center 
 
 
