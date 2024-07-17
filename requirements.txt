@@ -1,2 +1,4 @@
-myst-parser
-sphinx_rtd_theme
+sphinx==7.3.7
+readthedocs_sphinx_ext==2.2.5
+myst-parser==3.0.1
+sphinx_rtd_theme==2.0.0
