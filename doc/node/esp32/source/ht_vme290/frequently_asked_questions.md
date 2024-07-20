@@ -5,14 +5,12 @@ This page contains the most frequently questions from user. If this page's detai
 
 &nbsp;
 
-### Can't Download Firmware
+### Unable to upload program
 #### Unable to find port
 - Use a better USB cable, or change a USB socket;
-- Check and make sure the CP210x drive had been correctly installed, users can refer to this document: [Establish Serial Connection](https://heltec-automation-docs.readthedocs.io/en/latest/general/establish_serial_connection.html);
 - Press "PRG/BOOT/USER" button before plugin. Note that reinsertion may cause the serial number to change.
 #### Port found, but unable to upload
 - Use a better USB cable, or change a USB socket;
-- Check and make sure the CP210x drive had been correctly installed, users can refer to this document: [Establish Serial Connection](https://heltec-automation-docs.readthedocs.io/en/latest/general/establish_serial_connection.html);
 - Press "PRG/BOOT/USER" button before plugin. Note that reinsertion may cause the serial number to change.
 - Check if the serial port is occupied elsewhere.
 
