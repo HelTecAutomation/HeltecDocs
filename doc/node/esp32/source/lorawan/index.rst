@@ -12,7 +12,7 @@ This library is make LoRaWAN 1.0.2 protocol running with ESP32 Arduino. Only sup
 
 
 .. toctree::
-    :maxdepth: 2
+   :maxdepth: 2
     
     Configuration Parameters <config_parameter>
     Connect to LoRaWAN server <connect_to_gateway>

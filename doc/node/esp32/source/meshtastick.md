@@ -16,6 +16,10 @@ Currently, Heltec recommends the following devices for Meshtastic:
 | [Wireless Bridge](https://heltec.org/project/wireless-bridge/) |N/A| It has a strong aluminum alloy shell |
 | [Capsule Sensor V3](https://heltec.org/project/heltec-capsule-sensor-v3/) |N/A| Stylish LoRaWAN toys that can integrate GPS modules|
 | [Wireless Mini Shell(HT-CT62)](https://heltec.org/project/ht-ct62/) |N/A| Cost-effective LoRa+ESP32-C3 module |
+| [Vision Master E213](https://heltec.org/project/vision-master-e213/) |N/A| 2.13 inch E-Ink Display |
+| [Vision Master E290](https://heltec.org/project/vision-master-e290/) |N/A| 2.90 inch E-Ink Display |
+| [Vision Master T190](https://heltec.org/project/vision-master-t190/) |N/A| 1.90 inch TFT Display |
+| [Mesh Node T114](https://heltec.org/project/mesh-node-t114) |N/A| 1.14 inch TFT Display, nRF52 MCU, Strong low power |
 
 *This topic uses WiFi LoRa 32 V3 as an example.*
 
