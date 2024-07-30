@@ -6,6 +6,7 @@ Valve Controller Romete Commands
 This article describes some common remote commands that you can issue through the LoRaWAN server to achieve remote control of the device.
 
 **The port number is 3.**
+
 1. Querying device parameters
 =============================
 +----------------+-------------------+----------+---------------+----------------+----------+-------------+----------------+
