@@ -1,18 +1,51 @@
-*************************
-Valve control instruction
-*************************
+********************************
+Valve Controller Romete Commands
+********************************
 :ht_translation:`[简体中文]:[English]`
 
-**This document is still under update, if you have any questions, please contact our official email: support@heltec.cn.**
-
-This document describes the HRI-3633 remote instructions that you can issue on the server.
+This article describes some common remote commands that you can issue through the LoRaWAN server to achieve remote control of the device.
 
 **The port number is 3.**
+1. Querying device parameters
+=============================
++----------------+-------------------+----------+---------------+----------------+----------+-------------+----------------+
+| Description    | Command type      | ADR 1byte| Confirm 1byte | Interval       | DR 1byte | Power 1byte | Timezone 2byte |
++================+===================+==========+================================+==========+=============+================+   
+| Query          | 00                |          |               |                |          |             |                |
++----------------+-------------------+----------+---------------+----------------+----------+-------------+----------------+
+| Feedback       | 00                | 00       | 01            | 64(Hex, 100S)  | 01       |16           | 00 08          |
++----------------+-------------------+----------+---------------+----------------+----------+-------------+----------------+
+| Error Feedback | 00                | FF       |               |                |          |             |                |
++----------------+-------------------+----------+---------------+----------------+----------+-------------+----------------+
+- **ADR**: 01 represents ADR, and 00 represents fixed DR.
+- **Confirm**: 01 represents confirm, and 00 represents no confirm.
+- **Interval**: LoRaWAN reporting interval, HRI-3633 will send the valve status to the server according to the Interval.
+- **DR**: When fixed DR is enable.
+- **Power**: RF power, unit'dbm'.
+- **Timezone**: 00 represents East, 01 represents West.
 
-1. Query valve status
+2. Settting device parameters
+=============================
++----------------+-------------------+----------+---------------+----------------+----------+-------------+----------------+
+| Description    | Command type      | ADR 1byte| Confirm 1byte | Interval       | DR 1byte | Power 1byte | Timezone 2byte |
++================+===================+==========+================================+==========+=============+================+   
+| Query          | 00                | 00       | 01            | 64(Hex, 100S)  | 01       |  16         |                |
++----------------+-------------------+----------+---------------+----------------+----------+-------------+----------------+
+| Feedback       | 00                | 00       | 01            | 64(Hex, 100S)  | 01       | 64(Hex,100%)| 00 08          |
++----------------+-------------------+----------+---------------+----------------+----------+-------------+----------------+
+| Error Feedback | 00                | FF       |               |                |          |             |                |
++----------------+-------------------+----------+---------------+----------------+----------+-------------+----------------+
+- **ADR**: 01 represents ADR, and 00 represents fixed DR.
+- **Confirm**: 01 represents confirm, and 00 represents no confirm.
+- **Interval**: LoRaWAN reporting interval, HRI-3633 will send the valve status to the server according to the Interval.
+- **DR**: When fixed DR is enable.
+- **Power**: RF power, unit'dbm'.
+- **Timezone**: 00 represents East, 01 represents West. Example, `00 08` represents `East 8`.
+
+3. Query valve status
 =====================
 +----------------+-------------------+---------------+---------------+
-| Description    | Instruction type  | valve 0 state | valve 1 state |
+| Description    | Command type      | valve 0 state | valve 1 state |
 +================+===================+===============+===============+
 | Query          | 08                |               |               |
 +----------------+-------------------+---------------+---------------+
@@ -21,7 +54,7 @@ This document describes the HRI-3633 remote instructions that you can issue on t
 | Error Feedback | 08                | FF            |               |
 +----------------+-------------------+---------------+---------------+
 
-2. Set valve status
+4. Set valve status
 ===================
 +----------------+-------------------+--------------+-------------+
 | Description    | Instruction type  | Valve number | Valve state |
@@ -34,7 +67,7 @@ This document describes the HRI-3633 remote instructions that you can issue on t
 +----------------+-------------------+--------------+-------------+
 **Valve number**:0 means Valve_0; 1 means Valve_1.
 
-3. Query pulse counter
+5. Query pulse counter
 ======================
 +----------------+-------------------+-------------------+-------------------+
 | Description    | Instruction type  | Counter_0         | Counter_1         |
@@ -47,7 +80,7 @@ This document describes the HRI-3633 remote instructions that you can issue on t
 +----------------+-------------------+-------------------+-------------------+
 **Counter number** : 00 means counter_0; 01 means counter_1; 02 means counter_0 and counter_1.
 
-4. Clear pulse counter
+6. Clear pulse counter
 ======================
 +----------------+-------------------+------------------+-----------------+
 | Description    | Instruction type  | Counter_0        | Counter_1 4byte |
@@ -60,7 +93,7 @@ This document describes the HRI-3633 remote instructions that you can issue on t
 | Error Feedback | 0B                | FF               |                 |
 +----------------+-------------------+------------------+-----------------+
 
-5. Query valve timing task instructions
+7. Query valve timing task instructions
 =======================================
 +----------------+-------------------+--------------------+--------+--------------+-------------+--------+-----------+-----------------+
 | Description    | Instruction type  | Instruction number | Enable | action valve | action type | timed  | timed     | Repeat type     |
@@ -79,7 +112,7 @@ This document describes the HRI-3633 remote instructions that you can issue on t
 - **Timed2**: minutes, In hexadecimal, for example, the 30th minute should be expressed as 1E.
 - **Repeat type**: The 8-digit binary system represents Sunday through Saturday in descending order.For example, **0000 0001**, means Sunday, the Hexadecimal notation is **01**; **0001 0001** means Thursday and Sunday, the Hexadecimal notation is **11**; **0111 1111** means every day of the week, the Hexadecimal notation is **7F**.
 
-6. Set valve timing task instructions
+8. Set valve timing task instructions
 =====================================
 +----------------+-------------------+--------------------+---------+--------------+-------------+--------+-----------+-----------------+
 | Description    | Instruction type  | Instruction number | Enable  | action valve | action type | timed1 | timed2    | Repeat type     |
