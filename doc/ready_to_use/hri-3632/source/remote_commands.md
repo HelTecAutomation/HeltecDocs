@@ -7,8 +7,8 @@ This article describes some common remote commands that you can issue through th
 
 ## Query device parameters
 
+| Description | Command type | ADR | Confirm | Interval | DR | Power | Timezone | Battery Voltage | Firm version | Battery level |
 |-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| Description | Command type | ADR   | Confirm | Interval | DR    | Power | Timezone | Battery Voltage | Firm version | Battery level |
 | Length | 1byte | 1byte | 1byte | 2byte | 1byte | 1byte | 2byte | 2byte | 2byte | 1byte |
 | Query | 00 |   |   |   |   |   |   |   |   |   |
 | Feedback | 00 | 00 | 01 | 00 64 | 01 | 16 | 00 08 |   |   |   |
@@ -23,8 +23,8 @@ This article describes some common remote commands that you can issue through th
 
 ## Set device parameters
 
+| Description | Command type | ADR | Confirm | Interval | DR | Power | Timezone |
 |-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| Description | Command type | ADR   | Confirm | Interval | DR    | Power | Timezone |
 | Length | 1byte | 1byte | 1byte   | 2byte | 1byte | 1byte | 2byte    |
 | Query | 01 | 00 | 01 | 00 64 | 01 | 16 | 00 08  |
 | Feedback | 01 | 00 | 01 | 00 64 | 01 | 16 | 00 08 |
@@ -38,8 +38,9 @@ This article describes some common remote commands that you can issue through th
 - **Timezone**: `00` represents East, `01` represents West. Example `00 08` means East 8.
 
 ## Query GPIO status
+
+| Description | Command type | Quantity| Mode Change | Mode | Status|
 |-|:-:|:-:|:-:|:-:|:-:|
-| Description | Command type | Quantity| Mode Change | Mode  | Status|
 | Length | 1byte | 1byte | 2byte | 2byte | 2byte |
 | Query | 02 |   |   |   |   |
 | Feedback | 02 | 02 | 00 03 | 00 03 | 00 03 |
@@ -53,8 +54,9 @@ This article describes some common remote commands that you can issue through th
 ![](img/GPIO.png)
 
 ## Set a single GPIO state
-|-|:-:|:-:|:-:|:-:|:-:|
+
 | Description | Command type | Quantity | Number | Mode | State |
+|-|:-:|:-:|:-:|:-:|:-:|
 | Length | 1byte | 1byte | 1byte | 1byte | 1byte |
 | Set | 03 | 00  | 01 | 00 | 00 |
 | Feedback | 03 | 00 | 01 | 00 | 00 |
@@ -65,8 +67,9 @@ This article describes some common remote commands that you can issue through th
 - **State**: `00` means 'low', `01` means 'high'.
 
 ## Set multiple GPIO states
-|-|:-:|:-:|:-:|:-:|:-:|
+
 |Description| Command type | Quantity | Number | Mode | State |
+|-|:-:|:-:|:-:|:-:|:-:|
 | Length | 1byte | 1byte | 2byte | 2byte | 1byte |
 | Set | 03 | 01  | 00 03 | 00 03 | 00 01 |
 | Feedback | 03 | 01 | 01 | 00 | 00 |
@@ -79,8 +82,9 @@ This article describes some common remote commands that you can issue through th
 ![](img/GPIO.png)
 
 ##  Query RS485 commands
-|-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+
 |Description|Command type|Number|State|Operation type|Time(Hour)|Time(minute)|Repeat|
+|-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |Length|1byte|1byte|1byte|1byte|1byte|1byte|1byte|
 |Query|06|01| | | | | |
 |Feedback|06|01|01|00|13|10|7F|
@@ -93,16 +97,17 @@ This article describes some common remote commands that you can issue through th
 - **Time(minute)**: Which minute in one hour in a timed task, in this sample, `10` means 13:10. When **"Operation type"** is `00` (periodic), this section is invalid.
 - **Repeat**: The way of repeat about timed task. We use 8 bits from low to high, representing Sunday to Saturday. For each bit, `0` means don't operation, `1` means operation, then converted to hexadecimal. In this sample, `7F` == '0111 1111', means this command operation everyday.
 
-|-|:-:|:-:|:-:|:-:|:-:|:-:|:-:||:-:|
 |Day|N.A|SAT|FRI|THU|WED|TUE|MON|SUN|
+|-|:-:|:-:|:-:|:-:|:-:|:-:|:-:||:-:|
 |Binary|0|1|1|1|1|1|1|1|
 |Hex|7F|
 
 ![](img/GPIO.png)
 
 ##  Set RS485 commands
-|-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+
 |Description|Command type|Number|State|Operation type|Time(Hour)|Time(minute)|Repeat|
+|-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |Length|1byte|1byte|1byte|1byte|1byte|1byte|1byte|
 |Setting|07|01|01|00|13|10|7F|
 |Feedback|07|01|01|13|10|7F|
@@ -114,8 +119,7 @@ This article describes some common remote commands that you can issue through th
 - **Time(hour)**: Which hour in a timed task, in this sample, `13` means 1 p.m. When **"Operation type"** is `00` (periodic), this section is invalid.
 - **Time(minute)**: Which minute in one hour in a timed task, in this sample, `10` means 13:10. When **"Operation type"** is `00` (periodic), this section is invalid.
 - **Repeat**: The way of repeat about timed task. We use 8 bits from low to high, representing Sunday to Saturday. For each bit, `0` means don't operation, `1` means operation, then converted to hexadecimal. In this sample, `7F` == '0111 1111', means this command operation everyday.
-
-|-|:-:|:-:|:-:|:-:|:-:|:-:|:-:||:-:|
 |Day|N.A|SAT|FRI|THU|WED|TUE|MON|SUN|
+|-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
 |Binary|0|1|1|1|1|1|1|1|
 |Hex|7F|
