@@ -26,15 +26,15 @@ Search and download the Heltec.LoraGateWay driver from [resource 1303](https://r
 
 Open the device manager on the computer, and under normal circumstances, you will see a serial device. If there is no serial port number, you need to install the en.stsw-stm32102 driver. 
 
-![](img/how_to_use_heltec_1303_module_on_a_windows_computer\01.png)
+![](img/how_to_use_heltec_1303_module_on_a_windows_computer/01.png)
 
 The serial port of this driver should correspond to the serial port in the global_conf.json file. 
 
-![](img/how_to_use_heltec_1303_module_on_a_windows_computer\02.png)
+![](img/how_to_use_heltec_1303_module_on_a_windows_computer/02.png)
 
 The server address and port number below should correspond to the user's server and port.
 
-![](img/how_to_use_heltec_1303_module_on_a_windows_computer\03.png)
+![](img/how_to_use_heltec_1303_module_on_a_windows_computer/03.png)
 
 ### 4.Activate the module license
 
@@ -49,11 +49,11 @@ Enter the SN serial number on the module through the [Heltec official website](h
 
 If everything is running well, when we reopen the gateway configuration file global_conf.json, we will find that the GateWay ID has been updated and is consistent with the GateWay ID in the log.
 
-![](img/how_to_use_heltec_1303_module_on_a_windows_computer\04.png)
+![](img/how_to_use_heltec_1303_module_on_a_windows_computer/04.png)
 
 Open the windows service and find that the gateway can start and stop like a normal service, and can also be set to start automatically. Now your computer supports all the functions of LoRaWAN gateway.
 
-![](img/how_to_use_heltec_1303_module_on_a_windows_computer\05.png)
+![](img/how_to_use_heltec_1303_module_on_a_windows_computer/05.png)
 
 
 
