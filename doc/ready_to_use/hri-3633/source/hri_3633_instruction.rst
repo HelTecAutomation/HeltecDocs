@@ -11,37 +11,37 @@ This article describes some common remote commands that you can issue through th
 =============================
 +----------------+-------------------+----------+---------------+----------------+----------+-------------+----------------+
 | Description    | Command type      | ADR 1byte| Confirm 1byte | Interval       | DR 1byte | Power 1byte | Timezone 2byte |
-+================+===================+==========+================================+==========+=============+================+   
++================+===================+==========+===============+================+==========+=============+================+   
 | Query          | 00                |          |               |                |          |             |                |
 +----------------+-------------------+----------+---------------+----------------+----------+-------------+----------------+
 | Feedback       | 00                | 00       | 01            | 64(Hex, 100S)  | 01       |16           | 00 08          |
 +----------------+-------------------+----------+---------------+----------------+----------+-------------+----------------+
 | Error Feedback | 00                | FF       |               |                |          |             |                |
 +----------------+-------------------+----------+---------------+----------------+----------+-------------+----------------+
-- **ADR**: 01 represents ADR, and 00 represents fixed DR.
-- **Confirm**: 01 represents confirm, and 00 represents no confirm.
-- **Interval**: LoRaWAN reporting interval, HRI-3633 will send the valve status to the server according to the Interval.
-- **DR**: When fixed DR is enable.
-- **Power**: RF power, unit'dbm'.
-- **Timezone**: 00 represents East, 01 represents West.
+- **ADR**: `01` represents ADR, and `00` represents fixed DR.
+- **Confirm**: `01` represents confirm, and `00` represents no confirm.
+- **Interval**: LoRaWAN reporting interval, HRI-3633 will send the valve status to the server according to the Interval. In hexadecimal, in seconds. In this sample, `64` means 100 seconds.
+- **DR**: When fixed DR is enable. In this sample, `01` means DR 1.
+- **Power**: RF power, unit'dbm'. In hexadecimal, in seconds. In this sample , `16` means 22dbm.
+- **Timezone**: `00` represents East, `01` represents West. Example `00 08` means East 8.
 
 2. Settting device parameters
 =============================
 +----------------+-------------------+----------+---------------+----------------+----------+-------------+----------------+
-| Description    | Command type      | ADR 1byte| Confirm 1byte | Interval       | DR 1byte | Power 1byte | Timezone 2byte |
+| Description    | Command type      | ADR 1byte| Confirm 1byte | Interval 2byte | DR 1byte | Power 1byte | Timezone 2byte |
 +================+===================+==========+================================+==========+=============+================+   
-| Query          | 00                | 00       | 01            | 64(Hex, 100S)  | 01       |  16         |                |
+| Query          | 00                | 00       | 01            | 00 64          | 01       | 16          |                |
 +----------------+-------------------+----------+---------------+----------------+----------+-------------+----------------+
-| Feedback       | 00                | 00       | 01            | 64(Hex, 100S)  | 01       | 64(Hex,100%)| 00 08          |
+| Feedback       | 00                | 00       | 01            | 00 64          | 01       | 64          | 00 08          |
 +----------------+-------------------+----------+---------------+----------------+----------+-------------+----------------+
 | Error Feedback | 00                | FF       |               |                |          |             |                |
 +----------------+-------------------+----------+---------------+----------------+----------+-------------+----------------+
-- **ADR**: 01 represents ADR, and 00 represents fixed DR.
-- **Confirm**: 01 represents confirm, and 00 represents no confirm.
-- **Interval**: LoRaWAN reporting interval, HRI-3633 will send the valve status to the server according to the Interval.
-- **DR**: When fixed DR is enable.
-- **Power**: RF power, unit'dbm'.
-- **Timezone**: 00 represents East, 01 represents West. Example, `00 08` represents `East 8`.
+- **ADR**: `01` represents ADR, and `00` represents fixed DR.
+- **Confirm**: `01` represents confirm, and `00` represents no confirm.
+- **Interval**: LoRaWAN reporting interval, HRI-3633 will send the valve status to the server according to the Interval. In hexadecimal, in seconds. In this sample, `64` means 100 seconds.
+- **DR**: When fixed DR is enable. In this sample, `01` means DR 1.
+- **Power**: RF power, unit'dbm'. In hexadecimal, in seconds. In this sample , `16` means 22dbm.
+- **Timezone**: `00` represents East, `01` represents West. Example `00 08` means East 8.
 
 3. Query valve status
 =====================
@@ -113,6 +113,15 @@ This article describes some common remote commands that you can issue through th
 - **Timed2**: minutes, In hexadecimal, for example, the 30th minute should be expressed as 1E.
 - **Repeat type**: The 8-digit binary system represents Sunday through Saturday in descending order.For example, **0000 0001**, means Sunday, the Hexadecimal notation is **01**; **0001 0001** means Thursday and Sunday, the Hexadecimal notation is **11**; **0111 1111** means every day of the week, the Hexadecimal notation is **7F**.
 
++--------+------+------+-----+-----+-----+-----+------+------+
+| DAY    | N.A  | SAT  | FRI | THU | WED | TUE | MON  | SUN  |
++========+======+======+=====+=====+=====+=====+======+======+
+| Binary | 0    |  1   |  1  |  1  |  1  |  1   |  1  |  1   |
++--------+------+------+-----+-----+-----+-----+------+------+
+|Hex     | 7F                                                |
++--------+---------------------------------------------------+
+
+
 8. Set valve timing task instructions
 =====================================
 +----------------+-------------------+--------------------+---------+--------------+-------------+--------+-----------+-----------------+
@@ -131,3 +140,11 @@ This article describes some common remote commands that you can issue through th
 - **Timed1**: hour.
 - **Timed2**: minutes, In hexadecimal, for example, the 30th minute should be expressed as 1E.
 - **Repeat type**: The 8-digit binary system represents Sunday through Saturday in descending order.For example, **0000 0001**, means Sunday, the Hexadecimal notation is **01**; **0001 0001** means Thursday and Sunday, the Hexadecimal notation is **11**; **0111 1111** means every day of the week, the Hexadecimal notation is **7F**.
+
++--------+------+------+-----+-----+-----+-----+------+------+
+| DAY    | N.A  | SAT  | FRI | THU | WED | TUE | MON  | SUN  |
++========+======+======+=====+=====+=====+=====+======+======+
+| Binary | 0    |  1   |  1  |  1  |  1  |  1   |  1  |  1   |
++--------+------+------+-----+-----+-----+-----+------+------+
+|Hex     | 7F                                                |
++--------+---------------------------------------------------+

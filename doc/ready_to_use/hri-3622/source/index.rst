@@ -20,6 +20,7 @@ Sensor Hub for Industry has excellent low power consumption and long transmissio
     
     Quick Start <quick_start>
     Connect to LoRaWAN Server <lorawan>
+    Remote Commands <remote_commands>
     Data Format Document <https://docs.heltec.org/general/data_format_document.html>
     OTA Upgrade<ota_upgrade>
     Subscribe MQTT Messages from LoRa Server <https://docs.heltec.org/general/subscribe_mqtt_messages.html>
