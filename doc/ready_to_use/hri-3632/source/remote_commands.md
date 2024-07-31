@@ -25,7 +25,7 @@ This article describes some common remote commands that you can issue through th
 
 | Description | Command type | ADR | Confirm | Interval | DR | Power | Timezone |
 |-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-| Length | 1byte | 1byte | 1byte   | 2byte | 1byte | 1byte | 2byte    |
+| Length | 1byte | 1byte | 1byte | 2byte | 1byte | 1byte | 2byte |
 | Query | 01 | 00 | 01 | 00 64 | 01 | 16 | 00 08  |
 | Feedback | 01 | 00 | 01 | 00 64 | 01 | 16 | 00 08 |
 | Error Feedback | 01 | FF |   |   |   |   |   |
@@ -83,12 +83,12 @@ This article describes some common remote commands that you can issue through th
 
 ##  Query RS485 commands
 
-|Description|Command type|Number|State|Operation type|Time(Hour)|Time(minute)|Repeat|
-|-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|Length|1byte|1byte|1byte|1byte|1byte|1byte|1byte|
-|Query|06|01| | | | | |
-|Feedback|06|01|01|00|13|10|7F|
-|Error|06|FF| | | | | |
+|Description| Command type | Number | State | Operation type | Time(Hour) | Time(minute) | Repeat |
+|-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| Length | 1byte | 1byte | 1byte | 1byte | 1byte | 1byte | 1byte |
+| Query | 06 | 01 | | | | | |
+| Feedback | 06 | 01 | 01 | 00 | 13 | 10 | 7F |
+| Error | 06 | FF |
 
 - **Number**: Command number on the configuration page, 0~15.
 - **State**: Command state, `01` means enable, `00` means disable.
@@ -97,21 +97,21 @@ This article describes some common remote commands that you can issue through th
 - **Time(minute)**: Which minute in one hour in a timed task, in this sample, `10` means 13:10. When **"Operation type"** is `00` (periodic), this section is invalid.
 - **Repeat**: The way of repeat about timed task. We use 8 bits from low to high, representing Sunday to Saturday. For each bit, `0` means don't operation, `1` means operation, then converted to hexadecimal. In this sample, `7F` == '0111 1111', means this command operation everyday.
 
-|Day|N.A|SAT|FRI|THU|WED|TUE|MON|SUN|
-|-|:-:|:-:|:-:|:-:|:-:|:-:|:-:||:-:|
-|Binary|0|1|1|1|1|1|1|1|
-|Hex|7F|
+| Day | N.A | SAT | FRI | THU | WED | TUE | MON | SUN |
+|-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| Binary | 0 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| Hex | 7F |
 
 ![](img/GPIO.png)
 
 ##  Set RS485 commands
 
-|Description|Command type|Number|State|Operation type|Time(Hour)|Time(minute)|Repeat|
-|-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|Length|1byte|1byte|1byte|1byte|1byte|1byte|1byte|
-|Setting|07|01|01|00|13|10|7F|
-|Feedback|07|01|01|13|10|7F|
-|Error|07|FF| | | | | |
+| Description | Command type | Number | State | Operation type | Time(Hour) | Time(minute) | Repeat |
+|-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| Length | 1byte | 1byte | 1byte | 1byte | 1byte | 1byte | 1byte |
+| Setting | 07 | 01 | 01 | 00 | 13 | 10 | 7F |
+| Feedback | 07 | 01 | 01 |13 | 10 | 7F |
+| Error | 07 | FF | | | | | |
 
 - **Number**: Command number on the configuration page, 0~15.
 - **State**: Command state, `01` means enable, `00` means disable.
@@ -119,7 +119,8 @@ This article describes some common remote commands that you can issue through th
 - **Time(hour)**: Which hour in a timed task, in this sample, `13` means 1 p.m. When **"Operation type"** is `00` (periodic), this section is invalid.
 - **Time(minute)**: Which minute in one hour in a timed task, in this sample, `10` means 13:10. When **"Operation type"** is `00` (periodic), this section is invalid.
 - **Repeat**: The way of repeat about timed task. We use 8 bits from low to high, representing Sunday to Saturday. For each bit, `0` means don't operation, `1` means operation, then converted to hexadecimal. In this sample, `7F` == '0111 1111', means this command operation everyday.
-|Day|N.A|SAT|FRI|THU|WED|TUE|MON|SUN|
+
+| Day | N.A | SAT | FRI | TH | WED | TUE | MON | SUN |
 |-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|Binary|0|1|1|1|1|1|1|1|
-|Hex|7F|
+| Binary | 0 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
+| Hex | 7F |
