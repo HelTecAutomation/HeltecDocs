@@ -1,5 +1,5 @@
-HRI-3633 Wireless Aggregator — Valve Controller
-===============================================
+HRI-3632 Wireless Aggregator — Bus Transfer
+===========================================
 :ht_translation:`[简体中文]:[English]`
 
 `HRI-3632 <https://heltec.org/project/hri-3632/>`_ is a LoRaWAN conveter belonging to Sensor Hub for outdoor series,used to drive various third-party sensors. We have added 4 GPIO to it and equipped it with junction box to ensure the compatibility of its interfaces. Benefits from the IP66 protection provided by high-strength plastics, it can adapt to a variety of complex outdoor environments.

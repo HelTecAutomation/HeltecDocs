@@ -1,0 +1,79 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the cubecell package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: cubecell \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-03 15:25+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.10.3\n"
+
+#: ../../source/capsule-sensor/assemble_a_battery.md:1
+msgid "Assemble a battery to Capsule sensor"
+msgstr "组装电池到胶囊传感器"
+
+#: ../../source/capsule-sensor/assemble_a_battery.md:2
+msgid "{ht_translation}`[简体中文]:[English]`"
+msgstr ""
+
+#: ../../source/capsule-sensor/assemble_a_battery.md:4
+msgid ""
+"The capsule sensor is a global product, but because of international "
+"transportation, storage and other problems, **default is no integrated "
+"battery inside the Capsule sensor**."
+msgstr "胶囊传感器是全球产品,但由于国际运输,储存等问题,**默认的是胶囊传感器内部没有集成电池**."
+
+#: ../../source/capsule-sensor/assemble_a_battery.md:6
+#: ../../source/capsule-sensor/assemble_a_battery.md:12
+#: ../../source/capsule-sensor/assemble_a_battery.md:16
+#: ../../source/capsule-sensor/assemble_a_battery.md:26
+msgid "&nbsp;"
+msgstr "&nbsp;"
+
+#: ../../source/capsule-sensor/assemble_a_battery.md:8
+msgid ""
+"After disassembling the sensor shell, you can see 2 pads on the round PCB"
+" at the bottom, and solder the battery positive and negative electrodes "
+"to this pad:"
+msgstr "拆卸传感器外壳后,可以看到圆形PCB上有2个焊盘在底部,并焊接电池的正负极到这个焊盘:"
+
+#: ../../source/capsule-sensor/assemble_a_battery.md:10
+msgid "![](img/assemble_a_battery/01.png)"
+msgstr ""
+
+#: ../../source/capsule-sensor/assemble_a_battery.md:14
+msgid "![](img/assemble_a_battery/02.png)"
+msgstr ""
+
+#: ../../source/capsule-sensor/assemble_a_battery.md:18
+msgid "Battery specifications"
+msgstr "电池规格"
+
+#: ../../source/capsule-sensor/assemble_a_battery.md:20
+msgid ""
+"In the capsule sensor, it's already integrates a charge management "
+"circuit, but does not have an over-discharge protection circuit, so **the"
+" lithium battery must have a protection circute**. Battery must include "
+"following features:"
+msgstr "在胶囊传感器中,它已经集成了充电管理电路,但没有过放电保护电路,因此**锂电池必须有保护电路**.电池必须包含以下特点:"
+#: ../../source/capsule-sensor/assemble_a_battery.md:22
+msgid "Voltage: 3.7V"
+msgstr "电压: 3.7V"
+
+#: ../../source/capsule-sensor/assemble_a_battery.md:23
+msgid "Charging voltage: 4.2V"
+msgstr "充电电压: 4.2V"
+
+#: ../../source/capsule-sensor/assemble_a_battery.md:24
+msgid "Discharge cut-off voltage: ≤3.3V"
+msgstr "放电截止电压: ≤3.3V"
+

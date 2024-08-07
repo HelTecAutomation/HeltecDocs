@@ -23,6 +23,7 @@ var prod_obj = {
     node: [
         {text: "Cubecell (ASR650x) Series", value: "asr650x"},
         {text: "ESP32 Series", value: "esp32"},
+        {text: "Mesh Node T114", value: "nrf"},
         {text: "STM32 Series", value: "stm32"},
         {text: "Sufficient IoT Hub", value: "sufficient_iot_hub"},
         {text: "HT-AT62", value: "ht-at62"},

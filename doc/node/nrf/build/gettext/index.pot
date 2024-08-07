@@ -1,0 +1,113 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the cubecell package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: cubecell \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-03 15:25+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/index.rst:28
+msgid "Quick Start"
+msgstr ""
+
+#: ../../source/index.rst:28
+msgid "LoRaWAN"
+msgstr ""
+
+#: ../../source/index.rst:28
+msgid "AT Command List"
+msgstr ""
+
+#: ../../source/index.rst:28
+msgid "CubeCell Dev-Board"
+msgstr ""
+
+#: ../../source/index.rst:28
+msgid "CubeCell Capsule-Sensor"
+msgstr ""
+
+#: ../../source/index.rst:28
+msgid "CubeCell Module"
+msgstr ""
+
+#: ../../source/index.rst:28
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: ../../source/index.rst:2
+msgid "Contents"
+msgstr ""
+
+#: ../../source/index.rst:3
+msgid ":ht_translation:`[简体中文]:[English]`"
+msgstr ""
+
+#: ../../source/index.rst:5
+msgid "We believe `the CubeCell Series <https://heltec.org/cubecell>`__ is the best choice for LoRaWAN node applications. The following are some of the key features:"
+msgstr ""
+
+#: ../../source/index.rst:9
+msgid "Fully compatible with the Arduino development environment;"
+msgstr ""
+
+#: ../../source/index.rst:10
+msgid "Based on an ultra low power design, attains 3.5uA in deep sleep mode, even with the RTC clock running;"
+msgstr ""
+
+#: ../../source/index.rst:12
+msgid "LoRa signal output put power range 0~22(±1) dBm;"
+msgstr ""
+
+#: ../../source/index.rst:13
+msgid "Low-cost despite its current state of the art technology;"
+msgstr ""
+
+#: ../../source/index.rst:14
+msgid "Integrated encryption algorithm protects your investment by rendering cloned firmware inoperative;"
+msgstr ""
+
+#: ../../source/index.rst:15
+msgid "Based on proven technology - the new ASR650x, is a combination of the PSoC4000 and SX1262 into a single chip, reducing the overall size to something smaller than the competition;"
+msgstr ""
+
+#: ../../source/index.rst:17
+msgid "Solar panel support;"
+msgstr ""
+
+#: ../../source/index.rst:18
+msgid "LoRaWAN protocol support;"
+msgstr ""
+
+#: ../../source/index.rst:19
+msgid "AT command support;"
+msgstr ""
+
+#: ../../source/index.rst:20
+msgid "In the LoRaWAN relevant examples, have a reasonable timeline planning."
+msgstr ""
+
+#: ../../source/index.rst:25
+msgid "for example, an application need send data to server every 10 minutes, then in a cycle, only ~1 second is in the state of sending, other 9 minutes and 59 seconds are in deep sleep low power Consuming status."
+msgstr ""
+
+#: ../../source/index.rst:40
+msgid "Relevant Offical Resources"
+msgstr ""
+
+#: ../../source/index.rst:42
+msgid "`ASR650x - Arduino repository <https://github.com/HelTecAutomation/ASR650x-Arduino>`_;"
+msgstr ""
+
+#: ../../source/index.rst:43
+msgid "`CubeCell introduction page <https://heltec.org/cubecell/>`_."
+msgstr ""

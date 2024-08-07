@@ -1,0 +1,191 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the cubecell package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: cubecell \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-03 15:25+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/lorawan/connect_to_gateway.md:1
+msgid "Connect CubeCell to LoRaWAN Server"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:2
+msgid "{ht_translation}`[简体中文]:[English]`"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:4
+msgid "In this document, all operations and tests must be performed with a standard [LoRaWAN Gateway](https://heltec.org/proudct_center/lora/lora-gateway/), In the CubeCell's LoRaWAN library, for each working band, we are strictly follow [LoRaWAN™ 1.0.2 Regional Parameters rB](https://resource.heltec.cn/download/LoRaWANRegionalParametersv1.0.2_final_1944_1.pdf)."
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:6
+msgid "Summary"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:8
+msgid "LoRaWAN protocol is the essence of all LoRa applications. In our opinion, the most prominent benefits of LoRaWAN are as follows:"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:10
+msgid "Very friendly for low power applications. For example, your application need send data to server every 10 minutes, then in a cycle, only ~1 second is in the state of sending, other 9 minutes and 59 seconds are in low sleep low power Consuming status."
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:11
+msgid "A star network can be formed via a [LoRa Gateway](https://heltec.org/proudct_center/lora/lora-gateway/), nodes and gateways from different manufacturers can communicate with each other through LoRaWAN protocols;"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:12
+msgid "The protocol already includes processing mechanisms such as blocking, automatic frequency modulation, and encryption, which can better ensure the smooth flow of nodes and gateway；"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:13
+msgid "ADR (Adaptive Data Rate)."
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:19
+msgid "![](img/connect_to_server/01.png)"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:21
+msgid "Preparation"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:23
+msgid "Correct installed Arduino IDE and [CubeCell Framework](https://heltec-automation-docs.readthedocs.io/en/latest/cubecell/quick_start.html)."
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:24
+msgid "A standard LoRaWAN gateway with at least 8 channels (based on SX1301/8 base band chip will be OK), and make sure your gateway had already connected to a LoRa server."
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:25
+msgid "[How to connect HT-M01 to a LoRa server](https://docs.heltec.org/en/gateway/ht-m01/connect_to_server.html)"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:26
+msgid "[How to connect HT-M02 to a LoRa server](https://docs.heltec.org/en/gateway/ht-m02_4g/connect_to_server.html)"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:27
+msgid "[How to connect HT-M01S to a LoRa server](https://docs.heltec.org/en/gateway/ht-m01s_v2/connect_to_server.html)"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:28
+msgid "A [CubeCell Dev-Board](https://heltec.org/project/htcc-ab01/) or [CubeCell-Cupsule](https://heltec.org/project/htcc-ac01/) and a high quality USB cable."
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:30
+msgid "**In this example, we use [HT-M01 Mini Gateway](https://heltec.org/project/ht-m01/) in Windows<sup>®</sup> 10. Test band: EU868, others working band is similar.**"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:32
+msgid "Running an example in Arduino"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:34
+msgid "In the \"LoRa\" path, all examples named with \"LoRaWAN_xxx\" format are the examples with LoRaWAN protocol, choose one of them."
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:36
+msgid "![](img/connect_to_server/04.png)"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:38
+msgid "Don't forget [config the parameters in \"Tools\" menu](https://docs.heltec.org/en/node/cubecell/quick_start.html#correctly-config-the-tools-menu), here is my configration for EU868:"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:40
+msgid "![](img/connect_to_server/03.png)"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:46
+msgid "Connect to TTN/TTS"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:48
+msgid "Before that, make sure there is a LoRa Gateway active in your [TTN](https://console.thethingsnetwork.org/)/[TTS](https://lora.heltec.org/console) account."
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:50
+msgid "Register a device"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:52
+msgid "Register a new device in TTN or TTS “Applications” page. Select the corresponding Brand, Model, Hardware Version, Firmware Version, Region."
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:54
+msgid "![](img/connect_to_server/16.png)"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:56
+msgid "Select the frequency plan, and fill in the corresponding AppEUI, DevEUi, AppKey, and register the device."
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:58
+msgid "![](img/connect_to_server/17.png)"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:60
+#: ../../source/lorawan/connect_to_gateway.md:74
+msgid "After registration is complete, if all is well, you will see the device active."
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:62
+msgid "![](img/connect_to_server/18.png)"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:64
+msgid "Connect to ChirpStack"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:66
+msgid "Register a new device in ChirpStack’s “Applications” page. Enter the device name, description, DevEUI. Select Device-profile."
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:68
+msgid "![](img/connect_to_server/20.png)"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:70
+msgid "Enter the Application key of the device."
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:72
+msgid "![](img/connect_to_server/21.png)"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:76
+msgid "![](img/connect_to_server/22.png)"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:78
+#: ../../source/lorawan/connect_to_gateway.md:80
+msgid "&nbsp;"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:82
+msgid "Important Hints"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:84
+msgid "Please double check the following two things:"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:86
+msgid "The LoRaWAN parameters is the same as server!"
+msgstr ""
+
+#: ../../source/lorawan/connect_to_gateway.md:87
+msgid "The listening frequency of your LoRa Gateway is the same as CubeCell's sending frequency. We strictly follow [LoRaWAN™ 1.0.2 Regional Parameters rB](https://resource.heltec.cn/download/LoRaWANRegionalParametersv1.0.2_final_1944_1.pdf);"
+msgstr ""
