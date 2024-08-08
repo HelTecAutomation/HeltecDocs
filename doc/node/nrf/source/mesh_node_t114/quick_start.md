@@ -86,7 +86,8 @@ https://resource.heltec.cn/download/package_heltec_nrf_index.json
 
 ![](img/quick_start/11.png)
 
-~~This folder name is custom. If you have installed other heltec framework, you can use this folder directly.~~	
+```{Tip} This folder name is custom. If you have installed other heltec framework, you can use this folder directly.
+```
 
 5. Go to the "heltec" folder, refer to the figure below to confirm whether the path in the red box is correct. Unzip the compressed package you downloaded to this path.
 

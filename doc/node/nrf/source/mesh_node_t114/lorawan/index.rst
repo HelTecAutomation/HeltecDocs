@@ -2,9 +2,9 @@ LoRaWAN
 =======
 :ht_translation:`[简体中文]:[English]`
 
-This article is intended to describe how to use the LoRaWAN demo.
+This article is intended to describe how to use the LoRaWAN sample code.
 
-.. note:: Heltec ESP32 LoRaWAN library need a license to active, it's relative to Chip ID. Query your board's license here: `http://resource.heltec.cn/search <http://resource.heltec.cn/search>`_.
+.. note:: Heltec LoRaWAN library need a license to active, it's relative to Chip ID. Query your board's license here: `http://resource.heltec.cn/search <http://resource.heltec.cn/search>`_.
 
 
 .. toctree::
