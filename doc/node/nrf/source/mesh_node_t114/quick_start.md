@@ -32,7 +32,7 @@ https://resource.heltec.cn/download/package_heltec_nrf_index.json
 ![](img/quick_start/03.png)
 
 4. Click`OK` to return to the main Arduino interface.
-4. Click `Boards Manager...`, search `Heltec-nRF52`in the new pop-up dialog, select the latest `releases` and  click `install`.
+4. Click `Boards Manager...`, search `Heltec-nRF52` in the new pop-up dialog, select the latest `releases` and  click `install`.
 
 ![](img/quick_start/04.png)
 
@@ -134,7 +134,3 @@ Connect your Mesh Node series board to computer via a **high quality** Micro USB
 
   }
 ```
-
-## Upload firmware via USB-CDC
-
-***building...***

@@ -8,4 +8,7 @@ Mesh Node series is a new series of development boards launched by Heltec based 
    :maxdepth: 2
    
     Mesh Node T114 <mesh_node_t114/index>
+    HT-n5262 <ht-n5262/index>
+    HT-nRF52 Quick Start <quick_start>
+    LoRaWAN <lorawan/index>
     -->[General Docs]<-- <https://docs.heltec.org/general/index.html>

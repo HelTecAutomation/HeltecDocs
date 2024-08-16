@@ -16,9 +16,12 @@ User Manual
    :maxdepth: 2
     
     Quick Start <quick_start>
+    Firmware Upload <firmware_upload>
     LoRaWAN <lorawan/index>
-    Meshtastic <meshtastic>
     Hardware Update Log <hardware_update_log>
     Frequentl Asked Questions <frequently_asked_questions>
-     -->[General Docs]<-- <https://docs.heltec.org/general/index.html>
+
+Heltec General Docs
+-------------------
+-->[General Docs]<-- <https://docs.heltec.org/general/index.html>
     
