@@ -19,8 +19,7 @@ The following is a detailed description of the data format
 |     2bytes  |       1byte         |                        |                        |     |                        |     |    2bytes   |      1byte           |                       |    |
 +-------------+---------------------+------------------------+------------------------+-----+------------------------+-----+-------------+----------------------+-----------------------+----+
 
-Note: Each LoRaWAN packet can contain data from multiple sensors, each sensor can contain multiple types of sub-data.
----------------------------------------------------------------------------------------------------------------------
+.. note:: Each LoRaWAN packet can contain data from multiple sensors, each sensor can contain multiple types of sub-data.
 
 1.2 Sensor Data Packet Format
 -----------------------------
@@ -31,7 +30,7 @@ Note: Each LoRaWAN packet can contain data from multiple sensors, each sensor ca
 |     4bits          |                 4 bits                     |              1byte              |               ...               |
 +--------------------+--------------------------------------------+---------------------------------+---------------------------------+
 
-Note: `Total Valid Data Length (bytes)` This field is only present for arrays, omitted for other data types.
+.. note:: **Total Valid Data Length (bytes)** This field is only present for arrays, omitted for other data types.
 ------------------------------------------------------------------------------------------------------------
 +-----------+--------+----------------+
 | Data Type | Value  | Bytes Occupied |
