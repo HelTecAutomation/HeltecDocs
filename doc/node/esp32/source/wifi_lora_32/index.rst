@@ -11,48 +11,28 @@ Wi-Fi, BLE, LoRa functions, also Li-Po battery management system, 0.96" OLEDarea
 Related Resources
 -----------------
 
-- Datasheet
+.. toctree::
+   :maxdepth: 1
 
-   - `V2 <https://resource.heltec.cn/download/WiFi_LoRa_32/WiFi%20Lora32.pdf>`_
-   - `V3 <https://resource.heltec.cn/download/WiFi_Kit_32_V3/HTIT-WiFi%20kit32_V3(Rev1.1).pdf>`_
+   Datasheet <https://resource.heltec.cn/download/WiFi_Kit_32_V3/HTIT-WiFi%20kit32_V3(Rev1.1).pdf>
+   Schematic diagram <https://resource.heltec.cn/download/WiFi_Kit_32_V3/HTIT-WB32_V3_Schematic_Diagram.pdf>
+   Pin Map <https://resource.heltec.cn/download/WiFi_Kit_32_V3/HTIT-WB32_V3.png>
+   Hardware Update Log <hardware_update_log>
 
-- Schematic diagram
-
-   - `V2 <https://resource.heltec.cn/download/WiFi_LoRa_32/V2.1/WIFI_LoRa_32_V2.1(868-915).PDF>`_
-   - `V2 LF <https://resource.heltec.cn/download/WiFi_LoRa_32/V2.1/WiFi_LoRa_32_V2.1(433%2C470-510).PDF>`_
-   - `V3 <https://resource.heltec.cn/download/WiFi_Kit_32_V3/HTIT-WB32_V3_Schematic_Diagram.pdf>`_
-
-- Pin Map
-
-   - `V2 <https://resource.heltec.cn/download/WiFi_LoRa_32/WIFI_LoRa_32_V2.1.pdf>`_
-   - `V3 <https://resource.heltec.cn/download/WiFi_Kit_32_V3/HTIT-WB32_V3.png>`_
-
-- `Hardware Update Log <hardware_update_log>`_
-
-Quick Start(Development framework and special libraries) 
---------------------------------------------------------
+Get Start
+---------
 
 .. toctree::
    :maxdepth: 1
 
-   Heltec Esp32 Quick Start(Development framework and special libraries) <../quick_start>
-
-Sample Code
------------
-
-.. toctree::
-   :maxdepth: 1
-    
-   Factory test Code<example>
-   LoRaWAN <../lorawan/index>
-
-Meshtastic
-----------
-Please refer to `Introduction to Meshtastic <../meshtastick>`_.
+   Framework and libraries installation <../quick_start>
+   Running example code<example>
+   LoRaWAN Sample Code<../lorawan/index>
+   Meshtastic Introduction <../meshtastick>
 
 Frequently Asked Questions
 --------------------------
-`Frequently Asked Questions <frequently_asked_questions>`_
+`Frequently Asked Questions <frequently_asked_questions.md>`_
 
 
 Heltec General Docs
