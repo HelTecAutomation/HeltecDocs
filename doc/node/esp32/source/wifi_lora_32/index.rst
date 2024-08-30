@@ -27,25 +27,33 @@ Related Resources
    - `V2 <https://resource.heltec.cn/download/WiFi_LoRa_32/WIFI_LoRa_32_V2.1.pdf>`_
    - `V3 <https://resource.heltec.cn/download/WiFi_Kit_32_V3/HTIT-WB32_V3.png>`_
 
-- `Frequently Asked Questions <frequently_asked_questions>`_
 - `Hardware Update Log <hardware_update_log>`_
 
 Quick Start(Development framework and special libraries) 
 --------------------------------------------------------
-Heltec Esp32 Quick Start(Development framework and special libraries) <../quick_start>
+
+.. toctree::
+   :maxdepth: 1
+
+   Heltec Esp32 Quick Start(Development framework and special libraries) <../quick_start>
 
 Sample Code
 -----------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
     
    Factory test Code<example>
    LoRaWAN <../lorawan/index>
 
-Meshtastick
------------
+Meshtastic
+----------
 Please refer to `Introduction to Meshtastic <../meshtastick>`_.
+
+Frequently Asked Questions
+--------------------------
+`Frequently Asked Questions <frequently_asked_questions>`_
+
 
 Heltec General Docs
 -------------------
