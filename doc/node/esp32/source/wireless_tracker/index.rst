@@ -28,5 +28,6 @@ and supports GPS, GLONASS, BDS, Galileo, NAVIC, QZSS multi-system joint position
     Demo code <example>
     Frequently Asked Questions <frequently_asked_questions>
     Hardware Update Log <hardware_update_log>
+    Meshtastic Low Power Setting <meshtastic_tracker/index>
     -->[Heltec General Docs]<-- <https://docs.heltec.org/general/index.html>
     

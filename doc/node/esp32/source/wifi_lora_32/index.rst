@@ -32,7 +32,8 @@ Get Start
 
 Frequently Asked Questions
 --------------------------
-`Frequently Asked Questions <frequently_asked_questions.md>`_
+
+:doc:`Frequently Asked Questions <frequently_asked_questions.m>`.
 
 
 Heltec General Docs
