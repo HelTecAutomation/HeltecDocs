@@ -38,7 +38,7 @@ Examples and Extensions
 
    LoRaWAN Sample Code<../lorawan/index>
    Meshtastic Introduction <../meshtastick>
-   Meshtastic Low Power Setting <meshtastic_tracker/index>
+   Meshtastic Low Power Setting <meshtastic_tracker>
 
 Frequently Asked Questions
 --------------------------
