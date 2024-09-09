@@ -10,24 +10,43 @@ and supports GPS, GLONASS, BDS, Galileo, NAVIC, QZSS multi-system joint position
 .. image:: ./img/01.png
    :align: center 
 
-- `Heltec ESP32 series development framework and libraries <https://docs.heltec.org/en/node/esp32/quick_start.html>`_.
-- `Heltec ESP32 series LoRaWAN Demo <https://docs.heltec.org/en/node/esp32/lorawan/index.html>`_.
-- `Meshtastick Quick Start <https://docs.heltec.org/en/node/esp32/meshtastick.html>`_.
-- Schematic diagram
-   - `V1.0 <https://resource.heltec.cn/download/Wireless_Tracker/Wireless_Tacker1.0/HTIT-Tracker_V0.3.pdf>`_.
-   - `V1.1 <https://resource.heltec.cn/download/Wireless_Tracker/Wireless_Tacker1.1/HTIT-Tracker_V0.5.pdf>`_.
-- `Pin Map <https://resource.heltec.cn/download/Wireless_Tracker/Wireless%20Tracker%20Pin%20Map.png>`_.
-- Datasheet 
-   - `V1.0 <https://resource.heltec.cn/download/Wireless_Tracker/Wireless%20tracke.pdf>`_.
-   - `V1.1 <https://resource.heltec.cn/download/Wireless_Tracker/Wireless%20Tracker%201.1.pdf>`_.
-- `GNSS Module Manual <https://resource.heltec.cn/download/Wireless_Tracker/UFirebird_Standard%20Positioning%20Products%20Protocol%20Specification_EN_R4.6(1).pdf>`_.
+Related Resources
+-----------------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
+
+   Datasheet <https://resource.heltec.cn/download/Wireless_Tracker/Wireless%20Tracker%201.1.pdf>
+   Schematic diagram <https://resource.heltec.cn/download/Wireless_Tracker/Wireless_Tacker1.1/HTIT-Tracker_V0.5.pdf>
+   Pin Map <https://resource.heltec.cn/download/Wireless_Tracker/Wireless%20Tracker%20Pin%20Map.png>
+   Hardware Update Log <hardware_update_log>
+
+Get Start
+---------
+
+.. toctree::
+   :maxdepth: 1
+
+   Framework and libraries installation <../quick_start>
+   Running example code<example>
    
-    Demo code <example>
-    Frequently Asked Questions <frequently_asked_questions>
-    Hardware Update Log <hardware_update_log>
-    Meshtastic Low Power Setting <meshtastic_tracker/index>
-    -->[Heltec General Docs]<-- <https://docs.heltec.org/general/index.html>
+Examples and Extensions
+-----------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   LoRaWAN Sample Code<../lorawan/index>
+   Meshtastic Introduction <../meshtastick>
+   Meshtastic Low Power Setting <meshtastic_tracker/index>
+
+Frequently Asked Questions
+--------------------------
+
+.. toctree::
+   :maxdepth: 1
+   
+   Frequently Asked Questions <frequently_asked_questions>
+
+-->[Heltec General Docs]<-- <https://docs.heltec.org/general/index.html>
     
