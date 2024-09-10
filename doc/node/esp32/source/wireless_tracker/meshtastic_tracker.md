@@ -8,7 +8,7 @@ By adjusting the position and power settings of the meshtastic, the wireless tra
 
 ## Configuration
 
-![](img/how_to_make_heltec_wireless_tracker_battery_last_longer/01.jpg)![](img/how_to_make_heltec_wireless_tracker_battery_last_longer/02.jpg)![](img/how_to_make_heltec_wireless_tracker_battery_last_longer/03.jpg)
+![](img/how_to_make_heltec_wireless_tracker_battery_last_longer/05.jpg)
 
 ### Device Config
 

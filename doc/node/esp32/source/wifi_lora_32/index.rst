@@ -14,9 +14,9 @@ Related Resources
 .. toctree::
    :maxdepth: 1
 
-   Datasheet <https://resource.heltec.cn/download/WiFi_Kit_32_V3/HTIT-WiFi%20kit32_V3(Rev1.1).pdf>
-   Schematic diagram <https://resource.heltec.cn/download/WiFi_Kit_32_V3/HTIT-WB32_V3_Schematic_Diagram.pdf>
-   Pin Map <https://resource.heltec.cn/download/WiFi_Kit_32_V3/HTIT-WB32_V3.png>
+   Datasheet <https://resource.heltec.cn/download/WiFi_LoRa_32_V3/HTIT-WB32LA_V3(Rev1.1).pdf>
+   Schematic diagram <https://resource.heltec.cn/download/WiFi_LoRa_32_V3/HTIT-WB32LA(F)_V3.1_Schematic_Diagram.pdf>
+   Pin Map <https://resource.heltec.cn/download/WiFi_LoRa_32_V3/HTIT-WB32LA(F)_V3.png>
    Hardware Update Log <hardware_update_log>
 
 Get Start

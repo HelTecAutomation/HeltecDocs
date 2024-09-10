@@ -12,23 +12,44 @@ HT-CT62 is a module, must work with other PCB boards, it belongs to “Heltec Lo
 - Good impendence matching and long communication
 
 
-.. tip::
-
-   ESP32's BlueTooth and Wi-Fi antenna use a same pin, so BlueTooth and Wi-Fi can't work at the same time.
-
+Related Resources
+-----------------
 
 .. toctree::
-   :maxdepth: 2
-    
-    Quick Start <https://docs.heltec.org/en/node/esp32/esp32_general_docs/quick_start.html>
-    Programming_esp32<programming_esp32>
-    LoRaWAN <lorawan/index> 
-    Frequently Asked Questions<https://docs.heltec.org/en/node/esp32/esp32_general_docs/frequently_asked_questions.html>
-    ESP32 General Docs<https://docs.heltec.org/en/node/esp32/esp32_general_docs/index>
-    -->[Heltec General Docs]<-- <https://docs.heltec.org/general/index.html>
-Relevant Offical Resources
+   :maxdepth: 1
+
+   Datasheet <https://resource.heltec.cn/download/HT-CT62/HT-CT62(Rev1.1).pdf>
+   Schematic diagram <https://resource.heltec.cn/download/HT-CT62/HT-CT62_Schematic_Diagram.pdf>
+   Pin Map <https://resource.heltec.cn/download/HT-CT62/HT-CT62.png>
+   Reference Design <https://resource.heltec.cn/download/HT-CT62/HT-CT62_Reference_Design.pdf>
+   Hardware Update Log <hardware_update_log>
+
+Get Start
+---------
+
+.. toctree::
+   :maxdepth: 1
+
+   Framework and libraries installation <../quick_start>
+   Running example code<example>
+
+Application and Extension
+-------------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   LoRaWAN Sample Code<../lorawan/index>
+   Meshtastic Introduction <../meshtastick>
+
+Frequently Asked Questions
 --------------------------
 
-- `Heltec ESP32 development framework source code <https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series>`_;
-- `Heltec ESP32 series Arduino library <https://github.com/HelTecAutomation/Heltec_ESP32>`_;
-- `LoRaWAN-Node protocol Arduino library <https://github.com/HelTecAutomation/ESP32_LoRaWAN>`_.
+.. toctree::
+   :maxdepth: 1
+
+   Frequently Asked Questions <frequently_asked_questions>
+   
+Heltec General Docs
+-------------------
+-->[General Docs]<-- <https://docs.heltec.org/general/index.html>
