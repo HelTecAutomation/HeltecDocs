@@ -6,18 +6,6 @@ CapSule Sensor V3
 
 .. image:: ./img/19.jpg
    :align: center 
-
-Main Features:
-   - ESP32-S3 + SX1262.
-   - Wireless communication method include Wi-Fi, Bluetooth and LoRa.
-   - Modular design, with a BTB interface reserved at the bottom, capable of connecting and replacing different sensors
-   - Touch pad and LED indicator light.
-   - Built in 250mAh rechargeable battery, magnetic suction charging port.
-   - Built in LoRa and Wi-Fi/BLE antennas, stylish appearance, compact and light.
-   - High strength plastic, IP65 waterproof.
-   - Support Heltec Wireless Boot system, download firmware, exchange information, and print logs through Wi-Fi.
-   - Meshtastic project compatible.
-   - Secondary development can be done through Arduino, Platform.io, etc.
    
 .. toctree::
    :maxdepth: 2
@@ -25,6 +13,6 @@ Main Features:
    Upload Firmware <wireless_boot>
    Meshtastic Quick Start <meshtastic>
    LoRaWAN Quick Start <lorawan>
-   Re-Development Via WirelessBoot<https://docs.heltec.org/en/node/esp32/wireless_boot/quick_start.html#>
+   Re-Development Via WirelessBoot<../wireless_boot/index>
    Frequently Asked Questions<frequently_asked_questions>
    Related Resources <related_resources>

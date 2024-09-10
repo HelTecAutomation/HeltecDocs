@@ -2,27 +2,14 @@ Heltec ESP32 Series
 ===================
 :ht_translation:`[简体中文]:[English]`
 
-This document branch is for `Heltec ESP32 Node series <https://heltec.org/proudct_center/lora/lora-node/>`_.
+This document branch is for Heltec ESP32 series.
 
-ESP32 is a powerfull SoC with 240MHz Tensilica LX6 dual-core & 1 ULP core, 600 DMIPS, 520KB SRAM. The benefit of "ESP32 + LoRa" combination:
-
--  Multi wireless communication technical on board, include Wi-Fi, BlueTooh/BLE, LoRa;
--  Powerful computing skills;
--  Large FLASH size;
--  Power mananagement system and Li-Po support;
--  Arduino-compitable;
--  We also provide `LoRaWAN-Node protocol Arduino library <https://github.com/HelTecAutomation/ESP32_LoRaWAN>`_;
-
-.. tip::
-
-   ESP32's BlueTooth and Wi-Fi antenna use a same pin, so BlueTooth and Wi-Fi can't work at the same time.
+- `Heltec esp32 framework <https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series>`_
+- `Heltec esp32 library <https://github.com/HelTecAutomation/Heltec_ESP32>`_
 
 .. toctree::
    :maxdepth: 2
 
-    Quick Start(Framework and library installation)<quick_start>
-    LoRaWAN Demo Code <lorawan/index>
-    Meshtastic Quick Start<meshtastick>
     CapSule Sensor V3 <capsule_sensor_v3/index>
     Vision Master E213 <ht_vme213/index>
     Vision Master E290 <ht_vme290/index>
@@ -42,9 +29,3 @@ ESP32 is a powerfull SoC with 240MHz Tensilica LX6 dual-core & 1 ULP core, 600 D
     Heltec WirelessBoot System<wireless_boot/index>
     -->[Heltec General Docs]<-- <https://docs.heltec.org/general/index.html>
    
-Relevant Offical Resources
---------------------------
-
-- `Heltec ESP32 development framework source code <https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series>`_;
-- `Heltec ESP32 series Arduino library <https://github.com/HelTecAutomation/Heltec_ESP32>`_;
-- `LoRaWAN-Node protocol Arduino library <https://github.com/HelTecAutomation/ESP32_LoRaWAN>`_.
