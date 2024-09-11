@@ -48,10 +48,16 @@ Frequently Asked Questions
 Related Links
 -------------
 
-.. toctree::
-   :maxdepth: 1
-
-   WiFi LoRa 32 Related Links <related_links>
+- `Heltec esp32 series framework on Github <https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series>`_
+- `Heltec Esp32 library on Github <https://github.com/HelTecAutomation/Heltec_ESP32>`_
+- `License Enquiry <https://resource.heltec.cn/search>`_
+- `How to use license <https://docs.heltec.org/general/how_to_use_license.html>`_
+- `Meshtastic Flasher <https://flasher.meshtastic.org/>`_
+- `Meshtastic LoRa 32 Peripherals <https://meshtastic.org/docs/hardware/devices/heltec-automation/lora32/peripherals/>`_
+- `LoRaWAN Parameters Instruction <https://docs.heltec.org/general/lorawan_parameters.html>`_
+- `LoRaWAN example Sub-Band usage <https://docs.heltec.org/general/sub_band_usage.html>`_
+- `LoRaWAN ABP Mode <https://docs.heltec.org/general/lorawan_abp/index.html>`_
+- `LoRa Node to Node <https://docs.heltec.org/general/lora_node_to_node.html>`_
    
 Heltec General Docs
 -------------------

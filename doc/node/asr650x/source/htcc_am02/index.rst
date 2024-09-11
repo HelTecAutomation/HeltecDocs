@@ -16,8 +16,8 @@ HTCC-AM02 is a part of the “CubeCell“ series, with the following features:
 .. toctree::
     :maxdepth: 2
     
-    Quick Start <quick_start>
-    LoRaWAN <lorawan/index>
+    Quick Start<https://docs.heltec.org/en/node/asr650x/asr650x_general_docs/quick_start.html>
+    LoRaWAN<https://docs.heltec.org/en/node/asr650x/asr650x_general_docs/lorawan/index.html>
     Programming_Cubecell <programming_cubecell>
     AT Command List <https://resource.heltec.cn/download/CubeCell/AT_Command_list/CubeCell_Series_AT_Command_User_Manual_V0.6.pdf>
     Frequently Asked Questions <frequently_asked_questions>

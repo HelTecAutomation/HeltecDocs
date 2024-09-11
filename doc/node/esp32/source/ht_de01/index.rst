@@ -8,7 +8,7 @@ It can also be used as an Arduino development board specifically for Eink driver
 .. toctree::
    :maxdepth: 2
    
-    Quick Start <https://docs.heltec.org/en/node/esp32/quick_start.html>
+    Quick Start <https://docs.heltec.org/en/node/esp32/esp32_general_docs/quick_start.html>
     Via Arduino Refresh<via_program_refresh>
     Via Web Refresh<via_web_refresh>
     Heltec General Docs<https://docs.heltec.org/general/index.html>
