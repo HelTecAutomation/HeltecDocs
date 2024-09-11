@@ -27,7 +27,7 @@ Get Start
 .. toctree::
    :maxdepth: 1
 
-   Framework and libraries installation <../quick_start>
+   Framework and libraries installation <../esp32_general_docs/quick_start>
    Running example code<example>
    
 Examples and Extensions
@@ -36,8 +36,8 @@ Examples and Extensions
 .. toctree::
    :maxdepth: 1
 
-   LoRaWAN Sample Code<../lorawan/index>
-   Meshtastic Introduction <../meshtastick>
+   LoRaWAN Sample Code<../esp32_general_docs/lorawan/index>
+   Meshtastic Introduction <../esp32_general_docs/meshtastick>
    Meshtastic Low Power Setting <meshtastic_tracker>
 
 Frequently Asked Questions

@@ -10,6 +10,7 @@ This document branch is for Heltec ESP32 series.
 .. toctree::
    :maxdepth: 2
 
+    Esp32 Series General Docs <esp32_general_docs/index>
     CapSule Sensor V3 <capsule_sensor_v3/index>
     Vision Master E213 <ht_vme213/index>
     Vision Master E290 <ht_vme290/index>
@@ -27,5 +28,6 @@ This document branch is for Heltec ESP32 series.
     Wireless Shell <wireless_shell/index>
     Wireless Bridge <wireless_bridge/index>
     Heltec WirelessBoot System<wireless_boot/index>
+    
     -->[Heltec General Docs]<-- <https://docs.heltec.org/general/index.html>
    
