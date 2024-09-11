@@ -14,8 +14,7 @@ Get Start
 .. toctree::
    :maxdepth: 1
 
-   Install Framework <../asr650x_general_docs/quick_start>
-   Running Sample Code <../asr650x_general_docs/running_sample>
+   Install Framework <https://docs.heltec.org/en/node/asr650x/asr650x_general_docs/quick_start.html>
 
 Examples and Extensions
 -----------------------
@@ -23,8 +22,7 @@ Examples and Extensions
 .. toctree::
    :maxdepth: 1
 
-   LoRaWAN<../asr650x_general_docs/lorawan/index>
-   Solar Panel<../asr650x_general_docs/solar_panel>
-
+   LoRaWAN<https://docs.heltec.org/en/node/asr650x/asr650x_general_docs/lorawan/index.html>
+   Solar Panel<https://docs.heltec.org/en/node/asr650x/asr650x_general_docs/solar_panel.html>
 
  -->[General Docs]<-- <https://docs.heltec.org/general/index.html>

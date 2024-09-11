@@ -24,7 +24,7 @@ Get Start
 .. toctree::
    :maxdepth: 1
 
-   Framework and libraries installation <../quick_start>
+   Framework and libraries installation <https://docs.heltec.org/en/node/esp32/esp32_general_docs/quick_start.html>
    Running example code<example>
 
 Heltec General Docs

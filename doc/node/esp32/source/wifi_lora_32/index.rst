@@ -25,7 +25,7 @@ Get Start
 .. toctree::
    :maxdepth: 1
 
-   Framework and libraries installation <../esp32_general_docs/quick_start>
+   Framework and libraries installation <https://docs.heltec.org/en/node/esp32/esp32_general_docs/quick_start.html>
    Running example code<example>
 
 Application and Extension
@@ -34,8 +34,8 @@ Application and Extension
 .. toctree::
    :maxdepth: 1
 
-   LoRaWAN Sample Code<../esp32_general_docs/lorawan/index>
-   Meshtastic Introduction <../esp32_general_docs/meshtastick>
+   LoRaWAN Sample Code <https://docs.heltec.org/en/node/esp32/esp32_general_docs/lorawan/index.html>
+   Meshtastic Introduction <https://docs.heltec.org/en/node/esp32/esp32_general_docs/meshtastick.html>
 
 Frequently Asked Questions
 --------------------------
