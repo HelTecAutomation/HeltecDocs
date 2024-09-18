@@ -10,7 +10,7 @@ CubeCell (TM) series is based on ASR605x (ASR6501, ASR6502), those chips are alr
 .. toctree::
    :maxdepth: 2
     
-    Get Start<quick_start>
+    Get Start<quick_start/index>
     LoRaWAN<lorawan/index>
     Solar Panel<solar_panel>
     Frequently Asked Questions<frequently_asked_questions>

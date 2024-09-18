@@ -31,7 +31,7 @@ Install CubeCell Framework
    :maxdepth: 1
 
     Use Arduino board manager <cubecell-use-arduino-board-manager>
-    Via Git <cubecell-via-git>
+    Via Git <https://github.com/HelTecAutomation/CubeCell-Arduino>
     Via Local File <cubecell-via-local-file>
 
 Programming
