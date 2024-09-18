@@ -8,7 +8,7 @@ CubeCell (TM) series is based on ASR605x (ASR6501, ASR6502), those chips are alr
 .. image:: ./img/ab02a.jpg
    :align: center 
 
-Related Resources
+Primary Resources
 -----------------
 
 .. toctree::
@@ -19,13 +19,14 @@ Related Resources
    Pin Map<https://resource.heltec.cn/download/CubeCell/HTCC-AB02A/HTCC-AB02A_PinoutDiagram.pdf>
    Hardware Update Log<hardware_update_log>
 
-Get Start
----------
+Quick Start
+-----------
+For a quick primer on how to get started with the Cubecell development board and how to run the official sample code, see the following links:
 
 .. toctree::
    :maxdepth: 1
 
-   Install Framework <https://docs.heltec.org/en/node/asr650x/asr650x_general_docs/quick_start.html>
+   Install Framework and library<https://docs.heltec.org/en/node/asr650x/asr650x_general_docs/quick_start.html>
 
 Examples and Extensions
 -----------------------
@@ -33,8 +34,8 @@ Examples and Extensions
 .. toctree::
    :maxdepth: 1
 
-   LoRaWAN<https://docs.heltec.org/en/node/asr650x/asr650x_general_docs/lorawan/index.html>
-   Solar Panel<https://docs.heltec.org/en/node/asr650x/asr650x_general_docs/solar_panel.html>
+   LoRaWAN Example <https://docs.heltec.org/en/node/asr650x/asr650x_general_docs/lorawan/index.html>
+   Solar Panel <https://docs.heltec.org/en/node/asr650x/asr650x_general_docs/solar_panel.html>
 
 
  -->[General Docs]<-- <https://docs.heltec.org/general/index.html>
