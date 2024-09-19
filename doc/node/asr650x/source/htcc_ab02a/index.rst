@@ -22,6 +22,7 @@ Key Resources
    Schematic Diagram<https://resource.heltec.cn/download/CubeCell/HTCC-AB02A/HTCC-AB02A_SchematicDiagram.pdf>
    Pin Map<https://resource.heltec.cn/download/CubeCell/HTCC-AB02A/HTCC-AB02A_PinoutDiagram.pdf>
    AT Command List <https://resource.heltec.cn/download/CubeCell/AT_Command_list/CubeCell_Series_AT_Command_User_Manual_V0.6.pdf>
+   Frequently Asked Questions<https://docs.heltec.org/en/node/asr650x/asr650x_general_docs/frequently_asked_questions.html>
    Hardware Update Log<hardware_update_log>
 
 
@@ -41,10 +42,10 @@ Examples & Extensions
    :maxdepth: 1
 
    LoRaWAN Example <https://docs.heltec.org/en/node/asr650x/asr650x_general_docs/lorawan/index.html>
-   Connect to Solar Panel <https://docs.heltec.org/en/node/asr650x/asr650x_general_docs/solar_panel.html>
+   Solar Panel <https://docs.heltec.org/en/node/asr650x/asr650x_general_docs/solar_panel.html>
 
 Related Resources
------------------
+=================
 - Development Framework link on GitHub: https://github.com/HelTecAutomation/CubeCell-Arduino
 - LoRa License Enquiry: https://resource.heltec.cn/search
 - How to use license: https://docs.heltec.org/general/how_to_use_license.html
@@ -56,5 +57,7 @@ Related Resources
 - SnapEmu IoT platform: https://platform.snapemu.com/    
 - Heltec Data Format Document https://docs.heltec.org/general/data_format_document.html
 
+General Docs
+============
  -->[General Docs]<-- <https://docs.heltec.org/general/index.html>
     
