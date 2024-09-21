@@ -5,7 +5,8 @@ CapSule Sensor V3
 `CapSule Sensor V3 <https://heltec.org/project/heltec-capsule-sensor-v3>`_ is a IoT tiny device based on ESP32S3 and SX1262. It has excellent expansibility, and we provides a variety of compatible sensor modules and uploading the relevant code for it, using these resources, even if you are not an expert in IoT development, you can easily build many interesting applications or directly run some open source programs like Meshtastick.
 
 .. image:: ./img/19.jpg
-   :align: center 
+   :align: center
+   :width: 300px 
    
 .. toctree::
    :maxdepth: 2

@@ -4,10 +4,14 @@ Mesh Node T114
 
 Mesh Node T114 is a development board based on nRF52840 and SX1262, supports LoRa communication and Bluetooth 5.0, and provides a variety of power interfaces (5V USB, lithium battery and solar panel), optional 1.14 inch TFT display and GPS module as accessories. 
 
+.. image:: ./img/01.png
+   :align: center
+   
+
 Resources
 ---------
-- `Mesh Node T114 Datasheet <https://resource.heltec.cn/download/Mesh%20Node%20T114/Datasheet.pdf>`_
-- `Mesh Node T114 Schematic Diagram <https://resource.heltec.cn/download/Mesh%20Node%20T114/schematic_diagram.pdf>`_
+- `Mesh Node T114 Datasheet <https://resource.heltec.cn/download/Mesh_Node_T114/Datasheet%20.pdf>`_
+- `Mesh Node T114 Schematic Diagram <https://resource.heltec.cn/download/Mesh_Node_T114/schematic_diagram.pdf>`_
 
 User Manual
 -----------

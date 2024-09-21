@@ -25,28 +25,33 @@ This article describes the installation of the Heltec ESP32 series development f
 - [Via Local File](esp32-via-local-file)
 
 (esp32-via-arduino-board-manager)=
-### Via Arduino IDE
-#### Install Framework
-1. Open Arduino IDE, and click `File`->`Peferences`.
 
-![](img/quick_start/01.png)
+<details>
+  <summary>Via Arduino</summary>
 
-![](img/quick_start/02.png)
+  ### Via Arduino IDE
+  #### Install Framework
+  1. Open Arduino IDE, and click `File`->`Peferences`.
 
-2. **Input the last ESP32 package URL:** [https://resource.heltec.cn/download/package_heltec_esp32_index.json](https://resource.heltec.cn/download/package_heltec_esp32_index.json)
+  ![](img/quick_start/01.png)
 
-![](img/quick_start/03.png)
+  ![](img/quick_start/02.png)
 
-3. Click on the `Boards Manager` icon on the left side, and enter "**heltec esp32**" in the search box that pops up, then select the latest version and click `INSTALL`	.
+  2. **Input the last ESP32 package URL:** [https://resource.heltec.cn/download/package_heltec_esp32_index.json](https://resource.heltec.cn/download/package_heltec_esp32_index.json)
 
-![](img/quick_start/05.png)
+  ![](img/quick_start/03.png)
 
-4. 
+  3. Click on the `Boards Manager` icon on the left side, and enter "**heltec esp32**" in the search box that pops up, then select the latest version and click `INSTALL`	.
+
+  ![](img/quick_start/05.png)
+
 #### Install Heltec Esp32 Library
-Click on the `Library Manager` icon on the left side, search for "HELTEC ESP32", select the latest version and install
 
-![](img/quick_start/lib.png)
+  Click on the `Library Manager` icon on the left side, search for "HELTEC ESP32", select the latest version and install
 
+  ![](img/quick_start/lib.png)
+
+</details>
 ------
 
 (esp32-via-git)=
