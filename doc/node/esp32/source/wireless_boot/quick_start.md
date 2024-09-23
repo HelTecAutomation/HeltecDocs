@@ -3,7 +3,7 @@
 
 This topic describe the quick start and application mode for WirelessBoot .
 
-``` {Tip} WirelessBoot technology is used for devices that do not have an external USB or serial port. You can download firmware, exchange information, and print logs through WiFi. Therefor, devices no longer requires a USB-UART bridge, which can reduce the hardware cost of the system and reduce device size.
+``` {info} WirelessBoot technology is used for devices that do not have an external USB or serial port. You can download firmware, exchange information, and print logs through WiFi. Therefor, devices no longer requires a USB-UART bridge, which can reduce the hardware cost of the system and reduce device size.
 
 ```
 
@@ -17,11 +17,11 @@ For **devices without WirelessBoot firmware**, follow the steps below.
 
 1. Download the relevant WirelessBoot firmware.
 
-[Heltec WirelessBoot Firmware download page](https://resource.heltec.cn/download/WirelessBoot)
+   - [Heltec WirelessBoot Firmware download page](https://resource.heltec.cn/download/WirelessBoot)
 
 2. Download and install ESP32 flash tool.
 
-[Esp32 Flash tool](https://www.espressif.com.cn/sites/default/files/tools/flash_download_tool_3.9.7_1.zip)
+   - [Esp32 Flash tool](https://www.espressif.com.cn/sites/default/files/tools/flash_download_tool_3.9.7_1.zip)
 
 3. Connect the hardware serial port. Devices like Capsule Sensor V3 may require proprietary tools, which you can purchase from [Heltec Automation](https://heltec.org/).
 

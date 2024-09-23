@@ -12,22 +12,26 @@ This article describes the installation of the Heltec ESP32 series development f
 ------
 
 ## Preparation
-1. **USB driver**, you can refer to this articles [establish serial connection](https://docs.heltec.org/general/establish_serial_connection.html).
-2. [Install Git and Arduino IDE](https://docs.heltec.org/general/how_to_install_git_and_arduino.html).
+### Hardware
+- [Heltec ESP32 Series Node](https://heltec.org/product-category/lora/lrnode/esp32-lora/)
+- High quality USB_Type_C cable
+
+``` {tip} Some cables only charge and do not transfer data, so you need to avoid this when uploading code.
+```
+
+### Software
+- **USB driver**, you can refer to this articles [establish serial connection](https://docs.heltec.org/general/establish_serial_connection.html).
+- [Install Git and Arduino IDE](https://docs.heltec.org/general/how_to_install_git_and_arduino.html).
 
 ------
 
 ## Installing development framework and Library
 **There are three methods to install the development framework, choose one of they:**
 
-- [Via Arduino IDE](esp32-via-arduino-board-manager)
-- [Via Git](esp32-via-git)
-- [Via Local File](esp32-via-local-file)
-
 (esp32-via-arduino-board-manager)=
 
 <details>
-  <summary>Via Arduino</summary>
+  <summary><span style='color:red'>Via Arduino Board Manager</span></summary>
 
   ### Via Arduino IDE
   #### Install Framework
@@ -52,11 +56,18 @@ This article describes the installation of the Heltec ESP32 series development f
   ![](img/quick_start/lib.png)
 
 </details>
+
 ------
 
 (esp32-via-git)=
 
+<details>
+  <summary><span style='color:red'>Via Git</span></summary>
+
 ### Via Git
+
+``` {note} It is recommended to follow the path and file name as described below as much as possible to avoid unnecessary trouble.
+```
 
 1. Installing Git.
 
@@ -71,14 +82,26 @@ This article describes the installation of the Heltec ESP32 series development f
 ``` {TIP} After obtaining updates through "git pull", please execute "get. exe" under the path of "Arduino\hardware\heltec\esp32\tools" to obtain the latest compilation tool.
 ```
 
-3. The above is the framework installation. If you need to install the Heltec ESP32 extension library, you can refer to this link:[Heltec ESP32 Series Library](https://github.com/HelTecAutomation/Heltec_ESP32)
+3. The above is the framework installation. If you need to install the Heltec ESP32 extension library, you can refer to this link:
+    - [Heltec ESP32 Series Library](https://github.com/HelTecAutomation/Heltec_ESP32)
+
+Follow the instructions in the `Readme.MD` to install.
+
+<details>
 
 ------
 
 (esp32-via-local-file)=
 
+<details>
+  <summary><span style='color:red'>Via Local File</span></summary>
+
 ### Via Local File
-1. Download the development environment. [https://resource.heltec.cn/download/tools/esp32.zip](https://resource.heltec.cn/download/tools/esp32.zip)
+
+``` {note} It is recommended to follow the path and file name as described below as much as possible to avoid unnecessary trouble.
+```
+
+1. Download the development environment. [https://resource.heltec.cn/download/tools/framework](https://resource.heltec.cn/download/tools/framework)
 
 2. Open Arduino IDE, and click `File`->`Peferences`.
 
@@ -111,6 +134,8 @@ This article describes the installation of the Heltec ESP32 series development f
 9. For special code library, search for "HELTEC ESP32" in `Library Manager`, select the latest version and install:[ESP32 Series Library](https://github.com/HelTecAutomation/Heltec_ESP32). 
 
 ![](img/quick_start/lib.png)
+
+<details>
 
 ------
 
