@@ -28,8 +28,6 @@ This article describes the installation of the Heltec ESP32 series development f
 ## Installing development framework and Library
 **There are three methods to install the development framework, choose one of they:**
 
-(esp32-via-arduino-board-manager)=
-
 <details>
   <summary><span style='color:red'>Via Arduino Board Manager</span></summary>
 
@@ -49,17 +47,13 @@ This article describes the installation of the Heltec ESP32 series development f
 
   ![](img/quick_start/05.png)
 
-#### Install Heltec Esp32 Library
+ #### Install Heltec Esp32 Library
 
   Click on the `Library Manager` icon on the left side, search for "HELTEC ESP32", select the latest version and install
 
   ![](img/quick_start/lib.png)
-
 </details>
 
-------
-
-(esp32-via-git)=
 
 <details>
   <summary><span style='color:red'>Via Git</span></summary>
@@ -86,8 +80,8 @@ This article describes the installation of the Heltec ESP32 series development f
       - [Heltec ESP32 Series Library](https://github.com/HelTecAutomation/Heltec_ESP32)
 
   Follow the instructions in the `Readme.MD` to install.
-
 <details>
+
 <details>
   <summary><span style='color:red'>Via Local File</span></summary>
 
@@ -129,10 +123,9 @@ This article describes the installation of the Heltec ESP32 series development f
   9. For special code library, search for "HELTEC ESP32" in `Library Manager`, select the latest version and install:[ESP32 Series Library](https://github.com/HelTecAutomation/Heltec_ESP32). 
 
   ![](img/quick_start/lib.png)
-
 <details>
 
-------
+------------
 
 ## Programming
 Once you have the framework and libraries installed, connect your computer to the board and start programming nodes.
@@ -155,7 +148,7 @@ Once you have the framework and libraries installed, connect your computer to th
 
 ![](img/quick_start/10.png)
 
-------
+-----------
 
 ### New program
 Open Arduino IDE, create a new  `.ino` file, then copy the below code.
