@@ -64,107 +64,100 @@ This article describes the installation of the Heltec ESP32 series development f
 <details>
   <summary><span style='color:red'>Via Git</span></summary>
 
-### Via Git
+  ### Via Git
 
-``` {note} It is recommended to follow the path and file name as described below as much as possible to avoid unnecessary trouble.
-```
+  ``` {note} It is recommended to follow the path and file name as described below as much as possible to avoid unnecessary trouble.
+  ```
 
-1. Installing Git.
+  1. Installing Git.
 
-2. Check the following links for your operating system, the specific operation steps are detailed in the link:
-- [For Windows](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/InstallGuide/windows.md)
-- [For MacOS](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/InstallGuide/mac.md)
-- For Linux
-  - [Debian/Ubuntu](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/InstallGuide/debian_ubuntu.md)
-  - [Fedora](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/InstallGuide/fedora.md)
-  - [OpenSUSE](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/InstallGuide/opensuse.md)
+  2. Check the following links for your operating system, the specific operation steps are detailed in the link:
+  - [For Windows](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/InstallGuide/windows.md)
+  - [For MacOS](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/InstallGuide/mac.md)
+  - For Linux
+    - [Debian/Ubuntu](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/InstallGuide/debian_ubuntu.md)
+    - [Fedora](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/InstallGuide/fedora.md)
+    - [OpenSUSE](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/InstallGuide/opensuse.md)
 
-``` {TIP} After obtaining updates through "git pull", please execute "get. exe" under the path of "Arduino\hardware\heltec\esp32\tools" to obtain the latest compilation tool.
-```
+  ``` {TIP} After obtaining updates through "git pull", please execute "get. exe" under the path of "Arduino\hardware\heltec\esp32\tools" to obtain the latest compilation tool.
+  ```
 
-3. The above is the framework installation. If you need to install the Heltec ESP32 extension library, you can refer to this link:
-    - [Heltec ESP32 Series Library](https://github.com/HelTecAutomation/Heltec_ESP32)
+  3. The above is the framework installation. If you need to install the Heltec ESP32 extension library, you can refer to this link:
+      - [Heltec ESP32 Series Library](https://github.com/HelTecAutomation/Heltec_ESP32)
 
-Follow the instructions in the `Readme.MD` to install.
+  Follow the instructions in the `Readme.MD` to install.
 
 <details>
-
-------
-
-(esp32-via-local-file)=
-
 <details>
   <summary><span style='color:red'>Via Local File</span></summary>
 
-### Via Local File
+  ### Via Local File
 
-``` {note} It is recommended to follow the path and file name as described below as much as possible to avoid unnecessary trouble.
-```
+  ``` {note} It is recommended to follow the path and file name as described below as much as possible to avoid unnecessary trouble.
+  ```
 
-1. Download the development environment. [https://resource.heltec.cn/download/tools/framework](https://resource.heltec.cn/download/tools/framework)
+  1. Download the development environment. [https://resource.heltec.cn/download/tools/framework](https://resource.heltec.cn/download/tools/framework)
 
-2. Open Arduino IDE, and click `File`->`Peferences`.
+  2. Open Arduino IDE, and click `File`->`Peferences`.
 
-![](img/quick_start/01.png)
+  ![](img/quick_start/01.png)
 
-3. Go to the folder in the red box.
+  3. Go to the folder in the red box.
 
-![](img/quick_start/16.png)
+  ![](img/quick_start/16.png)
 
-4. Create a new "hardware" folder in the Arduino folder. If there is already a "hardware" folder, you don't need to create a new one.
+  4. Create a new "hardware" folder in the Arduino folder. If there is already a "hardware" folder, you don't need to create a new one.
 
-![](img/quick_start/17.png)
+  ![](img/quick_start/17.png)
 
-5. Creat a new "heltec" folder in "hardware" folder.
+  5. Creat a new "heltec" folder in "hardware" folder.
 
-![](img/quick_start/heltecfolder.png)
+  ![](img/quick_start/heltecfolder.png)
 
-6. Go to the "heltec" folder and extract "esp32" into this folder.
+  6. Go to the "heltec" folder and extract "esp32" into this folder.
 
-![](img/quick_start/18.png)
+  ![](img/quick_start/18.png)
 
-7. Go to the "heltec" folder, refer to the figure below to confirm whether the path in the red box is correct.
+  7. Go to the "heltec" folder, refer to the figure below to confirm whether the path in the red box is correct.
 
-![](img/quick_start/19.png)
+  ![](img/quick_start/19.png)
 
-8. Restart the Arduino IDE to confirm whether the development environment is installed successfully.
+  8. Restart the Arduino IDE to confirm whether the development environment is installed successfully.
 
-![](img/quick_start/20.png)
+  ![](img/quick_start/20.png)
 
-9. For special code library, search for "HELTEC ESP32" in `Library Manager`, select the latest version and install:[ESP32 Series Library](https://github.com/HelTecAutomation/Heltec_ESP32). 
+  9. For special code library, search for "HELTEC ESP32" in `Library Manager`, select the latest version and install:[ESP32 Series Library](https://github.com/HelTecAutomation/Heltec_ESP32). 
 
-![](img/quick_start/lib.png)
+  ![](img/quick_start/lib.png)
 
 <details>
 
 ------
 
-## Running Example
+## Programming
+Once you have the framework and libraries installed, connect your computer to the board and start programming nodes.
 
-This section for verifying whether you can program with Arduino or not. Now, The USB cable connects to Heltec ESP32 board, then select your serial port which is connected to Heltec ESP32 board.
+### Example
+1. Connect your node to the computer with a USB cable.
 
-Select a demo example, compile and upload.
-
-### Execute an example 
-Correctly select a board and relevant options in the `Tools` menu:
+2. Open Arduino IDE, Correctly select a board and relevant options in the `Tools` menu:
 
 ![](img/quick_start/08.png)
 
-Then select an example.
+3. Then select an example.
 
 ![](img/quick_start/09.jpg)
 
 ``` {Tip} To execute the code in a library, you need to mouse over, scroll down, find the library, and find the code in it.
-
 ```
 
-Compile & Upload
+4. Compile & Upload
 
 ![](img/quick_start/10.png)
 
 ------
 
-### New a Heltec ESP32 program
+### New program
 Open Arduino IDE, create a new  `.ino` file, then copy the below code.
 
 ```arduino

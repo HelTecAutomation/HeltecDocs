@@ -4,8 +4,8 @@ Heltec ESP32 Series
 
 This document organizes the Heltec-ESP32 series development boards and modules.
 
-- `Heltec esp32 framework <https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series>`_
-- `Heltec esp32 library <https://github.com/HelTecAutomation/Heltec_ESP32>`_
+   - `Heltec esp32 framework <https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series>`_
+   - `Heltec esp32 library <https://github.com/HelTecAutomation/Heltec_ESP32>`_
 
 .. toctree::
    :maxdepth: 1
