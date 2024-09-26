@@ -27,12 +27,14 @@ This article describes the installation of the Heltec ESP32 series development f
 
 ## Installing development framework and Library
 **There are three methods to install the development framework, choose one of they:**
+- [Via Arduino IDE](esp32-via_arduino_ide)
+- [Via Git](esp32-via_git)
+- [Via Local File](esp32-via_local)
 
-<details>
-  <summary><span style='color:red'>Via Arduino Board Manager</span></summary>
+(esp32-via_arduino_ide)=
 
-  ### Via Arduino IDE
-  #### Install Framework
+### Via Arduino IDE
+#### Install Framework
   1. Open Arduino IDE, and click `File`->`Peferences`.
 
   ![](img/quick_start/01.png)
@@ -47,18 +49,15 @@ This article describes the installation of the Heltec ESP32 series development f
 
   ![](img/quick_start/05.png)
 
- #### Install Heltec Esp32 Library
+#### Install Heltec Esp32 Library
 
   Click on the `Library Manager` icon on the left side, search for "HELTEC ESP32", select the latest version and install
 
   ![](img/quick_start/lib.png)
-</details>
 
+(esp32-via_git)=
 
-<details>
-  <summary><span style='color:red'>Via Git</span></summary>
-
-  ### Via Git
+### Via Git
 
   ``` {note} It is recommended to follow the path and file name as described below as much as possible to avoid unnecessary trouble.
   ```
@@ -80,12 +79,10 @@ This article describes the installation of the Heltec ESP32 series development f
       - [Heltec ESP32 Series Library](https://github.com/HelTecAutomation/Heltec_ESP32)
 
   Follow the instructions in the `Readme.MD` to install.
-<details>
 
-<details>
-  <summary><span style='color:red'>Via Local File</span></summary>
+(esp32-via_local)=
 
-  ### Via Local File
+### Via Local File
 
   ``` {note} It is recommended to follow the path and file name as described below as much as possible to avoid unnecessary trouble.
   ```
@@ -123,13 +120,11 @@ This article describes the installation of the Heltec ESP32 series development f
   9. For special code library, search for "HELTEC ESP32" in `Library Manager`, select the latest version and install:[ESP32 Series Library](https://github.com/HelTecAutomation/Heltec_ESP32). 
 
   ![](img/quick_start/lib.png)
-<details>
 
 ------------
 
 ## Programming
-Once you have the framework and libraries installed, connect your computer to the board and start programming nodes.
-
+ Once you have the framework and libraries installed, connect your computer to the board and start programming nodes.
 ### Example
 1. Connect your node to the computer with a USB cable.
 
