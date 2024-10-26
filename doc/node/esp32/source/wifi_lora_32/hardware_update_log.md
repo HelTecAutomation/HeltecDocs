@@ -79,4 +79,17 @@
 - Remove the ideal diode part.
 - Increase the 2.4G RF and crystal distance.
 - Change the USB-Type-C port to support C to C.
+
+## V3.2
+The new [Schematic Diagram](https://resource.heltec.cn/download/WiFi_LoRa_32_V3/HTIT-WB32LA(F)_V3.1_Schematic_Diagram.pdf)
+
+- Vext changed to LDO.
+
+- Modified the layout according to espressif's suggestions for changes.
+
+- Modify the problem of easy adhesion of some parts.
+
+- The charging chip is changed to LGS4056H.
+
+- Modified voltage detection circuit, now need to pull up Vext(GPIO 36) pin.
   
