@@ -17,6 +17,7 @@ HT-M7603 is a high cost-effective indoor standard LoRaWAN gateway, which can be 
     
     Quick Start <quick_start>
     Connect to LoRa server <connect_to_server>
+    Connect to Snapemu <connect_to_snapemu>
     Enable MQTT<mqtt>
     Frequently Asked Questions <frequently_asked_questions>
     -->[General Docs]<-- <https://docs.heltec.org/general/index.html>
