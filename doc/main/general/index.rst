@@ -27,3 +27,4 @@ This document is used to solve some common problems.
    LoRa Node To Node <lora_node_to_node>
    How to install MicPython Firmware Via Thonny <how_to_install_micpython_firmware>
    Data Format Document<data_format_document>
+   Define Sensor Decoding function on snapemu <define_sensor_decoding_function_on_snapemu>
