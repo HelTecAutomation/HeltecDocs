@@ -91,5 +91,5 @@ The new [Schematic Diagram](https://resource.heltec.cn/download/WiFi_LoRa_32_V3/
 
 - The charging chip is changed to LGS4056H.
 
-- Modified voltage detection circuit, now need to pull up Vext(GPIO 36) pin.
+- Modified voltage detection circuit, now need to pull up the ADC_Ctrl(GPIO 37).
   
