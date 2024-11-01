@@ -13,9 +13,9 @@ Related Resources
 .. toctree::
    :maxdepth: 1
 
-   Datasheet <https://resource.heltec.cn/download/HT-VME290/HT-VME213%20Datasheet.pdf>
-   Schematic diagram <https://resource.heltec.cn/download/HT-VME290/HT-VME213%20Schematic%20Diagram.pdf>
-   Pin Map <https://resource.heltec.cn/download/HT-VME290/HT-VME213%20pin%20map.png>
+   Datasheet <https://resource.heltec.cn/download/HT-VME290/HT-VME290%20Datasheet.pdf>
+   Schematic diagram <https://resource.heltec.cn/download/HT-VME290/HT-VME290%20Schematic_Diagram.pdf>
+   Pin Map <https://resource.heltec.cn/download/HT-VME290/HT-VME290%20Pin%20map.png>
    Hardware Update Log <hardware_update_log>
 
 Get Start
