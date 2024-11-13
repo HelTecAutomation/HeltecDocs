@@ -25,6 +25,7 @@ The HT-M2802 has the following features:
     
     Quick Start <quick_start>
     Coneect to LoRa server <connect_to_server>
+    Connect to Snapemu <connect_to_snapemu>
     M2802 Install TTS through Docker <tts-docker>
     Frequently Asked Questions <frequently_asked_questions>
     -->[General Docs]<-- <https://docs.heltec.org/general/index.html>

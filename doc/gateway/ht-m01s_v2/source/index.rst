@@ -16,5 +16,6 @@ HT-M01S (Rev. 2.0) has basic mechanical protection and dustproof structure, but 
     
     Quick Start <quick_start>
     Connect to LoRa server <connect_to_server>
+    Connect to Snapemu <connect_to_snapemu>
     Update Firmware <update_firmware>
     -->[General Docs]<-- <https://docs.heltec.org/general/index.html>
