@@ -5,7 +5,7 @@ ESP32 General Docs
 .. toctree::
    :maxdepth: 1
     
-    Get start(Framework and library installation)<quick_start>
+    Get Started(Framework and library installation)<quick_start>
     Installing Libraries Only <esp32_library>
     LoRaWAN<lorawan/index>
     Meshtastic Introduction <meshtastick>

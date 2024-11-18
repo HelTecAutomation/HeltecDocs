@@ -62,7 +62,7 @@ This article describes the installation of the Heltec ESP32 series development f
  **Heltec Frame Work** already includes a lot of basic sample code, such as WIFI, BLE, I2C, SPI, HTTP, etc.
 
  **Heltec ESP32 Library** depends on Heltec Frame Work, which contains additional extended examples such as LoRa/LoRaWAN related examples, factory test code, display related example code, Sensor example code, GPS example code, and more.
-  
+
  Click on the `Library Manager` icon on the left side, search for "HELTEC ESP32", select the latest version and install
 
   ![](img/quick_start/lib.png)
@@ -156,7 +156,7 @@ Once you have the framework and libraries installed, connect your computer to th
 
 4. To execute the code in a library, you need to mouse over, scroll down, find the library, and find the code in it.
 
-![](img/execute/09.png)
+![](img/quick_start/execute.png)
 
 5. Compile & Upload
 
