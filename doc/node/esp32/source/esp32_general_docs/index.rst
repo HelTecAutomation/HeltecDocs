@@ -5,9 +5,9 @@ ESP32 General Docs
 .. toctree::
    :maxdepth: 1
     
-    Framework and library installation<quick_start>
+    Get start(Framework and library installation)<quick_start>
+    Installing Libraries Only <esp32_library>
     LoRaWAN<lorawan/index>
     Meshtastic Introduction <meshtastick>
     Connect to Snapemu <connect_to_snapemu>
     Heltec General Docs <https://docs.heltec.org/general/index.html>
-    

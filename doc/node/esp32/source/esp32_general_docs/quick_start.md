@@ -3,29 +3,37 @@
 
 This article describes the installation of the Heltec ESP32 series development framework and library.
 
-``` {tip} LoRaWAN related code has been stripped since version 3.0.0. Heltec ESP32 framework only contains the basic code now, For the special ESP32 codes, For example, LoRa/LoRaWAN related, display function related, factory test code, etc. please install [Heltec ESP32 Series Library](https://github.com/HelTecAutomation/Heltec_ESP32), In this topic, we'll also explain how to install the library.
-```
+[Heltec ESP32 Frame Work](installing_development_framework_and_library) already includes a lot of basic sample code, such as WIFI, BLE, I2C, SPI, HTTP, etc.
+
+[Heltec ESP32 Library](library) depends on Heltec Frame Work, which contains additional extended examples such as LoRa/LoRaWAN related examples, factory test code, display related example code, Sensor example code, GPS example code, and more.
 
 ``` {warning} Framework v3.0.0 and Library v2.0.0 are updated together, Older frameworks and libraries are no longer applicable to the new ones.
 ```
 
+- [Preparation](preparation)
+- [Installing development framework and library](installing_development_framework_and_library)
+- [PROGRAMING](programming)
+
 ------
 
+(preparation)=
 ## Preparation
 ### Hardware
-- [Heltec ESP32 Series Node](https://heltec.org/product-category/lora/lrnode/esp32-lora/)
-- High quality USB_Type_C cable
+  - [Heltec ESP32 Series Node](https://heltec.org/product-category/lora/lrnode/esp32-lora/)
+  - High quality USB_Type_C cable
 
 ``` {tip} Some cables only charge and do not transfer data, so you need to avoid this when uploading code.
 ```
 
 ### Software
-- **USB driver**, you can refer to this articles [establish serial connection](https://docs.heltec.org/general/establish_serial_connection.html).
-- [Install Git and Arduino IDE](https://docs.heltec.org/general/how_to_install_git_and_arduino.html).
+  - **USB driver**, you can refer to this articles [establish serial connection](https://docs.heltec.org/general/establish_serial_connection.html).
+  - [Install Git and Arduino IDE](https://docs.heltec.org/general/how_to_install_git_and_arduino.html).
 
 ------
 
-## Installing development framework and Library
+(installing_development_framework_and_library)=
+
+## Installing development framework and library
 **There are three methods to install the development framework, choose one of they:**
 - [Via Arduino IDE](esp32-via_arduino_ide)
 - [Via Git](esp32-via_git)
@@ -34,7 +42,7 @@ This article describes the installation of the Heltec ESP32 series development f
 (esp32-via_arduino_ide)=
 
 ### Via Arduino IDE
-#### Install Framework
+
   1. Open Arduino IDE, and click `File`->`Peferences`.
 
   ![](img/quick_start/01.png)
@@ -49,11 +57,17 @@ This article describes the installation of the Heltec ESP32 series development f
 
   ![](img/quick_start/05.png)
 
-#### Install Heltec Esp32 Library
+  4. Install Heltec Esp32 Extended library
 
-  Click on the `Library Manager` icon on the left side, search for "HELTEC ESP32", select the latest version and install
+ **Heltec Frame Work** already includes a lot of basic sample code, such as WIFI, BLE, I2C, SPI, HTTP, etc.
+
+ **Heltec ESP32 Library** depends on Heltec Frame Work, which contains additional extended examples such as LoRa/LoRaWAN related examples, factory test code, display related example code, Sensor example code, GPS example code, and more.
+  
+ Click on the `Library Manager` icon on the left side, search for "HELTEC ESP32", select the latest version and install
 
   ![](img/quick_start/lib.png)
+
+--------
 
 (esp32-via_git)=
 
@@ -75,10 +89,12 @@ This article describes the installation of the Heltec ESP32 series development f
   ``` {TIP} After obtaining updates through "git pull", please execute "get. exe" under the path of "Arduino\hardware\heltec\esp32\tools" to obtain the latest compilation tool.
   ```
 
-  3. The above is the framework installation. If you need to install the Heltec ESP32 extension library, you can refer to this link:
+  3. The above is the framework installation. If you need to install the Heltec ESP32 extended library, you can refer to this link:
       - [Heltec ESP32 Series Library](https://github.com/HelTecAutomation/Heltec_ESP32)
 
   Follow the instructions in the `Readme.MD` to install.
+
+--------
 
 (esp32-via_local)=
 
@@ -87,7 +103,7 @@ This article describes the installation of the Heltec ESP32 series development f
   ``` {note} It is recommended to follow the path and file name as described below as much as possible to avoid unnecessary trouble.
   ```
 
-  1. Download the development environment. [https://resource.heltec.cn/download/tools/framework](https://resource.heltec.cn/download/tools/framework)
+  1. Download the development environment. [Download Framework](https://resource.heltec.cn/download/tools/WiFi_Kit_series.zip)
 
   2. Open Arduino IDE, and click `File`->`Peferences`.
 
@@ -123,8 +139,10 @@ This article describes the installation of the Heltec ESP32 series development f
 
 ------------
 
+(programming)=
+
 ## Programming
- Once you have the framework and libraries installed, connect your computer to the board and start programming nodes.
+Once you have the framework and libraries installed, connect your computer to the board and start programming nodes.
 ### Example
 1. Connect your node to the computer with a USB cable.
 
@@ -136,12 +154,16 @@ This article describes the installation of the Heltec ESP32 series development f
 
 ![](img/quick_start/09.jpg)
 
-``` {Tip} To execute the code in a library, you need to mouse over, scroll down, find the library, and find the code in it.
-```
+4. To execute the code in a library, you need to mouse over, scroll down, find the library, and find the code in it.
 
-4. Compile & Upload
+![](img/execute/09.png)
+
+5. Compile & Upload
 
 ![](img/quick_start/10.png)
+
+``` {tip} If you cannot upload the code, please manually enter the BOOTLOADER mode: hold down the PRG (USER/BOOT) key and do not release it, press the RST key once, and then release the PRG (USER/BOOT).
+```
 
 -----------
 
