@@ -53,34 +53,32 @@ void downLinkDataHandle(McpsIndication_t *mcpsIndication) {
 
 ***Note: Send commands in hexadecimal format.***
 
-
-
-![](img/downLinkdata_example_on_snapemu/1.png)
+![](img/downlinkdata_example_on_snapemu/1.png)
 
 3.Users can view the commands sent in the log.
 
 ***Note: The data in the log is encoded in base64 format.***
 
-![](img/downLinkdata_example_on_snapemu/2.png)
+![](img/downlinkdata_example_on_snapemu/2.png)
 
 After the platform issues command 1, the power will be turned off and the sensor values cannot be read.
 
 **Serial port display:**
 
-![](img/downLinkdata_example_on_snapemu/3.png)
+![](img/downlinkdata_example_on_snapemu/3.png)
 
 **Snapemu display:**
 
-![](img/downLinkdata_example_on_snapemu/4.png)
+![](img/downlinkdata_example_on_snapemu/4.png)
 
 If the platform issues command 2, the power will turn on and the sensor values can be read correctly.
 
-![](img/downLinkdata_example_on_snapemu/5.png)
+![](img/downlinkdata_example_on_snapemu/5.png)
 
 **Serial port display:**
 
-![](img/downLinkdata_example_on_snapemu/6.png)
+![](img/downlinkdata_example_on_snapemu/6.png)
 
 **Snapemu display:**
 
-![](img/downLinkdata_example_on_snapemu/7.png)
+![](img/downlinkdata_example_on_snapemu/7.png)
