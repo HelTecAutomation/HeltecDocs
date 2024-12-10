@@ -75,6 +75,7 @@ Here are the LoRa Gateways produced by Heltec Automation. You will be able to fi
    :caption: Wi-Fi HaLow
    
    HT-H7608(Wi-Fi HaLow Router) <https://docs.heltec.org/en/wifi_halow/ht-h7608/index.html>
+   HT-HC01(Wi-Fi HaLow Module) <https://docs.heltec.org/en/wifi_halow/ht-hc01/index.html>
 
 .. toctree::
    :maxdepth: 2
