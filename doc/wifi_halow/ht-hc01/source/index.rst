@@ -29,6 +29,7 @@ Important resources
 
 Pin Layout
 ==========
+HT-HC01 pin Layout
 
 .. image:: ./img/02.png
    :align: center
