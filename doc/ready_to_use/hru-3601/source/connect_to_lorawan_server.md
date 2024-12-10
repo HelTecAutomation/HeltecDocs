@@ -1,34 +1,45 @@
 # Connect to LoRaWAN Server
-Currently HRU-3601 uses LoRaWAN a communication protocol, and this topic aims to describe how HRU-3601 can be connected to LoRaWAN Server.
-## Seting up LoRaWAN Gateway
-Before that, make sure there is a LoRa Gateway active in your [TTN](https://console.thethingsnetwork.org/)/[TTS](https://lora.heltec.org/console) account.
+This topic describes how to upload the data of HRU-3601 to the LoRa server.
+## Register and activate the LoRaWAN gateway
+Before that, you have to make sure that you have a LoRaWAN gateway running on the server. If you do not have a LoRaWAN gateway or do not know how to register, you can refer to the Heltec LoRa gateway related instructions, you can choose one of them:
 
-## Confirm configuration information
-Refer to [Quick Start](https://docs.heltec.org/en/ready2use/hru-3601/quick_start.html) to go to the configuration page of **HRU-3601**.
+- [HT-M02 Edge LoRa Gateway](https://docs.heltec.org/en/gateway/ht-m02_v2/index.html)
+- [HT-M7603 Indoor LoRa Gateway ](https://docs.heltec.org/en/gateway/ht-m7603/index.html)
+- [HT-M2802 Indoor LoRa Gateway](https://docs.heltec.cn/en/gateway/ht-m2802/index.html)
+- [HT-M01S (Rev. 2.0)](https://docs.heltec.org/en/gateway/ht-m01s_v2/index.html)
 
-``` {Tip} In order to explain the corresponding positions of various parameters in the server, we will fill in the specific numbers here, and please fill in the actual use according to your own needs.
+## Register and activate HRU-3601
+### Get configuration information
 
-```
+Go to the configuration page to get the configuration information for your device, which you'll learn about in the previous topic:
+[HRU-3601 Quickstart](https://docs.heltec.org/en/ready_to_use/hru-3601/quick_start.html)
 
-![](img/4.png)
+Modify, submit, and save the information on this page to your needs, and they will be used for subsequent registration.
 
-The details of the introduction of each parameter are as follows:
-+ `network access mode` choose `OTAA` or `ABP`, .
-+ `devEui` Your node ID, you can fill in your own, must be 16 hexadecimal digits, such as "2233445566778898".
-+ `appEui` Feel free to fill it out, must be 16 hexadecimal digits, such as "0000000000000000".
-+ `appKey` Feel free to fill it out, must be 32 hexadecimal digits, "88888888888888888888888888888888".
-+ `appIxDutyCycle unit:S` the transmission interval of the LoRa signal.
-+ `appPort` free choice.
-+ `channel start` `channel end` Align with the gateway, For example, if you want to select 0~7, fill in 0 and 7.
-+ `loraWanClass` The communication mode of LoRaWAN, we can choose `CLASS A` or `CLASS C`.
-+ `isTxConfirmed` Uplink receives confirmation whether it is enabled or not.
-+ `adr` Whether data rate adaptation is enabled.
+![](img/04.png)
 
-``` {Tip} The above is the configuration page in OTAA mode. If ABP needs to be used, the configuration will be slightly different.
+## Connect to LoRa server
 
-```
+[TTS](https://eu1.cloud.thethings.network/console/applications) and [SnapEmu](platform.snapemu.com) are taken as examples here.
 
-## Registering node on server
+- [TTN/TTS](ttn/tts)
+- [SnapEmu](snapemu)
+
+(ttn/tts)=
+
+#### Connect to TTN/TTS
+
+Go to the server page and click `Application`->`Add Application`.
+
+![](img/10.png)
+
+Create an Application. You can fill in any information you want. This is a description of your project.
+
+![](img/11.png)
+
+Click `Register end device`
+
+![](img/12.png)
 
 Register a new device in TTN or TTS "Applications",choose `Enter end device specifics manually`.
 
@@ -54,6 +65,22 @@ Click `payload formatters`, select `Custom Javascript formatter`, and enter deco
 Click `Save change` and move the mouse to the uplink data output to view the data uploaded by HRU-3601.
 
 ![](img/9.png)
+
+(snapemu)=
+
+#### Connect to SnapEmu
+
+Log into your account on **platform.snapemu.com**, click `device`, `CREATE A NEW DEVICE`.
+
+ *If you're using an APP,click `+` ,select `input`.*
+
+![](img/platformcreate.png)
+
+Fill in the device information.
+
+![](img/platformregister.png)
+
+After registration is complete, if all is well, you will see the device active.
 
 
 

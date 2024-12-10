@@ -13,6 +13,6 @@ On the premise of no hardware problem, LoRa nodes can communicate with each othe
 7.  the same `SPREADING FACTOR`;
 
 ## Example
-*Comming Soon*
+*Coming Soon*
 
 Know more information about LoRa node-to-node communication, please refer to LoRa basic library APIs: `https://github.com/HelTecAutomation/Heltec_ESP32/blob/master/src/lora/API.md`

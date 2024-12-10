@@ -3,6 +3,7 @@ var P = [
     { text: "LoRa Gateway", value: "gateway"},
     { text: "Nodes", value: "node"},
     { text: "Plug & Play", value: "ready_to_use"},
+    { text: "Wi-Fi HaLow", value: "wifi_halow"}
  ]
 
 
@@ -23,7 +24,7 @@ var prod_obj = {
     node: [
         {text: "Cubecell (ASR650x) Series", value: "asr650x"},
         {text: "ESP32 Series", value: "esp32"},
-        {text: "Mesh Node T114", value: "nrf"},
+        {text: "NRF Series", value: "nrf"},
         {text: "STM32 Series", value: "stm32"},
         {text: "Sufficient IoT Hub", value: "sufficient_iot_hub"},
         {text: "HT-AT62", value: "ht-at62"},
@@ -39,6 +40,9 @@ var prod_obj = {
         {text:"HRI-3632", value: "hri-3632"},
         {text:"HRI-3633", value: "hri-3633"},
         {text:"Juction Box", value: "junction_box"},
+    ],
+    wifi_halow: [
+        {text:"HT-H7608", value: "ht-h7608"},
     ],
 }
 
