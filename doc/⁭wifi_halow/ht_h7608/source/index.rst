@@ -11,7 +11,7 @@ H7608 is equipped with powerful hardware including advanced RF capabilities, hig
 
 .. image:: ./img/01.png
    :align: center
-   :width: 1000px 
+   :width: 500x 
 
 Feature
 -------
@@ -33,7 +33,7 @@ Connect the device power, the device RGB light is red, indicating that the devic
 
 .. image:: ./img/02.png
    :align: center
-   :width: 800px 
+   :width: 500px 
 
 .. warning:: This is a note admonition.
    Do not enter configuration mode while connected to a network cable. If you do this accidentally, disconnect the power and reconnect.
@@ -44,13 +44,13 @@ Press the button with the SIM needle for 3 seconds until the yellow light is on 
 
 .. image:: ./img/03.png
    :align: center
-   :width: 800px 
+   :width: 500px 
 
 Using the configuration tool (PC or mobile), find the WiFi named "HT-H7608-xxxx-2G" and connect to it. The default password is "heltec.org".
 
 .. image:: ./img/04.png
    :align: center
-   :width: 800px
+   :width: 500px
 
 Enter "10.42.0.1" in your browser to navigate to the configuration page, the default account as "root" and password as "heltec.org".
 
@@ -75,9 +75,10 @@ Related resource
 ----------------
 You can find most resources related to HT-H7608 at:
 
-`HT-HT7608 Resource Station <https://resource.heltec.cn/download/HT-H7608>`_
+`HT-H7608 Resource page <https://resource.heltec.cn/download/HT-H7608>`_
 
 Frequently asked questions
 --------------------------
 1. After going into configuration mode, I couldn't find the Wi-Fi in configuration mode.
+   
    - Do not connect the cable while in configuration mode. If this happens, you will need to unplug the cable and power, and start again without the network cable.

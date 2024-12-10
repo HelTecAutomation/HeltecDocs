@@ -20,6 +20,7 @@ For a whole LoRaWAN communication process, a server is must needed, LoRaWAN serv
 - `ChirpStack <https://www.chirpstack.io>`_
 - `TTN <https://www.thethingsnetwork.org/>`_
 - `Heltec LoRaWAN Test Server <https://lora.heltec.org/>`_
+- `SnapEmu Platform <https://platform.snapemu.com/>`_
 
 .. note:: We highly recommend use `Heltec LoRaWAN Test Server <https://lora.heltec.org/>`_, it's a ready to use LoRa server based on TTS V3, users can login with Heltec website account.
 
@@ -68,6 +69,13 @@ Here are the LoRa Gateways produced by Heltec Automation. You will be able to fi
    HRI-3632(Wireless Aggregator Bus Transformer) <https://docs.heltec.org/en/ready_to_use/hri-3631/index.html>
    HRI-3633(Wireless Aggregator Valve Controller) <https://docs.heltec.org/en/ready_to_use/hri-3633/index.html>
    Junction Box <https://docs.heltec.org/en/ready_to_use/junction_box/index.html>
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Wi-Fi HaLow
+   
+   HT-H7608(Wi-Fi HaLow Router) <https://docs.heltec.org/en/wifi_halow/ht-h7608/index.html>
+
 .. toctree::
    :maxdepth: 2
    :caption: General Docs
