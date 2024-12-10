@@ -6,8 +6,8 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'ht-m00'
-conf_py_path = '/doc/gateway/ht-m00/source/'
+project = 'ht-h7608'
+conf_py_path = '/doc/wifi_halow/ht-h7608/source/'
 
 copyright = '2022, shug'
 author = 'shug'
