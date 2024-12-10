@@ -1,6 +1,6 @@
-*********
-HT-HC01
-*********
+
+**HT-HC01**
+
 :ht_translation:`[简体中文]:[English]`
 
 Introduction
@@ -32,9 +32,6 @@ Pin Layout
 
 .. image:: ./img/02.png
    :align: center
-   :scale: 60%
-
-   HT-HC01 Pin Layout (click to enlarge)
 
 
 SDK Setup
