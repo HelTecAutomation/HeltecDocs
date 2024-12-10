@@ -50,7 +50,7 @@ Using the configuration tool (PC or mobile), find the WiFi named "HT-H7608-xxxx-
 
 .. image:: ./img/04.png
    :align: center
-   :width: 500px
+   :width: 300px
 
 Enter "10.42.0.1" in your browser to navigate to the configuration page, the default account as "root" and password as "heltec.org".
 
@@ -64,12 +64,11 @@ HT-H7608 has three typical working modes, please configure according to the spec
 .. image:: ./img/06.png
    :align: center
 
-.. toctree::
-   :maxdepth: 1
+Click on the following link to get the configuration instructions for the corresponding mode:
 
-   Wi-Fi HaLow Gateway(AP) <gateway>
-   Wi-Fi HaLow Client(STA) <sta>
-   Wi-Fi HaLow Mesh <mesh>
+- `Wi-Fi HaLow Gateway(AP) <https://docs.heltec.org/en/wifi_halow/ht-h7608/gateway.html>`_
+- `Wi-Fi HaLow Client(STA) <https://docs.heltec.org/en/wifi_halow/ht-h7608/sta.html>`_
+- `Wi-Fi HaLow Mesh <https://docs.heltec.org/en/wifi_halow/ht-h7608/mesh.html>`_
 
 Related resource
 ----------------

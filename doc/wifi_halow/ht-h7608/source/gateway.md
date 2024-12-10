@@ -1,43 +1,120 @@
-# Quick Start
+# HT-H7608 Gateway(AP) Mode
 
 {ht_translation}`[简体中文]:[English]`
 
-This topic describes how to configure HT-M7603 quickly.
+This topic describes the use of HT-H7608 Gateway(AP) mode.
+## Summry
+AP mode is a basic operating mode of the HT-H7608. In this mode, the HT-H7608 acts as a Wi-Fi HaLow gateway, connecting other Wi-Fi HaLow nodes to the LAN or the internet.
 
-## Enter configuration page
-1. Power on, find the WiFi named "HT_M7603_xxxx", connect to this WiFi, the password is "**heltec.org**". 
+As shown below:
 
-   ![](img/quick_start/01.png) ![](img/quick_start/10.png) 
+![](img/ap/01.png)
 
-2. Visit "**192.168.8.1**" via the browser, the user name "HT-M7603" and password "heltec.org".
+## Enter Configuration page
 
-   ![](img/quick_start/11.png)
+``` {warning} Do not enter configuration mode while connected to a network cable. If you do this accidentally, disconnect the power and reconnect.
+```
 
-## Main Settings
-![](img/quick_start/02.png)
+1. Press the button with the SIM needle for 3 seconds until the yellow light is on and release it.
 
- - **Switch Region**: Choose the frequency bands and channels you need.
- - **Gateway Mode**: Gateway protocol mode, the default is LoRaWAN; To use MQTT, refer to this link-[MQTT Enble](https://docs.heltec.org/en/gateway/ht-m7603/mqtt.html)
- - **Server address and port**.
+   ![](img/03.png)
 
-Click `Set Gateway` when the configuration is complete.
+2. Using the configuration tool (PC or mobile), find the WiFi named "HT-H7608-xxxx-2G" and connect to it. The default password is "heltec.org".
 
-### Connect to Network
-You can connect via Ethernet or WiFi:
+   ![](img/04.png)
 
-+ **Via Ethernet**: insert the cable directly into the interface, after a successful connection, the device LED will change from blue to green.
-+ **Via WiFi**: Click the "Status "option at the top left, click "WiFi". Select the WiFi you want to connect to in "WIFI list", enter password of this WiFi, click "connect". It usually takes 10-30 seconds for the HT-M7603 to connect to the WiFi, and the device LED.
+3. Enter "10.42.0.1" in your browser to navigate to the configuration page, the default account as "root" and password as "heltec.org".
 
- ![](img/quick_start/03.jpg)
+   ![](img/05.png)
 
-&nbsp;
+## Basic Settings
+1. Enter the configuration page and select "**Standard Wi-Fi HaLow**", click `next`.
 
-## Common Problems and Solutions
+   ![](img/ap/02.png)
 
-- Question: After the WiFi configuration is complete, Web is not responding.
+2. Select "**Access Point**", click `next`.
 
-  Solution: The WiFi connection takes some time (usually under 30 seconds), please refresh the page after the LED turns green.
-  
-- Question: The gateway is unable to access the network.
+   ![](img/ap/03.png)
 
-  Solution: Check your configuration information, Such as WiFi password, server address.
+3. Set the relevant parameters in the pop-up page, with the parameter descriptions as follows:
+
+   - **SSID**, Wi-Fi HaLow hotspot name, which can be left as default.
+   - **Password**, Wi-Fi HaLow hotspot password, set it yourself.
+   - **Bandwidth**, different bandwidth configurations affect signal coverage, data transfer rate, and interference resistance. Narrower bandwidths (e.g., 1 MHz) offer better coverage and lower power consumption, while wider bandwidths provide higher data rates but have shorter range and higher power consumption.
+   - **Channel**, when there are other Wi-Fi HaLow devices in the area, you can reduce interference by setting different channels.
+
+   ![](img/ap/04.png)
+
+(upstream_network)=
+## Upsrteam Network
+Once you've done this basic setup, you need to choose an "Upstream network" method.
+
+"Upstream network" is the network that carries data outward from your local network to broader networks. The H7608 offers three modes, and you can choose any of them:
+
+- [**None**](none) (LAN, no internet)
+- [**Ethernet**](ethernet)
+- [**Wi-Fi**](wifi)
+
+(none)=
+
+### None Mode
+The "None" mode is typically used for creating a local area network. In "None" mode, devices connected to the H7608 cannot access the internet.
+
+![](img/ap/05.png)
+
+#### None mode IP rules
+   - HT-H7608(Gateway): "10.42.0.1" or "192.168.1.1"
+   - Wi-Fi HaLow client: The IP is assigned by the HT-H7608 (Gateway), "192.168.1.x".
+#### View and change the configuration
+Connect PC(laptop) to H7608 through a network cable, enter "10.42.0.1" in the browser, The default username is "root" and the default password is "heltec.org". Then you can enter the H7608-AP configuration interface, you can view or change the relevant configuration information.
+
+![](img/ap/06.png)
+
+--------------------
+
+(ethernet)=
+
+### Ethernet Mode
+In "Ethernet" mode, the H7608-Gateway is connected to the internet via ethernet cable, so Wi-Fi HaLow devices connected to its hotspot are also connected to the internet.
+
+![](img/ap/07.png)
+
+**Apply**, when the green or blue light remains steady, it indicates that the network connection is successful.
+
+Choose either Bridge or Router mode based on your needs. The main difference between them lies in the IP assignment rules, for more details, please refer to [Ethernet mode IP rules](ethernet-ip)
+
+(ethernet-ip)=
+#### Ethernet Mode IP rules
+   - HT-H7608(Gateway): The upstream regular router connected to the H7608 assigns the IP. You can obtain it from the router's management interface.
+   - Wi-Fi HaLow client: In Router mode, the IP is assigned by the HT-H7608 (Gateway), while in Bridge mode, it is assigned directly by the regular router.
+#### View and change the configuration
+1. Connect the PC(laptop) to the upstream regular router and access its configuration page.
+2. Obtain the IP of the HT-H7608.
+3. Enter the IP address in the browser to access its configuration page. The default username is "root" and the default password is "heltec.org". Then you can enter the H7608-AP configuration interface, you can view or change the relevant configuration information.
+
+![](img/ap/06.png)
+
+-------------------------
+
+### Wi-Fi Mode
+In "Wi-Fi" mode, the H7608-Gateway is connected to the internet via Wi-Fi 2.4G, so Wi-Fi HaLow devices connected to its hotspot are also connected to the internet.
+
+![](img/ap/08.png)
+
+Enter the SSID and password of the upstream router's Wi-Fi.
+
+**Apply**, when the green or blue light remains steady, it indicates that the network connection is successful.
+
+#### Wi-Fi Mode IP rules
+   - HT-H7608(Gateway): The upstream regular router connected to the H7608 assigns the IP. You can obtain it from the router's management interface.
+   - Wi-Fi HaLow client: The IP is assigned by the HT-H7608 (Gateway).
+#### View and change the configuration
+1. Connect the PC(laptop) to the upstream regular router and access its configuration page.
+2. Obtain the IP of the HT-H7608.
+3. Enter the IP address in the browser to access its configuration page. The default username is "root" and the default password is "heltec.org". Then you can enter the H7608-AP configuration interface, you can view or change the relevant configuration information.
+
+![](img/ap/06.png)
+
+---------------------------
+
+For other modes of the HT-H7608, please refer to the [HT-H7608 user manual](https://docs.heltec.org/en/wifi_halow/ht-h7608/index.html).
