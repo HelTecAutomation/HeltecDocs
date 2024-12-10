@@ -3,7 +3,7 @@ var P = [
     { text: "LoRa Gateway", value: "gateway"},
     { text: "Nodes", value: "node"},
     { text: "Plug & Play", value: "ready_to_use"},
-    { text: "Wi-Fi HaLow", value: "wifi_halow"}
+    { text: "Wi-Fi HaLow", value: "wifi_halow"},
  ]
 
 
