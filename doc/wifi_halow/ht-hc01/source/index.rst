@@ -1,30 +1,55 @@
-HRI-485x
-========
+*********
+HT-HC01
+*********
 :ht_translation:`[简体中文]:[English]`
 
-The HRI-485x series is a DTU device that converts the RS-485 bus to wireless data. Sub models achieve RS-485 data to LTE (Cat. 1/Cat. 4), private LoRa, standardLoRaWAN, Ethernet, etc. communications method. 
+Introduction
+============
+HT-HC01 is a Wi-Fi HaLow module with excellent RF performance, which operates in 902 - 928MHz, with maximum data rates of 32.5Mbps and up to 1-2km transmission range.
 
-.. image:: ./img/13.png
+.. image:: ./img/01.png
    :align: center 
 
-**HRI-485x have following main features:**
+Features
+--------
+- Long-range transmission
+- Channel bandwidth options of 1/2/4/8 MHz.
+- High data rate
+- Support Sub-1 GHz frequency bands, frequency range: 902~928 MHz.
+- Max output power:21dBm.
+- Hibernate mode (internal/ external wake).
+- Wide spectrum of security features.
 
-+   MCU:ESP32C3-FN4 / ESP32DOWDQ6;
-+   LoRa:SX1262;
-+   Support LoRaWAN (only HRI-4851L);
-+   Support 4G and Ethernet;
-+   Support 4.5-28v supply voltage ;
-+   Support for data encryption,1024 bytes cache,a single packet supports up to 240 bytes;
-+   Support communication key function , effectively prevent data interception;
+Important resources
+==================
 
-.. toctree::
-    :maxdepth: 2
-    
-    Application Example <application_example>
-    HRI-4851 <hri-4851>
-    HRI-4852 <hri-4852>
-    HRI-4853 <hri-4853>
-    HRI-4851L(LoRaWAN)<lorawan>
-    OTA Upgrade<ota_upgrade>
-    Frequently Asked Question <frequently-asked-question>
-    -->[General Docs]<-- <https://docs.heltec.org/general/index.html>
+- `HT-HC01 Datasheet <https://resource.heltec.cn/download/HT-HC01/Datasheet>`_
+- `HT-HC01 Reference Design <https://resource.heltec.cn/download/HT-HC01/Reference_design>`_
+- `HT-HC01 Footprint <https://resource.heltec.cn/download/Heltec_Module_Footprint/HT-HC01>`_
+
+Pin Layout
+==========
+
+.. image:: ./img/02.png
+   :align: center
+   :scale: 60%
+
+   HT-HC01 Pin Layout (click to enlarge)
+
+
+SDK Setup
+=========
+Please proceed to `Heltec Wi-Fi HaLow Get Started <https://docs.heltec.org/en/wifi_halow/get_started/index.html>`_, where Section Installation will quickly help you set up the development environment and then flash an application example onto your board.
+
+Hardware upgrade log
+====================
+
+- `HT-HC01 hardware upgrade log <https://docs.heltec.org/en/wifi_halow/ht-hc01/hardware_upgrade_log/index.html>`_
+
+Related resources
+=================
+
+- `Resource Station <https://resource.heltec.cn/download/HT-HC01>`_
+- `SDK on github <https://github.com/HelTecAutomation/ESP_HaLow>`_
+
+For further design documentation for the module, please contact us at support@heltec.cn.
