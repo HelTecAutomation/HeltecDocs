@@ -1,6 +1,6 @@
 
-HT-H7608 Wi-Fi HaLow Router
-===========================
+**HT-H7608 Wi-Fi HaLow Router User Guide**
+
 :ht_translation:`[简体中文]:[Eglish]`
 
 Summry
@@ -57,7 +57,7 @@ Enter "10.42.0.1" in your browser to navigate to the configuration page, the def
 .. image:: ./img/05.png
    :align: center
 
-Configurantion
+Configurantion 
 ```````````````
 HT-H7608 has three typical working modes, please configure according to the specific use mode.
 

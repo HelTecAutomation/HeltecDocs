@@ -44,6 +44,9 @@ var prod_obj = {
     wifi_halow: [
         {text:"HT-H7608", value: "ht-h7608"},
         {text:"HT-HC01", value: "ht-hc01"},
+        {text:"HT-HC32", value: "ht-hc32"},
+        {text:"HT-HD01", value: "ht-hd01"},
+        {text:"HT-HR01", value: "ht-hr01"},
     ],
 }
 
