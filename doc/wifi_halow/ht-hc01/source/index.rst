@@ -1,5 +1,5 @@
 
-**HT-HC01**
+**HT-HC01 Getting Started Guide**
 
 :ht_translation:`[简体中文]:[English]`
 
@@ -37,12 +37,17 @@ HT-HC01 pin Layout
 
 SDK Setup
 =========
-Please proceed to `Heltec Wi-Fi HaLow Get Started <https://docs.heltec.org/en/wifi_halow/get_started/index.html>`_, where Section Installation will quickly help you set up the development environment and then flash an application example onto your board.
+Please proceed to `Heltec Wi-Fi HaLow Get Started <https://docs.heltec.org/en/wifi_halow/get_started/index.html>`_.
 
 Hardware upgrade log
 ====================
 
-- `HT-HC01 hardware upgrade log <https://docs.heltec.org/en/wifi_halow/ht-hc01/hardware_upgrade_log/index.html>`_
+`HT-HC01 hardware upgrade log <https://docs.heltec.org/en/wifi_halow/ht-hc01/hardware_upgrade_log/index.html>`_
+
+Frequently Asked Questions (FAQs)
+=================================
+
+`HT-HC01 FAQs <https://docs.heltec.org/en/wifi_halow/ht-hc01/faq/index.html>`_
 
 Related resources
 =================

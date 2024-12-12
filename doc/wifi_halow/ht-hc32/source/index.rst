@@ -6,25 +6,115 @@
 
 **This document is still under construction and will be completed soon.**
 
-Summry
-------
-HT-HC32 is a development board with integrated camera, based on the ESP32-S3 MCU and Wi-Fi HaLow module.It is designed for long-range, high-speed wireless communication. With support for transmission distances of over 1 km and speeds of up to 32 Mbps, it is ideal for IoT applications that require reliable, high-performance connectivity.
+Introduction
+============
+ESP-HaLowCamera is a development board with integrated camera, based on the ESP32-S3 MCU and Wi-Fi HaLow module.It is designed for long-range, high-speed wireless communication. With support for transmission distances of over 1 km and speeds of up to 32 Mbps, it is ideal for IoT applications that require reliable, high-performance connectivity.
 
 .. image:: ./img/01.png
    :align: center
-   :width: 800x 
+   :width: 800px 
 
 Feature
 -------
 
 - The MCU is the ESP32-S3, and the Wi-Fi HaLow module is HT-HC01.
+- Integrated CP2102 USB-to-serial chip.
 - Long transmission range, up to over 1~2km.
 - Fast transmission speed, with a maximum of 32 Mbps.
 - Low power consumption design with strong penetration.
-- Integrated 200-pixel wide-angle camera, supporting auto exposure control, auto gain control, image scaling, image compression, and more.
+- Integrated 2 megapixel camera.
 - Integrated SD card slot for easy local deployment and data storage.
 - Type-C USB interface with a complete voltage regulator, ESD protection, short circuit protection, RF shielding, and other protection measures.
-- Onboard SH1.25-2 battery interface, integrated lithium battery management system (charging and discharging management, overcharge protection, battery power detection, USB/battery power automatic switching).
-- Integrated Wi-Fi, Bluetooth, and Wi-Fi HaLow three network connections, with onboard 2.4 GHz patch antenna for Wi-Fi and Bluetooth, and reserved IPEX (U.FL) interface for Wi-Fi HaLow.
-- Integrated CP2102 USB-to-serial chip, convenient for program downloading and debugging information printing.
+- Onboard SH1.25-2 battery interface, integrated lithium battery management system.
+- Integrated Wi-Fi, Bluetooth, and Wi-Fi HaLow three network connections.
 - Supports the Arduino development environment.
+
+Components
+----------
+
+.. image:: ./img/02.png
+   :align: center
+   :width: 800px
+
+Basic Resources
+===============
+
+- `ESP-HaLowCamera Datasheet <https://resource.heltec.cn/download/HT-HC32/Datasheet>`_
+- `ESP-HaLowCamera Schematic Diagram <https://resource.heltec.cn/download/HT-HC32/Schematic_diagram>`_
+- `ESP-HaLowCamera development framework on GitHub <https://resource.heltec.cn/download/HT-HC32/Schematic_diagram>`_
+
+Pin Layout
+==========
+
+.. image:: ./img/03.png
+   :align: center
+   :width: 800px
+
+For description of function names, please refer to `ESP-HaLowCamera Datasheet <https://resource.heltec.cn/download/HT-HC32/Datasheet>`_.
+
+Get started
+===========
+
+Required Hardware
+-----------------
+
+- `ESP-HaLowCamera <https://heltec.org/project/ht-hc32/>`_
+- USB Type-C cable
+- Computer running Windows, Linux, or macOS
+
+.. note::
+
+  Be sure to use an appropriate USB cable. Some cables are for charging only and do not provide the needed data lines nor work for programming the boards.
+
+
+Required Software
+-----------------
+
+- `Arduino IDE <https://www.arduino.cc/en/software>`_
+- `Git <https://git-scm.com/downloads/win>`_ (GitHub installation required)
+
+Installing the development framework
+------------------------------------
+Heltec provides an Arduino-based development framework that includes basic ESP32 code and sample Wi-Fi HaLow code.
+
+For installation, please refer to this link: `Heltec ESP_HaLow Development Framework Installation Guide <https://docs.heltec.org/en/wifi_halow/get_started/index.html>`_.
+
+Programming
+-----------
+Once you have the framework and libraries installed, connect your computer to the board and start programming nodes.
+
+Example
+^^^^^^^
+1. Connect your node to the computer with a USB cable.
+
+2. Open `Arduino IDE` -> `Tools`, correctly select the board.
+
+.. image:: ./img/03.png
+   :align: center
+   :width: 800px
+
+3. Select `File` -> `Example` to find the example you want.
+
+.. image:: ./img/03.png
+   :align: center
+   :width: 800px
+
+4. Adapt your code to your needs.
+
+5. Compile & Upload
+
+.. image:: ./img/03.png
+   :align: center
+   :width: 800px
+
+Frequently Asked Questions
+==========================
+
+.. toctree::
+   :maxdepth: 1
+
+   Frequently Asked Questions <frequently_asked_questions>
+
+Heltec General Docs
+===================
+-->[General Docs]<-- <https://docs.heltec.org/general/index.html>
