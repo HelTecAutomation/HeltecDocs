@@ -110,10 +110,7 @@ Example
 Frequently Asked Questions
 ==========================
 
-.. toctree::
-   :maxdepth: 1
-
-   Frequently Asked Questions <frequently_asked_questions>
+`HT-HC32 Frequently Asked Questions <https://docs.heltec.org/en/wifi_halow/ht-hc32/faq/index.html>`_
 
 Heltec General Docs
 ===================
