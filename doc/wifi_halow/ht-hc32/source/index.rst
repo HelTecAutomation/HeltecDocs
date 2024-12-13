@@ -89,13 +89,13 @@ Example
 
 2. Open `Arduino IDE` -> `Tools`, correctly select the board.
 
-.. image:: ./img/03.png
+.. image:: ./img/04.png
    :align: center
    :width: 800px
 
-3. Select `File` -> `Example` to find the example you want.
+3. Select `File` -> `Example` to find the example you want. The location of the Wi-Fi HaLow related code is circled in the figure below.
 
-.. image:: ./img/03.png
+.. image:: ./img/05.png
    :align: center
    :width: 800px
 
@@ -103,14 +103,10 @@ Example
 
 5. Compile & Upload
 
-.. image:: ./img/03.png
-   :align: center
-   :width: 800px
+FAQs
+=====
 
-Frequently Asked Questions
-==========================
-
-`HT-HC32 Frequently Asked Questions <https://docs.heltec.org/en/wifi_halow/ht-hc32/faq/index.html>`_
+- `HT-HC32 Frequently Asked Questions <https://docs.heltec.org/en/wifi_halow/ht-hc32/faq/index.html>`_
 
 Heltec General Docs
 ===================
