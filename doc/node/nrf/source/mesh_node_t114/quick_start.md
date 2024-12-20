@@ -25,7 +25,7 @@ This section describes "How to install the Heltec-nRF52 development framework di
 3. Input following json url to board manager URLs:
 
 ```
-https://resource.heltec.cn/download/package_heltec_nrf_index.json
+https://github.com/HelTecAutomation/Heltec_nRF52/releases/download/1.7.0/package_heltec_nrf_index.json
 
 ```
 
