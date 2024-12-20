@@ -36,6 +36,10 @@ Components
    :align: center
    :width: 800px
 
+
+__________
+
+
 Basic Resources
 ===============
 
@@ -52,6 +56,8 @@ Pin Layout
 
 For description of function names, please refer to `ESP-HaLowCamera Datasheet <https://resource.heltec.cn/download/HT-HC32/Datasheet>`_.
 
+------------------------------------------
+
 Get started
 ===========
 
@@ -66,6 +72,13 @@ Required Hardware
 
   Be sure to use an appropriate USB cable. Some cables are for charging only and do not provide the needed data lines nor work for programming the boards.
 
+Hardware Connection
+-------------------
+The installation direction of SDcard and camera is shown below.
+
+.. image:: ./img/06.png
+   :align: center
+   :width: 600px
 
 Required Software
 -----------------
