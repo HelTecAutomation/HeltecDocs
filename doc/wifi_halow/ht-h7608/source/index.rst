@@ -15,13 +15,12 @@ Feature
 -------
 
 - Wi-Fi and Ethernet supported, WiFi HaLow and 2.4GHz dual-band design.
-- Long-distance transmission capability, the range can reach 1km and further within the visual distance.
-- Supports access to a large number of devices, more than 4 times that of traditional Wi-Fi access points.
-- High transmission speed, it maintains 150Kbps at the limit distance and 32Mbps at close distances.
+- Long-distance transmission capability.
+- Supports access to a large number of devices.
+- High transmission speed.
 - Flexible networking methods, including AP, STA, Mesh, etc.
 - Easy setup and OTA upgrade via the Web UI.
 - Light and stylish wall-mounted, simple to install.
-- -40°C to 85°C maximum operating temperature range.
 
 Get Started
 -----------
@@ -31,7 +30,7 @@ Connect the device power, the device RGB light is red, indicating that the devic
 
 .. image:: ./img/02.png
    :align: center
-   :width: 500px 
+   :width: 400px 
 
 .. warning:: This is a note admonition.
    Do not enter configuration mode while connected to a network cable. If you do this accidentally, disconnect the power and reconnect.
@@ -42,13 +41,13 @@ Press the button with the SIM needle for 3 seconds until the yellow light is on 
 
 .. image:: ./img/03.png
    :align: center
-   :width: 500px 
+   :width: 300px 
 
 Using the configuration tool (PC or mobile), find the WiFi named "HT-H7608-xxxx-2G" and connect to it. The default password is "heltec.org".
 
 .. image:: ./img/04.png
    :align: center
-   :width: 300px
+   :width: 250px
 
 Enter "10.42.0.1" in your browser to navigate to the configuration page, the default account as "root" and password as "heltec.org".
 
@@ -64,9 +63,7 @@ HT-H7608 has three typical working modes, please configure according to the spec
 
 Click on the following link to get the configuration instructions for the corresponding mode:
 
-- `Wi-Fi HaLow Gateway(AP) <https://docs.heltec.org/en/wifi_halow/ht-h7608/gateway.html>`_
-- `Wi-Fi HaLow Client(STA) <https://docs.heltec.org/en/wifi_halow/ht-h7608/sta.html>`_
-- `Wi-Fi HaLow Mesh <https://docs.heltec.org/en/wifi_halow/ht-h7608/mesh.html>`_
+- `Wi-Fi HaLow user guide <https://docs.heltec.org/en/wifi_halow/halow_guide/index.html>`_
 
 Related resource
 ----------------

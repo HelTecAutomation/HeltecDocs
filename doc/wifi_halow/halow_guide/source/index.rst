@@ -7,9 +7,8 @@ This section describes the various features and configuration methods of Heltec'
 
 The common operating modes of Wi-Fi HaLow are shown in the figure below:
 
-.. image:: ./img/03.png
+.. image:: ./img/06.png
    :align: center
-   :width: 500px 
 
 .. toctree::
    :maxdepth: 1

@@ -71,7 +71,7 @@ Follow the steps shown below to install and connect the device.
 
 .. image:: ./img/10.png
    :align: center
-   :width: 300px
+   :width: 400px
 
 Power
 ^^^^^^
@@ -115,17 +115,18 @@ Setup and Use
 
 .. image:: ./img/14.png
    :align: center
-   :width: 500px
+   :width: 300px
 
 3. Press and hold the device button for 3 seconds until the yellow light turns on, then release the button. 
 
 4. Open the web browser on your computer and go to '10.42.0.1'. 
-   - Default username: root
-   - Default password: heltec.org
+
+- Default username: root
+- Default password: heltec.org
 
 .. image:: ./img/05.png
    :align: center
-   :width: 500px
+   :width: 600px
    
 5. Select the mode you want to run and configure it accordingly. For detailed functionality and usage of each mode, please refer to the following link:
 
