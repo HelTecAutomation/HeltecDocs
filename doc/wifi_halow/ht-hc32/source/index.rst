@@ -12,7 +12,7 @@ ESP-HaLowCamera is a development board with integrated camera, based on the ESP3
 
 .. image:: ./img/01.png
    :align: center
-   :width: 800px 
+   :width: 500px 
 
 Feature
 -------
@@ -34,8 +34,7 @@ Components
 
 .. image:: ./img/02.png
    :align: center
-   :width: 800px
-
+   :width: 700px
 
 __________
 
@@ -45,14 +44,14 @@ Basic Resources
 
 - `ESP-HaLowCamera Datasheet <https://resource.heltec.cn/download/HT-HC32/Datasheet>`_
 - `ESP-HaLowCamera Schematic Diagram <https://resource.heltec.cn/download/HT-HC32/Schematic_diagram>`_
-- `ESP-HaLowCamera development framework on GitHub <https://resource.heltec.cn/download/HT-HC32/Schematic_diagram>`_
+- `ESP-HaLowCamera development framework on GitHub <https://github.com/HelTecAutomation/ESP_HaLow>`_
 
 Pin Layout
 ==========
 
 .. image:: ./img/03.png
    :align: center
-   :width: 800px
+   :width: 600px
 
 For description of function names, please refer to `ESP-HaLowCamera Datasheet <https://resource.heltec.cn/download/HT-HC32/Datasheet>`_.
 

@@ -6,7 +6,7 @@ This topic describes how to quickly get started with the sensor version of Capsu
 
 If you accidentally erase the code, please refer to the WirelessBoot theme: [How to refresh the firmware](https://docs.heltec.org/en/node/esp32/capsule_sensor_v3/wireless_boot.html).
 
-[Capsule Sensor V3 LoRaWAN Firmware Download.](https://resource.heltec.cn/download/Heltec%20Capsule%20Sensor%20V3/lorawan.bin)
+[Capsule Sensor V3 LoRaWAN Firmware Download.]([listing directory /download/Heltec Capsule Sensor V3/LoRaWAN_firmware](https://resource.heltec.cn/download/Heltec Capsule Sensor V3/LoRaWAN_firmware))
 
 ## Power On
 
@@ -90,7 +90,6 @@ When you are done in the configuration page, you can register the node with TTN/
 ``` {Tip} Refresh the page method: Press and hold the area in the diagram to drop down. Once the device has collected six data points, it can plot them by selecting hours, days, or weeks as units.
 
 ```
-
 
 
 

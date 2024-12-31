@@ -8,4 +8,5 @@ Mesh Node series is a new series of development boards launched by Heltec based 
    :maxdepth: 2
    
     Mesh Node T114 <mesh_node_t114/index>
+    Mesh Node 5262M <5262m/index>
     -->[General Docs]<-- <https://docs.heltec.org/general/index.html>
