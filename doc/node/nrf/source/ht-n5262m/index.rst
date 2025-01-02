@@ -8,7 +8,7 @@ Mesh Node 5262M is a module based on the nRF52840 and SX1262, supporting both Bl
 
 .. image:: ./img/01.png
    :align: center
-   :width: 500px
+   :width: 300px
    
 Features
 --------
@@ -24,7 +24,7 @@ Features
 Components
 ----------
 
-.. image:: ./img/02.jpg
+.. image:: ./img/02.png
    :align: center
    :width: 500px
 
@@ -41,13 +41,13 @@ Pin Layout
    :align: center
    :width: 700px
 
-*For description of function names, please refer to `ESP-HaLowCamera Datasheet <https://resource.heltec.cn/download/HT-N5262M/Datasheet>`_.*
+For description of function names, please refer to `ESP-HaLowCamera Datasheet <https://resource.heltec.cn/download/HT-N5262M/Datasheet>`_.
 
 Installing the development framework
 ------------------------------------
 Heltec provides an Arduino-based development framework.
 
-For installation, please refer to this link: `Heltec nRF Development Framework Installation Guide <https://docs.heltec.org/en/node/nrf/ht-n5262m/quick_start.html#>`_.
+For installation, please refer to this link: `Heltec nRF Development Framework Installation Guide <https://docs.heltec.org/en/node/nrf/ht-n5262m/quick_start.html>`_.
 
 FAQs
 ----

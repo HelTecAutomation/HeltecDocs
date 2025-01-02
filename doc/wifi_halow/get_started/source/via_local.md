@@ -20,7 +20,7 @@
 
 ![](img/quick_start/17.png)
 
-5. Creat a new "heltec" folder in "hardware" folder.
+5. Creat a new "heltec" folder in "hardware" folder. If there is already a "heltec" folder, you don't need to create a new one.
 
   ![](img/quick_start/heltecfolder.png)
 

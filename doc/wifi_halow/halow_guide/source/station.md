@@ -2,10 +2,10 @@
 
 {ht_translation}`[简体中文]:[English]`
 
-## Summary
 This section introduces the setup and activation of Wi-Fi HaLow Client(STA) mode.
 
-In Client mode, the device connects as a client to another Wi-Fi HaLow Gateway (Access Point), while simultaneously creating a traditional 2.4G Wi-Fi or Ethernet network, allowing other devices (such as smartphones, laptops, sensors, etc.) to connect to it as clients.
+## Summary
+As with any Wi-Fi network, HaLow has Clients (also known as stations) which discover and connect to an Access Point. If you select client, non-HaLow devices can use the HaLow link by connecting to the other interfaces.
 
 As shown below:
 
@@ -14,7 +14,7 @@ As shown below:
 ``` {note} Some devices, such as the HT-HR01, do not have 2.4G Wi-Fi functionality.
 ```
 
-------------------------------------
+------------------------------------                            
 ## Initial Setup
 ### Enter Configuration page
 
@@ -28,15 +28,11 @@ As shown below:
 
 ### Basic Settings
 
-1. Enter the configuration page, select the region, and set the hostname. "Hostname" refers to the hostname of your device in the Wi-Fi HaLow network.
+1. Enter the configuration page, select the `Country`, set the `Hostname`, and click `next`. "Hostname" refers to the hostname of your device in the Wi-Fi HaLow network.
 
-  Enter the configuration page and select "**Standard Wi-Fi HaLow**", click `next`.
+2. Select "**Standard Wi-Fi HaLow**", click `next`.
 
    ![](img/sta/02.png)
-
-2. Select "**Client**", click `next`.
-
-   ![](img/sta/03.png)
 
 3. You can click 'SCAN', or directly enter the hotspot name and password of the Wi-Fi HaLow gateway you want to connect to, click `next`.
 
@@ -48,19 +44,23 @@ As shown below:
 
 |  Mode   | Description  |
 |  ----  | :----- |
-| None  | Non-HaLow and HaLow networks are isolated. This device will use a static IP address and run a DHCP server on the non-HaLow interface |
+| None  | Non-HaLow and HaLow networks are isolated. This device will use a static IP address<br>and run a DHCP server on the non-HaLow interface |
 | Bridge  | Non-HaLow devices obtain IPs from your HaLow link |
-| Extender | Non-HaLow devices obtain IPs from the DHCP server on this device and this device uses NAT to forward IP traffic |
+| Extender | Non-HaLow devices obtain IPs from the DHCP server on this device and this device<br>uses NAT to forward IP traffic |
 
-5. If your device has 2.4G Wi-Fi functionality, you can click the location in the image below to enable the 2.4G Wi-Fi feature. 
+``` {tip} If the HaLow Access Point you connect to does not have WDS (aka 4 address mode) enabled, select Extender to create a separate network for the non-HaLow devices. All HaLow access points configured via this wizard have WDS enabled. This device will run a DHCP server on the non-HaLow interfaces, and it will use NAT to forward IP traffic between HaLow and non-HaLow networks.
+```
+
+Choose None to keep the HaLow and non-HaLow networks isolated, this is the mode the device uses after factory reset.
+5. This HaLow device is also capable of 2.4 GHz Wi-Fi. If you enable a 2.4 GHz Wi-Fi Access Point, you will be able to connect non-HaLow Wi-Fi clients to this device.
 
 ![](img/sta/05.png)
 
-6. Set the SSID and password, and non-HaLow devices will be able to connect to the upstream network or the internet through them.
+After enabling this feature, you need to set the 2.4G Access Point's SSID, password, encryption.
 
 ![](img/sta/06.png)
 
-7. Click `Next`, and `Apply`.
+6. Click `Next`, and `Apply`.
 
 ---------------------------
 
