@@ -2,7 +2,7 @@
 
 {ht_translation}`[简体中文]:[English]`
 
-This section introduces the setup and activation of Wi-Fi HaLow Client(STA) mode.
+This topic introduces the setup and activation of Wi-Fi HaLow Client(STA) mode.
 
 ## Summary
 As with any Wi-Fi network, HaLow has Clients (also known as stations) which discover and connect to an Access Point. If you select client, non-HaLow devices can use the HaLow link by connecting to the other interfaces.
@@ -48,10 +48,6 @@ As shown below:
 | Bridge  | Non-HaLow devices obtain IPs from your HaLow link |
 | Extender | Non-HaLow devices obtain IPs from the DHCP server on this device and this device<br>uses NAT to forward IP traffic |
 
-``` {tip} If the HaLow Access Point you connect to does not have WDS (aka 4 address mode) enabled, select Extender to create a separate network for the non-HaLow devices. All HaLow access points configured via this wizard have WDS enabled. This device will run a DHCP server on the non-HaLow interfaces, and it will use NAT to forward IP traffic between HaLow and non-HaLow networks.
-```
-
-Choose None to keep the HaLow and non-HaLow networks isolated, this is the mode the device uses after factory reset.
 5. This HaLow device is also capable of 2.4 GHz Wi-Fi. If you enable a 2.4 GHz Wi-Fi Access Point, you will be able to connect non-HaLow Wi-Fi clients to this device.
 
 ![](img/sta/05.png)
@@ -72,6 +68,20 @@ When the green or blue light remains steady, it indicates that the network conne
 ```
 
 -----------------------------------------------------
+
+### View and change the configuration
+
+1. Connect the PC(laptop) to the upstream regular router and access its configuration page.
+
+2. Obtain the IP.
+
+   ![](img/ap/11.png)
+
+3. Enter the IP address in the browser to access its configuration page. 
+
+   The default username is "root" and the default password is "heltec.org". Then you can enter the configuration page and view or change the relevant setting information.
+
+-----------------------------------------
 
 For other modes , please refer to the [Wi-Fi HaLow Using guide](https://docs.heltec.org/en/wifi_halow/halow_guide/index.html).
 

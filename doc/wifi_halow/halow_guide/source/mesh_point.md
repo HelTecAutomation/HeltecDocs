@@ -1,38 +1,88 @@
-# Install ESP_HaLow Framework Via Local File
+# Wi-Fi HaLow Mesh Point Mode
 
 {ht_translation}`[简体中文]:[English]`
 
+This topic describes how to enable the Mesh_point mode on the HelTec Wi-Fi HaLow device.
 
-``` {note} It is recommended to follow the path and file name as described below as much as possible to avoid unnecessary trouble.
-```
+## Summary
+Mesh Point is a node in an 802.11s mesh network, which has to be in conjunction with the Mesh Gate to work. Mesh Gate provides both a Mesh Point and a co-located non-mesh network (e.g. an AP, an upstream Ethernet connection, etc.). It broadcasts mesh gate announcements to help align the mesh nodes, making it easier for traffic to reach the non-mesh network.
 
-1. Download the development environment. [Download Framework](https://resource.heltec.cn/download/tools/WiFi_Kit_series.zip)
+As shown below:
 
-2. Open Arduino IDE, and click `File`->`Peferences`.
+![](img/mesh_gate/01.png)
 
-![](img/quick_start/01.png)
+------------------------------------
 
-3. Go to the folder in the red box.
+## Enter Configuration Page
 
-  ![](img/quick_start/16.png)
+**How to enter the configuration mode page" please refer to the corresponding product documentation.**
+- [HT-H7608](https://docs.heltec.org/en/wifi_halow/ht-h7608/index.html#get-started)
+- [HT-HD01](https://docs.heltec.org/en/wifi_halow/ht-hd01/index.html#get-started)
+- [HT-HC32](https://docs.heltec.org/en/wifi_halow/ht-hc32/index.html#get-started)
+- [HT-HR01](https://docs.heltec.org/en/wifi_halow/ht-hr01/index.html#setup-and-use)
 
-4. Create a new "hardware" folder in the Arduino folder. If there is already a "hardware" folder, you don't need to create a new one.
+## Basic Settings
+1. Enter the configuration page, select the `Country`, set the `Hostname`, and click `next`. "Hostname" refers to the hostname of your device in the Wi-Fi HaLow network.
 
-![](img/quick_start/17.png)
+2. Enter the configuration page and select "**802.11s Mesh Wizard**", click `next`.
 
-5. Creat a new "heltec" folder in "hardware" folder.
+   ![](img/mesh_gate/02.png)
 
-  ![](img/quick_start/heltecfolder.png)
+3. Select "**Mesh Point**", click `next`.
 
-6. Go to the "heltec" folder and extract "esp_halow" into this folder.
+   ![](img/mesh_point/03.png)
 
-  ![](img/quick_start/18.png)
+4. Set the relevant parameters in the pop-up page, with the parameter descriptions as follows:
 
-7. Go to the "heltec" folder, refer to the figure below to confirm whether the path in the red box is correct.
+   ![](img/mesh_point/04.png)
 
-  ![](img/quick_start/19.png)
+   - **Mesh ID** & **Passphrase**, Set a Mesh ID and passphrase, and only devices with the same ID and Passphrase can form a Mesh network.
+   - **Bandwidth** & **Channel**, Available Bandwidths and Channels differ greatly across regions. The higher your bandwidth, the greater the potential throughput of the connection. If you're deploying multiple HaLow access points you may want to select distinct channels and a lower bandwidth to reduce interference.
 
-8. Restart the Arduino IDE to confirm whether the development environment is installed successfully.
+After completing the above steps, click `Next`.
 
-  ![](img/quick_start/20.png)
+5. Choose the traffic mode based on your needs, click `next` . 
+
+  **We recommend the "Bridge" mode**. The main differences between the modes are as follows:
+
+|  Mode   | Description  |
+|  ----  | :----- |
+| None  | Non-HaLow and HaLow networks are isolated. This device will use a static IP address<br>and run a DHCP server on the non-HaLow interface |
+| Bridge  | Non-HaLow devices obtain IPs from your HaLow link |
+| Extender | Non-HaLow devices obtain IPs from the DHCP server on this device and this device<br>uses NAT to forward IP traffic |
+
+---------------------------
+
+## Enable 2.4G Wi-Fi Access Point
+This HaLow device is also capable of 2.4 GHz Wi-Fi. If you enable a 2.4 GHz Wi-Fi Access Point, you will be able to connect non-HaLow Wi-Fi clients to this device.
+
+![](img/mesh_point/09.png)
+
+After enabling this feature, you need to set the 2.4G Access Point's SSID, password, encryption.
+
+![](img/mesh_point/10.png)
+
+------------------------------------------------------
+## Complete configuration
+Complete the configuration and apply.
+
+When the green or blue light remains steady, it indicates that the network connection is successful.
+
+-----------------------------------------------------
+
+### View and change the configuration
+
+1. Connect the PC(laptop) to the upstream regular router and access its configuration page.
+
+2. Obtain the IP.
+
+   ![](img/ap/11.png)
+
+3. Enter the IP address in the browser to access its configuration page. 
+
+   The default username is "root" and the default password is "heltec.org". Then you can enter the configuration page and view or change the relevant setting information.
+
+------------------------------------
+
+For other modes , please refer to the [Wi-Fi HaLow Using guide](https://docs.heltec.org/en/wifi_halow/halow_guide/index.html).
 

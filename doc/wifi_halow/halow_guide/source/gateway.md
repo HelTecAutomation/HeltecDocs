@@ -47,7 +47,7 @@ As shown below:
 --------------------------------
 
 (upstream_network)=
-## Upsrteam Network Description
+## Upstream Network Description
 
 This section Outlines the differences between the three method so you can choose the one that suits your needs.
 

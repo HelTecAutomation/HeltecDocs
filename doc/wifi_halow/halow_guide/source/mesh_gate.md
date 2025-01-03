@@ -2,7 +2,7 @@
 
 {ht_translation}`[简体中文]:[English]`
 
-This section describes how to enable the Mesh_Gate mode on the HelTec Wi-Fi HaLow device.
+This topic describes how to enable the Mesh_Gate mode on the HelTec Wi-Fi HaLow device.
 
 ## Summary
 A Mesh Gate provides both a Mesh Point and a co-located non-mesh network (e.g. an AP an upstream Ethemnet connection, etc.). it broadcasts mesh gate announcements to help alian the mesh nodes, making it easier for traffic to reach the non-mesh network.
@@ -41,26 +41,16 @@ As shown below:
 
 After completing the above steps, click `Next`.
 
-5. Select `Ethernet` -> `Bridge`, then click `Next`.
-
-![](img/mesh_gate/05.png)
-
-6. STA HaLow device is also capable of 2.4 GHz Wi-Fi. If you enable a 2.4 GHz Wi-fi Access Point, you need to set the corresponding hotspot SSID and password on the entire page. This device will run a DHCP server on the 2.4 GHz Wi-Fi interface and traffic will be forwarded with NAT. 
-
-![](img/mesh_gate/06.png)
-
 ---------------------------
 
 (upstream_network)=
 ## Upsrteam Network Description
-
-This section Outlines the differences between the three method so you can choose the one that suits your needs.
-
 Once you've done this basic setup, you need to choose an "Upstream network" method.
-
 If you choose **None**, your device will have a static IP address and run a DHCP server on all interfaces, the HaLow and non-HaLow networks will be isolated from each other. If you choose an upstream network, your HaLow and non-HaLow networks will be connected.
 
-![](img/mesh_gate/07.png)
+![](img/ap/07.png)
+
+Below Outlines the differences between the three method so you can choose the one that suits your needs:
 
 - **None**, your device will have a static IP address and run a DHCP server on all interfaces, the HaLow and non-HaLow networks will be isolated from each other.
 
@@ -76,9 +66,7 @@ If you choose **None**, your device will have a static IP address and run a DHCP
 ## Enable 2.4G Wi-Fi Access Point
 This HaLow device is also capable of 2.4 GHz Wi-Fi. If you enable a 2.4 GHz Wi-Fi Access Point, you will be able to connect non-HaLow Wi-Fi clients to this device.
 
-![](img/ap/09.png)
-
-After enabling this feature, you need to set the 2.4G Access Point's SSID, password, encryption.
+Enabling this feature, you need to set the 2.4G Access Point's SSID, password, encryption.
 
 ![](img/ap/10.png)
 
@@ -93,8 +81,14 @@ When the green or blue light remains steady, it indicates that the network conne
 ### View and change the configuration
 
 1. Connect the PC(laptop) to the upstream regular router and access its configuration page.
-2. Obtain the IP of the HT-H7608.
-3. Enter the IP address in the browser to access its configuration page. The default username is "root" and the default password is "heltec.org". Then you can enter the configuration page, you can view or change the relevant configuration information.
+
+2. Obtain the IP.
+
+   ![](img/ap/11.png)
+
+3. Enter the IP address in the browser to access its configuration page. 
+
+   The default username is "root" and the default password is "heltec.org". Then you can enter the configuration page and view or change the relevant setting information.
 
 ------------------------------------
 

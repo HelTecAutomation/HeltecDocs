@@ -63,7 +63,8 @@ HT-H7608 has three typical working modes, please configure according to the spec
 
 Click on the following link to get the configuration instructions for the corresponding mode:
 
-- `Wi-Fi HaLow user guide <https://docs.heltec.org/en/wifi_halow/halow_guide/index.html>`_
+- Only about the Gateway mode Guide: `Wi-Fi HaLow Gateway Setup guide <https://docs.heltec.org/en/wifi_halow/halow_guide/gateway.html>`_
+- Comprehensive Introduction guide to Wi-Fi HaLow Modes: `Wi-Fi HaLow Setup guide <https://docs.heltec.org/en/wifi_halow/halow_guide/index.html>`_
 
 Related resource
 ----------------
