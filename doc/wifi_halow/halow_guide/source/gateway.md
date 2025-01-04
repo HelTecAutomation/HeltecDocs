@@ -22,18 +22,19 @@ As shown below:
 - [HT-HR01](https://docs.heltec.org/en/wifi_halow/ht-hr01/index.html#setup-and-use)
 
 ## Basic Settings
-1. Enter the configuration page, select the `Country`, set the `Hostname`, and click `next`. "Hostname" refers to the hostname of your device in the Wi-Fi HaLow network.
+1. Enter the configuration page, select the `Country`, set the `Hostname`, and click `Apply`. "Hostname" refers to the hostname of your device in the Wi-Fi HaLow network.
 
-2. Select "**Standard Wi-Fi HaLow**", click `next`.
+2. Select "**Standard Wi-Fi HaLow**", click `Next`.
 
    ![](img/ap/02.png)
 
-3. Select "**Access Point**", click `next`.
+3. Select "**Access Point**", click `Next`.
 
    ![](img/ap/03.png)
 
 4. Set the relevant parameters in the pop-up page, with the parameter descriptions as follows:
 
+   ![](img/ap/04.png)
    - **SSID**, Wi-Fi HaLow gateway(AP) hotspot name.
    - **Password**, Wi-Fi HaLow hotspot gateway(AP) password.
    - **Bandwidth**, different bandwidth configurations affect signal coverage, data transfer rate, and interference resistance. Narrower bandwidths (e.g., 1 MHz) offer better coverage and lower power consumption, while wider bandwidths provide higher data rates but have shorter range and higher power consumption.
@@ -42,20 +43,15 @@ As shown below:
 ``` {tip} Available Bandwidths and Channels differ greatly across regions. The higher your bandwidth, the greater the potential throughput of the connection. If you're deploying multiple HaLow access points you may want to select distinct channels and a lower bandwidth to reduce interference.
 ```
 
-   ![](img/ap/04.png)
-
 --------------------------------
 
 (upstream_network)=
 ## Upstream Network Description
-
-This section Outlines the differences between the three method so you can choose the one that suits your needs.
-
 Once you've done this basic setup, you need to choose an "Upstream network" method.
 
-If you choose **None**, your device will have a static IP address and run a DHCP server on all interfaces, the HaLow and non-HaLow networks will be isolated from each other. If you choose an upstream network, your HaLow and non-HaLow networks will be connected.
-
 ![](img/ap/07.png)
+
+If you choose **None**, your device will have a static IP address and run a DHCP server on all interfaces, the HaLow and non-HaLow networks will be isolated from each other. If you choose **Etherne** or **Wi-Fi(2.4G)**, your HaLow and non-HaLow networks will be connected:
 
 - **None**, your device will have a static IP address and run a DHCP server on all interfaces, the HaLow and non-HaLow networks will be isolated from each other.
 
@@ -73,14 +69,14 @@ This HaLow device is also capable of 2.4 GHz Wi-Fi. If you enable a 2.4 GHz Wi-F
 
 ![](img/ap/09.png)
 
-After enabling this feature, you need to set the 2.4G Access Point's SSID, password, encryption.
+After enabling this feature, you need to set the 2.4G Access Point's `SSID`, `Password`, `Encryption`.
 
 ![](img/ap/10.png)
 
 ------------------------------------------------------
 
 ## Complete configuration
-Select Upstream and follow the prompts to complete the configuration and apply.
+Configuration and  apply.
 
 When the green or blue light remains steady, it indicates that the network connection is successful.
 
@@ -89,14 +85,16 @@ When the green or blue light remains steady, it indicates that the network conne
 
 -----------------------------------------------------
 
-### View and change the configuration
+## View and change the configuration
+This section describes how to view the parameters of the configured devices.
+
 Depending on what Upstream network mode you have set up, there are different ways to view or change the configuration.
-#### None
+### None Mode device
 Connect PC(laptop) to device through a network cable, enter "10.42.0.1" in the browser, The default username is "root" and the default password is "heltec.org". Then you can enter the AP configuration page, you can view or change the relevant configuration information.
 
 ![](img/ap/06.png)
 
-#### Ethernet & Wi-Fi 2.4G
+### Ethernet/Wi-Fi(2.4G) Mode device
 1. Connect the PC(laptop) to the upstream regular router and access its configuration page.
 
 2. Obtain the IP.

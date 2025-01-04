@@ -45,7 +45,7 @@ After completing the above steps, click `Next`.
 
   **We recommend the "Bridge" mode**. The main differences between the modes are as follows:
 
-|  Mode   | Description  |
+|  Traffic mode   | Description  |
 |  ----  | :----- |
 | None  | Non-HaLow and HaLow networks are isolated. This device will use a static IP address<br>and run a DHCP server on the non-HaLow interface |
 | Bridge  | Non-HaLow devices obtain IPs from your HaLow link |
@@ -70,9 +70,17 @@ When the green or blue light remains steady, it indicates that the network conne
 
 -----------------------------------------------------
 
-### View and change the configuration
+## View and change the configuration
+This section describes how to view the parameters of the configured devices.
 
-1. Connect the PC(laptop) to the upstream regular router and access its configuration page.
+Here are two methods:
+
+### Via the device's network (recommended)
+1. Connect the computer to the device's Ethernet port or Wi-Fi (2.4G) hotspot.
+2. Enter "10.42.0.1" in the browser to access the device's settings page. The default username is "Root" and the default password is "heltec.org".
+
+### Via the device's IP address
+1. You must ensure that the upstream Mesh Gate is set to 'Bridge' mode. Visit the IP address of the upstream ordinary router.
 
 2. Obtain the IP.
 
@@ -82,7 +90,7 @@ When the green or blue light remains steady, it indicates that the network conne
 
    The default username is "root" and the default password is "heltec.org". Then you can enter the configuration page and view or change the relevant setting information.
 
-------------------------------------
+-----------------------------------------
 
 For other modes , please refer to the [Wi-Fi HaLow Using guide](https://docs.heltec.org/en/wifi_halow/halow_guide/index.html).
 

@@ -69,9 +69,17 @@ When the green or blue light remains steady, it indicates that the network conne
 
 -----------------------------------------------------
 
-### View and change the configuration
+## View and change the configuration
+This section describes how to view the parameters of the configured devices.
 
-1. Connect the PC(laptop) to the upstream regular router and access its configuration page.
+Here are two methods:
+
+### Via the device's network (recommended)
+1. Connect the computer to the device's Ethernet port or Wi-Fi (2.4G) hotspot.
+2. Enter "10.42.0.1" in the browser to access the device's settings page. The default username is "Root" and the default password is "heltec.org".
+
+### Via the device's IP address
+1. You must ensure that the upstream Mesh Gate is set to 'Bridge' mode. Visit the IP address of the upstream ordinary router.
 
 2. Obtain the IP.
 
