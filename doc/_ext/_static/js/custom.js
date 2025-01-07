@@ -47,6 +47,7 @@ var prod_obj = {
         {text:"HT-HC32", value: "ht-hc32"},
         {text:"HT-HD01", value: "ht-hd01"},
         {text:"HT-HR01", value: "ht-hr01"},
+        {text:"Application&Setup Guide", value: "halow_guide"},
     ],
 }
 

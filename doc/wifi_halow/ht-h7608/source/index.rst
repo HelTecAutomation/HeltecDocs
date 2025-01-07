@@ -1,4 +1,3 @@
-
 **HT-H7608 Wi-Fi HaLow Router User Guide**
 
 :ht_translation:`[简体中文]:[Eglish]`
@@ -11,8 +10,10 @@ HT-H7608 is an innovative WiFi HaLow gateway from Heltec Automation designed to 
    :align: center
    :width: 500x 
 
-Feature
--------
+---------------------------------------------------
+
+Features
+--------
 
 - Wi-Fi and Ethernet supported, WiFi HaLow and 2.4GHz dual-band design.
 - Long-distance transmission capability.
@@ -21,6 +22,8 @@ Feature
 - Flexible networking methods, including AP, STA, Mesh, etc.
 - Easy setup and OTA upgrade via the Web UI.
 - Light and stylish wall-mounted, simple to install.
+
+--------------------------------------------------
 
 Get Started
 -----------
@@ -32,27 +35,50 @@ Connect the device power, the device RGB light is red, indicating that the devic
    :align: center
    :width: 400px 
 
-.. warning:: This is a note admonition.
-   Do not enter configuration mode while connected to a network cable. If you do this accidentally, disconnect the power and reconnect.
+------------------------------------------------
 
-Enter Configuration mode
+Enter Configuration Page
 `````````````````````````
-Press the button with the SIM needle for 3 seconds until the yellow light is on and release it.
+There are two ways to access the configuration page. You can choose either one.
+
+Via Ethernet
+^^^^^^^^^^^^
+1. Connect your H7608 to PC(laptop) using Ethernet cable.
+2. Press the button with the SIM needle for 3 seconds until the yellow light is on and release it.
 
 .. image:: ./img/03.png
    :align: center
    :width: 300px 
 
-Using the configuration tool (PC or mobile), find the WiFi named "HT-H7608-xxxx-2G" and connect to it. The default password is "heltec.org".
+3. Enter "10.42.0.1" in your browser to navigate to the configuration page, the default account as "root" and password as "heltec.org".
+
+.. image:: ./img/05.png
+   :align: center
+
+Via Wi-Fi
+^^^^^^^^^
+
+.. warning::
+   Do not enter Wi-Fi configuration page while connected to a network cable. If you do this accidentally, disconnect the power and reconnect.
+
+1. Press the button with the SIM needle for 3 seconds until the yellow light is on and release it.
+
+.. image:: ./img/03.png
+   :align: center
+   :width: 300px 
+
+2. Using the configuration tool (PC or mobile), find the WiFi named "HT-HXXX-xxxx-2G" and connect to it. The default password is "heltec.org".
 
 .. image:: ./img/04.png
    :align: center
    :width: 250px
 
-Enter "10.42.0.1" in your browser to navigate to the configuration page, the default account as "root" and password as "heltec.org".
+3. Enter "10.42.0.1" in your browser to navigate to the configuration page, the default account as "root" and password as "heltec.org".
 
 .. image:: ./img/05.png
    :align: center
+
+-------------------------------------------------------
 
 Configurantion 
 ```````````````
@@ -66,11 +92,15 @@ Click on the following link to get the configuration instructions for the corres
 - Only about the Gateway mode Guide: `Wi-Fi HaLow Gateway Setup guide <https://docs.heltec.org/en/wifi_halow/halow_guide/gateway.html>`_
 - Comprehensive Introduction guide to Wi-Fi HaLow Modes: `Wi-Fi HaLow Setup guide <https://docs.heltec.org/en/wifi_halow/halow_guide/index.html>`_
 
+--------------------------------------------
+
 Related resource
 ----------------
 You can find most resources related to HT-H7608 at:
 
 `HT-H7608 Resource page <https://resource.heltec.cn/download/HT-H7608>`_
+
+-------------------------------------
 
 Frequently asked questions
 --------------------------

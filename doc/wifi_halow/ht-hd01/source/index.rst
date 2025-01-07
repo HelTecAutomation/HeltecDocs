@@ -8,7 +8,7 @@
 
 Summry
 ------
-HT-HD01 is a plug-and-play network bridge that can greatly extend the transmission range of traditional Wi-Fi and Ethernet, with lower power consumption and greater penetration. You can think of it as a 1-2 km invisible network cable, and it can still maintain a high transmission speed at a limit distance.
+HT-HD01 is a plug-and-play network bridge designed to significantly extend the transmission range of traditional networks.
 
 .. image:: ./img/06.png
    :align: center
@@ -17,14 +17,15 @@ HT-HD01 is a plug-and-play network bridge that can greatly extend the transmissi
 Feature
 -------
 
-- Plug and play, simple configuration.
-- Long transmission range, up to 1-2 kilometers, and even farther within the visual distance .
-- High penetration.
-- Low power consumption.
+- Long transmission range: up to 1km, and even farther within the visual distance.
+- IEEE 802.11ah standard.
+- Both Wi-Fi and Ethernet supported, WiFi HaLow and 2.4GHz dual-band design.
 - Large capacity allows access to a large number of devices simultaneously.
-- High transmission rate, 32.5Mbps@8MHz, 15Mbps@8MHz.
-- Adopting Wi-Fi HaLow technology, compliant with IEEE 802.11ah, it operates in the unlicensed frequency band of SUB-1G (850~ 950MHz).
-- It can be seamlessly connected to traditional networks.
-- It offers four bandwidth modes 1/2/4/8.
+- High transmission rate, 32.5Mbps@8MHz, 15Mbps@4MHz.
+- Firequency range: 902~928 MHz.
+- High penetration.
+- Seamlessly connected to traditional networks.
+- Offers four bandwidth modes: 1/2/4/8MHz.
+- Plug and play, simple configuration.
 - Lightweight and easy to deploy.
-- Rich in features and strong in extensibility..
+- Rich in modes and strong in extensibility.
