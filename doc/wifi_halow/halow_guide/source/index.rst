@@ -46,7 +46,7 @@ Mesh Mode
    - Mesh_Point: These are the nodes within the mesh network that work together to relay data and ensure network coverage is expanded.
    - Application Scenarios: This mode is suitable for large-scale coverage, high-reliability, and low-latency IoT applications, such as smart cities, smart agriculture, and smart parking.
 
-.. _section_two:
+.. _section_one:
 
 Setup Guide
 -----------

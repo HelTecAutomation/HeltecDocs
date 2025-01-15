@@ -103,7 +103,7 @@ This article describes the installation of the Heltec ESP32 series development f
   ``` {note} It is recommended to follow the path and file name as described below as much as possible to avoid unnecessary trouble.
   ```
 
-  1. Download the development environment. [Download Framework](https://resource.heltec.cn/download/tools/WiFi_Kit_series.zip)
+  1. Download the development environment. [Download Framework](https://resource.heltec.cn/download/ESP32_framework)
 
   2. Open Arduino IDE, and click `File`->`Peferences`.
 
@@ -133,11 +133,11 @@ This article describes the installation of the Heltec ESP32 series development f
 
   ![](img/quick_start/20.png)
 
-  9. For special code library, search for "HELTEC ESP32" in `Library Manager`, select the latest version and install:[ESP32 Series Library](https://github.com/HelTecAutomation/Heltec_ESP32). 
+  9. For special code library, search for "HELTEC ESP32" in `Library Manager`, select the latest version and install:[ESP32 Series Library]()
 
   ![](img/quick_start/lib.png)
 
-------------
+--------------
 
 (programming)=
 
@@ -165,7 +165,7 @@ Once you have the framework and libraries installed, connect your computer to th
 ``` {tip} If you cannot upload the code, please manually enter the BOOTLOADER mode: hold down the PRG (USER/BOOT) key and do not release it, press the RST key once, and then release the PRG (USER/BOOT).
 ```
 
------------
+---------------
 
 ### New program
 Open Arduino IDE, create a new  `.ino` file, then copy the below code.
