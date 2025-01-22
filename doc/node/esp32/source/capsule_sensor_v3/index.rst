@@ -7,7 +7,21 @@ CapSule Sensor V3
 .. image:: ./img/19.jpg
    :align: center
    :width: 300px 
-   
+
+Features
+--------
+- ESP32-S3 + SX1262, supports Wi-Fi, Bluetooth and LoRa.
+- Modular design, with a BTB interface reserved at the bottom, capable of connecting and replacing different sensors.
+- Built in 250mAh rechargeable battery, magnetic suction charging port.
+- High strength plastic, IP65 waterproof.
+- Support Heltec Wireless Boot system, download firmware, exchange information, and print logs through Wi-Fi.
+- Meshtastic compatible.
+- Secondary development can be done through Arduino, Platform.io, etc.  
+
+Components
+----------
+
+
 .. toctree::
    :maxdepth: 2
 

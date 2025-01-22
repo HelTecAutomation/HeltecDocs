@@ -4,13 +4,10 @@ Heltec ESP32 Series
 
 This document organizes the Heltec-ESP32 series development boards and modules.
 
-   - `Heltec esp32 framework <https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series>`_
-   - `Heltec esp32 library <https://github.com/HelTecAutomation/Heltec_ESP32>`_
 
 .. toctree::
    :maxdepth: 1
 
-    Esp32 Series General Docs <esp32_general_docs/index>
     CapSule Sensor V3 <capsule_sensor_v3/index>
     Vision Master E213 <ht_vme213/index>
     Vision Master E290 <ht_vme290/index>
@@ -28,6 +25,10 @@ This document organizes the Heltec-ESP32 series development boards and modules.
     Wireless Shell <wireless_shell/index>
     Wireless Bridge <wireless_bridge/index>
     Heltec WirelessBoot System<wireless_boot/index>
-    
+    Esp32 Series General Docs <esp32_general_docs/index>
     -->[Heltec General Docs]<-- <https://docs.heltec.org/general/index.html>
-   
+
+Related Links
+-------------
+
+- `Esp32 Quick start(software installation and programming) <>`_
