@@ -12,14 +12,13 @@ The common operating modes of Wi-Fi HaLow are shown in the figure below:
 .. image:: ./img/07.png
    :align: center
 
-
 If you're not sure which operating mode to choose, please read the following introduction. If you've already decided on a mode, you can skip directly to the `Setup Guide <#section_one>`_.
 
 AP-STA Mode
 ^^^^^^^^^^^
 
-.. image:: ./img/14.jpg
-   :align: center
+   .. image:: ./img/14.jpg
+      :align: center
 
    The AP-STA mode is one of the most common operating modes, involving two roles: AP (Access Point) and STA (Station).
 
@@ -31,8 +30,8 @@ AP-STA Mode
 Mesh Mode
 ^^^^^^^^^
 
-.. image:: ./img/15.jpg
-   :align: center
+   .. image:: ./img/15.jpg
+      :align: center
 
    Mesh mode is used to create a self-organizing and self-healing network structure among multiple devices. Wi-Fi HaLow supports Mesh mode, allowing devices to relay signals from other devices to extend the network range.
 
