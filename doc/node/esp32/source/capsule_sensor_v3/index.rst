@@ -20,7 +20,7 @@ Features
 Quick Started
 -------------
 Capsule Sensor V3 runs the LoRaWAN program by default and supports SnapEmu one-click QR code registration.  
-For detailed information, please refer to the `Capsule Sensor LoRaWAN User Guide <lorawan>`_.
+For detailed information, please refer to the :ref:`Capsule Sensor LoRaWAN <lorawan>`.
 
 Update or Upload Firmware
 -------------------------
@@ -28,13 +28,13 @@ If you want to update, run, or upload a different version or functionality of th
 
 Meshtastic
 ----------
-Capsule Sensor is based on ESP32 and LoRa, making it ideal for use in the Meshtastic project. Given that this device differs from traditional development boards, we have provided documentation to explain it: `Meshtastic for Capsule Sensor <meshtastic>`.
+Capsule Sensor is based on ESP32 and LoRa, making it ideal for use in the Meshtastic project. Given that this device differs from traditional development boards, we have provided documentation to explain it: `Meshtastic for Capsule Sensor <meshtastic>`_.
 
 Re-Development
 --------------
 Capsule Sensor allows users to perform secondary development through WirelessBoot technology.  For details, please refer to the `WirelessBoot User Guide <../wireless_boot/index>`_
 
-FAQ
+FAQ2025122
 ---
 Capsule Sensor Frequently Asked Questions<frequently_asked_questions>
 
