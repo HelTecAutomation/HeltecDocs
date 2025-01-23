@@ -20,7 +20,7 @@ Features
 Quick Started
 -------------
 Capsule Sensor V3 runs the LoRaWAN program by default and supports SnapEmu one-click QR code registration.  
-For detailed information, please refer to the :ref:`Capsule Sensor LoRaWAN <lorawan>`.
+For detailed information, please refer to the :ref:`Capsule Sensor LoRaWAN <../lorawan.md>`.
 
 Update or Upload Firmware
 -------------------------
@@ -34,7 +34,7 @@ Re-Development
 --------------
 Capsule Sensor allows users to perform secondary development through WirelessBoot technology.  For details, please refer to the `WirelessBoot User Guide <../wireless_boot/index>`_
 
-FAQ2025122
+FAQ
 ---
 Capsule Sensor Frequently Asked Questions<frequently_asked_questions>
 
