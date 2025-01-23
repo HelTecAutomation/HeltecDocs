@@ -2,15 +2,14 @@
 
 {ht_translation}`[简体中文]:[English]`
 
-This topic describes how to quickly get started with the sensor version of Capsule Sensor V3 and upload it to the server via LoRaWAN.
+This topic describes how to quickly get started with the LoRaWAN version of Capsule Sensor V3.
 
 If you accidentally erase the code, please refer to the WirelessBoot theme: [How to refresh the firmware](https://docs.heltec.org/en/node/esp32/capsule_sensor_v3/wireless_boot.html).
 
-[Capsule Sensor V3 LoRaWAN Firmware Download.]([listing directory /download/Heltec Capsule Sensor V3/LoRaWAN_firmware](https://resource.heltec.cn/download/Heltec Capsule Sensor V3/LoRaWAN_firmware))
+[Capsule Sensor V3 LoRaWAN Firmware Download.](https://resource.heltec.cn/download/Heltec%20Capsule%20Sensor%20V3/LoRaWAN_firmware)
 
 ## Power On
-
-Hold the button for 3 seconds until the white light comes on, Release the button.
+Hold the button for 3 seconds until the white light comes on, then release the button.
 
 ![](img/01.png)
 
