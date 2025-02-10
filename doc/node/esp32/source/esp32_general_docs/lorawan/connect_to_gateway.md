@@ -100,27 +100,121 @@ After registration is complete, if all is well, you will see the device active.
 (connect-to-snapemu)=
 
 ### Manual registration on snapemu
+First of all, users should confirm whether the LoraWan program has been downloaded for Wifi Lora 32. If it has been downloaded, you can skip this step. If not, we will provide you with a download tutorial. 
 
-Enter configuration mode to get device-related registration information.
 
-Log into your account on ***\*platform.snapemu.com\****, click `device`, `CREATE A NEW DEVICE`.
+1.Install Arduino IDE. How to install please click here.https://www.arduino.cc/en/software
 
- **If you're using an APP,click* *`+`* *,select* *`input`**.**
+2.Install Heltec ESP32 series Arduino development framework. Installation manual please refer to here.https://docs.heltec.org/en/node/esp32/esp32_general_docs/quick_start.html
 
-![](img/platformcreate.png)
+3.Install Heltec_ESP32 Library.
 
-Fill in the device information.
+4.An ESP32 + LoRa node.
 
-![](img/platformregister.png)
+5.High quality USB cable.
 
-After registration is complete, if all is well, you will see the device active.
+Configure Parameters
 
-![](img/deviceAC.png)
+1.Connect the development board to the computer through USB data cable.
 
-## Important Hints
+2.Open the Arduino and in the option, select the appropriate ToolsBoardPort
 
-Please double check the following two things:
+3.In option are ESP32 chip’s normal option, just keep default. Special notice the ToolsBoardUpload SpeedCPU FrequencyCore Debug LevelPSRAMLoRaWan RegionLoRaWan Debug LevelLoRaWANDEVEUI
 
-1. The LoRaWAN parameters is the same as server!
-2. The listening frequency of your LoRa Gateway is the same as ESP32 LoRa node's sending frequency. We strictly follow [LoRaWAN™ 1.0.2 Regional Parameters rB](https://resource.heltec.cn/download/LoRaWANRegionalParametersv1.0.2_final_1944_1.pdf);
+
+*LoRaWan Region – LoRaWAN protocol region definition, strictly follow LoRaWAN™ 1.0.2 Regional Parameters rB;
+
+*LoRaWan Debug Level – Messages printed via serial.
+
+None – Default;
+
+Freq – Uplink/downlink frequency;
+
+Freq && DIO – Uplink/downlink frequency and DIO interrupt information;
+
+Freq && DIO && PW – Uplink/downlink frequency, DIO interrupt information and low power status.
+*
+LORAWAN_DEVEUI – LoRaWAN Device EUI generate method
+
+CUSTOM – Defined by the user in the DevEui array of the code, 8 bytes;
+
+Generate By ChipID – Generated according to the Chip ID of the chip. Selecting this option will override the setting in the DevEui array in the code.
+
+4.Follow the path shown below to open the LoraWAN demo code.
+
+![屏幕截图 2025-02-09 214224](https://github.com/user-attachments/assets/66ee1da3-6346-434a-9a6c-492f80bbe39a)
+
+![屏幕截图 2025-02-09 214442](https://github.com/user-attachments/assets/599dc2a8-72f0-468b-9dfe-df2d82c04188)
+
+Compile & Upload
+
+![屏幕截图 2025-02-09 214541](https://github.com/user-attachments/assets/e4802f97-c18b-4741-87bd-2be2003fa3a0)
+
+If everything goes well,this interface will be displayed.
+
+![屏幕截图 2025-02-09 214811](https://github.com/user-attachments/assets/0423d5f9-f54a-4969-9602-8397fc200b3a)
+
+5.Fill in DevEu AppEui AppKey in the following figure  in the example format, which will be used in the website registration.
+
+<img width="826" alt="屏幕截图 2025-02-09 215319" src="https://github.com/user-attachments/assets/1c1809aa-ae88-4637-a4e2-4bc6a1aa9d02" />
+
+*DevEui – Mote device IEEE EUI (big endian), 8 bytes;
+
+*AppEui – Application IEEE EUI (big endian), 8 bytes;
+
+*AppKey – AES encryption/decryption cipher application key, 16 bytes;
+
+
+Tip
+
+This example uses the OTAA pattern as an example
+
+
+Then, users can quickly configure the node according to this document.
+
+Register a LoRa node in Snapemuhttps://platform.snapemu.com/
+
+User log in to Snapemu by using their Heltec website account.
+
+![图片1](https://github.com/user-attachments/assets/f76fc351-5519-42c5-8e5d-3b8f49f852cd)
+
+
+User successfully logs in, this interface will be displayed.
+
+![图片2](https://github.com/user-attachments/assets/ece09aa9-75ad-4b10-9664-5c30595a7e00)
+
+
+Registering the device, click where shown below.
+
+![屏幕截图 2025-02-09 222354](https://github.com/user-attachments/assets/f5b1bf78-6009-48b0-acc0-3c203434153c)
+
+For exampie
+
+<img width="896" alt="屏幕截图 2025-02-09 222747" src="https://github.com/user-attachments/assets/d4ff0386-85a3-4e12-b1dc-b5ed5c58b9b6" />
+
+device name and can be filled in freely, and they will become the name and remark of the device displayed on the platform.description
+
+Group denotes the grouping of the device on SnapEmu.
+
+device type This device is a node, so choose “LoRaNode”.
+
+Region Match the frequency band of the node..
+
+DevEUI Node ID,piease follow download tutorial.
+
+![屏幕截图 2025-02-09 222916](https://github.com/user-attachments/assets/1765ef7a-fcd3-4f44-b791-8523e4ba6d4b)
+
+![屏幕截图 2025-02-09 223001](https://github.com/user-attachments/assets/d6d3f056-462d-4551-8890-b414f4273676)
+
+If everything goes well, it will be as shown in two  picturs..
+
+<img width="929" alt="屏幕截图 2025-02-09 223033" src="https://github.com/user-attachments/assets/de93a71a-e5fa-44d5-adb3-0c6e9e78821a" />
+
+<img width="450" alt="屏幕截图 2025-02-10 095431" src="https://github.com/user-attachments/assets/97f7983a-5412-4b48-b4aa-447dc91eba2b" />
+
+
+
+
+
+
 
