@@ -9,8 +9,8 @@ Wi-Fi, BLE, LoRa functions, also Li-Po battery management system, 0.96" OLEDarea
    :align: center
    :width: 500px 
 
-Related Resources
------------------
+Important Resources
+-------------------
 
 .. toctree::
    :maxdepth: 1
@@ -18,7 +18,6 @@ Related Resources
    Datasheet <https://resource.heltec.cn/download/WiFi_LoRa_32_V3/HTIT-WB32LA_V3(Rev1.1).pdf>
    Schematic diagram <https://resource.heltec.cn/download/WiFi_LoRa_32_V3/HTIT-WB32LA(F)_V3.1_Schematic_Diagram.pdf>
    Pin Map <https://resource.heltec.cn/download/WiFi_LoRa_32_V3/HTIT-WB32LA(F)_V3.png>
-   Hardware Update Log <hardware_update_log>
 
 Get Start
 ---------
@@ -46,6 +45,15 @@ Frequently Asked Questions
 
    Frequently Asked Questions <frequently_asked_questions>
 
+Hardware Update Log
+--------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   Hardware Update Log <hardware_update_log>
+
+
 Related Links
 -------------
 
@@ -59,7 +67,7 @@ Related Links
 - `LoRaWAN example Sub-Band usage <https://docs.heltec.org/general/sub_band_usage.html>`_
 - `LoRaWAN ABP Mode <https://docs.heltec.org/general/lorawan_abp/index.html>`_
 - `LoRa Node to Node <https://docs.heltec.org/general/lora_node_to_node.html>`_
-   
+  
 Heltec General Docs
 -------------------
 -->[General Docs]<-- <https://docs.heltec.org/general/index.html>
