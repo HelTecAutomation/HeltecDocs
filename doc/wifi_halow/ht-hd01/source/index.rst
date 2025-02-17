@@ -45,11 +45,12 @@ We have provided a plug-and-play mode for the HT-HD01 to help you get started mo
    :align: center
    :width: 700px 
 
-   There are two ways to connect to the upstream router, you can choose any one of them:
-   - Via Ethernet cable: just plug in the cable directly.
-   - Via 2.4G Wi-Fi: refer to `Dongle AP Setting <https://docs.heltec.org/en/wifi_halow/ht-hd01/ap.html>`_
+There are two ways to connect to the upstream router, you can choose any one of them:
 
-   When the device's red light changes to blue or green and stays on, it indicates that the device is functioning properly.
+- Via Ethernet cable: just plug in the cable directly.
+- Via 2.4G Wi-Fi: refer to `Dongle AP Setting <https://docs.heltec.org/en/wifi_halow/ht-hd01/ap.html>`_
+
+When the device's red light changes to blue or green and stays on, it indicates that the device is functioning properly.
 
 .. warning::
    The blue light of the device represents a USB-C cable, and the green light represents an RJ45 cable. If the color of your indicator does not match the type of network cable you are connected to, you need to change the color of the indicator by pressing the button.
@@ -81,7 +82,7 @@ Work with HaLow Gateway
 -----------------------
 HT-HD01 can be work as a normal HaLow client, and connected to the HaLow gateway(such as `HT-H7608 <https://heltec.org/project/ht-h7608/>`_.)
 
-.. image:: ./img/13.jpg
+.. image:: ./img/15.jpg
    :align: center
    :width: 700px 
 
@@ -91,6 +92,11 @@ Please refer to the `Dongle STA Setup Guide <https://docs.heltec.org/en/wifi_hal
 
 View Configuration Information
 ------------------------------
+AP Remote Access
+~~~~~~~~~~~~~~~~
+1. Connect the PC(Laptop) to the Dongle 2.4G AP.
+2. Enter “192.168.100.1” or “10.42.0.1” in the browser (depending on the mode of operation of the device, if you are not sure which one to enter, you can try both). Default account "root", default password "heltec.org". You will see the IP of the connected device and the IP of the Dongle itself.
+
 IP-Based Connection
 ~~~~~~~~~~~~~~~~~~~
 1. Connect the PC(Laptop) to the same network as the device, and go to the router's control page.
@@ -115,11 +121,6 @@ IP-Based Connection
 .. image:: ./img/10.png
    :align: center
    :width: 500px
-
-AP Remote Access
-~~~~~~~~~~~~~~~~
-1. Connect the PC(Laptop) to the Dongle 2.4G AP.
-2. Enter “192.168.100.1” or “10.42.0.1” in the browser (depending on the mode of operation of the device, if you are not sure which one to enter, you can try both). You will see the IP of the connected device and the IP of the Dongle itself.
 
 Frequently asked questions
 --------------------------
