@@ -33,11 +33,10 @@ Components
 
 Quick Started(Default paired mode)
 ----------------------------------
-We have provided a plug-and-play mode for the HT-HD01 to help you get started more quickly.
+We have provided a plug-and-play mode for the HT-HD01 to help you get started more quickly. The devices are pre-paired at the factory, and you can use them directly without any configuration.
 
-.. image:: ./img/13.jpg
+.. image:: ./img/04.jpg
    :align: center
-   :width: 700px 
 
 1. Connect the Dongle-AP to the upstream router and power it on. 
 
@@ -55,7 +54,7 @@ When the device's red light changes to blue or green and stays on, it indicates 
 .. warning::
    The blue light of the device represents a USB-C cable, and the green light represents an RJ45 cable. If the color of your indicator does not match the type of network cable you are connected to, you need to change the color of the indicator by pressing the button.
 
-2. Power on the Dongle-STA. Under default conditions, your device is already paired. When the device's red light changes to blue or green and stays on, it indicates that the device is functioning properly.
+2. Power on the Dongle-STA. When the device's red light changes to blue or green and stays on, it indicates that the device is functioning properly.
 
 .. image:: ./img/12.jpg
    :align: center
@@ -64,7 +63,7 @@ When the device's red light changes to blue or green and stays on, it indicates 
 .. tip::
    If your STA device is no longer paired with the AP, you need to reconfigure the STA. Please refer to the `Dongle STA Setup Guide <https://docs.heltec.org/en/wifi_halow/ht-hd01/sta.html>`_.
 
-3. You can directly connect your device to the Dongle-STA via ethernet cable or 2.4G WiFi.
+3. Connect your device to the Dongle-STA via ethernet cable or 2.4G WiFi.
 
 - Default 2.4G Wi-Fi SSID:HT-HD01-XXXX
 - Default Password:heltec.org
@@ -92,51 +91,61 @@ Please refer to the `Dongle STA Setup Guide <https://docs.heltec.org/en/wifi_hal
 
 View Configuration Information
 ------------------------------
+HD01 has three method enter the configuration page, you can choose either one of them.
+
 AP Remote Access
 ~~~~~~~~~~~~~~~~
-1. Connect the PC(Laptop) to the Dongle 2.4G AP.
-2. Enter “192.168.100.1” or “10.42.0.1” in the browser (depending on the mode of operation of the device, if you are not sure which one to enter, you can try both). Default account "root", default password "heltec.org". You will see the IP of the connected device and the IP of the Dongle itself.
+1. Connect the PC(Laptop) to the Dongle 2.4G AP.The default SSID is **HT-HD01-xxxx**, and the default password is **heltec.org**.
+2. Enter “192.168.100.1”(AP) or “10.42.0.1”(STA) in the browser (depending on the mode of operation of the device, if you are not sure which one to enter, you can try both). 
+
+3. Default account "**root**", default password **"heltec.org"**. You will see some device and the IP of the Dongle itself.
 
 IP-Based Connection
 ~~~~~~~~~~~~~~~~~~~
-1. Connect the PC(Laptop) to the same network as the device, and go to the router's control page.
 
-.. tip:: 
-   By default, connect to your upstream router. If not, then you need to determine how your device's IP is obtained, as described in the `Wi-Fi Setup Guide <https://docs.heltec.org/en/wifi_halow/halow_guide/>`_.
+1. Connect the PC(Laptop) to the same LAN as the device, and go to the configration page. Find the IP address of the corresponding device.
 
-2. Find the IP address of the corresponding device.
+Here, LAN refers to the network that provides the IP for the device to be viewed, and the configuration page refers to the configuration page of the device that creates this network. In the default configuration:
 
-.. image:: ./img/08.png
-   :align: center
-   :width: 500px
+- The Dongle-AP's IP is provided by the external router.
+- The Dongle-STA's IP is provided by the Dongle-AP.
+- The terminal device's IP is provided by the Dongle-STA.
 
-3. Go to this address, default account "root", default password "heltec.org".
+If your device has changed the network connection mode, please refer to the `Wi-Fi HaLow IP Allocation Rules <https://docs.heltec.org/en/wifi_halow/ht-hd01/ip_rules.html>`_.
+
+2. Go to this address, default account "root", default password "heltec.org".
 
 .. image:: ./img/09.png
    :align: center
    :width: 500px
 
-4. From this page, you can view the device information or change the relevant Settings.
+3. From this page, you can view the device information or change the relevant Settings.
 
 .. image:: ./img/10.png
    :align: center
    :width: 500px
 
+Via serial tool
+~~~~~~~~~~~~~~~
+
+You can also connect the device to your computer via a USB cable and use a serial port tool on your computer to view the device's relevant information.
+
+.. tip::
+   The serial port chip is CP210X. Click here to download the driver: `CP210X Driver <https://resource.heltec.cn/download/tools/CP210x_Universal_Windows_Driver.zip>`_.
+
+IP Allocation Rules
+-------------------
+`Wi-Fi HaLow IP Allocation Rules <ip_rules>`_.
+
 Frequently asked questions
 --------------------------
 
-.. toctree::
-    :maxdepth: 1
-
-    HD01 Frequently Asked Questions<faq>
+`HD01 Frequently Asked Questions <faq>`_
 
 Hardware Update Log
 -------------------
 
-.. toctree::
-    :maxdepth: 1
-
-    HD01 Hardware Update Log<hardware_update_log>
+`HD01 Hardware Update Log <hardware_update_log>`_
 
 
 Related Links
