@@ -1,16 +1,13 @@
-# HaLow Dongle Gateway(AP) Mode
+**HaLow Dongle Gateway(AP) Mode**
 
 {ht_translation}`[简体中文]:[English]`
 
-## Summary
 *Although the HT-HD01 is set to pair and configure by default upon manufacturing, you might need to connect to an upstream 2.4G Wi-Fi network, adjust signal strength, modify transmission bandwidth, and change SSID password in certain scenarios*.
-
-This topic describes how to enable the Access Point mode on the Heltec Wi-Fi HaLow device.
 
 ------------------------------------
 
 (config_page)=
-## Enter Configuration page
+# Enter Configuration page
 
 HD01 has two method enter the configuration page, you can choose either one of them:
 
@@ -19,7 +16,7 @@ HD01 has two method enter the configuration page, you can choose either one of t
 - [IP-Based Connection](ip_base)
 
 (ap_remote)=
-### AP Remote Access(recommended)
+## AP Remote Access(recommended)
 By default, the Dongle's 2.4G Wi-Fi is enabled. Through the 2.4G Wi-Fi it provides, you can access the device's IP address to enter the configuration page. The specific steps are as follows.
 
 1. Locate the Wi-Fi hotspot provided by the device, connect your computer (or tablet) to this hotspot via Wi-Fi or Ethernet. Typically, its default SSID is **HT-HD01-xxxx**, and the default password is **heltec.org**.
@@ -31,7 +28,7 @@ By default, the Dongle's 2.4G Wi-Fi is enabled. Through the 2.4G Wi-Fi it provid
 ![](img/09.png)
 
 (ip_base)=
-### IP-Based Connection
+## IP-Based Connection
 
 1. Connect the upstream router Dongle-AP is connected to, enter the management page, and find the IP address of Dongle-AP.
 
@@ -43,7 +40,7 @@ By default, the Dongle's 2.4G Wi-Fi is enabled. Through the 2.4G Wi-Fi it provid
 
 -----------------------------
 
-## Quick Config
+# Basic Settings
 In the `Quick Config` section of the configuration page, you can modify some basic settings. Inculde:
 
 - **Country**.
@@ -56,7 +53,7 @@ In the `Quick Config` section of the configuration page, you can modify some bas
 
 --------------------------
 
-## 2.4 Wi-Fi Access Mode (upstream network mode)
+# Access Via Wi-Fi-2.4G
 The default upstream access mode for Dongle-AP is **Ethernet-Router**. If you want to enable other upstream access modes, such as Wi-Fi connection, you can follow the steps below to configure it.
 1. Click the **Wizard** section of the configuration page.
 
@@ -85,9 +82,9 @@ The default upstream access mode for Dongle-AP is **Ethernet-Router**. If you wa
 
 ------------------------------------------
 
-## Starting Over
-In some instances, you may be unable to access the device's configuration page through either an IP or AP connection. This Section Describes the Complete Process of Setting Any HaLow Dongle to HaLow-AP Mode.
-### Enter Configuration Mode 
+# Setup a new Dongle-AP
+In some cases, you might not be able to connect to the HaLow Dongle device via IP or AP settings. In such scenarios, the **Wizards mode** can assist you in reconfiguring a brand-new HaLow Dongle device from scratch. Follow the guidance provided by the wizard according to your specific requirements to complete the reconfiguration process step-by-step.
+## Enter Wizard Mode 
 1. Press and hold the device button until the orange light turns on, then release the button.
 
 ![](img/07.jpg)
@@ -100,12 +97,12 @@ In some instances, you may be unable to access the device's configuration page t
 
 ![](img/09.png)
 
-### Configuration
+## Configuration
 
-Refer to the [Generic Wi-Fi HaLow Configuration Guide - AP Mode](https://docs.heltec.org/en/wifi_halow/halow_guide/gateway.html) for specific configuration procedures.
+Refer to the ["Generic Wi-Fi HaLow Configuration Guide - AP Mode"](https://docs.heltec.org/en/wifi_halow/halow_guide/gateway.html) for specific configuration procedures.
 
 ------------------------------------------------------
 
-## Related Links
+# Related Links
 - [HaLow Dongle User Guide](https://docs.heltec.org/en/wifi_halow/ht-hd01/index.html)
 - [HaLow Dongle STA Setup Guide](https://docs.heltec.org/en/wifi_halow/ht-hd01/sta.html)
