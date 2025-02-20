@@ -4,10 +4,6 @@ HT-HD01 Wi-Fi HaLow Dongle User Guide
 
 :ht_translation:`[简体中文]:[Eglish]`
 
-.. toctree::
-   :maxdepth: 1
-   Introduction<https://docs.heltec.org/en/wifi_halow/ht-hd01/index.html>
-
 Introduction
 ------------
 HT-HD01 is a plug-and-play  long-range comHD0municator based on Wi-Fi HaLow can replace Ethernet cables in certain scenarios. Pair two devices for use, or work with the HaLow gateway.
