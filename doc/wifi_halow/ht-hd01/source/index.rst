@@ -32,6 +32,7 @@ Components
 
 .. toctree::
    :maxdepth: 2
+   
    Quick Started(Plug&Play)<quick_started>
    View&Modify Configuration Information<view_and_modify>
    Access Point Reconfiguration<ap>
