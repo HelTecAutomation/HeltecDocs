@@ -10,7 +10,7 @@ HT-HD01 Wi-Fi HaLow Dongle User Guide
 
 Introduction
 ------------
-HT-HD01 is a plug-and-play  long-range communicator based on Wi-Fi HaLow can replace Ethernet cables in certain scenarios. Pair two devices for use, or work with the HaLow gateway.
+HT-HD01 is a plug-and-play  long-range comHD0municator based on Wi-Fi HaLow can replace Ethernet cables in certain scenarios. Pair two devices for use, or work with the HaLow gateway.
 
 .. image:: ./img/01.png
    :align: center
