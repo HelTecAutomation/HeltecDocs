@@ -1,105 +1,54 @@
-**HaLow Dongle Gateway(AP) Mode**
+# HaLow Dongle Gateway(AP) Mode 
 
 {ht_translation}`[简体中文]:[English]`
 
-*Although the HT-HD01 is set to pair and configure by default upon manufacturing, you might need to connect to an upstream 2.4G Wi-Fi network, adjust signal strength, modify transmission bandwidth, and change SSID password in certain scenarios*.
+This topic describe "**How to Set a HaLow Device into AP Working Mode**".This includes:
+- How to connect to the upstream network
+- How to choose the operating mode
+- how to create a HaLow AP network for HaLow STA connection
 
-------------------------------------
+------------------------------------------------------
 
-(config_page)=
-# Enter Configuration page
+Before all, make sure your device is in "Wizards mode".If you don't know how, please refer the flow links:
+- [Via configration page](https://docs.heltec.org/en/wifi_halow/ht-hd01/view_and_modify.html#wizards-setting)
+- [Via Reset up mode](https://docs.heltec.org/en/wifi_halow/ht-hd01/view_and_modify.html#reset-up)
 
-HD01 has two method enter the configuration page, you can choose either one of them:
+1. The following steps appear when performing a complete reset of the device. If you enter through the configuration page, they will be automatically skipped.
 
-- [AP Remote Access(recommended)](ap_remote)
+![](img/ap/02.png)
 
-- [IP-Based Connection](ip_base)
+ - `Country`. Please set it according to your region, and ensure that the AP and STA regions are consistent.
+ - `Hostname` refers to the hostname of your device in the Wi-Fi HaLow network.
+ - `Standard Wi-Fi HaLow`, slect a wizard you need，Standard Wi-Fi HaLow means AP-STA mode.
 
-(ap_remote)=
-## AP Remote Access(recommended)
-By default, the Dongle's 2.4G Wi-Fi is enabled. Through the 2.4G Wi-Fi it provides, you can access the device's IP address to enter the configuration page. The specific steps are as follows.
-
-1. Locate the Wi-Fi hotspot provided by the device, connect your computer (or tablet) to this hotspot via Wi-Fi or Ethernet. Typically, its default SSID is **HT-HD01-xxxx**, and the default password is **heltec.org**.
-
-![](img/ap/09.png)
-
-2. Access **192.168.100.1** in your browser. The default username is **root**, and the default password is **heltec.org**.
-
-![](img/09.png)
-
-(ip_base)=
-## IP-Based Connection
-
-1. Connect the upstream router Dongle-AP is connected to, enter the management page, and find the IP address of Dongle-AP.
-
-![](img/08.png)
-        
-2. Go to this IP address, default account "**root**", default password "**heltec.org**".
-   
-![](img/09.png)     
-
------------------------------
-
-# Basic Settings
-In the `Quick Config` section of the configuration page, you can modify some basic settings. Inculde:
-
-- **Country**.
-- **SSID**, Please make sure to distinguish between Wi-Fi HaLow and 2.4G.
-- **Password**, Please make sure to distinguish between Wi-Fi HaLow and 2.4G.
-- **Bandwidth**, different bandwidth configurations affect signal coverage, data transfer rate, and interference resistance. Narrower bandwidths (e.g., 1 MHz) offer better coverage and lower power consumption, while wider bandwidths provide higher data rates but have shorter range and higher power consumption.
-- **Channel**, each bandwidth have some specific frequency as its channels, when there are other Wi-Fi HaLow devices in the area, you can reduce interference by setting different channels.
-
-![](img/ap/11.png)
-
---------------------------
-
-# Access Via Wi-Fi-2.4G
-The default upstream access mode for Dongle-AP is **Ethernet-Router**. If you want to enable other upstream access modes, such as Wi-Fi connection, you can follow the steps below to configure it.
-1. Click the **Wizard** section of the configuration page.
-
-![](img/ap/12.png)
-
-2. Select “**Access Point**”, click `Next`.
+2. Select `Access Point` mode and click `Next`.
 
 ![](img/ap/03.png)
 
-3. Set the relevant parameters in the pop-up page, with the parameter descriptions as follows:
-
-   - **SSID**, Wi-Fi HaLow hotspot SSID, you can freely choose settings or keep them as default.
-   - **Password**, Wi-Fi HaLow hotspot password, you can freely choose settings or keep them as default..
-   - **Bandwidth**, different bandwidth configurations affect signal coverage, data transfer rate, and interference resistance. Narrower bandwidths (e.g., 1 MHz) offer better coverage and lower power consumption, while wider bandwidths provide higher data rates but have shorter range and higher power consumption.
-   - **Channel**, each bandwidth have some specific frequency as its channels, when there are other Wi-Fi HaLow devices in the area, you can reduce interference by setting different channels.
+3. Set the parameters for the HaLow hotspot and click `Next`.
 
 ![](img/ap/04.png)
 
-4. Select the Wi-Fi (2.4G) you want to connect and input its SSID and password, then click on "Next."
+- **SSID**: Wi-Fi HaLow gateway (AP) hotspot name.
+- **Password**: Wi-Fi HaLow hotspot gateway (AP) password.
+- **Bandwidth**: Different bandwidth configurations affect signal coverage, data transfer rate, and interference resistance. Narrower bandwidths (e.g., 1 MHz) offer better coverage and lower power consumption, while wider bandwidths provide higher data rates but have shorter range and higher power consumption.
+- **Channel**: Each bandwidth has specific frequencies as its channels. When there are other Wi-Fi HaLow devices in the area, you can reduce interference by setting different channels.
+
+4. Choose the mode to access the upstream network.
+
+![](img/ap/07.png)
+
+- None mode cannot connect to the network and is typically used for building a local area network.
+- The difference between the two Ethernet modes lies mainly in the IP allocation rules. Please choose according to your needs and the configuration page instructions.
+- If you choose WiFi(2.4G), you will need to enter the SSID and password for the upstream Wi-Fi network.
 
 ![](img/ap/08.png)
 
-5. "Enable Access Point", we suggest enabling it, which will creat a 2.4G network, so greatly facilitate your configuration and device management.
+5. Choose whether to enable 2.4G Wi-Fi. If enabled, you can set its SSID, password, and Ecryption.
 
-![](img/10.png)
+![](img/ap/10.png)
 
-------------------------------------------
-
-# Setup a new Dongle-AP
-In some cases, you might not be able to connect to the HaLow Dongle device via IP or AP settings. In such scenarios, the **Wizards mode** can assist you in reconfiguring a brand-new HaLow Dongle device from scratch. Follow the guidance provided by the wizard according to your specific requirements to complete the reconfiguration process step-by-step.
-## Enter Wizard Mode 
-1. Press and hold the device button until the orange light turns on, then release the button.
-
-![](img/07.jpg)
-
-2. At this point, the device will provide a dedicated AP hotspot for configuration. The default SSID is **HT-HD01-xxxx**, and the default password is **heltec.org**. Connect your PC(Laptop) to it.
-
-![](img/ap/09.png)
-
-3. Access **192.168.4.1** in your browser. The default username is **root**, and the default password is **heltec.org**.
-
-![](img/09.png)
-
-## Configuration
-
-Refer to the ["Generic Wi-Fi HaLow Configuration Guide - AP Mode"](https://docs.heltec.org/en/wifi_halow/halow_guide/gateway.html) for specific configuration procedures.
+6. Click "Save&Aplly".
 
 ------------------------------------------------------
 
