@@ -1,4 +1,4 @@
-# HaLow Dongle Gateway(AP) Mode 
+# HaLow Dongle AP Mode Guide
 
 {ht_translation}`[简体中文]:[English]`
 
@@ -10,8 +10,8 @@ This topic describe "**How to Set a HaLow Device into AP Working Mode**".This in
 ------------------------------------------------------
 
 Before all, make sure your device is in "Wizards mode".If you don't know how, please refer the flow links:
-- [Via configration page](https://docs.heltec.org/en/wifi_halow/ht-hd01/view_and_modify.html#wizards-setting)
-- [Via Reset up mode](https://docs.heltec.org/en/wifi_halow/ht-hd01/view_and_modify.html#reset-up)
+- [Via configration page](https://docs.heltec.org/en/wifi_halow/ht-hd01/quick_started.html#access-configuration-page)
+- [Via Reset up mode](https://docs.heltec.org/en/wifi_halow/ht-hd01/quick_started.html#reset-up)
 
 1. The following steps appear when performing a complete reset of the device. If you enter through the configuration page, they will be automatically skipped.
 
@@ -48,7 +48,7 @@ Before all, make sure your device is in "Wizards mode".If you don't know how, pl
 
 ![](img/ap/10.png)
 
-6. Click "Save&Aplly".
+6. Click "Save&Aplly". The HaLow AP network has been created.
 
 ------------------------------------------------------
 
