@@ -12,6 +12,76 @@
 
 ------
 
+## Important to know
+
+```
+{Tip} Regardless of which LoRaWAN NS, the parameters that need to be configured are similar. Ensuring that the relevant configurations of NS and Node are consistent is the key to ensuring successful LoRaWAN communication.
+```
+
+
+
+**Device Type**
+
+Generally, you will be asked to select a LoRa Gateway or LoRa Node.
+
+**LoRaWAN Class**
+
+`OTAA` or `ABP`, choose one of the while working, keep LoRa Node and NS select the same LoRaWAN Class.
+
+*For development devices with source code, you may see something like this:*
+
+![](img/connect_to_snapemu/03.png)
+
+*For ready to use devices with configuration page, you may see some thing like this:*
+
+![](img/connect_to_snapemu/04.png)
+
+**Region**
+
+LoRaWAN protocol agreement RF communication parameters. For technical details, please refer to [LoRaWAN™ 1.0.2 Regional Parameters](https://resource.heltec.cn/download/LoRaWANRegionalParametersv1.0.2_final_1944_1.pdf), also the [LoRaWAN Frequency Plans](https://docs.heltec.org/general/lorawan_frequency_plans.html) and [LoRaWAN Frequency Plans and Regulations by Country/Region](https://docs.heltec.org/general/lorawan_frequency_plans_by_country.html) can make sense to you.
+
+The region setting of `LoRa Node`, `LoRa Gateway`, `LoRaWAN NS` should be strictly the same.
+
+*For development devices with source code, you may see something like this:*
+
+![](img/connect_to_snapemu/05.png)
+
+*For ready to use devices with configuration page, you may see some thing like this:*
+
+![](img/connect_to_snapemu/06.png)
+
+**OTAA Parameter**
+
+For OTAA LoRaWAN Class, mainly include`DevEUI`, `AppEUI` (Also called `JoinEUI`), `AppKey`, the LoRa Node and NS should strictly keep the same.
+
+*For development devices with source code, you may see something like this:*
+
+![](img/connect_to_snapemu/07.png)
+
+*For ready to use devices with configuration page, you may see some thing like this:*
+
+![](img/connect_to_snapemu/08.png)
+
+```
+{Note} If you select ABP Class, you do not need to set OTAA parameters.
+```
+
+**ABP Parameter**
+
+For ABP LoRaWAN Class, mainly include `NetworkSecuritykey`, `ApplicationSecuritykey`, `DeviceAddress`, the LoRa Node and NS should strictly keep the same.
+
+*For development devices with source code, you may see something like this:*
+
+![](img/connect_to_snapemu/09.png)
+
+*For ready to use devices with configuration page, you may see some thing like this:*
+
+![](img/connect_to_snapemu/10.png)
+
+```
+{Note} If you select ABP Class, you do not need to set OTAA parameters.
+```
+
 ## Connect to LoRaWAN Server
 
 Before that, make sure there is a LoRa Gateway active in your server.
@@ -99,23 +169,17 @@ After registration is complete, if all is well, you will see the device active.
 
 (connect-to-snapemu)=
 
-### Manual registration on snapemu
+### Manual registration on SnapEmu
 
-Enter configuration mode to get device-related registration information.
+Log-in to [SnapEmu](https://platform.snapemu.com/dashboard/) by using their [Heltec website](https://heltec.org) account. Access into the devices page to register new device. 
 
-Log into your account on ***\*platform.snapemu.com\****, click `device`, `CREATE A NEW DEVICE`.
+![](img/connect_to_snapemu/01.png)
 
- **If you're using an APP,click* *`+`* *,select* *`input`**.**
+Click `+` and file in relevant device information.
 
-![](img/platformcreate.png)
+![](img/connect_to_snapemu/02.png)
 
-Fill in the device information.
-
-![](img/platformregister.png)
-
-After registration is complete, if all is well, you will see the device active.
-
-![](img/deviceAC.png)
+In the `Add device` step, file in the LoRa Node parameters and double check to make sure the content are the same with each other. If everything goes well, LoRa Node is successfully registered after `Submit`.
 
 ## Important Hints
 
@@ -123,4 +187,3 @@ Please double check the following two things:
 
 1. The LoRaWAN parameters is the same as server!
 2. The listening frequency of your LoRa Gateway is the same as ESP32 LoRa node's sending frequency. We strictly follow [LoRaWAN™ 1.0.2 Regional Parameters rB](https://resource.heltec.cn/download/LoRaWANRegionalParametersv1.0.2_final_1944_1.pdf);
-
