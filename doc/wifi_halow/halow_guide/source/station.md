@@ -20,7 +20,7 @@ As shown below:
 
 **How to enter the configuration mode page" please refer to the corresponding product documentation.**
 - [HT-H7608](https://docs.heltec.org/en/wifi_halow/ht-h7608/index.html#get-started)
-- [HT-HD01](https://docs.heltec.org/en/wifi_halow/ht-hd01/index.html#get-started)
+- [HT-HD01](https://docs.heltec.org/en/wifi_halow/ht-hd01/view_and_modify.html)
 - [HT-HC32](https://docs.heltec.org/en/wifi_halow/ht-hc32/index.html#get-started)
 - [HT-HR01](https://docs.heltec.org/en/wifi_halow/ht-hr01/index.html#setup-and-use)
 
@@ -66,28 +66,6 @@ When the green or blue light remains steady, it indicates that the network conne
 
 ``` {note} If you selected Ethernet mode, observe the color of your indicator light, it should be blue for USB cable and green for RJ45 cable. If the color of the light does not match the connection of the cable, you will need to change it to the appropriate color by pressing the button.
 ```
-
------------------------------------------------------
-
-## View and change the configuration
-This section describes how to view the parameters of the configured devices.
-
-Here are two methods:
-
-### Via the device's network (recommended)
-1. Connect the computer to the device's Ethernet port or Wi-Fi (2.4G) hotspot.
-2. Enter "10.42.0.1" in the browser to access the device's settings page. The default username is "Root" and the default password is "heltec.org".
-
-### Via the device's IP address
-1. You must ensure that the upstream Mesh Gate is set to 'Bridge' mode. Visit the IP address of the upstream ordinary router.
-
-2. Obtain the IP.
-
-   ![](img/ap/11.png)
-
-3. Enter the IP address in the browser to access its configuration page. 
-
-   The default username is "root" and the default password is "heltec.org". Then you can enter the configuration page and view or change the relevant setting information.
 
 -----------------------------------------
 

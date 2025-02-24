@@ -4,10 +4,6 @@ HT-HD01 Wi-Fi HaLow Dongle User Guide
 
 :ht_translation:`[简体中文]:[Eglish]`
 
-.. toctree::
-   :maxdepth: 1
-
-   Introduction<https://docs.heltec.org/en/wifi_halow/ht-hd01/index.html>
 
 Introduction
 ------------
@@ -38,7 +34,7 @@ Components
 
 .. toctree::
    :maxdepth: 2
-   
+   Introduction<https://docs.heltec.org/en/wifi_halow/ht-hd01/index.html>
    Quick Start(Plug&Play)<quick_started>
    HaLow Dongle AP Mode Guide<ap>
    HaLow Dongle STA Mode Guide<sta>

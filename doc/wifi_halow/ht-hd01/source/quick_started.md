@@ -6,15 +6,17 @@ We have provided a plug-and-play mode for the HT-HD01 to help you get started mo
 
 ![](img/04.jpg)
 
+--------------------------------------
+
 ## Start Access Point
 There are two ways for the Dongle AP to join the network:
 
-- [Via Ethernet cable (Default plug&play)](via_eth)
-- [Via Wi-Fi (requires configuration)](via_wifi)
+- [Via Ethernet cable](via_eth), default mode, no configuration required, plug and play.
+- [Via Wi-Fi(2.4G)](via_wifi),  need to configure the device's network Wi-Fi.
 
 (via_eth)=
 
-### Access the network via Ethernet (Default plug&play)
+### Access the network via Ethernet
 Connect the Dongle-AP to the upstream router and power it on. 
 
 ``` {tip} The RJ45 interface does not support PoE (Power-over-Ethernet) power supply. The USB cable can both supply power and networking.
@@ -30,7 +32,7 @@ When the device's red light changes to blue or green and stays on, it indicates 
 (via_wifi)=
 ### Access the network via WiFi-2.4G
 
-The default state of the HaLow Dongle is "Ethernet-Routing" mode. If you want to connect to Wi-Fi, please refer to: [How to Set a HaLow Device into AP Working Mode](https://docs.heltec.org/en/wifi_halow/ht-hd01/ap.html)
+The default state of the HaLow Dongle is "Ethernet-Routing" mode. If you want to connect to Wi-Fi, please refer to: [AP Setup Guide](https://docs.heltec.org/en/wifi_halow/ht-hd01/ap.html)
 
 When the device's red light changes to blue or green and stays on, it indicates that the device is functioning properly.
 
@@ -57,19 +59,19 @@ Connect your device to the Dongle-STA via ethernet cable or 2.4G WiFi.
 ``` {warning} The STA blue light of the device represents a USB-C cable, and the green light represents an RJ45 cable. If the color of your indicator does not match the type of network cable you are connected to, you need to change the color of the indicator by pressing the button.
 ```
 
-(configuration-page)=
-
 ------------------------------------------------
 
-## View and Modify the SSID and password.
+## View and Modify the SSID and Password
 You can view or change most settings on a device from its configuration page. How to get to the configuration page is described in the previous section: [Getting to the configuration page](configuration-page)
 
 ----------------------------------
 
-## Access configuration page
+(configuration-page)=
+
+## Access Configuration Page
 HD01 has two method to access the configuration page, you can choose either one of them.
 
-### Via AP Remote Access
+### Via AP remote access
 1. Connect the PC(Laptop) to the Dongle 2.4G AP. The default SSID is **HT-HD01-xxxx**, and the default password is **heltec.org**.
 
 ![](img/ap/09.png)
@@ -80,9 +82,8 @@ HD01 has two method to access the configuration page, you can choose either one 
 
 3. Default account "**root**", default password **"heltec.org"**.
 
------------------------------------------------------------
 
-### IP-Based Connection
+### IP-Based connection
 1. Connect the PC(Laptop) to the same LAN as the device, and go to the configration page. Find the IP address of the corresponding device.
 
 In the default configuration:
@@ -98,6 +99,8 @@ If your device has changed the network connection mode, please refer to the ["**
 ![](img/09.png)
 
 ----------------------------------
+
+(reset-up)=
 
 ## Reset Up
 When you cannot access your configuration page, the **Reset UP mode** can allow you to reconfigure the whole device.
@@ -115,7 +118,7 @@ When you cannot access your configuration page, the **Reset UP mode** can allow 
 
 3. Access **192.168.4.1** in your browser. The default username is **root**, and the default password is **heltec.org**.
 
-![](img/ap/09.png)
+![](img/09.png)
 
 4. By adhering to the instructions and prompts available on the configuration interface, each stage of the process can be executed methodically.
 
@@ -136,7 +139,7 @@ When you cannot access your configuration page, the **Reset UP mode** can allow 
 
 3. Access **192.168.4.1** in your browser. The default username is **root**, and the default password is **heltec.org**.
 
-![](img/ap/09.png)
+![](img/09.png)
 
 4. By adhering to the instructions and prompts available on the configuration interface, each stage of the process can be executed methodically.
 
