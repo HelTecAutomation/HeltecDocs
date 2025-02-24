@@ -14,8 +14,8 @@
 
 ## Important to know
 
-```
-{Tip} Regardless of which LoRaWAN NS, the parameters that need to be configured are similar. Ensuring that the relevant configurations of NS and Node are consistent is the key to ensuring successful LoRaWAN communication.
+```{Tip} Regardless of which LoRaWAN NS, the parameters that need to be configured are similar. Ensuring that the relevant configurations of NS and Node are consistent is the key to ensuring successful LoRaWAN communication.
+
 ```
 
 
@@ -62,8 +62,8 @@ For OTAA LoRaWAN Class, mainly include`DevEUI`, `AppEUI` (Also called `JoinEUI`)
 
 ![](img/connect_to_snapemu/08.png)
 
-```
-{Note} If you select ABP Class, you do not need to set OTAA parameters.
+```{Note} If you select ABP Class, you do not need to set OTAA parameters.
+
 ```
 
 **ABP Parameter**
@@ -78,8 +78,8 @@ For ABP LoRaWAN Class, mainly include `NetworkSecuritykey`, `ApplicationSecurity
 
 ![](img/connect_to_snapemu/10.png)
 
-```
-{Note} If you select ABP Class, you do not need to set OTAA parameters.
+```{Note} If you select ABP Class, you do not need to set OTAA parameters.
+
 ```
 
 ## Connect to LoRaWAN Server
