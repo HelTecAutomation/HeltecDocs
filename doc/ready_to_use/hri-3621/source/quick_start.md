@@ -2,77 +2,54 @@
 
 {ht_translation}`[简体中文]:[English]`
 
+**The default firmware of HRI-3621 is LoRaWAN.**
+
+--------------------------------------------
 ## Power supply
 HRI-3621 integrates a 1100aMh rechargeable lithium battery, charging voltage is 5V and its charging interface is magnetic-2P, a single filling time is about 3~4 hours.
 
 ![](img/02.jpg) 
 
-## RGB light status description
-The HRI-362x series has a wealth of indicator effects, which can help you more easily use the device, or determine the status of the device.
+(power_on)=
 
-![](img/led.png)
+## Power on
+Press and hold the button until the device's blue light turns on, then release the button to enter working mode.
 
-## Configura
-### Enter Configuration mode
-+ Long press the button on the top of the device, and the device will **first display White light and then Yellow light**. At this time, release your finger.
+![](img/03.jpg)
 
-``` {Tip} If the blue light/green light blinks sequentially after long press, it means that the device is in working state. At this point, long press the device will shut down, fter 5 seconds, release the button and repeat the above operation until the indicator light turns yellow.
+---------------------------------------------
 
-```
+## Configuration
+When registering on the standard LoRaWAN server, you need to review or modify the device configuration information. 
+If you are using one-click registration, you can skip this step.
+
+1. In the normal operating state of the device, quickly press the button three times in succession (with the blue LED flashing each time). When the red LED remains on, it indicates that the device has entered LoRaWAN configuration mode.
 
 ![](img/03.jpg) 
 
-+ Find the WiFi named **Sensor_Hub_xxxx** with your PC or mobile phone, connect it.
+2. Find the WiFi named **Sensor_Hub_xxxx** with your PC or mobile phone, connect it.
 
 ![](img/04.png) 
 
-+ In the browser, type **192.168.4.1**, enter the configuration page.
+3. In the browser, type **192.168.4.1**, enter the configuration page.
 
-![](img/05.png) 
+![](img/23.jpg) 
 
-### Parameter Definition
-Configure the parameters according to specific requirements on the configuration page, and click `Submit` after the configuration is completed.The following is the definition of each parameter.
+4. Modify the parameters according to your requirements and submit them. You can take a screenshot to save this information, as it will be needed when connecting to the server.
 
-+ **Sensor Data Page**: This page will show real-time data when clicked, and you'll need to refresh it by clicking `Refresh`.
+5. Click the button to exit configuration mode.
 
-  ![](img/06.png)
+----------------------------------------
 
-+ **LoRaWAN Configuration Page**: Shows the parameter configuration associated with LoRaWAN.
+### Connect to LoRaWAN Server
+Please refer to the link: [Connect HRI-3621 to LoRaWAN Server](https://docs.heltec.org/en/ready_to_use/hri-3621/lorawan.html#configure-end-device).
 
-  ![](img/07.png)
+--------------------------------------
 
-  - `Network access mode` LoRaWAN network access mode.
-  - `NwkSKey` `appSKey` `devAddr` ABP node parameters, must be consistent across the server.
-  - `RxWindow1Delay unit:S` Receive window 1 delay.
-  - `RxWindow2Delay unit:S` Receive window 2 delay.
-  - `Rx2dr` Window 2 data rate adaptive.
-  - `DevEui`  `appEui`  `appKey` OTAA node parameters, must be consistent across the server.
-  - `AppTxDutyCycle unit:S` Node transmission period.
-  - `AppPort` AppPort.
-  - `Channel_start` LoRaWAN channel start.
-  - `Channel_end` LoRaWAN channel end.
-  - `LoRaWanClass`LoRaWAN Class A, Class C.
-  - `IsTxConfirmed` Send Receive confirmation
-  - `LoRa signal light` Signal LED light switch.
-  - `Adr` Data rate adaptation.
-+ **Submit**: Configuration is complete, click here to submit.
-+ **OTA UPDATE**: Sensor Hub for Industry series supports OTA upgrade.
+## Power off
+Press and hold the button until the light turns off, indicating that the device is powered off.
 
-## Operating
-### Power off
-After the configuration is completed, long press the button for five seconds, and when the light goes off, the device is shut down.
-### Power on
-Press the button for 3 seconds. When the button shows white light, release the button. At this time, the device enters the working state, where the sending is green light and the receiving is purple light.
+--------------------------------------
 
-## Common problems and solutions
-+ Unable to confirm device working status.
-
-Press the device button once, and if it shows blue light, it will wake up, and the device will upload a message immediately.
-
-+ The device could not be turned on.
-
-Try to connect its charging cable and turn it on while it is charging.
-
-+ RGB light does not respond when sending and receiving.
-
-Go to the configuration page and see if the  `LoRa signal light` option is turned on.
+## Secondary development
+Please refer to the link: [ HRI-3621 Development Guide](https://docs.heltec.org/en/ready_to_use/hri-3621/development.html)
