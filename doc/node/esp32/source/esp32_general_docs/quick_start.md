@@ -1,20 +1,22 @@
 # Heltec ESP32 Series Quick Start
 {ht_translation}`[简体中文]:[English]`
 
-This article describes the installation of the Heltec ESP32 series development framework and library.
+*This article describes the installation of the Heltec ESP32 series development framework and library.*
 
-[Heltec ESP32 Frame Work](installing_development_framework_and_library) already includes a lot of basic sample code, such as WIFI, BLE, I2C, SPI, HTTP, etc.
+## Summary
+Heltec's Arduino-based ESP32 development environment consists of two parts:
 
-[Heltec ESP32 Library](library) depends on Heltec Frame Work, which contains additional extended examples such as LoRa/LoRaWAN related examples, factory test code, display related example code, Sensor example code, GPS example code, and more.
+- **Heltec ESP32 Development Framework**: Fully adapted from the official Espressif library, it includes **board definitions, core functionalities, and examples for the ESP32 (such as Wi-Fi, Bluetooth, and external drivers).**
+
+- **Heltec Extended Example Library**: **This library depends on the aforementioned ESP32 Development Framework**. It includes examples for **LoRa/LoRaWAN, display demonstrations, GPS, sensors, and factory test programs for Heltec products.**
 
 ``` {warning} Framework v3.0.0 and Library v2.0.0 are updated together, Older frameworks and libraries are no longer applicable to the new ones.
 ```
 
-- [Preparation](preparation)
-- [Installing development framework and library](installing_development_framework_and_library)
-- [PROGRAMING](programming)
+``` {Tip} You can also use the official [Espressif Arduino framework](https://github.com/espressif/arduino-esp32) as a replacement for the Heltec ESP32 Development Framework. Just ensure that the corresponding version is compatible.
+```
 
-------
+---------------------------------
 
 (preparation)=
 ## Preparation
@@ -26,10 +28,11 @@ This article describes the installation of the Heltec ESP32 series development f
 ```
 
 ### Software
-  - **USB driver**, you can refer to this articles [establish serial connection](https://docs.heltec.org/general/establish_serial_connection.html).
-  - [Install Git and Arduino IDE](https://docs.heltec.org/general/how_to_install_git_and_arduino.html).
+  - **USB driver**: [CP210x Driver](https://resource.heltec.cn/download/tools/CP210x_Universal_Windows_Driver.zip).
+  - [Arduino IDE](https://www.arduino.cc/en/software).
+  - [GIT](https://www.arduino.cc/en/software)
 
-------
+--------------------------------------------
 
 (installing_development_framework_and_library)=
 
@@ -39,46 +42,42 @@ This article describes the installation of the Heltec ESP32 series development f
 - [Via Git](esp32-via_git)
 - [Via Local File](esp32-via_local)
 
+---------------------------------------------------------------
+
 (esp32-via_arduino_ide)=
 
 ### Via Arduino IDE
 
-  1. Open Arduino IDE, and click `File`->`Peferences`.
+1. Open Arduino IDE, and click `File`->`Peferences`.
 
   ![](img/quick_start/01.png)
 
   ![](img/quick_start/02.png)
 
-  2. **Input the last ESP32 package URL:** [https://resource.heltec.cn/download/package_heltec_esp32_index.json](https://resource.heltec.cn/download/package_heltec_esp32_index.json)
+2. **Input the last ESP32 package URL:** [https://resource.heltec.cn/download/package_heltec_esp32_index.json](https://resource.heltec.cn/download/package_heltec_esp32_index.json)
 
   ![](img/quick_start/03.png)
 
-  3. Click on the `Boards Manager` icon on the left side, and enter "**heltec esp32**" in the search box that pops up, then select the latest version and click `INSTALL`	.
+3. Click on the `Boards Manager` icon on the left side, and enter "**heltec esp32**" in the search box that pops up, then select the latest version and click `INSTALL`	.
 
   ![](img/quick_start/05.png)
 
-  4. Install Heltec Esp32 Extended library
-
- **Heltec Frame Work** already includes a lot of basic sample code, such as WIFI, BLE, I2C, SPI, HTTP, etc.
-
- **Heltec ESP32 Library** depends on Heltec Frame Work, which contains additional extended examples such as LoRa/LoRaWAN related examples, factory test code, display related example code, Sensor example code, GPS example code, and more.
-
- Click on the `Library Manager` icon on the left side, search for "HELTEC ESP32", select the latest version and install
+4. Install Heltec Esp32 Extended library<br>
+   Click on the `Library Manager` icon on the left side, search for "HELTEC ESP32", select the latest version and install
 
   ![](img/quick_start/lib.png)
 
---------
+----------------------------------------------------
 
 (esp32-via_git)=
 
 ### Via Git
 
-  ``` {note} It is recommended to follow the path and file name as described below as much as possible to avoid unnecessary trouble.
-  ```
+``` {note} It is recommended to follow the path and file name as described below as much as possible to avoid unnecessary trouble.
+```
 
-  1. Installing Git.
-
-  2. Check the following links for your operating system, the specific operation steps are detailed in the link:
+### Install Heltec ESP32 Development Framework
+Check the following links for your operating system, the specific operation steps are detailed in the link:
   - [For Windows](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/InstallGuide/windows.md)
   - [For MacOS](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/InstallGuide/mac.md)
   - For Linux
@@ -86,19 +85,20 @@ This article describes the installation of the Heltec ESP32 series development f
     - [Fedora](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/InstallGuide/fedora.md)
     - [OpenSUSE](https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/blob/master/InstallGuide/opensuse.md)
 
-  ``` {TIP} After obtaining updates through "git pull", please execute "get. exe" under the path of "Arduino\hardware\heltec\esp32\tools" to obtain the latest compilation tool.
+  ``` {warning} After installation, please execute "get.exe" under the path of "Arduino\hardware\heltec\esp32\tools" to obtain the latest compilation tool.
   ```
 
-  3. The above is the framework installation. If you need to install the Heltec ESP32 extended library, you can refer to this link:
-      - [Heltec ESP32 Series Library](https://github.com/HelTecAutomation/Heltec_ESP32)
+### Install Heltec Extended Example Library
+The above is the framework installation. If you need to install the Heltec ESP32 extended library, you can refer to this link:
+- [Heltec ESP32 Series Library](https://github.com/HelTecAutomation/Heltec_ESP32)
 
   Follow the instructions in the `Readme.MD` to install.
 
---------
+------------------------------
 
 (esp32-via_local)=
 
-### Via Local File
+  ### Via Local File
 
   ``` {note} It is recommended to follow the path and file name as described below as much as possible to avoid unnecessary trouble.
   ```
@@ -143,6 +143,9 @@ This article describes the installation of the Heltec ESP32 series development f
 
 ## Programming
 Once you have the framework and libraries installed, connect your computer to the board and start programming nodes.
+
+-----------------------
+
 ### Example
 1. Connect your node to the computer with a USB cable.
 
@@ -165,7 +168,7 @@ Once you have the framework and libraries installed, connect your computer to th
 ``` {tip} If you cannot upload the code, please manually enter the BOOTLOADER mode: hold down the PRG (USER/BOOT) key and do not release it, press the RST key once, and then release the PRG (USER/BOOT).
 ```
 
----------------
+-------------------------
 
 ### New program
 Open Arduino IDE, create a new  `.ino` file, then copy the below code.
