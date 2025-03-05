@@ -20,8 +20,8 @@ Press and hold the button until the device's blue light turns on, then release t
 ---------------------------------------------
 
 ## Configuration
-When registering on the standard LoRaWAN server, you need to review or modify the device configuration information. 
-If you are using one-click registration, you can skip this step.
+***When registering on the standard LoRaWAN server, you need to review or modify the device configuration information. 
+If you are using one-click registration, you can skip this step.***
 
 1. In the normal operating state of the device, quickly press the button three times in succession (with the blue LED flashing each time). When the red LED remains on, it indicates that the device has entered LoRaWAN configuration mode.
 
