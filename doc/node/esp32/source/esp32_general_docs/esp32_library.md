@@ -4,6 +4,7 @@
 This article describes the installation of the Heltec ESP32 extended library.
 
 [Heltec ESP32 Library](library)  contains extended examples such as **LoRa/LoRaWAN related examples**, **factory test code**, **display related example code**, **Sensor example code**, **GPS example code**, and more.
+
 ## Required Framework
 The framework the library depends on, you can choose any of them:
 
@@ -13,8 +14,8 @@ The framework the library depends on, you can choose any of them:
 Framework already includes a lot of basic sample code, such as WIFI, BLE, I2C, SPI, HTTP, etc.
 
 ``` {warning} Framework v3.0.0 and Library v2.0.0 are updated together, Older frameworks and libraries are no longer applicable to the new ones.
-
 ```
+
 ## Installation
 **There are two methods to install the library, choose one of they:**
 
