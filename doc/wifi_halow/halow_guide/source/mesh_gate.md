@@ -78,27 +78,28 @@ When the green or blue light remains steady, it indicates that the network conne
 
 -----------------------------------------------------
 
-## View and change the configuration
-This section describes how to view the parameters of the configured devices.
+## View and modify the configuration
+**You can view the device's own information, downstream device information, and modify device settings on the device's configuration page.**
 
-Here are two methods:
+There are many ways to access the configuration page. Here are two common methods:
+### Via AP remote access
+1. Connect the PC(Laptop) to the device 2.4G AP. The default SSID is **HT-XXXX-xxxx**, and the default password is **heltec.org**.
 
-### Via the device's network (recommended)
-1. Connect the computer to the device's Ethernet port or Wi-Fi (2.4G) hotspot.
-2. Enter "10.42.0.1" in the browser to access the device's settings page. The default username is "Root" and the default password is "heltec.org".
+![](img/04.png)
 
-### Via the device's IP address
-1. You must ensure that the upstream Mesh Gate is set to 'Bridge' mode. Visit the IP address of the upstream ordinary router.
+2. Enter “192.168.100.1” in the browser. Default account "**root**", default password **"heltec.org"**.
 
-2. Obtain the IP.
+![](img/05.png)
 
-   ![](img/ap/11.png)
 
-3. Enter the IP address in the browser to access its configuration page. 
+### IP-Based connection
+1. Connect the PC(Laptop) to the same LAN as the device, and go to the configration page. Find the IP address of the corresponding device.
 
-   The default username is "root" and the default password is "heltec.org". Then you can enter the configuration page and view or change the relevant setting information.
+2. Go to this IP address, default account "**root**", default password "**heltec.org**".
 
------------------------------------------
+![](img/09.png)
 
-For other modes , please refer to the [Wi-Fi HaLow Using guide](https://docs.heltec.org/en/wifi_halow/halow_guide/index.html).
+------------------------------------
+
+For other modes , please refer to the [Wi-Fi HaLow Usage guide](https://docs.heltec.org/en/wifi_halow/halow_guide/index.html).
 

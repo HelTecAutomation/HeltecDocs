@@ -13,28 +13,24 @@ As shown below:
 
 ------------------------------------
 
-## Enter Configuration page
-
-**How to enter the configuration mode page" please refer to the corresponding product documentation.**
-- [HT-H7608](https://docs.heltec.org/en/wifi_halow/ht-h7608/index.html#get-started)
-- [HT-HD01](https://docs.heltec.org/en/wifi_halow/ht-hd01/index.html#get-started)
-- [HT-HC32](https://docs.heltec.org/en/wifi_halow/ht-hc32/index.html#get-started)
-- [HT-HR01](https://docs.heltec.org/en/wifi_halow/ht-hr01/index.html#setup-and-use)
-
 ## Basic Settings
-1. Enter the configuration page, select the `Country`, set the `Hostname`, and click `Apply`. "Hostname" refers to the hostname of your device in the Wi-Fi HaLow network.
+1. Enter the configuration page, How to enter the configuration mode page” please refer to the corresponding product documentation.
 
-2. Select "**Standard Wi-Fi HaLow**", click `Next`.
+``` {note} If it is a complete reset, you need to select the **Country** and **Hostname**, In summary, if this step appears, make the corresponding selection. If it does not appear, there is no need to take any action.
+```
+
+2. Select "**Standard Wi-Fi HaLow**", indicates that you will configure the device in AP-STA mode, click `Next`.
 
    ![](img/ap/02.png)
 
-3. Select "**Access Point**", click `Next`.
+3. Select "**Access Point**", indicates that the device will be set to AP (Gateway) mode, click `Next`.
 
    ![](img/ap/03.png)
 
 4. Set the relevant parameters in the pop-up page, with the parameter descriptions as follows:
 
    ![](img/ap/04.png)
+
    - **SSID**, Wi-Fi HaLow gateway(AP) hotspot name.
    - **Password**, Wi-Fi HaLow hotspot gateway(AP) password.
    - **Bandwidth**, different bandwidth configurations affect signal coverage, data transfer rate, and interference resistance. Narrower bandwidths (e.g., 1 MHz) offer better coverage and lower power consumption, while wider bandwidths provide higher data rates but have shorter range and higher power consumption.
@@ -43,68 +39,52 @@ As shown below:
 ``` {tip} Available Bandwidths and Channels differ greatly across regions. The higher your bandwidth, the greater the potential throughput of the connection. If you're deploying multiple HaLow access points you may want to select distinct channels and a lower bandwidth to reduce interference.
 ```
 
---------------------------------
-
-(upstream_network)=
-## Upstream Network Description
-Once you've done this basic setup, you need to choose an "Upstream network" method.
+5. You need to select an "upstream network" method, which is how the AP connects to the network. For an explanation of each mode, you can refer to the corresponding descriptions on the page.
 
 ![](img/ap/07.png)
 
-If you choose **None**, your device will have a static IP address and run a DHCP server on all interfaces, the HaLow and non-HaLow networks will be isolated from each other. If you choose **Etherne** or **Wi-Fi(2.4G)**, your HaLow and non-HaLow networks will be connected:
+``` {note} If you use **Wi-Fi 2.4G** upstream, You need to enter the username and password for this upstream Wi-Fi.
+```
 
-- **None**, your device will have a static IP address and run a DHCP server on all interfaces, the HaLow and non-HaLow networks will be isolated from each other.
-
-- **Ethernet**, **we recommend choosing Bridge mode**, the another mode is "Router". The main difference between them lies in the IP assignment rules.
-
-   - **Bridge**: In Bridge mode this device and the HaLow connected devices obtain IP addresses from your current upstream network.
-   - **Router**: In Router mode the HaLow connected devices obtain IP addresses from the DHCP server on this device, and this device uses NAT to forward IP traffic.
-
-- **Wi-Fi(2.4G)**, If you use a Wi-Fi upstream, fill in the Wi-Fi AP credentials. The HaLow connected devices obtain IP addresses from the DHCP server on this device, and this device uses NAT to forward IP traffic.
-
----------------------------
-
-## Enable 2.4G Wi-Fi Access Point
-This HaLow device is also capable of 2.4 GHz Wi-Fi. If you enable a 2.4 GHz Wi-Fi Access Point, you will be able to connect non-HaLow Wi-Fi clients to this device.
+6. Enable a 2.4 GHz Wi-Fi Access Point. While the AP provides a HaLow hotspot, it can also offer a standard 2.4G Wi-Fi hotspot. If power consumption is not a concern, we recommend enabling it to facilitate subsequent configuration and management.
 
 ![](img/ap/09.png)
 
-After enabling this feature, you need to set the 2.4G Access Point's `SSID`, `Password`, `Encryption`.
+7. Similarly, you also need to configure the SSID, password, and encryption for this standard 2.4G Wi-Fi hotspot.
 
 ![](img/ap/10.png)
 
-------------------------------------------------------
+8. Click `Apply`, When the green or blue light remains steady, it indicates that the network connection is successful.
 
-## Complete configuration
-Configuration and  apply.
+``` {note} If your upstream network is Ethernet, do not forget to connect the network cable.
+```
 
-When the green or blue light remains steady, it indicates that the network connection is successful.
-
-``` {note} If you selected Ethernet mode, observe the color of your indicator light, it should be blue for USB cable and green for RJ45 cable. If the color of the light does not match the connection of the cable, you will need to change it to the appropriate color by pressing the button.
+``` {Warning} If you selected Ethernet mode, observe the color of your indicator light, it should be blue for USB cable and green for RJ45 cable. If the color of the light does not match the connection of the cable, you will need to change it to the appropriate color by pressing the button.
 ```
 
 -----------------------------------------------------
 
-## View and change the configuration
-This section describes how to view the parameters of the configured devices.
+## View and modify the configuration
+**You can view the device's own information, downstream device information, and modify device settings on the device's configuration page.**
 
-Depending on what Upstream network mode you have set up, there are different ways to view or change the configuration.
-### None Mode device
-Connect PC(laptop) to device through a network cable, enter "10.42.0.1" in the browser, The default username is "root" and the default password is "heltec.org". Then you can enter the AP configuration page, you can view or change the relevant configuration information.
+There are many ways to access the configuration page. Here are two common methods:
+### Via AP remote access
+1. Connect the PC(Laptop) to the device 2.4G AP. The default SSID is **HT-XXXX-xxxx**, and the default password is **heltec.org**.
 
-![](img/ap/06.png)
+![](img/04.png)
 
-### Ethernet/Wi-Fi(2.4G) Mode device
-1. Connect the PC(laptop) to the upstream regular router and access its configuration page.
+2. Enter “192.168.100.1” in the browser. Default account "**root**", default password **"heltec.org"**.
 
-2. Obtain the IP.
+![](img/05.png)
 
-   ![](img/ap/11.png)
 
-3. Enter the IP address in the browser to access its configuration page. 
+### IP-Based connection
+1. Connect the PC(Laptop) to the same LAN as the device, and go to the configration page. Find the IP address of the corresponding device.
 
-   The default username is "root" and the default password is "heltec.org". Then you can enter the configuration page and view or change the relevant setting information.
+2. Go to this IP address, default account "**root**", default password "**heltec.org**".
+
+![](img/09.png)
 
 ------------------------------------
 
-For other modes , please refer to the [Wi-Fi HaLow Using guide](https://docs.heltec.org/en/wifi_halow/halow_guide/index.html).
+For other modes , please refer to the [Wi-Fi HaLow Usage guide](https://docs.heltec.org/en/wifi_halow/halow_guide/index.html).

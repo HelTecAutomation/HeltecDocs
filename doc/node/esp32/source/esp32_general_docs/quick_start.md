@@ -6,9 +6,9 @@
 ## Summary
 Heltec's Arduino-based ESP32 development environment consists of two parts:
 
-- **Heltec ESP32 Development Framework**: Fully adapted from the official Espressif library, it includes **board definitions, core functionalities, and examples for the ESP32 (such as Wi-Fi, Bluetooth, and external drivers).**
+- **Heltec ESP32 Development Framework**: Fully adapted from the official Espressif library, it includes board definitions, core functionalities, and examples for the ESP32 (such as Wi-Fi, Bluetooth, and external drivers etc.).
 
-- **Heltec Extended Example Library**: **This library depends on the aforementioned ESP32 Development Framework**. It includes examples for **LoRa/LoRaWAN, display demonstrations, GPS, sensors, and factory test programs for Heltec products.**
+- **Heltec Extended Example Library**: This library depends on the aforementioned ESP32 Development Framework**. It includes examples for LoRa/LoRaWAN, display demonstrations, GPS, sensors, and factory test programs for Heltec products etc..
 
 ``` {warning} Framework v3.0.0 and Library v2.0.0 are updated together, Older frameworks and libraries are no longer applicable to the new ones.
 ```

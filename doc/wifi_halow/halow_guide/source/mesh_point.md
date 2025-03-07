@@ -69,28 +69,24 @@ Complete the configuration and apply.
 When the green or blue light remains steady, it indicates that the network connection is successful.
 
 -----------------------------------------------------
+### Via AP remote access
+1. Connect the PC(Laptop) to the device 2.4G AP. The default SSID is **HT-XXXX-xxxx**, and the default password is **heltec.org**.
 
-## View and change the configuration
-This section describes how to view the parameters of the configured devices.
+![](img/04.png)
 
-Here are two methods:
+2. Enter “192.168.100.1” in the browser. Default account "**root**", default password **"heltec.org"**.
 
-### Via the device's network (recommended)
-1. Connect the computer to the device's Ethernet port or Wi-Fi (2.4G) hotspot.
-2. Enter "10.42.0.1" in the browser to access the device's settings page. The default username is "Root" and the default password is "heltec.org".
+![](img/05.png)
 
-### Via the device's IP address
-1. You must ensure that the upstream Mesh Gate is set to 'Bridge' mode. Visit the IP address of the upstream ordinary router.
 
-2. Obtain the IP.
+### IP-Based connection
+1. Connect the PC(Laptop) to the same LAN as the device, and go to the configration page. Find the IP address of the corresponding device.
 
-   ![](img/ap/11.png)
+2. Go to this IP address, default account "**root**", default password "**heltec.org**".
 
-3. Enter the IP address in the browser to access its configuration page. 
+![](img/09.png)
 
-   The default username is "root" and the default password is "heltec.org". Then you can enter the configuration page and view or change the relevant setting information.
+------------------------------------
 
------------------------------------------
-
-For other modes , please refer to the [Wi-Fi HaLow Using guide](https://docs.heltec.org/en/wifi_halow/halow_guide/index.html).
+For other modes , please refer to the [Wi-Fi HaLow Usage guide](https://docs.heltec.org/en/wifi_halow/halow_guide/index.html).
 
