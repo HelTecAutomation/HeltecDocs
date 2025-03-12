@@ -1,8 +1,6 @@
-# Heltec WirelessBoot System
+# WirelessBoot Re-development
 
 {ht_translation}`[简体中文]:[English]`
-
-WirelessBoot technology is used for devices that do not have an external USB or serial port. You can download firmware, exchange information, and print logs through WiFi. Therefor, devices no longer requires a USB-UART bridge, which can reduce the hardware cost of the system and reduce device size.
 
 This section describes how to install and use Heltec's ESP32 WirelessBoot development framework.
 
