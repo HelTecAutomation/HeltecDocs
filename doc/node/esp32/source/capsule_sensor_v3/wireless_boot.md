@@ -1,4 +1,4 @@
-# WirelessBoot(Uploading Firmware)
+# Uploading Firmware
 
 {ht_translation}`[简体中文]:[English]`
 
@@ -8,9 +8,6 @@ This topic describes how to enter WirelessBoot mode,and how to upload firmware i
 
 ## Enter WirelessBoot mode
 1. Long press the indicator light of the device for 8 seconds until the Blue light of the device is always on.
-
-``` {Note} Some early devices may require a regular press of 16 seconds.
-```
 
 ![](img/01.png)
 
