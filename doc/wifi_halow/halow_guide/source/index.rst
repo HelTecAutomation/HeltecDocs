@@ -20,7 +20,7 @@ AP-STA
 
 Mesh
 ^^^^
-.. image:: ./img/18.webp
+.. image:: ./img/18.jpg
    :align: center
 
 Setup Guide
