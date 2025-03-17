@@ -37,7 +37,7 @@ HT-HC01 pin Layout
 
 SDK Setup
 =========
-Please proceed to `Heltec Wi-Fi HaLow Get Started <https://docs.heltec.org/en/wifi_halow/get_started/index.html>`_.
+Please proceed to `MorseMicro Wi-Fi HaLow <https://github.com/MorseMicro>`_.
 
 Hardware upgrade log
 ====================
