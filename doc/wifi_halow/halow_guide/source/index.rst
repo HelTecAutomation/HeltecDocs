@@ -5,6 +5,9 @@ Wi-Fi HaLow Setup Guide
 
 This topic describes the various features and configuration methods of Heltec's Wi-Fi HaLow. 
 
+.. warning::
+   Some devices may not support all modes mentioned in this article; for example, HD01 does not support MeshGate-MeshPoint.
+
 Overview
 --------
 **If you are unsure which operating mode to choose, please refer to the following image:**
