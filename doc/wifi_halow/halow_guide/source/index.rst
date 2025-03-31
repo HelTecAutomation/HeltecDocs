@@ -26,6 +26,14 @@ Mesh
 .. image:: ./img/18.jpg
    :align: center
 
+Comparison of Different Modes
+-----------------------------
+**Whenever you make configuration selections, the image at the top of the page displays the network topology diagram and IP allocation rules, while the descriptive text below explains how your currently selected mode operates in detail.**
+
+.. image:: ./img/08.png
+   :align: center
+
+
 Setup Guide
 -----------
 **Once you have clarified how your device operates, refer to the following link to configure your device:**
