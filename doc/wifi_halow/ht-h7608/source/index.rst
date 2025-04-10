@@ -88,10 +88,10 @@ HT-H7608 has three typical working modes, please configure according to the spec
 
 Click on the following link to get the configuration instructions for the corresponding mode:
 
-- `Gateway(AP) Setup Guide <gateway>`_
-- `Client(STA) Setup Guide <station>`_
-- `Mesh Gate Setup Guide <mesh_gate>`_
-- `Mesh Gate Setup Guide <mesh_point>`_
+- Gateway(AP) Setup Guide <gateway>
+- Client(STA) Setup Guide <station>
+- Mesh Gate Setup Guide <mesh_gate>
+- Mesh Gate Setup Guide <mesh_point>
 
 --------------------------------------------
 
@@ -136,4 +136,4 @@ You can find most resources related to HT-H7608 at:
 Frequently asked questions
 --------------------------
 
-`HT-H7608 FAQ <faq>`_
+HT-H7608 FAQ <faq>
