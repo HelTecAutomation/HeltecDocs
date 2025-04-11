@@ -1,4 +1,4 @@
-# **Wi-Fi HaLow Gateway(AP) Mode**
+# Wi-Fi HaLow Gateway(AP) Mode
 
 {ht_translation}`[简体中文]:[English]`
 

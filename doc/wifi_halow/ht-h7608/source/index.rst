@@ -88,10 +88,10 @@ HT-H7608 has three typical working modes, please configure according to the spec
 
 Click on the following link to get the configuration instructions for the corresponding mode:
 
-- Gateway(AP) Setup Guide <gateway>
-- Client(STA) Setup Guide <station>
-- Mesh Gate Setup Guide <mesh_gate>
-- Mesh Gate Setup Guide <mesh_point>
+- `Gateway(AP) Setup Guide <https://docs.heltec.org/en/wifi_halow/ht-h7608/gateway.html>`_
+- `Client(STA) Setup Guide <https://docs.heltec.org/en/wifi_halow/ht-h7608/station.html>`_
+- `Mesh Gate Setup Guide <https://docs.heltec.org/en/wifi_halow/ht-h7608/mesh_gate.html>`_
+- `Mesh Gate Setup Guide <https://docs.heltec.org/en/wifi_halow/ht-h7608/mesh_point.html>`_
 
 --------------------------------------------
 
@@ -101,7 +101,7 @@ View and modify H7608'S configuration
 
 There are many ways to access the configuration page. Here are two common methods:
 
-IP-Based connection
+IP-Based Connection
 ^^^^^^^^^^^^^^^^^^^
 1. Connect the PC(Laptop) to the same LAN as the device, and go to the router configration page. Find the IP address of the corresponding device.
 
@@ -110,7 +110,7 @@ IP-Based connection
 
 2. Visit to this IP address, default account "**root**", default password "**heltec.org**".
 
-Via AP remote access
+Via AP Remote Access
 ^^^^^^^^^^^^^^^^^^^^
 1. Connect the PC(Laptop) to the device 2.4G AP. The default SSID is **HT-XXXX-xxxx**, and the default password is **heltec.org**.
 
@@ -118,10 +118,10 @@ Via AP remote access
    :align: center
    :width: 250px
 
-2. Enter “192.168.1.1” in the browser. Default account "**root**", default password **"heltec.org"**.
+2. Enter “192.168.100.1” in the browser. Default account "**root**", default password **"heltec.org"**.
 
 .. tip::
-   In None traffic mode, the default IP is 10.42.0.1.
+   Some early versions might be 192.168.1.1. In None traffic mode, the default IP is 10.42.0.1. 
 
 --------------------------------
 
@@ -136,4 +136,4 @@ You can find most resources related to HT-H7608 at:
 Frequently asked questions
 --------------------------
 
-HT-H7608 FAQ <faq>
+HT-H7608 FAQ <https://docs.heltec.org/en/wifi_halow/ht-h7608/faq.html>

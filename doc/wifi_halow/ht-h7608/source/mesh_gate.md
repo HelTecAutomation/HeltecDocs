@@ -70,5 +70,5 @@ When the green or blue light remains steady, it indicates that the network conne
 
 ------------------------------------
 
-For other modes , please refer to the [Wi-Fi HaLow Usage guide](https://docs.heltec.org/en/wifi_halow/halow_guide/index.html).
+For other modes , please refer to the [Wi-Fi HaLow Usage guide](https://docs.heltec.org/en/wifi_halow/ht-h7608/index.html#configurantion).
 
