@@ -29,10 +29,13 @@ During the factory test, we have written the corresponding license to FLASH. Gen
 ## Write the License to FLSAH
 There are two ways to write a license, you just have to choose one of them.
 
-### Via source code 
-In some LoRa codes, the interface of license is reserved. Please copy the license into the code in the following format and upload the code to the development board.
+### Via AT commands on Arduino
 
-![](img/how_to_use_license/03.png)
+Please enter AT+CDKEY=License on the Arduino serial port. Note that the license only requires numbers and does not include spaces or 0X.
+
+ ![](./img/how_to_use_license/03.png)
+
+
 
 ### Via AT command
 In some LoRa codes, the license interface is not reserved. You can send corresponding instructions through the serial port. After the serial port prints the chip ID, send the command "AT+CDKEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" through the serial port to activate the gateway. 
