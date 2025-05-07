@@ -116,7 +116,7 @@ When you cannot access your configuration page, the **Reset UP mode** can allow 
 
 ![](img/ap/09.png)
 
-3. Access **192.168.4.1** in your browser. The default username is **root**, and the default password is **heltec.org**.
+3. Access **10.42.0.1** in your browser. The default username is **root**, and the default password is **heltec.org**.
 
 ![](img/09.png)
 
@@ -137,7 +137,7 @@ When you cannot access your configuration page, the **Reset UP mode** can allow 
 
 ![](img/ap/09.png)
 
-3. Access **192.168.4.1** in your browser. The default username is **root**, and the default password is **heltec.org**.
+3. Access **10.42.0.1** in your browser. The default username is **root**, and the default password is **heltec.org**.
 
 ![](img/09.png)
 
