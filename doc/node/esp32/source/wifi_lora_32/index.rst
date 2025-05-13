@@ -15,9 +15,10 @@ Important Resources
 .. toctree::
    :maxdepth: 1
 
-   Datasheet <https://resource.heltec.cn/download/WiFi_LoRa_32_V3/HTIT-WB32LA_V3(Rev1.1).pdf>
-   Schematic diagram <https://resource.heltec.cn/download/WiFi_LoRa_32_V3/HTIT-WB32LA(F)_V3.1_Schematic_Diagram.pdf>
-   Pin Map <https://resource.heltec.cn/download/WiFi_LoRa_32_V3/HTIT-WB32LA(F)_V3.png>
+   Datasheet <https://resource.heltec.cn/download/WiFi_LoRa_32_V3/HTIT-WB32LA_V3.2.pdf>
+   Schematic diagram <https://resource.heltec.cn/download/WiFi_LoRa_32_V3/WiFi_LoRa_32_V3.2_Schematic_Diagram.pdf>
+   Pin Map <https://resource.heltec.cn/download/WiFi_LoRa_32_V3/Wi-Fi_LoRa32_V3.2_Pinmap.png>
+   Older Version resource <https://resource.heltec.cn/download/WiFi_LoRa_32_V3>
 
 Get Start
 ---------
@@ -25,7 +26,7 @@ Get Start
 .. toctree::
    :maxdepth: 1
 
-   Framework and libraries installation <https://docs.heltec.org/en/node/esp32/esp32_general_docs/quick_start.html>
+   Framework and Libraries installation <https://docs.heltec.org/en/node/esp32/esp32_general_docs/quick_start.html>
    Running example code<example>
 
 Application and Extension
@@ -34,7 +35,7 @@ Application and Extension
 .. toctree::
    :maxdepth: 1
 
-   LoRaWAN Sample Code <https://docs.heltec.org/en/node/esp32/esp32_general_docs/lorawan/index.html>
+   LoRaWAN Sample <https://docs.heltec.org/en/node/esp32/esp32_general_docs/lorawan/index.html>
    Meshtastic Introduction <https://docs.heltec.org/en/node/esp32/esp32_general_docs/meshtastick.html>
 
 Frequently Asked Questions
