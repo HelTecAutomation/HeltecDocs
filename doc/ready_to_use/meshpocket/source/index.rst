@@ -87,7 +87,7 @@ RGB Indicator Description
 +-----------------------------+----------------+--------------------------------------------------+
 | Status                      | Battery Level  | Indicator                                        |
 +=============================+================+==================================================+
-| Over-discharge/no power     | ≤5%            | Red light flashes rapidly at 2Hz. <br>           |
+| Over-discharge/no power     | ≤5%            | Red light flashes rapidly at 2Hz.\               |
 |                             |                | Extinguishes after 5 seconds                     |
 |                             +----------------+--------------------------------------------------+
 |                             | 1-30%          | Red light flashing slowly at 0.5Hz               |
@@ -103,7 +103,7 @@ RGB Indicator Description
 | Foreign Object Detection    |                | Yellow light flashes rapidly at 2Hz              |
 | (FOD)                       |                |                                                  |
 +-----------------------------+----------------+--------------------------------------------------+
-| Fault                       |                | Indicator light extinguishes, output shuts down  |
+| Fault                       |                | Indicator light extinguishes, output shuts down. |
 +-----------------------------+----------------+--------------------------------------------------+
 
 Button Description
@@ -124,7 +124,7 @@ Button Description
 +---------+----------------+-------------------------------------------------------+
 | USER    | Single click   | Toggle Meshtastic options                             |
 |         +----------------+-------------------------------------------------------+
-|         | Long press     | Select Meshtastic option, Turn off Meshtastic        |
+|         | Long press     | Select Meshtastic option, Turn off Meshtastic         |
 +---------+----------------+-------------------------------------------------------+
 | RST     | Single click   | Reset/wake-up Meshtastic                              |
 +---------+----------------+-------------------------------------------------------+
@@ -135,7 +135,8 @@ The device comes preloaded with Meshtastic firmware. Firmware updates/flashing c
 
 .. image:: ./img/05.jpg
    :align: center
-   :width: 500p
+   :width: 500px
+
 
 Web Flasher
 ^^^^^^^^^^^
@@ -147,15 +148,15 @@ Muanual Flasher
 
 .. image:: ./img/06.png
    :align: center
-   :width: 500p
+   :width: 500px
 
 .. image:: ./img/08.png
    :align: center
-   :width: 500p
+   :width: 500px
 
 .. image:: ./img/07.png
    :align: center
-   :width: 500p
+   :width: 500px
 
 2. Connect the device to the PC using the dedicated magnetic USB cable.
 
