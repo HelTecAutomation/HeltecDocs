@@ -145,15 +145,15 @@ Muanual Flasher
 ^^^^^^^^^^^^^^^
 1. Obtain the firmware.
 
-.. image:: ./img/06.jpg
+.. image:: ./img/06.png
    :align: center
    :width: 500p
 
-.. image:: ./img/08.jpg
+.. image:: ./img/08.png
    :align: center
    :width: 500p
 
-.. image:: ./img/07.jpg
+.. image:: ./img/07.png
    :align: center
    :width: 500p
 
