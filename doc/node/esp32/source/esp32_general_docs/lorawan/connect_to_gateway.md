@@ -32,9 +32,7 @@ Generally, you will be asked to select a LoRa Gateway or LoRa Node.
 
 ![](img/connect_to_snapemu/03.png)
 
-*For ready to use devices with configuration page, you may see some thing like this:*
 
-![](img/connect_to_snapemu/04.png)
 
 **Region**
 
@@ -46,23 +44,15 @@ The region setting of `LoRa Node`, `LoRa Gateway`, `LoRaWAN NS` should be strict
 
 ![](img/connect_to_snapemu/05.png)
 
-*For ready to use devices with configuration page, you may see some thing like this:*
-
-![](img/connect_to_snapemu/06.png)
-
 **OTAA Parameter**
 
 For OTAA LoRaWAN Class, mainly include`DevEUI`, `AppEUI` (Also called `JoinEUI`), `AppKey`, the LoRa Node and NS should strictly keep the same.
 
-*For development devices with source code, you may see something like this:*
-
 ![](img/connect_to_snapemu/07.png)
 
-*For ready to use devices with configuration page, you may see some thing like this:*
 
-![](img/connect_to_snapemu/08.png)
 
-```{Note} If you select ABP Class, you do not need to set OTAA parameters.
+```{Note} If you select ABP, you do not need to set OTAA parameters.
 
 ```
 
@@ -74,11 +64,7 @@ For ABP LoRaWAN Class, mainly include `NetworkSecuritykey`, `ApplicationSecurity
 
 ![](img/connect_to_snapemu/09.png)
 
-*For ready to use devices with configuration page, you may see some thing like this:*
-
-![](img/connect_to_snapemu/10.png)
-
-```{Note} If you select ABP Class, you do not need to set OTAA parameters.
+```{Note} If you select ABP, you do not need to set OTAA parameters.
 
 ```
 

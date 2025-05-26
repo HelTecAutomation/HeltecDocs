@@ -69,6 +69,7 @@ Here are the LoRa Gateways produced by Heltec Automation. You will be able to fi
    HRI-3632(Wireless Aggregator Bus Transformer) <https://docs.heltec.org/en/ready_to_use/hri-3631/index.html>
    HRI-3633(Wireless Aggregator Valve Controller) <https://docs.heltec.org/en/ready_to_use/hri-3633/index.html>
    Junction Box <https://docs.heltec.org/en/ready_to_use/junction_box/index.html>
+   HT-298A(MeshPocket)<https://docs.heltec.org/en/ready_to_use/meshpocket/index.html>
 
 .. toctree::
    :maxdepth: 2
