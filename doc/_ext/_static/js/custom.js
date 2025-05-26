@@ -40,7 +40,7 @@ var prod_obj = {
         {text:"HRI-3632", value: "hri-3632"},
         {text:"HRI-3633", value: "hri-3633"},
         {text:"Juction Box", value: "junction_box"},
-        {text:"MeshPpcket", value: "meshpocket"},
+        {text:"MeshPocket", value: "meshpocket"},
     ],
     wifi_halow: [
         {text:"HT-H7608", value: "ht-h7608"},
