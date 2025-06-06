@@ -18,6 +18,7 @@ For configuration instructions, please refer to the following link:
 
 .. toctree::
    :maxdepth: 2
+   
    MeshGate<meshgate>
    MeshPoint<meshpoint>
 
@@ -26,6 +27,6 @@ HD01 Related Links
 ------------------
 
 - `Access Configuration Page <https://docs.heltec.org/en/wifi_halow/ht-hd01/quick_started.html#access-configuration-page>`_
-- `HaLow AP-STA <https://docs.heltec.org/en/wifi_halow/ht-hd01/ap-sta.html>`_
+- `HaLow AP-STA <https://docs.heltec.org/en/wifi_halow/ht-hd01/ap-sta/index.html>`_
 
    

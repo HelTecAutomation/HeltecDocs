@@ -3,9 +3,9 @@
 {ht_translation}`[简体中文]:[English]`
 
 The HD01 offers three methods to access the configuration page—you may use any one of them:
-- [Via AP remote access](via-ap-romote-access)
-- [IP-Based connection](ip-based-connection)
-- [Reset Up](reset-up)
+- [Via AP remote access](via-ap-romote-access),To use this mode, ensure the device's AP hotspot/Ethernet is active and connected. Devices in Bridge mode cannot use this method.
+- [IP-Based connection](ip-based-connection),This mode requires both you and the device to be on the same LAN, and you must be able to connect to it via its IP address.
+- [Configuration Mode](reset-up), The device must enter configuration mode, during which normal operation will be temporarily suspended.
 
 (via-ap-romote-access)=
 
@@ -17,28 +17,29 @@ The HD01 offers three methods to access the configuration page—you may use any
 
 1. Connect the PC(Laptop) to the Dongle 2.4G-AP(or Ethernet). The default SSID is **HT-HD01-xxxx**, and the default password is **heltec.org**.
 
-![](img/ap/09.png)
+![](img/20.png)
 
-2. Enter “192.168.100.1” or “10.42.0.1” in the browser (depending on the mode of operation of the device, if you are not sure which one to enter, you can try both, If neither address can be connected, please use alternative methods.). 
+2. Enter “192.168.100.1” or “10.42.0.1” in the browser (depending on the mode of operation of the device, if you are not sure which one to enter, you can try both, If neither address can be connected, please use alternative methods). 
 
 ![](img/05.png)
 
 3. Default account "**root**", default password **"heltec.org"**.
+
+-----------------------------
 
 (ip-based-connection)=
 
 ## IP-Based connection
 **This mode requires both you and the device to be on the same LAN, and you must be able to connect to it via its IP address.**
 
-1. Connect the PC(Laptop) to the same LAN as the device, and go to the upstream device configration page. Find the IP address of the corresponding device.
-
-In the default configuration:
-
+1. Connect the PC(Laptop) to the same LAN as the device, and go to the upstream device configration page. Find the IP address of the corresponding device. In the default configuration:
 - The Dongle-AP's IP is provided by the external router.
 - The Dongle-STA's IP is provided by the Dongle-AP.
 - The terminal device's IP is provided by the Dongle-STA.
 
-If your device has changed the network connection mode, please refer to the ["**Wi-Fi HaLow IP Allocation Rules**"] (https://docs.heltec.org/en/wifi_halow/ht-hd01/ip_rules.html). 
+![](img/21.jpg)
+
+If your device has changed the network connection mode, please refer to the [**Wi-Fi HaLow IP Allocation Rules**](https://docs.heltec.org/en/wifi_halow/ht-hd01/ip_rules.html). 
 
 2. Go to this address, default account "**root**", default password "**heltec.org**".
 
@@ -49,7 +50,7 @@ If your device has changed the network connection mode, please refer to the ["**
 (reset-up)=
 
 ## Configutation Mode
-When you cannot access your configuration page, the **Configuration mode** can allow you to reconfigure the whole device.
+The **Configuration mode** can allow you to reconfigure the whole device. The device must enter configuration mode, during which normal operation will be temporarily suspended.
 
 ``` {tip} If the configuration hasn't been apply in this mode, the existing configuration will still be retained.
 ```
@@ -62,7 +63,7 @@ When you cannot access your configuration page, the **Configuration mode** can a
 
 3. At this point, the device will provide a dedicated AP hotspot for configuration. The default SSID is **HT-HD01-xxxx**, and the default password is **heltec.org**. Connect your PC(Laptop) to it.
 
-![](img/ap/09.png)
+![](img/20.png)
 
 4. Access **10.42.0.1** in your browser. The default username is **root**, and the default password is **heltec.org**.
 

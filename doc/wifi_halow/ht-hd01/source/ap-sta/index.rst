@@ -15,6 +15,7 @@ For configuration instructions, please refer to the following link:
 
 .. toctree::
    :maxdepth: 2
+   
    HaLow-AP<ap>
    HaLow-STA<sta>
    HaLow-LAN<lan>
@@ -23,6 +24,6 @@ HD01 Related Links
 ------------------
 
 - `Access Configuration Page <https://docs.heltec.org/en/wifi_halow/ht-hd01/quick_started.html#access-configuration-page>`_
-- `HaLow Mesh <https://docs.heltec.org/en/wifi_halow/ht-hd01/mesh.html>`_
+- `HaLow Mesh <https://docs.heltec.org/en/wifi_halow/ht-hd01/mesh/index.html>`_
 
    

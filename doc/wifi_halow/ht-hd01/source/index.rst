@@ -69,7 +69,7 @@ Mesh Networking
    Quick Start(Plug&Play)<quick_started>
    Access Configuration Page<access_configuration_page>
    AP-STA Mode Guide<ap-sta/index>
-   HaLow Dongle Mesh Mode <mesh/index>
+   Mesh Mode <mesh/index>
    IP Allocation Rules<ip_rules>
    Frequently Asked Questions<faq>
    Hardware Update Log<hardware_update_log>

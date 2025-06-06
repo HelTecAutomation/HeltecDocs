@@ -22,7 +22,7 @@ For configuration mode access, the following parameters must be set:
 
 3. Select "**Standard WiFi HaLow**", click `next`.
 
-![](img/04.png)
+![](img/ap/02.png)
 
 4. Select `Access Point` mode and click `Next`.
 
@@ -41,10 +41,7 @@ For configuration mode access, the following parameters must be set:
 
 ![](img/ap/07.png)
 
-7. Enable/Disable "2.4GHz WiFi AP", Set the SSID and password for the 2.4GHz hotspot, then click **Next**.
-
-``` {tip} If don't have stringent low-power requirements, we recommend enabling this feature to facilitate subsequent device management.
-```
+7. Enable/Disable "2.4GHz WiFi AP", Set the SSID and password for the 2.4GHz hotspot, then click **Next**. If don't have stringent low-power requirements, we recommend enabling this feature to facilitate subsequent device management.
 
 ![](img/ap/10.png)
 
@@ -60,5 +57,6 @@ For configuration mode access, the following parameters must be set:
 ------------------------------------------------------
 
 ## Related Links
-- [HaLow Dongle User Guide](https://docs.heltec.org/en/wifi_halow/ht-hd01/index.html)
-- [HaLow Dongle STA Setup Guide](https://docs.heltec.org/en/wifi_halow/ht-hd01/sta.html)
+- [Access Configuration Page](https://docs.heltec.org/en/wifi_halow/ht-hd01/quick_started.html#access-configuration-page)
+- [HaLow Mesh](https://docs.heltec.org/en/wifi_halow/ht-hd01/mesh/index.html)
+- [STA](https://docs.heltec.org/en/wifi_halow/ht-hd01/ap-sta/sta.html)

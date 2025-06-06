@@ -62,5 +62,6 @@ If Wi-Fi is selected as the upstream network, enter the SSID and password of the
 ------------------------------------
 
 ## Related Links
-- [HaLow Dongle Mesh Point](https://docs.heltec.org/en/wifi_halow/ht-hd01/mesh/meshpoint.html)
-- [HaLow Dongle AP-STA Setup Guide](https://docs.heltec.org/en/wifi_halow/ht-hd01/ap-sta.html)
+- [Access Configuration Page](https://docs.heltec.org/en/wifi_halow/ht-hd01/quick_started.html#access-configuration-page)
+- [HaLow AP-STA](https://docs.heltec.org/en/wifi_halow/ht-hd01/ap-sta/index.html)
+- [Mesh Point](https://docs.heltec.org/en/wifi_halow/ht-hd01/mesh/meshpoint.html)

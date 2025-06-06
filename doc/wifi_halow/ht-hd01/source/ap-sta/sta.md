@@ -21,7 +21,7 @@ For configuration mode access, the following parameters must be set:
 
 3. Select "**Standard WiFi HaLow**", click `next`.
 
-![](img/04.png)
+![](img/ap/02.png)
 
 4. Select `Client` mode and click `Next`.
 
@@ -42,5 +42,6 @@ For configuration mode access, the following parameters must be set:
 ------------------------------------
 
 ## Related Links
-- [HaLow Dongle User Guide](https://docs.heltec.org/en/wifi_halow/ht-hd01/index.html)
-- [HaLow Dongle STA Setup Guide](https://docs.heltec.org/en/wifi_halow/ht-hd01/sta.html)
+- [Access Configuration Page](https://docs.heltec.org/en/wifi_halow/ht-hd01/quick_started.html#access-configuration-page)
+- [HaLow Mesh](https://docs.heltec.org/en/wifi_halow/ht-hd01/mesh/index.html)
+- [AP](https://docs.heltec.org/en/wifi_halow/ht-hd01/ap-sta/ap.html)

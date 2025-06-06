@@ -60,9 +60,8 @@ After completing the above steps, click `Next`.
 
 ------------------------------------
 
-**## Related Links**
-
-- [HaLow Dongle Mesh Gate](https://docs.heltec.org/en/wifi_halow/ht-hd01/mesh/meshgate.html)
-
-- [HaLow Dongle AP-STA Setup Guide](https://docs.heltec.org/en/wifi_halow/ht-hd01/ap-sta.html)
+## Related Links
+- [Access Configuration Page](https://docs.heltec.org/en/wifi_halow/ht-hd01/quick_started.html#access-configuration-page)
+- [HaLow AP-STA](https://docs.heltec.org/en/wifi_halow/ht-hd01/ap-sta/index.html)
+- [Mesh Gate](https://docs.heltec.org/en/wifi_halow/ht-hd01/mesh/meshgate.html)
 
