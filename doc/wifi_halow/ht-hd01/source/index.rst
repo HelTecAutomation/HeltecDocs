@@ -68,7 +68,7 @@ Mesh Networking
    Overview<https://docs.heltec.org/en/wifi_halow/ht-hd01/index.html>
    Quick Start(Plug&Play)<quick_started>
    Access Configuration Page<access_configuration_page>
-   AP-STA Mode Guide<ap-sta/index>
+   AP-STA Mode <ap-sta/index>
    Mesh Mode <mesh/index>
    IP Allocation Rules<ip_rules>
    Frequently Asked Questions<faq>
