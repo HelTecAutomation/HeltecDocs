@@ -1,4 +1,3 @@
-
 HT-HD01 Mesh Mode User Guide
 ============================
 
@@ -12,7 +11,7 @@ The HD01 supports Mesh networking mode, and you can even use it to achieve relay
 - In this mode, only devices with the same MeshID can communicate with each other.
 - The transmission rate decreases by 50% with each relay.
 
-.. image:: ./img/18.jpg
+.. image:: ../img/18.jpg
    :align: center
 
 For configuration instructions, please refer to the following link:
@@ -22,12 +21,11 @@ For configuration instructions, please refer to the following link:
    MeshGate<meshgate>
    MeshPoint<meshpoint>
 
+
 HD01 Related Links
 ------------------
 
-- `Wi-Fi HaLow general user guide <https://docs.heltec.org/en/wifi_halow/halow_guide/index.html>`_
-- `HT-H7608 Wi-Fi HaLow Gateway <https://docs.heltec.org/en/wifi_halow/ht-h7608/index.html>`_
-- Technical Support: support@heltec.cn
-- `HD01 Resource station <https://resource.heltec.cn/download/HT-HD01>`_
+- `Access Configuration Page <https://docs.heltec.org/en/wifi_halow/ht-hd01/quick_started.html#access-configuration-page>`_
+- `HaLow AP-STA <https://docs.heltec.org/en/wifi_halow/ht-hd01/ap-sta.html>`_
 
    

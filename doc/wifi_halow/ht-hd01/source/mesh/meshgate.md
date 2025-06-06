@@ -10,11 +10,15 @@
 
 [Access Configuration](https://docs.heltec.org/en/wifi_halow/ht-hd01/access_configuration_page.html)
 
-2. Click the **Wizard** option. If you accessed this mode via Configuration Mode, you must select the `Country`, set the `Hostname`, and click `next`.
+2. For devices not in configuration mode: Simply click **Wizards** to proceed. 
+
+![](img/03.png)
+
+For configuration mode access, the following parameters must be set:
 - **Country**, Only devices with the same Country setting can communicate with each other.
 - **Hostname**, refers to the hostname of your device in the Wi-Fi HaLow network. 
 
-![](img/05.png)
+![Devices in configuration mode](img/01.png)
 
 3. Select "**802.11s Mesh Wizard**", click `next`.
 
@@ -31,15 +35,29 @@
 
 ![](img/mesh_gate/04.png)
 
-6. Select the **upstream network** connection method. For guidance on choosing the appropriate mode, please refer to the instructions on the configuration page and select according to your specific requirements.
+6. Select the **Upstream Network** connection method and **Traffic Mode**. The upstream network determines the device's internet access method, while Traffic Mode governs how downstream devices obtain IP addresses. Regardless of your selection, the topology diagram and on-screen instructions will dynamically update to reflect your configuration. 
 
-![](img/ap/07.png)
+![](img/mesh_gate/07.png)
 
-7. Enable/Disable "2.4GHz WiFi AP": If you don't have stringent low-power requirements, we recommend enabling this feature to facilitate subsequent device management.
+If Wi-Fi is selected as the upstream network, enter the SSID and password of the target network connection here.
 
-![](img/ap/10.png)
+![](img/mesh_gate/11.jpg)
 
-8. Click **Apply** to complete the device configuration.
+7. Enable/Disable "2.4GHz WiFi AP", Set the SSID and password for the 2.4GHz hotspot, then click **Next**.
+
+``` {tip} If don't have stringent low-power requirements, we recommend enabling this feature to facilitate subsequent device management.
+```
+
+![](img/mesh_gate/10.png)
+
+8. Click **Apply** to complete the device configuration. 
+
+9. If using an Ethernet cable as your upstream network, remember to connect the cable. Upon successful network connection, the device indicator will maintain a solid cyan or purple illumination. 
+
+``` {warning} The RJ45 cable is indicated by cyan, while the USB-C cable is indicated by purple. If the LED color doesn't match your selected cable type, press the function button to toggle between modes.
+```
+
+![](img/02.jpg)
 
 ------------------------------------
 

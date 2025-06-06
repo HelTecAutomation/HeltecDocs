@@ -67,13 +67,13 @@ Mesh Networking
    
    Overview<https://docs.heltec.org/en/wifi_halow/ht-hd01/index.html>
    Quick Start(Plug&Play)<quick_started>
-   HaLow Dongle AP Mode Guide<ap>
-   HaLow Dongle STA Mode Guide<sta>
+   Access Configuration Page<access_configuration_page>
+   AP-STA Mode Guide<ap-sta/index>
    HaLow Dongle Mesh Mode <mesh/index>
    IP Allocation Rules<ip_rules>
    Frequently Asked Questions<faq>
    Hardware Update Log<hardware_update_log>
-   
+   OTA Firmware Upgrade<ota>
    Heltec General<https://docs.heltec.org/general/index.html>
 
 HD01 Related Links
