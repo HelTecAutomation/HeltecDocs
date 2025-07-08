@@ -12,10 +12,10 @@ MeshPocket is not only a Qi2 magnetic power bank but also an intelligent device 
 
 Features
 --------
-- 5000mAh/1Please ensure your phone supports the wireless fast charging protocol.0000mAh battery capacity.
+- 5000mAh/10000mAh battery capacity.
 - QI2 compatibility.
 - Supports 5W, 7.5W, 10W, and 15W wireless charging .
-- Supports 9V-2.22A and 5V-3A USB-C input and output protocols.
+- Supports 9V-2.22A and 5V-3A USB-C input and output.
 - Supports industry-standard protocols like PD, AFC, and Huawei adapter protocols.
 - Allows simultaneous charging and discharging.
 - Enables both wireless and wired discharging at the same time.
@@ -25,6 +25,7 @@ Features
 - Offers full custom firmware support, allowing developers to adapt it for specialized applications.
 - Seamlessly compatible with Meshtastic.
 
+------------------------------------------------
 
 Charging
 --------
@@ -59,6 +60,8 @@ Connect one end of the USB-C data cable to the USB-C interface of the mobile pow
    :align: center
    :width: 500px
 
+-----------------------------------------------------------
+
 Battery Level Indicator
 ^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -76,6 +79,8 @@ Battery Level Indicator
 
 .. note::
     ≤5% remaining, it extinguishes and the wired/wireless charging output is turned off, but power can still be supplied to the wireless communication section.
+
+-----------------------------------------------------------
 
 RGB Indicator Description
 -------------------------
@@ -129,18 +134,49 @@ Button Description
 | RST     | Single click   | Reset/wake-up Meshtastic                              |
 +---------+----------------+-------------------------------------------------------+
 
+-----------------------------------------------------------------
+
 Meshtastic
 ----------
+What is the Meshtastic
+^^^^^^^^^^^^^^^^^^^^^^
+If you don't know what Meshtastic is, please click this link to check.
+
+`Introduction and Beginner's Guide to Meshtastic <https://meshtastic.org/docs/introduction/>`_
+
+Firmware Flash Interface
+^^^^^^^^^^^^^^^^^^^^^^^^
 The device comes preloaded with Meshtastic firmware. Firmware updates/flashing can be performed via the side-mounted magnetic programming interface.
 
 .. image:: ./img/05.jpg
    :align: center
    :width: 500px
 
-
 Web Flasher
 ^^^^^^^^^^^
-*Under Construction*
+1. Click to enter the `Meshtastic Web Flasher page <https://flasher.meshtastic.org/>`.
+
+2. Locate the corresponding device and port.
+
+.. image:: ./img/09.png
+   :align: center
+   :width: 500px
+
+3. Select the firmware version—we recommend choosing the latest "Stable" release.
+
+.. image:: ./img/10.png
+   :align: center
+   :width: 500px
+
+4. Click "Flash". Click "Download UF2" to save the firmware file.
+
+.. image:: ./img/11.png
+   :align: center
+   :width: 500px
+
+5. Double-press the RST button to enter DFU mode. A removable drive (HT-n5262) will appear.
+
+6. Copy and paste the downloaded UF2 file into the drive. If an "error" prompt appears, select "Skip".
 
 Muanual Flasher
 ^^^^^^^^^^^^^^^
@@ -165,3 +201,9 @@ Muanual Flasher
 4. Copy the firmware to this removable disk.
 
 5. The firmware will be successfully installed after the transfer is complete.
+
+-----------------------------------------------------------------
+
+Device Firmware Customization
+-----------------------------
+Firmware updates/flashing can be performed via the side-mounted magnetic programming interface. And we provide a 

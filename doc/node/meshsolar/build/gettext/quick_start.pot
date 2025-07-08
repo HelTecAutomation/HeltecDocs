@@ -1,0 +1,328 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the cubecell package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: cubecell \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-03 15:25+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/quick_start.md:1
+msgid "CubeCell Series Quick Start"
+msgstr ""
+
+#: ../../source/quick_start.md:2
+msgid "{ht_translation}`[简体中文]:[English]`"
+msgstr ""
+
+#: ../../source/quick_start.md:3
+msgid "Summary"
+msgstr ""
+
+#: ../../source/quick_start.md:5
+msgid "CubeCell is based on ASR650x series, this page shown how to install and configuration CubeCell Arduino Framework, and how to uploading and running code (examples)."
+msgstr ""
+
+#: ../../source/quick_start.md:7
+msgid "Install CubeCell Relevant Framework"
+msgstr ""
+
+#: ../../source/quick_start.md:9
+msgid "**there are three methods to install the CubeCell framework, choose one of them.**"
+msgstr ""
+
+#: ../../source/quick_start.md:11
+msgid "[Use Arduino board manager](use-arduino-board-manager)"
+msgstr ""
+
+#: ../../source/quick_start.md:12
+msgid "[Via Git](via-git)"
+msgstr ""
+
+#: ../../source/quick_start.md:13
+msgid "[Via Local File](via-local-file)"
+msgstr ""
+
+#: ../../source/quick_start.md:16
+msgid "Please confirm whether the USB driver, Git and Arduino IDE has been installed correctly."
+msgstr ""
+
+#: ../../source/quick_start.md:19
+msgid "*If not, please view this two articles [establish serial connection](https://docs.heltec.org/general/establish_serial_connection.html) and [Install Git and Arduino IDE](https://docs.heltec.org/general/how_to_install_git_and_arduino.html).*"
+msgstr ""
+
+#: ../../source/quick_start.md:22
+msgid "Use Arduino board manager"
+msgstr ""
+
+#: ../../source/quick_start.md:24
+msgid "Open Arduino IDE, and click `File`->`Peferences`->`Settings`"
+msgstr ""
+
+#: ../../source/quick_start.md:26
+#: ../../source/quick_start.md:61
+msgid "![](img/quick_start/01.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:28
+msgid "![](img/quick_start/02.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:30
+msgid "Input following json url to board manager URLs:"
+msgstr ""
+
+#: ../../source/quick_start.md:32
+msgid "[https://github.com/HelTecAutomation/CubeCell-Arduino/releases/download/V1.5.0/package_CubeCell_index.json](https://github.com/HelTecAutomation/CubeCell-Arduino/releases/download/V1.5.0/package_CubeCell_index.json)"
+msgstr ""
+
+#: ../../source/quick_start.md:34
+msgid "![](img/quick_start/03.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:36
+msgid "Click `Tools`->`Board:`->`Boards Manager...`, search `Heltec cubecell`in the new pop-up dialog, select the latest `releases` and  click `install`"
+msgstr ""
+
+#: ../../source/quick_start.md:38
+msgid "![](img/quick_start/04.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:40
+msgid "![](img/quick_start/05.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:42
+msgid "The source code of Heltec ASR650x series (ASR6501&ASR6502) framework available here: [https://github.com/HelTecAutomation/ASR650x-Arduino](https://github.com/HelTecAutomation/ASR650x-Arduino)"
+msgstr ""
+
+#: ../../source/quick_start.md:45
+msgid "Via Git"
+msgstr ""
+
+#: ../../source/quick_start.md:47
+msgid "For Windows: `https://github.com/HelTecAutomation/ASR650x-Arduino/blob/master/InstallGuide/windows.md`"
+msgstr ""
+
+#: ../../source/quick_start.md:48
+msgid "For MacOS: `https://github.com/HelTecAutomation/ASR650x-Arduino/blob/master/InstallGuide/mac.md`"
+msgstr ""
+
+#: ../../source/quick_start.md:49
+msgid "For Linux(Ubuntu/Debian): `https://github.com/HelTecAutomation/ASR650x-Arduino/blob/master/InstallGuide/debian_ubuntu.md`"
+msgstr ""
+
+#: ../../source/quick_start.md:51
+#: ../../source/quick_start.md:148
+#: ../../source/quick_start.md:157
+msgid "&nbsp;"
+msgstr ""
+
+#: ../../source/quick_start.md:55
+msgid "Via Local File"
+msgstr ""
+
+#: ../../source/quick_start.md:57
+msgid "Download the development environment. [https://resource.heltec.cn/download/CubeCell/CubeCell.zip](https://resource.heltec.cn/download/CubeCell/CubeCell.zip)"
+msgstr ""
+
+#: ../../source/quick_start.md:59
+msgid "Open Arduino IDE, and click `File`->`Peferences`."
+msgstr ""
+
+#: ../../source/quick_start.md:63
+msgid "Go to the folder in the red box."
+msgstr ""
+
+#: ../../source/quick_start.md:65
+msgid "![](img/quick_start/09.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:67
+msgid "Create a new \"hardware\" folder in the Arduino folder. If there is already a \"hardware\" folder, you don't need to create a new one."
+msgstr ""
+
+#: ../../source/quick_start.md:69
+msgid "![](img/quick_start/10.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:71
+msgid "Go to the \"hardware\" folder and extract \"CubeCell\" into this folder."
+msgstr ""
+
+#: ../../source/quick_start.md:73
+msgid "![](img/quick_start/11.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:75
+msgid "Go to the \"CubeCell\" folder, refer to the figure below to confirm whether the path in the red box is correct."
+msgstr ""
+
+#: ../../source/quick_start.md:77
+msgid "![](img/quick_start/12.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:79
+msgid "Restart the Arduino IDE to confirm whether the development environment is installed successfully."
+msgstr ""
+
+#: ../../source/quick_start.md:81
+msgid "![](img/quick_start/13.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:84
+msgid "Running an Example"
+msgstr ""
+
+#: ../../source/quick_start.md:86
+msgid "Connect your CubeCell board to computer via a **high quality** Micro USB cable *(This is the most common reason we had encountered can’t program software)*."
+msgstr ""
+
+#: ../../source/quick_start.md:88
+msgid "Correctly Config the Tools Menu"
+msgstr ""
+
+#: ../../source/quick_start.md:90
+msgid "In the tools menu, there are following options:"
+msgstr ""
+
+#: ../../source/quick_start.md:92
+msgid "**Board** -- Choose the right hardware connected to your computer;"
+msgstr ""
+
+#: ../../source/quick_start.md:93
+msgid "**LORAWAN_REGION** -- LoRaWAN protocol region definition, strictly follow [LoRaWAN™ 1.0.2 Regional Parameters rB](https://resource.heltec.cn/download/LoRaWANRegionalParametersv1.0.2_final_1944_1.pdf);"
+msgstr ""
+
+#: ../../source/quick_start.md:94
+msgid "**LORAWAN_CLASS** -- Now with Class A and Class C supported;"
+msgstr ""
+
+#: ../../source/quick_start.md:95
+msgid "**LORAWAN_DEVEUI** -- The source of the LoRaWAN parameter `DevEUI`"
+msgstr ""
+
+#: ../../source/quick_start.md:96
+msgid "`CUSTOM -- Use the value defined in the devEui array, which is in the .ino file, Can be any value, but it may conflict with other serial numbers.`"
+msgstr ""
+
+#: ../../source/quick_start.md:97
+msgid "`Generate by ChipID -- Generated based on the ASR650x's unique Chip ID`"
+msgstr ""
+
+#: ../../source/quick_start.md:98
+msgid "**LORAWAN_NETMODE** -- OTAA or ABP;"
+msgstr ""
+
+#: ../../source/quick_start.md:99
+msgid "**LORAWAN_ADR** -- Turn ON or turn OFF ADR (Adaptive Data Rate);"
+msgstr ""
+
+#: ../../source/quick_start.md:100
+msgid "**LORAWAN_Net_Reservation** -- This is a feature outside the LoRaWAN protocol, only valid in OTAA mode. If this option is enabled, when system reset does not need join again. Projects such as smart street lights may be useful."
+msgstr ""
+
+#: ../../source/quick_start.md:101
+msgid "**LORAWAN_UPLINKMODE** -- LoRa uplink confirmed/unconfirmed messages. Confirmed messages need server send downlink to node, but some LoRa server have downlink limited (such as TTN)."
+msgstr ""
+
+#: ../../source/quick_start.md:102
+msgid "**LORAWAN_AT_SUPPORT** -- AT command will provide many useful functions, for example, users can use serial port to config LoRa Node's DevEui, AppKey, or make node sleep, reset etc."
+msgstr ""
+
+#: ../../source/quick_start.md:103
+msgid "**LORAWAN_RGB** -- RGB light for LoRaWAN status:"
+msgstr ""
+
+#: ../../source/quick_start.md:104
+msgid "`Purple -- Join;`"
+msgstr ""
+
+#: ../../source/quick_start.md:105
+msgid "`Blue -- First RX window;`"
+msgstr ""
+
+#: ../../source/quick_start.md:106
+msgid "`Yellow -- Second RX window;`"
+msgstr ""
+
+#: ../../source/quick_start.md:107
+msgid "`Green -- Join done.`"
+msgstr ""
+
+#: ../../source/quick_start.md:108
+msgid "**LoRaWan Debug Level** -- LoRaWAN relevant messages print by serial port"
+msgstr ""
+
+#: ../../source/quick_start.md:109
+msgid "`None -- Default;`"
+msgstr ""
+
+#: ../../source/quick_start.md:110
+msgid "`Freq -- Sending/receiving frequency;`"
+msgstr ""
+
+#: ../../source/quick_start.md:111
+msgid "`Freq && DIO -- Sending/receiving frequency, and DIO pin interrupt information.`"
+msgstr ""
+
+#: ../../source/quick_start.md:112
+msgid "**COM Port** -- Device's serial port in your computer."
+msgstr ""
+
+#: ../../source/quick_start.md:116
+msgid "**LORAWAN_Net_Reservation:** For example, a large-scale power outage in city, when power is restored, thousands of devices are connected to the network at the same time, which may cause the LoRa gateway or server to fail. Enable this feature will avoid this situation. Enable LORAWAN_Net_Reservation must disable Frame counter (fCnt) in LoRa server."
+msgstr ""
+
+#: ../../source/quick_start.md:119
+msgid "![](img/quick_start/06.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:121
+msgid "Select an example"
+msgstr ""
+
+#: ../../source/quick_start.md:123
+msgid "![](img/quick_start/07.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:125
+msgid "Compile and upload"
+msgstr ""
+
+#: ../../source/quick_start.md:127
+msgid "![](img/quick_start/08.png)"
+msgstr ""
+
+#: ../../source/quick_start.md:131
+msgid "New a sketch for CubeCell"
+msgstr ""
+
+#: ../../source/quick_start.md:133
+msgid "In Arduino IDE, click `File --> new` and copy the following code:"
+msgstr ""
+
+#: ../../source/quick_start.md:150
+msgid "External resources"
+msgstr ""
+
+#: ../../source/quick_start.md:152
+msgid "**Serial port cannot connected to Linux system?**"
+msgstr ""
+
+#: ../../source/quick_start.md:154
+msgid "In the Linux system, If encounter the serial port cannot be connected. Please refer to this document: [https://playground.arduino.cc/Linux/All/#Permission](https://playground.arduino.cc/Linux/All/#Permission)"
+msgstr ""
+
+#: ../../source/quick_start.md:159
+msgid "Enjoy!"
+msgstr ""

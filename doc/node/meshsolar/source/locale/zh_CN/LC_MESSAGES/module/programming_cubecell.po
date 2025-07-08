@@ -1,0 +1,168 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2022, shug
+# This file is distributed under the same license as the cubecell package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: cubecell \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-03 15:25+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../source/module/programming_cubecell.md:1
+msgid "How to programming a CubeCell Module"
+msgstr "如何编程CubeCell模块"
+
+#: ../../source/module/programming_cubecell.md:2
+msgid "{ht_translation}`[简体中文]:[English]`"
+msgstr ""
+
+#: ../../source/module/programming_cubecell.md:4
+msgid "**CubeCell module provide two version:**"
+msgstr "**CubeCell模块提供两种版本：**"
+
+#: ../../source/module/programming_cubecell.md:6
+msgid "**AT command only**"
+msgstr "**只支持AT命令**"
+
+#: ../../source/module/programming_cubecell.md:7
+msgid ""
+"*For the flash size reason, the \"AT command only\" HTCC-AM01 only "
+"provide CN470-510MHz hardware versions, sending & lestening frequency are"
+" fixed (Channel 0~7), cannot be configured by software, and can't upgrade"
+" without special hardwares.*"
+msgstr ""
+"*由于FLASH大小的原因,“只支持AT命令”的HTCC-"
+"AM01只提供CN470-510MHz硬件版本,发送和开启频率固定（0~7通道）,软件无法配置,没有专用硬件无法升级.*"
+
+#: ../../source/module/programming_cubecell.md:8
+msgid "**Arduino compatible & AT command**"
+msgstr "**兼容Arduino&AT命令**"
+
+#: ../../source/module/programming_cubecell.md:9
+msgid ""
+"*Support AT command defaultly, already have an actived Arduino "
+"bootloader, can development via Arduino.*"
+msgstr "*默认支持AT命令,已经有一个激活的Arduino bootloader,可以通过Arduino开发.*"
+
+#: ../../source/module/programming_cubecell.md:11
+msgid ""
+"This document is for the \"Arduino compatible & AT command\" version. "
+"Take HTCC-AM01 as an example."
+msgstr "以HTCC-AM01为例"
+
+#: ../../source/module/programming_cubecell.md:13
+msgid ""
+"CubeCell module (HTCC-AM01) only have ASR6501and RF relevant circute "
+"inside. In order to program it, need connect to a external UART-USB "
+"bridge. CH340G, CP2102 etc."
+msgstr ""
+"CubeCell模块（HTCC-AM01）内部只有ASR6501和射频相关电路.要对其进行编程,需要连接外部UART-USB "
+"bridge.CH340G,CP2102等."
+
+#: ../../source/module/programming_cubecell.md:15
+#: ../../source/module/programming_cubecell.md:40
+msgid "&nbsp;"
+msgstr "&nbsp;"
+
+#: ../../source/module/programming_cubecell.md:17
+msgid "1. Recommend Circuit"
+msgstr "1.推荐电路"
+
+#: ../../source/module/programming_cubecell.md:19
+msgid "There are two recommend schematics:"
+msgstr "这有两个推荐的电路图:"
+
+#: ../../source/module/programming_cubecell.md:21
+msgid ""
+"**[Arduino compatible recommend "
+"design](http://resource.heltec.cn/download/CubeCell/HTCC-AM01_Module"
+"/HTCC-AM01_Reference_Design(Arduino).pdf)**"
+msgstr ""
+"**[Arduino兼容推荐设计](http://resource.heltec.cn/download/CubeCell/HTCC-"
+"AM01_Module/HTCC-AM01_Reference_Design(Arduino).pdf)**"
+
+#: ../../source/module/programming_cubecell.md:22
+msgid ""
+"This circuit have an auto boot circuit, can running into bootloader mode "
+"automatically."
+msgstr "该电路具有自动引导电路,可以自动进入bootloader模式."
+
+#: ../../source/module/programming_cubecell.md:23
+msgid ""
+"**[A slave module control by a master "
+"device](http://resource.heltec.cn/download/CubeCell/HTCC-AM01_Module"
+"/HTCC-AM01_Reference_Design(AT).pdf)**"
+msgstr ""
+"**由主设备控制的从模块(http://resource.heltec.cn/download/CubeCell/HTCC-AM01_Module"
+"/HTCC-AM01_Reference_Design(AT).pdf)**"
+
+#: ../../source/module/programming_cubecell.md:24
+msgid ""
+"This circuit need access bootloader mode manually ([How to access "
+"bootloader](https://heltec-automation-"
+"docs.readthedocs.io/en/latest/cubecell/frequently_asked_questions.html"
+"#how-to-access-bootloader-mode))."
+msgstr ""
+"此电路需要手动进入bootloader模式 ([怎样进入bootloader](https://heltec-automation-"
+"docs.readthedocs.io/en/latest/cubecell/frequently_asked_questions.html"
+"#how-to-access-bootloader-mode))."
+
+#: ../../source/module/programming_cubecell.md:26
+msgid "2. Preparation"
+msgstr "2. 准备"
+
+#: ../../source/module/programming_cubecell.md:28
+#, fuzzy
+msgid ""
+"Install the CubeCell development framework correctly ([Reference "
+"resources](https://heltec-automation-"
+"docs.readthedocs.io/en/latest/cubecell/quick_start.html));"
+msgstr ""
+"正确安装CubeCell开发框架（[参考资料](https://heltec-automation-"
+"docs.readthedocs.io/en/latest/cubecell/quick_start.html));"
+
+#: ../../source/module/programming_cubecell.md:29
+msgid ""
+"Connect your redesigned board to a computer, make sure useing a high "
+"quality Micro USB cable;"
+msgstr "将重新设计的电路板连接到计算机,确保使用高质量的Micro-USB数据线:"
+
+#: ../../source/module/programming_cubecell.md:30
+msgid ""
+"success access the bootloader mode, following log will be print via "
+"serial port:"
+msgstr "成功进入bootloader 模式，以下日志将通过串行端口打印:"
+
+#: ../../source/module/programming_cubecell.md:32
+msgid "![](img/programming_cubecell/01.png)"
+msgstr ""
+
+#: ../../source/module/programming_cubecell.md:34
+msgid ""
+"*If use the Arduino compatible circuit, and system into bootloader mode "
+"automatically, will not see this log. Log printed by CubeCell normally, "
+"but the com port used by IDE for programming purpose,  there is no place "
+"to show.*"
+msgstr "*如果使用Arduino兼容电路,并且系统自动进入引导加载程序模式,将不会看到此日志.日志通常由CubeCell打印,但是IDE的com端口用于编程,所以没有显示的地方.*"
+
+#: ../../source/module/programming_cubecell.md:36
+msgid "3. Program via Arduino IDE;"
+msgstr "3. 通过Arduino IDE编程;"
+
+#: ../../source/module/programming_cubecell.md:38
+msgid "![](img/programming_cubecell/02.png)"
+msgstr ""
+
+#: ../../source/module/programming_cubecell.md:42
+msgid "Enjoy."
+msgstr "享受."
+

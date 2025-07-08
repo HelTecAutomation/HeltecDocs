@@ -4,7 +4,6 @@ Heltec ESP32 Series
 
 This document organizes the Heltec-ESP32 series development boards and modules.
 
-
 .. toctree::
    :maxdepth: 1
 
@@ -31,4 +30,4 @@ This document organizes the Heltec-ESP32 series development boards and modules.
 Related Links
 -------------
 
-- `Esp32 Quick start(software installation and programming) <>`_
+- `Esp32 Quick start(software installation and programming) <https://docs.heltec.org/en/node/esp32/esp32_general_docs/quick_start.html>`_
