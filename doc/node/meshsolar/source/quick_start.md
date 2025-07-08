@@ -5,6 +5,8 @@
 
 This document describes the Quick Start Guide for MeshSolar.
 
+--------------------------------
+
 ## Battery Number Setup
 By default, MeshSolar does not support a 4-battery configuration. If you are using 1 to 3 batteries, you must properly short-circuit the unused battery circuits as shown in the figure below.
 
@@ -31,24 +33,39 @@ The batteries will be connected in series inside the MeshSolar device. Do not pe
 
 -----------------------------------
 
-## Solar Panel Wiring
-
-``` {warning} Always set the battery count and BMS settings before attaching batteries or power. Incorrect setup may lead to equipment burnout.
-```
-
-Solar Panel Specifications:
-- Voltage: 18-25V
-- Connector: XT30 female socket (inner pin type)
-
------------------------------------
-
 ## NTC Connection
 
 ![](img/quick_start/01.png)
 
+-----------------------------------
+
+## Power Supply
+
+``` {warning} Always set the battery count and BMS settings before attaching batteries or power. Incorrect setup may lead to equipment burnout.
+```
+
+### Solar Panel Wiring
+Solar Panel Specifications:
+- Voltage: 18-25V
+- Connector: XT30 female socket (inner pin type)
+
+### DC Input
+DC input Specifications:
+- Voltage: DC 18-25V
+- Connector: XT30 female socket (inner pin type)
+
+### USB-C Input
+1. When PD3.0 is detected:<br>
+The USB-C port charges the battery and powers the main control module when PD3.0 protocol is identified.
+2. No protocol detected:<br>
+Without protocol recognition, the USB-C port only supplies power to the main control module
+
 ----------------------------------
 
-## 
+## Antenna Connection
 
+
+
+---------------------------------
 
 
