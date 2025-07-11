@@ -57,6 +57,51 @@ Connect your device to the Dongle-STA via ethernet cable or 2.4G WiFi.
 
 ---------------------------------------
 
+## Instructions for Other Modes
+For common mode types, see the [Overview section](https://docs.heltec.org/en/wifi_halow/ht-hd01/index.html#network-mode).<br>
+Detailed mode guides are available below:
+
+- [Access-AP Mode(Includes Point-to-Point and Point-to-Multipoint topologies)](https://docs.heltec.org/en/wifi_halow/ht-hd01/ap-sta/index.html)
+- [Mesh Mode(Self-configuring node network)](https://docs.heltec.org/en/wifi_halow/ht-hd01/mesh/index.html)
+
+--------------------------------------
+
+## RGB Indicator
+**The description may vary depending on the firmware version.**
+
+   +--------+------------+-----------------------------------------------------------------------------------------+
+   | Color  | State      | Description                                                                             |
+   +========+============+=========================================================================================+
+   | Red    | Fast blink | Device booting                                                                          |
+   +--------+------------+-----------------------------------------------------------------------------------------+
+   | Red    | Solid      | Device starting up                                                                      |
+   +--------+------------+-----------------------------------------------------------------------------------------+
+   | Red    | Blink once | Button pressed                                                                          |
+   +--------+------------+-----------------------------------------------------------------------------------------+
+   | Cyan   | Fast blink | AP/Mesh_gate device connecting to upstream network via RJ45/Wi-Fi                       |
+   +--------+------------+-----------------------------------------------------------------------------------------+
+   | Cyan   | Solid      | AP/Mesh_gate device successfully obtained upstream IP via RJ45/Wi-Fi                    |
+   +--------+------------+-----------------------------------------------------------------------------------------+
+   | Purple | Fast blink | AP/Mesh_gate device connecting to upstream network via USB-C                            |
+   +--------+------------+-----------------------------------------------------------------------------------------+
+   | Purple | Solid      | AP/Mesh_gate device successfully obtained upstream IP via USB-C                         |
+   +--------+------------+-----------------------------------------------------------------------------------------+
+   | Green  | Fast blink | STA/Mesh_point device connecting to upstream network via RJ45/Wi-Fi                     |
+   +--------+------------+-----------------------------------------------------------------------------------------+
+   | Green  | Solid      | STA/Mesh_point device successfully obtained upstream IP via RJ45/Wi-Fi                  |
+   +--------+------------+-----------------------------------------------------------------------------------------+
+   | Blue   | Fast blink | STA/Mesh_point device connecting to upstream network via USB-C                          |
+   +--------+------------+-----------------------------------------------------------------------------------------+
+   | Blue   | Solid      | STA/Mesh_point device successfully obtained upstream IP via USB-C                       |
+   +--------+------------+-----------------------------------------------------------------------------------------+
+   | Yellow/| Alternating| Entering configuration mode                                                             |
+   | Others | blink      |                                                                                         |
+   +--------+------------+-----------------------------------------------------------------------------------------+
+   | White  | 3 seconds  | Factory reset                                                                           |
+   +--------+------------+-----------------------------------------------------------------------------------------+
+
+---------------------------------------------------
+
 ## View and Modify the SSID and Password
 You can access the device's configuration page to set or modify its parameters. For methods to access the configuration page, please refer to the following link:
 
