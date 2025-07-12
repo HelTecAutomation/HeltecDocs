@@ -1,5 +1,4 @@
-MeshSolar User Guide
-====================
+**MeshSolar User Guide**
 
 :ht_translation:`[简体中文]:[English]`
 
@@ -9,6 +8,11 @@ MeshSolar User Guide
 
 Summary
 -------
+
+.. image:: ./img/01.png
+   :align: center
+   :width: 500px 
+
 The outdoor solar communication solution based on MeshSolar supports Bluetooth + LoRa communication, integrates an 18V solar panel, 3*3000mAh, and a waterproof casing. It is perfectly suited for Meshtastic.\
     - BMS features.
     - Supports 18V Solar Panel & PD3.0 Input.
@@ -28,7 +32,15 @@ Layout
 
 Quick Start
 -----------
-Refer to the `MeshSolar Quick Start Guide <https://docs.heltec.org/en/node/meshsolar/quick_start.html>`_
+`MeshSolar Quick Start <https://docs.heltec.org/en/node/meshsolar/quick_start.html>`_
+
+Enable GPS Module
+-----------------
+`MeshSolar Quick GNSS Module Using Guide <https://docs.heltec.org/en/node/meshsolar/gps.html>`_
+
+Activate Display
+----------------
+`MeshSolar Quick Display Module Using Guide <https://docs.heltec.org/en/node/meshsolar/display.html>`_
 
 ------------------------------------
 
@@ -62,9 +74,9 @@ FAQ
 
 Key Resources
 -------------
-- Datasheet
-- HT-N5262M Datasheet
-- Heltec nRF Development Framework
+- `Datasheet <https://resource.heltec.cn/download/MeshSolar/datasheet>`
+- `HT-N5262M Datasheet <https://resource.heltec.cn/download/HT-N5262M/Datasheet>`_
+- `Heltec nRF Development Framework <>`_
 - BMS Setting Page
 
 -------------------------------
