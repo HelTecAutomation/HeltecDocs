@@ -40,8 +40,8 @@ Components
    :caption: Key Resources
    
    Datasheet <https://resource.heltec.cn/download/MeshTower/Datasheet>
-   HT-N5262M Datasheet <>
-   Heltec nRF Development Framework<>
+   HT-N5262M Datasheet <https://resource.heltec.cn/download/HT-N5262M/Datasheet>
+   Heltec nRF Development Framework <https://github.com/HelTecAutomation/Heltec_nRF52>
 
 .. toctree::
    :maxdepth: 2

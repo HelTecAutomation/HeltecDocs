@@ -76,7 +76,7 @@ Key Resources
 -------------
 - `Datasheet <https://resource.heltec.cn/download/MeshSolar/datasheet>`
 - `HT-N5262M Datasheet <https://resource.heltec.cn/download/HT-N5262M/Datasheet>`_
-- `Heltec nRF Development Framework <>`_
+- `Heltec nRF Development Framework <https://github.com/HelTecAutomation/Heltec_nRF52>`_
 - BMS Setting Page
 
 -------------------------------

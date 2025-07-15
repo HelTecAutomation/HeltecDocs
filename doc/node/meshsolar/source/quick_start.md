@@ -32,9 +32,9 @@ The BMS parameters (marked 'Configurable') can be adjusted via [MeshSolar WebSer
 ``` {warning} Always set the battery count and BMS settings before attaching batteries or power. Incorrect setup may lead to equipment burnout.
 ```
 
-The batteries will be connected in series inside the MeshSolar device. Do not perform external series/parallel connections. Simply connect each battery to its designated port. Ensure correct polarity alignment by referencing the polarity markings on the baseboard.
+**The batteries will be connected in series inside the MeshSolar device. Do not perform external series/parallel connections. Simply connect each battery to its designated port. Ensure correct polarity alignment by referencing the polarity markings on the baseboard.**
 
-![](img/prog.png)
+![](img/04.png)
 
 -----------------------------------
 
@@ -48,6 +48,8 @@ The batteries will be connected in series inside the MeshSolar device. Do not pe
 
 ``` {warning} Always set the battery count and BMS settings before attaching batteries or power. Incorrect setup may lead to equipment burnout.
 ```
+
+![](img/05.png)
 
 ### Solar Panel Wiring
 Solar Panel Specifications:
