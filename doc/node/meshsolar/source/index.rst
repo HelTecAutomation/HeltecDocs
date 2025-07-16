@@ -1,4 +1,6 @@
-**MeshSolar User Guide**
+********************
+MeshSolar User Guide
+********************
 
 :ht_translation:`[简体中文]:[English]`
 
@@ -7,7 +9,7 @@
 --------------------------
 
 Summary
--------
+=======
 
 .. image:: ./img/01.png
    :align: center
@@ -22,7 +24,7 @@ The outdoor solar communication solution based on MeshSolar supports Bluetooth +
 ------------------------------------
 
 Layout
-------
+======
 
 .. image:: ./img/meshsloar_pin.jpg
    :align: center
@@ -30,57 +32,39 @@ Layout
 
 ------------------------------------
 
-Quick Start
------------
-`MeshSolar Quick Start(BMS Setup & Hardware Connection) <https://docs.heltec.org/en/node/meshsolar/quick_start.html>`_
+.. toctree::
+   :maxdepth: 2
+   :caption: Key Resources
 
-Enable GPS Module
------------------
-`MeshSolar Quick GNSS Module Using Guide <https://docs.heltec.org/en/node/meshsolar/gps.html>`_
+   Datasheet <https://resource.heltec.cn/download/MeshSolar/datasheet>
+   HT-N5262M Datasheet <https://resource.heltec.cn/download/HT-N5262M/Datasheet>
+   Heltec nRF52840 Development Framework <https://github.com/HelTecAutomation/Heltec_nRF52>
+   BMS Setting Page<https://flash.nmiot.net:3333/>
 
-Activate Display
-----------------
-`MeshSolar Quick Display Module Using Guide <https://docs.heltec.org/en/node/meshsolar/display.html>`_
+.. toctree::
+   :maxdepth: 2
+   :caption: Quick Start
+   
+   MeshSolar Quick Start <quick_start>
 
-------------------------------------
+.. toctree::
+   :maxdepth: 2
+   :caption: Hardware Update Log
+   
+   MeshSolar Hardware Update Log <hardware_update_log>
 
-Firmware Upload
----------------
-To flash firmware via USB-C:
 
-1. Connect the device to your computer using USB-C.
-2. Double-press the RST button to enter DFU mode.
-3. A removable drive named HT-N5262 will appear on your computer.
-4. Paste your firmware file into this drive.
+.. toctree::
+   :maxdepth: 2
+   :caption: FAQ
 
------------------------------------
+   MeshSolar Frequently Asked Questions<frequently_asked_questions>
 
-Development
------------
-MeshSolar utilizes the HT-N5262M as its main controller, enabling development with the Heltec nRF52840 framework (Arduino-based). GitHub repository:  
-https://github.com/HelTecAutomation/Heltec_nRF52
 
-----------------------------------
+.. toctree::
+   :maxdepth: 1
+   :caption: General
 
-Hardware Update Log
--------------------
-`MeshSolar Hardware Update Log <https://docs.heltec.org/en/node/meshsolar/hardware_update_log.html>`_
+   Heltec General Docs<https://docs.heltec.org/general/index.html>
 
-FAQ
----
-`Frequently Asked Questions <https://docs.heltec.org/en/node/meshsolar/frequently_asked_questions.html>`_
 
---------------------------------
-
-Key Resources
--------------
-- `Datasheet <https://resource.heltec.cn/download/MeshSolar/datasheet>`_
-- `HT-N5262M Datasheet <https://resource.heltec.cn/download/HT-N5262M/Datasheet>`_
-- `Heltec nRF Development Framework <https://github.com/HelTecAutomation/Heltec_nRF52>`_
-- BMS Setting Page
-
--------------------------------
-
-Heltec General Docs 
---------------------
-https://docs.heltec.org/general/index.html

@@ -68,9 +68,28 @@ Without protocol recognition, the USB-C port only supplies power to the main con
 ----------------------------------
 
 ## Antenna Connection
+The LoRa and Bluetooth antennas are located on the central control module of the device, with **IPEX1.0 (UF.L)** connector specifications.
 
-
+![](img/quick_start/06.png)
 
 ---------------------------------
 
+## Display
 
+----------------------------------
+
+## GNSS Module
+
+----------------------------------
+
+## Firmware Upload
+To flash firmware via USB-C:
+
+1. Connect the device to your computer using USB-C.
+2. Double-press the RST button to enter DFU mode.
+3. A removable drive named HT-N5262 will appear on your computer.
+4. Paste your firmware file into this drive.
+
+----------------------------------
+
+**Technical Support Email: support@heltec.cn**
