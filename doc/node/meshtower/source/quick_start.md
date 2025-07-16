@@ -8,6 +8,7 @@ This document outlines the MeshTower Quick Start Guide, covering:
 - [Hardware Assembly]()
 
 ## Firmware Installation
+
 ### Firmware Upload via Programming Tools
 1. Open the side protective cover, Connect the device via USB-C.
 
@@ -19,6 +20,8 @@ This document outlines the MeshTower Quick Start Guide, covering:
 2. Open the device cover. Double-press the RST (Reset) button. A removable drive named HT-N5262 will appear on your computer.
 
 3. Drag and drop the `.UF2` file into the HT-N5262 drive. Wait for the transfer to complete (the drive will automatically disconnect).
+
+--------------------------------------
 
 ## Hardware Installation
 ### Assembly

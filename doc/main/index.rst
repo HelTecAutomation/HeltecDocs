@@ -52,6 +52,7 @@ Here are the LoRa Gateways produced by Heltec Automation. You will be able to fi
    ESP32 Series <https://docs.heltec.org/en/node/esp32/index.html>
    nRF Series <https://docs.heltec.org/en/node/nrf/index.html>
    MeshSolar<https://docs.heltec.org/en/node/meshsolar/index.html>
+   MeshTower<https://docs.heltec.org/en/node/meshtower/index.html>
    STM32 Series <https://docs.heltec.org/en/node/stm32/index.html>
    Sufficient IoT Hub <https://docs.heltec.org/en/node/sufficient_iot_hub/index.html>
    HT-AT62 <https://docs.heltec.org/en/node/ht-at62/index.html>

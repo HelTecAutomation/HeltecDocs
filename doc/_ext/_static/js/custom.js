@@ -26,6 +26,7 @@ var prod_obj = {
         {text: "ESP32 Series", value: "esp32"},
         {text: "NRF Series", value: "nrf"},
         {text: "MeshSolar", value: "meshsolar"},
+        {text: "MeshTower", value: "meshtower"},
         {text: "STM32 Series", value: "stm32"},
         {text: "Sufficient IoT Hub", value: "sufficient_iot_hub"},
         {text: "HT-AT62", value: "ht-at62"},
