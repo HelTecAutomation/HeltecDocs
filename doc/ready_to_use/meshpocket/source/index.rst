@@ -1,9 +1,10 @@
+**********
 MeshPocket
-==========
+**********
 :ht_translation:`[简体中文]:[English]`
 
 Summry
-------
+======
 MeshPocket is not only a Qi2 magnetic power bank but also an intelligent device equipped with Bluetooth, LoRa remote communication, and e-ink display, making it the perfect companion for open source projects such as Meshtastic and providing a good solution for outdoor exploration and emergency communication.
 
 .. image:: ./img/01.jpg
@@ -28,13 +29,13 @@ Features
 ------------------------------------------------
 
 Charging
---------
+========
 
 .. note::
     For first-time use, fully discharge the power bank, then recharge the device to 100%.
 
 Magnetic wireless charging output
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+---------------------------------
 This product supports the automatic induction charging function of magnetic mobile phones. You only need to place the magnetic mobile phone on the magnetic wireless charging area of the mobile power supply to charge normally. Click “CTRL” button to turn on wireless output. Double click **“CTRL”** button to turns off wireless output.
 
 .. image:: ./img/02.jpg
@@ -45,7 +46,7 @@ This product supports the automatic induction charging function of magnetic mobi
     The wireless charger supports MPP, EPP, Samsung 10W, Apple 7.5W, and BPP protocols. Please ensure your phone supports the wireless fast charging protocol.
 
 USB-C power delivery output
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+---------------------------
 Use the USB-C data cable to connect the device to be charged and the magnetic power bank to charge the device to be charged. Long press “CTRL” to turns off wireless output and wired output.
 
 .. image:: ./img/03.jpg
@@ -53,7 +54,7 @@ Use the USB-C data cable to connect the device to be charged and the magnetic po
    :width: 500px
    
 USB-C charging input(for power bank)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------------------
 Connect one end of the USB-C data cable to the USB-C interface of the mobile power supply, and then connect the other end to the charger to charge the mobile power supply. During charging, the corresponding power indicator light flashes and the remaining power is displayed.
 
 .. image:: ./img/04.jpg
@@ -63,7 +64,7 @@ Connect one end of the USB-C data cable to the USB-C interface of the mobile pow
 -----------------------------------------------------------
 
 Battery Level Indicator
-^^^^^^^^^^^^^^^^^^^^^^^
+-----------------------
 
 +-------------------+--------------------------------------+
 | Remaining battery | Indicator                            |
@@ -83,7 +84,7 @@ Battery Level Indicator
 -----------------------------------------------------------
 
 RGB Indicator Description
--------------------------
+=========================
 
 .. table:: RGB Status Indicators
    :widths: auto
@@ -112,7 +113,7 @@ RGB Indicator Description
 +-----------------------------+----------------+--------------------------------------------------+
 
 Button Description
-------------------
+==================
 
 .. warning::
     The **USER/RST** function is affected by the Meshtastic firmware version. For specific usage instructions, please refer to the official Meshtastic documentation: meshtastic.org.
@@ -136,24 +137,26 @@ Button Description
 
 -----------------------------------------------------------------
 
-Meshtastic
-----------
-What is the Meshtastic
-^^^^^^^^^^^^^^^^^^^^^^
-If you don't know what Meshtastic is, please click this link to check.
-
-`Introduction and Beginner's Guide to Meshtastic <https://meshtastic.org/docs/introduction/>`_
-
-Firmware Flash Interface
-^^^^^^^^^^^^^^^^^^^^^^^^
+Serial Port & Firmware Flashing
+-------------------------------
 The device comes preloaded with Meshtastic firmware. Firmware updates/flashing can be performed via the side-mounted magnetic programming interface.
 
 .. image:: ./img/05.jpg
    :align: center
    :width: 500px
 
+Meshtastic(Default Firmware)
+============================
+
+
+What is the Meshtastic
+----------------------
+The MeshPocket comes preloaded with Meshtastic firmware. For usage instructions, refer to the official Meshtastic documentation.
+
+`Introduction and Beginner's Guide to Meshtastic <https://meshtastic.org/docs/introduction/>`_
+
 Web Flasher
-^^^^^^^^^^^
+-----------
 1. Click to enter the `Meshtastic Web Flasher page <https://flasher.meshtastic.org/>`.
 
 2. Locate the corresponding device and port.
@@ -179,7 +182,7 @@ Web Flasher
 6. Copy and paste the downloaded UF2 file into the drive. If an "error" prompt appears, select "Skip".
 
 Muanual Flasher
-^^^^^^^^^^^^^^^
+---------------
 1. Obtain the firmware.
 
 .. image:: ./img/06.png
@@ -205,5 +208,5 @@ Muanual Flasher
 -----------------------------------------------------------------
 
 Device Firmware Customization
------------------------------
+=============================
 Firmware updates/flashing can be performed via the side-mounted magnetic programming interface. And we provide a 

@@ -32,7 +32,7 @@ Layout
 
 Quick Start
 -----------
-`MeshSolar Quick Start <https://docs.heltec.org/en/node/meshsolar/quick_start.html>`_
+`MeshSolar Quick Start(BMS Setup & Hardware Connection) <https://docs.heltec.org/en/node/meshsolar/quick_start.html>`_
 
 Enable GPS Module
 -----------------
@@ -74,7 +74,7 @@ FAQ
 
 Key Resources
 -------------
-- `Datasheet <https://resource.heltec.cn/download/MeshSolar/datasheet>`
+- `Datasheet <https://resource.heltec.cn/download/MeshSolar/datasheet>`_
 - `HT-N5262M Datasheet <https://resource.heltec.cn/download/HT-N5262M/Datasheet>`_
 - `Heltec nRF Development Framework <https://github.com/HelTecAutomation/Heltec_nRF52>`_
 - BMS Setting Page
