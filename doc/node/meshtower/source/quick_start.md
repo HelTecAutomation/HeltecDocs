@@ -4,11 +4,17 @@
 ***Documentation in progress***
 
 This document outlines the MeshTower Quick Start Guide, covering:
-- [Software Installation]()
+- [Firmware Installation]()
 - [Hardware Assembly]()
 
-## Firmware Installation
+## Firmware Pre-installed
+The default firmware pre-installed on MeshTower is Meshtastic. For project introduction and user guide, please refer to their official documentation.<br>
+[meshtastic.org](https://meshtastic.org/docs/introduction/)
 
+----------------------------------------
+
+## Firmware Installation
+If you need to upgrade the firmware or install alternative firmware, you can do so in the following two ways.
 ### Firmware Upload via Programming Tools
 1. Open the side protective cover, Connect the device via USB-C.
 
@@ -23,13 +29,18 @@ This document outlines the MeshTower Quick Start Guide, covering:
 
 --------------------------------------
 
+## Meshtastic Application
+
+### APP Installation
+[Meshtastic APP Installation](https://meshtastic.org/docs/software/)
+### Initial Configuration
+[Initial Configuration](https://meshtastic.org/docs/getting-started/initial-config/)
+### Advanced Configuration
+[Configuration](https://meshtastic.org/docs/configuration/)
+
+--------------------------------------
+
 ## Hardware Installation
 ### Assembly
-
 ### Pole-Mount
-
 ### Wall-Mount
-
-## Meshtastic Installation & Application
-
-## Application

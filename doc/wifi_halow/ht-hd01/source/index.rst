@@ -72,6 +72,7 @@ Mesh Networking
    Access Configuration Page<access_configuration_page>
    AP-STA Mode <ap-sta/index>
    Mesh Mode <mesh/index>
+   Building Local Area Network(LAN)<lan>
    IP Allocation Rules<ip_rules>
    Frequently Asked Questions<faq>
    Hardware Update Log<hardware_update_log>

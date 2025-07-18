@@ -3,15 +3,18 @@
 
 ***Documentation in progress***
 
-This document describes the Quick Start Guide for MeshSolar.
+*This document describes the Quick Start Guide for MeshSolar*.<br>
+## Battery Specifications
+MeshSolar is available in two hardware versions, designed for Li-ion and LiFePO4 batteries respectively. Ensure you select the correct variant.
 
-Follow these steps EXACTLY to prevent board damage:
-- [Configure Battery Quantity]()
-- [Connect Batteries]()
-- [BMS Setup]()
+**Follow these steps EXACTLY to prevent board damage:**
+- [Configure Battery Quantity](quantity)
+- [Connect Batteries](battery)
+- [BMS Setup](bms)
 
 --------------------------------
 
+=(quantity)
 ## Configure Battery Quantity
 By default, MeshSolar support a 4-battery configuration. If you are using 1 to 3 batteries, you must properly short-circuit the unused battery circuits.
 
@@ -19,19 +22,23 @@ By default, MeshSolar support a 4-battery configuration. If you are using 1 to 3
 
 And only turn on the corresponding jumper switch. 
 
-``` {note} The switches labeled 1, 2, 3, and 4 on the switch correspond to 1, 2, 3, and 4 battery cells, respectively. This means the switches represent the quantity of batteries, not their serial numbers. For example, in the factory default setting, if the battery quantity is set to 4, switch No. 4 is turned ON, while switches No. 1, 2, and 3 remain OFF. When using 3 battery cells, turn OFF switches No. 1, 2, and 4, and turn ON switch No. 3.
+``` {note} The switches labeled 1, 2, 3, and 4 on the switch correspond to 1, 2, 3, and 4 battery cells, respectively. <strong>This means the switches represent the quantity of batteries, not their serial numbers</strong>. For example, in the factory default setting, if the battery quantity is set to 4, switch No. 4 is turned ON, while switches No. 1, 2, and 3 remain OFF. When using 3 battery cells, turn OFF switches No. 1, 2, and 4, and turn ON switch No. 3.
 ```
 
 ![](img/quick_start/07.png) 
 
 --------------------------------
 
+=(battery)
+
 ## Battery Connection
 **The batteries will be connected in series inside the MeshSolar device. Do not perform external series/parallel connections. Simply connect each battery to its designated port. Ensure correct polarity alignment by referencing the polarity markings on the baseboard.**
 
-![](img/04/quick_start/.png)
+![](img/quick_start/04.png)
 
 --------------------------------
+
+=(bms)
 
 ## BMS Setup
 
