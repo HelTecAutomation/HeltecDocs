@@ -22,13 +22,12 @@ A common method is to set the AP to None mode and the STA to BRIDGE mode. By
     When configuring the AP side, set its **Upstream Network** to **None**.<br>If you are unsure how to configure AP mode, please refer to this link:<br>
     [AP Setup Guide](https://docs.heltec.org/en/wifi_halow/ht-hd01/ap-sta/ap.html)
 
-    ![](img/lan/01.png)
+    ![](img/lan/02.png)
 
 2. **STA Setup**<br>
     When configuring the STA side, set its **Traffic Mode** to **Bridge**.<br>If you are unsure how to configure STA mode, please refer to this link:<br>
     [STA Setup Guide](https://docs.heltec.org/en/wifi_halow/ht-hd01/ap-sta/sta.html)
 
-3. 
 -----------------------------------
 
 ## Related Links

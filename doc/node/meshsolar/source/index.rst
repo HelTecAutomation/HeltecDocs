@@ -38,7 +38,6 @@ Layout
 
    Datasheet <https://resource.heltec.cn/download/MeshSolar/datasheet>
    HT-N5262M Datasheet <https://resource.heltec.cn/download/HT-N5262M/Datasheet>
-   Heltec nRF52840 Development Framework <https://github.com/HelTecAutomation/Heltec_nRF52>
    BMS Setting Page<https://flash.nmiot.net:3333/>
 
 .. toctree::
@@ -49,10 +48,15 @@ Layout
 
 .. toctree::
    :maxdepth: 2
-   :caption: Hardware Update Log
+   :caption: Demo & Expansion
    
-   MeshSolar Hardware Update Log <hardware_update_log>
+   LoRaWAN<expansion>
 
+.. toctree::
+   :maxdepth: 2
+   :caption: Development
+   
+   Heltec nRF52840 Development Framework <https://github.com/HelTecAutomation/Heltec_nRF52>
 
 .. toctree::
    :maxdepth: 2

@@ -14,7 +14,8 @@ MeshSolar is available in two hardware versions, designed for Li-ion and LiFePO4
 
 --------------------------------
 
-=(quantity)
+(quantity)=
+
 ## Configure Battery Quantity
 By default, MeshSolar support a 4-battery configuration. If you are using 1 to 3 batteries, you must properly short-circuit the unused battery circuits.
 
@@ -29,7 +30,7 @@ And only turn on the corresponding jumper switch.
 
 --------------------------------
 
-=(battery)
+(battery)=
 
 ## Battery Connection
 **The batteries will be connected in series inside the MeshSolar device. Do not perform external series/parallel connections. Simply connect each battery to its designated port. Ensure correct polarity alignment by referencing the polarity markings on the baseboard.**
@@ -38,9 +39,19 @@ And only turn on the corresponding jumper switch.
 
 --------------------------------
 
-=(bms)
+## NTC Connection
+Connect the NTC resistor, otherwise the device will enter low-temperature protection during reconfiguration.
+
+![](img/prog.png)
+
+----------------------------------
+
+(bms)=
 
 ## BMS Setup
+You can skip this step if using the default configuration, which is:
+
+![](img/prog.png)
 
 ``` {warning} Before performing this step, ensure that the hardware settings for the battery quantity are correctly configured and connected.
 ```
@@ -69,9 +80,13 @@ And only turn on the corresponding jumper switch.
 - Voltage: 18-25V
 - Connector: XT30 female socket (inner pin type)
 
+![](img/prog.png)
+
 ## DC Input
 - Voltage: DC 18-25V
 - Connector: XT30 female socket (inner pin type)
+
+![](img/prog.png)
 
 ## USB-C Input
 1. When PD3.0 is detected:<br>
@@ -81,12 +96,6 @@ Without protocol recognition, the USB-C port only supplies power to the main con
 
 -----------------------------------
 
-## NTC Connection
-
-![](img/prog.png)
-
-----------------------------------
-
 ## Antenna Connection
 The LoRa and Bluetooth antennas are located on the central control module of the device, with **IPEX1.0 (UF.L)** connector specifications.
 
@@ -95,14 +104,20 @@ The LoRa and Bluetooth antennas are located on the central control module of the
 ---------------------------------
 
 ## Display
-Heltec offers an expansion board with display and GPS functionality, providing multiple screen options including: 0.96-inch OLED, 1.90-inch TFT, or 2.13-inch E-Ink.
+Heltec offers an expansion board with display and GPS functionality, providing multiple screen options including: 0.96-inch OLED, 1.90-inch TFT, or 2.13-inch E-Ink.<br>
+[Meshsolar expansion board]()
+
+![](img/prog.png)
 
 ----------------------------------
 
 ## GNSS Module
 MeshSolar has opened an MX1.25-8Pin GNSS interface complete with connecting cables.
-- This interface is fully compatible with the L76K module.
+- This interface is fully compatible with the [L76K GNSS module]().
 - Additionally, Heltec provides a display and GPS expansion board that integrates the L76K GPS module while offering multiple screen options.
+
+![](img/prog.png)
+
 ----------------------------------
 
 ## Firmware Upload
