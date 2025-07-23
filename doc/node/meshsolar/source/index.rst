@@ -4,8 +4,7 @@ MeshSolar User Guide
 
 :ht_translation:`[简体中文]:[English]`
 
-***Documentation in progress***
-
+**Documentation in progress**
 --------------------------
 
 Summary
@@ -50,7 +49,7 @@ Layout
    :maxdepth: 2
    :caption: Demo & Expansion
    
-   LoRaWAN<expansion>
+   LoRaWAN<https://docs.heltec.org/en/node/nrf/mesh_node_t114/lorawan/index.html>
 
 .. toctree::
    :maxdepth: 2
