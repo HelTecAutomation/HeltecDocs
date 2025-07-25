@@ -44,12 +44,13 @@ Layout
    :caption: Quick Start
    
    MeshSolar Quick Start <quick_start>
+   MeshSolar Troubleshooting<troubleshooting>
 
 .. toctree::
    :maxdepth: 2
    :caption: Demo & Expansion
    
-   LoRaWAN<https://docs.heltec.org/en/node/nrf/mesh_node_t114/lorawan/index.html>
+   LoRaWAN <https://docs.heltec.org/en/node/nrf/mesh_node_t114/lorawan/index.html>
 
 .. toctree::
    :maxdepth: 2
@@ -62,7 +63,6 @@ Layout
    :caption: FAQ
 
    MeshSolar Frequently Asked Questions<frequently_asked_questions>
-
 
 .. toctree::
    :maxdepth: 1

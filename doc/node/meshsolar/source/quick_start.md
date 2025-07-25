@@ -4,6 +4,8 @@
 *This document describes the Quick Start Guide for MeshSolar, You can refer to the instructional video for guidance:*<br>
 [Instructional video](https://www.youtube.com/watch?v=cDExK5QdVdU)
 
+## 
+
 Follow these steps **EXACTLY** to prevent board damage:
 - [Configure Battery Quantity](quantity)
 - [Connect Batteries](battery)
@@ -64,7 +66,7 @@ Connect the NTC resistor, otherwise the device will enter low-temperature protec
 
 | Parameter         | Default Value         |
 |-------------------|-----------------------|
-| Battery Type      | Hardware-dependent, must be selected in the configuration page |
+| Battery Type      | Li-ion, Hardware-dependent |
 | Number of Cells   | 4 |
 | Design Capacity   | 3000mAh |
 | Discharge Cut-off | 2.5V |
@@ -79,7 +81,7 @@ Connect the NTC resistor, otherwise the device will enter low-temperature protec
 
 1. Ensure the main control module is properly connected, ensure that the hardware settings for the battery quantity are correctly configured and connected.
 
-<img src="img/quick_start/08.png" width="500" alt="图片描述">
+<img src="img/quick_start/08.png" width="500" alt="08">
 
 2. BMS Firmware.<br>
     - The factory firmware from MeshSolar enables BMS configuration. If you accidentally overwrite the firmware, you may download the original BMS firmware at this link: [Meshsolar BMS Stock Firmware](https://resource.heltec.cn/download/MeshSolar/firmware/bms). 
@@ -139,6 +141,9 @@ Connect the NTC resistor, otherwise the device will enter low-temperature protec
 ---------------------------------
 
 ## Display
+MeshSolar has opened an **MX1.25-9Pin** display interface complete with connecting cables.<br>
+
+
 Heltec offers an expansion board with display and GPS functionality, providing multiple screen options including: 0.96-inch OLED, 1.90-inch TFT, or 2.13-inch E-Ink.<br>
 [Meshsolar expansion board]()
 
@@ -147,7 +152,7 @@ Heltec offers an expansion board with display and GPS functionality, providing m
 ----------------------------------
 
 ## GNSS Module
-MeshSolar has opened an MX1.25-8Pin GNSS interface complete with connecting cables.
+MeshSolar has opened an **MX1.25-8Pin** GNSS interface complete with connecting cables.
 - This interface is fully compatible with the [L76K GNSS module]().
 - Additionally, Heltec provides a display and GPS expansion board that integrates the L76K GPS module while offering multiple screen options.
 
@@ -156,8 +161,9 @@ MeshSolar has opened an MX1.25-8Pin GNSS interface complete with connecting cabl
 ----------------------------------
 
 ## Firmware Upload
-To flash firmware via USB-C:
+[Meshsolar related firmware](https://resource.heltec.cn/download/MeshSolar/firmware)
 
+To flash firmware via USB-C:
 1. Connect the device to your computer using USB-C.
 2. Double-press the RST button to enter DFU mode.
 3. A removable drive named HT-N5262 will appear on your computer.

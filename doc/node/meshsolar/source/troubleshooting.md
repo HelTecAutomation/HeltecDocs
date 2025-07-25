@@ -2,26 +2,13 @@
 
 {ht_translation}`[简体中文]:[English]`
 
-During system operation, relevant protections may be triggered as shown in the following figure.
-
 ## Application Scenarios  
-1. **BMS Fault Diagnosis**:  
-   If your device's BMS (Battery Management System) malfunctions, you can connect it to the configuration web page to view the relevant fault prompts for troubleshooting.  
-2. **Configuration Error Handling**:  
-   During the configuration process, incorrect settings may trigger device faults, which will be displayed as error prompts on the page for corrective action. 
+If your device's BMS (Battery Management System) malfunctions, you can connect it to the configuration web page to view the relevant fault prompts for troubleshooting.<br>
+**Ensure your firmware supports BMS functionality**   
+- [Meshsolar BMS Stock Firmware](https://resource.heltec.cn/download/MeshSolar/firmware/bms) 
+- [MeshSolar Firmware Upload Method](https://docs.heltec.org/en/node/meshsolar/quick_start.html#firmware-upload).  
 
----------------------------------------
-
-## Preparation Work
-1. **Ensure your firmware supports BMS functionality**  
-   - Supported firmware types:  
-     - [Meshsolar BMS Stock Firmware](https://resource.heltec.cn/download/MeshSolar/firmware/bms) 
-     - BMS+Meshtastic combined firmware  
-   - [MeshSolar Firmware Upload Method](https://docs.heltec.org/en/node/meshsolar/quick_start.html#firmware-upload).  
-
-2. **Power requirements**  
-   - The device must be connected to a power source ≥18V  
-   - OR has been previously activated by ≥18V power and remains powered on.
+![](img/02.jpg)
 
 ------------------------------------------
 ## Troubleshooting
