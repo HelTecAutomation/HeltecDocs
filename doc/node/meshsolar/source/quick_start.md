@@ -4,7 +4,6 @@
 *This document describes the Quick Start Guide for MeshSolar, You can refer to the instructional video for guidance:*<br>
 [Instructional video](https://www.youtube.com/watch?v=cDExK5QdVdU)
 
-## 
 
 Follow these steps **EXACTLY** to prevent board damage:
 - [Configure Battery Quantity](quantity)
@@ -81,7 +80,7 @@ Connect the NTC resistor, otherwise the device will enter low-temperature protec
 
 1. Ensure the main control module is properly connected, ensure that the hardware settings for the battery quantity are correctly configured and connected.
 
-<img src="img/quick_start/08.png" width="500" alt="08">
+![](img/quick_start/09.png){ width=50% }
 
 2. BMS Firmware.<br>
     - The factory firmware from MeshSolar enables BMS configuration. If you accidentally overwrite the firmware, you may download the original BMS firmware at this link: [Meshsolar BMS Stock Firmware](https://resource.heltec.cn/download/MeshSolar/firmware/bms). 
@@ -130,6 +129,24 @@ Connect the NTC resistor, otherwise the device will enter low-temperature protec
 
     ![](img/quick_start/12.png)
 
+## Pack Output/Input
+Connector: XT30 female socket (inner pin type)
+### Output
+
+![](img/quick_start/19.png)
+
+Voltage: **Sum of battery voltages**
+### Input(Not Recommended)
+
+![](img/quick_start/19.png)
+
+When the Pack interface is used as input:<br>
+- A constant voltage/constant current (CV/CC) power supply must be used; ordinary chargers are not suitable.
+- The power supply voltage depends on the battery type and quantity. Generally, it should be:
+    - Lithium batteries: 4.2V × number of cells
+    - LiFePO4 batteries: 3.6V × number of cells
+- The current must not exceed the overcurrent protection limit.
+
 -----------------------------------
 
 ## Antenna Connection
@@ -142,12 +159,10 @@ Connect the NTC resistor, otherwise the device will enter low-temperature protec
 
 ## Display
 MeshSolar has opened an **MX1.25-9Pin** display interface complete with connecting cables.<br>
-
-
 Heltec offers an expansion board with display and GPS functionality, providing multiple screen options including: 0.96-inch OLED, 1.90-inch TFT, or 2.13-inch E-Ink.<br>
 [Meshsolar expansion board]()
 
-![](img/prog.png)
+![](img/quick_start/16.png)
 
 ----------------------------------
 
@@ -156,7 +171,7 @@ MeshSolar has opened an **MX1.25-8Pin** GNSS interface complete with connecting 
 - This interface is fully compatible with the [L76K GNSS module]().
 - Additionally, Heltec provides a display and GPS expansion board that integrates the L76K GPS module while offering multiple screen options.
 
-![](img/prog.png)
+![](img/quick_start/16.png)
 
 ----------------------------------
 
