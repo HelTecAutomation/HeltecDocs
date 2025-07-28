@@ -25,7 +25,7 @@ The outdoor solar communication solution based on MeshSolar supports Bluetooth +
 Layout
 ======
 
-.. image:: ./img/meshsloar_pin.jpg
+.. image:: ./img/pinmap.jpg
    :align: center
    :width: 500px 
 

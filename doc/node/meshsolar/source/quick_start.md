@@ -19,6 +19,9 @@ MeshSolar is available in two hardware versions, designed for Li-ion and LiFePO4
 | HT-n5262S-I-HF  | 863~928MHz    | LiFePO₄   |
 | HT-n5262S-F-HF  | 863~928MHz    | LiFePO₄   |
 
+``` {note} If you purchase this [battery holder from Heltec](), you'll need to buy flat-top batteries; otherwise, installation will be difficult.
+```
+
 --------------------------------
 
 (quantity)=
@@ -58,22 +61,15 @@ Connect the NTC resistor, otherwise the device will enter low-temperature protec
 ----------------------------------
 
 ## BMS Activation
-Once the device is powered off (due to battery removal or prolonged power loss), the BMS chip requires an 18V–25V power supply to reactivate before configuration can proceed.<br>
-1. BMS Firmware.<br>
-    - The factory firmware from MeshSolar enables BMS configuration. If you accidentally overwrite the firmware, you may download the original BMS firmware at this link: [Meshsolar BMS Stock Firmware](https://resource.heltec.cn/download/MeshSolar/firmware/bms). 
-    - For firmware flashing procedures, please refer to: [MeshSolar Firmware Upload](https://docs.heltec.org/en/node/meshsolar/quick_start.html#firmware-upload).
-
-![](img/quick_start/10.jpg)
-
-2. Activation.<br>
-    The activation interface can be either:**PD input via USB-C port** or **18–25V DC input via the XT-30 connector**.<br>
-    Once successfully activated, the device's battery level indicator will illuminate.
+When the device is used for the first time or shuts down due to battery removal/prolonged power failure, the BMS chip must first be activated with an 18V-24V power supply before configuration can be performed or switched to battery power.<br>
+The activation interface can be either:**PD input via USB-C port**, or **18–24V Solar/DC input via the XT-30 connector**.<br>
+After successfully activated, the device's battery level indicator will illuminate.
 
 ![](img/quick_start/09.png)
 
-3. After successful activation, **do not remove the batteries**. Connect the device to a computer using a USB-C cable. Once the device is powered off, the BMS chip requires reactivate.
+After successful activation, **do not remove the batteries**, or the BMS chip requires reactivate.
 
--------------------------------
+---------------------------------
 
 (bms)=
 
@@ -95,11 +91,14 @@ Once the device is powered off (due to battery removal or prolonged power loss),
 ``` {warning} <strong>Before performing this step, ensure that the hardware settings for the battery quantity are correctly configured and connected.</strong>
 ```
 
-1. Ensure the main control module is properly connected, ensure that the hardware settings for the battery quantity are correctly configured and connected.
+1. Ensure the following:
+- The main control module is properly connected
+- The battery soldering points and switch configuration are correct
+- The BMS function has been activated
 
 ![](img/quick_start/09.png)
 
-2. Open the [configuration page](https://flash.nmiot.net:3333) in your browser, click the Connect to choose the port.
+2. Connect devices and PC via USB-C cable, open the [configuration page](https://flash.nmiot.net:3333) in your browser, click the `Connect` to choose the port.
 
 ![](img/quick_start/03.jpg)
 
