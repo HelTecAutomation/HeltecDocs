@@ -4,7 +4,6 @@
 *This document describes the Quick Start Guide for MeshSolar, You can refer to the instructional video for guidance:*<br>
 [Instructional video](https://www.youtube.com/watch?v=cDExK5QdVdU)
 
-
 Follow these steps **EXACTLY** to prevent board damage:
 - [Configure Battery Quantity](quantity)
 - [Connect Batteries](battery)
@@ -58,6 +57,24 @@ Connect the NTC resistor, otherwise the device will enter low-temperature protec
 
 ----------------------------------
 
+## BMS Activation
+Once the device is powered off (due to battery removal or prolonged power loss), the BMS chip requires an 18V–25V power supply to reactivate before configuration can proceed.<br>
+1. BMS Firmware.<br>
+    - The factory firmware from MeshSolar enables BMS configuration. If you accidentally overwrite the firmware, you may download the original BMS firmware at this link: [Meshsolar BMS Stock Firmware](https://resource.heltec.cn/download/MeshSolar/firmware/bms). 
+    - For firmware flashing procedures, please refer to: [MeshSolar Firmware Upload](https://docs.heltec.org/en/node/meshsolar/quick_start.html#firmware-upload).
+
+![](img/quick_start/10.jpg)
+
+2. Activation.<br>
+    The activation interface can be either:**PD input via USB-C port** or **18–25V DC input via the XT-30 connector**.<br>
+    Once successfully activated, the device's battery level indicator will illuminate.
+
+![](img/quick_start/09.png)
+
+3. After successful activation, **do not remove the batteries**. Connect the device to a computer using a USB-C cable. Once the device is powered off, the BMS chip requires reactivate.
+
+-------------------------------
+
 (bms)=
 
 ## BMS Setup
@@ -65,7 +82,7 @@ Connect the NTC resistor, otherwise the device will enter low-temperature protec
 
 | Parameter         | Default Value         |
 |-------------------|-----------------------|
-| Battery Type      | Li-ion, Hardware-dependent |
+| Battery Type      | Hardware-dependent |
 | Number of Cells   | 4 |
 | Design Capacity   | 3000mAh |
 | Discharge Cut-off | 2.5V |
@@ -80,38 +97,23 @@ Connect the NTC resistor, otherwise the device will enter low-temperature protec
 
 1. Ensure the main control module is properly connected, ensure that the hardware settings for the battery quantity are correctly configured and connected.
 
-![](img/quick_start/09.png){ width=50% }
-
-2. BMS Firmware.<br>
-    - The factory firmware from MeshSolar enables BMS configuration. If you accidentally overwrite the firmware, you may download the original BMS firmware at this link: [Meshsolar BMS Stock Firmware](https://resource.heltec.cn/download/MeshSolar/firmware/bms). 
-    - For firmware flashing procedures, please refer to: [MeshSolar Firmware Upload](https://docs.heltec.org/en/node/meshsolar/quick_start.html#firmware-upload).
-
-3. Activation.<br>
-    Once the device is powered off (due to battery removal or prolonged power loss), the BMS chip requires an 18V–25V power supply to reactivate before configuration can proceed.<br>
-    The activation interface can be either:**PD input via USB-C port** or **18–25V DC input via the XT-30 connector**.<br>
-    Once successfully activated, the device's battery level indicator will illuminate.
-
 ![](img/quick_start/09.png)
 
-4. After successful activation, **do not remove the batteries**. Connect the device to a computer using a USB-C cable.
-
-![](img/quick_start/10.jpg)
-
-5. Open the [configuration page](https://flash.nmiot.net:3333) in your browser, click the Connect to choose the port.
+2. Open the [configuration page](https://flash.nmiot.net:3333) in your browser, click the Connect to choose the port.
 
 ![](img/quick_start/03.jpg)
 
 ![](img/quick_start/13.jpg)
 
-6. Configure based on your battery requirements (cell count, capacity, etc.), then click Save Configuration to apply.
+3. Configure based on your battery requirements (cell count, capacity, etc.), then click Save Configuration to apply.
 
 ![](img/quick_start/15.png)
 
-7. If you forget the original settings during configuration, click Params Sync to synchronize current system parameters. Note: The system will automatically sync once when the serial port is connected.
+4. If you forget the original settings during configuration, click Params Sync to synchronize current system parameters. Note: The system will automatically sync once when the serial port is connected.
 
 ![](img/quick_start/14.png)
 
-8. After completing all configurations, click Reset Status to finalize.
+5. After completing all configurations, click Reset Status to finalize.
 
 ![](img/quick_start/17.png)
 
@@ -155,7 +157,7 @@ When the Pack interface is used as input:<br>
 
 ![](img/quick_start/06.png)
 
----------------------------------
+----------------------------------
 
 ## Display
 MeshSolar has opened an **MX1.25-9Pin** display interface complete with connecting cables.<br>
