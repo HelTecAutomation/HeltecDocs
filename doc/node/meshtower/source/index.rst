@@ -11,29 +11,50 @@ MeshTower User Guide
 Summary
 =======
 
-.. image:: ./img/00.jpg
+.. image:: ./img/01.png
    :align: center
-   :width: 500px
+   :width: 700px
 
-MeshTower is a solar-powered outdoor communication system built on MeshSolar technology, featuring an integrated 18V solar panel and 3X3000mAh lithium battery for sustained operation. With Bluetooth + LoRa dual-mode connectivity and SMA antenna support, it ensures robust signal coverage. Housed in an IP66-rated waterproof metal enclosure and designed for -20-60°C environments, it thrives in harsh conditions. 
+MeshTower is a solar-powered outdoor communication system built on MeshSolar technology.
     - Professional BMS Performance.
     - 3X3000mAh high-capacity lithium batteries.
-    - 18V solar input, adjustable panel angle.
-    - Supports DC 18-25V and USB-C PD3.0 input.
+    - Supports 18~24V solar input, DC 18-24V input and USB-C PD3.0(20V) input.
     - Dual Support for LoRa & Bluetooth.
     - Excellent Low-Power Efficiency.
-    - IP65-rated metal enclosure, waterproof & flame-retardant.
+    - IP66-rated metal enclosure, waterproof & flame-retardant.
 
 ------------------------------------
 
 Components
 ==========
 
-.. image:: ./img/00.jpg
+.. image:: ./img/02.jpg
    :align: center
    :width: 500px
 
-------------------------------------
+-----------------------------------------
+
+Battery Specifications
+======================
+The following table shows the default battery specifications. If you choose to replace the battery, the voltage must match the parameters in the table below, and it is recommended to select a wide-temperature battery (to suit specific environmental conditions).
+
++-------------------------+----------------+
+| **Specification**       | **Value**      |
++=========================+================+
+| Battery Type            | Lithium-ion    |
++-------------------------+----------------+
+| Rated Voltage           | 3.7-3.8V       |
++-------------------------+----------------+
+| Maximum Voltage         | 4.2V           |
++-------------------------+----------------+
+| Battery Capacity        | 3000mAh        |
++-------------------------+----------------+
+| Number of Batteries     | 3              |
++-------------------------+----------------+
+| Operating Temperature   | -20 to 60°C    |
++-------------------------+----------------+
+
+--------------------------------------------
 
 .. toctree::
    :maxdepth: 2
@@ -41,11 +62,11 @@ Components
    
    Datasheet <https://resource.heltec.cn/download/MeshTower/Datasheet>
    HT-N5262M Datasheet <https://resource.heltec.cn/download/HT-N5262M/Datasheet>
-   Heltec nRF Development Framework <https://github.com/HelTecAutomation/Heltec_nRF52>
+   Heltec nRF52840 Development Framework <https://github.com/HelTecAutomation/Heltec_nRF52>
 
 .. toctree::
    :maxdepth: 2
-   :caption: Quick Start
+   :caption: User Guide
    
    MeshTower Quick Start <quick_start>
 

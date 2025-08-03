@@ -4,8 +4,8 @@
 ***Documentation in progress***
 
 This document outlines the MeshTower Quick Start Guide, covering:
-- [Firmware Installation]()
-- [Hardware Assembly]()
+- [Firmware Installation](firmware)
+- [Hardware Installation](hardware)
 
 ## Firmware Pre-installed
 The default firmware pre-installed on MeshTower is Meshtastic. For project introduction and user guide, please refer to their official documentation.<br>
@@ -13,34 +13,38 @@ The default firmware pre-installed on MeshTower is Meshtastic. For project intro
 
 ----------------------------------------
 
+(firmware)=
 ## Firmware Installation
 If you need to upgrade the firmware or install alternative firmware, you can do so in the following two ways.
-### Firmware Upload via Programming Tools
-1. Open the side protective cover, Connect the device via USB-C.
-
-2. Compile and upload directly using Arduino IDE, PlatformIO, and other compatible development tools.
 
 ### UF2 File Upload Instructions
 1. Open the side protective cover, Plug in the device via USB-C.
 
-2. Open the device cover. Double-press the RST (Reset) button. A removable drive named HT-N5262 will appear on your computer.
+![](img/quick_start/01.png)
+
+2. Open the device cover. Double-press the RST (Reset) button. A removable drive named **HT-n5262** will appear on your computer.
 
 3. Drag and drop the `.UF2` file into the HT-N5262 drive. Wait for the transfer to complete (the drive will automatically disconnect).
 
---------------------------------------
+### Firmware Upload via Programming Tools
+1. Open the side protective cover, Connect the device via USB-C.
 
-## Meshtastic Application
+![](img/quick_start/02.png)
 
-### APP Installation
-[Meshtastic APP Installation](https://meshtastic.org/docs/software/)
-### Initial Configuration
-[Initial Configuration](https://meshtastic.org/docs/getting-started/initial-config/)
-### Advanced Configuration
-[Configuration](https://meshtastic.org/docs/configuration/)
+2. Compile and upload directly using Arduino IDE, PlatformIO, and other compatible development tools.
 
 --------------------------------------
+
+(hardware)=
+
 
 ## Hardware Installation
-### Assembly
-### Pole-Mount
 ### Wall-Mount
+**Document under construction...**
+
+![](img/quick_start/04.png)
+
+### Pole-Mount
+**Document under construction...**
+
+![](img/quick_start/04.png)

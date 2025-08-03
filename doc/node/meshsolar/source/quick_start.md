@@ -64,8 +64,8 @@ Connect the NTC resistor, otherwise the device will enter low-temperature protec
 (activation)=
 
 ## BMS Activation
-When the device is used for the first time or shuts down due to battery removal/prolonged power failure, the BMS chip must first be activated with an 18V-24V power supply before configuration can be performed or switched to battery power.<br>
-The activation interface can be either:**PD input via USB-C port**, or **18–24V Solar/DC input via the XT-30 connector**.<br>
+When the device is used for the first time or shuts down due to battery removal/prolonged power failure, the BMS function must first be activated with an 18V-24V power supply before configuration can be performed or switched to battery power.<br>
+The activation interface can be either:**PD3.0(20V) input via USB-C port**, or **18–24V Solar/DC input via the XT-30 connector**.<br>
 After successfully activated, the device's battery level indicator will illuminate.
 
 ![](img/quick_start/09.png)
@@ -99,7 +99,7 @@ After successful activation, **Do Not Remove the Batteries**, or the BMS chip re
 - The battery soldering points and switch configuration are correct
 - The BMS function has been activated
 
-2. Connect devices and PC via USB-C cable, open the [configuration page](https://flash.nmiot.net:3333) in your browser, click the `Connect` to choose the port.
+2. Connect devices and PC via USB-C cable, open the [**Configuration Page**](https://flash.nmiot.net:3333) in your browser, click the `Connect` to choose the port.
 
 ![](img/quick_start/03.jpg)
 
@@ -168,7 +168,7 @@ MeshSolar has opened an **MX1.25-9Pin** display interface complete with connecti
 Heltec offers an expansion board with display and GPS functionality, providing multiple screen options including: 0.96-inch OLED, 1.90-inch TFT, or 2.13-inch E-Ink.<br>
 [Meshsolar expansion board](https://heltec.org/project/gps-display-expansion-board/)
 
-![](img/quick_start/16.png)
+![](img/quick_start/16.jpg)
 
 ----------------------------------
 
@@ -177,7 +177,7 @@ MeshSolar has opened an **MX1.25-8Pin** GNSS interface complete with connecting 
 - This interface is fully compatible with the [L76K GNSS module]().
 - Additionally, Heltec provides a display and GPS expansion board that integrates the L76K GPS module while offering multiple screen options.
 
-![](img/quick_start/16.png)
+![](img/quick_start/16.jpg)
 
 ----------------------------------
 
