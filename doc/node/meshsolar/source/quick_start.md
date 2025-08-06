@@ -2,7 +2,7 @@
 {ht_translation}`[简体中文]:[English]`
 
 *This document describes the Quick Start Guide for MeshSolar, You can refer to the instructional video for guidance:*<br>
-    [Instructional video](https://www.youtube.com/watch?v=cDExK5QdVdU)
+[Instructional Video](https://www.youtube.com/watch?v=cDExK5QdVdU)
 
 Follow these steps **EXACTLY** to prevent board damage:
 - [Configure Battery Quantity](quantity)
@@ -20,7 +20,7 @@ MeshSolar is available in two hardware versions, designed for Li-ion and LiFePO4
 | HT-n5262S-I-HF  | 863~928MHz    | LiFePO₄   |
 | HT-n5262S-F-HF  | 863~928MHz    | LiFePO₄   |
 
-``` {note} If you purchase this [battery holder from Heltec](), you'll need to buy flat-top batteries; otherwise, installation will be difficult.
+``` {tip} If you purchase this [battery holder from Heltec](https://heltec.org/project/18650-battery-box/), you'll need to buy flat-top batteries; otherwise, installation will be difficult.
 ```
 
 --------------------------------
@@ -38,7 +38,7 @@ By default, MeshSolar support a 4-battery configuration. If you are using 1-3 ba
 
 And only turn on the corresponding jumper switch. 
 
-``` {note} The switches labeled 1/2/3/4 on the switch correspond to one/two/three/four battery cells, respectively. <strong>This means the switches represent the quantity of batteries, not their serial numbers</strong>. For example, in the factory default setting, if the battery quantity is set to FOUR, switch No.4 is turned ON, while switches No.1/2/3 remain OFF. When using THREE battery cells, turn OFF switches No.1/2/4, and turn ON switch No.3.
+``` {tip} The switches labeled 1/2/3/4 on the switch correspond to one/two/three/four battery cells, respectively. <strong>This means the switches represent the quantity of batteries, not their serial numbers</strong>. For example, in the factory default setting, if the battery quantity is set to FOUR, switch No.4 is turned ON, while switches No.1/2/3 remain OFF. When using THREE battery cells, turn OFF switches No.1/2/4, and turn ON switch No.3.
 ```
 
 ![](img/quick_start/07.jpg) 
@@ -144,7 +144,7 @@ Connector: XT30 female socket (inner pin type)
 Voltage: **Sum of battery voltages**
 ### Input(Not Recommended)
 
-![](img/quick_start/19.png)
+![](img/quick_start/18.png)
 
 When the Pack interface is used as input:<br>
 - A constant voltage/constant current (CV/CC) power supply must be used; ordinary chargers are not suitable.
