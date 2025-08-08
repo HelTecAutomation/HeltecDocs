@@ -24,12 +24,14 @@ If you need to upgrade the firmware or install alternative firmware, you can do 
 
 2. Open the device cover. Double-press the RST (Reset) button. A removable drive named **HT-n5262** will appear on your computer.
 
+![](img/quick_start/02.png)
+
 3. Drag and drop the `.UF2` file into the HT-N5262 drive. Wait for the transfer to complete (the drive will automatically disconnect).
 
 ### Firmware Upload via Programming Tools
 1. Open the side protective cover, Connect the device via USB-C.
 
-![](img/quick_start/02.png)
+![](img/quick_start/01.png)
 
 2. Compile and upload directly using Arduino IDE, PlatformIO, and other compatible development tools.
 
@@ -37,14 +39,13 @@ If you need to upgrade the firmware or install alternative firmware, you can do 
 
 (hardware)=
 
-
 ## Hardware Installation
 ### Wall-Mount
 **Document under construction...**
 
-![](img/quick_start/04.png)
+![](img/quick_start/04.jpg)
 
 ### Pole-Mount
 **Document under construction...**
 
-![](img/quick_start/04.png)
+![](img/quick_start/05.jpg)

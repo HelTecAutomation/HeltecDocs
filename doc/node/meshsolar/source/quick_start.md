@@ -182,13 +182,33 @@ MeshSolar has opened an **MX1.25-8Pin** GNSS interface complete with connecting 
 ----------------------------------
 
 ## Firmware Upload
-[Meshsolar related firmware](https://resource.heltec.cn/download/MeshSolar/firmware)
+[Meshsolar related firmware](https://resource.heltec.cn/download/MeshSolar/firmware)<br>
 
 ### Via DFU Mode:
 1. Connect the device to your computer using USB-C.
 2. Double-press the RST button to enter DFU mode.
 3. A removable drive named HT-N5262 will appear on your computer.
 4. Paste your firmware file into this drive.
+
+------------------------------------------
+
+### Temporary Instructions Before Meshtastic Official Merge**
+We have prepared a temporary firmware (based on V2.7.4) that you can use for now. Regarding the official Meshtastic release, we have submitted our merge request. They will review and accept our changes, but due to the complex circuit design of this board, the process may take some time.
+
+### Firmware Download Link
+https://resource.heltec.cn/download/MeshSolar/firmware
+### Firmware Installation Method
+The installation process is similar to that of a standard Mesh Node T114:
+- Double-press the RST button to enter DFU mode.
+- Drag and drop the firmware file into the newly appeared drive.
+### Firmware Installation Sequence
+#### Temporary Solution
+Before Meshtastic officially merges our code, if you need to adjust BMS-related settings, you must:
+- Flash the dedicated BMS firmware.
+- Configure the settings via the web interface.
+- Reflash the Meshtastic firmware afterward.
+#### Final Implementation
+Once Meshtastic officially integrates our changes, you will be able to configure BMS settings directly through the Meshtastic firmware.
 
 ----------------------------------
 
