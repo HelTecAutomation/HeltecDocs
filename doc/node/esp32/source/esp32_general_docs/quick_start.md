@@ -170,24 +170,24 @@ Once you have the framework and libraries installed, connect your computer to th
 
 -------------------------
 
-### New program
-Open Arduino IDE, create a new  `.ino` file, then copy the below code.
+### Programming
+1. Connect your node to the computer with a USB cable.
+2. Open Arduino IDE, Correctly select a board and relevant options in the `Tools` menu:
 
-```arduino
-#include <heltec.h>
+![](img/quick_start/08.png)
 
-// the setup routine runs once when starts up
-void setup(){
+3. Programming<br>
+  - New sketch
 
-  // Initialize the Heltec ESP32 object
-  Heltec.begin(true /*DisplayEnable Enable*/, true /*LoRa Disable*/, true /*Serial Enable*/, true /*PABOOST Enable*/, 470E6 /**/);
-}
+![](img/quick_start/new.png)
 
-// the loop routine runs over and over again forever
-void loop() {
+  - To execute the demo in the heltec ESP32 library, you need to mouse over, scroll down, find the library, and find the code in it.
 
-}
+![](img/quick_start/execute.png)
+
+4. Compile & Upload
+
+![](img/quick_start/10.png)
+
+``` {tip} If you cannot upload the code, please manually enter the BOOTLOADER mode: hold down the PRG (USER/BOOT) key and do not release it, press the RST key once, and then release the PRG (USER/BOOT).
 ```
-
-compile it and upload, the  screen (if this board has a screen) will show and Arduino's serial monitor will print something, it means Heltec ESP32 board is running successfully!
-
