@@ -10,8 +10,6 @@ Plug the AP-side device into your network source (e.g., a router).The STA-side d
 
 ## How to Distinguish Between AP Mode and STA Mode
 - Via Sticker, you can distinguish between the AP or STA side using stickers. 
-
-
 - After firmware version 2.6.6, you can also differentiate them by the RGB lights: AP-side devices will display cyan/purple after the red light turns off, while STA-side devices will show blue/green.
 
 --------------------------------------
@@ -30,10 +28,14 @@ If your upstream network uses WiFi, you must enter the Wi-Fi credentials (SSID a
 
 2. When the device's red light changes to **Cyan/Purple** and stays on, it indicates that the device is functioning properly.
 
+``` {note} For some outdated firmware versions, the indicator light may be green or blue.
+```
+
 ----------------------------------------------------------
 
 ## Start Station
-Power on the Dongle-STA. When the device's red light changes to **blue/green** and stays on, it indicates that the device is functioning properly.
+Power on the Dongle-STA.<br>
+If your STA has already been paired with the AP, when the device's red light changes to **blue/green** and stays on, it indicates that the device is functioning properly.
 
 ![](img/12.jpg)
 
@@ -67,38 +69,25 @@ Detailed mode guides are available below:
 --------------------------------------
 
 ## RGB Indicator
-**The description may vary depending on the firmware version.**
+**The description may vary depending on the firmware version.**<br>
+Based on version 2.8.5-20250807
 
-   +--------+------------+-----------------------------------------------------------------------------------------+
-   | Color  | State      | Description                                                                             |
-   +========+============+=========================================================================================+
-   | Red    | Fast blink | Device booting                                                                          |
-   +--------+------------+-----------------------------------------------------------------------------------------+
-   | Red    | Solid      | Device starting up                                                                      |
-   +--------+------------+-----------------------------------------------------------------------------------------+
-   | Red    | Blink once | Button pressed                                                                          |
-   +--------+------------+-----------------------------------------------------------------------------------------+
-   | Cyan   | Fast blink | AP/Mesh_gate device connecting to upstream network via RJ45/Wi-Fi                       |
-   +--------+------------+-----------------------------------------------------------------------------------------+
-   | Cyan   | Solid      | AP/Mesh_gate device successfully obtained upstream IP via RJ45/Wi-Fi                    |
-   +--------+------------+-----------------------------------------------------------------------------------------+
-   | Purple | Fast blink | AP/Mesh_gate device connecting to upstream network via USB-C                            |
-   +--------+------------+-----------------------------------------------------------------------------------------+
-   | Purple | Solid      | AP/Mesh_gate device successfully obtained upstream IP via USB-C                         |
-   +--------+------------+-----------------------------------------------------------------------------------------+
-   | Green  | Fast blink | STA/Mesh_point device connecting to upstream network via RJ45/Wi-Fi                     |
-   +--------+------------+-----------------------------------------------------------------------------------------+
-   | Green  | Solid      | STA/Mesh_point device successfully obtained upstream IP via RJ45/Wi-Fi                  |
-   +--------+------------+-----------------------------------------------------------------------------------------+
-   | Blue   | Fast blink | STA/Mesh_point device connecting to upstream network via USB-C                          |
-   +--------+------------+-----------------------------------------------------------------------------------------+
-   | Blue   | Solid      | STA/Mesh_point device successfully obtained upstream IP via USB-C                       |
-   +--------+------------+-----------------------------------------------------------------------------------------+
-   | Yellow/| Alternating| Entering configuration mode                                                             |
-   | Others | blink      |                                                                                         |
-   +--------+------------+-----------------------------------------------------------------------------------------+
-   | White  | 3 seconds  | Factory reset                                                                           |
-   +--------+------------+-----------------------------------------------------------------------------------------+
+| Color  | State | Description |
+| :----- | :------ | :----- |
+| Red | Fast blink | Device booting |
+| Red | Solid | Device starting up |
+| Red | Blink once | Button pressed |
+| Cyan | Fast blink | AP/Mesh_gate device connecting to upstream network via RJ45/Wi-Fi |
+| Cyan | Solid | AP/Mesh_gate device successfully obtained upstream IP via RJ45/Wi-Fi |
+| Purple | Fast blink | AP/Mesh_gate device connecting to upstream network via USB-C |
+| Purple | Solid | AP/Mesh_gate device successfully obtained upstream IP via USB-C |
+| Green | Fast blink | STA/Mesh_point device connecting to upstream network via RJ45/Wi-Fi |
+| Green | Solid | STA/Mesh_point device successfully obtained upstream IP via RJ45/Wi-Fi |
+| Blue | Fast blink | STA/Mesh_point device connecting to upstream network via USB-C |
+| Blue | Solid | STA/Mesh_point device successfully obtained upstream IP via USB-C |
+| Yellow/Others| Alternating blink | Entering configuration mode |
+| White  | 3 seconds  | Factory reset |
+
 
 ---------------------------------------------------
 
