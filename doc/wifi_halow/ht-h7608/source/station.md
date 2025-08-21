@@ -55,6 +55,8 @@ As shown below:
 ``` {note} If you selected Ethernet mode, observe the color of your indicator light, it should be blue for USB cable and green for RJ45 cable. If the color of the light does not match the connection of the cable, you will need to change it to the appropriate color by pressing the button.
 ```
 
+![](img/03.png)
+
 ------------------------------------
 
 For other modes , please refer to the [Wi-Fi HaLow Usage guide](https://docs.heltec.org/en/wifi_halow/ht-h7608/index.html#configurantion).
