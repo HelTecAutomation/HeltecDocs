@@ -1,14 +1,14 @@
 
-**HT-HC32 ESP-HaLowCamera**
+**HT-HC32/33 ESP-HaLowCamera**
 
 :ht_translation:`[简体中文]:[Eglish]`
 
-
-**This document is still under construction and will be completed soon.**
-
 Introduction
 ============
-ESP-HaLowCamera is a development board with integrated camera, based on the ESP32-S3 MCU and Wi-Fi HaLow module.It is designed for long-range, high-speed wireless communication. With support for transmission distances of over 1 km and speeds of up to 32 Mbps, it is ideal for IoT applications that require reliable, high-performance connectivity.
+ESP-HaLowCamera is a development board with integrated camera, based on the ESP32-S3 MCU and Wi-Fi HaLow module.
+
+.. note::
+   The device can only operate as a HaLow STA (Station/client) and cannot function as a HaLow AP (Access Point).
 
 .. image:: ./img/01.png
    :align: center
@@ -17,16 +17,13 @@ ESP-HaLowCamera is a development board with integrated camera, based on the ESP3
 Feature
 -------
 
-- The MCU is the ESP32-S3, and the Wi-Fi HaLow module is HT-HC01.
-- Integrated CP2102 USB-to-serial chip.
+- ESP32-S3+MM6108, integrated Wi-Fi, Bluetooth, and Wi-Fi HaLow three network connections
+- CP2102 USB-to-serial chip.
 - Long transmission range, up to over 1~2km.
-- Fast transmission speed, with a maximum of 32 Mbps.
-- Low power consumption design with strong penetration.
-- Integrated 2 megapixel camera.
-- Integrated SD card slot for easy local deployment and data storage.
-- Type-C USB interface with a complete voltage regulator, ESD protection, short circuit protection, RF shielding, and other protection measures.
-- Onboard SH1.25-2 battery interface, integrated lithium battery management system.
-- Integrated Wi-Fi, Bluetooth, and Wi-Fi HaLow three network connections.
+- Integrated camera.
+- Integrated SD card.
+- Type-C USB interface.
+- SH1.25-2 battery interface.
 - Supports the Arduino development environment.
 
 Components
@@ -95,8 +92,8 @@ Programming
 -----------
 Once you have the framework and libraries installed, connect your computer to the board and start programming nodes.
 
-Example
-^^^^^^^
+Example: 
+^^^^^^^^^^^^^^^
 1. Connect your node to the computer with a USB cable.
 
 2. Open `Arduino IDE` -> `Tools`, correctly select the board.
@@ -105,16 +102,36 @@ Example
    :align: center
    :width: 800px
 
-3. Select `File` -> `Example` to find the example you want. The location of the Wi-Fi HaLow related code is circled in the figure below.
+3. Select `File` -> `Example` -> `WiFi HaLow` -> `halowCameraWebServer`.
 
 .. image:: ./img/05.png
    :align: center
    :width: 800px
 
-4. Adapt your code to your needs.
+4. Fill in the SSID and password for the WiFi HaLow AP side.
 
-5. Compile & Upload
+.. image:: ./img/07.png
+   :align: center
+   :width: 800px
 
+5. Compile and upload the code.
+
+.. image:: ./img/08.png
+   :align: center
+   :width: 800px
+
+6. After the code is uploaded, open the device serial monitor, where you can see the IP address of the HC32.
+
+.. image:: ./img/09.png
+   :align: center
+   :width: 800px
+
+7. When your device and the HC32 are on the same network segment, you can access the camera by visiting the HC32's IP address. For example, connect your phone/computer to the network provided by the HaLow AP.
+
+.. image:: ./img/10.png
+   :align: center
+   :width: 800px
+   
 FAQs
 =====
 
