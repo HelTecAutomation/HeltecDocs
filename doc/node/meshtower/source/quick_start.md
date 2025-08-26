@@ -1,39 +1,40 @@
 # MeshSolar Quick Start
 {ht_translation}`[简体中文]:[English]`
 
-***Documentation in progress***
+## First Charge
+The Meshtower comes pre-configured with battery management settings. It is ready to use once you connect the solar panel and antenna.<br>
+However, before first use, it is recommended to activate the battery function and fully charge the battery via the USB-C port or DC interface.
+### Via USB-C(recommended)
+The USB-C port requires PS3.0 and a 20V voltage input.
 
-This document outlines the MeshTower Quick Start Guide, covering:
-- [Firmware Installation](firmware)
-- [Hardware Installation](hardware)
+![](img/quick_start/07.png)
 
-## Firmware Pre-installed
-The default firmware pre-installed on MeshTower is Meshtastic. For project introduction and user guide, please refer to their official documentation.<br>
-[meshtastic.org](https://meshtastic.org/docs/introduction/)
+### Via DC
+The DC interface is the solar panel input port, which uses an XT30 connector and supports an input voltage of 18-24V.
 
-----------------------------------------
+![](img/quick_start/08.jpg)
 
-(firmware)=
-## Firmware Installation
-If you need to upgrade the firmware or install alternative firmware, you can do so in the following two ways.
+## Checking Battery Level
+- You can check the battery level via the Meshtastic app on your phone.
 
-### UF2 File Upload Instructions
-1. Open the side protective cover, Plug in the device via USB-C.
+![](img/quick_start/09.jpg)
 
-![](img/quick_start/01.png)
+- Connect the device to a computer and check via the battery management web page: [MeshSolar WebSerial Tool](https://flash.nmiot.net:3333/).
 
-2. Open the device cover. Double-press the RST (Reset) button. A removable drive named **HT-n5262** will appear on your computer.
+## Firmware
+### Pre-installed Firmware
+The Meshtower comes pre-installed with Meshtastic firmware.<br>
+The default password is: 123456.<br>
+For instructions on how to use Meshtastic, please refer to [Meshtastic official documentation.](https://meshtastic.org/docs/introduction/)
+### Firmware Installation and Update
+You can install or update the firmware via the USB-C port.<br>
+If your installation method requires entering DFU mode, you will need to open the device casing and double-press the RST button to enter DFU mode.
 
 ![](img/quick_start/02.png)
 
-3. Drag and drop the `.UF2` file into the HT-N5262 drive. Wait for the transfer to complete (the drive will automatically disconnect).
+At this point, the computer will pop up a USB drive named HT-n5262. Copy your firmware to this drive.
 
-### Firmware Upload via Programming Tools
-1. Open the side protective cover, Connect the device via USB-C.
-
-![](img/quick_start/01.png)
-
-2. Compile and upload directly using Arduino IDE, PlatformIO, and other compatible development tools.
+![](img/quick_start/11.jpg)
 
 --------------------------------------
 
@@ -41,11 +42,9 @@ If you need to upgrade the firmware or install alternative firmware, you can do 
 
 ## Hardware Installation
 ### Wall-Mount
-**Document under construction...**
 
 ![](img/quick_start/04.jpg)
 
 ### Pole-Mount
-**Document under construction...**
 
 ![](img/quick_start/05.jpg)
