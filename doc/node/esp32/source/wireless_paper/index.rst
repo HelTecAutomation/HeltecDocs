@@ -16,7 +16,7 @@ Related Resources
 .. toctree::
    :maxdepth: 1
 
-   Datasheet <https://resource.heltec.cn/download/Wireless_Paper/Wireless-Paper.pdff>
+   Datasheet <https://resource.heltec.cn/download/Wireless_Paper/Wireless-Paper.pdf>
    Schematic diagram <https://resource.heltec.cn/download/Wireless_Paper/Wireless_Paper_V0.4_Schematic_Diagram.pdf>
    Hardware Update Log <hardware_update_log>
 
