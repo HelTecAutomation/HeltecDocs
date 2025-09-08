@@ -131,7 +131,7 @@ After successful activation, **Do Not Remove the Batteries**, or the BMS chip re
 - When PD3.0 is detected: The USB-C port charges the battery and powers the main control module when PD3.0 protocol is identified.
 - No protocol detected: Without protocol recognition, the USB-C port only supplies power to the main control module
 
-    ![](img/quick_start/12.png)
+    ![](img/quick_start/10.png)
 
 -----------------------------
 
