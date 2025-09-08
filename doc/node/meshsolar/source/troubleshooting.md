@@ -2,11 +2,20 @@
 
 {ht_translation}`[简体中文]:[English]`
 
-## Application Scenarios  
 If your device's BMS (Battery Management System) malfunctions, you can connect it to the configuration web page to view the relevant fault prompts for troubleshooting.<br>
-**Ensure your firmware supports BMS functionality**   
-- [Meshsolar BMS Stock Firmware](https://resource.heltec.cn/download/MeshSolar/firmware/bms) 
-- [MeshSolar Firmware Upload Method](https://docs.heltec.org/en/node/meshsolar/quick_start.html#firmware-upload).  
+[MeshSolar WebSerial Tool](https://flash.nmiot.net:3333/)<br>
+## Preparation
+- Computer, USB cable, MeshSolar
+- Ensure your firmware supports BMS functionality, Here is the initial BMS firmware download address and upload method:
+    - [Meshsolar BMS Stock Firmware](https://resource.heltec.cn/download/MeshSolar/firmware/bms) 
+    - [MeshSolar Firmware Upload Method](https://docs.heltec.org/en/node/meshsolar/quick_start.html#firmware-upload).  
+
+## Specific Steps
+
+1. Connect the device to the computer via USB.  
+2. Log in to the MeshSolar configuration webpage on the computer.  
+3. Click "Connect" in the upper right corner to connect to the device. If the serial port cannot be found, try pressing the RST button.  
+4. Scroll to the bottom of the page to view the current diagnostics.
 
 ![](img/02.jpg)
 
