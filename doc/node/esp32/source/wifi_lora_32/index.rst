@@ -15,9 +15,9 @@ Important Resources
 .. toctree::
    :maxdepth: 1
 
-   Datasheet <https://resource.heltec.cn/download/WiFi_LoRa_32_V3/HTIT-WB32LA_V3.2.pdf>
-   Schematic diagram <https://resource.heltec.cn/download/WiFi_LoRa_32_V3/WiFi_LoRa_32_V3.2_Schematic_Diagram.pdf>
-   Pin Map <https://resource.heltec.cn/download/WiFi_LoRa_32_V3/Wi-Fi_LoRa32_V3.2_Pinmap.png>
+   Datasheet <https://resource.heltec.cn/download/WiFi_LoRa_32_V4/datasheet/WiFi_LoRa_32_V4.2.0.pdf>
+   Schematic diagram <https://resource.heltec.cn/download/WiFi_LoRa_32_V4/Schematic/WiFi_LoRa_32_V4.1_alpha.pdf>
+   Pin Map <https://heltec.org/wp-content/uploads/2025/09/V4_pinmap-scaled.png>
    Older Version resource <https://resource.heltec.cn/download/WiFi_LoRa_32_V3>
 
 Get Start
