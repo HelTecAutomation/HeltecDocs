@@ -16,22 +16,22 @@ Wi-Fi, BLE, LoRa functions, also Li-Po battery management system, 0.96" OLEDarea
 Version Comparison
 ------------------
 
-======================  ========================  ========================  ============================================================================================
-Feature Item            V3 Version                V4 Version                Changes & Impact
-======================  ========================  ========================  ============================================================================================
-MCU                     ESP32-S3N8                ESP32-S3R2                Optimization: +2M PSRAM
-Flash                   8MB integrated            External 16MB Flash       Optimization: Larger storage, suitable for more complex applications
-Charging Chip           Standard Li-ion battery   Support solar charging    Optimization: Lithium battery management chip with solar input, higher efficiency
-Solar Input Port        /                         New SH1.25-2P port        New: Supports 4.4–6V / 540mA solar input, greatly enhances deployment flexibility
-LoRa TX Power           21±1 dBm                  27±1 dBm                  Major Upgrade: Higher TX power = longer range and stronger penetration capability
-2.4G Antenna            Metal spring antenna      FPC antenna + IPEX port   New/Optimization: Improved design and craftsmanship
-USB-UART Chip           Integrated CP2102         Removed CP2102            Optimization: Use ESP32-S3 built-in USB JTAG/UART, simplifies design, reduces cost
-GPS Port                /                         New SH1.25-8Pin port      New: Easier GPS expansion
-Expansion Pins          36P                       40P                       New: Provides more GPIO
-Screen Connection       Welding                   B2B Connector             Optimization: Screen can be easily detached
-Pins                    Silver plating            Immersion gold            Optimization: Lower resistance, better corrosion protection
-Screen Frame            Partial protection        Full protection           Optimization: Stronger physical protection for screen
-======================  ========================  ========================  ============================================================================================
+======================  ========================  ========================  
+Feature Item            V3 Version                V4 Version                
+======================  ========================  ========================  
+MCU                     ESP32-S3N8                ESP32-S3R2                
+Flash                   8MB integrated            External 16MB Flash       
+Charging Chip           Standard Li-ion battery   Support solar charging    
+Solar Input Port        /                         New SH1.25-2P port        
+LoRa TX Power           21±1 dBm                  28±1 dBm                  
+2.4G Antenna            Metal spring antenna      FPC antenna + IPEX port   
+USB-UART Chip           Integrated CP2102         Removed CP2102            
+GPS Port                /                         New SH1.25-8Pin port      
+Expansion Pins          36P                       40P                       
+Screen Connection       Welding                   B2B Connector             
+Pins                    Silver plating            Immersion gold            
+Screen Frame            Partial protection        Full protection           
+======================  ========================  ========================  
 
 .. note::
    V4 builds upon V3 with multiple functional improvements, but the fundamental operation remains consistent between the two.
