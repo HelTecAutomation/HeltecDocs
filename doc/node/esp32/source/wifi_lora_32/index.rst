@@ -5,7 +5,7 @@ WiFi LoRa 32
 WiFi LoRa 32 is a classic IoT dev-board designed & produced by HeltecAutomation(TM), it's a highly integrated product based on ESP32-S3 + SX1262, it has
 Wi-Fi, BLE, LoRa functions, also Li-Po battery management system, 0.96" OLEDarealso included. It's the best choice for smart cities, smart farms, smart home, and IoT makers.
 
-.. image:: ./img/05.jpg
+.. image:: ./img/6.jpg
    :align: center
    :width: 500px 
 
@@ -72,3 +72,4 @@ Related Links
 Heltec General Docs
 -------------------
 -->[General Docs]<-- <https://docs.heltec.org/general/index.html>
+
