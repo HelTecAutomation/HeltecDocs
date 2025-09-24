@@ -105,7 +105,7 @@ The new [Schematic Diagram](https://resource.heltec.cn/download/WiFi_LoRa_32_V3/
   - Add SH1.25-2P solar energy interface.
 
 - Wireless performance:
-  - LoRa transmission power upgraded from 21 ± 1dBm to 27 ± 1dBm.
+  - LoRa transmission power upgraded from 21 ± 1dBm to 28 ± 1dBm.
   - 2.4G antenna, upgraded from metal spring antenna to FPC antenna.
 
 - Peripheral Interface:
