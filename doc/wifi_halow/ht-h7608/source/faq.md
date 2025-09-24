@@ -25,3 +25,13 @@ To maximize the transmission distance of your device, consider the following str
 2. The communication quality between the AP and STA is best when their antennas are parallel. Typically, positioning both antennas vertically upward ensures optimal performance.
 3. Place the antennas within line of sight (LOS) to minimize obstructions.
 4. Install the AP antenna in a high, unobstructed location (e.g., on a rooftop or pole) to maximize coverage and reduce interference.
+
+## For automatic device reset
+
+In the 2025-08-07 firmware, the HT-H7608 introduced an automatic frequency-hopping mechanism for the HaLow Access Point. However, enabling both Mesh and HaLow Access Point simultaneously may cause the device to reboot. Two solutions are currently available.
+1. Do not enable HaLow Access Point when using Mesh.
+2. If HaLow Access Point needs to be enabled in Mesh mode, it is necessary to disable Dynamic Channel Selection in advance on the configuration page and save the configuration.
+
+![](img/faq/1.png)
+![](img/faq/2.png)
+![](img/faq/3.png)
