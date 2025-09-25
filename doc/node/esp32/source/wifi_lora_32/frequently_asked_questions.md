@@ -8,7 +8,7 @@ This page contains the most frequently questions from user. If this page's detai
 ## Can't Download Firmware
 
 - Use a better USB cable, or change a USB socket;
-- Check and make sure the CP210x drive had been correctly installed, users can refer to this document: [Establish Serial Connection](https://heltec-automation-docs.readthedocs.io/en/latest/general/establish_serial_connection.html);
+- Check and make sure the CP210x drive had been correctly installed, users can refer to this document: [Establish Serial Connection](https://docs.heltec.org/general/establish_serial_connection.html);
 - Press "PRG" button before upload.
 
 &nbsp;

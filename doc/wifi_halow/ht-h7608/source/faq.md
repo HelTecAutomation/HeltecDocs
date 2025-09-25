@@ -29,6 +29,7 @@ To maximize the transmission distance of your device, consider the following str
 ## For automatic device reset
 
 In the 2025-08-07 firmware, the HT-H7608 introduced an automatic frequency-hopping mechanism for the HaLow Access Point. However, enabling both Mesh and HaLow Access Point simultaneously may cause the device to reboot. Two solutions are currently available.
+Once the device has rebooted and started successfully (indicated by the red light turning off), immediately enter Configuration Mode (refer to [this document](https://docs.heltec.org/en/wifi_halow/ht-h7608/index.html#first-enter-configuration-page) for instructions). After entering Configuration Mode, follow the steps below to configure the device:
 1. Do not enable HaLow Access Point when using Mesh.
 2. If HaLow Access Point needs to be enabled in Mesh mode, it is necessary to disable Dynamic Channel Selection in advance on the configuration page and save the configuration.
 
