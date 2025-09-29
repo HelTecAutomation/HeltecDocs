@@ -23,14 +23,14 @@
 
 ## Firmware Version Update 
 
-HT-H7608 Firmware Version 20250605 update:
+HT-H7608 Firmware Version 2.6.6-20250605 update:
 - Press the button to change from purple to red.
 - In AP and MeshGateway modes, the ETH indicator light for network usage is changed to green, and the USB indicator light for network usage is changed to purple.
 
-HT-H7608 Firmware Version 20250807 update:
+HT-H7608 Firmware Version 2.8.5-20250807 update:
 - Added support for enabling the HaLow AP function in HaLow Mesh mode, allowing STA devices to connect to Mesh nodes.
-- Dynamic Channel Selection (DCS) is enabled by default.
+- `Dynamic Channel Selection` is enabled by default.
 
-HT-H7608 Firmware Version 20250924 update:
+HT-H7608 Firmware Version 2.8.5-20250924 update:
 - Fixed a bug where devices kept rebooting after enabling the HaLow AP function in HaLow Mesh mode.
 
