@@ -125,15 +125,19 @@ Via AP Remote Access
 
 --------------------------------
 
+.. toctree::
+   :maxdepth: 2
+   
+   Overview<https://docs.heltec.org/en/wifi_halow/ht-h7608/index.html>
+   Frequently Asked Questions<faq>
+   OTA Firmware Upgrade<ota>
+   Heltec General<https://docs.heltec.org/general/index.html>
+
+
 Resources
 ---------
 You can find most resources related to HT-H7608 at:
 
 `HT-H7608 Resource page <https://resource.heltec.cn/download/HT-H7608>`_
 
--------------------------------------
 
-Frequently asked questions
---------------------------
-
-HT-H7608 FAQ <https://docs.heltec.org/en/wifi_halow/ht-h7608/faq.html>
