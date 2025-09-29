@@ -1,10 +1,10 @@
-# HT-HD01 OTA Upgrade Procedure
+# HT-H7608 OTA Upgrade Procedure
 
 {ht_translation}`[简体中文]:[English]`
 
-[Firmware Download Link](https://resource.heltec.cn/download/HT-HD01/firmware)
+[Firmware Download Link](https://resource.heltec.cn/download/HT-H7608/firmware)
 
-1. Access the Configuration Page. For entry methods, refer to: [Access Configuration Page](https://docs.heltec.org/en/wifi_halow/ht-hd01/quick_started.html#access-configuration-page)
+1. Access the Configuration Page. For entry methods, refer to: [Access Configuration Page](https://docs.heltec.cn/en/wifi_halow/ht-h7608/index.html#get-started)
 
 2. Navigate to Firmware Update. Click: `Advanced Config` → `System` → `Reset/Flash Firmware` → `Flash Image`
 
@@ -23,15 +23,14 @@
 
 ## Firmware Version Update 
 
-HT-HD01 Firmware Version 20250605 update:
-- Add Mesh mode
+HT-H7608 Firmware Version 20250605 update:
 - Press the button to change from purple to red.
 - In AP and MeshGateway modes, the ETH indicator light for network usage is changed to green, and the USB indicator light for network usage is changed to purple.
 
-HT-HD01 V1 Firmware Version 20250807 update:
+HT-H7608 Firmware Version 20250807 update:
 - Added support for enabling the HaLow AP function in HaLow Mesh mode, allowing STA devices to connect to Mesh nodes.
 - Dynamic Channel Selection (DCS) is enabled by default.
 
-HT-HD01 V1 and HT-HD01 V2 Firmware Version 20250924 update:
+HT-H7608 Firmware Version 20250924 update:
 - Fixed a bug where devices kept rebooting after enabling the HaLow AP function in HaLow Mesh mode.
 
