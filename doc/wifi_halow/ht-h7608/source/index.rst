@@ -2,7 +2,7 @@
 
 :ht_translation:`[简体中文]:[Eglish]`
 
-Summry
+Summary
 ------
 HT-H7608 is an innovative WiFi HaLow gateway from Heltec Automation designed to meet the needs of long-distance/high-speed data transmission for IoT applications. The gateway uses WiFi HaLow(IEEE 802.11ah) technology that operates in the sub-1 GHz unlicensed band, which has stronger penetration and larger coverage compared with the traditional WiFi standard.
 
@@ -140,4 +140,5 @@ You can find most resources related to HT-H7608 at:
 
 `HT-H7608 Resource page <https://resource.heltec.cn/download/HT-H7608>`_
 
-
+HT-H7608 FAQ <https://docs.heltec.org/en/wifi_halow/ht-h7608/faq.html>
+=======
