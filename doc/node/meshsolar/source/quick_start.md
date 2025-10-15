@@ -191,18 +191,21 @@ MeshSolar has opened an **MX1.25-8Pin** GNSS interface complete with connecting 
 4. Paste your firmware file into this drive.
 
 ------------------------------------------
+### Meshtastic 
+1. Users can download the [official Meshtastic firmware](https://github.com/meshtastic/firmware/releases/tag/v2.6.11.60ec05e) from GitHub, select the nrf52840 package and extract it, then choose the meshsolar version inside the package for installation.
+2. After downloading the firmware, connect it to the Meshtastic App. For detailed instructions, please refer to the [official documentation](https://meshtastic.org/docs/introduction/).
+3. After successfully connecting to the Meshtastic App, go to the settings and adjust the serial port configuration.
+- Click on the `serial port` in the settings
 
-### Temporary Instructions Before Meshtastic Official Merge**
-***We have prepared a temporary firmware (based on V2.7.4) that you can use for now. Regarding the official Meshtastic release, we have submitted our merge request. They will review and accept our changes, but due to the complex circuit design of this board, the process may take some time.***
+![](img/quick_start/21.png)
 
-#### Temporary Solution
-[Firmware Download Link](https://resource.heltec.cn/download/MeshSolar/firmware)<br>
-Before Meshtastic officially merges our code, if you need to adjust BMS-related settings, you must:
-- Flash the dedicated BMS firmware, If the power was interrupted during this period, remember to reactivate it.
-- Configure the settings via the web interface.
-- Reflash the Meshtastic firmware afterward.
-#### Final Implementation
-Once Meshtastic officially integrates our changes, you will be able to configure BMS settings directly through the Meshtastic firmware.
+- Save after enabling serial port
+
+![](img/quick_start/22.png)
+
+- Then select `MS_CONFIG` under the serial port mode and save the settings.
+
+![](img/quick_start/23.png)
 
 ----------------------------------
 

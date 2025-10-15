@@ -22,6 +22,49 @@ Feature
 - Firequency range: 902~928 MHz.
 - Seamlessly connected to traditional networks.
 
+--------------------------------------------------
+
+HT-HD01 LED Status Description
+================================
+
+The following table describes the LED behavior of the HT-HD01 device during various operating states.
+
++-----------------------------------------------+-----------------------------------------------------------+
+| **LED Color & Behavior**                      | **Description**                                           |
++===============================================+===========================================================+
+| 🔴 Red light blinking                         | Device is booting up                                     |
++-----------------------------------------------+-----------------------------------------------------------+
+| 🔴 Red light steady on                        | Button pressed                                           |
++-----------------------------------------------+-----------------------------------------------------------+
+| 🟡 Yellow light steady on (after 3s press)    | Enters configuration mode                                |
++-----------------------------------------------+-----------------------------------------------------------+
+| ⚪ White light steady on (after 7s press)     | Restores factory settings                                |
++-----------------------------------------------+-----------------------------------------------------------+
+| 🟢 Green & 🟡 Yellow lights alternate blink    | Configuration mode (via Wi-Fi & Ethernet)                |
++-----------------------------------------------+-----------------------------------------------------------+
+| 🔵 Blue & 🟡 Yellow lights alternate blink     | Configuration mode (via Wi-Fi & USB)                     |
++-----------------------------------------------+-----------------------------------------------------------+
+| 🟢 Green light blinking                       | STA mode using Ethernet — HaLow not connected            |
++-----------------------------------------------+-----------------------------------------------------------+
+| 🟢 Green light steady on                      | STA mode using Ethernet — HaLow connected                |
++-----------------------------------------------+-----------------------------------------------------------+
+| 🔵 Blue light blinking                        | STA mode using USB — HaLow not connected                 |
++-----------------------------------------------+-----------------------------------------------------------+
+| 🔵 Blue light steady on                       | STA mode using USB — HaLow connected                     |
++-----------------------------------------------+-----------------------------------------------------------+
+| 🟦 Cyan light blinking                        | AP mode using Ethernet — network input not connected     |
++-----------------------------------------------+-----------------------------------------------------------+
+| 🟦 Cyan light steady on                       | AP mode using Ethernet — network input connected         |
++-----------------------------------------------+-----------------------------------------------------------+
+| 🟣 Purple light blinking                      | AP mode using USB — network input not connected          |
++-----------------------------------------------+-----------------------------------------------------------+
+| 🟣 Purple light steady on                     | AP mode using USB — network input connected              |
++-----------------------------------------------+-----------------------------------------------------------+
+
+--------------------------------------------------
+
+
+
 Components
 ----------
 
