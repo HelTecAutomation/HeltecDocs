@@ -32,33 +32,33 @@ The following table describes the LED behavior of the HT-HD01 device during vari
 +-----------------------------------------------+-----------------------------------------------------------+
 | **LED Color & Behavior**                      | **Description**                                           |
 +===============================================+===========================================================+
-| 🔴 Red light blinking                         | Device is booting up                                     |
+|  Red light blinking                         | Device is booting up                                     |
 +-----------------------------------------------+-----------------------------------------------------------+
-| 🔴 Red light steady on                        | Button pressed                                           |
+|  Red light steady on                        | Button pressed                                           |
 +-----------------------------------------------+-----------------------------------------------------------+
-| 🟡 Yellow light steady on (after 3s press)    | Enters configuration mode                                |
+|  Yellow light steady on (after 3s press)    | Enters configuration mode                                |
 +-----------------------------------------------+-----------------------------------------------------------+
-| ⚪ White light steady on (after 7s press)     | Restores factory settings                                |
+|  White light steady on (after 7s press)     | Restores factory settings                                |
 +-----------------------------------------------+-----------------------------------------------------------+
-| 🟢 Green & 🟡 Yellow lights alternate blink    | Configuration mode (via Wi-Fi & Ethernet)                |
+|  Green & Yellow lights alternate blink    | Configuration mode (via Wi-Fi & Ethernet)                |
 +-----------------------------------------------+-----------------------------------------------------------+
-| 🔵 Blue & 🟡 Yellow lights alternate blink     | Configuration mode (via Wi-Fi & USB)                     |
+|  Blue & Yellow lights alternate blink     | Configuration mode (via Wi-Fi & USB)                     |
 +-----------------------------------------------+-----------------------------------------------------------+
-| 🟢 Green light blinking                       | STA mode using Ethernet — HaLow not connected            |
+|  Green light blinking                       | STA mode using Ethernet — HaLow not connected            |
 +-----------------------------------------------+-----------------------------------------------------------+
-| 🟢 Green light steady on                      | STA mode using Ethernet — HaLow connected                |
+|  Green light steady on                      | STA mode using Ethernet — HaLow connected                |
 +-----------------------------------------------+-----------------------------------------------------------+
-| 🔵 Blue light blinking                        | STA mode using USB — HaLow not connected                 |
+|  Blue light blinking                        | STA mode using USB — HaLow not connected                 |
 +-----------------------------------------------+-----------------------------------------------------------+
-| 🔵 Blue light steady on                       | STA mode using USB — HaLow connected                     |
+|  Blue light steady on                       | STA mode using USB — HaLow connected                     |
 +-----------------------------------------------+-----------------------------------------------------------+
-| 🟦 Cyan light blinking                        | AP mode using Ethernet — network input not connected     |
+|  Cyan light blinking                        | AP mode using Ethernet — network input not connected     |
 +-----------------------------------------------+-----------------------------------------------------------+
-| 🟦 Cyan light steady on                       | AP mode using Ethernet — network input connected         |
+|  Cyan light steady on                       | AP mode using Ethernet — network input connected         |
 +-----------------------------------------------+-----------------------------------------------------------+
-| 🟣 Purple light blinking                      | AP mode using USB — network input not connected          |
+|  Purple light blinking                      | AP mode using USB — network input not connected          |
 +-----------------------------------------------+-----------------------------------------------------------+
-| 🟣 Purple light steady on                     | AP mode using USB — network input connected              |
+|  Purple light steady on                     | AP mode using USB — network input connected              |
 +-----------------------------------------------+-----------------------------------------------------------+
 
 --------------------------------------------------
