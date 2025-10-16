@@ -8,26 +8,6 @@ Plug the AP-side device into your network source (e.g., a router).The STA-side d
 
 ![](img/04.jpg)
 
-## HD01 LED Status Description
-
-| **LED Color & Behavior**                  | **Description**                                           |
-|-------------------------------------------|-----------------------------------------------------------|
-| 🔴 Red light blinking                     | Device is booting up                                     |
-| 🔴 Red light steady on                    | Button pressed                                           |
-| 🟡 Yellow light steady on (after 3s press)| Enters configuration mode                                |
-| ⚪ White light steady on (after 7s press) | Restores factory settings                                |
-| 🟢 Green & 🟡 Yellow alternate blinking    | Configuration mode (via Wi-Fi & Ethernet)                |
-| 🔵 Blue & 🟡 Yellow alternate blinking     | Configuration mode (via Wi-Fi & USB)                     |
-| 🟢 Green light blinking                   | STA mode via Ethernet — HaLow not connected              |
-| 🟢 Green light steady on                  | STA mode via Ethernet — HaLow connected                  |
-| 🔵 Blue light blinking                    | STA mode via USB — HaLow not connected                   |
-| 🔵 Blue light steady on                   | STA mode via USB — HaLow connected                       |
-| 🟦 Cyan light blinking                    | AP mode via Ethernet — network input not connected       |
-| 🟦 Cyan light steady on                   | AP mode via Ethernet — network input connected           |
-| 🟣 Purple light blinking                  | AP mode via USB — network input not connected            |
-| 🟣 Purple light steady on                 | AP mode via USB — network input connected                |
-
-
 
 ## How to Distinguish Between AP Mode and STA Mode
 - Via Sticker, you can distinguish between the AP or STA side using stickers. 
