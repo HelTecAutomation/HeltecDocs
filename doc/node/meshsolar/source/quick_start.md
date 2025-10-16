@@ -97,7 +97,7 @@ After successful activation, **Do Not Remove the Batteries**, or the BMS chip re
 1. Ensure the following:
 - The main control module is properly connected
 - The battery soldering points and switch configuration are correct
-- The BMS function has been activated
+- The BMS function has been activated. If you are using Meshtastic firmware, the serial function may not be enabled. You can refer to the [Meshtastic Serial](meshtastic-serial) guide to enable the serial function.
 
 2. Connect devices and PC via USB-C cable, open the [**Configuration Page**](https://flash.nmiot.net:3333) in your browser, click the `Connect` to choose the port.
 
@@ -191,19 +191,23 @@ MeshSolar has opened an **MX1.25-8Pin** GNSS interface complete with connecting 
 4. Paste your firmware file into this drive.
 
 ------------------------------------------
-### Meshtastic 
-1. Users can download the [official Meshtastic firmware](https://github.com/meshtastic/firmware/releases/tag/v2.6.11.60ec05e) from GitHub, select the nrf52840 package and extract it, then choose the meshsolar version inside the package for installation.
+
+(meshtastic-serial)=
+
+### Meshtastic Serial
+Enabling the Meshtastic serial function allows you to modify relevant parameters directly in the BMS tool while running Meshtastic firmware, without needing to reinstall dedicated BMS firmware.
+1. Users can download the [official Meshtastic firmware](https://github.com/meshtastic/firmware/releases) from GitHub, select the nrf52840 package and extract it, then choose the Meshsolar version inside the package for installation.
 2. After downloading the firmware, connect it to the Meshtastic App. For detailed instructions, please refer to the [official documentation](https://meshtastic.org/docs/introduction/).
 3. After successfully connecting to the Meshtastic App, go to the settings and adjust the serial port configuration.
 - Click on the `serial port` in the settings
 
 ![](img/quick_start/21.png)
 
-- Save after enabling serial port
+- Select `Enable`
 
 ![](img/quick_start/22.png)
 
-- Then select `MS_CONFIG` under the serial port mode and save the settings.
+- Click the mode, then select `MS_CONFIG` under the serial port mode and save the settings. If you don't see this option, please update your app.
 
 ![](img/quick_start/23.png)
 
