@@ -52,7 +52,7 @@ HD01 LED Indicator Description
 +-----------------------------+------------------------------------------------------------+
 | Cyan (blinking)             | AP mode using Ethernet, network input not connected        |
 +-----------------------------+------------------------------------------------------------+
-| Cyan (steady on)            | AP mode using Ethernet, network input connected successfully|
+| Cyan (steady on)            | AP (Ethernet) — Network connected                          |
 +-----------------------------+------------------------------------------------------------+
 | Purple (blinking)           | AP mode using USB, network input not connected             |
 +-----------------------------+------------------------------------------------------------+
