@@ -65,6 +65,8 @@ Enabling the Meshtastic serial function allows you to modify relevant parameters
 
 ![](img/quick_start/23.png)
 
+``` {note} It is recommended not to modify the configuration arbitrarily.
+```
 
 --------------------------------------
 
