@@ -48,6 +48,24 @@ At this point, the computer will pop up a USB drive named HT-n5262. Copy your fi
 
 ![](img/quick_start/11.jpg)
 
+### Meshtastic Serial
+Enabling the Meshtastic serial function allows you to modify relevant parameters directly in the BMS tool while running Meshtastic firmware, without needing to reinstall dedicated BMS firmware.
+1. Users can download the [official Meshtastic firmware](https://github.com/meshtastic/firmware/releases) from GitHub, select the nrf52840 package and extract it, then choose the Meshsolar version inside the package for installation.
+2. After downloading the firmware, connect it to the Meshtastic App. For detailed instructions, please refer to the [official documentation](https://meshtastic.org/docs/introduction/).
+3. After successfully connecting to the Meshtastic App, go to the settings and adjust the serial port configuration.
+- Click on the `serial port` in the settings
+
+![](img/quick_start/21.png)
+
+- Select `Enable`
+
+![](img/quick_start/22.png)
+
+- Click the mode, then select `MS_CONFIG` under the serial port mode and save the settings. If you don't see this option, please update your app.
+
+![](img/quick_start/23.png)
+
+
 --------------------------------------
 
 (hardware)=
