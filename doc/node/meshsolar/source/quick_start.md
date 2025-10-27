@@ -16,8 +16,8 @@ MeshSolar is available in two hardware versions, designed for Li-ion and LiFePO4
 | Module          | Frequency     | Battery   |
 |-----------------|---------------|-----------|
 | HT-n5262S-I-LF  | 470~510MHz    | Li-ion    |
-| HT-n5262S-F-LF  | 470~510MHz    | Li-ion    |
-| HT-n5262S-I-HF  | 863~928MHz    | LiFePO₄   |
+| HT-n5262S-F-LF  | 470~510MHz    | LiFePO₄   |
+| HT-n5262S-I-HF  | 863~928MHz    | Li-ion    |
 | HT-n5262S-F-HF  | 863~928MHz    | LiFePO₄   |
 
 ``` {tip} If you purchase this [battery holder from Heltec](https://heltec.org/project/18650-battery-box/), you'll need to buy flat-top batteries; otherwise, installation will be difficult.
