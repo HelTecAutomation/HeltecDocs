@@ -1,4 +1,7 @@
 (function () {
+
+    document.write('<div style="color: red; font-weight: bold; padding: 8px 0; font-size: 15px;">This page is no longer updated. Please refer to the [new documentation page](https://wiki.heltec.org/)</div>');
+
 var P = [
     { text: "LoRa Gateway", value: "gateway"},
     { text: "Nodes", value: "node"},
