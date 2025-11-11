@@ -1,25 +1,33 @@
 {% extends '!layout.html' %}
 {% block sidebartitle %}
           
-	  {%- if logo and theme_logo_only %}
-            <a href="/">
-          {%- else %}
-            <a href="/" class="icon icon-home">
-          {%- endif %}
-		 Heltec Product Documention
-            <img src="/_static/log.png" class="logo" alt="Logo">
-          </a>
+  {%- if logo and theme_logo_only %}
+        <a href="/">
+  {%- else %}
+        <a href="/" class="icon icon-home">
+  {%- endif %}
+     Heltec Product Documention
+        <img src="/_static/log.png" class="logo" alt="Logo">
+      </a>
 
-            <div class="selectors">
-              <select id="type-select" style="width: 150px;" hidden>
-                <option value="none" disabled selected>Choose Type...</option>
-              </select>
-            </div>
-            <div class="selectors">
-              <select id="product-select" style="width: 150px;" hidden>
-                <option value="none">Choose Product...</option>
-              </select>
-            </div>
+        <div class="selectors">
+          <select id="type-select" style="width: 150px;" hidden>
+            <option value="none" disabled selected>Choose Type...</option>
+          </select>
+        </div>
+        <div class="selectors">
+          <select id="product-select" style="width: 150px;" hidden>
+            <option value="none">Choose Product...</option>
+          </select>
+        </div>
 
-          {%- include "searchbox.html" %}
+        
+        <div style="margin-top: 10px;">
+          <h2 style="color: red; font-size: 1.2em;">
+            This document is no longer updated. See the 
+            <a href="https://wiki.heltec.org/" target="_blank">wiki.heltec.org</a>.
+          </h2>
+        </div>
+
+  {%- include "searchbox.html" %}
 {% endblock %}
