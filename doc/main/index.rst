@@ -5,8 +5,10 @@ Heltec Products Operation Documention
 .. raw:: html
 
    <h2 style="color: red;">
-       This document is no longer updated. See the <a href="https://wiki.heltec.org/">new page</a>
+    This document is no longer updated. See the 
+    <a href="https://wiki.heltec.org/" style="color: black;">new page</a>
    </h2>
+
 
 Heltec Automation is an IoT device/solution provider mainly in LoRa/LoRaWAN field. This documentation page is trying to make sense to you about how to use our products. This is a document in the nature of operation guide. If you want to get more information about product parameters, please refer to the product manual or `Heltec Automation website <https://heltec.org>`_.
 
